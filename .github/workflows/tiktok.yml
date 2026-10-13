@@ -1,0 +1,81 @@
+name: Twitch zu TikTok (Gratis)
+
+on:
+  push:
+    paths: ['.github/workflows/tiktok.yml']
+  workflow_dispatch:
+    inputs:
+      clip:
+        description: 'Twitch Clip Link'
+        required: true
+        type: string
+        default: 'https://www.twitch.tv/bastighg/clip/GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe'
+      hook:
+        description: 'Headline im Video'
+        required: true
+        type: string
+        default: 'DIESE SPINNE ...'
+      caption:
+        description: 'TikTok Beschreibung'
+        type: string
+        default: 'BastiGHG und die Spinne 😂 #bastighg #minecraft #twitchde'
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: yt-dlp installieren
+        run: python -m pip install -U yt-dlp
+      - name: Clip herunterladen und aufbereiten
+        shell: bash
+        env:
+          CLIP_URL: ${{ inputs.clip || 'https://www.twitch.tv/bastighg/clip/GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe' }}
+          HEADLINE: ${{ inputs.hook || 'DIESE SPINNE ...' }}
+          CAPTION: ${{ inputs.caption || 'BastiGHG und die Spinne #bastighg #minecraft #twitchde' }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os
+          from urllib.parse import urlsplit
+          u=urlsplit(os.environ['CLIP_URL'])
+          assert u.scheme == 'https' and u.hostname in {'www.twitch.tv', 'twitch.tv', 'clips.twitch.tv'}, 'Only Twitch links'
+          PY
+          yt-dlp --no-playlist --retries 3 --merge-output-format mp4 -o 'source.%(ext)s' "$CLIP_URL"
+          SRC="$(find . -maxdepth 1 -type f \( -name 'source.mp4' -o -name 'source.mkv' -o -name 'source.webm' \) | head -1)"
+          test -n "$SRC"
+          printf '%.35s\n' "$HEADLINE" > headline.txt
+          printf '%s\n' "$CAPTION" > beschreibung.txt
+          ffmpeg -y -hide_banner -loglevel error -i "$SRC" \
+            -filter_complex '[0:v]split=2[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=20[bg];[b]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile=headline.txt:fontsize=56:fontcolor=white:bordercolor=black:borderw=3:box=1:boxcolor=black@0.6:boxborderw=15:x=(w-text_w)/2:y=280,format=yuv420p[v]' \
+            -map '[v]' -map '0:a:0?' -c:v libx264 -preset veryfast -crf 22 -r 30 \
+            -c:a aac -b:a 160k -movflags +faststart -t 120 tiktok.mp4
+          test "$(stat -c%s tiktok.mp4)" -gt 50000
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 tiktok.mp4 | grep -qx '1080x1920'
+          echo 'Erfolgreich: tiktok.mp4' >> "$GITHUB_STEP_SUMMARY"
+      - name: Direktdownload ohne ZIP
+        uses: actions/upload-artifact@v7
+        with:
+          path: tiktok.mp4
+          archive: false
+          retention-days: 7
+      - name: Clip-URL fuer Metricool oeffentlich bereitstellen
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(stat -c%s tiktok.mp4)" -lt 90000000
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          mkdir -p public-clips
+          cp tiktok.mp4 public-clips/aktuell.mp4
+          cp beschreibung.txt public-clips/beschreibung.txt
+          git add public-clips
+          git diff --cached --quiet || { git commit -m 'Erstellten Twitch-Clip bereitstellen'; git push; }
+          echo 'MP4 fuer Metricool: https://raw.githubusercontent.com/${{ github.repository }}/main/public-clips/aktuell.mp4' >> "$GITHUB_STEP_SUMMARY"

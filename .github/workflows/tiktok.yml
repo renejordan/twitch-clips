@@ -1,86 +1,430 @@
-name: Twitch zu TikTok (Gratis)
+name: Twitch Auto20 - ohne Twitch-API
 
 on:
   push:
     paths: ['.github/workflows/tiktok.yml']
   workflow_dispatch:
-    inputs:
-      clip:
-        description: 'Twitch Clip Link'
-        required: true
-        type: string
-        default: 'https://www.twitch.tv/bastighg/clip/GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe'
-      hook:
-        description: 'Headline im Video'
-        required: true
-        type: string
-        default: 'DIESE SPINNE ...'
-      caption:
-        description: 'TikTok Beschreibung'
-        type: string
-        default: 'BastiGHG und die Spinne 😂 #bastighg #minecraft #twitchde'
+  schedule:
+    # Jede Stunde pruefen, spaetestens 20 Kandidaten pro Monat erstellen.
+    - cron: '19 * * * *'
 
 permissions:
   contents: write
 
+concurrency:
+  group: auto20-noapi-main
+  cancel-in-progress: false
+
 jobs:
-  render:
+  auto20:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Dateien laden
+        uses: actions/checkout@v4
         with:
-          python-version: '3.12'
-      - name: yt-dlp installieren
-        run: python -m pip install -U yt-dlp
-      - name: FFmpeg installieren
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y ffmpeg fonts-dejavu-core
-          ffmpeg -version | head -n 1
-      - name: Clip herunterladen und aufbereiten
+          ref: main
+          persist-credentials: true
+      - name: Rechte und Monatsslots pruefen
+        id: gate
         shell: bash
         env:
-          CLIP_URL: ${{ inputs.clip || 'https://www.twitch.tv/bastighg/clip/GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe' }}
-          HEADLINE: ${{ inputs.hook || 'DIESE SPINNE ...' }}
-          CAPTION: "${{ inputs.caption || 'BastiGHG und die Spinne #bastighg #minecraft #twitchde' }}"
+          APPROVED_STREAMERS: ${{ vars.APPROVED_STREAMERS }}
         run: |
-          set -euo pipefail
-          python - <<'PY'
-          import os
-          from urllib.parse import urlsplit
-          u=urlsplit(os.environ['CLIP_URL'])
-          assert u.scheme == 'https' and u.hostname in {'www.twitch.tv', 'twitch.tv', 'clips.twitch.tv'}, 'Only Twitch links'
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import datetime as dt, calendar, math, json, os
+          from pathlib import Path
+          now=dt.datetime.now(dt.timezone.utc)
+          n=calendar.monthrange(now.year,now.month)[1]
+          slot=math.floor(20*now.day/n)>math.floor(20*(now.day-1)/n)
+          # Do not process at night Berlin; 13:00-21:00 UTC is fine in both seasons.
+          clock=13<=now.hour<=21
+          approved=bool(os.environ.get('APPROVED_STREAMERS','').strip())
+          state=Path('state/auto20.json')
+          rows=json.loads(state.read_text()).get('created',[]) if state.exists() else []
+          already=any(x.get('created_at','')[:10]==now.strftime('%Y-%m-%d') for x in rows)
+          monthly=sum(1 for x in rows if x.get('created_at','')[:7]==now.strftime('%Y-%m'))
+          ok=slot and clock and approved and not already and monthly<20
+          print('run='+str(ok).lower())
           PY
-          yt-dlp --no-playlist --retries 3 --merge-output-format mp4 -o 'source.%(ext)s' "$CLIP_URL"
-          SRC="$(find . -maxdepth 1 -type f \( -name 'source.mp4' -o -name 'source.mkv' -o -name 'source.webm' \) | head -1)"
-          test -n "$SRC"
-          printf '%.35s\n' "$HEADLINE" > headline.txt
-          printf '%s\n' "$CAPTION" > beschreibung.txt
-          ffmpeg -y -hide_banner -loglevel error -i "$SRC" \
-            -filter_complex '[0:v]split=2[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=20[bg];[b]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile=headline.txt:fontsize=56:fontcolor=white:bordercolor=black:borderw=3:box=1:boxcolor=black@0.6:boxborderw=15:x=(w-text_w)/2:y=280,format=yuv420p[v]' \
-            -map '[v]' -map '0:a:0?' -c:v libx264 -preset veryfast -crf 22 -r 30 \
-            -c:a aac -b:a 160k -movflags +faststart -t 120 tiktok.mp4
-          test "$(stat -c%s tiktok.mp4)" -gt 50000
-          ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 tiktok.mp4 | grep -qx '1080x1920'
-          echo 'Erfolgreich: tiktok.mp4' >> "$GITHUB_STEP_SUMMARY"
-      - name: Direktdownload ohne ZIP
-        uses: actions/upload-artifact@v7
+      - name: Python installieren
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/setup-python@v5
         with:
-          path: tiktok.mp4
-          archive: false
-          retention-days: 7
-      - name: Clip-URL fuer Metricool oeffentlich bereitstellen
+          python-version: '3.12'
+      - name: FFmpeg und yt-dlp installieren
+        if: steps.gate.outputs.run == 'true'
         shell: bash
         run: |
+          python -m pip install --quiet --upgrade yt-dlp faster-whisper
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - name: Besten berechtigten Clip finden und schneiden
+        if: steps.gate.outputs.run == 'true'
+        shell: bash
+        env:
+          APPROVED_STREAMERS: ${{ vars.APPROVED_STREAMERS }}
+          GH_TOKEN: ${{ github.token }}
+          MIN_VIEWS: '800'
+        run: |
           set -euo pipefail
-          test "$(stat -c%s tiktok.mp4)" -lt 90000000
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          mkdir -p public-clips
-          cp tiktok.mp4 public-clips/aktuell.mp4
-          cp beschreibung.txt public-clips/beschreibung.txt
-          git add public-clips
-          git diff --cached --quiet || { git commit -m 'Erstellten Twitch-Clip bereitstellen'; git push; }
-          echo 'MP4 fuer Metricool: https://raw.githubusercontent.com/${{ github.repository }}/main/public-clips/aktuell.mp4' >> "$GITHUB_STEP_SUMMARY"
+          cat > pipeline.py <<'PY'
+          #!/usr/bin/env python3
+          """Rights-gated public Twitch clip playlist selection via yt-dlp -> FFmpeg 9:16 -> GitHub release queue.
+          No Twitch API developer credentials needed. Explicit APPROVED_STREAMERS reuse rights required.
+          Do not use for creators without permission to redistribute and monetize their clips.
+          """
+          import datetime as dt
+          import json
+          import math
+          import os
+          import re
+          import subprocess
+          import sys
+          import time
+          import unicodedata
+          from pathlib import Path
+
+          UTC=dt.timezone.utc
+          ROOT=Path.cwd()
+          STATE=ROOT/'state'/'auto20.json'
+          OUT=ROOT/'rendered'
+          # Curated German high-profile streamer watchlist (snapshot, NOT guaranteed current TwitchTracker top 50).
+          STREAMERS='''eliasn97 zarbex papaplatte trymacs canerkrd krokoboss xrohat montanablack88 gamerbrother kubafps bonjwa xthesolutiontv handofblood noway4u_sir metashi12 gronkhtv gronkh tolkin gtasty orangemorange schradin dhalucard shlorox mertabimula rumathra elotrix bastighg maxim dracon staiy spontent marli onlyjson naguura phunkroyal niklaswilson pietsmiet scurrows h0llylp rezo letshugotv edopeh amar sterzik repaz gtimetv mckytv rezonfn fregepaul coachlim'''.split()
+          RANK={n:i+1 for i,n in enumerate(STREAMERS)}
+          BAD_TITLES={'clip','untitled','highlight','test','gg','nice','lol','das'}
+          TITLE_TOKENS={'lach','lustig','witz','wtf','krass','peinlich','wild','rage','fail','überrasch','schock','brüll','schrei','unerwart','was','nein','panne','moment','verrückt','reaction','ausrast','rip','hahaha','haha','komplett','unfassbar','legendär'}
+          def cmd(args, check=True, **kwargs):
+              return subprocess.run(args,check=check,text=True,**kwargs)
+
+          def utcnow():
+              return dt.datetime.now(UTC)
+
+          def iso(t):
+              return t.astimezone(UTC).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+          def load_state():
+              if not STATE.exists():
+                  return {'version':1,'created':[],'processed_ids':[]}
+              s=json.loads(STATE.read_text(encoding='utf-8'))
+              s.setdefault('created',[])
+              s.setdefault('processed_ids',[])
+              return s
+
+          def save_state(state):
+              STATE.parent.mkdir(parents=True,exist_ok=True)
+              STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          def safe_name(s,max_len=65):
+              s=unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode('ascii').lower()
+              return re.sub('-+','-',re.sub('[^a-z0-9]+','-',s)).strip('-')[:max_len] or 'clip'
+
+          def is_twitch_clip(url):
+              from urllib.parse import urlparse
+              try:
+                  u=urlparse(url)
+                  if u.scheme!='https':return False
+                  if u.hostname=='clips.twitch.tv':return bool(u.path.strip('/'))
+                  if u.hostname in {'twitch.tv','www.twitch.tv','m.twitch.tv'}:
+                      return bool(re.fullmatch(r'/[^/]+/clip/[^/]+/?',u.path))
+              except Exception:return False
+              return False
+
+          def collect(names,now,per_channel=14):
+              """Discover public Twitch channel clip playlists through yt-dlp; no Twitch credentials.
+
+              Metadata comes from Twitch's public clip cards as extracted by yt-dlp.
+              No HTML scraping of TwitchTracker and no guessed metrics.
+              """
+              all_clips=[]
+              for channel in names:
+                  url=f'https://www.twitch.tv/{channel}/clips?filter=clips&range=7d'
+                  try:
+                      result=cmd(['yt-dlp','--flat-playlist','--playlist-end',str(per_channel),
+                                  '--no-warnings','--dump-single-json',url],capture_output=True)
+                      playlist=json.loads(result.stdout)
+                      entries=playlist.get('entries') or []
+                      for entry in entries:
+                          if not isinstance(entry,dict):continue
+                          clip_url=entry.get('url') or ''
+                          if not isinstance(clip_url,str) or not clip_url.startswith('https://'):continue
+                          if not is_twitch_clip(clip_url):
+                              continue
+                          # The playlist includes direct clip URL, duration, timestamp and view_count.
+                          # Reject unknown values rather than making them up.
+                          ts=entry.get('timestamp')
+                          if not isinstance(ts,(int,float)):continue
+                          created=dt.datetime.fromtimestamp(ts,tz=UTC)
+                          if (now-created).total_seconds()>7*86400 or created>now:continue
+                          cid=entry.get('id') or clip_url.rstrip('/').split('/')[-1]
+                          all_clips.append({'id':str(cid),'url':clip_url,'title':entry.get('title') or '',
+                                            'created_at':iso(created),'timestamp':ts,
+                                            'duration':entry.get('duration'),'view_count':entry.get('view_count'),
+                                            'channel_login':channel,'rank':RANK.get(channel,50)})
+                  except Exception as exc:
+                      print(f'WARN listing {channel}: {str(exc)[:180]}',file=sys.stderr)
+              return all_clips
+
+          def score(c,now):
+              # Never manufacture actual popularity; yt-dlp supplies Twitch clip card view_count.
+              views=int(c.get('view_count') or 0)
+              age=max(1,(now-dt.datetime.fromisoformat(c['created_at'].replace('Z','+00:00'))).total_seconds()/3600)
+              title=(c.get('title') or '').lower()
+              duration=float(c.get('duration') or 0)
+              speed=views/max(3,age)
+              bonus=sum(1 for v in TITLE_TOKENS if v in title)
+              ideal=(1-abs(duration-27)/40)
+              return (2.5*math.log1p(views)+2.5*math.log1p(speed)+0.025*(51-c['rank'])+min(3,bonus)*0.7+ideal)
+
+          def choose(clips,state,approved,now,min_views=800):
+              used=set(state.get('processed_ids',[])) | {'GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe'}
+              seen=set()
+              candidates=[]
+              for c in clips:
+                  cid=c.get('id')
+                  duration=float(c.get('duration') or 0)
+                  views=int(c.get('view_count') or 0)
+                  title=str(c.get('title') or '').strip()
+                  if cid in seen or cid in used or not cid:continue
+                  seen.add(cid)
+                  if c.get('channel_login') not in approved:continue
+                  if not(15<=duration<=60):continue
+                  if views<min_views:continue
+                  if len(title)<4 or title.lower() in BAD_TITLES:continue
+                  if not is_twitch_clip(c.get('url','')):continue
+                  candidates.append((score(c,now),c))
+              candidates.sort(key=lambda x:x[0],reverse=True)
+              return [x[1] for x in candidates]
+
+          def month_slots(now):
+              # Distribute 20 slots across month: one slot on 20 distinct days.
+              import calendar
+              d=now.day
+              total=calendar.monthrange(now.year,now.month)[1]
+              return math.floor(20*d/total)>math.floor(20*(d-1)/total)
+
+          def can_prepare(state,now):
+              if not month_slots(now):return False,'Today is not one of the 20 monthly slots'
+              created=state.get('created',[])
+              monthly=[x for x in created if x.get('created_at','')[:7]==now.strftime('%Y-%m')]
+              if len(monthly)>=20:return False,'20 video files already prepared this month'
+              if any(x.get('created_at','')[:10]==now.strftime('%Y-%m-%d') for x in monthly):
+                  return False,'One clip already prepared for today'
+              return True,''
+
+          def generate_hook(c):
+              # Hook is derived from the actual Twitch title; no invented dialogue.
+              t=re.sub(r'[\r\n\x00-\x1f]+',' ',c.get('title','')).strip(' -!?')
+              t=re.sub(r'[#@][\w]+','',t).strip()
+              t=t[:45].rstrip(' -,:')
+              if len(t)<8:t='DIESER MOMENT 😂'
+              return t.upper()+' 😂' if '😂' not in t else t.upper()
+
+          def build_caption(c,game=''):
+              streamer=c['channel_login']
+              tag=safe_name(streamer,25).replace('-','')
+              g=''
+              for known in ('Minecraft','Fortnite','Grand Theft Auto','Just Chatting','League of Legends','Valorant'):
+                  if known.lower() in game.lower():g=('#'+safe_name(known).replace('-','')) ;break
+              title=re.sub(r'\s+',' ',c.get('title','')).strip()[:90]
+              # Include original clip ID in the source link to enable exact duplicate checks in Metricool.
+              return f'{title} 😂\nClip von @{streamer}\nQuelle: {c["url"]}\n#{tag} #twitchde {g or "#streamclip"}'[:600]
+
+          def ffprobe_duration(path):
+              x=cmd(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(path)],capture_output=True)
+              return float(x.stdout.strip())
+
+          def download_clip(c):
+              OUT.mkdir(exist_ok=True)
+              for f in OUT.glob('source.*'): f.unlink()
+              cmd(['yt-dlp','--no-playlist','--retries','3','--merge-output-format','mp4','-o',str(OUT/'source.%(ext)s'),c['url']])
+              found=[p for p in OUT.glob('source.*') if p.suffix.lower() in ('.mp4','.webm','.mkv')]
+              if not found:raise RuntimeError('yt-dlp returned no media')
+              return found[0]
+
+          def transcribe(source):
+              try:
+                  from faster_whisper import WhisperModel
+                  model=WhisperModel('tiny',device='cpu',compute_type='int8',cpu_threads=4)
+                  segments,_=model.transcribe(str(source),language='de',beam_size=1,word_timestamps=True,condition_on_previous_text=False,vad_filter=False)
+                  items=[]
+                  for seg in segments:
+                      for word in (seg.words or []):
+                          clean=' '.join(word.word.strip().split())
+                          if clean:
+                              items.append((float(word.start),float(word.end),clean))
+                  return items
+              except Exception as exc:
+                  print('WARNING optional speech recognition unavailable:',str(exc)[:200],file=sys.stderr)
+                  return []
+
+          def pick_window(duration,words):
+              if duration<=45:
+                  if not words:return 0.0,duration
+                  a=max(0.0,min(words[0][0]-0.6,3.0))
+                  b=min(duration,max(words[-1][1]+1.0,duration-3.0))
+                  if b-a>=12:return round(a,2),round(b-a,2)
+                  return 0.0,duration
+              # Select the speech-densest continuous moment; avoids blind cut at second 0.
+              length=42.0
+              best_start=0.0
+              best_score=-1
+              for k in range(0,int(max(1,duration-length))+1):
+                  x=float(k)
+                  weight=sum(1.0 if x<=((a+b)/2)<x+length else 0.0 for a,b,_ in words)
+                  if weight>best_score:best_start=x;best_score=weight
+              return best_start,min(length,duration-best_start)
+
+          def ass_time(seconds):
+              cs=int(max(0,seconds)*100)
+              return f'{cs//360000}:{cs//6000%60:02}:{cs//100%60:02}.{cs%100:02}'
+
+          def ass_escape(s):
+              return s.replace('\\',r'\\').replace('{',r'\{').replace('}',r'\}').replace('\n',' ')
+
+          def subtitle_ass(words,start,length,dest):
+              hdr='''[Script Info]
+          ScriptType: v4.00+
+          PlayResX: 1080
+          PlayResY: 1920
+          WrapStyle: 2
+          [V4+ Styles]
+          Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+          Style: Pop,DejaVu Sans,59,&H00FFFFFF,&H00FFFFFF,&H00000000,&H70000000,-1,0,0,0,100,100,0,0,1,4,1,2,75,75,300,1
+          [Events]
+          Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+          '''
+              lines=[]
+              active=[(max(0,a-start),min(length,b-start),txt) for a,b,txt in words if b>start and a<start+length]
+              for i in range(0,len(active),3):
+                  group=active[i:i+3]
+                  if not group:continue
+                  a=group[0][0];b=group[-1][1]
+                  if b-a<0.25:b=a+0.35
+                  if a>=length:continue
+                  txt=ass_escape(' '.join(s for _,_,s in group).upper())[:90]
+                  lines.append(f'Dialogue: 0,{ass_time(a)},{ass_time(min(b,length))},Pop,,0,0,0,,{txt}')
+              dest.write_text(hdr+'\n'.join(lines)+'\n',encoding='utf-8')
+              return len(lines)
+
+          def render(c,source):
+              OUT.mkdir(parents=True,exist_ok=True)
+              dur=ffprobe_duration(source)
+              if dur<11:raise RuntimeError('actual source clip is under 11 seconds')
+              words=transcribe(source)
+              start,length=pick_window(dur,words)
+              if length<11:raise RuntimeError('short selected time window')
+              subtitle_file=OUT/'subtitles.ass'
+              nsubs=subtitle_ass(words,start,length,subtitle_file)
+              import textwrap
+              # Two centered lines instead of a long headline overflowing a phone display.
+              hook=generate_hook(c).replace('😂','').strip()[:42]
+              overlay='\n'.join(textwrap.wrap(hook,width=21,break_long_words=True,break_on_hyphens=False)[:2])
+              (OUT/'headline.txt').write_text(overlay,encoding='utf-8')
+              movie=OUT/'tiktok.mp4';cover=OUT/'cover.jpg'
+              # Render foreground centered, black translucent title background, no stretching.
+              flt=("[0:v]split=2[a][b];"
+                   "[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=25:10[bg];"
+                   "[b]scale=1080:1450:force_original_aspect_ratio=decrease,setsar=1[fg];"
+                   "[bg][fg]overlay=(W-w)/2:(H-h)/2,"
+                   "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile=rendered/headline.txt:fontsize=51:fontcolor=white:box=1:boxcolor=black@0.70:boxborderw=18:x=(w-text_w)/2:y=235,")
+              if nsubs:flt+='ass=rendered/subtitles.ass,'
+              flt+='format=yuv420p[v]'
+              cmd(['ffmpeg','-y','-hide_banner','-loglevel','error','-ss',str(start),'-t',str(length),'-i',str(source),'-filter_complex',flt,'-map','[v]','-map','0:a:0?','-c:v','libx264','-preset','veryfast','-crf','23','-r','30','-c:a','aac','-b:a','160k','-movflags','+faststart',str(movie)])
+              cmd(['ffmpeg','-y','-hide_banner','-loglevel','error','-ss','1','-i',str(movie),'-frames:v','1','-q:v','3',str(cover)])
+              if ffprobe_duration(movie)<11:raise RuntimeError('render duration is too short')
+              dimensions=cmd(['ffprobe','-v','error','-select_streams','v:0','-show_entries','stream=width,height','-of','csv=s=x:p=0',str(movie)],capture_output=True).stdout.strip()
+              if dimensions!='1080x1920':raise RuntimeError('unexpected output dimensions '+dimensions)
+              return movie,cover,nsubs
+
+          def release_assets(c,movie,cover,now):
+              repo=os.environ.get('GITHUB_REPOSITORY','')
+              if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+',repo):raise RuntimeError('GITHUB_REPOSITORY not defined')
+              tag='tiktok-'+now.strftime('%Y-%m')
+              slug=safe_name(c['channel_login']+'-'+c['id'],95)
+              vname=f'{slug}.mp4';iname=f'{slug}-cover.jpg'
+              copied=OUT/vname;copied.write_bytes(movie.read_bytes())
+              cover_dest=OUT/iname;cover_dest.write_bytes(cover.read_bytes())
+              p=cmd(['gh','release','view',tag,'-R',repo],check=False,capture_output=True)
+              if p.returncode!=0:
+                  cmd(['gh','release','create',tag,'-R',repo,'--title','TikTok Clips '+now.strftime('%Y-%m'),'--notes','Automatisch bearbeitete Clip-Kandidaten (nur fuer freigegebene Streamer).'])
+              cmd(['gh','release','upload',tag,str(copied),str(cover_dest),'-R',repo,'--clobber'])
+              return f'https://github.com/{repo}/releases/download/{tag}/{vname}',f'https://github.com/{repo}/releases/download/{tag}/{iname}'
+
+          def main():
+              now=utcnow()
+              raw=re.split(r'[,;\s]+',os.environ.get('APPROVED_STREAMERS',''))
+              approved={x.lower().strip() for x in raw if x.strip()}.intersection(RANK)
+              if not approved:
+                  print('WAITING FOR RIGHTS: no APPROVED_STREAMERS configured; no foreign clips downloaded or published.')
+                  return
+              state=load_state()
+              yes,reason=can_prepare(state,now)
+              if not yes:
+                  print('SKIP:',reason)
+                  return
+              names=sorted(approved,key=lambda n:RANK[n])[:20]
+              allclips=collect(names,now,per_channel=20)
+              ranked=choose(allclips,state,approved,now,int(os.environ.get('MIN_VIEWS','800')))
+              print('Public metadata candidates:',len(ranked),'out of',len(allclips),'clips')
+              if not ranked:
+                  print('No qualifying, licensed, sufficiently popular clips found. No video produced.')
+                  return
+              for c in ranked[:4]:
+                  try:
+                      print('Try:',c['channel_login'],c['id'],c['view_count'],'views',c['duration'],'seconds')
+                      source=download_clip(c)
+                      movie,cover,nsubs=render(c,source)
+                      video_url,cover_url=release_assets(c,movie,cover,now)
+                      caption=build_caption(c)
+                      record={'clip_id':c['id'],'streamer':c['channel_login'],
+                              'source_url':c['url'],'original_title':c['title'],
+                              'hook':generate_hook(c),'caption':caption,
+                              'views_at_selection':int(c['view_count']),
+                              'original_duration':float(c['duration']),
+                              'video_url':video_url,'cover_url':cover_url,
+                              'transcript_subtitles':nsubs>0,'created_at':iso(now),
+                              'rights_allowlist':True,'status':'awaiting_metricool'}
+                      state['created'].append(record)
+                      state['processed_ids'].append(c['id'])
+                      save_state(state)
+                      with open(os.getenv('GITHUB_STEP_SUMMARY','/dev/stdout'),'a') as f:
+                          f.write(f'### New clip: {c["channel_login"]} / {c["id"]}\n')
+                          f.write(f'- Verified metadata: {c["view_count"]} views, {c["duration"]}s\n')
+                          f.write(f'- [MP4]({video_url}), [cover]({cover_url})\n')
+                          f.write('- A separate Metricool task must schedule the TikTok post.\n')
+                      print('PREPARED',json.dumps(record,ensure_ascii=False))
+                      return
+                  except Exception as exc:
+                      print('WARN candidate failed:',repr(exc),file=sys.stderr)
+              print('All candidates failed: no post')
+
+          if __name__=='__main__':
+              if len(sys.argv)>1 and sys.argv[1]=='--self-test':
+                  now=dt.datetime(2026,10,15,18,tzinfo=UTC)
+                  test={'created':[],'processed_ids':['old']}
+                  c={'id':'new','channel_login':'papaplatte','rank':3,'title':'Was für ein wilder Moment','view_count':18000,'duration':23,'created_at':iso(now-dt.timedelta(hours=4)),'url':'https://clips.twitch.tv/NewFunnyClipABC'}
+                  assert choose([c],test,{'papaplatte'},now)[0]['id']=='new'
+                  assert not choose([c],test,{'other'},now)
+                  test['processed_ids'].append('new')
+                  assert not choose([c],test,{'papaplatte'},now)
+                  assert sum(month_slots(dt.datetime(2026,10,d,tzinfo=UTC)) for d in range(1,32))==20
+                  assert sum(month_slots(dt.datetime(2027,2,d,tzinfo=UTC)) for d in range(1,29))==20
+                  assert pick_window(25,[(1,2,'Hallo'),(19,20,'wow')])[1]>11
+                  assert '#papaplatte' in build_caption(c,'Minecraft')
+                  print('SELF-TEST PASSED: rights, duplicates, duration, ranking, 20/month, metadata')
+              else:
+                  main()
+          PY
+          python pipeline.py --self-test
+          python pipeline.py
+          if [ -f state/auto20.json ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add state/auto20.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'Auto20: neuer lizenzierter Clip vorbereitet'
+              git push origin HEAD:main
+            fi
+          fi
+          echo 'Queue: https://raw.githubusercontent.com/${{ github.repository }}/main/state/auto20.json' >> "$GITHUB_STEP_SUMMARY"

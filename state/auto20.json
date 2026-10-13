@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "created": [
+    {
+      "clip_id": "3570577492",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/AltruisticVenomousVelociraptorSpicyBoy-ECiYgUQC2M1vchxM",
+      "original_title": "angepfiffen",
+      "hook": "ANGEPFIFFEN",
+      "caption": "angepfiffen 😂\nClip: @trymacs\nQuelle: https://www.twitch.tv/trymacs/clip/AltruisticVenomousVelociraptorSpicyBoy-ECiYgUQC2M1vchxM\n#trymacs #twitchde #streamclips",
+      "views_at_selection": 6094,
+      "original_duration": 20.0,
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/trymacs-3570577492.mp4",
+      "cover_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/trymacs-3570577492-cover.jpg",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-13T21:32:27Z",
+      "status": "awaiting_metricool",
+      "rights_status": "user_asserted_not_independently_verified"
+    }
+  ],
+  "processed_ids": [
+    "GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe",
+    "3570577492"
+  ]
+}

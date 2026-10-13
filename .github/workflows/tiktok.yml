@@ -39,7 +39,7 @@ jobs:
         env:
           CLIP_URL: ${{ inputs.clip || 'https://www.twitch.tv/bastighg/clip/GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe' }}
           HEADLINE: ${{ inputs.hook || 'DIESE SPINNE ...' }}
-          CAPTION: ${{ inputs.caption || 'BastiGHG und die Spinne #bastighg #minecraft #twitchde' }}
+          CAPTION: "${{ inputs.caption || 'BastiGHG und die Spinne #bastighg #minecraft #twitchde' }}"
         run: |
           set -euo pipefail
           python - <<'PY'

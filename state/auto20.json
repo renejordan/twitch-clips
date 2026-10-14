@@ -16,10 +16,27 @@
       "created_at": "2026-10-13T21:32:27Z",
       "status": "awaiting_metricool",
       "rights_status": "user_asserted_not_independently_verified"
+    },
+    {
+      "clip_id": "2667634795",
+      "streamer": "schradin",
+      "source_url": "https://www.twitch.tv/schradin/clip/RenownedCarelessBurritoDBstyle-fxTvB0RYedPeJPkr",
+      "original_title": "Nichts geklaut",
+      "hook": "NICHTS GEKLAUT",
+      "caption": "Nichts geklaut 😂\nClip: @schradin\nQuelle: https://www.twitch.tv/schradin/clip/RenownedCarelessBurritoDBstyle-fxTvB0RYedPeJPkr\n#schradin #twitchde #streamclips",
+      "views_at_selection": 9125,
+      "original_duration": 17.0,
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/schradin-2667634795.mp4",
+      "cover_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/schradin-2667634795-cover.jpg",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-14T12:05:23Z",
+      "status": "awaiting_metricool",
+      "rights_status": "user_asserted_not_independently_verified"
     }
   ],
   "processed_ids": [
     "GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe",
-    "3570577492"
+    "3570577492",
+    "2667634795"
   ]
 }

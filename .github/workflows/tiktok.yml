@@ -1,4 +1,4 @@
-name: Twitch Auto20 - Top 50 ohne API und Freigabevariable
+name: Twitch Auto20 - aktuelle Top-50-Clips
 
 on:
   push:
@@ -35,7 +35,7 @@ jobs:
           python -m pip install -U yt-dlp faster-whisper
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
-      - name: Clip suchen, schneiden, als GitHub Release bereitstellen
+      - name: Clips suchen und als GitHub Release bereitstellen
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
@@ -44,11 +44,7 @@ jobs:
           set -euo pipefail
           cat > pipeline.py <<'PY'
           #!/usr/bin/env python3
-          """Twitch Auto20. Public clip discovery without Twitch developer credentials.
-
-          The watchlist is a MANUALLY MAINTAINED SNAPSHOT (August 2026), not an automated
-          real-time TwitchTracker ranking. Respect creator reuse rights before publishing.
-          """
+          """Prepare recent Twitch clips in GitHub Releases (never post to TikTok directly)."""
           import calendar
           import concurrent.futures
           import datetime as dt
@@ -62,271 +58,365 @@ jobs:
           import unicodedata
           from pathlib import Path
           from urllib.parse import urlparse
-
+          
           UTC = dt.timezone.utc
-          ROOT = Path.cwd()
-          STATE = ROOT / 'state' / 'auto20.json'
-          OUT = ROOT / 'rendered'
-          # All 50 German TwitchTracker ranked channels in the last accessible snapshot.
+          STATE = Path('state/auto20.json')
+          OUT = Path('rendered')
           STREAMERS = '''eliasn97 zarbex papaplatte trymacs canerkrd krokoboss xrohat montanablack88 gamerbrother kubafps bonjwa xthesolutiontv handofblood noway4u_sir metashi12 gronkhtv gronkh tolkin gtasty orangemorange schradin dhalucard shlorox mertabimula rumathra elotrix bastighg maxim dracon staiy spontent marli onlyjson naguura phunkroyal niklaswilson pietsmiet scurrows h0llylp rezo letshugotv edopeh amar sterzik repaz gtimetv mckytv rezonfn fregepaul coachlim'''.split()
-          RANK = {n: i+1 for i,n in enumerate(STREAMERS)}
-          EXCLUDE_IDS = {'GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe'}  # already posted
-          KEYWORDS = ('witz', 'lach', 'rage', 'fail', 'krass', 'wtf', 'omg', 'unfassbar', 'ausrast', 'schrei', 'wild', 'haha', 'nein', 'moment', 'reaction', 'peinlich', 'lustig', 'unerwart', 'verrückt')
-
-          def run(args, check=True, **kwargs):
-              return subprocess.run(args, text=True, check=check, **kwargs)
-
-          def iso(d):
-              return d.astimezone(UTC).strftime('%Y-%m-%dT%H:%M:%SZ')
-
+          RANK = {name: idx + 1 for idx, name in enumerate(STREAMERS)}
+          # Permanent bans: BastiGHG and Trymacs already used on TikTok.
+          EXCLUDE_IDS = {'GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe', '3570577492', 'AltruisticVenomousVelociraptorSpicyBoy-ECiYgUQC2M1vchxM'}
+          KEYWORDS = ('witz', 'lach', 'rage', 'fail', 'wtf', 'omg', 'unfassbar', 'ausrast', 'schrei', 'haha', 'reaction', 'peinlich', 'lustig', 'unerwart')
+          
+          
+          def run(command, check=True, **kwargs):
+              return subprocess.run(command, check=check, text=True, **kwargs)
+          
+          
+          def iso(value):
+              return value.astimezone(UTC).strftime('%Y-%m-%dT%H:%M:%SZ')
+          
+          
           def now_utc():
               return dt.datetime.now(UTC)
-
-          def slug(s, n=92):
-              a=unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower()
-              return re.sub(r'-+', '-', re.sub(r'[^a-z0-9]+', '-', a)).strip('-')[:n] or 'clip'
-
-          def clip_url_valid(url):
-              try:
-                  p=urlparse(url)
-                  return p.scheme=='https' and ((p.hostname=='clips.twitch.tv' and bool(p.path.strip('/'))) or (p.hostname in {'twitch.tv','www.twitch.tv'} and bool(re.fullmatch(r'/[^/]+/clip/[^/]+/?', p.path))))
-              except Exception: return False
-
+          
+          
+          def slug(value, limit=92):
+              value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode().lower()
+              return re.sub(r'-+', '-', re.sub(r'[^a-z0-9]+', '-', value)).strip('-')[:limit] or 'clip'
+          
+          
+          def twitch_slug(url):
+              parsed = urlparse(url)
+              if parsed.scheme != 'https':
+                  return None
+              if parsed.hostname == 'clips.twitch.tv':
+                  match = re.fullmatch(r'/([^/]+)/?', parsed.path)
+              elif parsed.hostname in ('twitch.tv', 'www.twitch.tv'):
+                  match = re.fullmatch(r'/[^/]+/clip/([^/]+)/?', parsed.path)
+              else:
+                  return None
+              return match.group(1) if match else None
+          
+          
           def read_state():
-              if not STATE.exists():return {'version':2,'created':[],'processed_ids':sorted(EXCLUDE_IDS)}
-              data=json.loads(STATE.read_text(encoding='utf-8'))
-              data.setdefault('created',[]);data.setdefault('processed_ids',[])
-              return data
-
-          def save_state(data):
-              STATE.parent.mkdir(parents=True,exist_ok=True)
-              STATE.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-
+              if STATE.exists():
+                  state = json.loads(STATE.read_text(encoding='utf-8'))
+              else:
+                  state = {'version': 2, 'created': [], 'processed_ids': []}
+              state.setdefault('created', [])
+              state.setdefault('processed_ids', [])
+              return state
+          
+          
+          def save_state(state):
+              STATE.parent.mkdir(parents=True, exist_ok=True)
+              STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          
+          
           def scheduled_slot(now):
-              last=calendar.monthrange(now.year, now.month)[1]
-              return math.floor(20*now.day/last)>math.floor(20*(now.day-1)/last)
-
-          def can_prepare(state,now,event='schedule'):
-              monthly=[x for x in state['created'] if x.get('created_at','').startswith(now.strftime('%Y-%m'))]
-              if len(monthly)>=20:return False,'Monatslimit 20 erreicht'
-              if any(x.get('created_at','').startswith(now.strftime('%Y-%m-%d')) for x in monthly):return False,'Heute bereits ein Clip erstellt'
-              if event=='schedule':
-                  if not scheduled_slot(now):return False,'Heute kein Monatsslot'
-                  if not (12<=now.hour<=20):return False,'Warte auf Tageszeitfenster'
-              return True,'OK'
-
-          def get_channel_clips(channel,now):
-              # Twitch's public clip listing is supported by yt-dlp's TwitchVideosClipsIE.
-              source=f'https://www.twitch.tv/{channel}/clips?filter=clips&range=7d'
+              days = calendar.monthrange(now.year, now.month)[1]
+              return math.floor(20 * now.day / days) > math.floor(20 * (now.day - 1) / days)
+          
+          
+          def can_prepare(state, now, event='schedule'):
+              monthly = [rec for rec in state['created'] if rec.get('created_at', '').startswith(now.strftime('%Y-%m'))]
+              if len(monthly) >= 20:
+                  return False, 'Maximal 20 produzierte Clips pro Monat'
+              if any(rec.get('created_at', '').startswith(now.strftime('%Y-%m-%d')) for rec in monthly):
+                  return False, 'Heute bereits ein Clip produziert'
+              if event == 'schedule' and (not scheduled_slot(now) or not 12 <= now.hour <= 20):
+                  return False, 'Aktuell kein Produktionsslot'
+              return True, 'OK'
+          
+          
+          def channel_urls(channel):
+              """Discover candidates; this listing alone does NOT verify clip age or views."""
+              source = f'https://www.twitch.tv/{channel}/clips?filter=clips&range=7d'
               try:
-                  proc=run(['yt-dlp','--no-warnings','--flat-playlist','--playlist-end','20',
-                            '--dump-single-json',source],capture_output=True,timeout=65)
-                  page=json.loads(proc.stdout)
-                  output=[]
-                  for entry in page.get('entries') or []:
-                      if not isinstance(entry,dict):continue
-                      url=entry.get('url','')
-                      if not isinstance(url,str) or not clip_url_valid(url):continue
-                      duration=entry.get('duration'); views=entry.get('view_count');timestamp=entry.get('timestamp')
-                      if not isinstance(timestamp,(int,float)) or not isinstance(views,int) or not isinstance(duration,(float,int)):continue
-                      age=(now-dt.datetime.fromtimestamp(timestamp,UTC)).total_seconds()
-                      if not 0<=age<=7*86400:continue
-                      id_=str(entry.get('id') or url.split('/')[-1])
-                      output.append(dict(id=id_,url=url,channel_login=channel,rank=RANK[channel],
-                                         title=str(entry.get('title') or ''),duration=float(duration),
-                                         view_count=views,timestamp=timestamp,created_at=iso(dt.datetime.fromtimestamp(timestamp,UTC))))
-                  return output
-              except Exception as e:
-                  print('WARN channel',channel,repr(e)[:170],file=sys.stderr)
+                  proc = run(['yt-dlp', '--no-warnings', '--flat-playlist', '--playlist-end', '20', '--dump-single-json', source], capture_output=True, timeout=65)
+                  data = json.loads(proc.stdout)
+                  found = []
+                  for item in data.get('entries') or []:
+                      if not isinstance(item, dict):
+                          continue
+                      link = item.get('webpage_url') or item.get('url') or ''
+                      if isinstance(link, str) and twitch_slug(link):
+                          found.append((channel, link))
+                  return found[:3]  # Check only three candidates per channel
+              except Exception as exc:
+                  print('WARN listing', channel, repr(exc)[:140], file=sys.stderr)
                   return []
-
-          def fetch_all(now):
-              output=[]
+          
+          
+          def fetch_candidates():
+              all_links = []
               with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
-                  for clips in pool.map(lambda channel:get_channel_clips(channel,now),STREAMERS):
-                      output.extend(clips)
-              return output
-
-          def score(c,now):
-              age=max(2, (now-dt.datetime.fromisoformat(c['created_at'].replace('Z','+00:00'))).total_seconds()/3600)
-              views=c['view_count'];speed=views/age
-              title=c['title'].lower()
-              bonus=sum(s in title for s in KEYWORDS)
-              dur=c['duration']
-              return 2.3*math.log1p(views)+2.4*math.log1p(speed)+min(bonus,3)*0.8+0.02*(51-c['rank'])-abs(dur-28)/50
-
-          def choose(clips,state,now,min_views=800):
-              used=set(state['processed_ids'])|EXCLUDE_IDS|{c['clip_id'] for c in state['created']}
-              found={}
-              for c in clips:
-                  cid=c.get('id')
-                  if not cid or cid in used:continue
-                  if c.get('channel_login') not in RANK:continue
-                  if not clip_url_valid(c.get('url','')):continue
-                  if not 15<=float(c.get('duration') or 0)<=60:continue
-                  if int(c.get('view_count') or 0)<min_views:continue
-                  if len(c.get('title','').strip())<5:continue
-                  found[cid]=c
-              return sorted(found.values(), key=lambda x:score(x,now),reverse=True)
-
-          def headline(c):
-              raw=re.sub(r'[\r\n\x00-\x1f]+',' ',c['title']).strip()
-              raw=re.sub(r'[#@][\w]+','',raw)
-              raw=re.sub(r'\s+',' ',raw).strip(' -.,?!')
-              if len(raw)<8:raw='DIESER MOMENT'
-              if len(raw)>41:raw=raw[:40].rstrip(' -.,:')+'…'
-              return raw.upper()
-
-          def caption(c):
-              name=c['channel_login']
-              return f'{c["title"].strip()[:85]} 😂\nClip: @{name}\nQuelle: {c["url"]}\n#{slug(name,24).replace("-","")} #twitchde #streamclips'
-
-          def probe(path,field='duration'):
-              if field=='duration':
-                  s=run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(path)],capture_output=True).stdout.strip()
-                  return float(s)
-              return run(['ffprobe','-v','error','-select_streams','v:0','-show_entries','stream=width,height','-of','csv=s=x:p=0',str(path)],capture_output=True).stdout.strip()
-
-          def download(c):
+                  for links in pool.map(channel_urls, STREAMERS):
+                      all_links.extend(links)
+              return list({url: (channel, url) for channel, url in all_links}.values())
+          
+          
+          def used_ids(state):
+              used = set(EXCLUDE_IDS) | set(map(str, state['processed_ids']))
+              used_urls = set()
+              for rec in state['created']:
+                  used.add(str(rec.get('clip_id', '')))
+                  used.add(str(rec.get('clip_slug', '')))
+                  url = rec.get('source_url', '')
+                  used_urls.add(url)
+                  if twitch_slug(url):
+                      used.add(twitch_slug(url))
+              return used, used_urls
+          
+          
+          def inspect_original(channel, link, now, min_views=800):
+              """Full original Twitch extraction; queue created_at is NEVER evidence of age."""
+              try:
+                  result = run(['yt-dlp', '--no-warnings', '--no-playlist', '--skip-download', '--dump-single-json', link], capture_output=True, timeout=45)
+                  info = json.loads(result.stdout)
+                  clip_url = info.get('webpage_url') or link
+                  current_slug = twitch_slug(clip_url) or twitch_slug(link)
+                  source_id = str(info.get('id') or current_slug or '')
+                  views = info.get('view_count')
+                  duration = info.get('duration')
+                  timestamp = info.get('timestamp')
+                  extractor = str(info.get('extractor_key') or info.get('extractor') or '').lower()
+                  # Only Twitch clip metadata can validate this original creation timestamp.
+                  if 'twitch' not in extractor or not current_slug:
+                      return None
+                  if isinstance(timestamp, bool) or not isinstance(timestamp, (float, int)):
+                      return None
+                  if isinstance(views, bool) or not isinstance(views, int):
+                      return None
+                  if isinstance(duration, bool) or not isinstance(duration, (int, float)):
+                      return None
+                  age_hours = (now - dt.datetime.fromtimestamp(timestamp, UTC)).total_seconds() / 3600
+                  if not 0 <= age_hours <= 72 or not 15 <= duration <= 60 or views < min_views:
+                      return None
+                  title = str(info.get('title') or '').strip()
+                  if len(title) < 5:
+                      return None
+                  return {'id': source_id, 'clip_slug': current_slug, 'url': link,
+                          'channel_login': channel, 'rank': RANK[channel], 'title': title,
+                          'view_count': views, 'duration': float(duration),
+                          'original_created_at': iso(dt.datetime.fromtimestamp(timestamp, UTC)),
+                          'age_hours': age_hours}
+              except Exception as exc:
+                  print('WARN clip metadata', link, repr(exc)[:130], file=sys.stderr)
+                  return None
+          
+          
+          def score(clip):
+              speed = clip['view_count'] / max(2, clip['age_hours'])
+              matches = sum(key in clip['title'].lower() for key in KEYWORDS)
+              return 2.3 * math.log1p(clip['view_count']) + 2.4 * math.log1p(speed) + min(matches, 3) * .8 + .02 * (51 - clip['rank']) - abs(clip['duration'] - 28) / 50
+          
+          
+          def very_strong(clip):
+              """Allow 48-72-hour clips only with convincing metrics."""
+              return clip['view_count'] >= 8000 and clip['view_count'] / max(1, clip['age_hours']) >= 150
+          
+          
+          def selection_rank(clip):
+              age = clip['age_hours']
+              return (0 if age <= 24 else 1 if age <= 48 else 2, -score(clip))
+          
+          
+          def headline(clip):
+              title = re.sub(r'[\r\n\x00-\x1f]+', ' ', clip['title'])
+              title = re.sub(r'[#@][\w]+', '', title)
+              title = re.sub(r'\s+', ' ', title).strip(' -.,?!')
+              # Never insert automatic creator-attribution or source-link text.
+              title = re.sub(r'(?i)\bclip\s+von\s+\S+|\bquelle\s*:\s*\S+', '', title).strip()
+              if len(title) < 8:
+                  title = 'DIESER MOMENT'
+              return (title[:40].rstrip(' -.,:') + '…' if len(title) > 41 else title).upper()
+          
+          
+          def caption(clip):
+              name = slug(clip['channel_login'], 24).replace('-', '')
+              return f"{clip['title'].strip()[:85]} 😂\n#{name} #twitchde #streamclips"
+          
+          
+          def probe(path, size=False):
+              args = (['-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=s=x:p=0'] if size else ['-show_entries', 'format=duration', '-of', 'csv=p=0'])
+              proc = run(['ffprobe', '-v', 'error', *args, str(path)], capture_output=True)
+              return proc.stdout.strip() if size else float(proc.stdout.strip())
+          
+          
+          def download(clip):
               OUT.mkdir(exist_ok=True)
-              for p in OUT.glob('source.*'):p.unlink()
-              run(['yt-dlp','--no-playlist','--retries','3','--merge-output-format','mp4','-o',str(OUT/'source.%(ext)s'),c['url']],timeout=120)
-              sources=[p for p in OUT.glob('source.*') if p.suffix.lower() in ('.mp4','.mkv','.webm')]
-              if not sources:raise ValueError('Clip-Download lieferte keine Videodatei')
-              return sources[0]
-
-          def words_in_video(path):
+              for path in OUT.glob('source.*'):
+                  path.unlink()
+              run(['yt-dlp', '--no-playlist', '--retries', '3', '--merge-output-format', 'mp4', '-o', str(OUT / 'source.%(ext)s'), clip['url']], timeout=120)
+              files = [p for p in OUT.glob('source.*') if p.suffix.lower() in ('.mp4', '.mkv', '.webm')]
+              if not files:
+                  raise ValueError('Kein Clip heruntergeladen')
+              return files[0]
+          
+          
+          def transcribe(path):
               try:
                   from faster_whisper import WhisperModel
-                  model=WhisperModel('tiny',device='cpu',compute_type='int8',cpu_threads=4)
-                  segments,_=model.transcribe(str(path),language='de',beam_size=1,word_timestamps=True,condition_on_previous_text=False)
-                  return [(float(w.start),float(w.end),w.word.strip()) for seg in segments for w in (seg.words or []) if w.word.strip()]
-              except Exception as ex:
-                  print('Optional subtitles not available',repr(ex)[:150]);return []
-
-          def pick_window(duration,words):
-              # Trim leading/trailing silence based on detected speech; longer clips use the most spoken 40s.
-              if duration<=45:
-                  if not words:return 0.0,duration
-                  start=min(3.0,max(0.0,words[0][0]-0.7))
-                  end=max(duration-3.0,min(duration,words[-1][1]+0.8))
-                  if end-start>=12:return round(start,2),round(end-start,2)
-                  return 0.0,duration
-              length=42.0
-              a=max(0,int(duration-length))
-              start=max(range(a+1),key=lambda k:sum(k<=((u+v)/2)<k+length for u,v,_ in words)) if words else 0
-              return float(start),min(length,duration-start)
-
-          def asstime(s):
-              h=int(max(s,0)*100)
-              return f'{h//360000}:{(h//6000)%60:02}:{(h//100)%60:02}.{h%100:02}'
-
-          def subtitles(words,start,length,path):
-              hdr='''[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\nWrapStyle: 2\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\nStyle: TikTok,DejaVu Sans,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H70000000,-1,0,0,0,100,100,0,0,1,4,1,2,80,80,300,1\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n'''
-              active=[(max(0,u-start),min(length,v-start),w) for u,v,w in words if v>start and u<start+length]
-              events=[]
-              for k in range(0,len(active),3):
-                  group=active[k:k+3]
-                  a,b=group[0][0],group[-1][1]
-                  txt=' '.join(w for _,_,w in group).upper().replace('\\','').replace('{','(').replace('}',')').replace('\n',' ')[:90]
-                  events.append(f'Dialogue: 0,{asstime(a)},{asstime(min(length,max(a+0.4,b)))},TikTok,,0,0,0,,{txt}')
-              path.write_text(hdr+'\n'.join(events)+'\n',encoding='utf-8')
+                  model = WhisperModel('tiny', device='cpu', compute_type='int8', cpu_threads=4)
+                  segments, _ = model.transcribe(str(path), language='de', beam_size=1, word_timestamps=True, condition_on_previous_text=False)
+                  return [(float(w.start), float(w.end), w.word.strip()) for segment in segments for w in (segment.words or []) if w.word.strip()]
+              except Exception as exc:
+                  print('Optional subtitles unavailable', repr(exc)[:140])
+                  return []
+          
+          
+          def pick_window(duration, words):
+              if duration <= 45:
+                  if not words:
+                      return 0.0, duration
+                  start = min(3.0, max(0.0, words[0][0] - .7))
+                  end = max(duration - 3, min(duration, words[-1][1] + .8))
+                  return (round(start, 2), round(end - start, 2)) if end - start >= 15 else (0.0, duration)
+              length = 42.0
+              end = max(0, int(duration - length))
+              start = max(range(end + 1), key=lambda k: sum(k <= (a + b) / 2 < k + length for a, b, _ in words)) if words else 0
+              return float(start), min(length, duration - start)
+          
+          
+          def ass_time(seconds):
+              ticks = int(max(0, seconds) * 100)
+              return f'{ticks // 360000}:{(ticks // 6000) % 60:02}:{(ticks // 100) % 60:02}.{ticks % 100:02}'
+          
+          
+          def write_subs(words, start, length, path):
+              header = '''[Script Info]
+          ScriptType: v4.00+
+          PlayResX: 1080
+          PlayResY: 1920
+          WrapStyle: 2
+          [V4+ Styles]
+          Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+          Style: TikTok,DejaVu Sans,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H70000000,-1,0,0,0,100,100,0,0,1,4,1,2,80,80,300,1
+          [Events]
+          Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+          '''
+              selected = [(max(0, a - start), min(length, b - start), w) for a, b, w in words if b > start and a < start + length]
+              events = []
+              for idx in range(0, len(selected), 3):
+                  group = selected[idx:idx + 3]
+                  a, b = group[0][0], group[-1][1]
+                  text = ' '.join(word for _, _, word in group).upper().replace('\\', '').replace('{', '(').replace('}', ')').replace('\n', ' ')[:90]
+                  events.append(f'Dialogue: 0,{ass_time(a)},{ass_time(min(length, max(a + .4, b)))},TikTok,,0,0,0,,{text}')
+              path.write_text(header + '\n'.join(events) + '\n', encoding='utf-8')
               return bool(events)
-
-          def render(c,path):
-              duration=probe(path)
-              if duration<15:raise ValueError('Twitch-Clip unter 15 Sekunden')
-              words=words_in_video(path)
-              start,length=pick_window(duration,words)
-              if length<12:raise ValueError('Zielvideo unter 12 Sekunden')
-              head=headline(c)
-              (OUT/'headline.txt').write_text('\n'.join(textwrap.wrap(head,21,break_long_words=False)[:3]),encoding='utf-8')
-              has_subtitles=subtitles(words,start,length,OUT/'subs.ass')
-              filters=("[0:v]split=2[a][b];"
-                       "[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:10[bg];"
-                       "[b]scale=1080:1500:force_original_aspect_ratio=decrease,setsar=1[fg];"
-                       "[bg][fg]overlay=(W-w)/2:(H-h)/2,"
-                       "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile=rendered/headline.txt:fontsize=54:fontcolor=white:borderw=3:bordercolor=black:box=1:boxcolor=black@0.65:boxborderw=15:x=(w-text_w)/2:y=220,")
-              if has_subtitles:filters+='ass=rendered/subs.ass,'
-              filters+='format=yuv420p[v]'
-              movie=OUT/'tiktok.mp4'
-              run(['ffmpeg','-y','-hide_banner','-loglevel','error','-ss',str(start),'-t',str(length),'-i',str(path),'-filter_complex',filters,'-map','[v]','-map','0:a:0?','-c:v','libx264','-preset','veryfast','-crf','23','-r','30','-c:a','aac','-b:a','160k','-movflags','+faststart',str(movie)],timeout=360)
-              if not 12<=probe(movie)<=65 or probe(movie,'size')!='1080x1920':raise ValueError('MP4-Kontrolle fehlgeschlagen')
-              cover=OUT/'cover.jpg'
-              run(['ffmpeg','-y','-hide_banner','-loglevel','error','-ss','1','-i',str(movie),'-frames:v','1','-q:v','3',str(cover)],timeout=30)
-              return movie,cover,has_subtitles
-
-          def publish_release(c,movie,cover,now):
-              repo=os.environ.get('GITHUB_REPOSITORY','')
-              if not re.fullmatch(r'[\w.-]+/[\w.-]+',repo):raise ValueError('GitHub-Repository fehlt')
-              tag=f'tiktok-{now:%Y-%m}'
-              asset=slug(c['channel_login']+'-'+c['id'])
-              video_name=asset+'.mp4';cover_name=asset+'-cover.jpg'
-              video_file=OUT/video_name;video_file.write_bytes(movie.read_bytes())
-              cover_file=OUT/cover_name;cover_file.write_bytes(cover.read_bytes())
-              found=run(['gh','release','view',tag,'-R',repo],capture_output=True,check=False)
-              if found.returncode!=0:
-                  run(['gh','release','create',tag,'-R',repo,'--title',f'Video-Kandidaten {now:%Y-%m}','--notes','Automatisch vorbereitete Twitch-Clips, bitte Nutzungsrechte beachten.'],timeout=60)
-              run(['gh','release','upload',tag,str(video_file),str(cover_file),'-R',repo,'--clobber'],timeout=120)
-              prefix=f'https://github.com/{repo}/releases/download/{tag}/'
-              return prefix+video_name,prefix+cover_name
-
+          
+          
+          def render(clip, source):
+              duration = probe(source)
+              if not 15 <= duration <= 65:
+                  raise ValueError('Originalvideo hat ungeeignete Laenge')
+              words = transcribe(source)
+              start, length = pick_window(duration, words)
+              if length < 15:
+                  raise ValueError('Zielvideo unter 15 Sekunden')
+              (OUT / 'headline.txt').write_text('\n'.join(textwrap.wrap(headline(clip), 21, break_long_words=False)[:3]), encoding='utf-8')
+              has_subs = write_subs(words, start, length, OUT / 'subs.ass')
+              filters = ('[0:v]split=2[a][b];'
+                         '[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:10[bg];'
+                         '[b]scale=1080:1500:force_original_aspect_ratio=decrease,setsar=1[fg];'
+                         '[bg][fg]overlay=(W-w)/2:(H-h)/2,'
+                         'drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:'
+                         'textfile=rendered/headline.txt:fontsize=54:fontcolor=white:borderw=3:'
+                         'bordercolor=black:box=1:boxcolor=black@0.65:boxborderw=15:x=(w-text_w)/2:y=220,')
+              if has_subs:
+                  filters += 'ass=rendered/subs.ass,'
+              filters += 'format=yuv420p[v]'
+              movie = OUT / 'tiktok.mp4'
+              run(['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-ss', str(start), '-t', str(length), '-i', str(source), '-filter_complex', filters, '-map', '[v]', '-map', '0:a:0?', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23', '-r', '30', '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', str(movie)], timeout=360)
+              if not 15 <= probe(movie) <= 65 or probe(movie, size=True) != '1080x1920':
+                  raise ValueError('MP4 validation failed')
+              cover = OUT / 'cover.jpg'
+              run(['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-ss', '1', '-i', str(movie), '-frames:v', '1', '-q:v', '3', str(cover)], timeout=30)
+              return movie, cover, has_subs
+          
+          
+          def release(clip, video, cover, now):
+              repo = os.getenv('GITHUB_REPOSITORY', '')
+              if not re.fullmatch(r'[\w.-]+/[\w.-]+', repo):
+                  raise ValueError('GitHub repository missing')
+              tag = f'tiktok-{now:%Y-%m}'
+              asset = slug(clip['channel_login'] + '-' + clip['id'])
+              video_name, cover_name = asset + '.mp4', asset + '-cover.jpg'
+              video_file, cover_file = OUT / video_name, OUT / cover_name
+              video_file.write_bytes(video.read_bytes())
+              cover_file.write_bytes(cover.read_bytes())
+              if run(['gh', 'release', 'view', tag, '-R', repo], check=False, capture_output=True).returncode != 0:
+                  run(['gh', 'release', 'create', tag, '-R', repo, '--title', f'Video-Kandidaten {now:%Y-%m}', '--notes', 'Automatisch produzierte Kandidaten; Rechte und Duplikate vor Veroeffentlichung pruefen.'], timeout=60)
+              run(['gh', 'release', 'upload', tag, str(video_file), str(cover_file), '-R', repo, '--clobber'], timeout=120)
+              prefix = f'https://github.com/{repo}/releases/download/{tag}/'
+              return prefix + video_name, prefix + cover_name
+          
+          
           def main():
-              now=now_utc(); state=read_state()
-              allowed,reason=can_prepare(state,now,os.getenv('GITHUB_EVENT_NAME','schedule'))
+              now, state = now_utc(), read_state()
+              allowed, reason = can_prepare(state, now, os.getenv('GITHUB_EVENT_NAME', 'schedule'))
               if not allowed:
-                  print('SKIP:',reason);return
-              all_clips=fetch_all(now)
-              ranked=choose(all_clips,state,now,int(os.getenv('MIN_VIEWS','800')))
-              print('Clip-Kandidaten:',len(all_clips),'qualifiziert:',len(ranked),'Kanaele:',len(STREAMERS))
-              for c in ranked[:5]:
+                  print('SKIP:', reason)
+                  return
+              used, used_urls = used_ids(state)
+              candidates = [(channel, url) for channel, url in fetch_candidates() if twitch_slug(url) not in used and url not in used_urls]
+              print('Discovered candidate URLs:', len(candidates))
+              # Check original per-clip Twitch metadata, not GitHub queue timestamps.
+              verified = []
+              with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+                  for clip in pool.map(lambda pair: inspect_original(pair[0], pair[1], now, int(os.getenv('MIN_VIEWS', '800'))), candidates):
+                      if clip and clip['id'] not in used and clip['clip_slug'] not in used:
+                          if clip['age_hours'] <= 48 or very_strong(clip):
+                              verified.append(clip)
+              verified.sort(key=selection_rank)
+              print('Verified recent candidates:', len(verified))
+              for clip in verified[:5]:
                   try:
-                      print('TEST CLIP',c['channel_login'],c['id'],c['view_count'],c['duration'])
-                      source=download(c)
-                      video,cover,has_subs=render(c,source)
-                      url,cover_url=publish_release(c,video,cover,now)
-                      record={'clip_id':c['id'],'streamer':c['channel_login'],'source_url':c['url'],
-                              'original_title':c['title'],'hook':headline(c),'caption':caption(c),
-                              'views_at_selection':c['view_count'],'original_duration':c['duration'],
-                              'video_url':url,'cover_url':cover_url,'transcript_subtitles':has_subs,
-                              'created_at':iso(now),'status':'awaiting_metricool',
-                              'rights_status':'user_asserted_not_independently_verified'}
-                      state['created'].append(record)
-                      state['processed_ids'].append(c['id'])
+                      source = download(clip)
+                      movie, cover, has_subs = render(clip, source)
+                      video_url, cover_url = release(clip, movie, cover, now)
+                      state['created'].append({
+                          'clip_id': clip['id'], 'clip_slug': clip['clip_slug'],
+                          'streamer': clip['channel_login'], 'source_url': clip['url'],
+                          'original_title': clip['title'], 'hook': headline(clip), 'caption': caption(clip),
+                          'views_at_selection': clip['view_count'], 'original_duration': clip['duration'],
+                          'original_created_at': clip['original_created_at'], 'video_url': video_url,
+                          'cover_url': cover_url, 'transcript_subtitles': has_subs,
+                          'created_at': iso(now), 'status': 'awaiting_metricool',
+                          'rights_status': 'user_asserted_not_independently_verified',
+                          'video_review_status': 'metadata_only'
+                      })
+                      state['processed_ids'].extend([clip['id'], clip['clip_slug']])
                       save_state(state)
-                      print('VIDEO READY:',json.dumps(record,ensure_ascii=False))
-                      summary=os.getenv('GITHUB_STEP_SUMMARY')
+                      print('VIDEO READY (NOT POSTED TO TIKTOK):', video_url)
+                      summary = os.getenv('GITHUB_STEP_SUMMARY')
                       if summary:
-                          with open(summary,'a',encoding='utf-8') as f:
-                              f.write(f'## Neuer TikTok-Kandidat: {c["channel_login"]}\n')
-                              f.write(f'- {c["view_count"]} Aufrufe, {c["duration"]} Sekunden\n')
-                              f.write(f'- [MP4]({url}) | [Cover]({cover_url})\n')
-                              f.write('- Noch **nicht** auf TikTok veröffentlicht.\n')
+                          with open(summary, 'a', encoding='utf-8') as handle:
+                              handle.write(f'## Neuer Clip: {clip["channel_login"]}\n- {clip["view_count"]} Twitch-Views\n- Originalalter: {clip["age_hours"]:.1f} Stunden\n- [MP4]({video_url})\n- **Noch nicht bei TikTok gepostet.**\n')
                       return
-                  except Exception as e:
-                      print('WARN video failed:',repr(e),file=sys.stderr)
-              print('Kein neuer Clip erstellt. Keine automatische Veroeffentlichung.')
-
+                  except Exception as exc:
+                      print('WARN video failed:', repr(exc), file=sys.stderr)
+              print('No eligible new clip produced. No TikTok posting.')
+          
+          
           def self_test():
-              assert len(STREAMERS)==50 and len(set(STREAMERS))==50
-              now=dt.datetime(2026,10,13,18,tzinfo=UTC)
-              testclip={'id':'test-123','url':'https://clips.twitch.tv/TestClipSlug','channel_login':'papaplatte',
-                        'rank':3,'duration':24,'view_count':17000,'title':'Was ein witziger Moment','created_at':iso(now-dt.timedelta(hours=3))}
-              s={'created':[],'processed_ids':['GrossTubularAntelopeWow-1KWH2cn3DcuhqWSe']}
-              assert choose([testclip],s,now)[0]['id']=='test-123'
-              s['processed_ids'].append('test-123')
-              assert choose([testclip],s,now)==[]
-              assert not choose([dict(testclip,id='bad',duration=5)],{'created':[],'processed_ids':[]},now)
-              assert sum(scheduled_slot(dt.datetime(2026,10,d,tzinfo=UTC)) for d in range(1,32))==20
-              assert sum(scheduled_slot(dt.datetime(2027,2,d,tzinfo=UTC)) for d in range(1,29))==20
-              assert can_prepare({'created':[],'processed_ids':[]},now,'push')[0]
-              assert 'papaplatte' in caption(testclip)
-              assert ('vars.'+'APPROVED'+'_'+'STREAMERS') not in Path(__file__).read_text()
-              print('SELFTEST OK: 50 Kanaele, Dubletten, Dauer, Ranking, 20 Slots/Monat, keine APPROVED_STREAMERS-Variable')
-
-          if __name__=='__main__':
-              if '--self-test' in sys.argv:self_test()
-              else:main()
+              assert len(STREAMERS) == 50 and len(set(STREAMERS)) == 50
+              assert twitch_slug('https://www.twitch.tv/trymacs/clip/Example-123') == 'Example-123'
+              assert twitch_slug('https://evil.com/a/clip/nope') is None
+              example = {'channel_login': 'papaplatte', 'title': 'Das war verrückt!', 'duration': 27,
+                         'view_count': 13000, 'rank': 3, 'age_hours': 12}
+              assert '#papaplatte' in caption(example)
+              assert 'Clip von' not in caption(example) and 'Quelle:' not in caption(example)
+              assert very_strong(dict(example, age_hours=55))
+              assert not very_strong(dict(example, age_hours=55, view_count=900))
+              assert sum(scheduled_slot(dt.datetime(2026, 10, i, tzinfo=UTC)) for i in range(1, 32)) == 20
+              print('SELFTEST OK: 50 channels, date gates, caption, bans and URL validation')
+          
+          
+          if __name__ == '__main__':
+              self_test() if '--self-test' in sys.argv else main()
           PY
           python pipeline.py --self-test
           python pipeline.py
@@ -336,7 +426,8 @@ jobs:
             git add state/auto20.json
             if ! git diff --cached --quiet; then
               git commit -m 'Auto20: Clip bereitgestellt'
+              git pull --rebase origin main
               git push origin HEAD:main
             fi
           fi
-          echo 'Fertige Clips und Warteschlange: https://raw.githubusercontent.com/${{ github.repository }}/main/state/auto20.json' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Queue: https://raw.githubusercontent.com/${{ github.repository }}/main/state/auto20.json' >> "$GITHUB_STEP_SUMMARY"

@@ -51,6 +51,27 @@
       "status": "awaiting_metricool",
       "rights_status": "user_asserted_not_independently_verified",
       "video_review_status": "metadata_only"
+    },
+    {
+      "clip_id": "1497602893",
+      "clip_slug": "PeppyBloodyTeaRlyTho-BUSJgy71xak5-60U",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/PeppyBloodyTeaRlyTho-BUSJgy71xak5-60U",
+      "original_title": "Und Noway schonmal ein Lob von Doublelift bekommen?",
+      "hook": "UND NOWAY SCHONMAL EIN LOB VON DOUBLELIF…",
+      "caption": "Und Noway schonmal ein Lob von Doublelift bekommen? 😂\n#krokoboss #twitchde #streamclips",
+      "views_at_selection": 3224,
+      "original_duration": 19.0,
+      "original_created_at": "2026-10-14T20:57:22Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/krokoboss-1497602893.mp4",
+      "cover_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/krokoboss-1497602893-cover.jpg",
+      "transcript_subtitles": true,
+      "created_at": "2026-10-15T19:23:28Z",
+      "status": "awaiting_metricool",
+      "rights_status": "user_asserted_not_independently_verified",
+      "video_review_status": "metadata_only",
+      "editing_status": "rendered_9x16_with_burned_subtitles",
+      "subtitle_verified": true
     }
   ],
   "processed_ids": [
@@ -58,6 +79,8 @@
     "3570577492",
     "2667634795",
     "2169900339",
-    "CreativeSpeedyMetalPipeHype-WuzCUT11-Pk1F9WY"
+    "CreativeSpeedyMetalPipeHype-WuzCUT11-Pk1F9WY",
+    "1497602893",
+    "PeppyBloodyTeaRlyTho-BUSJgy71xak5-60U"
   ]
 }

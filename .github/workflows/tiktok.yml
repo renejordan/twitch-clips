@@ -32,7 +32,8 @@ jobs:
       - name: Clip-Tools installieren
         shell: bash
         run: |
-          python -m pip install -U yt-dlp faster-whisper
+          python -m pip install -U yt-dlp 'faster-whisper==1.2.1' 'av>=11,<19'
+          python -m pip check
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
       - name: Clips suchen und als GitHub Release bereitstellen
@@ -120,13 +121,20 @@ jobs:
           
           
           def can_prepare(state, now, event='schedule'):
-              monthly = [rec for rec in state['created'] if rec.get('created_at', '').startswith(now.strftime('%Y-%m'))]
-              if len(monthly) >= 20:
-                  return False, 'Maximal 20 produzierte Clips pro Monat'
-              if any(rec.get('created_at', '').startswith(now.strftime('%Y-%m-%d')) for rec in monthly):
-                  return False, 'Heute bereits ein Clip produziert'
-              if event == 'schedule' and (not scheduled_slot(now) or not 12 <= now.hour <= 20):
-                  return False, 'Aktuell kein Produktionsslot'
+              """Production buffer: max 60 prepared / month, max 2 / day.
+          
+              GitHub production is NOT the separate Metricool 20-post monthly limit.
+              More production candidates allow genuine replacement when clips fail review.
+              """
+              monthly = [rec for rec in state['created']
+                         if rec.get('created_at', '').startswith(now.strftime('%Y-%m'))]
+              if len(monthly) >= 60:
+                  return False, 'GitHub-Pufferlimit von 60 Produktionen in diesem Monat erreicht'
+              if sum(rec.get('created_at', '').startswith(now.strftime('%Y-%m-%d'))
+                     for rec in monthly) >= 2:
+                  return False, 'Heute bereits zwei Clip-Kandidaten erstellt'
+              if event == 'schedule' and not 9 <= now.hour <= 22:
+                  return False, 'Ausserhalb des Produktionszeitfensters (UTC)'
               return True, 'OK'
           
           
@@ -134,7 +142,7 @@ jobs:
               """Discover candidates; this listing alone does NOT verify clip age or views."""
               source = f'https://www.twitch.tv/{channel}/clips?filter=clips&range=7d'
               try:
-                  proc = run(['yt-dlp', '--no-warnings', '--flat-playlist', '--playlist-end', '20', '--dump-single-json', source], capture_output=True, timeout=65)
+                  proc = run(['yt-dlp', '--no-warnings', '--flat-playlist', '--playlist-end', '30', '--dump-single-json', source], capture_output=True, timeout=65)
                   data = json.loads(proc.stdout)
                   found = []
                   for item in data.get('entries') or []:
@@ -143,7 +151,7 @@ jobs:
                       link = item.get('webpage_url') or item.get('url') or ''
                       if isinstance(link, str) and twitch_slug(link):
                           found.append((channel, link))
-                  return found[:3]  # Check only three candidates per channel
+                  return found[:5]  # Five candidates per channel for automatic replacement
               except Exception as exc:
                   print('WARN listing', channel, repr(exc)[:140], file=sys.stderr)
                   return []
@@ -236,7 +244,11 @@ jobs:
           
           def caption(clip):
               name = slug(clip['channel_login'], 24).replace('-', '')
-              return f"{clip['title'].strip()[:85]} 😂\n#{name} #twitchde #streamclips"
+              title = re.sub(r'(?i)\bclip\s+von\s+\S+|\bquelle\s*:\s*\S+', '',
+                             clip['title']).strip(' -:')[:85]
+              if len(title) < 5:
+                  title = 'Dieser Moment war unerwartet'
+              return f'{title} 😂\n#{name} #twitchde #streamclips'
           
           
           def probe(path, size=False):
@@ -257,14 +269,18 @@ jobs:
           
           
           def transcribe(path):
-              try:
-                  from faster_whisper import WhisperModel
-                  model = WhisperModel('tiny', device='cpu', compute_type='int8', cpu_threads=4)
-                  segments, _ = model.transcribe(str(path), language='de', beam_size=1, word_timestamps=True, condition_on_previous_text=False)
-                  return [(float(w.start), float(w.end), w.word.strip()) for segment in segments for w in (segment.words or []) if w.word.strip()]
-              except Exception as exc:
-                  print('Optional subtitles unavailable', repr(exc)[:140])
-                  return []
+              """Mandatory real word timestamps. Failure means TRY THE NEXT CLIP."""
+              from faster_whisper import WhisperModel
+              model = WhisperModel('base', device='cpu', compute_type='int8', cpu_threads=4)
+              segments, _ = model.transcribe(
+                  str(path), language='de', beam_size=2, word_timestamps=True,
+                  condition_on_previous_text=False, vad_filter=False)
+              words = [(float(word.start), float(word.end), word.word.strip())
+                       for segment in segments for word in (segment.words or [])
+                       if word.word and word.word.strip()]
+              if len(words) < 3:
+                  raise ValueError('Zu wenig verstaendlicher gesprochener Inhalt fuer echte Untertitel')
+              return words
           
           
           def pick_window(duration, words):
@@ -318,6 +334,8 @@ jobs:
                   raise ValueError('Zielvideo unter 15 Sekunden')
               (OUT / 'headline.txt').write_text('\n'.join(textwrap.wrap(headline(clip), 21, break_long_words=False)[:3]), encoding='utf-8')
               has_subs = write_subs(words, start, length, OUT / 'subs.ass')
+              if not has_subs:
+                  raise ValueError('Untertitel konnten nicht erstellt werden: naechsten Clip pruefen')
               filters = ('[0:v]split=2[a][b];'
                          '[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:10[bg];'
                          '[b]scale=1080:1500:force_original_aspect_ratio=decrease,setsar=1[fg];'
@@ -325,13 +343,14 @@ jobs:
                          'drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:'
                          'textfile=rendered/headline.txt:fontsize=54:fontcolor=white:borderw=3:'
                          'bordercolor=black:box=1:boxcolor=black@0.65:boxborderw=15:x=(w-text_w)/2:y=220,')
-              if has_subs:
-                  filters += 'ass=rendered/subs.ass,'
-              filters += 'format=yuv420p[v]'
+              filters += 'ass=rendered/subs.ass,format=yuv420p[v]'
               movie = OUT / 'tiktok.mp4'
               run(['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-ss', str(start), '-t', str(length), '-i', str(source), '-filter_complex', filters, '-map', '[v]', '-map', '0:a:0?', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23', '-r', '30', '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', str(movie)], timeout=360)
               if not 15 <= probe(movie) <= 65 or probe(movie, size=True) != '1080x1920':
                   raise ValueError('MP4 validation failed')
+              # Decode 2 seconds to detect corrupted MP4s before adding them to the queue.
+              run(['ffmpeg', '-v', 'error', '-i', str(movie), '-t', '2', '-f', 'null', '-'],
+                  capture_output=True, timeout=30)
               cover = OUT / 'cover.jpg'
               run(['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-ss', '1', '-i', str(movie), '-frames:v', '1', '-q:v', '3', str(cover)], timeout=30)
               return movie, cover, has_subs
@@ -351,7 +370,13 @@ jobs:
                   run(['gh', 'release', 'create', tag, '-R', repo, '--title', f'Video-Kandidaten {now:%Y-%m}', '--notes', 'Automatisch produzierte Kandidaten; Rechte und Duplikate vor Veroeffentlichung pruefen.'], timeout=60)
               run(['gh', 'release', 'upload', tag, str(video_file), str(cover_file), '-R', repo, '--clobber'], timeout=120)
               prefix = f'https://github.com/{repo}/releases/download/{tag}/'
-              return prefix + video_name, prefix + cover_name
+              video_url = prefix + video_name
+              # This checks PUBLIC reachability, not only asset existence in GitHub's API.
+              # A newly created release URL can propagate briefly; curl retries.
+              run(['curl', '--fail', '--silent', '--show-error', '--location', '--head',
+                   '--retry', '3', '--retry-all-errors', '--retry-delay', '3',
+                   '--max-time', '90', video_url], capture_output=True, timeout=100)
+              return video_url, prefix + cover_name
           
           
           def main():
@@ -372,10 +397,12 @@ jobs:
                               verified.append(clip)
               verified.sort(key=selection_rank)
               print('Verified recent candidates:', len(verified))
-              for clip in verified[:5]:
+              for clip in verified[:20]:
                   try:
                       source = download(clip)
                       movie, cover, has_subs = render(clip, source)
+                      if not has_subs:
+                          raise ValueError('Pflicht-Untertitel fehlen')
                       video_url, cover_url = release(clip, movie, cover, now)
                       state['created'].append({
                           'clip_id': clip['id'], 'clip_slug': clip['clip_slug'],
@@ -386,7 +413,9 @@ jobs:
                           'cover_url': cover_url, 'transcript_subtitles': has_subs,
                           'created_at': iso(now), 'status': 'awaiting_metricool',
                           'rights_status': 'user_asserted_not_independently_verified',
-                          'video_review_status': 'metadata_only'
+                          'video_review_status': 'metadata_only',
+                          'editing_status': 'rendered_9x16_with_burned_subtitles',
+                          'subtitle_verified': True
                       })
                       state['processed_ids'].extend([clip['id'], clip['clip_slug']])
                       save_state(state)
@@ -412,7 +441,13 @@ jobs:
               assert very_strong(dict(example, age_hours=55))
               assert not very_strong(dict(example, age_hours=55, view_count=900))
               assert sum(scheduled_slot(dt.datetime(2026, 10, i, tzinfo=UTC)) for i in range(1, 32)) == 20
-              print('SELFTEST OK: 50 channels, date gates, caption, bans and URL validation')
+              example_record = {'created_at': iso(dt.datetime(2026, 10, 13, 13, tzinfo=UTC))}
+              assert can_prepare({'created': [example_record], 'processed_ids': []},
+                                 dt.datetime(2026, 10, 13, 14, tzinfo=UTC))[0]
+              assert not can_prepare({'created': [example_record, example_record], 'processed_ids': []},
+                                     dt.datetime(2026, 10, 13, 14, tzinfo=UTC))[0]
+              assert 'Quelle:' not in caption(dict(example, title='Quelle: https://example.org Mega fail'))
+              print('SELFTEST OK: 50 channels, verified age, mandatory subtitles, replacement buffer, captions, limits')
           
           
           if __name__ == '__main__':

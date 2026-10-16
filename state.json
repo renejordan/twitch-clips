@@ -51,10 +51,11 @@
     {
       "clip_id": "2845373187",
       "reserved_at": "2026-10-16T11:53:50Z",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2845373187-9ffc84791615.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/coachlim-2845373187-9ffc84791615.mp4",
-      "clip_slug": "AliveCautiousMonitorPJSalt-_khBUBf020YdG7yv"
+      "clip_slug": "AliveCautiousMonitorPJSalt-_khBUBf020YdG7yv",
+      "buffer_post_id": "6ad210502fe657de6ea1907f"
     }
   ]
 }

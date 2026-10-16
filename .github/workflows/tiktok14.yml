@@ -1,0 +1,128 @@
+name: TikTok14 – independent free Twitch to TikTok route
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: independent-tiktok14-main
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.TIKTOK14_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Self-test without login or uploading
+        run: |
+          python scripts/tiktok14_prepare.py --test
+          python scripts/tiktok14_publish.py selftest
+
+  auto14:
+    needs: validate
+    if: ${{ vars.TIKTOK14_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Require TikTok session (not printed)
+        shell: bash
+        env:
+          TIKTOK_SESSIONID: ${{ secrets.TIKTOK_SESSIONID }}
+        run: |
+          if [[ -z "$TIKTOK_SESSIONID" ]]; then
+            echo 'Missing secret TIKTOK_SESSIONID – no production or upload.'
+            exit 1
+          fi
+
+      - name: Install video production tools
+        shell: bash
+        run: |
+          python -m pip install -U yt-dlp 'faster-whisper==1.2.1' 'av>=11,<19'
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - name: Find and prepare one fresh clip
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MIN_VIEWS: '800'
+        run: |
+          python scripts/tiktok14_prepare.py
+
+      - name: Save produced video queue
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -f state/auto14_queue.json ]]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add state/auto14_queue.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'TikTok14: one fresh rendered clip'
+              git pull --rebase origin main
+              git push origin HEAD:main
+            fi
+          fi
+
+      - name: Select one upload with rate and duplicate checks
+        id: select
+        env:
+          TIKTOK_SESSIONID: ${{ secrets.TIKTOK_SESSIONID }}
+        run: python scripts/tiktok14_publish.py reserve
+
+      - name: Persist upload reservation BEFORE posting
+        if: steps.select.outputs.selected == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add state/auto14_publish.json
+          git commit -m 'TikTok14: reserve unique upload before attempt'
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Install browser uploader
+        if: steps.select.outputs.selected == 'true'
+        shell: bash
+        run: |
+          python -m pip install --no-cache-dir 'tiktok-uploader==1.2.0'
+          python -m playwright install --with-deps chromium
+
+      - name: Attempt exactly one public upload
+        if: steps.select.outputs.selected == 'true'
+        env:
+          TIKTOK_SESSIONID: ${{ secrets.TIKTOK_SESSIONID }}
+        run: python scripts/tiktok14_publish.py upload
+
+      - name: Save upload result
+        if: steps.select.outputs.selected == 'true' && always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add state/auto14_publish.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'TikTok14: record uploader result'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

@@ -52,6 +52,12 @@ def generate():
         ("tag = f'tiktok-{now:%Y-%m}'", "tag = f'tiktok14-{now:%Y-%m}'"),
         ("'status': 'awaiting_metricool',", "'status': 'ready_tiktok14', 'delivery_route': 'github14',"),
         ("'created': [example_record, example_record]", "'created': [example_record] * 14"),
+        ("        clip_url = info.get('webpage_url') or link",
+         "        # Verify the broadcaster, not the viewer who created the clip.\n"
+         "        if (str(info.get('channel', '')).casefold() != channel.casefold() or\n"
+         "                str(info.get('creator', '')).casefold() != channel.casefold()):\n"
+         "            return None\n"
+         "        clip_url = info.get('webpage_url') or link"),
     ]
     for old, new in alterations:
         code = replace_once(code, old, new)

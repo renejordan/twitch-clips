@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "queue": [],
+  "attempts": [
+    {
+      "clip_id": "761785150",
+      "clip_slug": "SpicyLuckyCodDeIlluminati-YapuNSUEQJCM8URt",
+      "reserved_at": "2026-10-16T09:05:16Z",
+      "status": "verified_public",
+      "buffer_post_id": "6ad1e7e9e7970040db23ebed",
+      "sent_at": "2026-10-16T09:07:25Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697189362877992225",
+      "verified_at": "2026-10-16T09:14:20Z"
+    }
+  ]
+}

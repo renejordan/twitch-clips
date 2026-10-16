@@ -1,8 +1,4 @@
-"""Cloud publishing controller, currently unconnected to any live entry point.
-
-The caller must supply a fresh, complete external-publication observation.
-Buffer's imported history alone cannot establish that observation.
-"""
+"""Single-publisher controller with explicit independent or shared accounting."""
 import datetime as dt
 import re
 from urllib.parse import urlsplit
@@ -13,6 +9,8 @@ from tiktok14_services import ServiceError, CHANNEL_ID, canonical_video
 
 
 def sources(config):
+    if config.get('accounting_mode','shared') not in ('shared','independent'):
+        raise ServiceError('unknown_accounting_mode')
     permitted = config.get('sources')
     legacy = config.get('legacy_sources')
     if (not isinstance(permitted, list) or not permitted or
@@ -21,7 +19,7 @@ def sources(config):
                 for name in permitted + legacy) or
             len(set(permitted)) != len(permitted)):
         raise ServiceError('source_permission_missing')
-    if set(permitted) & set(legacy):
+    if config.get('accounting_mode','shared') == 'shared' and set(permitted) & set(legacy):
         raise ServiceError('shared_source_coordination_required')
     return set(permitted)
 
@@ -168,7 +166,8 @@ class Worker:
                 raise ServiceError('multiple_unresolved_attempts')
             return self.reconcile(state,sha,unresolved[0],current)
         permitted = sources(config)
-        external_events = history(external,current)
+        independent = config.get('accounting_mode','shared') == 'independent'
+        external_events = {} if independent else history(external,current)
         if not state['queue']:
             return 'empty'
         item = state['queue'][0]
@@ -182,14 +181,17 @@ class Worker:
         overview = self.gateway.overview(stamp(history_start(current)),
                                           stamp(current+dt.timedelta(days=1)))
         posts = observed_posts(overview)
-        if counted_events(state,external_events,posts,current) >= 14:
+        if any(post['status'] != 'sent' for post in posts):
+            raise ServiceError('other_buffer_post_unresolved')
+        if counted_events(state,external_events,[] if independent else posts,current) >= 14:
             return 'limit'
         title = 'tiktok14-'+item['clip_id']+'-'+item['sha256'][:12]+'.mp4'
         if any(asset.get('video',{}).get('title') == title for post in posts
                for asset in post.get('assets',[]) if isinstance(asset.get('video'),dict)):
             raise ServiceError('duplicate_media')
         attempt = {'clip_id':item['clip_id'],'reserved_at':stamp(current),
-                   'status':'reserved','asset_title':title,'video_url':item['video_url']}
+                   'status':'reserved','asset_title':title,'video_url':item['video_url'],
+                   'clip_slug':item.get('clip_slug','')}
         state['attempts'].append(attempt)
         sha = self.store.save(state,sha)
         # No retry, even when the HTTP response is lost. A later run reconciles.

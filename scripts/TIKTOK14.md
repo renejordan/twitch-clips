@@ -112,3 +112,31 @@ Diese Prüfungen laden keine Medien oder Zugangsdaten und veröffentlichen nicht
 Die Zeichenkettenprüfungen beim Extrahieren der alten Inline-Pipeline stoppen
 absichtlich, wenn sich deren erwartete Struktur ändert. Langfristig ist ein
 eigenständiger Producer stabiler; die alte Pipeline wird hier nicht umgebaut.
+
+## Manueller, nur lesender Buffer-Verbindungstest
+
+Der vorhandene Buffer-Arbeitsbereich **My organization** enthält den verbundenen
+TikTok-Kanal **ufo3103**. Die normale Browseranmeldung stellt GitHub noch keine
+Anmeldedaten bereit. Dafür kann der Eigentümer einen Buffer-API-Schlüssel direkt
+bei Buffer erzeugen und ausschließlich als Repository-Secret `BUFFER_API_KEY`
+speichern. Den Wert niemals in Chat, Code, Screenshots oder Logs übernehmen.
+Der Schlüssel kann auch Schreibrechte enthalten; dieses Skript verwendet ihn
+ausschließlich für die fest eingebaute lesende GraphQL-Abfrage.
+
+`buffer_connection` läuft nur bei manueller Workflow-Ausführung auf `main` oder
+`codex/tiktok14-safety-audit`, nach erfolgreichen Offline-Tests. Pushes, Pull
+Requests und Zeitpläne erhalten den Schlüssel nicht. Ohne Secret bricht der Test
+vor dem ersten Netzwerkzugriff ab. Es werden keine Pakete installiert, keine
+Medien hochgeladen und keine Posts, Entwürfe oder Termine erzeugt.
+
+`scripts/tiktok14_buffer_check.py` prüft die exakte Kanal- und Arbeitsbereich-ID,
+TikTok-Profiladresse, Verbindung, Sperren, Zeitzone, `video.publish` und den von
+Buffer gemeldeten Kontingentstatus. HTTPS-Weiterleitungen werden abgewiesen;
+Serverantworten, Fehlermeldungen und Header werden nicht ausgegeben. Pro Lauf
+gibt es eine Anfrage ohne automatische Wiederholung. Die Ausgabe enthält nur
+ein festes Prüfergebnis und geprüfte numerische Buffer-Zähler. Diese Zähler
+bestätigen keine TikTok-Grenzen über alle Apps hinweg.
+
+Auch ein erfolgreicher Verbindungstest belegt keinen Upload und hebt die
+Veröffentlichungssperre nicht auf. Der erste echte Test benötigt weiterhin einen
+konkret geprüften Inhalt und eine anschließende Kontrolle direkt bei TikTok.

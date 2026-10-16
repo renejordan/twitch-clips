@@ -39,10 +39,11 @@
     {
       "clip_id": "263989408",
       "reserved_at": "2026-10-16T10:50:03Z",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-263989408-c43bea2af851.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/sterzik-263989408-c43bea2af851.mp4",
-      "clip_slug": "WealthyTacitEagleVoHiYo-kS6Ke7uKrixKtaQi"
+      "clip_slug": "WealthyTacitEagleVoHiYo-kS6Ke7uKrixKtaQi",
+      "buffer_post_id": "6ad2015df24c5797a235ea49"
     }
   ]
 }

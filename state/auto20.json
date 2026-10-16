@@ -93,6 +93,27 @@
       "video_review_status": "metadata_only",
       "editing_status": "rendered_9x16_with_burned_subtitles",
       "subtitle_verified": true
+    },
+    {
+      "clip_id": "1586086735",
+      "clip_slug": "DiligentSarcasticArugulaKevinTurtle-gbC316ajn04-BalO",
+      "streamer": "handofblood",
+      "source_url": "https://www.twitch.tv/handofblood/clip/DiligentSarcasticArugulaKevinTurtle-gbC316ajn04-BalO",
+      "original_title": "-1 partner +1 strike",
+      "hook": "1 PARTNER +1 STRIKE",
+      "caption": "1 partner +1 strike 😂\n#handofblood #twitchde #streamclips",
+      "views_at_selection": 1607,
+      "original_duration": 60.0,
+      "original_created_at": "2026-10-15T13:26:52Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/handofblood-1586086735.mp4",
+      "cover_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/handofblood-1586086735-cover.jpg",
+      "transcript_subtitles": true,
+      "created_at": "2026-10-16T17:26:46Z",
+      "status": "awaiting_metricool",
+      "rights_status": "user_asserted_not_independently_verified",
+      "video_review_status": "metadata_only",
+      "editing_status": "rendered_9x16_with_burned_subtitles",
+      "subtitle_verified": true
     }
   ],
   "processed_ids": [
@@ -104,6 +125,8 @@
     "1497602893",
     "PeppyBloodyTeaRlyTho-BUSJgy71xak5-60U",
     "2845373187",
-    "AliveCautiousMonitorPJSalt-_khBUBf020YdG7yv"
+    "AliveCautiousMonitorPJSalt-_khBUBf020YdG7yv",
+    "1586086735",
+    "DiligentSarcasticArugulaKevinTurtle-gbC316ajn04-BalO"
   ]
 }

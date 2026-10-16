@@ -55,3 +55,20 @@ jobs:
           python-version: '3.12'
       - name: Refuse live operations until commissioning is implemented and verified
         run: python scripts/tiktok14_publish.py preflight
+
+  buffer_connection:
+    needs: validate
+    if: ${{ github.event_name == 'workflow_dispatch' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/codex/tiktok14-safety-audit') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Read-only Buffer identity and connection check
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python scripts/tiktok14_buffer_check.py

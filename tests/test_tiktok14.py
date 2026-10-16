@@ -84,6 +84,22 @@ class PublishingTests(unittest.TestCase):
 
 
 class ProducerTests(unittest.TestCase):
+    def test_selected_source_must_match_actual_original_creator(self):
+        moment = dt.datetime(2026, 10, 16, 12, tzinfo=dt.timezone.utc)
+        metadata = dict(id='12345678', webpage_url='https://clips.twitch.tv/Example-123',
+            view_count=1200, duration=22, timestamp=(moment-dt.timedelta(hours=2)).timestamp(),
+            extractor_key='TwitchClips', title='Gaming clip', channel='OtherCreator',
+            creator='OtherCreator')
+        with tempfile.TemporaryDirectory() as temporary:
+            code = self.generated(temporary)
+            response = subprocess.CompletedProcess([],0,stdout=json.dumps(metadata))
+            with patch.object(subprocess,'run',return_value=response):
+                self.assertIsNone(code['inspect_original']('trymacs','https://clips.twitch.tv/Example-123',moment))
+            metadata.update(channel='Trymacs',creator='Trymacs')
+            response.stdout = json.dumps(metadata)
+            with patch.object(subprocess,'run',return_value=response):
+                self.assertEqual(code['inspect_original']('trymacs','https://clips.twitch.tv/Example-123',moment)['channel_login'],'trymacs')
+
     def generated(self, temporary):
         with patch.object(prepare, 'WORKFLOW', ROOT / '.github/workflows/tiktok.yml'), \
                 patch.object(prepare, 'SCRIPT', Path(temporary) / 'pipeline.py'), \

@@ -63,10 +63,11 @@
     {
       "clip_id": "1411062380",
       "reserved_at": "2026-10-16T16:56:28Z",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1411062380-7ccbcfe5808c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-1411062380-7ccbcfe5808c.mp4",
-      "clip_slug": "TameTacitAlligatorSoonerLater-4t57oOHCjEP2vLwI"
+      "clip_slug": "TameTacitAlligatorSoonerLater-4t57oOHCjEP2vLwI",
+      "buffer_post_id": "6ad2573edcd88593548c1ea3"
     }
   ]
 }

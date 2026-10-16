@@ -80,6 +80,30 @@ class Gateway:
 
 
 class WorkerTests(unittest.TestCase):
+    def test_independent_mode_needs_no_metricool_history_and_allows_same_sources(self):
+        self.config.update(accounting_mode='independent',legacy_sources=['rewinside'])
+        self.assertEqual(self.worker.run_one(self.config,None,NOW),'pending')
+        self.assertEqual(len(self.gateway.sent),1)
+
+    def test_independent_mode_still_caps_its_own_fourteen_attempts(self):
+        self.config.update(accounting_mode='independent',legacy_sources=['rewinside'])
+        self.store.data['attempts'] = [dict(clip_id=str(i),status='verified_public',
+            reserved_at='2026-10-16T10:00:00Z',sent_at='2026-10-16T10:01:00Z',
+            tiktok_url='https://www.tiktok.com/@ufo3103/video/'+str(7000000000000000000+i)) for i in range(14)]
+        self.assertEqual(self.worker.run_one(self.config,None,NOW),'limit')
+        self.assertEqual(self.gateway.sent,[])
+
+    def test_independent_mode_never_overrides_buffer_platform_quota(self):
+        self.config.update(accounting_mode='independent',legacy_sources=['rewinside'])
+        self.gateway.snapshot['dailyPostingLimits'][0]['isAtLimit']=True
+        with self.assertRaises(ServiceError): self.worker.run_one(self.config,None,NOW)
+        self.assertEqual(self.gateway.sent,[])
+
+    def test_misspelled_mode_does_not_bypass_shared_accounting(self):
+        self.config['accounting_mode']='indepedent'
+        with self.assertRaises(ServiceError): self.worker.run_one(self.config,None,NOW)
+        self.assertEqual(self.gateway.sent,[])
+
     def test_25_hour_berlin_day_requires_history_from_local_midnight(self):
         moment = dt.datetime(2026,10,25,22,30,tzinfo=dt.timezone.utc)
         external = {'complete':True,'posts':[],

@@ -44,7 +44,9 @@ def generate():
     code = extract_pipeline(WORKFLOW.read_text(encoding='utf-8'))
     alterations = [
         ("STATE = Path('state/auto20.json')", "STATE = Path('state/auto14_queue.json')"),
-        ("if len(monthly) >= 60:", "if len(monthly) >= 430:"),
+        ("if len(monthly) >= 60:", "if len(monthly) >= 14 * calendar.monthrange(now.year, now.month)[1]:"),
+        ("'GitHub-Pufferlimit von 60 Produktionen in diesem Monat erreicht'", "'TikTok14: Produktionslimit fuer diesen Monat erreicht'"),
+        ("'Heute bereits zwei Clip-Kandidaten erstellt'", "'TikTok14: heute bereits 14 Clip-Kandidaten erstellt'"),
         ("for rec in monthly) >= 2:", "for rec in monthly) >= 14:"),
         ("if event == 'schedule' and not 9 <= now.hour <= 22:", "if event == 'schedule' and not 0 <= now.hour <= 23:"),
         ("tag = f'tiktok-{now:%Y-%m}'", "tag = f'tiktok14-{now:%Y-%m}'"),
@@ -54,12 +56,20 @@ def generate():
     for old, new in alterations:
         code = replace_once(code, old, new)
     # This queue must also exclude anything ever prepared by the legacy pipeline.
-    marker = "used = set(EXCLUDE_IDS) | set(map(str, state['processed_ids']))"
-    replacement = marker + """
+    marker = "    return used, used_urls\n"
+    replacement = """
     legacy_file = Path('state/auto20.json')
     if legacy_file.exists():
         legacy = json.loads(legacy_file.read_text(encoding='utf-8'))
-        used.update(str(value) for value in legacy.get('processed_ids', []))"""
+        used.update(str(value) for value in legacy.get('processed_ids', []))
+        for rec in legacy.get('created', []):
+            used.update(str(rec.get(key, '')) for key in ('clip_id', 'clip_slug'))
+            source = rec.get('source_url', '')
+            used_urls.add(source)
+            if twitch_slug(source):
+                used.add(twitch_slug(source))
+    return used, used_urls
+"""
     code = replace_once(code, marker, replacement)
     # Changed limits: keep the original code's production tests aligned.
     compile(code, str(SCRIPT), 'exec')

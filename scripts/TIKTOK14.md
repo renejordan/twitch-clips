@@ -55,8 +55,10 @@ Die vorhandene 50er-Quellenliste überschneidet sich vollständig mit Auto20.
 Der neue Controller sperrt solche Überschneidungen derzeit. Die alte Produktion
 kann später neue TikTok14-Clips erneut auswählen, solange sie deren Journal
 nicht kennt. Ein konkreter Vorschlag für eine kleine gemeinsame Dublettenprüfung
-liegt lokal vor; die ursprüngliche Vorgabe, Auto20 unverändert zu lassen,
-bleibt bis zu einer ausdrücklichen Entscheidung bestehen.
+liegt lokal vor. Der Nutzer hat die Änderung ausdrücklich abgelehnt und
+Auto20 unverändert bestätigt. Auch die Alternative mit drei bis vier Tage
+alten Clips wurde abgelehnt: Die neue Auswahl darf höchstens 72 Stunden alt
+sein. Die derzeitige 50er-Liste hat deshalb keine getrennten zulässigen Quellen.
 
 Ein am 16.10.2026 über Metricool bestätigter öffentlicher Beitrag mit TikTok-ID
 7697173656920771862 fehlt im geprüften Buffer-Verlauf. Buffer-Importe und sein
@@ -76,7 +78,10 @@ python -m unittest discover -s tests -v
 Aktuell 53 lokale Unit-Tests und beide Selbsttests erfolgreich. Die Tests
 verwenden keine Zugangsdaten und veröffentlichen nichts. Sie sind kein
 Nachweis für einen fertigen Dauerbetrieb. Der bestehende Entwurfs-PR wird
-weiter geprüft; main wurde nicht geändert.
+weiter geprüft; main wurde nicht geändert. Der geprüfte Head
+427d7e6a3221b9c61eed03286006268492f3f8ae hat auch den
+[GitHub-Testlauf](https://github.com/renejordan/twitch-clips/actions/runs/38882090977)
+erfolgreich bestanden. Alle elf Dateien wurden mit dem lokalen Stand verglichen.
 
 ## Betrieb und Grenzen
 

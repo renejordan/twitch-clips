@@ -1,106 +1,71 @@
-# TikTok14: Sicherheitsprüfung und nächste Freigabestufe
+# TikTok14: geprüfter Einzeltest, Dauerbetrieb noch gesperrt
 
-Stand: 16. Oktober 2026. Zielkonto: **@ufo3103**.
+Stand: 16. Oktober 2026 · @ufo3103 · renejordan/twitch-clips
 
-## Aktueller Status
+## Belegter Stand
 
-**Kein betriebsbereiter Auto-Publisher.** Diese Änderung ist eine Sicherheitsstufe,
-keine Fertigstellung der gewünschten 14 täglichen Veröffentlichungen. Sie entfernt
-den unbestätigten Browser-Uploadpfad vorläufig. `preflight`, `reserve` und `upload`
-enden absichtlich mit Exitcode 3, bevor Zugangsdaten, Dateien oder Netzwerkzugriffe
-für einen Upload verwendet werden. Auch `TIKTOK14_ENABLED=true` hebt diese Sperre
-nicht auf. Der Workflow erhält nur Leserechte und keine TikTok-Secrets.
+- Der GitHub-Buffer-Verbindungstest [#14](https://github.com/renejordan/twitch-clips/actions/runs/38870139971) war erfolgreich.
+- Der Buffer-Schlüssel ist bereits als GitHub-Secret BUFFER_API_KEY eingerichtet. Sein Wert wurde nicht ausgelesen oder protokolliert.
+- Der bestätigte 18-Sekunden-Rewinside-Testclip 761785150 wurde genau einmal veröffentlicht. Buffer-Post: 6ad1e7e9e7970040db23ebed, sent am 16.10.2026 um 09:07:25 UTC.
+- [TikTok-Testbeitrag](https://www.tiktok.com/@ufo3103/video/7697189362877992225): TikTok Studio bestätigt Konto ufo3103 und Sichtbarkeit Alle. Zusätzlich bestätigt anonymes offizielles TikTok-oEmbed das exakte Konto und dieselbe Video-ID. Diesen Clip niemals erneut senden.
+- TIKTOK14_ENABLED bleibt false. Die alte Datei .github/workflows/tiktok.yml und state/auto20.json sind unverändert.
 
-Die bestehende Datei `.github/workflows/tiktok.yml`, `state/auto20.json`, Releases
-und Metricool-Konfiguration werden durch diese Änderung nicht verändert.
+## Was dieser Entwurf implementiert
 
-Der bisherige Actions-Lauf [#1](https://github.com/renejordan/twitch-clips/actions/runs/38862047466)
-prüfte ausschließlich Offline-Selbsttests: `validate` erfolgreich, `auto14`
-übersprungen. Er belegt weder eine gültige TikTok-Anmeldung noch ein veröffentlichtes Video.
-Im geprüften Hauptstand liegen weder `state/auto14_queue.json` noch
-`state/auto14_publish.json`. Nach der Anmeldung als Repository-Eigentümer wurde
-`TIKTOK14_ENABLED=false` direkt in den GitHub-Einstellungen bestätigt.
-Es sind keine Repository- oder Environment-Secrets hinterlegt. Secret-Werte
-wurden weder angefordert noch gelesen. Der Connector verweigerte Schreibzugriffe
-mit 403; der getrennte Änderungsvorschlag wird über die angemeldete GitHub-Weboberfläche
-eingereicht. Eine zusätzliche App-Installation ist dafür nicht erforderlich.
+Der unbestätigte Cookie-/Browser-Uploader wurde aus dem aktiven Pfad entfernt.
+preflight, reserve und upload in tiktok14_publish.py enden weiter mit Exitcode 3.
+Ein eingeschalteter Repository-Schalter allein kann diese Sperre nicht umgehen.
+Der aktuelle Workflow enthält ausschließlich Offline-Tests und einen manuell
+ausgelösten, lesenden Buffer-Verbindungstest. Er besitzt keine Live-Upload-Stufe.
 
-## Nachgewiesene Probleme des bisherigen Stands
+tiktok14_services.py begrenzt HTTP-Ziele, verhindert Weiterleitungen mit Tokens,
+begrenzt Antwortgrößen und gibt feste Fehlercodes statt Serverdetails zurück.
+Buffer-Zugriffe sind auf das bestätigte Konto festgelegt. Der GitHub-Zustand
+gehört auf einen eigenen verwaisten Zweig tiktok14-state, der ausschließlich
+state.json enthält. Keine Kopie von main: Sie könnte den alten Push-Trigger
+auslösen. Zustandsänderungen verlangen die vorherige GitHub-Dateiversion.
 
-- `tiktok-uploader==1.2.0`: `_set_video` verwendet `range(num_retries)`.
-  Mit dem übergebenen Wert `0` wird die Datei nie ausgewählt. Der tatsächliche
-  Paketcode wurde ohne Ausführung einer Browseranmeldung untersucht und diese
-  Null-Durchlauf-Bedingung isoliert reproduziert.
-- Derselbe Paketcode druckt Cookie-Werte in `auth.py`. Die bisherige Umleitung der
-  Ausgabekanäle war kein Nachweis für vollständig geschützte Zugangsdaten über den
-  gesamten Prozess, Unterprozesse und eventuelle Diagnoseartefakte.
-- `account_expected='@ufo3103'` war nur ein Journaleintrag. Eine Prüfung der
-  tatsächlich angemeldeten Identität fehlte.
-- `reported_success_unverified` erlaubte weitere Versuche. Jetzt stoppen alle
-  nicht unabhängig bestätigten Zustände auch nach Ablauf eines Tages.
-- Ein fester Produktionsdeckel von 430 reicht für 31 × 14 = 434 nicht aus.
-  Die isolierte Produktion berechnet nun 14 × Kalendertage des Monats.
-- Der neue Producer las bei alten Clips nur `processed_ids`; ältere Datensätze
-  enthalten teilweise ausschließlich `created`-IDs und Quell-URLs. Diese werden
-  jetzt ebenfalls ausgeschlossen.
-- Der alte Auto20-Producer kennt TikTok14 weiterhin nicht. Die beiden Workflows
-  besitzen unterschiedliche Sperren; parallele Auswahl desselben Clips bleibt
-  deshalb möglich. Einseitiges Ausschließen und `git pull --rebase` lösen dieses
-  Problem nicht. Das ist ein offener Grund für die Uploadsperre.
-- Naive Zeitstempel, zukünftige Reservierungen und manipulierte Release-Pfade
-  werden in den Offline-Prüfungen nun abgewiesen. Ein künftiger Downloader benötigt
-  zusätzlich eine kontrollierte Redirect-Kette, Größen- und Medienprüfung.
+tiktok14_worker.py ist eine noch nicht mit einem Live-Einstieg verbundene
+Steuerung. Vor jedem Senden wird eine Reservierung dauerhaft gespeichert.
+Netzwerkfehler werden nicht automatisch erneut gesendet. Bekannte Buffer-IDs
+werden gelesen, unbekannte Ergebnisse anhand eines eindeutigen Mediennamens
+abgeglichen; Mehrdeutigkeit stoppt. sent allein reicht nicht: Konto, Video-ID,
+Zeitpunkt und öffentliche TikTok-oEmbed-Bestätigung müssen passen.
 
-## Scheduler und Kosten
+Der Controller prüft Quellen, verarbeitete IDs, Mediennamen, Kanalzustand,
+Buffer-Quoten, vollständige Abfrageseiten und 14 Versuche im Berliner
+Kalendertag bzw. rollierenden 24 Stunden. Er verlangt zusätzlich eine frische,
+unabhängige und vollständige Beobachtung anderer Veröffentlichungswege. Einen
+solchen automatischen Beobachter gibt es in diesem Entwurf noch nicht.
+Keine Datei mit erfundenem complete=true als Ersatz verwenden.
 
-`33 * * * *` bietet nominell 24 Startgelegenheiten pro Tag in UTC, jeweils höchstens
-eine Produktion bzw. ein Upload im bisherigen Entwurf. GitHub kann geplante Läufe
-verzögern oder auslassen. Die jüngsten alten Auto20-Schedule-Läufe kamen deutlich
-seltener als stündlich. Offline-Tests beweisen weder Scheduler-Zuverlässigkeit noch
-eine Kapazität von 14 gerenderten, freigegebenen Videos pro Tag.
+Die isolierte Clip-Produktion berücksichtigt alte created-IDs und Quell-Slugs,
+berechnet 14 × Kalendertage statt eines festen Monatslimits von 430 und prüft
+den tatsächlichen Broadcaster des Twitch-Originals. Der Zuschauer, der den Clip
+erstellt hat, ist kein Nachweis für den freigegebenen Ursprungskanal.
 
-Der Code begrenzt höchstens 14 Versuche pro rollierenden 24 Stunden und Berliner
-Kalendertag; er garantiert keine erfolgreichen Posts. Diese Zahl umfasst noch
-nicht Veröffentlichungen über Metricool oder manuell. Vor Livebetrieb braucht es
-eine gemeinsame Kontierung aller Routen und ein niedrigeres Limit, falls TikTok
-es für das Konto vorgibt. Keine Wiederholung bei unbekanntem Ergebnis, CAPTCHA,
-Authentifizierungsfehler oder Plattformlimit.
+## Offene Inbetriebnahme
 
-Standardrunner sind für öffentliche Repositorys nach den aktuellen
-[GitHub-Abrechnungsregeln](https://docs.github.com/en/billing/concepts/product-billing/github-actions)
-kostenlos. Daraus folgt keine Garantie für eine dauerhaft kostenlose Gesamtlösung;
-Release-Speicher, Laufzeit, Plattformregeln und externe Dienste bleiben gesondert zu prüfen.
+Der vollständige Cloud-Ablauf aus Suche, Bearbeitung, Media-Hosting und Upload
+ist noch nicht angeschlossen. Normale Läufe sollen öffentliche GitHub-Release-
+MP4-Adressen an Buffer übergeben; lokale Dateiauswahl ist dafür nicht vorgesehen.
+Ein Cloud-Medienentwurf und die erste reguläre Ausführung sind noch zu prüfen.
 
-## Voraussetzungen für den nächsten echten Test
+Die vorhandene 50er-Quellenliste überschneidet sich vollständig mit Auto20.
+Der neue Controller sperrt solche Überschneidungen derzeit. Die alte Produktion
+kann später neue TikTok14-Clips erneut auswählen, solange sie deren Journal
+nicht kennt. Ein konkreter Vorschlag für eine kleine gemeinsame Dublettenprüfung
+liegt lokal vor; die ursprüngliche Vorgabe, Auto20 unverändert zu lassen,
+bleibt bis zu einer ausdrücklichen Entscheidung bestehen.
 
-1. Eine unterstützte sichere Anmeldemethode festlegen. Eine reguläre interaktive
-   Anmeldung erfolgt direkt auf TikTok; keine Passwörter, Session-Cookies oder
-   Token in Chat, Repository, öffentliche Logs, Screenshots oder Actions-Artefakte
-   übernehmen. Ein zukünftiger Adapter muss die Identität **vor** Dateiübertragung
-   zuverlässig als @ufo3103 bestätigen und bei Unklarheit stoppen.
-2. Eine atomare gemeinsame Reservierung und eindeutige Clip-Identität für alle
-   aktiven Veröffentlichungsrouten entwerfen. Ohne Änderung der alten Pipeline
-   erfordert das eine nachweislich überschneidungsfreie Quelle oder eine andere
-   gemeinsam wirksame Koordination. Keine vorhandenen Auto20-Zustände überschreiben.
-3. Einen konkreten Clip einschließlich Bild, Ton, Untertiteln, Caption und
-   Veröffentlichungsrechten prüfen. Dann einen getrennten manuellen Einmal-Test
-   implementieren; der Stundenplan bleibt ausgeschaltet. Dieses PR führt diesen
-   Test ausdrücklich noch nicht aus.
-4. Ergebnis direkt bei TikTok prüfen: richtiges Konto, eindeutige Video-ID bzw.
-   URL, tatsächlich gewünschte Sichtbarkeit und abgeschlossene Verarbeitung.
-   Eine Rückgabe `True` der Browserbibliothek reicht nicht. Auch das Wiederanlaufen
-   nach einem Absturz zwischen Upload und Speicherung muss sicher bleiben.
-5. Erst nach erfolgreicher Prüfung den Scheduler stufenweise aktivieren und
-   Fehler-/Limitstopps testen. Keine Umgehung von TikTok-Limits oder Challenges.
+Ein am 16.10.2026 über Metricool bestätigter öffentlicher Beitrag mit TikTok-ID
+7697173656920771862 fehlt im geprüften Buffer-Verlauf. Buffer-Importe und sein
+Tageszähler sind deshalb kein vollständiger Kontonachweis. Ein kostenloser
+verlässlicher Abgleich bzw. eine bestätigte sichere gemeinsame Planung ist
+vor Aktivierung erforderlich. Keine niedrigeren Grenzen umgehen oder 14
+zusätzliche Buffer-Posts bei gleichzeitigem Alt-Betrieb versprechen.
 
-Die offizielle [Content Posting API](https://developers.tiktok.com/docs/en/content-posting-api-get-started)
-benötigt App- und Nutzerautorisierung. Nicht auditierte Clients sind auf private
-Sichtbarkeit beschränkt. Die [TikTok-Richtlinien](https://developers.tiktok.com/doc/content-sharing-guidelines/)
-nennen kontospezifische, über API-Clients geteilte Postinglimits und Einschränkungen
-für interne Upload-Utilities. Sie ist deshalb keine automatisch verfügbare
-Ersatzlösung für unbeaufsichtigte öffentliche Posts auf dem eigenen Konto.
-
-## Offline-Prüfung
+## Tests
 
 ```sh
 python scripts/tiktok14_prepare.py --test
@@ -108,35 +73,21 @@ python scripts/tiktok14_publish.py selftest
 python -m unittest discover -s tests -v
 ```
 
-Diese Prüfungen laden keine Medien oder Zugangsdaten und veröffentlichen nichts.
-Die Zeichenkettenprüfungen beim Extrahieren der alten Inline-Pipeline stoppen
-absichtlich, wenn sich deren erwartete Struktur ändert. Langfristig ist ein
-eigenständiger Producer stabiler; die alte Pipeline wird hier nicht umgebaut.
+Aktuell 53 lokale Unit-Tests und beide Selbsttests erfolgreich. Die Tests
+verwenden keine Zugangsdaten und veröffentlichen nichts. Sie sind kein
+Nachweis für einen fertigen Dauerbetrieb. Der bestehende Entwurfs-PR wird
+weiter geprüft; main wurde nicht geändert.
 
-## Manueller, nur lesender Buffer-Verbindungstest
+## Betrieb und Grenzen
 
-Der vorhandene Buffer-Arbeitsbereich **My organization** enthält den verbundenen
-TikTok-Kanal **ufo3103**. Die normale Browseranmeldung stellt GitHub noch keine
-Anmeldedaten bereit. Dafür kann der Eigentümer einen Buffer-API-Schlüssel direkt
-bei Buffer erzeugen und ausschließlich als Repository-Secret `BUFFER_API_KEY`
-speichern. Den Wert niemals in Chat, Code, Screenshots oder Logs übernehmen.
-Der Schlüssel kann auch Schreibrechte enthalten; dieses Skript verwendet ihn
-ausschließlich für die fest eingebaute lesende GraphQL-Abfrage.
+Die stündliche Codex-Aufgabe überwacht die Inbetriebnahme und darf keinen
+zweiten Publisher neben einem späteren GitHub-Worker bilden. Bei unverändertem
+Zustand bleibt sie still. Scheduler können verspätet laufen oder ausfallen;
+aus 24 Startgelegenheiten folgt keine Zusage von 14 erfolgreichen Posts.
+Authentifizierungsfehler, unbekannte Ergebnisse, unvollständige Historie,
+Challenges, Quoten und fehlende zulässige Clips stoppen den Ablauf.
 
-`buffer_connection` läuft nur bei manueller Workflow-Ausführung auf `main` oder
-`codex/tiktok14-safety-audit`, nach erfolgreichen Offline-Tests. Pushes, Pull
-Requests und Zeitpläne erhalten den Schlüssel nicht. Ohne Secret bricht der Test
-vor dem ersten Netzwerkzugriff ab. Es werden keine Pakete installiert, keine
-Medien hochgeladen und keine Posts, Entwürfe oder Termine erzeugt.
-
-`scripts/tiktok14_buffer_check.py` prüft die exakte Kanal- und Arbeitsbereich-ID,
-TikTok-Profiladresse, Verbindung, Sperren, Zeitzone, `video.publish` und den von
-Buffer gemeldeten Kontingentstatus. HTTPS-Weiterleitungen werden abgewiesen;
-Serverantworten, Fehlermeldungen und Header werden nicht ausgegeben. Pro Lauf
-gibt es eine Anfrage ohne automatische Wiederholung. Die Ausgabe enthält nur
-ein festes Prüfergebnis und geprüfte numerische Buffer-Zähler. Diese Zähler
-bestätigen keine TikTok-Grenzen über alle Apps hinweg.
-
-Auch ein erfolgreicher Verbindungstest belegt keinen Upload und hebt die
-Veröffentlichungssperre nicht auf. Der erste echte Test benötigt weiterhin einen
-konkret geprüften Inhalt und eine anschließende Kontrolle direkt bei TikTok.
+[Buffer API](https://developers.buffer.com/guides/getting-started.html),
+[öffentliche MP4-Adressen](https://developers.buffer.com/examples/create-video-post.html),
+[TikTok oEmbed](https://developers.tiktok.com/docs/en/embed-videos),
+[GitHub-Zeitpläne](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).

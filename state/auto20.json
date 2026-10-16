@@ -72,6 +72,27 @@
       "video_review_status": "metadata_only",
       "editing_status": "rendered_9x16_with_burned_subtitles",
       "subtitle_verified": true
+    },
+    {
+      "clip_id": "2845373187",
+      "clip_slug": "AliveCautiousMonitorPJSalt-_khBUBf020YdG7yv",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/AliveCautiousMonitorPJSalt-_khBUBf020YdG7yv",
+      "original_title": "ludwig de verbot",
+      "hook": "LUDWIG DE VERBOT",
+      "caption": "ludwig de verbot 😂\n#coachlim #twitchde #streamclips",
+      "views_at_selection": 886,
+      "original_duration": 25.0,
+      "original_created_at": "2026-10-14T23:40:04Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/coachlim-2845373187.mp4",
+      "cover_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/coachlim-2845373187-cover.jpg",
+      "transcript_subtitles": true,
+      "created_at": "2026-10-16T12:27:54Z",
+      "status": "awaiting_metricool",
+      "rights_status": "user_asserted_not_independently_verified",
+      "video_review_status": "metadata_only",
+      "editing_status": "rendered_9x16_with_burned_subtitles",
+      "subtitle_verified": true
     }
   ],
   "processed_ids": [
@@ -81,6 +102,8 @@
     "2169900339",
     "CreativeSpeedyMetalPipeHype-WuzCUT11-Pk1F9WY",
     "1497602893",
-    "PeppyBloodyTeaRlyTho-BUSJgy71xak5-60U"
+    "PeppyBloodyTeaRlyTho-BUSJgy71xak5-60U",
+    "2845373187",
+    "AliveCautiousMonitorPJSalt-_khBUBf020YdG7yv"
   ]
 }

@@ -59,6 +59,14 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697232709906681121",
       "sent_at": "2026-10-16T11:55:35Z",
       "verified_at": "2026-10-16T11:56:04Z"
+    },
+    {
+      "clip_id": "1411062380",
+      "reserved_at": "2026-10-16T16:56:28Z",
+      "status": "reserved",
+      "asset_title": "tiktok14-1411062380-7ccbcfe5808c.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-1411062380-7ccbcfe5808c.mp4",
+      "clip_slug": "TameTacitAlligatorSoonerLater-4t57oOHCjEP2vLwI"
     }
   ]
 }

@@ -135,6 +135,27 @@
       "video_review_status": "metadata_only",
       "editing_status": "rendered_9x16_with_burned_subtitles",
       "subtitle_verified": true
+    },
+    {
+      "clip_id": "1411062380",
+      "clip_slug": "TameTacitAlligatorSoonerLater-4t57oOHCjEP2vLwI",
+      "streamer": "noway4u_sir",
+      "source_url": "https://www.twitch.tv/noway4u_sir/clip/TameTacitAlligatorSoonerLater-4t57oOHCjEP2vLwI",
+      "original_title": "Bard troll 100",
+      "hook": "BARD TROLL 100",
+      "caption": "Bard troll 100 😂\n#noway4usir #twitchde #streamclips",
+      "views_at_selection": 975,
+      "original_duration": 27.0,
+      "original_created_at": "2026-10-15T17:14:50Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/noway4u-sir-1411062380.mp4",
+      "cover_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/noway4u-sir-1411062380-cover.jpg",
+      "transcript_subtitles": true,
+      "created_at": "2026-10-17T13:45:03Z",
+      "status": "awaiting_metricool",
+      "rights_status": "user_asserted_not_independently_verified",
+      "video_review_status": "metadata_only",
+      "editing_status": "rendered_9x16_with_burned_subtitles",
+      "subtitle_verified": true
     }
   ],
   "processed_ids": [
@@ -150,6 +171,8 @@
     "1586086735",
     "DiligentSarcasticArugulaKevinTurtle-gbC316ajn04-BalO",
     "2914846804",
-    "MistyAgitatedPicklesKAPOW-_IMwx3P0gVRlJBWy"
+    "MistyAgitatedPicklesKAPOW-_IMwx3P0gVRlJBWy",
+    "1411062380",
+    "TameTacitAlligatorSoonerLater-4t57oOHCjEP2vLwI"
   ]
 }

@@ -114,6 +114,27 @@
       "video_review_status": "metadata_only",
       "editing_status": "rendered_9x16_with_burned_subtitles",
       "subtitle_verified": true
+    },
+    {
+      "clip_id": "2914846804",
+      "clip_slug": "MistyAgitatedPicklesKAPOW-_IMwx3P0gVRlJBWy",
+      "streamer": "gronkh",
+      "source_url": "https://www.twitch.tv/gronkh/clip/MistyAgitatedPicklesKAPOW-_IMwx3P0gVRlJBWy",
+      "original_title": "Maurice auf dich",
+      "hook": "MAURICE AUF DICH",
+      "caption": "Maurice auf dich 😂\n#gronkh #twitchde #streamclips",
+      "views_at_selection": 876,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-16T22:33:00Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/gronkh-2914846804.mp4",
+      "cover_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok-2026-10/gronkh-2914846804-cover.jpg",
+      "transcript_subtitles": true,
+      "created_at": "2026-10-17T09:24:15Z",
+      "status": "awaiting_metricool",
+      "rights_status": "user_asserted_not_independently_verified",
+      "video_review_status": "metadata_only",
+      "editing_status": "rendered_9x16_with_burned_subtitles",
+      "subtitle_verified": true
     }
   ],
   "processed_ids": [
@@ -127,6 +148,8 @@
     "2845373187",
     "AliveCautiousMonitorPJSalt-_khBUBf020YdG7yv",
     "1586086735",
-    "DiligentSarcasticArugulaKevinTurtle-gbC316ajn04-BalO"
+    "DiligentSarcasticArugulaKevinTurtle-gbC316ajn04-BalO",
+    "2914846804",
+    "MistyAgitatedPicklesKAPOW-_IMwx3P0gVRlJBWy"
   ]
 }

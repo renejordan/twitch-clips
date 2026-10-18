@@ -279,6 +279,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-18T11:23:52Z",
       "reason": "qa_final_composition_failed"
+    },
+    {
+      "clip_id": "3857817711",
+      "clip_slug": "IcyUninterestedHamburgerPhilosoraptor-UeZP0-IgYO9XGJNw",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/IcyUninterestedHamburgerPhilosoraptor-UeZP0-IgYO9XGJNw",
+      "status": "quality_rejected",
+      "created_at": "2026-10-18T17:10:15Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

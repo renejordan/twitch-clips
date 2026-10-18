@@ -77,7 +77,8 @@
   },
   "prepare_scans": {
     "hour": "2026-10-18T10",
-    "count": 3
+    "revision": "426ee84e9933eba9ee6b794171ff773fcbd8bf52",
+    "count": 1
   },
   "source_ranking": {
     "source_url": "https://twitchtracker.com/channels/ranking/german",

@@ -137,5 +137,16 @@
     ],
     "fetched_at": "2026-10-18T10:56:13.872971+00:00",
     "result": "fresh"
-  }
+  },
+  "rejected": [
+    {
+      "clip_id": "4108530673",
+      "clip_slug": "SilkyTenuousWormTwitchRaid-DMvxDa1fde6oLFwi",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/SilkyTenuousWormTwitchRaid-DMvxDa1fde6oLFwi",
+      "status": "quality_rejected",
+      "created_at": "2026-10-18T10:56:13Z",
+      "reason": "qa_caption_text_density"
+    }
+  ]
 }

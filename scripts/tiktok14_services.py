@@ -43,6 +43,8 @@ def request_json(url, token=None, method='GET', payload=None):
     request = Request(url, data=raw, headers=headers, method=method)
     try:
         with build_opener(NoRedirect()).open(request, timeout=25) as response:
+            if getattr(response,'status',200)==204:
+                return {}
             body = response.read(MAX_BYTES+1)
     except HTTPError as error:
         service = 'github' if github else 'buffer' if buffer else 'tiktok'

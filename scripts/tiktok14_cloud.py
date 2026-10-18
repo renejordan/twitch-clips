@@ -1,6 +1,7 @@
 """GitHub-only production and Buffer delivery. No Metricool access or cookies."""
 import base64
 import contextlib
+import concurrent.futures
 import copy
 import datetime as dt
 import hashlib
@@ -11,13 +12,14 @@ from pathlib import Path
 import re
 import subprocess
 import sys
-import time
 from urllib.error import HTTPError
 from urllib.parse import urlsplit
 from urllib.request import Request, build_opener
 
 import tiktok14_prepare as producer
-from tiktok14_publish import eligible, parse_timestamp, stamp, REPO_PREFIX
+from tiktok14_publish import eligible, parse_timestamp, stamp, REPO_PREFIX, MAX_PER_DAY
+from tiktok14_quality import identities, blocked, review_error
+from tiktok14_media import configure as configure_media
 from tiktok14_services import (BufferGateway, GitHubAPI, GitHubState, NoRedirect,
                                ServiceError, verify_public)
 from tiktok14_worker import Worker, counted_events, sources
@@ -48,8 +50,9 @@ def ensure_store(github):
         github.call('GET','/git/ref/heads/tiktok14-state')
     except ServiceError as error:
         if str(error) != 'github_http_404': raise
-        if not verify_public(TEST_URL): raise ServiceError('first_test_not_public')
-        store.initialize(initial_state())
+        # The initial one-post commissioning seed is no longer complete history.
+        # Restore the existing journal; never erase deduplication after deletion.
+        raise ServiceError('state_branch_missing_restore_required') from None
     # An existing but corrupt/inaccessible branch must never be initialized over.
     store.load()
     return store
@@ -62,6 +65,7 @@ def legacy_ids(data):
     used=set(map(str,data['processed_ids']))
     for row in data['created']:
         if not isinstance(row,dict): raise ServiceError('invalid_auto20_record')
+        used.update(identities(row))
         used.update(str(row.get(key,'')) for key in ('clip_id','clip_slug'))
         url=row.get('source_url','')
         if isinstance(url,str) and re.fullmatch(r'https://(?:www\.)?twitch\.tv/[^/]+/clip/[^/?#]+|https://clips\.twitch\.tv/[^/?#]+',url):
@@ -81,10 +85,19 @@ def read_legacy(github):
 
 
 def legacy_running(github):
-    data=github.call('GET','/actions/workflows/tiktok.yml/runs?status=in_progress&per_page=1')
-    count=data.get('total_count')
-    if type(count) is not int or count<0: raise ServiceError('invalid_auto20_run_status')
-    return count>0
+    for status in ('in_progress','queued','waiting','pending'):
+        data=github.call('GET','/actions/workflows/tiktok.yml/runs?status='+status+'&per_page=1')
+        count=data.get('total_count')
+        if type(count) is not int or count<0: raise ServiceError('invalid_auto20_run_status')
+        if count: return True
+    return False
+
+
+def assert_single_route(github,config):
+    if set(config['sources']) & set(config['legacy_sources']):
+        workflow=github.call('GET','/actions/workflows/tiktok.yml')
+        if workflow.get('state')!='disabled_manually':
+            raise ServiceError('overlapping_auto20_route_must_be_retired')
 
 
 def child_environment():
@@ -112,6 +125,8 @@ def producer_namespace():
     namespace={'__name__':'tiktok14_isolated_producer'}
     exec(compile(producer.SCRIPT.read_text(encoding='utf-8'),str(producer.SCRIPT),'exec'),namespace)
     namespace['run']=run_media
+    namespace['_report']={}
+    configure_media(namespace,namespace['_report'])
     return namespace
 
 
@@ -141,8 +156,17 @@ class Host:
             self.command(['release','create',tag,'--target','main','--title',
                           'TikTok14 '+current.strftime('%Y-%m'),'--notes',
                           'Separat vorbereitete Gaming-Clips fuer TikTok14.'])
+        # Publish review evidence alongside the exact hashed MP4.
+        evidence=[]
+        for source,suffix in (('transcript.json','-transcript.json'),
+                ('source-frames.jpg','-source-frames.jpg'),('final-frames.jpg','-final-frames.jpg')):
+            path=video.parent/source
+            if path.exists():
+                target=video.parent/(name+suffix)
+                target.write_bytes(path.read_bytes())
+                evidence.append(str(target))
         # Never replace existing media. Unknown hosting outcomes cannot overwrite it.
-        self.command(['release','upload',tag,str(movie),str(thumb)])
+        self.command(['release','upload',tag,str(movie),str(thumb),*evidence])
         prefix=REPO_PREFIX+current.strftime('%Y-%m')+'/'
         return prefix+movie.name,prefix+thumb.name,digest
 
@@ -153,19 +177,27 @@ def prepare(store,config,legacy,current,host):
     state,sha=store.load()
     if any(row.get('status')!='verified_public' for row in state['attempts']):
         return 'pending'
-    if counted_events(state,{},[],current)>=14: return 'limit'
+    if counted_events(state,{},[],current)>=MAX_PER_DAY: return 'limit'
     if state['queue']:
         item=state['queue'][0]
         if (eligible(item,current) and item.get('streamer') in permitted and
-                not {item['clip_id'],item.get('clip_slug','')} & old):
+                not identities(item) & old):
             return 'ready'
+        if (item.get('status')=='awaiting_review_tiktok14' and not blocked(item) and
+                item.get('streamer') in permitted and not identities(item)&old and
+                0 <= (current-parse_timestamp(item['original_created_at'])).total_seconds() <= 72*3600):
+            return 'needs_review'
         state.setdefault('rejected',[]).extend(state['queue'])
         state['queue']=[]
         sha=store.save(state,sha)
+    slot=current.strftime('%Y-%m-%dT%H')
+    if state.get('last_prepare_hour')==slot: return 'hour_complete'
     namespace=producer_namespace()
     namespace['STREAMERS']=list(config['sources'])
     namespace['RANK']={name:index+1 for index,name in enumerate(config['sources'])}
     namespace['now_utc']=lambda:current
+    # Cloud budget counts sends, not failed/rejected production records.
+    namespace['can_prepare']=lambda *a,**k:(True,'OK')
     records=copy.deepcopy(state.get('rejected',[]))
     records += [dict(row,created_at=row.get('created_at',row['reserved_at']))
                 for row in state['attempts']]
@@ -180,14 +212,23 @@ def prepare(store,config,legacy,current,host):
             url,thumbnail,digest=host(clip,movie,cover,now)
         except Exception:
             raise ProductionInterrupted('media_host_failed') from None
-        receipts[url]=digest
+        receipts[url]=(digest,clip)
         return url,thumbnail
     def persist(data):
         nonlocal sha
         record=copy.deepcopy(data['created'][-1])
-        digest=receipts.get(record.get('video_url'))
-        if not digest: raise ServiceError('unverified_production_receipt')
-        record.update(sha256=digest,rights_status='user_declared_source_list')
+        receipt=receipts.get(record.get('video_url'))
+        if not receipt: raise ServiceError('unverified_production_receipt')
+        digest,clip=receipt
+        record.update(sha256=digest,rights_status='user_declared_source_list',
+            status='awaiting_review_tiktok14',video_review_status='full_media_review_required',
+            subtitle_verified=False,category=clip.get('category'))
+        transcript=Path('rendered/transcript.json')
+        if transcript.exists():
+            record['transcript_sha256']=hashlib.sha256(transcript.read_bytes()).hexdigest()
+        root=record['video_url'][:-4]
+        record['review_assets']={'transcript':root+'-transcript.json',
+            'source_frames':root+'-source-frames.jpg','final_frames':root+'-final-frames.jpg'}
         candidate=copy.deepcopy(state)
         candidate['queue']=[record]
         try:
@@ -205,7 +246,43 @@ def prepare(store,config,legacy,current,host):
             namespace['main']()
         except ProductionInterrupted as error:
             raise ServiceError(str(error)) from None
-    return 'ready' if state['queue'] else 'empty'
+    counts=dict(namespace.get('_report',{}).get('counts',{}))
+    result=('needs_review' if state['queue'] else
+        'degraded' if counts.get('listing_failed') or counts.get('metadata_failed') else 'empty')
+    state['last_prepare_hour']=slot
+    state['last_production']={'at':stamp(current),'result':result,'counts':counts}
+    store.save(state,sha)
+    report_result(state['last_production'])
+    return result
+
+
+def report_result(report):
+    Path('tiktok14-diagnostics.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+    print('TikTok14 diagnostics: '+json.dumps(report,sort_keys=True))
+    summary=os.getenv('GITHUB_STEP_SUMMARY')
+    if summary:
+        with open(summary,'a',encoding='utf-8') as handle:
+            handle.write('### TikTok production diagnostics\n```json\n'+json.dumps(report,indent=2)+'\n```\n')
+
+
+def diagnose(config,legacy,state,current):
+    """Network metadata only: no media download, render, hosting, state write or post."""
+    namespace=producer_namespace()
+    namespace['STREAMERS']=list(sources(config))
+    namespace['RANK']={name:i+1 for i,name in enumerate(config['sources'])}
+    old=legacy_ids(legacy)
+    for row in state['attempts']+state['queue']+state.get('rejected',[]): old.update(identities(row))
+    candidates=[pair for pair in namespace['fetch_candidates']()
+                if namespace['twitch_slug'](pair[1]) not in old]
+    qualified=[]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+        for clip in pool.map(lambda pair:namespace['inspect_original'](*pair,current),candidates):
+            if clip and not identities(clip)&old: qualified.append(clip)
+    report={'at':stamp(current),'mode':'read_only','counts':dict(namespace['_report']['counts']),
+        'qualified':[{'clip_id':x['id'],'streamer':x['channel_login'],
+            'category':x['category'],'age_hours':round(x['age_hours'],2)} for x in qualified]}
+    report_result(report)
+    return 'degraded' if report['counts'].get('listing_failed') or report['counts'].get('metadata_failed') else 'diagnosed'
 
 
 def allowed_media_redirect(url):
@@ -251,23 +328,24 @@ def publish(store,config,github,key):
     if not pending:
         if legacy_running(github): return 'auto20_running'
         if not state['queue']: return 'empty'
+        assert_single_route(github,config)
         item=state['queue'][0]
         old=legacy_ids(read_legacy(github))
-        if {item['clip_id'],item.get('clip_slug','')} & old:
+        if identities(item) & old or blocked(item):
             state.setdefault('rejected',[]).extend(state['queue'])
             state['queue']=[]
             store.save(state,sha)
             return 'known_auto20_duplicate_skipped'
         if not eligible(item,dt.datetime.now(dt.timezone.utc)):
+            if review_error(item,dt.datetime.now(dt.timezone.utc)):
+                return 'needs_review'
             raise ServiceError('queued_clip_expired')
         verify_media(item['video_url'],item.get('sha256'))
     gateway=BufferGateway(key)
     worker=Worker(store,gateway,verify_public)
     result=worker.run_one(config,None,dt.datetime.now(dt.timezone.utc))
-    for _ in range(3):
-        if result not in ('pending','unverified'): break
-        time.sleep(60)
-        result=worker.run_one(config,None,dt.datetime.now(dt.timezone.utc))
+    # One API operation per tick; reconcile on the next scheduled opportunity.
+    # Blind minute polling consumed the free plan's monthly request allowance.
     if result=='verified_public':
         final,_=store.load()
         print('TikTok verified: '+final['attempts'][-1]['tiktok_url'])
@@ -282,8 +360,8 @@ def main(action=None):
     try:
         ref=os.getenv('GITHUB_REF','')
         if (os.getenv('GITHUB_REPOSITORY')!=REPOSITORY or
-                ref not in ('refs/heads/main','refs/heads/codex/tiktok14-safety-audit') or
-                action not in ('prepare','publish') or
+                ref not in ('refs/heads/main','refs/heads/codex/tiktok14-safety-audit','refs/heads/codex/tiktok14-reliability') or
+                action not in ('prepare','publish','diagnose') or
                 (action=='publish' and ref!='refs/heads/main')):
             raise ServiceError('unapproved_cloud_context')
         config=json.loads(CONFIG.read_text(encoding='utf-8'))
@@ -291,7 +369,10 @@ def main(action=None):
             raise ServiceError('independent_mode_not_configured')
         sources(config)
         github=GitHubAPI(token)
-        if action=='prepare':
+        if action=='diagnose':
+            state,_=GitHubState(github).load()
+            result=diagnose(config,read_legacy(github),state,dt.datetime.now(dt.timezone.utc))
+        elif action=='prepare':
             store=ensure_store(github)
             result=('auto20_running' if legacy_running(github) else
                     prepare(store,config,read_legacy(github),
@@ -299,7 +380,7 @@ def main(action=None):
         else:
             result=publish(GitHubState(github),config,github,key)
         print('TikTok14 '+action+': '+result)
-        return 0 if result not in ('unresolved','unverified') else 1
+        return 0 if result not in ('unresolved','unverified','degraded') else 1
     except ServiceError as error:
         code=str(error)
         print('STOP: '+(code if re.fullmatch('[a-z0-9_]+',code) else 'cloud_check_failed'))

@@ -44,14 +44,14 @@ def generate():
     code = extract_pipeline(WORKFLOW.read_text(encoding='utf-8'))
     alterations = [
         ("STATE = Path('state/auto20.json')", "STATE = Path('state/auto14_queue.json')"),
-        ("if len(monthly) >= 60:", "if len(monthly) >= 14 * calendar.monthrange(now.year, now.month)[1]:"),
+        ("if len(monthly) >= 60:", "if len(monthly) >= 15 * calendar.monthrange(now.year, now.month)[1]:"),
         ("'GitHub-Pufferlimit von 60 Produktionen in diesem Monat erreicht'", "'TikTok14: Produktionslimit fuer diesen Monat erreicht'"),
-        ("'Heute bereits zwei Clip-Kandidaten erstellt'", "'TikTok14: heute bereits 14 Clip-Kandidaten erstellt'"),
-        ("for rec in monthly) >= 2:", "for rec in monthly) >= 14:"),
+        ("'Heute bereits zwei Clip-Kandidaten erstellt'", "'TikTok14: heute bereits 15 Clip-Kandidaten erstellt'"),
+        ("for rec in monthly) >= 2:", "for rec in monthly) >= 15:"),
         ("if event == 'schedule' and not 9 <= now.hour <= 22:", "if event == 'schedule' and not 0 <= now.hour <= 23:"),
         ("tag = f'tiktok-{now:%Y-%m}'", "tag = f'tiktok14-{now:%Y-%m}'"),
         ("'status': 'awaiting_metricool',", "'status': 'ready_tiktok14', 'delivery_route': 'github14',"),
-        ("'created': [example_record, example_record]", "'created': [example_record] * 14"),
+        ("'created': [example_record, example_record]", "'created': [example_record] * 15"),
         ("        clip_url = info.get('webpage_url') or link",
          "        # Verify the broadcaster, not the viewer who created the clip.\n"
          "        if (str(info.get('channel', '')).casefold() != channel.casefold() or\n"
@@ -80,7 +80,7 @@ def generate():
     # Changed limits: keep the original code's production tests aligned.
     compile(code, str(SCRIPT), 'exec')
     SCRIPT.write_text(code, encoding='utf-8')
-    print('Generated isolated 14/day producer; original workflow remains unchanged')
+    print('Generated isolated 15/day producer; original media code remains unchanged')
 
 
 def main():

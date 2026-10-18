@@ -4,8 +4,9 @@ import re
 from urllib.parse import urlsplit
 
 from tiktok14_buffer_check import validate as validate_connection, CheckFailed
-from tiktok14_publish import eligible, parse_timestamp, stamp, LOCAL_ZONE
+from tiktok14_publish import eligible, parse_timestamp, stamp, LOCAL_ZONE, MAX_PER_DAY
 from tiktok14_services import ServiceError, CHANNEL_ID, canonical_video
+from tiktok14_quality import identities
 
 
 def sources(config):
@@ -116,7 +117,8 @@ class Worker:
         if not post_id:
             # Crash after accepting a send: recover only an exact deterministic
             # media title, with channel and creation-window checks. Never resend.
-            overview = self.gateway.overview(stamp(history_start(current)),
+            overview = self.gateway.overview(stamp(min(history_start(current),
+                parse_timestamp(attempt['reserved_at'])-dt.timedelta(minutes=5))),
                                               stamp(current+dt.timedelta(days=1)))
             candidates = []
             for post in observed_posts(overview):
@@ -170,20 +172,24 @@ class Worker:
         external_events = {} if independent else history(external,current)
         if not state['queue']:
             return 'empty'
+        slot=current.astimezone(dt.timezone.utc).strftime('%Y-%m-%dT%H')
+        if any(parse_timestamp(a['reserved_at']).strftime('%Y-%m-%dT%H')==slot
+               for a in state['attempts']):
+            return 'hour_complete'
         item = state['queue'][0]
         if (item.get('streamer') not in permitted or not eligible(item,current) or
                 not re.fullmatch('[a-f0-9]{64}',str(item.get('sha256',''))) or
                 not isinstance(item.get('caption'),str) or not item['caption'].strip() or
                 len(item['caption']) > 2200):
             raise ServiceError('ineligible_queue_item')
-        if any(attempt.get('clip_id') == item['clip_id'] for attempt in state['attempts']):
+        if any(identities(attempt)&identities(item) for attempt in state['attempts']):
             raise ServiceError('duplicate_clip')
         overview = self.gateway.overview(stamp(history_start(current)),
                                           stamp(current+dt.timedelta(days=1)))
         posts = observed_posts(overview)
         if any(post['status'] != 'sent' for post in posts):
             raise ServiceError('other_buffer_post_unresolved')
-        if counted_events(state,external_events,[] if independent else posts,current) >= 14:
+        if counted_events(state,external_events,posts,current) >= MAX_PER_DAY:
             return 'limit'
         title = 'tiktok14-'+item['clip_id']+'-'+item['sha256'][:12]+'.mp4'
         if any(asset.get('video',{}).get('title') == title for post in posts

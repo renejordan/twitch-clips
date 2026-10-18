@@ -245,12 +245,13 @@
       "streamer": "papaplatte",
       "sha256": "726425a417cc1957c4425c9a0919ab30cd1fb43df68f29e41c03a6981316074b",
       "source_sha256": "61e2e16692e5ea7c77d0a6f3659c555ab9e45b7e609c241c5650d7cc2dc43b8c",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-309969943-726425a417cc.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-309969943-726425a417cc.mp4",
       "clip_slug": "BenevolentTriangularRuffTheTarFu-uXCV_hHtUedPGVwh",
       "original_created_at": "2026-10-17T19:48:50Z",
-      "source_deadline": "2026-10-20T19:48:50Z"
+      "source_deadline": "2026-10-20T19:48:50Z",
+      "buffer_post_id": "6ad4d0fe769b457934c5dd89"
     }
   ],
   "last_production": {

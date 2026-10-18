@@ -196,7 +196,7 @@ def discard_queue(state,reason,current):
 
 def title_refresh_needed(item):
     headline=item.get('media_review',{}).get('evidence',{}).get('headline','')
-    return bool(headline and context_headline(headline,item.get('streamer'),plain=True)!=headline)
+    return any(ord(c)>=0x2500 or c in '\u200d\ufe0f' for c in headline)
 
 
 def prepare(store,config,legacy,current,host):
@@ -223,6 +223,8 @@ def prepare(store,config,legacy,current,host):
             state.setdefault('render_refreshes',[]).append({'clip_id':item.get('clip_id'),
                 'at':stamp(current),'reason':'unsupported_title_glyph'})
             state['queue']=[]
+            state.pop('last_prepare_hour',None)
+            state.pop('last_prefetch_hour',None)
             sha=store.save(state,sha)
     if state['queue']:
         item=state['queue'][0]

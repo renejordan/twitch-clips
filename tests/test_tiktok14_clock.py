@@ -64,6 +64,11 @@ class ClockTests(unittest.TestCase):
  def test_old_unreviewed_candidate_gets_a_qa_opportunity(self):
   state=fixture()[0];state['queue'][0].pop('media_review',None)
   self.assertEqual(clock.plan(state,[],NOW),'dispatch_auto')
+ def test_automatic_quality_gate_requires_explicit_live_commissioning(self):
+  state=fixture()[0];state['queue'][0]['media_review']={'version':2}
+  state['last_commissioning_hour']=NOW.strftime('%Y-%m-%dT%H')
+  self.assertEqual(clock.plan(state,[],NOW),'awaiting_commissioning')
+  self.assertEqual(clock.plan(state,[],NOW+dt.timedelta(hours=1)),'dispatch_auto')
  def test_hour_complete_still_allows_pending_reconciliation(self):
   state=fixture()[0];state['attempts']=[{'status':'verified_public','reserved_at':NOW.isoformat()}]
   self.assertEqual(clock.plan(state,[],NOW),'hour_complete')

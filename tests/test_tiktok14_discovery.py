@@ -19,4 +19,9 @@ class DiscoveryTests(unittest.TestCase):
    'timestamp':NOW.timestamp()-3600,'duration':30,'view_count':150,'categories':['Minecraft'],'title':'Actual gameplay moment'}
   self.assertEqual(metadata_decision(info,'trymacs',NOW)[1],'qualified_metadata')
   self.assertEqual(metadata_decision(dict(info,view_count=99),'trymacs',NOW)[1],'views_below_100')
+ def test_valid_older_clip_reaches_media_review_without_an_arbitrary_8000_view_gate(self):
+  info={'channel':'Trymacs','creators':['Trymacs'],'extractor_key':'TwitchClips',
+   'timestamp':NOW.timestamp()-60*3600,'duration':30,'view_count':700,'categories':['Fortnite'],'title':'Visible clutch moment'}
+  self.assertEqual(metadata_decision(info,'trymacs',NOW)[1],'qualified_metadata')
+  self.assertEqual(metadata_decision(dict(info,timestamp=NOW.timestamp()-73*3600),'trymacs',NOW)[1],'age_outside_72h')
 if __name__=='__main__':unittest.main()

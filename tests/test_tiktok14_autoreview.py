@@ -13,7 +13,7 @@ class AutoReviewTests(unittest.TestCase):
   self.assertEqual(transcript_distance("Ich schaff's nicht",'ich schaffs nicht'),0)
  def visual(self):
   return {'gameplay_visible':True,'browser_chrome':False,'nested_rebroadcast':False,
-   'existing_captions':False,'complete_payoff':True,'standalone_understandable':True,
+   'existing_captions':False,'complete_payoff':True,'standalone_understandable':True,'sustained_watchability':True,
    'hook_score':4,'payoff_score':4,'setup':'Player approaches the building before throwing an item.',
    'payoff':'The thrown item explodes and breaks the blocks.', 'payoff_timestamp':18,
    'safe_for_general_audience':True,'frame_problem':'none'}
@@ -27,8 +27,8 @@ class AutoReviewTests(unittest.TestCase):
   return {'source_sha256':item['source_sha256'],'duration':25.,'timestamps':[i*25/9 for i in range(10)],
    'media_sha256':item['sha256'],'transcript_sha256':item['transcript_sha256'],
    'source_frame_hashes':['a'*64]*10,'final_timestamps':[i*25/9 for i in range(10)],'final_frame_hashes':['b'*64]*10,
-   'reviewed_source_sha256':'c'*64,'caption_scan':{'method':'full_duration_2fps_ocr_aligned_to_speech','frames':50},
-   'source_visual':self.visual(),'final_visual':{'legible_subtitles':True,'composition_usable':True,'browser_chrome':False,'nested_rebroadcast':False,'evidence':'Gameplay and captions remain visible in all sampled final frames.'},
+   'reviewed_source_sha256':'c'*64,'caption_scan':{'method':'full_duration_2fps_ocr_and_speech_alignment','frames':50,'detections':[],'region_reviews':[],'classifications':{}},
+   'source_visual':self.visual(),'final_visual':{'event_retained':True,'legible_subtitles':True,'composition_usable':True,'browser_chrome':False,'nested_rebroadcast':False,'evidence':'Gameplay and captions remain visible in all sampled final frames.'},
    'transcript_distance':0.,'primary_model':'whisper-large-v3-turbo','secondary_model':'whisper-small',
    'vision_model':'qwen3-vl-4b-q4km','decoded_full_video':True,'audio_rms':.05,'clipped_fraction':0.001}
  def test_automatic_review_never_invents_human_watch_claim(self):
@@ -40,4 +40,16 @@ class AutoReviewTests(unittest.TestCase):
   self.assertIsNone(review_error(item,NOW))
   item['source_sha256']='e'*64
   self.assertIsNotNone(review_error(item,NOW))
+ def test_cropping_the_actual_event_blocks_final_approval(self):
+  item=fixture()[0]['queue'][0];item['source_sha256']='d'*64
+  evidence=self.evidence(item);evidence['final_visual']['event_retained']=False
+  item['media_review']=automated_receipt(item,evidence,NOW)
+  self.assertEqual(review_error(item,NOW),'automatic_final_composition_failed')
+ def test_malformed_model_output_is_a_technical_failure(self):
+  from tiktok14_vision import validate_response
+  from tiktok14_services import ServiceError
+  for evidence in ('','x'*241,False):
+   with self.subTest(evidence=evidence),self.assertRaises(ServiceError):
+    validate_response({'evidence':evidence,'event_retained':True,'capture_layout':'direct_game_capture_with_facecam',
+     'composition_quality':'usable','caption_quality':'readable_single'},True,[0,10,20])
 if __name__=='__main__':unittest.main()

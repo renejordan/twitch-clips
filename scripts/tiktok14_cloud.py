@@ -285,7 +285,7 @@ def prepare(store,config,legacy,current,host):
             try:
                 from tiktok14_autoreview import automated_receipt
                 preview={'clip_id':clip['id'],'sha256':hashlib.sha256(movie.read_bytes()).hexdigest(),
-                    'streamer':clip.get('channel_login'),
+                    'streamer':clip.get('channel_login'),'original_title':clip.get('title'),
                     'transcript_sha256':hashlib.sha256((movie.parent/'transcript.json').read_bytes()).hexdigest(),
                     'source_sha256':clip['_qa_evidence'].get('source_sha256'),
                     'rights_status':'user_declared_source_list'}
@@ -317,7 +317,7 @@ def prepare(store,config,legacy,current,host):
             from tiktok14_autoreview import automated_receipt
             record['source_sha256']=clip['_qa_evidence']['source_sha256']
             record['hook']=clip['_qa_evidence']['headline']
-            record['caption']=f"Gaming-Moment von {record['streamer']} · Quelle: Twitch\n#gaming #twitch"
+            record['caption']=f"{record['hook']} · {record['streamer']} · Quelle: Twitch\n#gaming #twitch"
             if clip['_qa_evidence']['caption_mode']=='title_only':
                 record.update(editing_status='rendered_9x16_title_only',transcript_subtitles=False)
             record['media_review']=clip['_qa_receipt']
@@ -500,10 +500,20 @@ def verify_media(url,digest):
     raise ServiceError('too_many_media_redirects')
 
 
-def publish(store,config,github,key):
+def publish(store,config,github,key,reconcile_only=False):
     state,sha=store.load()
     config,_=resolve_sources(config,state,dt.datetime.now(dt.timezone.utc))
     pending=any(row.get('status')!='verified_public' for row in state['attempts'])
+    if reconcile_only and not pending:return 'nothing_to_reconcile'
+    if pending:
+        from tiktok14_worker import reconciliation_due
+        unresolved=[row for row in state['attempts'] if row.get('status')!='verified_public']
+        if len(unresolved)!=1:raise ServiceError('multiple_unresolved_attempts')
+        current=dt.datetime.now(dt.timezone.utc)
+        if not reconciliation_due(unresolved[0],current):return 'reconciliation_backoff'
+        # Save before querying so failures and direct cron runs share the budget.
+        unresolved[0]['last_reconcile_at']=stamp(current)
+        store.save(state,sha)
     if not pending:
         if legacy_running(github): return 'auto20_running'
         if not state['queue']: return 'empty'
@@ -548,15 +558,25 @@ def main(action=None):
         ref=os.getenv('GITHUB_REF','')
         if (os.getenv('GITHUB_REPOSITORY')!=REPOSITORY or
                 ref not in ('refs/heads/main','refs/heads/codex/tiktok14-safety-audit','refs/heads/codex/tiktok14-reliability','refs/heads/codex/tiktok14-longterm') or
-                action not in ('prepare','publish','diagnose','review') or
-                (action in ('publish','review') and ref!='refs/heads/main')):
+                action not in ('plan','prepare','publish','reconcile','diagnose','review') or
+                (action in ('publish','reconcile','review') and ref!='refs/heads/main')):
             raise ServiceError('unapproved_cloud_context')
         config=json.loads(CONFIG.read_text(encoding='utf-8'))
         if config.get('accounting_mode')!='independent':
             raise ServiceError('independent_mode_not_configured')
         sources(config)
         github=GitHubAPI(token)
-        if action=='diagnose':
+        if action=='plan':
+            # Standard-library-only preflight: pending/ready work needs no models.
+            state,_=GitHubState(github).load()
+            current=dt.datetime.now(dt.timezone.utc)
+            pending=any(a.get('status')!='verified_public' for a in state['attempts'])
+            ready=bool(state['queue']) and all(eligible(c,current) and not own_duplicate(c,state) and not blocked(c) for c in state['queue'])
+            needed=not pending and not ready
+            with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as output:
+                output.write('media_needed='+str(needed).lower()+'\n')
+            result='media_required' if needed else 'media_not_required'
+        elif action=='diagnose':
             state,_=GitHubState(github).load()
             result=diagnose(config,read_legacy(github),state,dt.datetime.now(dt.timezone.utc))
         elif action=='prepare':
@@ -568,7 +588,7 @@ def main(action=None):
             result=apply_review(GitHubState(github),config,
                 os.environ.pop('TIKTOK14_REVIEW_JSON',''),dt.datetime.now(dt.timezone.utc))
         else:
-            result=publish(GitHubState(github),config,github,key)
+            result=publish(GitHubState(github),config,github,key,reconcile_only=action=='reconcile')
         print('TikTok14 '+action+': '+result)
         return 0 if result not in ('unresolved','unverified','degraded') else 1
     except ServiceError as error:

@@ -12,6 +12,7 @@ import time
 from zoneinfo import ZoneInfo
 from tiktok14_services import GitHubAPI, ServiceError,request_json,GITHUB_URL
 from tiktok14_publish import parse_timestamp,posting_time
+from tiktok14_worker import reconciliation_due
 
 BERLIN=ZoneInfo('Europe/Berlin')
 ACTIVE={'queued','in_progress','waiting','pending','requested'}
@@ -29,7 +30,8 @@ def plan(state,runs,current):
  if not isinstance(state.get('attempts'),list) or not isinstance(state.get('queue'),list):
   raise ServiceError('invalid_clock_state')
  if any(r.get('head_branch')=='main' and r.get('status') in ACTIVE for r in runs):return 'active_publisher'
- if any(a.get('status')!='verified_public' for a in state['attempts']):return 'dispatch_reconcile'
+ unresolved=[a for a in state['attempts'] if a.get('status')!='verified_public']
+ if unresolved:return 'dispatch_reconcile' if reconciliation_due(unresolved[0],current) else 'reconciliation_backoff'
  slot=current.astimezone(dt.timezone.utc).strftime('%Y-%m-%dT%H')
  local=current.astimezone(BERLIN)
  scans=state.get('prepare_scans',{})
@@ -65,7 +67,8 @@ def tick(api,current,dispatch=True):
  result=plan(state,runs,current)
  if dispatch and result.startswith('dispatch_'):
   # Never retry an uncertain POST here. Next tick re-reads live runs and journal.
-  api.call('POST','/actions/workflows/tiktok14.yml/dispatches',{'ref':'main','inputs':{'mode':'prefetch' if result=='dispatch_prefetch' else 'auto'}})
+  mode={'dispatch_prefetch':'prefetch','dispatch_reconcile':'reconcile'}.get(result,'auto')
+  api.call('POST','/actions/workflows/tiktok14.yml/dispatches',{'ref':'main','inputs':{'mode':mode}})
  return result
 
 def main():

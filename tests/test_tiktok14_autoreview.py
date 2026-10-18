@@ -6,6 +6,17 @@ from tiktok14_autoreview import transcript_distance,visual_error,automated_recei
 from tiktok14_quality import review_error
 from test_tiktok14_worker import fixture,NOW
 class AutoReviewTests(unittest.TestCase):
+ def test_context_title_is_bound_to_original_metadata(self):
+  from tiktok14_quality import context_headline
+  item=fixture()[0]['queue'][0];item['source_sha256']='d'*64
+  item['original_title']='Minecraft: der Sprung endet in Lava'
+  evidence=self.evidence(item)
+  evidence['headline']=context_headline(item['original_title'],item['streamer'])
+  item['media_review']=automated_receipt(item,evidence,NOW)
+  self.assertIsNone(review_error(item,NOW))
+  item['original_title']='Andere Szene ohne dieses Ereignis'
+  self.assertEqual(review_error(item,NOW),'automatic_title_invalid')
+
  def test_legacy_receipt_cannot_silently_omit_ocr_region_evidence(self):
   item=fixture()[0]['queue'][0];item['source_sha256']='d'*64
   evidence=self.evidence(item)

@@ -13,6 +13,7 @@ on:
           - auto
           - review
           - prefetch
+          - reconcile
         default: prepare
       review_json:
         description: 'Review mode only: exact clip_id and media_review receipt after watching the final video. No post is sent by review mode.'
@@ -82,24 +83,30 @@ jobs:
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12'
+      - name: Inspect ready or pending work before installing media dependencies
+        id: media_plan
+        if: ${{ inputs.mode != 'review' && inputs.mode != 'reconcile' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/tiktok14_cloud.py plan
       - name: Install media tools before any service credential is exposed
-        if: ${{ inputs.mode != 'review' }}
+        if: ${{ inputs.mode != 'review' && inputs.mode != 'reconcile' && (inputs.mode == 'diagnose' || steps.media_plan.outputs.media_needed == 'true') }}
         run: |
           python -m pip install --disable-pip-version-check -r requirements-tiktok14.txt
           python -m pip check
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core libgl1
       - name: Restore pinned free quality models
-        if: ${{ inputs.mode != 'review' && inputs.mode != 'diagnose' }}
+        if: ${{ inputs.mode != 'review' && inputs.mode != 'diagnose' && inputs.mode != 'reconcile' && steps.media_plan.outputs.media_needed == 'true' }}
         uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
         with:
           path: .tiktok14-models
           key: tiktok14-cpu-ubuntu24-qwen4b-whisper-dual-preprocessor128-v2
       - name: Verify or install free quality models before service credentials
-        if: ${{ inputs.mode != 'review' && inputs.mode != 'diagnose' }}
+        if: ${{ inputs.mode != 'review' && inputs.mode != 'diagnose' && inputs.mode != 'reconcile' && steps.media_plan.outputs.media_needed == 'true' }}
         run: python scripts/tiktok14_models.py
       - name: Prepare review candidate or inspect metadata without publication
-        if: ${{ inputs.mode != 'review' }}
+        if: ${{ inputs.mode != 'review' && inputs.mode != 'reconcile' }}
         env:
           GH_TOKEN: ${{ github.token }}
           HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
@@ -113,16 +120,17 @@ jobs:
           TIKTOK14_REVIEW_JSON: ${{ inputs.review_json }}
         run: python scripts/tiktok14_cloud.py review
       - name: Publish or reconcile one reserved post via Buffer
-        if: ${{ github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.mode == 'commission' || (inputs.mode == 'auto' && vars.TIKTOK14_ENABLED == 'true')) }}
+        if: ${{ github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.mode == 'commission' || inputs.mode == 'reconcile' || (inputs.mode == 'auto' && vars.TIKTOK14_ENABLED == 'true')) }}
         env:
           GH_TOKEN: ${{ github.token }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           TIKTOK14_AUTOREVIEW_ENABLED: ${{ vars.TIKTOK14_AUTOREVIEW_ENABLED }}
-        run: python scripts/tiktok14_cloud.py publish
+          TIKTOK14_PUBLISH_ACTION: ${{ inputs.mode == 'reconcile' && 'reconcile' || 'publish' }}
+        run: python scripts/tiktok14_cloud.py "$TIKTOK14_PUBLISH_ACTION"
 
   buffer_connection:
     needs: validate
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode != 'auto' && inputs.mode != 'review' && inputs.mode != 'prefetch' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/codex/tiktok14-safety-audit' || github.ref == 'refs/heads/codex/tiktok14-reliability') }}
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode != 'auto' && inputs.mode != 'review' && inputs.mode != 'prefetch' && inputs.mode != 'reconcile' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/codex/tiktok14-safety-audit' || github.ref == 'refs/heads/codex/tiktok14-reliability') }}
     runs-on: ubuntu-24.04
     timeout-minutes: 3
     steps:

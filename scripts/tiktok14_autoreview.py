@@ -4,6 +4,7 @@ import hashlib
 import json
 import math
 import re
+from tiktok14_quality import context_headline
 
 VISION_MODEL='qwen3-vl-4b-q4km'
 PRIMARY='whisper-large-v3-turbo'
@@ -116,7 +117,7 @@ def automated_review_error(item,review,current):
   if visual_error(e['source_visual'],duration,practical=practical,preserve_overlays=fast):return 'automatic_visual_check_failed'
   mode=e.get('caption_mode');word_count=e.get('rendered_word_count')
   if mode not in ('verified_words','title_only') or type(word_count) is not int:return 'automatic_caption_mode_invalid'
-  if e.get('headline')!=f"Gaming-Moment mit {item.get('streamer')}":return 'automatic_title_invalid'
+  if e.get('headline') not in (f"Gaming-Moment mit {item.get('streamer')}",context_headline(item.get('original_title'),item.get('streamer'))):return 'automatic_title_invalid'
   f=e['final_visual']
   text_ok=(word_count>=3 and f.get('legible_subtitles') is True if mode=='verified_words' else
    word_count==0 and (fast or f.get('legible_subtitles') is False) and f.get('legible_title') is True and f.get('caption_quality') in (('readable_title_only','readable_single') if fast else ('readable_title_only',)))

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "366414941",
-      "clip_slug": "BoxyStupidSpiderBrokeBack--ntZvRoT5y89mrMc",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/BoxyStupidSpiderBrokeBack--ntZvRoT5y89mrMc",
-      "original_title": "Kein Bock auf Kroko weil er is zu blöd",
-      "hook": "Gaming-Moment mit krokoboss",
-      "caption": "Gaming-Moment von krokoboss · Quelle: Twitch\n#gaming #twitch",
-      "views_at_selection": 382,
-      "original_duration": 34.0,
-      "original_created_at": "2026-10-17T18:46:22Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-366414941-a6236b22bab4.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-18T11:23:52Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "a6236b22bab482e4281e8ce8e524c025052ca1a6d0196e839d0f2ebba72a2419",
-      "category": "Minecraft",
-      "transcript_sha256": "cd2079c1d554556384d3610f271de756c045cd90b255a069a039e057f2ae383f",
-      "asr_requires_correction": true,
-      "source_sha256": "1649f687f241d7168bd7ce9b6e61ceabda0e209946da737748e3f706bb3a329b",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-18T11:23:52.965917+00:00",
-        "media_sha256": "a6236b22bab482e4281e8ce8e524c025052ca1a6d0196e839d0f2ebba72a2419",
-        "transcript_sha256": "cd2079c1d554556384d3610f271de756c045cd90b255a069a039e057f2ae383f",
-        "source_sha256": "1649f687f241d7168bd7ce9b6e61ceabda0e209946da737748e3f706bb3a329b",
-        "evidence_sha256": "57c7b929c8ba1b0ccb9fc6eae26c12a42d44469cc7fa3cd5a562c58a413d4fc1",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "1649f687f241d7168bd7ce9b6e61ceabda0e209946da737748e3f706bb3a329b",
-          "reviewed_source_sha256": "1649f687f241d7168bd7ce9b6e61ceabda0e209946da737748e3f706bb3a329b",
-          "duration": 34.216667,
-          "timestamps": [
-            0.0,
-            17.033,
-            34.067
-          ],
-          "source_frame_hashes": [
-            "de2b28237299023376a16b1ee537be89ddd0f54c7364eac4ebf83715c04078ed",
-            "5ced9a3281535ffe095c37ecd3c055ece8e7e2f2a28476b80c0041b85a2e90d1",
-            "03c9ee0a1645ba4cc437e27f33b675893ecec2cb6e396aa7b27b49a0d87327e8"
-          ],
-          "headline": "Gaming-Moment mit krokoboss",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Nether, no clear action or outcome",
-            "payoff": "No visible win or loss, no clear payoff from action",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.07593591525668208,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a Minecraft Nether environment with a facecam panel in the top right corner. The game HUD is visible, including the minimap, health bar, and inventory. The title 'Gaming-Moment mit krokobos",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            17.033,
-            34.067
-          ],
-          "final_frame_hashes": [
-            "38a9ef640f834c8755f3ae096f2d8ebdb705b8982101b5d1bd43eb5cf40d5a85",
-            "97afeedf495a83eae9d138958d37ffcf0e3f5ea2b538d5713e7b1c670b8427a9",
-            "2452d2324881e720c01cce378627276a73e23354454bacef42f102e1645d7e71"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "a6236b22bab482e4281e8ce8e524c025052ca1a6d0196e839d0f2ebba72a2419",
-          "transcript_sha256": "cd2079c1d554556384d3610f271de756c045cd90b255a069a039e057f2ae383f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a Minecraft Nether environment with a facecam panel in the top right corner. The game HUD is visible, including the minimap, health bar, and inventory. The title 'Gaming-Moment mit krokobos"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0759, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-366414941-a6236b22bab4-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -209,14 +71,17 @@
       "streamer": "krokoboss",
       "sha256": "a6236b22bab482e4281e8ce8e524c025052ca1a6d0196e839d0f2ebba72a2419",
       "source_sha256": "1649f687f241d7168bd7ce9b6e61ceabda0e209946da737748e3f706bb3a329b",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-366414941-a6236b22bab4.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-366414941-a6236b22bab4.mp4",
       "clip_slug": "BoxyStupidSpiderBrokeBack--ntZvRoT5y89mrMc",
       "original_created_at": "2026-10-17T18:46:22Z",
       "source_deadline": "2026-10-20T18:46:22Z",
       "buffer_post_id": "6ad4b4dcae173d6e00fd396c",
-      "last_reconcile_at": "2026-10-18T12:04:31Z"
+      "last_reconcile_at": "2026-10-18T12:04:31Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697976583595838752",
+      "sent_at": "2026-10-18T12:03:12Z",
+      "verified_at": "2026-10-18T12:04:32Z"
     }
   ],
   "last_prepare_hour": "2026-10-18T11",

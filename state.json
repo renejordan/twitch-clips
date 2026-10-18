@@ -92,8 +92,8 @@
     }
   },
   "prepare_scans": {
-    "hour": "2026-10-18T10",
-    "revision": "426ee84e9933eba9ee6b794171ff773fcbd8bf52",
+    "hour": "2026-10-18T11",
+    "revision": "a994f468b25c27005568ccbe37cc9be33800c982",
     "count": 1
   },
   "source_ranking": {

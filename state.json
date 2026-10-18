@@ -349,27 +349,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-18T18:10:25Z",
+    "at": "2026-10-18T19:10:23Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_duration_prefilter": 100,
       "listing_ok": 100,
-      "listing_age_prefilter": 838,
-      "discovered": 725,
-      "metadata_requested": 713,
-      "gaming_category_not_verified": 260,
-      "qualified_metadata": 392,
-      "title_too_short": 61,
-      "duplicate_source_event": 4,
+      "listing_age_prefilter": 823,
+      "discovered": 781,
+      "metadata_requested": 769,
+      "gaming_category_not_verified": 319,
+      "qualified_metadata": 390,
+      "title_too_short": 60,
+      "duplicate_source_event": 5,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "403364789",
-      "clip_slug": "AliveVenomousLocustBatChest-HDChPxFacsVbZoVU",
-      "streamer": "xrohat"
+      "clip_id": "3835744608",
+      "clip_slug": "DeadMoistChoughMrDestructoid-CiHl1tw3rlau6XUJ",
+      "streamer": "trymacs"
     }
   },
   "prepare_scans": {
@@ -472,6 +472,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-18T18",
-  "last_prefetch_hour": "2026-10-18T18"
+  "last_prepare_hour": "2026-10-18T19",
+  "last_prefetch_hour": "2026-10-18T19"
 }

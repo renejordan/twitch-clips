@@ -299,12 +299,13 @@
       "streamer": "castcrafter",
       "sha256": "6375d0bb6db8a55d4d6abcf2e1f15a8cfea0c1a99d8a952bf01a4bbec32cfff2",
       "source_sha256": "dac0e6c3ec8e72706709d7e1c1b857979f8603b85cc1584449a937bacb5115fa",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-254468887-6375d0bb6db8.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-254468887-6375d0bb6db8.mp4",
       "clip_slug": "HeartlessCourteousJalapenoPipeHype-JZf7uuGf61m9x0tc",
       "original_created_at": "2026-10-18T15:25:53Z",
-      "source_deadline": "2026-10-21T15:25:53Z"
+      "source_deadline": "2026-10-21T15:25:53Z",
+      "buffer_post_id": "6ad4fb2b938409f1d0dcc2c4"
     }
   ],
   "last_production": {

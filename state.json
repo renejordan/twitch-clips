@@ -215,7 +215,8 @@
       "clip_slug": "BoxyStupidSpiderBrokeBack--ntZvRoT5y89mrMc",
       "original_created_at": "2026-10-17T18:46:22Z",
       "source_deadline": "2026-10-20T18:46:22Z",
-      "buffer_post_id": "6ad4b4dcae173d6e00fd396c"
+      "buffer_post_id": "6ad4b4dcae173d6e00fd396c",
+      "last_reconcile_at": "2026-10-18T12:02:29Z"
     }
   ],
   "last_prepare_hour": "2026-10-18T11",

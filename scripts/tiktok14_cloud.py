@@ -223,10 +223,13 @@ def prepare(store,config,legacy,current,host):
     slot=current.strftime('%Y-%m-%dT%H')
     after_send=any(row.get('status')=='verified_public' and
         parse_timestamp(row['reserved_at']).strftime('%Y-%m-%dT%H')==slot for row in state['attempts'])
-    if state.get('last_prepare_hour')==slot and not (after_send and state.get('last_prefetch_hour')!=slot): return 'hour_complete'
     scans=state.get('prepare_scans',{})
-    if scans.get('hour')==slot and scans.get('count',0)>=3:return 'scan_budget_exhausted'
-    state['prepare_scans']={'hour':slot,'count':scans.get('count',0)+1 if scans.get('hour')==slot else 1}
+    revision=os.getenv('GITHUB_SHA','unversioned')
+    same_revision=scans.get('revision','unversioned')==revision
+    if same_revision and state.get('last_prepare_hour')==slot and not (after_send and state.get('last_prefetch_hour')!=slot): return 'hour_complete'
+    if same_revision and scans.get('hour')==slot and scans.get('count',0)>=3:return 'scan_budget_exhausted'
+    state['prepare_scans']={'hour':slot,'revision':revision,
+        'count':scans.get('count',0)+1 if scans.get('hour')==slot and same_revision else 1}
     sha=store.save(state,sha)
     namespace=producer_namespace()
     namespace['STREAMERS']=list(config['sources'])

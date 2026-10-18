@@ -11,6 +11,7 @@ import zipfile
 QWEN_REV='1cd86afb9a95c410a6038ab3b40d8b578c892266'
 TURBO_REV='0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'
 SMALL_REV='536b0662742c02347bc0e980a01041f333bce120'
+TURBO_PROCESSOR_SHA='7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711'
 BINARIES={
  'nt':('llama-b11669-bin-win-cpu-x64.zip','37b3efcf962847ca869745fd4ccf7f5e7e8dacfeff9fa3523b4ca8cdc66d632b'),
  'posix':('llama-b11669-bin-ubuntu-x64.tar.gz','cf07c1c112d709bd67e522017471de57ed0ec8bea031d732c5422351c07f65ac')}
@@ -36,8 +37,10 @@ def install(folder):
   ('mobiuslabsgmbh/faster-whisper-large-v3-turbo',TURBO_REV,'turbo','e76620f83d5f5b69efd3d87e3dc180c1bd21df9fbebacfd4335e5e1efcc018da'),
   ('Systran/faster-whisper-small',SMALL_REV,'small','3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671')]:
   vocabulary='vocabulary.txt' if local=='small' else 'vocabulary.json'
-  for file in ('config.json','model.bin','tokenizer.json',vocabulary):
-   download(f'https://huggingface.co/{repo}/resolve/{rev}/{file}',folder/local/file,weight_sha if file=='model.bin' else None)
+  files=('config.json','model.bin','tokenizer.json',vocabulary)+(('preprocessor_config.json',) if local=='turbo' else ())
+  for file in files:
+   digest=weight_sha if file=='model.bin' else TURBO_PROCESSOR_SHA if file=='preprocessor_config.json' else None
+   download(f'https://huggingface.co/{repo}/resolve/{rev}/{file}',folder/local/file,digest)
  name,digest=BINARIES[os.name]
  archive=folder/name
  download('https://github.com/ggml-org/llama.cpp/releases/download/b11669/'+name,archive,digest)
@@ -61,8 +64,22 @@ def install(folder):
   marker.write_text(digest)
  from tiktok14_vision import Vision
  with Vision(folder):print('Pinned CPU vision runtime health check passed',flush=True)
+ verify_speech(folder)
  print('Free CPU quality models and runtime ready; no service credential used',flush=True)
  return folder
+
+
+def verify_speech(folder):
+ """Exercise the actual encoder shape before any service token is exposed."""
+ import gc
+ import numpy as np
+ from faster_whisper import WhisperModel
+ for name in ('turbo','small'):
+  model=WhisperModel(str(Path(folder)/name),device='cpu',compute_type='int8',cpu_threads=4)
+  features=model.feature_extractor(np.zeros(16000,dtype=np.float32))
+  encoded=model.encode(features)
+  del encoded,model;gc.collect()
+ print('Pinned CPU speech encoders health checks passed',flush=True)
 
 if __name__=='__main__':
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--dir',default='.tiktok14-models')

@@ -350,6 +350,9 @@ def prepare(store,config,legacy,current,host):
         state['last_prepare_hour']=slot
         if after_send: state['last_prefetch_hour']=slot
     state['last_production']={'at':stamp(current),'result':result,'counts':counts}
+    if interruption:state['last_production']['failure_reason']=interruption
+    if namespace.get('_report',{}).get('qa_diagnostic_location'):
+        state['last_production']['diagnostic_location']=namespace['_report']['qa_diagnostic_location']
     if namespace.get('_report',{}).get('current_candidate'):
         state['last_production']['candidate']=namespace['_report']['current_candidate']
     store.save(state,sha)

@@ -35,6 +35,9 @@ def automated_render(namespace,clip,source,model_dir):
             raise QualityRejected(reason)
         if result.returncode or verdict.get('status')!='passed':
             reason=verdict.get('reason','')
+            location=verdict.get('diagnostic_location')
+            if isinstance(location,str) and __import__('re').fullmatch('[A-Za-z_][A-Za-z0-9_]*\\.py:[A-Za-z_][A-Za-z0-9_]*:[0-9]{1,6}',location):
+                namespace.setdefault('_report',{})['qa_diagnostic_location']=location
             if verdict.get('status')=='technical_failure' and isinstance(reason,str) and __import__('re').fullmatch('qa_[a-z_]{1,120}',reason):
                 raise ProductionInterrupted(reason)
             raise ServiceError('qa_child_failed')

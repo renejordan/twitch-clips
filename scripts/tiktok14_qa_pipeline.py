@@ -173,8 +173,11 @@ def main():
   reason=str(error) if re.fullmatch('[a-z_]+',str(error)) else 'qa_operation_failed'
   result.write_text(json.dumps({'status':'technical_failure','reason':reason}),encoding='utf-8');return 1
  except Exception as error:
-  import re
+  import re,traceback
   kind=re.sub('[^a-z_]','',type(error).__name__.lower())[:60]
-  result.write_text(json.dumps({'status':'technical_failure','reason':'qa_'+ns.get('_qa_stage','initialization')+'_'+kind}),encoding='utf-8');return 1
+  locations=[f'{Path(frame.filename).name}:{frame.name}:{frame.lineno}' for frame in traceback.extract_tb(error.__traceback__)
+   if re.fullmatch('[A-Za-z_][A-Za-z0-9_]*\\.py',Path(frame.filename).name) and re.fullmatch('[A-Za-z_][A-Za-z0-9_]*',frame.name)]
+  result.write_text(json.dumps({'status':'technical_failure','reason':'qa_'+ns.get('_qa_stage','initialization')+'_'+kind,
+   'diagnostic_location':locations[-1] if locations else None}),encoding='utf-8');return 1
 
 if __name__=='__main__':raise SystemExit(main())

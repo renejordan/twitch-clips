@@ -178,5 +178,18 @@ class ReliabilityTests(unittest.TestCase):
         self.assertEqual(store.data['attempts'][0]['status'],'late_publication')
         self.assertEqual(len(gateway.sent),1)
 
+    def test_queue_and_external_dispatch_replace_clips_outside_send_margin(self):
+        from tiktok14_dispatch import decision
+        state,config,_,_=fixture()
+        state['queue'][0].update(status='awaiting_review_tiktok14',
+            original_created_at=(NOW-dt.timedelta(hours=71,minutes=30)).isoformat())
+        self.assertEqual(decision(state,[],NOW),'dispatch')
+        store=MemoryState(state)
+        with patch.object(cloud,'producer_namespace',return_value={'main':lambda:None}), \
+                patch.object(cloud,'report_result'):
+            self.assertEqual(cloud.prepare(store,config,{'created':[],'processed_ids':[]},NOW,None),'empty')
+        self.assertEqual(store.data['queue'],[])
+        self.assertEqual(store.data['rejected'][0]['clip_id'],state['queue'][0]['clip_id'])
+
 
 if __name__=='__main__': unittest.main()

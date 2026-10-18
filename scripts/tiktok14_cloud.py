@@ -25,6 +25,7 @@ from tiktok14_services import (BufferGateway, GitHubAPI, GitHubState, NoRedirect
                                ServiceError, verify_public, ProductionInterrupted,QualityRejected)
 from tiktok14_worker import Worker, counted_events, sources
 from tiktok14_history import compact as compact_history
+from tiktok14_sources import resolve as resolve_sources
 
 REPOSITORY='renejordan/twitch-clips'
 TEST_URL='https://www.tiktok.com/@ufo3103/video/7697189362877992225'
@@ -194,9 +195,11 @@ def discard_queue(state,reason,current):
 
 
 def prepare(store,config,legacy,current,host):
-    permitted=sources(config)
     old=legacy_ids(legacy)
     state,sha=store.load()
+    config,changed=resolve_sources(config,state,current,refresh=True)
+    if changed:sha=store.save(state,sha)
+    permitted=sources(config)
     if any(row.get('status')!='verified_public' for row in state['attempts']):
         return 'pending'
     if compact_history(state,current):sha=store.save(state,sha)
@@ -497,6 +500,7 @@ def verify_media(url,digest):
 
 def publish(store,config,github,key):
     state,sha=store.load()
+    config,_=resolve_sources(config,state,dt.datetime.now(dt.timezone.utc))
     pending=any(row.get('status')!='verified_public' for row in state['attempts'])
     if not pending:
         if legacy_running(github): return 'auto20_running'

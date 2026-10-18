@@ -117,7 +117,7 @@ def configure(namespace,report):
                     valid=lambda key:type(row.get(key)) in (int,float) and math.isfinite(row[key])
                     if valid('timestamp') and not 0<=current-row['timestamp']<=72*3600:
                         count('listing_age_prefilter');continue
-                    if valid('view_count') and row['view_count']<100:
+                    if valid('view_count') and row['view_count']<1:
                         count('listing_views_prefilter');continue
                     if valid('duration') and not 15<=row['duration']<=60:
                         count('listing_duration_prefilter');continue
@@ -133,7 +133,7 @@ def configure(namespace,report):
             response=namespace['run'](['yt-dlp','--no-warnings','--no-playlist',
                 '--socket-timeout','15','--retries','1','--skip-download','--dump-single-json',link],timeout=45)
             info=json.loads(response.stdout)
-            category,reason=metadata_decision(info,channel,current,min_views)
+            category,reason=metadata_decision(info,channel,current,1)
             count(reason)
             if not category: return None
             slug=namespace['twitch_slug'](info.get('webpage_url') or link)

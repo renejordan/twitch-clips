@@ -99,8 +99,10 @@ class CloudTests(unittest.TestCase):
         namespace['main']=execute
         def host(*args): return record['video_url'],record['video_url']+'.jpg','b'*64
         with patch.object(cloud,'producer_namespace',return_value=namespace):
-            self.assertEqual(cloud.prepare(store,config,legacy,NOW,host),'ready')
+            self.assertEqual(cloud.prepare(store,config,legacy,NOW,host),'needs_review')
         self.assertEqual(store.data['queue'][0]['sha256'],'b'*64)
+        self.assertFalse(store.data['queue'][0]['subtitle_verified'])
+        self.assertEqual(store.data['queue'][0]['status'],'awaiting_review_tiktok14')
         self.assertEqual(json.dumps(legacy,sort_keys=True),before)
 
     def test_no_cli_publishing_from_review_branch_or_untrusted_repo(self):

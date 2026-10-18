@@ -4,11 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'prepare = cloud production only; commission = one controlled main-branch publication'
+        description: 'prepare = review candidate only; diagnose = metadata only; commission/auto = main publisher with media review gate'
         type: choice
         options:
           - prepare
           - commission
+          - diagnose
+          - auto
         default: prepare
   pull_request:
     paths:
@@ -26,7 +28,9 @@ on:
       - 'requirements-tiktok14.txt'
       - 'tests/**'
   schedule:
-    - cron: '33 * * * *'
+    # Best effort only. External tiktok14_dispatch.py can use workflow_dispatch.
+    # Completed hourly scans and send reservations suppress duplicate work.
+    - cron: '11,31,51 * * * *'
 
 permissions:
   contents: read
@@ -55,7 +59,7 @@ jobs:
 
   auto14:
     needs: validate
-    if: ${{ (github.ref == 'refs/heads/main' && ((github.event_name == 'schedule' && vars.TIKTOK14_ENABLED == 'true') || github.event_name == 'workflow_dispatch')) || (github.ref == 'refs/heads/codex/tiktok14-safety-audit' && github.event_name == 'workflow_dispatch' && inputs.mode == 'prepare') }}
+    if: ${{ (github.ref == 'refs/heads/main' && ((github.event_name == 'schedule' && vars.TIKTOK14_ENABLED == 'true') || github.event_name == 'workflow_dispatch')) || ((github.ref == 'refs/heads/codex/tiktok14-safety-audit' || github.ref == 'refs/heads/codex/tiktok14-reliability') && github.event_name == 'workflow_dispatch' && (inputs.mode == 'prepare' || inputs.mode == 'diagnose')) }}
     runs-on: ubuntu-24.04
     timeout-minutes: 50
     permissions:
@@ -74,13 +78,14 @@ jobs:
           python -m pip check
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
-      - name: Prepare at most one fresh permitted Gaming clip in isolated cloud state
+      - name: Prepare review candidate or inspect metadata without publication
         env:
           GH_TOKEN: ${{ github.token }}
           HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
-        run: python scripts/tiktok14_cloud.py prepare
+          TIKTOK14_ACTION: ${{ inputs.mode == 'diagnose' && 'diagnose' || 'prepare' }}
+        run: python scripts/tiktok14_cloud.py "$TIKTOK14_ACTION"
       - name: Publish or reconcile one reserved post via Buffer
-        if: ${{ github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.mode == 'commission') }}
+        if: ${{ github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.mode == 'commission' || (inputs.mode == 'auto' && vars.TIKTOK14_ENABLED == 'true')) }}
         env:
           GH_TOKEN: ${{ github.token }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
@@ -88,7 +93,7 @@ jobs:
 
   buffer_connection:
     needs: validate
-    if: ${{ github.event_name == 'workflow_dispatch' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/codex/tiktok14-safety-audit') }}
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode != 'auto' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/codex/tiktok14-safety-audit' || github.ref == 'refs/heads/codex/tiktok14-reliability') }}
     runs-on: ubuntu-24.04
     timeout-minutes: 3
     steps:

@@ -1,12 +1,7 @@
 name: Twitch Auto20 - aktuelle Top-50-Clips
 
 on:
-  push:
-    paths:
-      - .github/workflows/tiktok.yml
   workflow_dispatch:
-  schedule:
-    - cron: '19 * * * *'
 
 permissions:
   contents: write
@@ -17,6 +12,7 @@ concurrency:
 
 jobs:
   auto20:
+    if: ${{ false }} # Retired: Buffer is the sole production route.
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:

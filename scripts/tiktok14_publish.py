@@ -9,9 +9,11 @@ import datetime as dt
 import re
 import sys
 from zoneinfo import ZoneInfo
+from tiktok14_quality import review_error
 
 REPO_PREFIX = 'https://github.com/renejordan/twitch-clips/releases/download/tiktok14-'
-MAX_PER_DAY = 14
+MAX_PER_DAY = 15
+MAX_SEND_AGE_HOURS = 71  # Buffer delivery is asynchronous: leave one hour of headroom.
 LOCAL_ZONE = ZoneInfo('Europe/Berlin')
 UTC = dt.timezone.utc
 
@@ -30,11 +32,13 @@ def parse_timestamp(text):
 
 
 def eligible(item, current):
-    if item.get('delivery_route') != 'github14' or item.get('status') != 'ready_tiktok14':
+    if review_error(item,current):
+        return False
+    if item.get('delivery_route') != 'github14' or item.get('status') not in ('ready_tiktok14','awaiting_review_tiktok14'):
         return False
     if item.get('editing_status') != 'rendered_9x16_with_burned_subtitles':
         return False
-    if item.get('subtitle_verified') is not True or item.get('transcript_subtitles') is not True:
+    if item.get('transcript_subtitles') is not True:
         return False
     if not re.fullmatch(r'[A-Za-z0-9_-]{4,100}', str(item.get('clip_id', ''))):
         return False
@@ -47,7 +51,7 @@ def eligible(item, current):
         age_h = (current - parse_timestamp(item['original_created_at'])).total_seconds() / 3600
     except (KeyError, ValueError, TypeError):
         return False
-    return 0 <= age_h <= 72
+    return 0 <= age_h <= MAX_SEND_AGE_HOURS
 
 
 def can_reserve(journal, current):
@@ -72,7 +76,7 @@ def can_reserve(journal, current):
         if (current - moment).total_seconds() < 86400 or moment.astimezone(LOCAL_ZONE).date() == local_date:
             total += 1
     if total >= MAX_PER_DAY:
-        return False, 'SKIP: fourteen upload attempts reached (rolling 24h/local day)'
+        return False, 'SKIP: fifteen upload attempts reached (rolling 24h/local day)'
     return True, 'OK'
 
 
@@ -103,17 +107,17 @@ def selftest():
                   subtitle_verified=True, transcript_subtitles=True, clip_id='12345678',
                   original_created_at=stamp(moment-dt.timedelta(hours=2)),
                   video_url=REPO_PREFIX+'2026-10/12345678.mp4')
-    assert eligible(sample, moment)
+    assert not eligible(sample, moment)  # Automatic flags cannot approve real media.
     assert not eligible(dict(sample, status='awaiting_metricool'), moment)
     assert not eligible(dict(sample, original_created_at=stamp(moment-dt.timedelta(hours=73))), moment)
     assert not eligible(dict(sample, subtitle_verified=False), moment)
     assert can_reserve({'attempts': []}, moment)[0]
     attempts = [{'clip_id': str(i), 'reserved_at': stamp(moment-dt.timedelta(hours=2)),
-                 'status': 'verified_public'} for i in range(14)]
+                 'status': 'verified_public'} for i in range(MAX_PER_DAY)]
     assert not can_reserve({'attempts': attempts}, moment)[0]
     for status in ('reserved', 'unknown', 'reported_success_unverified'):
         assert not can_reserve({'attempts': [dict(attempts[0], status=status)]}, moment)[0]
-    print('SELFTEST OK: eligibility, subtitles, 14/24h cap, unresolved-upload stop; NO live upload test')
+    print('SELFTEST OK: media review required, 15/24h cap, unresolved-upload stop; NO live upload test')
 
 
 if __name__ == '__main__':

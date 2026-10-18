@@ -14,6 +14,18 @@ URL = 'https://www.tiktok.com/@ufo3103/video/7697189362877992225'
 POST_ID = '6ad1e7e9e7970040db23ebed'
 
 
+def add_review(item,current=NOW):
+    """Synthetic reviewed-media receipt. It is never used with live services."""
+    item.update(sha256=item.get('sha256','a'*64),transcript_sha256='c'*64,
+                rights_status='user_declared_source_list')
+    item['media_review']={'version':1,'decision':'approved','reviewer':'test-reviewer',
+        'reviewed_at':current.isoformat(),'watched_full_video':True,
+        'media_sha256':item['sha256'],'transcript_sha256':item['transcript_sha256'],
+        'checks':{name:{'result':'pass','evidence':'Synthetic full-media test evidence'} for name in
+            ('subtitles_accuracy','frame_composition','full_clip_payoff','audio_intelligibility','gaming_context')}}
+    return item
+
+
 def fixture():
     item = dict(clip_id='12345678', streamer='rewinside',
         delivery_route='github14', status='ready_tiktok14',
@@ -22,7 +34,7 @@ def fixture():
         original_created_at='2026-10-16T10:00:00Z',
         video_url='https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/12345678.mp4',
         caption='Gaming clip', sha256='a'*64)
-    state = {'version':1, 'queue':[item], 'attempts':[]}
+    state = {'version':1, 'queue':[add_review(item)], 'attempts':[]}
     config = {'sources':['rewinside'], 'legacy_sources':['trymacs']}
     external = {'complete':True, 'observed_at':'2026-10-16T12:00:00Z',
         'window_start':'2026-10-15T12:00:00Z', 'valid_until':'2026-10-16T12:05:00Z', 'posts':[]}
@@ -85,11 +97,11 @@ class WorkerTests(unittest.TestCase):
         self.assertEqual(self.worker.run_one(self.config,None,NOW),'pending')
         self.assertEqual(len(self.gateway.sent),1)
 
-    def test_independent_mode_still_caps_its_own_fourteen_attempts(self):
+    def test_independent_mode_still_caps_its_own_fifteen_attempts(self):
         self.config.update(accounting_mode='independent',legacy_sources=['rewinside'])
         self.store.data['attempts'] = [dict(clip_id=str(i),status='verified_public',
             reserved_at='2026-10-16T10:00:00Z',sent_at='2026-10-16T10:01:00Z',
-            tiktok_url='https://www.tiktok.com/@ufo3103/video/'+str(7000000000000000000+i)) for i in range(14)]
+            tiktok_url='https://www.tiktok.com/@ufo3103/video/'+str(7000000000000000000+i)) for i in range(15)]
         self.assertEqual(self.worker.run_one(self.config,None,NOW),'limit')
         self.assertEqual(self.gateway.sent,[])
 
@@ -117,6 +129,7 @@ class WorkerTests(unittest.TestCase):
         self.external.update(observed_at='2026-10-25T22:30:00Z',
             window_start='2026-10-24T22:00:00Z',valid_until='2026-10-25T22:35:00Z')
         self.store.data['queue'][0]['original_created_at']='2026-10-25T20:00:00Z'
+        add_review(self.store.data['queue'][0],moment)
         self.assertEqual(self.worker.run_one(self.config,self.external,moment),'pending')
         self.assertEqual(self.gateway.window[0],'2026-10-24T22:00:00Z')
 
@@ -219,9 +232,9 @@ class WorkerTests(unittest.TestCase):
             with self.assertRaises(ServiceError): self.run_one()
             self.assertEqual(self.gateway.sent, [])
 
-    def test_external_posts_count_toward_fourteen_attempts(self):
+    def test_external_posts_count_toward_fifteen_attempts(self):
         self.external['posts'] = [{'video_id':str(7000000000000000000+i),
-            'at':'2026-10-16T10:00:00Z'} for i in range(14)]
+            'at':'2026-10-16T10:00:00Z'} for i in range(15)]
         self.assertEqual(self.run_one(), 'limit')
         self.assertEqual(self.gateway.sent, [])
 

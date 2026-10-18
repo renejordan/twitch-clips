@@ -5,7 +5,7 @@ from urllib.parse import urlsplit
 
 from tiktok14_buffer_check import validate as validate_connection, CheckFailed
 from tiktok14_publish import eligible, parse_timestamp, stamp, LOCAL_ZONE, MAX_PER_DAY
-from tiktok14_services import ServiceError, CHANNEL_ID, canonical_video
+from tiktok14_services import ServiceError,PostRejected, CHANNEL_ID, canonical_video
 from tiktok14_quality import identities,nearby_event
 
 
@@ -181,6 +181,8 @@ class Worker:
             if len(unresolved) != 1:
                 raise ServiceError('multiple_unresolved_attempts')
             return self.reconcile(state,sha,unresolved[0],current)
+        retry_after=state.get('last_send_rejection',{}).get('retry_after')
+        if retry_after and current<parse_timestamp(retry_after):return 'send_cooldown'
         from tiktok14_publish import posting_time
         if not posting_time(current): return 'outside_window'
         permitted = sources(config)
@@ -200,8 +202,15 @@ class Worker:
             raise ServiceError('ineligible_queue_item')
         if identities(item)&set(state.get('used_ids',[])) or any(identities(attempt)&identities(item) or nearby_event(item,attempt) for attempt in state['attempts']):
             raise ServiceError('duplicate_clip')
-        overview = self.gateway.overview(stamp(history_start(current)),
-                                          stamp(current+dt.timedelta(days=1)))
+        try:
+            overview = self.gateway.overview(stamp(history_start(current)),
+                                              stamp(current+dt.timedelta(days=1)))
+        except ServiceError as error:
+            if str(error) not in ('buffer_http_401','buffer_http_403','buffer_http_429'):raise
+            state['last_send_rejection']={'reason':str(error),'at':stamp(current),
+                'retry_after':stamp(current+dt.timedelta(hours=1))}
+            self.store.save(state,sha)
+            return 'buffer_preflight_cooldown'
         posts = observed_posts(overview)
         if any(post['status'] != 'sent' for post in posts):
             raise ServiceError('other_buffer_post_unresolved')
@@ -221,7 +230,23 @@ class Worker:
         state['attempts'].append(attempt)
         sha = self.store.save(state,sha)
         # No retry, even when the HTTP response is lost. A later run reconciles.
-        result = self.gateway.create_post(item['video_url'],item['caption'],title)
+        try:result = self.gateway.create_post(item['video_url'],item['caption'],title)
+        except ServiceError as error:
+            # Only documented pre-creation failures can release the reservation.
+            # Lost responses, unexpected server errors and accepted error posts
+            # still go through reconciliation and must never be resent blindly.
+            if not isinstance(error,PostRejected) and str(error)!='buffer_http_429':raise
+            rejected=dict(attempt,status='rejected_before_creation',reason=str(error),rejected_at=stamp(current))
+            state['attempts'].remove(attempt)
+            state.setdefault('rejected_sends',[]).append(rejected)
+            state['last_send_rejection']={'reason':str(error),'at':stamp(current),
+                'retry_after':stamp(current+dt.timedelta(hours=1))}
+            if str(error)=='buffer_invalid_input':
+                state.setdefault('rejected',[]).append(dict(item,status='quality_rejected',
+                    reason='buffer_invalid_input',created_at=stamp(current)))
+                state['queue']=[c for c in state['queue'] if c['clip_id']!=item['clip_id']]
+            self.store.save(state,sha)
+            return 'create_rejected'
         attempt.update(status='pending',buffer_post_id=result['id'])
         self.store.save(state,sha)
         return 'pending'

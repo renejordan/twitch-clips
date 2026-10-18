@@ -18,6 +18,10 @@ class ServiceError(Exception):
     """Only fixed internal reason codes belong in this exception, never bodies."""
 
 
+class PostRejected(ServiceError):
+    """A documented validation/quota rejection: no post was created."""
+
+
 class QualityRejected(ServiceError):
     """Real content evidence failed; exclude this candidate, not the service."""
 
@@ -151,6 +155,10 @@ class BufferGateway:
             'assets':[{'video':{'url':video_url,'metadata':{
                 'title':asset_title,'thumbnailOffset':0}}}]}})
         result = data.get('createPost')
+        known_rejections={'InvalidInputError':'buffer_invalid_input','LimitReachedError':'buffer_limit_reached',
+                          'UnauthorizedError':'buffer_unauthorized','NotFoundError':'buffer_not_found'}
+        if isinstance(result,dict) and result.get('__typename') in known_rejections:
+            raise PostRejected(known_rejections[result['__typename']])
         if not isinstance(result, dict) or result.get('__typename') != 'PostActionSuccess':
             raise ServiceError('buffer_create_rejected')
         post = result.get('post')

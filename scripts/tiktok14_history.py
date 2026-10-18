@@ -13,11 +13,11 @@ def compact(state,current):
  if not isinstance(used,list) or any(not isinstance(x,str) or not re.fullmatch('[A-Za-z0-9_-]{4,100}',x) for x in used):
   raise ServiceError('invalid_permanent_dedup_history')
  used=set(used);changed=False;cutoff=current-dt.timedelta(days=7)
- for collection,counter in [('attempts','archived_verified_count'),('rejected','archived_rejected_count')]:
+ for collection,counter in [('attempts','archived_verified_count'),('rejected','archived_rejected_count'),('rejected_sends','archived_rejected_send_count')]:
   kept=[];removed=0
   for row in state.get(collection,[]):
    identity=str(row.get('clip_id',''))
-   removable=collection=='rejected' or row.get('status')=='verified_public'
+   removable=collection!='attempts' or row.get('status')=='verified_public'
    try:
     moment=max(parse_timestamp(row[key]) for key in ('reserved_at','sent_at','created_at') if row.get(key))
    except (ValueError,TypeError):removable=False;moment=current

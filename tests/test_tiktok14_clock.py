@@ -7,6 +7,12 @@ import tiktok14_clock as clock
 from test_tiktok14_worker import fixture, NOW
 
 class ClockTests(unittest.TestCase):
+ def test_confirmed_creation_rejection_waits_without_blocking_forever(self):
+  state=fixture()[0]
+  state['last_send_rejection']={'retry_after':(NOW+dt.timedelta(hours=1)).isoformat()}
+  self.assertEqual(clock.plan(state,[],NOW),'send_cooldown')
+  self.assertEqual(clock.plan(state,[],NOW+dt.timedelta(hours=1)),'dispatch_auto')
+
  def test_long_outage_reconciliation_waits_an_hour_without_using_buffer(self):
   current=NOW+dt.timedelta(hours=3)
   attempt={'status':'pending','reserved_at':NOW.isoformat(),'last_reconcile_at':(current-dt.timedelta(minutes=5)).isoformat()}

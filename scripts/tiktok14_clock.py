@@ -32,6 +32,8 @@ def plan(state,runs,current):
  if any(r.get('head_branch')=='main' and r.get('status') in ACTIVE for r in runs):return 'active_publisher'
  unresolved=[a for a in state['attempts'] if a.get('status')!='verified_public']
  if unresolved:return 'dispatch_reconcile' if reconciliation_due(unresolved[0],current) else 'reconciliation_backoff'
+ retry_after=state.get('last_send_rejection',{}).get('retry_after')
+ if retry_after and current<parse_timestamp(retry_after):return 'send_cooldown'
  slot=current.astimezone(dt.timezone.utc).strftime('%Y-%m-%dT%H')
  local=current.astimezone(BERLIN)
  scans=state.get('prepare_scans',{})

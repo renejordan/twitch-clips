@@ -14,6 +14,16 @@ import tiktok14_services as services
 
 
 class ServiceTests(unittest.TestCase):
+    def test_only_documented_creation_rejections_are_safe_to_retry_later(self):
+        gateway=services.BufferGateway('FAKE-CREDENTIAL')
+        for typename in ('InvalidInputError','LimitReachedError','UnauthorizedError','NotFoundError'):
+            with self.subTest(typename=typename),patch.object(gateway,'graphql',return_value={'createPost':{'__typename':typename}}):
+                with self.assertRaises(services.PostRejected):gateway.create_post('https://example.com/a.mp4','caption','title')
+        for typename in ('UnexpectedError','RestProxyError','FutureUnknownError','PostActionSuccess'):
+            with self.subTest(typename=typename),patch.object(gateway,'graphql',return_value={'createPost':{'__typename':typename}}):
+                with self.assertRaises(services.ServiceError) as error:gateway.create_post('https://example.com/a.mp4','caption','title')
+                self.assertNotIsInstance(error.exception,services.PostRejected)
+
     def test_public_verification_requires_exact_account_and_video(self):
         good = {'provider_name': 'TikTok', 'type': 'video',
                 'author_url': 'https://www.tiktok.com/@ufo3103',

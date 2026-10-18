@@ -92,6 +92,43 @@ class Gateway:
 
 
 class WorkerTests(unittest.TestCase):
+    def test_rate_limit_before_reservation_saves_cooldown(self):
+        from unittest.mock import patch
+        with patch.object(self.gateway,'overview',side_effect=ServiceError('buffer_http_429')) as overview:
+            self.assertEqual(self.run_one(),'buffer_preflight_cooldown')
+            self.assertEqual(self.run_one(),'send_cooldown')
+            self.assertEqual(overview.call_count,1)
+        self.assertEqual(self.store.data['attempts'],[])
+        self.assertEqual(self.gateway.sent,[])
+
+    def test_http_rate_limit_clears_only_an_unaccepted_reservation(self):
+        self.gateway.outcome=ServiceError('buffer_http_429')
+        self.assertEqual(self.run_one(),'create_rejected')
+        self.assertEqual(self.store.data['attempts'],[])
+        self.assertEqual(self.run_one(),'send_cooldown')
+        self.assertEqual(len(self.gateway.sent),1)
+
+    def test_explicit_create_rejection_is_retried_later_without_unknown_send(self):
+        self.config['accounting_mode']='independent'
+        self.gateway.outcome=worker.PostRejected('buffer_limit_reached')
+        self.assertEqual(self.run_one(),'create_rejected')
+        self.assertEqual(self.store.data['attempts'],[])
+        self.assertEqual(len(self.store.data['rejected_sends']),1)
+        self.assertEqual(len(self.store.data['queue']),1)
+        self.gateway.outcome=None
+        self.assertEqual(self.run_one(),'send_cooldown')
+        later=NOW+dt.timedelta(hours=1)
+        add_review(self.store.data['queue'][0],later)
+        self.assertEqual(self.worker.run_one(self.config,self.external,later),'pending')
+        self.assertEqual(len(self.store.data['attempts']),1)
+
+    def test_invalid_input_rejection_discards_only_the_unsent_candidate(self):
+        self.gateway.outcome=worker.PostRejected('buffer_invalid_input')
+        self.assertEqual(self.run_one(),'create_rejected')
+        self.assertEqual(self.store.data['attempts'],[])
+        self.assertEqual(self.store.data['queue'],[])
+        self.assertEqual(self.store.data['rejected'][0]['clip_id'],'12345678')
+
     def test_independent_mode_needs_no_metricool_history_and_allows_same_sources(self):
         self.config.update(accounting_mode='independent',legacy_sources=['rewinside'])
         self.assertEqual(self.worker.run_one(self.config,None,NOW),'pending')

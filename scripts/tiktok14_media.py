@@ -39,7 +39,7 @@ def automated_render(namespace,clip,source,model_dir):
         for name in ('tiktok.mp4','cover.jpg','transcript.json','source-frames.jpg','final-frames.jpg'):
             if not (out/name).is_file():raise ServiceError('qa_output_missing')
         clip['_qa_evidence']=evidence
-        return out/'tiktok.mp4',out/'cover.jpg',True
+        return out/'tiktok.mp4',out/'cover.jpg',evidence.get('caption_mode')=='verified_words'
     except QualityRejected:raise
     except Exception:raise ProductionInterrupted('qa_service_failed') from None
 

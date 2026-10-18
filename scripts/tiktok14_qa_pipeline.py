@@ -38,6 +38,8 @@ def source_review(namespace,clip,source,model_dir):
  error=visual_error(visual,duration)
  if error:raise QualityRejected('qa_'+error)
  return {'source_sha256':source_hash,'duration':duration,'timestamps':times,
+  'caption_mode':speech['caption_mode'],'rendered_word_count':len(words),
+  'headline':f"Gaming-Moment mit {clip['channel_login']}",
   'source_visual':visual,'source_frame_hashes':[sha(path) for path in frames],
   'primary_model':PRIMARY,'secondary_model':SECONDARY,'vision_model':VISION_MODEL,
   'transcript_distance':speech['normalized_token_distance'],'audio_rms':speech['audio']['rms'],
@@ -96,7 +98,7 @@ def portrait_render(namespace,clip,source,box):
   if min(w,h)<40:box=None
  else:box=None
  namespace['write_subs'](words,0,duration,out/'subs.ass')
- (out/'headline.txt').write_text('\n'.join(textwrap.wrap(namespace['headline'](clip),22)[:2]),encoding='utf-8')
+ (out/'headline.txt').write_text('\n'.join(textwrap.wrap(f"Gaming-Moment mit {clip['channel_login']}",26)[:2]),encoding='utf-8')
  font='C:/Windows/Fonts/arialbd.ttf' if os.name=='nt' else '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
  font=filter_path(font);headline=filter_path(out/'headline.txt');subs=filter_path(out/'subs.ass')
  filters=(f'[0:v]split=3[b][g][f];[b]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:10[bg];'
@@ -117,15 +119,17 @@ def portrait_render(namespace,clip,source,box):
   '-c:v','libx264','-preset','veryfast','-threads','2','-crf','23','-r','30','-c:a','aac','-b:a','160k','-movflags','+faststart',str(movie)],timeout=360)
  namespace['run'](['ffmpeg','-y','-v','error','-ss','1','-i',str(movie),'-frames:v','1',str(cover)],timeout=30)
  if namespace['probe'](movie,size=True)!='1080x1920':raise ServiceError('qa_portrait_format_failed')
- return movie,cover,True
+ return movie,cover,bool(words)
 
 def final_review(namespace,clip,movie,report,model_dir):
  namespace['run'](['ffmpeg','-v','error','-i',str(movie),'-f','null','-'],timeout=120)
  frames,times=frame_samples(movie,namespace['OUT']/'qa-final',report['duration'],count=10,hook_detail=False,
   extra_times=[report['source_visual']['payoff_timestamp']])
- context=json.dumps({'source_event_hypothesis':report['source_visual']['setup']+' '+report['source_visual']['payoff']})
+ context=json.dumps({'source_event_hypothesis':report['source_visual']['setup']+' '+report['source_visual']['payoff'],
+  'caption_mode':report['caption_mode'],'expected_title':report['headline']})
  with Vision(model_dir) as vision:final=vision.ask(FINAL_PROMPT,frames,times,context)
- if (final.get('composition_usable') is not True or final.get('legible_subtitles') is not True or
+ text_ok=(final.get('legible_subtitles') is True if report['caption_mode']=='verified_words' else final.get('caption_quality')=='readable_title_only')
+ if (final.get('composition_usable') is not True or not text_ok or
   final.get('browser_chrome') is not False or final.get('nested_rebroadcast') is not False or final.get('event_retained') is not True):
   raise QualityRejected('qa_final_composition_failed')
  evidence={key:value for key,value in report.items() if key!='frames'}

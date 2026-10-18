@@ -49,11 +49,12 @@ def visual_error(data,duration):
  return None
 
 def automated_receipt(item,evidence,current):
+ title_only=evidence.get('caption_mode')=='title_only'
  checks={
-  'subtitles_accuracy':f"Two full audio transcriptions compared; normalized token distance {evidence['transcript_distance']:.4f}. No human accuracy assertion.",
+  'subtitles_accuracy':('No word subtitles rendered; uncertain speech is retained only as diagnostic evidence.' if title_only else f"Two full audio transcriptions compared; normalized token distance {evidence['transcript_distance']:.4f}. No human accuracy assertion."),
   'frame_composition':evidence['final_visual']['evidence'],
   'full_clip_payoff':evidence['source_visual']['setup']+' '+evidence['source_visual']['payoff'],
-  'audio_intelligibility':f"Decoded full audio; RMS {evidence['audio_rms']:.4f}, clipping fraction {evidence['clipped_fraction']:.5f}; cross-model speech agreement checked.",
+  'audio_intelligibility':f"Decoded full audio; RMS {evidence['audio_rms']:.4f}, clipping fraction {evidence['clipped_fraction']:.5f}. No human listening claim.",
   'gaming_context':evidence['source_visual']['payoff']}
  return {'version':2,'decision':'approved','method':'automated_local_models',
   'reviewer':'local-model-review-v2','reviewed_at':current.isoformat(),
@@ -82,21 +83,26 @@ def automated_review_error(item,review,current):
   scan=e.get('caption_scan',{})
   if (scan.get('method')!='full_duration_2fps_ocr_and_speech_alignment' or
       type(scan.get('frames')) is not int or scan['frames']<int(duration*2)-1):return 'automatic_caption_scan_missing'
-  from tiktok14_caption_scan import text_groups
+  from tiktok14_caption_scan import text_groups,MAX_TEXT_STATES
   groups=text_groups(scan['detections']);regions=scan['region_reviews'];classification=scan['classifications']
-  if not isinstance(regions,list) or len(regions)!=len(groups) or len(groups)>12:return 'automatic_caption_semantics_missing'
+  if not isinstance(regions,list) or len(regions)!=len(groups) or len(groups)>MAX_TEXT_STATES:return 'automatic_caption_semantics_missing'
   for index,region in enumerate(regions):
    key=f'region_{index}'
    if (region.get('region')!=key or region.get('kind') not in ('game_hud_or_chat','dialogue_subtitles') or
        classification.get(key)!=region['kind'] or any(not re.fullmatch('[a-f0-9]{64}',str(region.get(field,'')))
         for field in ('source_frame_sha256','crop_sha256'))):return 'automatic_caption_semantics_missing'
   if visual_error(e['source_visual'],duration):return 'automatic_visual_check_failed'
+  mode=e.get('caption_mode');word_count=e.get('rendered_word_count')
+  if mode not in ('verified_words','title_only') or type(word_count) is not int:return 'automatic_caption_mode_invalid'
+  if e.get('headline')!=f"Gaming-Moment mit {item.get('streamer')}":return 'automatic_title_invalid'
   f=e['final_visual']
-  if (f.get('composition_usable') is not True or f.get('legible_subtitles') is not True or f.get('event_retained') is not True or
+  text_ok=(word_count>=3 and f.get('legible_subtitles') is True if mode=='verified_words' else
+   word_count==0 and f.get('legible_subtitles') is False and f.get('legible_title') is True and f.get('caption_quality')=='readable_title_only')
+  if (f.get('composition_usable') is not True or not text_ok or f.get('event_retained') is not True or
       f.get('browser_chrome') is not False or f.get('nested_rebroadcast') is not False or
       not isinstance(f.get('evidence'),str) or len(f['evidence'])<20):return 'automatic_final_composition_failed'
   distance=e['transcript_distance']
-  if not finite(distance) or distance!=0:return 'automatic_transcripts_disagree'
+  if not finite(distance) or not 0<=distance<=1 or (mode=='verified_words' and distance!=0):return 'automatic_transcripts_disagree'
   rms=e['audio_rms'];clipped=e['clipped_fraction']
   if not finite(rms) or not .002<=rms<=.5 or not finite(clipped) or not 0<=clipped<.01:return 'automatic_audio_check_failed'
   for key in CHECKS:

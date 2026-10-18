@@ -36,6 +36,17 @@ def validate_speech(primary,secondary,audio):
  if not .002<=audio['rms']<=.5 or audio['clipped_fraction']>=.01:raise QualityRejected('qa_audio_quality_failed')
  return distance
 
+
+def subtitle_plan(primary,secondary,audio):
+ # A missing or clipped track cannot be rescued by omitting subtitles.
+ if not .002<=audio['rms']<=.5 or not 0<=audio['clipped_fraction']<.01:raise QualityRejected('qa_audio_quality_failed')
+ try:
+  distance=validate_speech(primary,secondary,audio)
+  return 'verified_words',primary['words'],distance,None
+ except QualityRejected as error:
+  return 'title_only',[],transcript_distance(' '.join(w['text'] for w in primary['words']),
+   ' '.join(w['text'] for w in secondary['words'])),str(error)
+
 def transcribe_pair(path,out,model_dir):
  from faster_whisper import WhisperModel
  from faster_whisper.audio import decode_audio
@@ -65,11 +76,12 @@ def transcribe_pair(path,out,model_dir):
   'normalized_token_distance':transcript_distance(' '.join(w['text'] for w in primary['words']),
    ' '.join(w['text'] for w in secondary['words']))}
  (out/'asr-comparison.json').write_text(json.dumps(comparison,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8')
- distance=validate_speech(primary,secondary,audio)
+ mode,rendered_words,distance,reason=subtitle_plan(primary,secondary,audio)
  result={'model':'whisper-large-v3-turbo','revision':TURBO_REV,'language':'de',
-  'words':primary['words'],'secondary_model':'whisper-small','secondary_revision':SMALL_REV,
+  'words':rendered_words,'caption_mode':mode,'subtitle_omission_reason':reason,
+  'secondary_model':'whisper-small','secondary_revision':SMALL_REV,
   'secondary_words':secondary['words'],'normalized_token_distance':distance,
   'editorial_accuracy':'automated_model_agreement_not_human_verified','audio':audio,
-  'requires_correction':False}
+  'requires_correction':mode=='title_only'}
  target=out/'transcript.json';target.write_text(json.dumps(result,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8')
- return [(w['start'],w['end'],w['text']) for w in primary['words']],result
+ return [(w['start'],w['end'],w['text']) for w in rendered_words],result

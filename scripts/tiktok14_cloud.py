@@ -267,6 +267,7 @@ def prepare(store,config,legacy,current,host):
             try:
                 from tiktok14_autoreview import automated_receipt
                 preview={'clip_id':clip['id'],'sha256':hashlib.sha256(movie.read_bytes()).hexdigest(),
+                    'streamer':clip.get('channel_login'),
                     'transcript_sha256':hashlib.sha256((movie.parent/'transcript.json').read_bytes()).hexdigest(),
                     'source_sha256':clip['_qa_evidence'].get('source_sha256'),
                     'rights_status':'user_declared_source_list'}
@@ -297,6 +298,10 @@ def prepare(store,config,legacy,current,host):
         if clip.get('_qa_evidence'):
             from tiktok14_autoreview import automated_receipt
             record['source_sha256']=clip['_qa_evidence']['source_sha256']
+            record['hook']=clip['_qa_evidence']['headline']
+            record['caption']=f"Gaming-Moment von {record['streamer']} · Quelle: Twitch\n#gaming #twitch"
+            if clip['_qa_evidence']['caption_mode']=='title_only':
+                record.update(editing_status='rendered_9x16_title_only',transcript_subtitles=False)
             record['media_review']=clip['_qa_receipt']
             if review_error(record,current):raise ProductionInterrupted('automatic_evidence_invalid')
             record.update(status='ready_tiktok14',video_review_status='automated_media_evidence_passed',subtitle_verified=False)

@@ -43,6 +43,8 @@ def extract_pipeline(yaml_text):
 def generate():
     code = extract_pipeline(WORKFLOW.read_text(encoding='utf-8'))
     alterations = [
+        ("if not has_subs:\n                raise ValueError('Pflicht-Untertitel fehlen')",
+         "if not has_subs and clip.get('_qa_evidence',{}).get('caption_mode')!='title_only':\n                raise ValueError('Gepruefte Texteinblendung fehlt')"),
         ("for clip in verified[:20]:", "for clip in verified[:3]:"),
         ("int(os.getenv('MIN_VIEWS', '800'))", "100"),
         ("STATE = Path('state/auto20.json')", "STATE = Path('state/auto14_queue.json')"),

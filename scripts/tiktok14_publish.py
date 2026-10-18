@@ -40,9 +40,11 @@ def eligible(item, current):
         return False
     if item.get('delivery_route') != 'github14' or item.get('status') not in ('ready_tiktok14','awaiting_review_tiktok14'):
         return False
-    if item.get('editing_status') != 'rendered_9x16_with_burned_subtitles':
-        return False
-    if item.get('transcript_subtitles') is not True:
+    title_only=(item.get('media_review',{}).get('version')==2 and
+                item['media_review'].get('evidence',{}).get('caption_mode')=='title_only')
+    if title_only:
+        if item.get('editing_status')!='rendered_9x16_title_only' or item.get('transcript_subtitles') is not False:return False
+    elif item.get('editing_status')!='rendered_9x16_with_burned_subtitles' or item.get('transcript_subtitles') is not True:
         return False
     if not re.fullmatch(r'[A-Za-z0-9_-]{4,100}', str(item.get('clip_id', ''))):
         return False

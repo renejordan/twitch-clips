@@ -19,6 +19,15 @@ from test_tiktok14_worker import MemoryState, fixture, NOW
 
 
 class CloudTests(unittest.TestCase):
+    def test_new_code_revision_can_retry_a_technical_scan_without_resetting_send_history(self):
+        for revision,expected in [('1'*40,'scan_budget_exhausted'),('2'*40,'empty')]:
+            state={'version':1,'queue':[],'attempts':[],
+                'prepare_scans':{'hour':NOW.strftime('%Y-%m-%dT%H'),'count':3,'revision':'1'*40}}
+            store=MemoryState(state)
+            with patch.dict(os.environ,GITHUB_SHA=revision),patch.object(cloud,'producer_namespace',return_value={'main':lambda:None}),patch.object(cloud,'report_result'):
+                self.assertEqual(cloud.prepare(store,fixture()[1],{'created':[],'processed_ids':[]},NOW,None),expected)
+            self.assertEqual(store.data['attempts'],[])
+            self.assertEqual(store.data['prepare_scans']['count'],3 if revision=='1'*40 else 1)
     def test_completed_rejection_survives_hard_stop_before_the_next_candidate(self):
         ns={'_report':{'rejected':[]}}
         def execute():

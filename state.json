@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "502558914",
-      "clip_slug": "WrongEphemeralWitchPastaThat-vXteTJPHfRH2u4Q9",
-      "streamer": "metashi12",
-      "source_url": "https://www.twitch.tv/metashi12/clip/WrongEphemeralWitchPastaThat-vXteTJPHfRH2u4Q9",
-      "original_title": "R.I.P. Schwert",
-      "hook": "R.I.P. Schwert",
-      "caption": "R.I.P. Schwert\n#gaming #minecraft #twitchclips #metashi12 #gamer",
-      "views_at_selection": 148,
-      "original_duration": 19.0,
-      "original_created_at": "2026-10-18T12:08:33Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-502558914-04e9337cd7ab.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-18T14:08:20Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "04e9337cd7ab6dfd3ed6136657014b02c885ed1a0a3ea530392c527a7371ec2d",
-      "category": "Minecraft",
-      "transcript_sha256": "cf53dccdd7d23a6e4183fe5a79402de597a1267302c83055c2a5ff5bbe8ffe2e",
-      "asr_requires_correction": true,
-      "source_sha256": "41aba3f4a2cc4c96efadf2d088969f49cac58763d05d6464bf7194eeba7c0f50",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-18T14:08:20.137091+00:00",
-        "media_sha256": "04e9337cd7ab6dfd3ed6136657014b02c885ed1a0a3ea530392c527a7371ec2d",
-        "transcript_sha256": "cf53dccdd7d23a6e4183fe5a79402de597a1267302c83055c2a5ff5bbe8ffe2e",
-        "source_sha256": "41aba3f4a2cc4c96efadf2d088969f49cac58763d05d6464bf7194eeba7c0f50",
-        "evidence_sha256": "356e197acb9bb961ec45d126936c98b8c5189d377a72af668509b5bdecc6b8a2",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "41aba3f4a2cc4c96efadf2d088969f49cac58763d05d6464bf7194eeba7c0f50",
-          "reviewed_source_sha256": "41aba3f4a2cc4c96efadf2d088969f49cac58763d05d6464bf7194eeba7c0f50",
-          "duration": 19.816667,
-          "timestamps": [
-            0.0,
-            9.833,
-            19.667
-          ],
-          "source_frame_hashes": [
-            "03ff815b609cffb0d0e2041e5ea0435daa724c5c7d2ec2f64f6baa2f68c4512e",
-            "a2b75e15f23e513a9e733c215f54eddaab0664eb70f416918acc03a16d1a47e0",
-            "3d8250b539127d59b65456f30e2941a5143d2c13adf4422973805163aba64015"
-          ],
-          "headline": "R.I.P. Schwert",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay with game HUD visible, including health, inventory, and chat, and a small window showing the streamer's face.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in the frames provided.",
-            "payoff": "No clear payoff visible in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.0410930797359467,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a Minecraft gameplay session with a facecam panel in the top-left corner, which is a common edited gaming layout. The game's HUD, including health, inventory, and player stats, is visible. The stream chat is present on the左侧",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            9.833,
-            19.667
-          ],
-          "final_frame_hashes": [
-            "c96cb13efa31356a74ad46d3d160a844248c33a7bc0a7d99aae6b26424bfd21f",
-            "38bcf590a242583665491787138d62110ebb3b780e9495dc2116a0d609ec9ec2",
-            "39c1076d1ec140f5a45d5024fb52bed4defb292d31f2112b09096b3df0192d38"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "04e9337cd7ab6dfd3ed6136657014b02c885ed1a0a3ea530392c527a7371ec2d",
-          "transcript_sha256": "cf53dccdd7d23a6e4183fe5a79402de597a1267302c83055c2a5ff5bbe8ffe2e"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a Minecraft gameplay session with a facecam panel in the top-left corner, which is a common edited gaming layout. The game's HUD, including health, inventory, and player stats, is visible. The stream chat is present on the左侧"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0411, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-502558914-04e9337cd7ab-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -263,14 +125,17 @@
       "streamer": "metashi12",
       "sha256": "04e9337cd7ab6dfd3ed6136657014b02c885ed1a0a3ea530392c527a7371ec2d",
       "source_sha256": "41aba3f4a2cc4c96efadf2d088969f49cac58763d05d6464bf7194eeba7c0f50",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-502558914-04e9337cd7ab.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-502558914-04e9337cd7ab.mp4",
       "clip_slug": "WrongEphemeralWitchPastaThat-vXteTJPHfRH2u4Q9",
       "original_created_at": "2026-10-18T12:08:33Z",
       "source_deadline": "2026-10-21T12:08:33Z",
       "buffer_post_id": "6ad4df0c0b0d72757a289258",
-      "last_reconcile_at": "2026-10-18T15:04:29Z"
+      "last_reconcile_at": "2026-10-18T15:04:29Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698022977127894304",
+      "sent_at": "2026-10-18T15:02:39Z",
+      "verified_at": "2026-10-18T15:04:30Z"
     }
   ],
   "last_production": {

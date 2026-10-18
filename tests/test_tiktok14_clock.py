@@ -7,6 +7,13 @@ import tiktok14_clock as clock
 from test_tiktok14_worker import fixture, NOW
 
 class ClockTests(unittest.TestCase):
+ def test_long_outage_reconciliation_waits_an_hour_without_using_buffer(self):
+  current=NOW+dt.timedelta(hours=3)
+  attempt={'status':'pending','reserved_at':NOW.isoformat(),'last_reconcile_at':(current-dt.timedelta(minutes=5)).isoformat()}
+  state={'queue':[],'attempts':[attempt]}
+  self.assertEqual(clock.plan(state,[],current),'reconciliation_backoff')
+  self.assertEqual(clock.plan(state,[],current+dt.timedelta(minutes=55)),'dispatch_reconcile')
+
  def test_fifteen_berlin_hours_and_dst_boundaries(self):
   for day in ('2026-10-18','2026-10-25','2027-03-28'):
    hours=[]

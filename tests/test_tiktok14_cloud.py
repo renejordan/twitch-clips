@@ -19,6 +19,32 @@ from test_tiktok14_worker import MemoryState, fixture, NOW
 
 
 class CloudTests(unittest.TestCase):
+    def test_pending_preflight_skips_all_media_dependencies_without_buffer(self):
+        state=fixture()[0]
+        state['attempts']=[{'status':'pending','reserved_at':NOW.isoformat()}]
+        with tempfile.TemporaryDirectory() as temporary:
+            output=Path(temporary)/'output.txt'
+            with patch.dict(os.environ,GITHUB_REPOSITORY=cloud.REPOSITORY,GITHUB_REF='refs/heads/main',GITHUB_OUTPUT=str(output)),patch.object(cloud,'GitHubAPI'),patch.object(cloud.GitHubState,'load',return_value=(state,'sha')),patch.object(cloud,'BufferGateway') as gateway:
+                self.assertEqual(cloud.main('plan'),0)
+                self.assertEqual(output.read_text(encoding='utf8'),'media_needed=false\n')
+                gateway.assert_not_called()
+
+    def test_reconcile_only_cannot_start_a_new_post(self):
+        state,config,_,_=fixture()
+        with patch.object(cloud,'BufferGateway') as gateway,patch.object(cloud,'legacy_running') as legacy:
+            self.assertEqual(cloud.publish(MemoryState(state),config,None,'fake',reconcile_only=True),'nothing_to_reconcile')
+            gateway.assert_not_called();legacy.assert_not_called()
+
+    def test_reconciliation_retry_is_durable_before_a_failed_buffer_read(self):
+        state,config,_,_=fixture()
+        state['attempts']=[{'status':'pending','reserved_at':NOW.isoformat(),'clip_id':'12345678'}]
+        store=MemoryState(state)
+        with patch.object(cloud,'BufferGateway'),patch.object(cloud.Worker,'run_one',side_effect=ServiceError('transport_error')) as run:
+            with self.assertRaises(ServiceError):cloud.publish(store,config,None,'fake',reconcile_only=True)
+            self.assertIn('last_reconcile_at',store.data['attempts'][0])
+            self.assertEqual(cloud.publish(store,config,None,'fake',reconcile_only=True),'reconciliation_backoff')
+            self.assertEqual(run.call_count,1)
+
     def test_new_code_revision_can_retry_a_technical_scan_without_resetting_send_history(self):
         for revision,expected in [('1'*40,'scan_budget_exhausted'),('2'*40,'empty')]:
             state={'version':1,'queue':[],'attempts':[],

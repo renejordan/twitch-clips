@@ -222,29 +222,28 @@
       "verified_at": "2026-10-18T12:04:32Z"
     }
   ],
-  "last_prepare_hour": "2026-10-18T11",
+  "last_prepare_hour": "2026-10-18T12",
   "last_production": {
-    "at": "2026-10-18T11:23:52Z",
+    "at": "2026-10-18T12:08:07Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 77,
-      "listing_age_prefilter": 851,
-      "discovered": 637,
-      "metadata_requested": 632,
-      "qualified_metadata": 395,
+      "listing_duration_prefilter": 81,
+      "listing_age_prefilter": 846,
+      "discovered": 643,
+      "metadata_requested": 636,
+      "qualified_metadata": 393,
       "title_too_short": 62,
-      "gaming_category_not_verified": 175,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_final_composition_failed": 1,
+      "gaming_category_not_verified": 181,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "366414941",
-      "clip_slug": "BoxyStupidSpiderBrokeBack--ntZvRoT5y89mrMc",
-      "streamer": "krokoboss"
+      "clip_id": "3713714204",
+      "clip_slug": "SmellyUglyAlmondMrDestructoid-8pN0GgRPot5Ajw5e",
+      "streamer": "castcrafter"
     }
   },
   "prepare_scans": {
@@ -331,5 +330,5 @@
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",
-  "last_prefetch_hour": "2026-10-18T11"
+  "last_prefetch_hour": "2026-10-18T12"
 }

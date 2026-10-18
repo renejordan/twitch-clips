@@ -28,4 +28,9 @@ class QABoundaryTests(unittest.TestCase):
   with self.assertRaises(ProductionInterrupted):self.invoke('passed',0,wrong_hash=True)
  def test_nonzero_exit_cannot_approve_even_with_passed_json(self):
   with self.assertRaises(ProductionInterrupted):self.invoke('passed',1)
+ def test_fixed_technical_stage_is_reported_without_raw_child_output(self):
+  with self.assertRaisesRegex(ProductionInterrupted,'qa_caption_regions_uncertain'):
+   self.invoke('technical_failure',1,'qa_caption_regions_uncertain')
+  with self.assertRaisesRegex(ProductionInterrupted,'qa_service_failed'):
+   self.invoke('technical_failure',1,'Raw traceback with secret=do-not-print')
 if __name__=='__main__':unittest.main()

@@ -19,6 +19,17 @@ from test_tiktok14_worker import MemoryState, fixture, NOW
 
 
 class CloudTests(unittest.TestCase):
+    def test_completed_rejection_survives_hard_stop_before_the_next_candidate(self):
+        ns={'_report':{'rejected':[]}}
+        def execute():
+            ns['_report']['rejected'].append({'clip_id':'first-rejected','status':'quality_rejected','reason':'qa_visual_complete_payoff'})
+            ns['_persist_rejections']()
+            raise KeyboardInterrupt('simulated runner stop')
+        ns['main']=execute;store=MemoryState({'version':1,'attempts':[],'queue':[]})
+        with patch.object(cloud,'producer_namespace',return_value=ns):
+            with self.assertRaises(KeyboardInterrupt):cloud.prepare(store,fixture()[1],{'created':[],'processed_ids':[]},NOW,None)
+        self.assertEqual(store.data['rejected'][0]['clip_id'],'first-rejected')
+        self.assertEqual(store.data['queue'],[])
     def test_own_duplicate_is_removed_and_search_continues_in_same_hour(self):
         for same_bytes in (True,False):
             state,config,_,_=fixture();item=state['queue'][0]

@@ -98,7 +98,8 @@ class CloudTests(unittest.TestCase):
             namespace['save_state'](data)
         namespace['main']=execute
         def host(*args): return record['video_url'],record['video_url']+'.jpg','b'*64
-        with patch.object(cloud,'producer_namespace',return_value=namespace):
+        with patch.object(cloud,'producer_namespace',return_value=namespace), \
+                patch.object(cloud,'report_result'):
             self.assertEqual(cloud.prepare(store,config,legacy,NOW,host),'needs_review')
         self.assertEqual(store.data['queue'][0]['sha256'],'b'*64)
         self.assertFalse(store.data['queue'][0]['subtitle_verified'])

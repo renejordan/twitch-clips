@@ -110,8 +110,8 @@
     }
   },
   "prepare_scans": {
-    "hour": "2026-10-18T11",
-    "revision": "a994f468b25c27005568ccbe37cc9be33800c982",
+    "hour": "2026-10-18T12",
+    "revision": "f62326cf218feae01a52895976db5f10cb62368a",
     "count": 1
   },
   "source_ranking": {

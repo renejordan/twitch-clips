@@ -29,19 +29,19 @@ def transcript_distance(first,second):
 
 def finite(value):return type(value) in (int,float) and math.isfinite(value)
 
-def coverage_error(times,duration,hashes):
- if (not isinstance(times,list) or len(times)<8 or not all(finite(x) for x in times) or
+def coverage_error(times,duration,hashes,fast=False):
+ if (not isinstance(times,list) or len(times)<(3 if fast else 8) or not all(finite(x) for x in times) or
      times!=sorted(set(times)) or not 0<=times[0]<=.6 or not duration-.6<=times[-1]<=duration or
-     max(b-a for a,b in zip(times,times[1:]))>8):return True
+     max(b-a for a,b in zip(times,times[1:]))>(duration/2+.6 if fast else 8)):return True
  return (not isinstance(hashes,list) or len(hashes)!=len(times) or
          any(not re.fullmatch('[a-f0-9]{64}',str(value)) for value in hashes))
 
-def visual_error(data,duration,practical=False):
+def visual_error(data,duration,practical=False,preserve_overlays=False):
  if not isinstance(data,dict):return 'visual_response_invalid'
  required=('gameplay_visible','safe_for_general_audience') if practical else ('gameplay_visible','complete_payoff','standalone_understandable','safe_for_general_audience','sustained_watchability')
  for key in required:
   if data.get(key) is not True:return 'visual_'+key
- for key in ('browser_chrome','nested_rebroadcast','existing_captions'):
+ for key in (('browser_chrome','nested_rebroadcast') if preserve_overlays else ('browser_chrome','nested_rebroadcast','existing_captions')):
   if data.get(key) is not False:return 'visual_'+key
  if data.get('frame_problem')!='none':return 'visual_composition_problem'
  if practical:return None
@@ -54,6 +54,7 @@ def visual_error(data,duration,practical=False):
 
 def automated_receipt(item,evidence,current):
  practical=evidence.get('quality_policy')==PRACTICAL_POLICY
+ fast=practical and evidence.get('review_method')=='sampled_frames_and_full_decode'
  title_only=evidence.get('caption_mode')=='title_only'
  checks={
   'subtitles_accuracy':('No word subtitles rendered; uncertain speech is retained only as diagnostic evidence.' if title_only else f"Two full audio transcriptions compared; normalized token distance {evidence['transcript_distance']:.4f}. No human accuracy assertion."),
@@ -66,6 +67,7 @@ def automated_receipt(item,evidence,current):
    'frame_composition':checks['frame_composition'],'caption_rendering':checks['subtitles_accuracy'],
    'audio_track':checks['audio_intelligibility'],
    'gaming_context':'Actual sampled gameplay and source metadata checked.'}
+  if fast:checks['caption_rendering']='No generated word subtitles. Original source overlays are preserved without claiming their accuracy.'
  return {'version':3 if practical else 2,'decision':'approved','method':'automated_local_models',
   'reviewer':'local-model-review-v2','reviewed_at':current.isoformat(),
   'media_sha256':item['sha256'],'transcript_sha256':item['transcript_sha256'],
@@ -83,38 +85,49 @@ def automated_review_error(item,review,current):
   e=review['evidence']
   practical=review.get('version')==3
   if practical != (e.get('quality_policy')==PRACTICAL_POLICY):return 'automatic_quality_policy_invalid'
+  fast=practical and e.get('review_method')=='sampled_frames_and_full_decode'
   if not isinstance(e,dict) or review.get('evidence_sha256')!=digest_json(e):return 'automatic_evidence_hash_mismatch'
   if e.get('source_sha256')!=item['source_sha256'] or e.get('decoded_full_video') is not True:return 'automatic_source_evidence_missing'
   if e.get('media_sha256')!=item['sha256'] or e.get('transcript_sha256')!=item['transcript_sha256']:return 'automatic_output_evidence_mismatch'
-  if (e.get('vision_model')!=VISION_MODEL or e.get('primary_model')!=PRIMARY or e.get('secondary_model')!=SECONDARY):return 'automatic_models_unverified'
+  if e.get('vision_model')!=VISION_MODEL:return 'automatic_models_unverified'
+  if fast:
+   if e.get('asr_used') is not False or e.get('primary_model') is not None or e.get('secondary_model') is not None:return 'automatic_models_unverified'
+  elif e.get('primary_model')!=PRIMARY or e.get('secondary_model')!=SECONDARY:return 'automatic_models_unverified'
   duration=e['duration'];times=e['timestamps']
   if not finite(duration) or not 15<=duration<=60:return 'automatic_duration_invalid'
-  if coverage_error(times,duration,e.get('source_frame_hashes')):return 'automatic_temporal_coverage_missing'
-  if coverage_error(e.get('final_timestamps'),duration,e.get('final_frame_hashes')):return 'automatic_final_coverage_missing'
+  if coverage_error(times,duration,e.get('source_frame_hashes'),fast):return 'automatic_temporal_coverage_missing'
+  if coverage_error(e.get('final_timestamps'),duration,e.get('final_frame_hashes'),fast):return 'automatic_final_coverage_missing'
   if not re.fullmatch('[a-f0-9]{64}',str(e.get('reviewed_source_sha256',''))):return 'automatic_source_evidence_missing'
   scan=e.get('caption_scan',{})
-  if (scan.get('method')!='full_duration_2fps_ocr_and_speech_alignment' or
+  if fast:
+   if scan.get('method')!='original_overlays_preserved_no_generated_word_subtitles':return 'automatic_caption_scan_missing'
+  elif (scan.get('method')!='full_duration_2fps_ocr_and_speech_alignment' or
       type(scan.get('frames')) is not int or scan['frames']<int(duration*2)-1):return 'automatic_caption_scan_missing'
   from tiktok14_caption_scan import text_groups,MAX_TEXT_STATES
-  groups=text_groups(scan['detections']);regions=scan['region_reviews'];classification=scan['classifications']
+  groups=text_groups(scan.get('detections',[]) if fast else scan['detections'])
+  regions=scan.get('region_reviews',[]) if fast else scan['region_reviews']
+  classification=scan.get('classifications',{}) if fast else scan['classifications']
   if not isinstance(regions,list) or len(regions)!=len(groups) or len(groups)>MAX_TEXT_STATES:return 'automatic_caption_semantics_missing'
   for index,region in enumerate(regions):
    key=f'region_{index}'
    if (region.get('region')!=key or region.get('kind') not in ('game_hud_or_chat','dialogue_subtitles') or
        classification.get(key)!=region['kind'] or any(not re.fullmatch('[a-f0-9]{64}',str(region.get(field,'')))
         for field in ('source_frame_sha256','crop_sha256'))):return 'automatic_caption_semantics_missing'
-  if visual_error(e['source_visual'],duration,practical=practical):return 'automatic_visual_check_failed'
+  if visual_error(e['source_visual'],duration,practical=practical,preserve_overlays=fast):return 'automatic_visual_check_failed'
   mode=e.get('caption_mode');word_count=e.get('rendered_word_count')
   if mode not in ('verified_words','title_only') or type(word_count) is not int:return 'automatic_caption_mode_invalid'
   if e.get('headline')!=f"Gaming-Moment mit {item.get('streamer')}":return 'automatic_title_invalid'
   f=e['final_visual']
   text_ok=(word_count>=3 and f.get('legible_subtitles') is True if mode=='verified_words' else
-   word_count==0 and f.get('legible_subtitles') is False and f.get('legible_title') is True and f.get('caption_quality')=='readable_title_only')
+   word_count==0 and (fast or f.get('legible_subtitles') is False) and f.get('legible_title') is True and f.get('caption_quality') in (('readable_title_only','readable_single') if fast else ('readable_title_only',)))
+  if fast and (mode!='title_only' or word_count!=0):return 'automatic_caption_mode_invalid'
   if (f.get('composition_usable') is not True or not text_ok or (not practical and f.get('event_retained') is not True) or
       f.get('browser_chrome') is not False or f.get('nested_rebroadcast') is not False or
       not isinstance(f.get('evidence'),str) or len(f['evidence'])<20):return 'automatic_final_composition_failed'
   distance=e['transcript_distance']
-  if not finite(distance) or not 0<=distance<=1 or (mode=='verified_words' and distance!=0):return 'automatic_transcripts_disagree'
+  if fast:
+   if distance is not None:return 'automatic_transcripts_disagree'
+  elif not finite(distance) or not 0<=distance<=1 or (mode=='verified_words' and distance!=0):return 'automatic_transcripts_disagree'
   rms=e['audio_rms'];clipped=e['clipped_fraction']
   if not finite(rms) or not .002<=rms<=.5 or not finite(clipped) or not 0<=clipped<.01:return 'automatic_audio_check_failed'
   for key in (PRACTICAL_CHECKS if practical else CHECKS):

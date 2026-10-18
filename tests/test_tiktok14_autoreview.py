@@ -6,6 +6,20 @@ from tiktok14_autoreview import transcript_distance,visual_error,automated_recei
 from tiktok14_quality import review_error
 from test_tiktok14_worker import fixture,NOW
 class AutoReviewTests(unittest.TestCase):
+ def test_practical_selection_accepts_ranked_gameplay_without_perfect_payoff(self):
+  item=fixture()[0]['queue'][0];item['source_sha256']='d'*64
+  evidence=self.evidence(item);evidence['quality_policy']='ranked_practical_v1'
+  evidence['source_visual'].update(complete_payoff=False,standalone_understandable=False,
+   sustained_watchability=False,hook_score=1,payoff_score=1)
+  evidence['final_visual']['event_retained']=False
+  item['media_review']=automated_receipt(item,evidence,NOW)
+  self.assertEqual(item['media_review']['version'],3)
+  self.assertNotIn('full_clip_payoff',item['media_review']['checks'])
+  self.assertIsNone(review_error(item,NOW))
+  for field,value in [('browser_chrome',True),('gameplay_visible',False),('safe_for_general_audience',False)]:
+   original=evidence['source_visual'][field];evidence['source_visual'][field]=value
+   item['media_review']=automated_receipt(item,evidence,NOW)
+   self.assertIsNotNone(review_error(item,NOW));evidence['source_visual'][field]=original
  def test_title_only_allows_uncertain_words_but_requires_visible_event_and_no_rendered_dialogue(self):
   from tiktok14_publish import eligible
   item=fixture()[0]['queue'][0];item.update(source_sha256='d'*64,editing_status='rendered_9x16_title_only',transcript_subtitles=False)

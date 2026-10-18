@@ -1,6 +1,456 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "311924564",
+      "clip_slug": "CleanPreciousLardWholeWheat-2vbb0Rrt-oV_BApa",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/CleanPreciousLardWholeWheat-2vbb0Rrt-oV_BApa",
+      "original_title": "Papa Minecraft stirbt an Lava (keck)",
+      "hook": "Gaming-Moment mit papaplatte",
+      "caption": "Gaming-Moment von papaplatte · Quelle: Twitch\n#gaming #twitch",
+      "views_at_selection": 563,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-17T18:16:43Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-311924564-166592c12b2d.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-18T10:56:13Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "166592c12b2da9927a1c04aec6570d4b364a0c06907edddf3fec0f811c187614",
+      "category": "Minecraft",
+      "transcript_sha256": "8b8a640ee4004cd6704ef8d429023be73b5b565067afbf366fd2c1b586230bcb",
+      "asr_requires_correction": true,
+      "source_sha256": "3d5ddc5eb375d52f21090da1d1e075f1bb3f976b12ea972b9df35f83f58b7e12",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-18T10:56:13.872971+00:00",
+        "media_sha256": "166592c12b2da9927a1c04aec6570d4b364a0c06907edddf3fec0f811c187614",
+        "transcript_sha256": "8b8a640ee4004cd6704ef8d429023be73b5b565067afbf366fd2c1b586230bcb",
+        "source_sha256": "3d5ddc5eb375d52f21090da1d1e075f1bb3f976b12ea972b9df35f83f58b7e12",
+        "evidence_sha256": "fb623a61c9d30214ef50729784e470696e0f03c85eb1467dc4f638e78f51c826",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "source_sha256": "3d5ddc5eb375d52f21090da1d1e075f1bb3f976b12ea972b9df35f83f58b7e12",
+          "duration": 30.033333,
+          "timestamps": [
+            0.0,
+            0.25,
+            0.75,
+            1.5,
+            3.32,
+            3.75,
+            6.641,
+            9.961,
+            13.281,
+            16.602,
+            19.922,
+            21.117,
+            23.243,
+            26.563,
+            26.617,
+            29.583,
+            29.883
+          ],
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "headline": "Gaming-Moment mit papaplatte",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": true,
+            "standalone_understandable": true,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay is visible, with a clear view of the game's in-game environment and HUD elements. The game is Minecraft, as evidenced by the blocky terrain, inventory, chat, and game menus. The in",
+            "game_name": "Minecraft",
+            "hook_score": 3,
+            "payoff_score": 3,
+            "setup": "The player navigates through a lava-filled cave, then opens the game menu, and attempts to join a server. The server connection fails, prompting an error message. The player then rejoins the game, only to fall into lava,",
+            "payoff": "The player dies in lava, triggering a 'You Died!' screen with a score of 9798, and the player must restart the game. The player's reaction is visible as they react to the death, and the chat reacts to the event. The game",
+            "payoff_timestamp": 29.583,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "source_frame_hashes": [
+            "7d413ff03c497acc56f1e80313b9ead5442bc06bf35a7230576a44b0df33c6cd",
+            "2ca77794e9ae53fe463cfe3e0bd9cf53b9f2236baef7ebc938bddcf859b3bc7e",
+            "5877e12f8307496108fd3e5805ae275a22ef0c6e36c65aeb02afbbde137120b7",
+            "8e7e34452c28301a4652e205c859b6cf546c0325c6313721bae2146b54e76d3f",
+            "0d73d73b8b5243d5f355cc737014b38f6abd7e8d1c3bf80617d42f616b29520e",
+            "e153dad6c23150a800820c422928c708ceb471bf515203baa4477a8699e5a7b5",
+            "9903b9deb4d505edce9331c92338fa7cde207e10fedf97df3d235c794274cabf",
+            "069f450083d2eb0fd8f2678fa3058a40a473046d13815b760c21a5f71c3d7b53",
+            "f7c97f29f0174b50ed98c11ca9c6e83f07ec07664456c0d123bbbf07874c660d",
+            "d1de9da5181c75ce53798475021587b0191b0c963e42561fe185dfa56d005c42",
+            "bbb1052638bcd60df2b30c7d427816cf5535b345515ee761e090469f0dc167e5",
+            "6f2c05d29148db2eae3ae43b6df1ee89c398b58c1eac95f406c1d0d926e73fa6",
+            "d0769fe2d0d5abab60b472d9f40905f32a52703374f0e2a856b4e4ba57aa3107",
+            "27276c423ebe01cecd16586a7575faf272c86d9f2989b0ac0ce9d4ce8cc1caa3",
+            "093d75b3f77c7a530ce9c4896e751bc875b87835f27754cb4b4f60a6ccc6127a",
+            "d913eff5f33009377c9d7fba8a5e20a90ae552fea146ed0700a144fd1c0630c0",
+            "522f9928494af019dd99d4edd418512b26e21e342fe9e877281c62a1c04ee99e"
+          ],
+          "primary_model": "whisper-large-v3-turbo",
+          "secondary_model": "whisper-small",
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": 0.07692307692307693,
+          "audio_rms": 0.018280587940871253,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "full_duration_2fps_ocr_and_speech_alignment",
+            "frames": 60,
+            "detections": [
+              {
+                "at": 10.0,
+                "box": [
+                  0.37395833333333334,
+                  0.9,
+                  0.6333333333333333,
+                  0.9629629629629629
+                ],
+                "text": "glaub ich schaff's",
+                "confidence": 0.9513472815354665,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 10.5,
+                "box": [
+                  0.46145833333333336,
+                  0.9,
+                  0.54375,
+                  0.9592592592592593
+                ],
+                "text": "nicht",
+                "confidence": 0.9955634355545044,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 11.0,
+                "box": [
+                  0.46145833333333336,
+                  0.9,
+                  0.5427083333333333,
+                  0.9574074074074074
+                ],
+                "text": "nicht",
+                "confidence": 0.9960734248161316,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 11.5,
+                "box": [
+                  0.46145833333333336,
+                  0.9,
+                  0.5447916666666667,
+                  0.9592592592592593
+                ],
+                "text": "nicht",
+                "confidence": 0.9963319897651672,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 13.0,
+                "box": [
+                  0.375,
+                  0.8981481481481481,
+                  0.6260416666666667,
+                  0.9648148148148148
+                ],
+                "text": "Uberlebe ich lang",
+                "confidence": 0.9569253781262566,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 13.5,
+                "box": [
+                  0.43333333333333335,
+                  0.9074074074074074,
+                  0.6572916666666667,
+                  0.9592592592592593
+                ],
+                "text": "umteleportiert",
+                "confidence": 0.9944533450262887,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 13.5,
+                "box": [
+                  0.3458333333333333,
+                  0.9111111111111111,
+                  0.440625,
+                  0.9629629629629629
+                ],
+                "text": "genug",
+                "confidence": 0.9977879047393798,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 14.0,
+                "box": [
+                  0.3458333333333333,
+                  0.9111111111111111,
+                  0.440625,
+                  0.9629629629629629
+                ],
+                "text": "genug",
+                "confidence": 0.9978474736213684,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 14.0,
+                "box": [
+                  0.434375,
+                  0.9074074074074074,
+                  0.6572916666666667,
+                  0.9592592592592593
+                ],
+                "text": "umteleportiert",
+                "confidence": 0.9920473567077092,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 14.5,
+                "box": [
+                  0.34479166666666666,
+                  0.9018518518518519,
+                  0.6583333333333333,
+                  0.9648148148148148
+                ],
+                "text": "genug umteleportiert",
+                "confidence": 0.9706219762563706,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 15.0,
+                "box": [
+                  0.415625,
+                  0.9074074074074074,
+                  0.58125,
+                  0.9555555555555556
+                ],
+                "text": "zu werden?",
+                "confidence": 0.9589570701122284,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 15.5,
+                "box": [
+                  0.4166666666666667,
+                  0.9074074074074074,
+                  0.58125,
+                  0.9537037037037037
+                ],
+                "text": "zu werden?",
+                "confidence": 0.9524949431419373,
+                "detection": "prominent_unmatched_text"
+              },
+              {
+                "at": 16.0,
+                "box": [
+                  0.415625,
+                  0.9074074074074074,
+                  0.58125,
+                  0.9555555555555556
+                ],
+                "text": "zu werden?",
+                "confidence": 0.9578387618064881,
+                "detection": "prominent_unmatched_text"
+              }
+            ],
+            "crop_bottom_from": 0.8731481481481481,
+            "classifications": {
+              "region_0": "dialogue_subtitles",
+              "region_1": "dialogue_subtitles",
+              "region_2": "dialogue_subtitles",
+              "region_3": "dialogue_subtitles",
+              "evidence": "The text 'genug um teleportiert' and 'zu werden?' are displayed as in-game text overlays, typical of Minecraft's game HUD or chat interface, indicating player interaction or game state. The context shows a Minecraft game environment with chat messages and a streamer's webcam feed, confirming these are game-related UI elements.",
+              "region_4": "game_hud_or_chat",
+              "region_5": "game_hud_or_chat",
+              "region_6": "game_hud_or_chat"
+            },
+            "region_reviews": [
+              {
+                "region": "region_0",
+                "at": 10.0,
+                "box": [
+                  0.37395833333333334,
+                  0.9,
+                  0.6333333333333333,
+                  0.9629629629629629
+                ],
+                "source_frame_sha256": "13665b1644ca55cbe78890314e5c8e5b769618c7e7c8843c9616bcb30f590a39",
+                "crop_sha256": "2b4e476c6cb2de42b955efc85101e810e4afadcbe3ec61f507fd67eeb446bce8",
+                "evidence": "The marked text regions are transcribed subtitles from a video stream, displayed in a fixed position at the bottom of the screen, indicating spoken dialogue. The text is clearly legible and appears to be a direct transcription of the speaker's words, consistent with subtitle formatting in live streams. The context of the video shows a Minecraft gameplay session with a streamer visible in the top right corner, further supporting that these are dialogue subtitles.",
+                "kind": "dialogue_subtitles"
+              },
+              {
+                "region": "region_1",
+                "at": 11.5,
+                "box": [
+                  0.46145833333333336,
+                  0.9,
+                  0.5447916666666667,
+                  0.9592592592592593
+                ],
+                "source_frame_sha256": "93b44db3309a65ba97b04b14d772f62124009fc007da2ffda7ed64b9c19d8592",
+                "crop_sha256": "208b785606bdf36f8ebea981f862efabfbbe077314315de40e87bdc93bb51828",
+                "evidence": "The marked text regions are transcribed subtitles from a video stream, displayed in a fixed position at the bottom of the screen, indicating spoken dialogue. The text is clearly legible and appears to be a direct transcription of the speaker's words, consistent with subtitle formatting in live streams. The context of the video shows a Minecraft gameplay session with a streamer visible in the top right corner, further supporting that these are dialogue subtitles.",
+                "kind": "dialogue_subtitles"
+              },
+              {
+                "region": "region_2",
+                "at": 13.0,
+                "box": [
+                  0.375,
+                  0.8981481481481481,
+                  0.6260416666666667,
+                  0.9648148148148148
+                ],
+                "source_frame_sha256": "0ebbc78e27db5e21335306f13abf9edb6d6c0b0370ce0f341d60e00ebbdfc5e7",
+                "crop_sha256": "11c12a04aa8d3a0e16e3d78f4375c75d968b6cec9c53a6de93db5fc47818352a",
+                "evidence": "The marked text regions are transcribed subtitles from a video stream, displayed in a fixed position at the bottom of the screen, indicating spoken dialogue. The text is clearly legible and appears to be a direct transcription of the speaker's words, consistent with subtitle formatting in live streams. The context of the video shows a Minecraft gameplay session with a streamer visible in the top right corner, further supporting that these are dialogue subtitles.",
+                "kind": "dialogue_subtitles"
+              },
+              {
+                "region": "region_3",
+                "at": 13.5,
+                "box": [
+                  0.43333333333333335,
+                  0.9074074074074074,
+                  0.6572916666666667,
+                  0.9592592592592593
+                ],
+                "source_frame_sha256": "dc4af638d4232850e36229be797587a84a77bd5dc6eebb379cff3019284c490f",
+                "crop_sha256": "67b19c64a3fc1a3867bf57fc0ef8b31442a5dab068e71efccf57a00053593e59",
+                "evidence": "The marked text regions are transcribed subtitles from a video stream, displayed in a fixed position at the bottom of the screen, indicating spoken dialogue. The text is clearly legible and appears to be a direct transcription of the speaker's words, consistent with subtitle formatting in live streams. The context of the video shows a Minecraft gameplay session with a streamer visible in the top right corner, further supporting that these are dialogue subtitles.",
+                "kind": "dialogue_subtitles"
+              },
+              {
+                "region": "region_4",
+                "at": 14.0,
+                "box": [
+                  0.3458333333333333,
+                  0.9111111111111111,
+                  0.440625,
+                  0.9629629629629629
+                ],
+                "source_frame_sha256": "33702123a2974ed0ee9569bc3fc67f648ee34fa4167546a186f047df86fad7af",
+                "crop_sha256": "5792d238d07413b4136852d17c4c52cf27501d3d2453de29227fe6330c25f8a2",
+                "evidence": "The text 'genug um teleportiert' and 'zu werden?' are displayed as in-game text overlays, typical of Minecraft's game HUD or chat interface, indicating player interaction or game state. The context shows a Minecraft game environment with chat messages and a streamer's webcam feed, confirming these are game-related UI elements.",
+                "kind": "game_hud_or_chat"
+              },
+              {
+                "region": "region_5",
+                "at": 14.5,
+                "box": [
+                  0.34479166666666666,
+                  0.9018518518518519,
+                  0.6583333333333333,
+                  0.9648148148148148
+                ],
+                "source_frame_sha256": "a75ecfe7d2a4307a19a6949e09eda0e6e92866e5b5bcb1a1afebb283febe9032",
+                "crop_sha256": "613fc512041bf3da9b67fd9e5a67d86bf1677c67e4ed0a531e7b78027e1d6d55",
+                "evidence": "The text 'genug um teleportiert' and 'zu werden?' are displayed as in-game text overlays, typical of Minecraft's game HUD or chat interface, indicating player interaction or game state. The context shows a Minecraft game environment with chat messages and a streamer's webcam feed, confirming these are game-related UI elements.",
+                "kind": "game_hud_or_chat"
+              },
+              {
+                "region": "region_6",
+                "at": 15.0,
+                "box": [
+                  0.415625,
+                  0.9074074074074074,
+                  0.58125,
+                  0.9555555555555556
+                ],
+                "source_frame_sha256": "a42ae74ac87914f312edc761c562c5823ce02d3a8b7acdfa78aa1af84184fc12",
+                "crop_sha256": "da7698f9470326b45b939a97727df3f3957ec1d67516e9dd331e8942eb41d43e",
+                "evidence": "The text 'genug um teleportiert' and 'zu werden?' are displayed as in-game text overlays, typical of Minecraft's game HUD or chat interface, indicating player interaction or game state. The context shows a Minecraft game environment with chat messages and a streamer's webcam feed, confirming these are game-related UI elements.",
+                "kind": "game_hud_or_chat"
+              }
+            ]
+          },
+          "reviewed_source_sha256": "5a9e76d4b33b0e3c4177dc23532e83fe0eba179e23009c469ef031a74c9a10dc",
+          "final_visual": {
+            "evidence": "The frames show a Minecraft gameplay session with a facecam panel above the gameplay, which is a normal edited gaming layout. The game menus, HUD, and stream chat are not browser or desktop captures, as there are no browser tabs, addressbar",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            3.32,
+            6.641,
+            9.961,
+            13.281,
+            16.602,
+            19.922,
+            23.243,
+            26.563,
+            29.583,
+            29.883
+          ],
+          "final_frame_hashes": [
+            "06933f79787a6551e2ae715c77106dd8d9da7fec629aa7c79ee4bb31b6487bad",
+            "923e299b23b83926d7398048e87529cf577e86b388ae345acda2282cb9da43c4",
+            "4c3c954df0c31161f0b4d054035bf1d769edd336d9171bdb8a90adc00c8b06e5",
+            "d5cf67a4b30af18afb75e9818a0109954a491d2820c617b29ee8a973525519fb",
+            "996c2c398f13bf1290466c5194d0c01f5bf58ebe5b9369485e2ea88f82cda42d",
+            "198d004902575c4f9b5af916cef9fcf8fc219620c3bae8cdfbfd8c6ee7a3df6f",
+            "fc2e36abd8c430e592cf4507b3ec2fa40ab3385e7eccb08b80ed7106fee912dd",
+            "36bbe5acfacab0cb64e757fe96a55be3e7c1287d9bb70eb8e306bc4e4f0cbe03",
+            "f54da953abafff87e78a4845af0bbba704c8b661b4b37d8927d3d2c802f71d15",
+            "22d1a9d71b4b66fb7753687aa021faaa8c56abbe91ed98339ab2adef78b48e3c",
+            "1e2fb148ebbc4fd487a70d460defeda0e61547de560a4cec9588cedaf48ea061"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "166592c12b2da9927a1c04aec6570d4b364a0c06907edddf3fec0f811c187614",
+          "transcript_sha256": "8b8a640ee4004cd6704ef8d429023be73b5b565067afbf366fd2c1b586230bcb"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frames show a Minecraft gameplay session with a facecam panel above the gameplay, which is a normal edited gaming layout. The game menus, HUD, and stream chat are not browser or desktop captures, as there are no browser tabs, addressbar"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No word subtitles rendered; uncertain speech is retained only as diagnostic evidence."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0183, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-311924564-166592c12b2d-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

@@ -163,6 +163,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-18T10:56:13Z",
       "reason": "qa_caption_text_density"
+    },
+    {
+      "clip_id": "2242279572",
+      "clip_slug": "SaltyAnnoyingPlumageMau5-FU-RmTYLTOjow0TY",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/SaltyAnnoyingPlumageMau5-FU-RmTYLTOjow0TY",
+      "status": "quality_rejected",
+      "created_at": "2026-10-18T11:23:52Z",
+      "reason": "qa_final_composition_failed"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11"

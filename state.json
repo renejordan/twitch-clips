@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "403364789",
+      "clip_slug": "AliveVenomousLocustBatChest-HDChPxFacsVbZoVU",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/AliveVenomousLocustBatChest-HDChPxFacsVbZoVU",
+      "original_title": "Überstunden?",
+      "hook": "Überstunden?",
+      "caption": "Überstunden?\n#gaming #minecraft #twitchclips #xrohat #gamer",
+      "views_at_selection": 357,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-17T21:52:23Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/xrohat-403364789-b401d4807d4b.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-18T18:10:25Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "b401d4807d4bff8dbcbb80fe33baf5b8a2a25f8ee995f7b8dec93b399ca97f8d",
+      "category": "Minecraft",
+      "transcript_sha256": "6e40839dbae9c6f9ac6f918e40b94b782d961d2fd9d28398870058b3e0ec1cbf",
+      "asr_requires_correction": true,
+      "source_sha256": "006abc9337d55e3b594396cbf7ed83e8f2c2fd29f8a73f1f6bcc3edddaf56d08",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-18T18:10:25.103841+00:00",
+        "media_sha256": "b401d4807d4bff8dbcbb80fe33baf5b8a2a25f8ee995f7b8dec93b399ca97f8d",
+        "transcript_sha256": "6e40839dbae9c6f9ac6f918e40b94b782d961d2fd9d28398870058b3e0ec1cbf",
+        "source_sha256": "006abc9337d55e3b594396cbf7ed83e8f2c2fd29f8a73f1f6bcc3edddaf56d08",
+        "evidence_sha256": "2bf0ed4bee18aaf9b9a1d486127cb7b8cd177609fd15868088b4927fb3f62694",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "006abc9337d55e3b594396cbf7ed83e8f2c2fd29f8a73f1f6bcc3edddaf56d08",
+          "reviewed_source_sha256": "006abc9337d55e3b594396cbf7ed83e8f2c2fd29f8a73f1f6bcc3edddaf56d08",
+          "duration": 30.004,
+          "timestamps": [
+            0.0,
+            14.927,
+            29.854
+          ],
+          "source_frame_hashes": [
+            "0c0d9732293ba76f2fcab481520acdc4d40221d4246852dd9ac8b63034bdf58b",
+            "bb35ba3c30da521c24910561b3ba1ed3223fc25f9779df6120b2037a50030276",
+            "cdf929728439db8da431b7318fcec157ce61486913dbd96dbd6232b3f790fb70"
+          ],
+          "headline": "Überstunden?",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, chat visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft at night, facing a structure with chat and HUD visible",
+            "payoff": "No clear outcome or payoff visible in frames provided, no win/loss or reaction visible",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.03236452008643088,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene at night with a structure in the background, a player's HUD visible, and a small facecam panel in the top right corner. The title 'Überstunden?' is displayed prominently at the top.",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.927,
+            29.854
+          ],
+          "final_frame_hashes": [
+            "644b2129d3b75382a85f0732e9c0e0c0f484fd70cfdfe021dfd68ce99317dcc4",
+            "b287bf450c140c312f19e26ad809d6a78349faf488f3afe7c49ca77d84567535",
+            "36839d4dea8c084d865a825cf8430d7552034268e1c061544c4f159532dca95d"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "b401d4807d4bff8dbcbb80fe33baf5b8a2a25f8ee995f7b8dec93b399ca97f8d",
+          "transcript_sha256": "6e40839dbae9c6f9ac6f918e40b94b782d961d2fd9d28398870058b3e0ec1cbf"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene at night with a structure in the background, a player's HUD visible, and a small facecam panel in the top right corner. The title 'Überstunden?' is displayed prominently at the top."
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0324, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/xrohat-403364789-b401d4807d4b-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

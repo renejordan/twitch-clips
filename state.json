@@ -263,12 +263,13 @@
       "streamer": "metashi12",
       "sha256": "04e9337cd7ab6dfd3ed6136657014b02c885ed1a0a3ea530392c527a7371ec2d",
       "source_sha256": "41aba3f4a2cc4c96efadf2d088969f49cac58763d05d6464bf7194eeba7c0f50",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-502558914-04e9337cd7ab.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-502558914-04e9337cd7ab.mp4",
       "clip_slug": "WrongEphemeralWitchPastaThat-vXteTJPHfRH2u4Q9",
       "original_created_at": "2026-10-18T12:08:33Z",
-      "source_deadline": "2026-10-21T12:08:33Z"
+      "source_deadline": "2026-10-21T12:08:33Z",
+      "buffer_post_id": "6ad4df0c0b0d72757a289258"
     }
   ],
   "last_production": {

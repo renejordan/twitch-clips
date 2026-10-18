@@ -5,7 +5,7 @@ from tiktok14_caption_scan import caption_candidates,classify_captions
 from unittest.mock import Mock,patch
 import tempfile
 import contextlib,types
-from tiktok14_services import ServiceError
+from tiktok14_services import ServiceError,QualityRejected
 
 @contextlib.contextmanager
 def image_fixture(directory):
@@ -15,6 +15,14 @@ def image_fixture(directory):
  opened=Mock();opened.__enter__=Mock(return_value=image);opened.__exit__=Mock(return_value=False)
  with patch.dict(sys.modules,{'PIL':types.SimpleNamespace(Image=types.SimpleNamespace(open=lambda _:opened))}):yield
 class CaptionScanTests(unittest.TestCase):
+ def test_excessive_text_states_reject_only_the_candidate_before_inference(self):
+  from tiktok14_caption_scan import MAX_TEXT_STATES
+  rows=[{'at':1.,'box':[.3,.8,.7,.86],'text':f'caption {i}','confidence':.99}
+   for i in range(MAX_TEXT_STATES+1)]
+  vision=Mock()
+  with self.assertRaisesRegex(QualityRejected,'qa_caption_text_density'):
+   classify_captions({'detections':rows},'.',vision)
+  vision.request_json.assert_not_called()
  def test_later_dialogue_cannot_inherit_hud_role_at_the_same_position(self):
   with tempfile.TemporaryDirectory() as directory,image_fixture(directory):
    (Path(directory)/'scan-021.jpg').write_bytes(b'later frame')

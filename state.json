@@ -68,5 +68,9 @@
       "asr_word_uncertain": 2,
       "asr_segment_uncertain": 1
     }
+  },
+  "prepare_scans": {
+    "hour": "2026-10-18T10",
+    "count": 1
   }
 }

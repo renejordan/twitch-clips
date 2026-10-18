@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2236393291",
-      "clip_slug": "EndearingAmazonianCamelPrimeMe-qnhxEoluSjY9Rwuu",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/EndearingAmazonianCamelPrimeMe-qnhxEoluSjY9Rwuu",
-      "original_title": "SellOut 4 - ENDE",
-      "hook": "SellOut 4 - ENDE",
-      "caption": "SellOut 4 - ENDE\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 150,
-      "original_duration": 34.0,
-      "original_created_at": "2026-10-18T12:30:15Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2236393291-23b76b885667.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-18T15:08:12Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "23b76b8856679dd7a79b26e3acebe82b5e166bc8bcba672f28db1a9670fdbdec",
-      "category": "Minecraft",
-      "transcript_sha256": "c1c474132874e479eefdfeb983a12e19e4f821431bd8743c2f8dd116f25e073c",
-      "asr_requires_correction": true,
-      "source_sha256": "0f9cb340621a9d61f210c629d0377cb5c64beba4b825938248b69766c5535df2",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-18T15:08:12.397778+00:00",
-        "media_sha256": "23b76b8856679dd7a79b26e3acebe82b5e166bc8bcba672f28db1a9670fdbdec",
-        "transcript_sha256": "c1c474132874e479eefdfeb983a12e19e4f821431bd8743c2f8dd116f25e073c",
-        "source_sha256": "0f9cb340621a9d61f210c629d0377cb5c64beba4b825938248b69766c5535df2",
-        "evidence_sha256": "854503b767f0bc50825b0c62c14ced66ed948d4c641604f8b839d40299b2f455",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "0f9cb340621a9d61f210c629d0377cb5c64beba4b825938248b69766c5535df2",
-          "reviewed_source_sha256": "0f9cb340621a9d61f210c629d0377cb5c64beba4b825938248b69766c5535df2",
-          "duration": 34.474,
-          "timestamps": [
-            0.0,
-            17.162,
-            34.324
-          ],
-          "source_frame_hashes": [
-            "2a2dd410643942a7aee8cbfb9a4a86af013dd7cb899e7b6d71e1180af0157b49",
-            "73bb850c3f69e05fe046f0bf4a9b1dd4d6cab1af2c6aa6b44e973894d0fdc6ab",
-            "dfc4326998d41e19c2b509947694b601ea2df150faf56fa9dee028a62fa95b0d"
-          ],
-          "headline": "SellOut 4 - ENDE",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left corner shows a face camera with a streamer, bottom-left shows game HUD with inventory, chat, and health bar, top-right shows timer and subscriber count, bottom-right shows game world with blocky terrain and sky,",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Streamers are visible in top-left corner, game is in progress with visible HUD and chat, no clear action or outcome is visible.",
-            "payoff": "No visible outcome or payoff from actions, no clear win or loss, no reaction or event is visible in frames, no clear payoff is visible in frames, no clear payoff is visible in frames, no clear payoff is visible in frames",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.0780490871991087,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, a game HUD, and a stream chat overlay. The title 'SellOut 4 - ENDE' is clearly visible at the top center. The frame at 17.16 seconds has",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            17.162,
-            34.324
-          ],
-          "final_frame_hashes": [
-            "2195362d851b484b012cde87e5d4f020e57ec90010aea39b87104554426ff6ad",
-            "8f0b6b26c4957a18dcd2206397ba36dee89453e73e02cfe662666afb3df5da68",
-            "a285338add3f020ee3f515aab3af119fbed16ca5654ab3a768aa3c2682630b4a"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "23b76b8856679dd7a79b26e3acebe82b5e166bc8bcba672f28db1a9670fdbdec",
-          "transcript_sha256": "c1c474132874e479eefdfeb983a12e19e4f821431bd8743c2f8dd116f25e073c"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, a game HUD, and a stream chat overlay. The title 'SellOut 4 - ENDE' is clearly visible at the top center. The frame at 17.16 seconds has"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0780, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2236393291-23b76b885667-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -281,14 +143,17 @@
       "streamer": "letshugotv",
       "sha256": "23b76b8856679dd7a79b26e3acebe82b5e166bc8bcba672f28db1a9670fdbdec",
       "source_sha256": "0f9cb340621a9d61f210c629d0377cb5c64beba4b825938248b69766c5535df2",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2236393291-23b76b885667.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2236393291-23b76b885667.mp4",
       "clip_slug": "EndearingAmazonianCamelPrimeMe-qnhxEoluSjY9Rwuu",
       "original_created_at": "2026-10-18T12:30:15Z",
       "source_deadline": "2026-10-21T12:30:15Z",
       "buffer_post_id": "6ad4ed1a0b0d72757a2c564d",
-      "last_reconcile_at": "2026-10-18T16:04:45Z"
+      "last_reconcile_at": "2026-10-18T16:04:45Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698038454227160353",
+      "sent_at": "2026-10-18T16:03:04Z",
+      "verified_at": "2026-10-18T16:04:46Z"
     }
   ],
   "last_production": {

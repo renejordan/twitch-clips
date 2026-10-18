@@ -51,15 +51,15 @@
   ],
   "last_prepare_hour": "2026-10-18T07",
   "last_production": {
-    "at": "2026-10-18T10:22:32Z",
+    "at": "2026-10-18T10:33:57Z",
     "result": "degraded",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_views_prefilter": 517,
-      "listing_age_prefilter": 763,
+      "listing_views_prefilter": 523,
+      "listing_age_prefilter": 762,
       "discovered": 107,
-      "listing_duration_prefilter": 15,
+      "listing_duration_prefilter": 16,
       "metadata_requested": 104,
       "qualified_metadata": 77,
       "title_too_short": 5,
@@ -67,6 +67,8 @@
       "download_attempted": 1,
       "render_attempted": 1
     },
+    "failure_reason": "qa_speech_valueerror",
+    "diagnostic_location": "transcribe.py:encode:1400",
     "candidate": {
       "clip_id": "4108530673",
       "clip_slug": "SilkyTenuousWormTwitchRaid-DMvxDa1fde6oLFwi",

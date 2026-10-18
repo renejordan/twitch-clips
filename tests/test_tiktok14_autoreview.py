@@ -6,6 +6,20 @@ from tiktok14_autoreview import transcript_distance,visual_error,automated_recei
 from tiktok14_quality import review_error
 from test_tiktok14_worker import fixture,NOW
 class AutoReviewTests(unittest.TestCase):
+ def test_title_only_allows_uncertain_words_but_requires_visible_event_and_no_rendered_dialogue(self):
+  from tiktok14_publish import eligible
+  item=fixture()[0]['queue'][0];item.update(source_sha256='d'*64,editing_status='rendered_9x16_title_only',transcript_subtitles=False)
+  evidence=self.evidence(item);evidence.update(caption_mode='title_only',rendered_word_count=0,
+   headline='Gaming-Moment mit rewinside',transcript_distance=.4)
+  evidence['final_visual'].update(legible_subtitles=False,legible_title=True,caption_quality='readable_title_only')
+  item['media_review']=automated_receipt(item,evidence,NOW)
+  self.assertIsNone(review_error(item,NOW));self.assertTrue(eligible(item,NOW))
+  self.assertIn('No word subtitles',item['media_review']['checks']['subtitles_accuracy']['evidence'])
+  evidence['rendered_word_count']=1;item['media_review']=automated_receipt(item,evidence,NOW)
+  self.assertIsNotNone(review_error(item,NOW))
+  evidence['rendered_word_count']=0;evidence['source_visual']['complete_payoff']=False
+  item['media_review']=automated_receipt(item,evidence,NOW)
+  self.assertIsNotNone(review_error(item,NOW))
  def test_transcript_comparison_ignores_punctuation_and_case_but_not_words(self):
   self.assertEqual(transcript_distance('Oh, mein Gott!','oh mein gott'),0)
   self.assertGreater(transcript_distance('Ich habe gewonnen','Ich habe verloren'),.2)
@@ -25,6 +39,7 @@ class AutoReviewTests(unittest.TestCase):
   self.assertIsNone(visual_error(self.visual(),25))
  def evidence(self,item):
   return {'source_sha256':item['source_sha256'],'duration':25.,'timestamps':[i*25/9 for i in range(10)],
+   'caption_mode':'verified_words','rendered_word_count':5,'headline':'Gaming-Moment mit rewinside',
    'media_sha256':item['sha256'],'transcript_sha256':item['transcript_sha256'],
    'source_frame_hashes':['a'*64]*10,'final_timestamps':[i*25/9 for i in range(10)],'final_frame_hashes':['b'*64]*10,
    'reviewed_source_sha256':'c'*64,'caption_scan':{'method':'full_duration_2fps_ocr_and_speech_alignment','frames':50,'detections':[],'region_reviews':[],'classifications':{}},

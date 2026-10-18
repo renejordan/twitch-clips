@@ -558,7 +558,7 @@ def main(action=None):
         ref=os.getenv('GITHUB_REF','')
         if (os.getenv('GITHUB_REPOSITORY')!=REPOSITORY or
                 ref not in ('refs/heads/main','refs/heads/codex/tiktok14-safety-audit','refs/heads/codex/tiktok14-reliability','refs/heads/codex/tiktok14-longterm') or
-                action not in ('prepare','publish','reconcile','diagnose','review') or
+                action not in ('plan','prepare','publish','reconcile','diagnose','review') or
                 (action in ('publish','reconcile','review') and ref!='refs/heads/main')):
             raise ServiceError('unapproved_cloud_context')
         config=json.loads(CONFIG.read_text(encoding='utf-8'))
@@ -566,7 +566,17 @@ def main(action=None):
             raise ServiceError('independent_mode_not_configured')
         sources(config)
         github=GitHubAPI(token)
-        if action=='diagnose':
+        if action=='plan':
+            # Standard-library-only preflight: pending/ready work needs no models.
+            state,_=GitHubState(github).load()
+            current=dt.datetime.now(dt.timezone.utc)
+            pending=any(a.get('status')!='verified_public' for a in state['attempts'])
+            ready=bool(state['queue']) and all(eligible(c,current) and not own_duplicate(c,state) and not blocked(c) for c in state['queue'])
+            needed=not pending and not ready
+            with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as output:
+                output.write('media_needed='+str(needed).lower()+'\n')
+            result='media_required' if needed else 'media_not_required'
+        elif action=='diagnose':
             state,_=GitHubState(github).load()
             result=diagnose(config,read_legacy(github),state,dt.datetime.now(dt.timezone.utc))
         elif action=='prepare':

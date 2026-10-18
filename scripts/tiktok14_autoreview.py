@@ -36,7 +36,7 @@ def coverage_error(times,duration,hashes):
 
 def visual_error(data,duration):
  if not isinstance(data,dict):return 'visual_response_invalid'
- for key in ('gameplay_visible','complete_payoff','standalone_understandable','safe_for_general_audience'):
+ for key in ('gameplay_visible','complete_payoff','standalone_understandable','safe_for_general_audience','sustained_watchability'):
   if data.get(key) is not True:return 'visual_'+key
  for key in ('browser_chrome','nested_rebroadcast','existing_captions'):
   if data.get(key) is not False:return 'visual_'+key
@@ -80,11 +80,19 @@ def automated_review_error(item,review,current):
   if coverage_error(e.get('final_timestamps'),duration,e.get('final_frame_hashes')):return 'automatic_final_coverage_missing'
   if not re.fullmatch('[a-f0-9]{64}',str(e.get('reviewed_source_sha256',''))):return 'automatic_source_evidence_missing'
   scan=e.get('caption_scan',{})
-  if (scan.get('method')!='full_duration_2fps_ocr_aligned_to_speech' or
+  if (scan.get('method')!='full_duration_2fps_ocr_and_speech_alignment' or
       type(scan.get('frames')) is not int or scan['frames']<int(duration*2)-1):return 'automatic_caption_scan_missing'
+  from tiktok14_caption_scan import text_groups
+  groups=text_groups(scan['detections']);regions=scan['region_reviews'];classification=scan['classifications']
+  if not isinstance(regions,list) or len(regions)!=len(groups) or len(groups)>12:return 'automatic_caption_semantics_missing'
+  for index,region in enumerate(regions):
+   key=f'region_{index}'
+   if (region.get('region')!=key or region.get('kind') not in ('game_hud_or_chat','dialogue_subtitles') or
+       classification.get(key)!=region['kind'] or any(not re.fullmatch('[a-f0-9]{64}',str(region.get(field,'')))
+        for field in ('source_frame_sha256','crop_sha256'))):return 'automatic_caption_semantics_missing'
   if visual_error(e['source_visual'],duration):return 'automatic_visual_check_failed'
   f=e['final_visual']
-  if (f.get('composition_usable') is not True or f.get('legible_subtitles') is not True or
+  if (f.get('composition_usable') is not True or f.get('legible_subtitles') is not True or f.get('event_retained') is not True or
       f.get('browser_chrome') is not False or f.get('nested_rebroadcast') is not False or
       not isinstance(f.get('evidence'),str) or len(f['evidence'])<20):return 'automatic_final_composition_failed'
   distance=e['transcript_distance']

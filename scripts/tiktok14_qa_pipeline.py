@@ -9,7 +9,7 @@ from pathlib import Path
 from tiktok14_autoreview import PRIMARY,SECONDARY,VISION_MODEL,visual_error
 from tiktok14_services import ServiceError,QualityRejected
 from tiktok14_speech import transcribe_pair
-from tiktok14_caption_scan import scan_captions
+from tiktok14_caption_scan import scan_captions,classify_captions
 from tiktok14_vision import Vision,frame_samples,SOURCE_PROMPT,FINAL_PROMPT,sha
 
 
@@ -21,18 +21,20 @@ def source_review(namespace,clip,source,model_dir):
  namespace['_qa_transcript']=(source_hash,words,speech)
  caption_report=scan_captions(source,out/'qa-captions',speech['words'])
  if caption_report['frames']<int(duration*2)-1:raise ServiceError('qa_caption_coverage_failed')
- clean_source=source
- if caption_report['detections']:
-  bottom=caption_report['crop_bottom_from']
-  if not .75<=bottom<1:raise QualityRejected('qa_captions_overlap_action_area')
-  clean_source=out/'clean-source.mp4'
-  namespace['run'](['ffmpeg','-y','-v','error','-i',str(source),'-vf',f'crop=iw:trunc(ih*{bottom:.6f}/2)*2:0',
-   '-c:v','libx264','-threads','2','-preset','veryfast','-crf','18','-c:a','copy',str(clean_source)],timeout=180)
- namespace['_qa_clean_source']=clean_source
- frames,times=frame_samples(clean_source,out/'qa-source',duration)
  with Vision(model_dir) as vision:
   if vision.model_id!=VISION_MODEL:raise ServiceError('qa_required_model_missing')
+  caption_report=classify_captions(caption_report,out/'qa-captions',vision)
+  clean_source=source
+  bottom=caption_report['crop_bottom_from']
+  if bottom is not None:
+   if not .75<=bottom<1:raise QualityRejected('qa_captions_overlap_action_area')
+   clean_source=out/'clean-source.mp4'
+   namespace['run'](['ffmpeg','-y','-v','error','-i',str(source),'-vf',f'crop=iw:trunc(ih*{bottom:.6f}/2)*2:0',
+    '-c:v','libx264','-threads','2','-preset','veryfast','-crf','18','-c:a','copy',str(clean_source)],timeout=180)
+  namespace['_qa_clean_source']=clean_source
+  frames,times=frame_samples(clean_source,out/'qa-source',duration)
   visual=vision.ask(SOURCE_PROMPT,frames,times,' '.join(w[2] for w in words))
+ (out/'source-visual.json').write_text(json.dumps(visual,ensure_ascii=False,indent=2),encoding='utf-8')
  error=visual_error(visual,duration)
  if error:raise QualityRejected('qa_'+error)
  return {'source_sha256':source_hash,'duration':duration,'timestamps':times,
@@ -104,8 +106,10 @@ def portrait_render(namespace,clip,source,box):
   f"drawtext=fontfile='{font}':textfile='{headline}':fontsize=48:fontcolor=white:borderw=3:bordercolor=black:box=1:boxcolor=black@0.65:x=(w-text_w)/2:y=575,"
   f"ass=filename='{subs}',format=yuv420p[v]")
  if not box:
+  side=min(width,height)
+  gameplay=(f'crop={side}:{side}:(iw-ow)/2:(ih-oh)/2,scale=1080:1080' if width>height else 'scale=1080:1350:force_original_aspect_ratio=decrease')
   filters=('[0:v]split=2[b][g];[b]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:10[bg];'
-   '[g]scale=1080:1350:force_original_aspect_ratio=decrease,setsar=1[game];[bg][game]overlay=(W-w)/2:(H-h)/2,'
+   f'[g]{gameplay},setsar=1[game];[bg][game]overlay=(W-w)/2:(H-h)/2,'
    f"drawtext=fontfile='{font}':textfile='{headline}':fontsize=48:fontcolor=white:borderw=3:bordercolor=black:box=1:boxcolor=black@0.65:x=(w-text_w)/2:y=240,"
    f"ass=filename='{subs}',format=yuv420p[v]")
  movie=out/'tiktok.mp4';cover=out/'cover.jpg'
@@ -117,10 +121,12 @@ def portrait_render(namespace,clip,source,box):
 
 def final_review(namespace,clip,movie,report,model_dir):
  namespace['run'](['ffmpeg','-v','error','-i',str(movie),'-f','null','-'],timeout=120)
- frames,times=frame_samples(movie,namespace['OUT']/'qa-final',report['duration'],count=10,hook_detail=False)
- with Vision(model_dir) as vision:final=vision.ask(FINAL_PROMPT,frames,times)
+ frames,times=frame_samples(movie,namespace['OUT']/'qa-final',report['duration'],count=10,hook_detail=False,
+  extra_times=[report['source_visual']['payoff_timestamp']])
+ context=json.dumps({'source_event_hypothesis':report['source_visual']['setup']+' '+report['source_visual']['payoff']})
+ with Vision(model_dir) as vision:final=vision.ask(FINAL_PROMPT,frames,times,context)
  if (final.get('composition_usable') is not True or final.get('legible_subtitles') is not True or
-  final.get('browser_chrome') is not False or final.get('nested_rebroadcast') is not False):
+  final.get('browser_chrome') is not False or final.get('nested_rebroadcast') is not False or final.get('event_retained') is not True):
   raise QualityRejected('qa_final_composition_failed')
  evidence={key:value for key,value in report.items() if key!='frames'}
  evidence.update(final_visual=final,final_timestamps=times,final_frame_hashes=[sha(path) for path in frames],

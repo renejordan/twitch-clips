@@ -59,6 +59,8 @@ def install(folder):
     for path in files[0].parent.iterdir():
      if path.is_file():shutil.copy2(path,root/path.name)
   marker.write_text(digest)
+ from tiktok14_vision import Vision
+ with Vision(folder):print('Pinned CPU vision runtime health check passed',flush=True)
  print('Free CPU quality models and runtime ready; no service credential used',flush=True)
  return folder
 

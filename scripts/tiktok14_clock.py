@@ -37,6 +37,7 @@ def plan(state,runs,current):
  if not send_window(current):
   if local.hour==8 and local.minute>=30 and not state['queue'] and state.get('last_prepare_hour')!=slot:return 'dispatch_prefetch'
   return 'outside_window'
+ if state['queue'] and state.get('last_commissioning_hour')==slot:return 'awaiting_commissioning'
  if any(parse_timestamp(a['reserved_at']).strftime('%Y-%m-%dT%H')==slot for a in state['attempts']):
   if local.hour<23 and not state['queue'] and state.get('last_prefetch_hour')!=slot:return 'dispatch_prefetch'
   return 'hour_complete'

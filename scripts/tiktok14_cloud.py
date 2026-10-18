@@ -19,10 +19,10 @@ from urllib.request import Request, build_opener
 
 import tiktok14_prepare as producer
 from tiktok14_publish import eligible, parse_timestamp, stamp, REPO_PREFIX, MAX_PER_DAY, MAX_SEND_AGE_HOURS,LOCAL_ZONE
-from tiktok14_quality import identities, blocked, review_error
+from tiktok14_quality import identities, blocked, review_error,nearby_event
 from tiktok14_media import configure as configure_media
 from tiktok14_services import (BufferGateway, GitHubAPI, GitHubState, NoRedirect,
-                               ServiceError, verify_public, ProductionInterrupted)
+                               ServiceError, verify_public, ProductionInterrupted,QualityRejected)
 from tiktok14_worker import Worker, counted_events, sources
 from tiktok14_history import compact as compact_history
 
@@ -181,6 +181,18 @@ class Host:
         return prefix+movie.name,prefix+review.name,digest
 
 
+def own_duplicate(item,state):
+    return bool(identities(item)&set(state.get('used_ids',[]))) or any(
+        identities(item)&identities(row) or nearby_event(item,row) for row in state['attempts'])
+
+
+def discard_queue(state,reason,current):
+    state.setdefault('rejected',[]).extend(dict(item,status='rejected_tiktok14',
+        rejection_reason=reason,rejected_at=stamp(current)) for item in state['queue'])
+    state['queue']=[]
+    state.pop('last_prepare_hour',None)
+
+
 def prepare(store,config,legacy,current,host):
     permitted=sources(config)
     old=legacy_ids(legacy)
@@ -190,6 +202,11 @@ def prepare(store,config,legacy,current,host):
     if compact_history(state,current):sha=store.save(state,sha)
     # Preparation never consumes a publishing slot. Keep one candidate ready
     # even while the rolling send quota is full; Worker enforces the send cap.
+    if state['queue']:
+        item=state['queue'][0]
+        if own_duplicate(item,state) or any(nearby_event(item,row) for row in legacy['created']):
+            discard_queue(state,'known_source_duplicate',current)
+            sha=store.save(state,sha)
     if state['queue']:
         item=state['queue'][0]
         if (eligible(item,current) and item.get('streamer') in permitted and
@@ -215,6 +232,16 @@ def prepare(store,config,legacy,current,host):
     namespace['STREAMERS']=list(config['sources'])
     namespace['RANK']={name:index+1 for index,name in enumerate(config['sources'])}
     namespace['now_utc']=lambda:current
+    inspect=namespace.get('inspect_original')
+    if inspect:
+        def inspect_new_event(*args,**kwargs):
+            clip=inspect(*args,**kwargs)
+            if clip and any(nearby_event(clip,row) for row in state['attempts']+legacy['created']):
+                report=namespace.setdefault('_report',{}).setdefault('counts',{})
+                report['duplicate_source_event']=report.get('duplicate_source_event',0)+1
+                return None
+            return clip
+        namespace['inspect_original']=inspect_new_event
     # Cloud budget counts sends, not failed/rejected production records.
     namespace['can_prepare']=lambda *a,**k:(True,'OK')
     records=copy.deepcopy(state.get('rejected',[]))
@@ -227,6 +254,15 @@ def prepare(store,config,legacy,current,host):
                                     'processed_ids':list(processed)}
     receipts={}
     def release(clip,movie,cover,now):
+        original=dict(clip,source_sha256=clip.get('_qa_evidence',{}).get('source_sha256',''))
+        if own_duplicate(original,state) or any(nearby_event(original,row) for row in legacy['created']):
+            report=namespace.setdefault('_report',{})
+            report.setdefault('counts',{})['qa_duplicate_source']=report.get('counts',{}).get('qa_duplicate_source',0)+1
+            report.setdefault('rejected',[]).append({'clip_id':clip['id'],'clip_slug':clip.get('clip_slug'),
+                'streamer':clip.get('channel_login'),'source_url':clip.get('url'),
+                'source_sha256':original['source_sha256'],'status':'quality_rejected',
+                'reason':'qa_duplicate_source','created_at':stamp(now)})
+            raise QualityRejected('qa_duplicate_source')
         if clip.get('_qa_evidence'):
             try:
                 from tiktok14_autoreview import automated_receipt
@@ -442,8 +478,12 @@ def publish(store,config,github,key):
         if not state['queue']: return 'empty'
         assert_single_route(github,config)
         item=state['queue'][0]
-        old=legacy_ids(read_legacy(github))
-        if identities(item) & old or blocked(item):
+        if own_duplicate(item,state):
+            discard_queue(state,'known_source_duplicate',dt.datetime.now(dt.timezone.utc))
+            store.save(state,sha)
+            return 'known_source_duplicate_skipped'
+        legacy=read_legacy(github);old=legacy_ids(legacy)
+        if identities(item) & old or blocked(item) or any(nearby_event(item,row) for row in legacy['created']):
             state.setdefault('rejected',[]).extend(state['queue'])
             state['queue']=[]
             store.save(state,sha)
@@ -452,6 +492,10 @@ def publish(store,config,github,key):
             if review_error(item,dt.datetime.now(dt.timezone.utc)):
                 return 'needs_review'
             raise ServiceError('queued_clip_expired')
+        if item.get('media_review',{}).get('version')==2 and os.getenv('TIKTOK14_AUTOREVIEW_ENABLED')!='true':
+            state['last_commissioning_hour']=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H')
+            store.save(state,sha)
+            return 'automatic_commissioning_required'
         verify_media(item['video_url'],item.get('sha256'))
     gateway=BufferGateway(key)
     worker=Worker(store,gateway,verify_public)

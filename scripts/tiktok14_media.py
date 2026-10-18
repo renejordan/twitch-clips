@@ -27,7 +27,7 @@ def automated_render(namespace,clip,source,model_dir):
         result=subprocess.run([sys.executable,str(Path(__file__).with_name('tiktok14_qa_pipeline.py')),
             '--source',str(Path(source).resolve()),'--clip',str(payload),'--output',str(out),
             '--models',str(Path(model_dir).resolve())],env=child_environment(),
-            capture_output=True,text=True,timeout=900,check=False)
+            capture_output=True,text=True,timeout=1200,check=False)
         verdict=json.loads((out/'qa-result.json').read_text(encoding='utf-8'))
         if result.returncode==2 and verdict.get('status')=='rejected':
             reason=verdict.get('reason','')
@@ -70,8 +70,8 @@ def metadata_decision(info,channel,current,min_views=100):
     if not 0<=age<=72: return None,'age_outside_72h'
     if not 15<=info['duration']<=60: return None,'duration_outside_15_60s'
     if info['view_count']<min_views: return None,'views_below_100'
-    if age>48 and (info['view_count']<8000 or info['view_count']/max(1,age)<150):
-        return None,'older_clip_metrics_insufficient'
+    # Views rank discovery, while actual media evidence decides quality. The
+    # old 8000-view gate discarded almost every otherwise valid 48–72h clip.
     categories=info.get('categories')
     if not isinstance(categories,list) or len(categories)!=1 or categories[0] not in GAMES:
         return None,'gaming_category_not_verified'
@@ -172,10 +172,17 @@ def configure(namespace,report):
         if uncertain_words or uncertain_segments: count('asr_draft_requires_correction')
         return words
 
-    original_download=namespace['download']
     def download(clip):
         count('download_attempted')
-        try: return original_download(clip)
+        try:
+            namespace['OUT'].mkdir(parents=True,exist_ok=True)
+            for path in namespace['OUT'].glob('source.*'):path.unlink()
+            namespace['run'](['yt-dlp','--no-warnings','--no-playlist','--socket-timeout','15',
+                '--retries','2','--fragment-retries','2','-f','best[height<=1080]',
+                '--merge-output-format','mp4','-o',str(namespace['OUT']/'source.%(ext)s'),clip['url']],timeout=120)
+            files=[path for path in namespace['OUT'].glob('source.*') if path.suffix.lower() in ('.mp4','.mkv','.webm')]
+            if len(files)!=1:raise ServiceError('media_download_incomplete')
+            return files[0]
         except Exception:
             count('download_failed')
             raise
@@ -211,5 +218,6 @@ def configure(namespace,report):
             raise
 
     namespace.update(channel_urls=listing,inspect_original=inspect,transcribe=transcribe,
+        very_strong=lambda clip:0<=clip['age_hours']<=72,
         # Keep original setup AND payoff; speech-density crops cut sentences/punchlines.
         pick_window=lambda duration,words:(0.0,duration),download=download,render=render)

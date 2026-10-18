@@ -590,7 +590,7 @@ def main(action=None):
         else:
             result=publish(GitHubState(github),config,github,key,reconcile_only=action=='reconcile')
         print('TikTok14 '+action+': '+result)
-        return 0 if result not in ('unresolved','unverified','degraded') else 1
+        return 0 if result not in ('unresolved','unverified','degraded','create_rejected') else 1
     except ServiceError as error:
         code=str(error)
         print('STOP: '+(code if re.fullmatch('[a-z0-9_]+',code) else 'cloud_check_failed'))

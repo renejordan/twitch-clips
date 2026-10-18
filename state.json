@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "60281847",
+      "clip_slug": "PeppyAcceptableFishKappa-wINKNEZQtS6coNB9",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/PeppyAcceptableFishKappa-wINKNEZQtS6coNB9",
+      "original_title": "Holy Betrug",
+      "hook": "Holy Betrug",
+      "caption": "Holy Betrug\n#gaming #minecraft #twitchclips #papaplatte #gamer",
+      "views_at_selection": 311,
+      "original_duration": 40.0,
+      "original_created_at": "2026-10-18T19:21:54Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-60281847-0388041b5f73.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-18T20:09:56Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "0388041b5f73c8eb48861de8f09020dc70de177b67e164edbe7d98a795ad9ef7",
+      "category": "Minecraft",
+      "transcript_sha256": "b8e04aa1bcd55dbf01af3234a8b023ee19d62c5b42e9b00a257131e4db9dba79",
+      "asr_requires_correction": true,
+      "source_sha256": "e75274161b1d1edd31286a0eb9b3d101cd5f98839ba1c4729a34c4ee0422e9e2",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-18T20:09:56.386867+00:00",
+        "media_sha256": "0388041b5f73c8eb48861de8f09020dc70de177b67e164edbe7d98a795ad9ef7",
+        "transcript_sha256": "b8e04aa1bcd55dbf01af3234a8b023ee19d62c5b42e9b00a257131e4db9dba79",
+        "source_sha256": "e75274161b1d1edd31286a0eb9b3d101cd5f98839ba1c4729a34c4ee0422e9e2",
+        "evidence_sha256": "4e0085ac95d93b206316bf5fb04b0e0db6431be83b043c63bf978c50c3feede7",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "e75274161b1d1edd31286a0eb9b3d101cd5f98839ba1c4729a34c4ee0422e9e2",
+          "reviewed_source_sha256": "e75274161b1d1edd31286a0eb9b3d101cd5f98839ba1c4729a34c4ee0422e9e2",
+          "duration": 40.0,
+          "timestamps": [
+            0.0,
+            19.925,
+            39.85
+          ],
+          "source_frame_hashes": [
+            "7f5aea29e640242801c7abbeb9748af90a1372a460fc57ec51d992e16131911e",
+            "4740f279f040316cbf2e0da41817ecb16ee27e512316b90a46454b40e8573b04",
+            "a3a1adf306e4f50721624fa0dd46c050e040c76b221266a617de44edd357bf62"
+          ],
+          "headline": "Holy Betrug",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in corner, game HUD visible with inventory and chat, browser window visible at 39.85s, no video player or recursive stream",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft cave with inventory and chat visible, no clear action or outcome",
+            "payoff": "No visible outcome or payoff from actions, no clear win/loss or reaction from gameplay or chat",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.05890236823600774,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "Frame at 0.00 seconds: Title 'Holy Betrug' is visible as a static overlay. Game is in Minecraft, showing a first-person view of a cave with inventory and chat visible. A facecam panel is present in the top right, showing a streamer. Frame 1",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            19.925,
+            39.85
+          ],
+          "final_frame_hashes": [
+            "a7f1685e9f16504d72ebcf9e9fb97af8c83801b21f361cf514b562a41f62b807",
+            "ff88aa282775b95a7f1ef134009e5f8b50315d721a29079eb922ce7d5e00d3f5",
+            "05dc8bce6fa321e8ec81886430b462229bfa0aada507e31fcc586d58c1acb455"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "0388041b5f73c8eb48861de8f09020dc70de177b67e164edbe7d98a795ad9ef7",
+          "transcript_sha256": "b8e04aa1bcd55dbf01af3234a8b023ee19d62c5b42e9b00a257131e4db9dba79"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "Frame at 0.00 seconds: Title 'Holy Betrug' is visible as a static overlay. Game is in Minecraft, showing a first-person view of a cave with inventory and chat visible. A facecam panel is present in the top right, showing a streamer. Frame 1"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0589, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-60281847-0388041b5f73-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

@@ -39,6 +39,9 @@ def review_error(item,current):
     if blocked(item): return 'permanently_blocked_clip'
     review=item.get('media_review')
     if not isinstance(review,dict): return 'full_media_review_required'
+    if review.get('version')==2:
+        from tiktok14_autoreview import automated_review_error
+        return automated_review_error(item,review,current)
     try:
         reviewed=dt.datetime.fromisoformat(review['reviewed_at'].replace('Z','+00:00'))
         if reviewed.tzinfo is None or not 0 <= (current-reviewed).total_seconds() <= 72*3600:

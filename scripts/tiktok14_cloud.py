@@ -18,21 +18,18 @@ from urllib.parse import urlsplit
 from urllib.request import Request, build_opener
 
 import tiktok14_prepare as producer
-from tiktok14_publish import eligible, parse_timestamp, stamp, REPO_PREFIX, MAX_PER_DAY, MAX_SEND_AGE_HOURS
+from tiktok14_publish import eligible, parse_timestamp, stamp, REPO_PREFIX, MAX_PER_DAY, MAX_SEND_AGE_HOURS,LOCAL_ZONE
 from tiktok14_quality import identities, blocked, review_error
 from tiktok14_media import configure as configure_media
 from tiktok14_services import (BufferGateway, GitHubAPI, GitHubState, NoRedirect,
-                               ServiceError, verify_public)
+                               ServiceError, verify_public, ProductionInterrupted)
 from tiktok14_worker import Worker, counted_events, sources
+from tiktok14_history import compact as compact_history
 
 REPOSITORY='renejordan/twitch-clips'
 TEST_URL='https://www.tiktok.com/@ufo3103/video/7697189362877992225'
 CONFIG=Path('scripts/tiktok14_config.json')
 MAX_MEDIA=128*1024*1024
-
-
-class ProductionInterrupted(BaseException):
-    """Escape the legacy producer's ordinary per-candidate Exception handler."""
 
 
 def initial_state():
@@ -144,6 +141,7 @@ class Host:
 
     def __call__(self,clip,video,cover,current):
         digest=hashlib.sha256(video.read_bytes()).hexdigest()
+        if clip.get('_qa_receipt') and clip['_qa_receipt'].get('media_sha256')!=digest:raise ServiceError('qa_media_changed_before_host')
         if video.stat().st_size > MAX_MEDIA: raise ServiceError('media_too_large')
         name=clip['channel_login']+'-'+clip['id']+'-'+digest[:12]
         if not re.fullmatch('[a-z0-9_]+-[A-Za-z0-9_-]+-[a-f0-9]{12}',name):
@@ -158,11 +156,14 @@ class Host:
                 path=video.parent/filename
                 if not path.is_file(): raise ServiceError('review_evidence_missing')
                 archive.write(path,filename)
+            for filename in ('qa-evidence.json','asr-comparison.json'):
+                path=video.parent/filename
+                if path.is_file():archive.write(path,filename)
             archive.writestr('manifest.json',json.dumps({'clip_id':clip['id'],
                 'source_url':clip.get('url'),'category':clip.get('category'),
                 'video_sha256':digest,'transcript_sha256':hashlib.sha256(
                     (video.parent/'transcript.json').read_bytes()).hexdigest(),
-                'review_status':'not_reviewed'},ensure_ascii=False,indent=2))
+                'review_status':'automated_local_models' if clip.get('_qa_receipt') else 'not_reviewed'},ensure_ascii=False,indent=2))
         tag='tiktok14-'+current.strftime('%Y-%m')
         existing=self.command(['release','view',tag,'--json','assets'],check=False)
         if existing.returncode:
@@ -186,7 +187,9 @@ def prepare(store,config,legacy,current,host):
     state,sha=store.load()
     if any(row.get('status')!='verified_public' for row in state['attempts']):
         return 'pending'
-    if counted_events(state,{},[],current)>=MAX_PER_DAY: return 'limit'
+    if compact_history(state,current):sha=store.save(state,sha)
+    # Preparation never consumes a publishing slot. Keep one candidate ready
+    # even while the rolling send quota is full; Worker enforces the send cap.
     if state['queue']:
         item=state['queue'][0]
         if (eligible(item,current) and item.get('streamer') in permitted and
@@ -201,7 +204,13 @@ def prepare(store,config,legacy,current,host):
         state['queue']=[]
         sha=store.save(state,sha)
     slot=current.strftime('%Y-%m-%dT%H')
-    if state.get('last_prepare_hour')==slot: return 'hour_complete'
+    after_send=any(row.get('status')=='verified_public' and
+        parse_timestamp(row['reserved_at']).strftime('%Y-%m-%dT%H')==slot for row in state['attempts'])
+    if state.get('last_prepare_hour')==slot and not (after_send and state.get('last_prefetch_hour')!=slot): return 'hour_complete'
+    scans=state.get('prepare_scans',{})
+    if scans.get('hour')==slot and scans.get('count',0)>=3:return 'scan_budget_exhausted'
+    state['prepare_scans']={'hour':slot,'count':scans.get('count',0)+1 if scans.get('hour')==slot else 1}
+    sha=store.save(state,sha)
     namespace=producer_namespace()
     namespace['STREAMERS']=list(config['sources'])
     namespace['RANK']={name:index+1 for index,name in enumerate(config['sources'])}
@@ -211,33 +220,50 @@ def prepare(store,config,legacy,current,host):
     records=copy.deepcopy(state.get('rejected',[]))
     records += [dict(row,created_at=row.get('created_at',row['reserved_at']))
                 for row in state['attempts']]
-    processed=set(old)
+    processed=set(old)|set(state.get('used_ids',[]))
     for row in records:
         processed.update(str(row.get(key,'')) for key in ('clip_id','clip_slug'))
     namespace['read_state']=lambda:{'version':2,'created':copy.deepcopy(records),
                                     'processed_ids':list(processed)}
     receipts={}
     def release(clip,movie,cover,now):
+        if clip.get('_qa_evidence'):
+            try:
+                from tiktok14_autoreview import automated_receipt
+                preview={'clip_id':clip['id'],'sha256':hashlib.sha256(movie.read_bytes()).hexdigest(),
+                    'transcript_sha256':hashlib.sha256((movie.parent/'transcript.json').read_bytes()).hexdigest(),
+                    'source_sha256':clip['_qa_evidence'].get('source_sha256'),
+                    'rights_status':'user_declared_source_list'}
+                preview['media_review']=automated_receipt(preview,clip['_qa_evidence'],now)
+                if review_error(preview,now):raise ServiceError('automatic_evidence_invalid')
+                clip['_qa_receipt']=preview['media_review']
+            except Exception:raise ProductionInterrupted('automatic_evidence_invalid_before_host') from None
         try:
             url,thumbnail,digest=host(clip,movie,cover,now)
         except Exception:
             raise ProductionInterrupted('media_host_failed') from None
-        receipts[url]=(digest,clip)
+        receipts[url]=(digest,clip,movie.parent)
         return url,thumbnail
     def persist(data):
         nonlocal sha
         record=copy.deepcopy(data['created'][-1])
         receipt=receipts.get(record.get('video_url'))
         if not receipt: raise ServiceError('unverified_production_receipt')
-        digest,clip=receipt
+        digest,clip,media_dir=receipt
         record.update(sha256=digest,rights_status='user_declared_source_list',
             status='awaiting_review_tiktok14',video_review_status='full_media_review_required',
             subtitle_verified=False,category=clip.get('category'))
-        transcript=Path('rendered/transcript.json')
+        transcript=media_dir/'transcript.json'
         if transcript.exists():
             record['transcript_sha256']=hashlib.sha256(transcript.read_bytes()).hexdigest()
             record['asr_requires_correction']=bool(json.loads(
                 transcript.read_text(encoding='utf-8')).get('requires_correction',True))
+        if clip.get('_qa_evidence'):
+            from tiktok14_autoreview import automated_receipt
+            record['source_sha256']=clip['_qa_evidence']['source_sha256']
+            record['media_review']=clip['_qa_receipt']
+            if review_error(record,current):raise ProductionInterrupted('automatic_evidence_invalid')
+            record.update(status='ready_tiktok14',video_review_status='automated_media_evidence_passed',subtitle_verified=False)
         root=record['video_url'][:-4]
         record.pop('cover_url',None)
         record['review_assets']={'bundle':root+'-review.zip'}
@@ -253,22 +279,28 @@ def prepare(store,config,legacy,current,host):
     namespace['release']=release
     namespace['save_state']=persist
     # Legacy media code may emit extraction details. Never expose its raw output.
+    interruption=None
     with contextlib.redirect_stdout(io.StringIO()),contextlib.redirect_stderr(io.StringIO()):
         try:
             namespace['main']()
         except ProductionInterrupted as error:
-            raise ServiceError(str(error)) from None
+            interruption=str(error)
     counts=dict(namespace.get('_report',{}).get('counts',{}))
-    technical=any(counts.get(key) for key in
+    rejected=namespace.get('_report',{}).get('rejected',[])
+    if rejected:state.setdefault('rejected',[]).extend(rejected)
+    technical=bool(interruption) or any(counts.get(key) for key in
         ('listing_failed','metadata_failed','download_failed','render_failed'))
-    quality=any(value for key,value in counts.items() if key.startswith('asr_'))
-    result=('needs_review' if state['queue'] else
+    quality=any(value for key,value in counts.items() if key.startswith(('asr_','qa_')))
+    result=('ready' if state['queue'] and eligible(state['queue'][0],current) else 'needs_review' if state['queue'] else
         'degraded' if technical else 'quality_rejected' if quality else 'empty')
-    if result!='degraded': state['last_prepare_hour']=slot
+    if result!='degraded':
+        state['last_prepare_hour']=slot
+        if after_send: state['last_prefetch_hour']=slot
     state['last_production']={'at':stamp(current),'result':result,'counts':counts}
     store.save(state,sha)
     report_result(state['last_production'])
-    if state['queue']: report_review(state['queue'][0])
+    if state['queue'] and not eligible(state['queue'][0],current): report_review(state['queue'][0])
+    if interruption:raise ServiceError(interruption) from None
     return result
 
 
@@ -440,7 +472,7 @@ def main(action=None):
     try:
         ref=os.getenv('GITHUB_REF','')
         if (os.getenv('GITHUB_REPOSITORY')!=REPOSITORY or
-                ref not in ('refs/heads/main','refs/heads/codex/tiktok14-safety-audit','refs/heads/codex/tiktok14-reliability') or
+                ref not in ('refs/heads/main','refs/heads/codex/tiktok14-safety-audit','refs/heads/codex/tiktok14-reliability','refs/heads/codex/tiktok14-longterm') or
                 action not in ('prepare','publish','diagnose','review') or
                 (action in ('publish','review') and ref!='refs/heads/main')):
             raise ServiceError('unapproved_cloud_context')

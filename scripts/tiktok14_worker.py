@@ -172,6 +172,8 @@ class Worker:
             if len(unresolved) != 1:
                 raise ServiceError('multiple_unresolved_attempts')
             return self.reconcile(state,sha,unresolved[0],current)
+        from tiktok14_publish import posting_time
+        if not posting_time(current): return 'outside_window'
         permitted = sources(config)
         independent = config.get('accounting_mode','shared') == 'independent'
         external_events = {} if independent else history(external,current)
@@ -187,7 +189,7 @@ class Worker:
                 not isinstance(item.get('caption'),str) or not item['caption'].strip() or
                 len(item['caption']) > 2200):
             raise ServiceError('ineligible_queue_item')
-        if any(identities(attempt)&identities(item) for attempt in state['attempts']):
+        if identities(item)&set(state.get('used_ids',[])) or any(identities(attempt)&identities(item) for attempt in state['attempts']):
             raise ServiceError('duplicate_clip')
         overview = self.gateway.overview(stamp(history_start(current)),
                                           stamp(current+dt.timedelta(days=1)))

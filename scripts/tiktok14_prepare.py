@@ -43,6 +43,8 @@ def extract_pipeline(yaml_text):
 def generate():
     code = extract_pipeline(WORKFLOW.read_text(encoding='utf-8'))
     alterations = [
+        ("for clip in verified[:20]:", "for clip in verified[:3]:"),
+        ("int(os.getenv('MIN_VIEWS', '800'))", "100"),
         ("STATE = Path('state/auto20.json')", "STATE = Path('state/auto14_queue.json')"),
         ("if len(monthly) >= 60:", "if len(monthly) >= 15 * calendar.monthrange(now.year, now.month)[1]:"),
         ("'GitHub-Pufferlimit von 60 Produktionen in diesem Monat erreicht'", "'TikTok14: Produktionslimit fuer diesen Monat erreicht'"),

@@ -18,6 +18,10 @@ LOCAL_ZONE = ZoneInfo('Europe/Berlin')
 UTC = dt.timezone.utc
 
 
+def posting_time(current):
+    return current.tzinfo is not None and 9 <= current.astimezone(LOCAL_ZONE).hour <= 23
+
+
 def stamp(d):
     return d.isoformat(timespec='seconds').replace('+00:00', 'Z')
 

@@ -26,10 +26,10 @@ def text_groups(detections):
 
 def classify_captions(report,out,vision):
  """Geometry proposes text regions; actual visual semantics decides what to remove."""
- from PIL import Image
  out=Path(out);groups=text_groups(report['detections'])
  # Unsupported content complexity excludes this clip; it is not a model outage.
  if len(groups)>MAX_TEXT_STATES:raise QualityRejected('qa_caption_text_density')
+ from PIL import Image
  frames=[];times=[];context=[];properties={};reviews=[]
  for index,group in enumerate(groups):
   key=f'region_{index}'

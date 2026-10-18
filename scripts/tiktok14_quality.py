@@ -59,7 +59,7 @@ def review_error(item,current):
     if blocked(item): return 'permanently_blocked_clip'
     review=item.get('media_review')
     if not isinstance(review,dict): return 'full_media_review_required'
-    if review.get('version')==2:
+    if review.get('version') in (2,3):
         from tiktok14_autoreview import automated_review_error
         return automated_review_error(item,review,current)
     try:

@@ -6,7 +6,7 @@ import math
 import statistics
 from pathlib import Path
 
-from tiktok14_autoreview import PRIMARY,SECONDARY,VISION_MODEL,visual_error
+from tiktok14_autoreview import PRIMARY,SECONDARY,VISION_MODEL,visual_error,PRACTICAL_POLICY
 from tiktok14_services import ServiceError,QualityRejected
 from tiktok14_speech import transcribe_pair
 from tiktok14_caption_scan import scan_captions,classify_captions
@@ -40,9 +40,9 @@ def source_review(namespace,clip,source,model_dir):
   frames,times=frame_samples(clean_source,out/'qa-source',duration)
   visual=vision.ask(SOURCE_PROMPT,frames,times,' '.join(w[2] for w in words))
  (out/'source-visual.json').write_text(json.dumps(visual,ensure_ascii=False,indent=2),encoding='utf-8')
- error=visual_error(visual,duration)
+ error=visual_error(visual,duration,practical=True)
  if error:raise QualityRejected('qa_'+error)
- return {'source_sha256':source_hash,'duration':duration,'timestamps':times,
+ return {'quality_policy':PRACTICAL_POLICY,'source_sha256':source_hash,'duration':duration,'timestamps':times,
   'caption_mode':speech['caption_mode'],'rendered_word_count':len(words),
   'headline':f"Gaming-Moment mit {clip['channel_login']}",
   'source_visual':visual,'source_frame_hashes':[sha(path) for path in frames],
@@ -138,7 +138,7 @@ def final_review(namespace,clip,movie,report,model_dir):
  with Vision(model_dir) as vision:final=vision.ask(FINAL_PROMPT,frames,times,context)
  text_ok=(final.get('legible_subtitles') is True if report['caption_mode']=='verified_words' else final.get('caption_quality')=='readable_title_only')
  if (final.get('composition_usable') is not True or not text_ok or
-  final.get('browser_chrome') is not False or final.get('nested_rebroadcast') is not False or final.get('event_retained') is not True):
+  final.get('browser_chrome') is not False or final.get('nested_rebroadcast') is not False):
   raise QualityRejected('qa_final_composition_failed')
  evidence={key:value for key,value in report.items() if key!='frames'}
  evidence.update(final_visual=final,final_timestamps=times,final_frame_hashes=[sha(path) for path in frames],

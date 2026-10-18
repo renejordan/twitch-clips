@@ -517,7 +517,7 @@ def publish(store,config,github,key):
             if review_error(item,dt.datetime.now(dt.timezone.utc)):
                 return 'needs_review'
             raise ServiceError('queued_clip_expired')
-        if item.get('media_review',{}).get('version')==2 and os.getenv('TIKTOK14_AUTOREVIEW_ENABLED')!='true':
+        if item.get('media_review',{}).get('version') in (2,3) and os.getenv('TIKTOK14_AUTOREVIEW_ENABLED')!='true':
             state['last_commissioning_hour']=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H')
             store.save(state,sha)
             return 'automatic_commissioning_required'

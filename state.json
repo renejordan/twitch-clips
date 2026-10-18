@@ -499,30 +499,29 @@
       "verified_at": "2026-10-16T16:58:42Z"
     }
   ],
-  "last_prepare_hour": "2026-10-18T07",
+  "last_prepare_hour": "2026-10-18T10",
   "last_production": {
-    "at": "2026-10-18T10:33:57Z",
-    "result": "degraded",
+    "at": "2026-10-18T10:56:13Z",
+    "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_views_prefilter": 523,
-      "listing_age_prefilter": 762,
-      "discovered": 107,
-      "listing_duration_prefilter": 16,
-      "metadata_requested": 104,
-      "qualified_metadata": 77,
-      "title_too_short": 5,
-      "gaming_category_not_verified": 22,
-      "download_attempted": 1,
-      "render_attempted": 1
+      "listing_duration_prefilter": 79,
+      "listing_age_prefilter": 857,
+      "discovered": 628,
+      "metadata_requested": 625,
+      "qualified_metadata": 393,
+      "title_too_short": 65,
+      "gaming_category_not_verified": 167,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_caption_text_density": 1,
+      "render_ok": 1
     },
-    "failure_reason": "qa_speech_valueerror",
-    "diagnostic_location": "transcribe.py:encode:1400",
     "candidate": {
-      "clip_id": "4108530673",
-      "clip_slug": "SilkyTenuousWormTwitchRaid-DMvxDa1fde6oLFwi",
-      "streamer": "xrohat"
+      "clip_id": "311924564",
+      "clip_slug": "CleanPreciousLardWholeWheat-2vbb0Rrt-oV_BApa",
+      "streamer": "papaplatte"
     }
   },
   "prepare_scans": {

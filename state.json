@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3699286379",
-      "clip_slug": "BloodyHeadstrongBasenjiKippa-WYFjYZ2vw0DlqWun",
-      "streamer": "montanablack88",
-      "source_url": "https://www.twitch.tv/montanablack88/clip/BloodyHeadstrongBasenjiKippa-WYFjYZ2vw0DlqWun",
-      "original_title": "A1rSiggi in CA",
-      "hook": "A1rSiggi in CA",
-      "caption": "A1rSiggi in CA\n#gaming #minecraft #twitchclips #montanablack88 #gamer",
-      "views_at_selection": 285,
-      "original_duration": 48.0,
-      "original_created_at": "2026-10-18T09:24:00Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-3699286379-904f8dd86615.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-18T17:10:15Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "904f8dd86615612697fd81cbfb42b233a634c1a6c41a3357fe1cc34dba720ac0",
-      "category": "Minecraft",
-      "transcript_sha256": "17c49d63bf7233c334fefb6b60b4a3bc19372bd4d165de124d5ba19224c3226a",
-      "asr_requires_correction": true,
-      "source_sha256": "9c5b62026265c9f4d2bdd334ca3d6421a88c44cd54e32059ce9e791c16271f1a",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-18T17:10:15.692061+00:00",
-        "media_sha256": "904f8dd86615612697fd81cbfb42b233a634c1a6c41a3357fe1cc34dba720ac0",
-        "transcript_sha256": "17c49d63bf7233c334fefb6b60b4a3bc19372bd4d165de124d5ba19224c3226a",
-        "source_sha256": "9c5b62026265c9f4d2bdd334ca3d6421a88c44cd54e32059ce9e791c16271f1a",
-        "evidence_sha256": "0006eb3984f574fc649b480fa165d37da77616d0b96533502bbbc95b08f67fe6",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "9c5b62026265c9f4d2bdd334ca3d6421a88c44cd54e32059ce9e791c16271f1a",
-          "reviewed_source_sha256": "9c5b62026265c9f4d2bdd334ca3d6421a88c44cd54e32059ce9e791c16271f1a",
-          "duration": 48.0,
-          "timestamps": [
-            0.0,
-            23.925,
-            47.85
-          ],
-          "source_frame_hashes": [
-            "3c0809b7ae61bd3900216fe36a81c00a36e56d9dd2c6f462ad0305bb91e86fe8",
-            "4f048431ffda235442864aa606676bc0db660c76576e6d04e4e4bc0d2e05e45f",
-            "0c3daa0800b9ab4ac860219fad8b1f0731c7a13b40392bbe92f31094651f4640"
-          ],
-          "headline": "A1rSiggi in CA",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in a corner over gameplay, with game HUD and chat visible, not a browser or video player.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in the frames.",
-            "payoff": "No clear payoff visible in the frames.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.06673446881680237,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'A1rSiggi in CA' is clearly visible at the top center, and no word subtitles are in a",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            23.925,
-            47.85
-          ],
-          "final_frame_hashes": [
-            "f28cbb10463c17890fa2148ad6d5536c4485cd8b6074233749a9d1371632f0c7",
-            "021d84944075de2f5edaff9f3eec9810cf51eca6aec5ec3d3bf6fa282c74fbde",
-            "afa5bda861fe9f6e4c96c06e05bda6df016b33ac95d67a486ed22ef7a5c112e9"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "904f8dd86615612697fd81cbfb42b233a634c1a6c41a3357fe1cc34dba720ac0",
-          "transcript_sha256": "17c49d63bf7233c334fefb6b60b4a3bc19372bd4d165de124d5ba19224c3226a"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'A1rSiggi in CA' is clearly visible at the top center, and no word subtitles are in a"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0667, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-3699286379-904f8dd86615-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -317,14 +179,17 @@
       "streamer": "montanablack88",
       "sha256": "904f8dd86615612697fd81cbfb42b233a634c1a6c41a3357fe1cc34dba720ac0",
       "source_sha256": "9c5b62026265c9f4d2bdd334ca3d6421a88c44cd54e32059ce9e791c16271f1a",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3699286379-904f8dd86615.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-3699286379-904f8dd86615.mp4",
       "clip_slug": "BloodyHeadstrongBasenjiKippa-WYFjYZ2vw0DlqWun",
       "original_created_at": "2026-10-18T09:24:00Z",
       "source_deadline": "2026-10-21T09:24:00Z",
       "buffer_post_id": "6ad5093da48c8f8371ab6215",
-      "last_reconcile_at": "2026-10-18T18:06:27Z"
+      "last_reconcile_at": "2026-10-18T18:06:27Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698069368290282784",
+      "sent_at": "2026-10-18T18:02:51Z",
+      "verified_at": "2026-10-18T18:06:28Z"
     }
   ],
   "last_production": {

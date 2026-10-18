@@ -7,19 +7,20 @@ from tiktok14_media import automated_render
 from tiktok14_services import QualityRejected,ProductionInterrupted
 
 class QABoundaryTests(unittest.TestCase):
- def invoke(self,status,returncode,reason=None,wrong_hash=False):
+ def invoke(self,status,returncode,reason=None,wrong_hash=False,diagnostic_location=None):
   with tempfile.TemporaryDirectory() as directory:
    root=Path(directory);source=root/'source.mp4';source.write_bytes(b'source')
    def child(command,**kwargs):
     self.assertNotIn('GH_TOKEN',kwargs['env']);self.assertNotIn('BUFFER_API_KEY',kwargs['env'])
     out=Path(command[command.index('--output')+1])
-    (out/'qa-result.json').write_text(json.dumps({'status':status,'reason':reason}))
+    (out/'qa-result.json').write_text(json.dumps({'status':status,'reason':reason,'diagnostic_location':diagnostic_location}))
     for name in ('tiktok.mp4','cover.jpg','transcript.json','source-frames.jpg','final-frames.jpg'):(out/name).write_bytes(b'fixture')
     (out/'qa-evidence.json').write_text(json.dumps({'source_sha256':'0'*64 if wrong_hash else hashlib.sha256(source.read_bytes()).hexdigest()}))
     return subprocess.CompletedProcess(command,returncode)
    clip={'id':'12345'}
    with patch.dict(os.environ,GH_TOKEN='secret',BUFFER_API_KEY='secret'),patch('tiktok14_media.subprocess.run',side_effect=child):
-    return automated_render({'OUT':root},clip,source,root/'models')
+    self.namespace={'OUT':root}
+    return automated_render(self.namespace,clip,source,root/'models')
  def test_rejected_content_has_a_separate_repeatable_reason(self):
   with self.assertRaisesRegex(QualityRejected,'qa_visual_browser_chrome'):self.invoke('rejected',2,'qa_visual_browser_chrome')
  def test_success_exit_without_passed_result_cannot_approve(self):
@@ -33,4 +34,10 @@ class QABoundaryTests(unittest.TestCase):
    self.invoke('technical_failure',1,'qa_caption_regions_uncertain')
   with self.assertRaisesRegex(ProductionInterrupted,'qa_service_failed'):
    self.invoke('technical_failure',1,'Raw traceback with secret=do-not-print')
+ def test_only_basename_function_and_line_can_enter_durable_diagnostics(self):
+  for location,allowed in [('transcribe.py:generate_segments:1896',True),
+   ('/home/user/secret/transcribe.py:generate_segments:1896',False),('secret=do-not-print',False)]:
+   with self.subTest(location=location),self.assertRaises(ProductionInterrupted):
+    self.invoke('technical_failure',1,'qa_speech_valueerror',diagnostic_location=location)
+   self.assertEqual('qa_diagnostic_location' in self.namespace.get('_report',{}),allowed)
 if __name__=='__main__':unittest.main()

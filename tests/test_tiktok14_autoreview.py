@@ -7,8 +7,12 @@ from tiktok14_quality import review_error
 from test_tiktok14_worker import fixture,NOW
 class AutoReviewTests(unittest.TestCase):
  def test_practical_selection_accepts_ranked_gameplay_without_perfect_payoff(self):
+  from tiktok14_publish import eligible
   item=fixture()[0]['queue'][0];item['source_sha256']='d'*64
   evidence=self.evidence(item);evidence['quality_policy']='ranked_practical_v1'
+  item.update(editing_status='rendered_9x16_title_only',transcript_subtitles=False)
+  evidence.update(caption_mode='title_only',rendered_word_count=0,transcript_distance=.4)
+  evidence['final_visual'].update(legible_subtitles=False,legible_title=True,caption_quality='readable_title_only')
   evidence['source_visual'].update(complete_payoff=False,standalone_understandable=False,
    sustained_watchability=False,hook_score=1,payoff_score=1)
   evidence['final_visual']['event_retained']=False
@@ -16,6 +20,7 @@ class AutoReviewTests(unittest.TestCase):
   self.assertEqual(item['media_review']['version'],3)
   self.assertNotIn('full_clip_payoff',item['media_review']['checks'])
   self.assertIsNone(review_error(item,NOW))
+  self.assertTrue(eligible(item,NOW))
   for field,value in [('browser_chrome',True),('gameplay_visible',False),('safe_for_general_audience',False)]:
    original=evidence['source_visual'][field];evidence['source_visual'][field]=value
    item['media_review']=automated_receipt(item,evidence,NOW)

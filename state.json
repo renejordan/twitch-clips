@@ -353,12 +353,13 @@
       "streamer": "trymacs",
       "sha256": "dd5e9a747f9c9d783998ce1fdcc3047c92c32921aad7b3d2b2f8a154efa219ab",
       "source_sha256": "21ff219a8d825caf0cd5a1c47f02bddb78eed78c23abc01069f60735b3272ddb",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3835744608-dd5e9a747f9c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3835744608-dd5e9a747f9c.mp4",
       "clip_slug": "DeadMoistChoughMrDestructoid-CiHl1tw3rlau6XUJ",
       "original_created_at": "2026-10-18T18:40:13Z",
-      "source_deadline": "2026-10-21T18:40:13Z"
+      "source_deadline": "2026-10-21T18:40:13Z",
+      "buffer_post_id": "6ad5255ca48c8f8371b105b6"
     }
   ],
   "last_production": {

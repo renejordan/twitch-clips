@@ -3,6 +3,7 @@ import base64
 import contextlib
 import datetime as dt
 import io
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -18,6 +19,27 @@ from test_tiktok14_worker import MemoryState, fixture, NOW
 
 
 class CloudTests(unittest.TestCase):
+    def test_incomplete_final_evidence_is_rejected_before_immutable_hosting(self):
+        from test_tiktok14_autoreview import AutoReviewTests
+        from unittest.mock import Mock
+        with tempfile.TemporaryDirectory() as directory:
+            movie=Path(directory)/'tiktok.mp4';movie.write_bytes(b'fixture video')
+            transcript=movie.parent/'transcript.json';transcript.write_text('{}')
+            item=fixture()[0]['queue'][0]
+            item.update(source_sha256='d'*64,sha256=hashlib.sha256(movie.read_bytes()).hexdigest(),
+                transcript_sha256=hashlib.sha256(transcript.read_bytes()).hexdigest())
+            evidence=AutoReviewTests().evidence(item);evidence['final_visual']['evidence']=''
+            clip={'id':item['clip_id'],'_qa_evidence':evidence}
+            ns={}
+            ns['main']=lambda:ns['release'](clip,movie,movie,NOW)
+            host=Mock();store=MemoryState({'version':1,'attempts':[],'queue':[]})
+            with patch.object(cloud,'producer_namespace',return_value=ns),patch.object(cloud,'report_result'):
+                with self.assertRaisesRegex(ServiceError,'automatic_evidence_invalid_before_host'):
+                    cloud.prepare(store,fixture()[1],{'created':[],'processed_ids':[]},NOW,host)
+            host.assert_not_called()
+            self.assertEqual(store.data['queue'],[])
+            self.assertEqual(store.data['last_production']['result'],'degraded')
+
     def test_known_running_auto20_prevents_new_media_or_buffer_transfer(self):
         state,config,_,_=fixture()
         with patch.object(cloud,'legacy_running',return_value=True), \
@@ -28,7 +50,11 @@ class CloudTests(unittest.TestCase):
 
     def test_real_producer_stops_after_failed_durable_handoff(self):
         store=MemoryState({'version':1,'attempts':[],'queue':[]})
-        store.fail_write=True
+        save=store.save
+        def fail_handoff(data,sha):
+            if data['queue']:raise ServiceError('state_write_failed')
+            return save(data,sha)
+        store.save=fail_handoff
         _,config,_,_=fixture()
         namespace=cloud.producer_namespace()
         clip={'id':'12345678','clip_slug':'Example-123','channel_login':'rewinside',

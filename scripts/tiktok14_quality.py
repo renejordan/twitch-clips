@@ -16,12 +16,42 @@ CHECKS=('subtitles_accuracy','frame_composition','full_clip_payoff',
         'audio_intelligibility','gaming_context')
 
 
-def context_headline(title,streamer):
+def context_headline(title,streamer,plain=False):
     """Preserve the source clip's context without inventing a joke or speech."""
     text=re.sub(r'https?://\S+|www\.\S+','',str(title or ''))
+    # The renderer's bundled bold font has no emoji glyphs. Keep the legacy
+    # form available solely to validate receipts for already rendered media.
+    if plain:text=''.join(c for c in text if ord(c)<0x2500 and c not in '\u200d\ufe0f')
     text=' '.join(''.join(c if c.isprintable() else ' ' for c in text).split())
     if len(text)<5:return f'Gaming-Moment mit {streamer}'
     return text if len(text)<=52 else text[:49].rsplit(' ',1)[0]+'…'
+
+
+def social_caption(item):
+    headline=context_headline(item.get('original_title') or item.get('hook'),item.get('streamer'),plain=True)
+    category=str(item.get('category','')).casefold()
+    game=next((tag for name,tag in (
+        ('minecraft','minecraft'),('league of legends','leagueoflegends'),
+        ('valorant','valorant'),('counter-strike','cs2'),('fortnite','fortnite'),
+        ('grand theft auto','gta'),('world of warcraft','wow')) if name in category),'gamingde')
+    streamer=re.sub('[^a-z0-9_]','',str(item.get('streamer','')).casefold())[:25]
+    tags=list(dict.fromkeys(['gaming',game,'twitchclips',streamer or 'gamingcommunity','gamer']))
+    return headline+'\n'+' '.join('#'+tag for tag in tags)
+
+
+def mobile_title_lines(text,font,max_width=760):
+    """Measure the actual bold font; split even a single overlong source word."""
+    lines=[];line=''
+    for word in text.split():
+        candidate=(line+' '+word).strip()
+        if font.getlength(candidate)<=max_width:line=candidate;continue
+        if line:lines.append(line);line=''
+        for char in word:
+            if font.getlength(line+char)>max_width:
+                lines.append(line);line=''
+            line+=char
+    if line:lines.append(line)
+    return lines
 
 
 def identities(row):

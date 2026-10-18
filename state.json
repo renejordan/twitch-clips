@@ -238,6 +238,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697992133143268641",
       "sent_at": "2026-10-18T13:04:06Z",
       "verified_at": "2026-10-18T13:04:32Z"
+    },
+    {
+      "clip_id": "309969943",
+      "reserved_at": "2026-10-18T14:00:27Z",
+      "streamer": "papaplatte",
+      "sha256": "726425a417cc1957c4425c9a0919ab30cd1fb43df68f29e41c03a6981316074b",
+      "source_sha256": "61e2e16692e5ea7c77d0a6f3659c555ab9e45b7e609c241c5650d7cc2dc43b8c",
+      "status": "reserved",
+      "asset_title": "tiktok14-309969943-726425a417cc.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-309969943-726425a417cc.mp4",
+      "clip_slug": "BenevolentTriangularRuffTheTarFu-uXCV_hHtUedPGVwh",
+      "original_created_at": "2026-10-17T19:48:50Z",
+      "source_deadline": "2026-10-20T19:48:50Z"
     }
   ],
   "last_production": {

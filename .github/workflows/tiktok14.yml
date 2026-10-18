@@ -61,7 +61,7 @@ jobs:
         run: |
           python scripts/tiktok14_prepare.py --test
           python scripts/tiktok14_publish.py selftest
-          python -m unittest discover -s tests -v
+          env -u GITHUB_STEP_SUMMARY python -m unittest discover -s tests -v
 
   auto14:
     needs: validate
@@ -71,7 +71,7 @@ jobs:
       cancel-in-progress: false
     if: ${{ (github.ref == 'refs/heads/main' && ((github.event_name == 'schedule' && vars.TIKTOK14_ENABLED == 'true') || github.event_name == 'workflow_dispatch')) || ((github.ref == 'refs/heads/codex/tiktok14-safety-audit' || github.ref == 'refs/heads/codex/tiktok14-reliability' || github.ref == 'refs/heads/codex/tiktok14-longterm') && github.event_name == 'workflow_dispatch' && (inputs.mode == 'prepare' || inputs.mode == 'diagnose')) }}
     runs-on: ubuntu-24.04
-    timeout-minutes: 65
+    timeout-minutes: 90
     permissions:
       contents: write
       actions: read

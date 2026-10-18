@@ -117,6 +117,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          TIKTOK14_AUTOREVIEW_ENABLED: ${{ vars.TIKTOK14_AUTOREVIEW_ENABLED }}
         run: python scripts/tiktok14_cloud.py publish
 
   buffer_connection:

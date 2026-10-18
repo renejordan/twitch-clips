@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3713714204",
-      "clip_slug": "SmellyUglyAlmondMrDestructoid-8pN0GgRPot5Ajw5e",
-      "streamer": "castcrafter",
-      "source_url": "https://www.twitch.tv/castcrafter/clip/SmellyUglyAlmondMrDestructoid-8pN0GgRPot5Ajw5e",
-      "original_title": "0,0000083% Double Spawner 🤯",
-      "hook": "0,0000083% Double Spawner",
-      "caption": "0,0000083% Double Spawner\n#gaming #minecraft #twitchclips #castcrafter #gamer",
-      "views_at_selection": 411,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-17T18:57:18Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-3713714204-14815596bf2b.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-18T12:33:44Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "14815596bf2b24a35263cae0a989afe38fe33e84267cf7bb2e884ffa74903ba7",
-      "category": "Minecraft",
-      "transcript_sha256": "bd9daa7c496b22804a2b94a7c191d758e14add67390feca7dc4f2866bf53b208",
-      "asr_requires_correction": true,
-      "source_sha256": "229cd3b4df91ada77c287974243591951407487f7f0675c59e7086a38a39cd81",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-18T12:33:44.737846+00:00",
-        "media_sha256": "14815596bf2b24a35263cae0a989afe38fe33e84267cf7bb2e884ffa74903ba7",
-        "transcript_sha256": "bd9daa7c496b22804a2b94a7c191d758e14add67390feca7dc4f2866bf53b208",
-        "source_sha256": "229cd3b4df91ada77c287974243591951407487f7f0675c59e7086a38a39cd81",
-        "evidence_sha256": "5f7a80ed53e311d9402b022e752ec61f49ec2b96a8f42e2ee7f205dbd923bfbe",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "229cd3b4df91ada77c287974243591951407487f7f0675c59e7086a38a39cd81",
-          "reviewed_source_sha256": "229cd3b4df91ada77c287974243591951407487f7f0675c59e7086a38a39cd81",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "17a54f04297ae0cda42ca56e7b3c7b1e3b3e756c23fb679a5daa11110c9da70e",
-            "f7dfac10711547989bcd86397def042e1a090e90fc9ada4f52e95346f4a17b03",
-            "b53d53e68bd29e9dc427c899207ac3e0d0c3ea8e36c4aeeeb7114c0e388fe8dd"
-          ],
-          "headline": "0,0000083% Double Spawner",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, no clear action or outcome visible",
-            "payoff": "No visible outcome or payoff from actions taken",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.06209707215315612,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The text '0,0000083% Double Spawner' is displayed as a title overlay, and no word subtitles are used",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "75ee2a4ea71f3a146afcecd3453a182d457a33c6b5195eb5878e93ab84c1c88b",
-            "14874e5fc4fb0f923c8d74c6b8d3b7c93332e6bde248e0f70dd9b1cbc8440cc6",
-            "7213655b29aacb7f0cae046f50444f1f8398e0ff59dc71d05d4953e099856452"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "14815596bf2b24a35263cae0a989afe38fe33e84267cf7bb2e884ffa74903ba7",
-          "transcript_sha256": "bd9daa7c496b22804a2b94a7c191d758e14add67390feca7dc4f2866bf53b208"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The text '0,0000083% Double Spawner' is displayed as a title overlay, and no word subtitles are used"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0621, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-3713714204-14815596bf2b-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -227,14 +89,17 @@
       "streamer": "castcrafter",
       "sha256": "14815596bf2b24a35263cae0a989afe38fe33e84267cf7bb2e884ffa74903ba7",
       "source_sha256": "229cd3b4df91ada77c287974243591951407487f7f0675c59e7086a38a39cd81",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3713714204-14815596bf2b.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-3713714204-14815596bf2b.mp4",
       "clip_slug": "SmellyUglyAlmondMrDestructoid-8pN0GgRPot5Ajw5e",
       "original_created_at": "2026-10-17T18:57:18Z",
       "source_deadline": "2026-10-20T18:57:18Z",
       "buffer_post_id": "6ad4c2ee769b457934c271ab",
-      "last_reconcile_at": "2026-10-18T13:04:31Z"
+      "last_reconcile_at": "2026-10-18T13:04:31Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697992133143268641",
+      "sent_at": "2026-10-18T13:04:06Z",
+      "verified_at": "2026-10-18T13:04:32Z"
     }
   ],
   "last_production": {

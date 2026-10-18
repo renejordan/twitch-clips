@@ -8,6 +8,7 @@ from pathlib import Path
 
 from tiktok14_autoreview import PRIMARY,SECONDARY,VISION_MODEL,visual_error,PRACTICAL_POLICY
 from tiktok14_services import ServiceError,QualityRejected
+from tiktok14_quality import context_headline
 from tiktok14_speech import transcribe_pair
 from tiktok14_caption_scan import scan_captions,classify_captions
 from tiktok14_vision import Vision,frame_samples,SOURCE_PROMPT,FINAL_PROMPT,sha
@@ -44,7 +45,7 @@ def source_review(namespace,clip,source,model_dir):
  return {'quality_policy':PRACTICAL_POLICY,'review_method':'sampled_frames_and_full_decode',
   'source_sha256':source_hash,'reviewed_source_sha256':source_hash,'duration':duration,
   'timestamps':times,'source_frame_hashes':[sha(path) for path in frames],'frames':frames,
-  'headline':f"Gaming-Moment mit {clip['channel_login']}",'source_visual':visual,
+  'headline':context_headline(clip.get('title'),clip['channel_login']),'source_visual':visual,
   'caption_mode':'title_only','rendered_word_count':0,'asr_used':False,
   'primary_model':None,'secondary_model':None,'vision_model':VISION_MODEL,'transcript_distance':None,
   'audio_rms':audio['rms'],'clipped_fraction':audio['clipped_fraction'],
@@ -81,7 +82,7 @@ def strict_source_review(namespace,clip,source,model_dir):
  if error:raise QualityRejected('qa_'+error)
  return {'quality_policy':PRACTICAL_POLICY,'source_sha256':source_hash,'duration':duration,'timestamps':times,
   'caption_mode':speech['caption_mode'],'rendered_word_count':len(words),
-  'headline':f"Gaming-Moment mit {clip['channel_login']}",
+  'headline':context_headline(clip.get('title'),clip['channel_login']),
   'source_visual':visual,'source_frame_hashes':[sha(path) for path in frames],
   'primary_model':PRIMARY,'secondary_model':SECONDARY,'vision_model':VISION_MODEL,
   'transcript_distance':speech['normalized_token_distance'],'audio_rms':speech['audio']['rms'],
@@ -143,23 +144,24 @@ def portrait_render(namespace,clip,source,box):
   if min(w,h)<40:box=None
  else:box=None
  namespace['write_subs'](words,0,duration,out/'subs.ass')
- (out/'headline.txt').write_text('\n'.join(textwrap.wrap(f"Gaming-Moment mit {clip['channel_login']}",26)[:2]),encoding='utf-8')
+ (out/'headline.txt').write_text('\n'.join(textwrap.wrap(context_headline(clip.get('title'),clip['channel_login']),35)[:2]),encoding='utf-8')
  font='C:/Windows/Fonts/arialbd.ttf' if os.name=='nt' else '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
  font=filter_path(font);headline=filter_path(out/'headline.txt');subs=filter_path(out/'subs.ass')
  filters=(f'[0:v]split=3[b][g][f];[b]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:10[bg];'
   f'[g]crop={height}:{height}:(iw-ow)/2:0,scale=1080:1080[game];'
   f'[f]crop={w}:{h}:{x}:{y},scale=1080:500:force_original_aspect_ratio=increase,crop=1080:500[face];'
   f'[bg][game]overlay=0:700[a];[a][face]overlay=0:50,'
-  f"drawtext=fontfile='{font}':textfile='{headline}':fontsize=48:fontcolor=white:borderw=3:bordercolor=black:box=1:boxcolor=black@0.65:x=(w-text_w)/2:y=575,"
+  f"drawtext=fontfile='{font}':textfile='{headline}':expansion=none:fontsize=48:fontcolor=white:borderw=3:bordercolor=black:box=1:boxcolor=black@0.65:x=(w-text_w)/2:y=575,"
   f"ass=filename='{subs}',format=yuv420p[v]")
  if not box:
   side=min(width,height)
   gameplay=('scale=1080:1500:force_original_aspect_ratio=decrease' if practical else
    f'crop={side}:{side}:(iw-ow)/2:(ih-oh)/2,scale=1080:1080' if width>height else 'scale=1080:1350:force_original_aspect_ratio=decrease')
-  title_y=100 if practical else 240
+  # Keep the important context above gameplay and well above TikTok's description.
+  title_y=360 if practical else 240
   filters=('[0:v]split=2[b][g];[b]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:10[bg];'
    f'[g]{gameplay},setsar=1[game];[bg][game]overlay=(W-w)/2:(H-h)/2,'
-   f"drawtext=fontfile='{font}':textfile='{headline}':fontsize=48:fontcolor=white:borderw=3:bordercolor=black:box=1:boxcolor=black@0.65:x=(w-text_w)/2:y={title_y},"
+   f"drawtext=fontfile='{font}':textfile='{headline}':expansion=none:fontsize=48:fontcolor=white:borderw=3:bordercolor=black:box=1:boxcolor=black@0.65:x=(w-text_w)/2:y={title_y},"
    f"ass=filename='{subs}',format=yuv420p[v]")
  movie=out/'tiktok.mp4';cover=out/'cover.jpg'
  namespace['run'](['ffmpeg','-y','-v','error','-i',str(source),'-filter_complex',filters,'-map','[v]','-map','0:a:0?',

@@ -16,6 +16,14 @@ CHECKS=('subtitles_accuracy','frame_composition','full_clip_payoff',
         'audio_intelligibility','gaming_context')
 
 
+def context_headline(title,streamer):
+    """Preserve the source clip's context without inventing a joke or speech."""
+    text=re.sub(r'https?://\S+|www\.\S+','',str(title or ''))
+    text=' '.join(''.join(c if c.isprintable() else ' ' for c in text).split())
+    if len(text)<5:return f'Gaming-Moment mit {streamer}'
+    return text if len(text)<=52 else text[:49].rsplit(' ',1)[0]+'…'
+
+
 def identities(row):
     values={str(row.get(key,'')) for key in ('id','clip_id','clip_slug','display_id','sha256','source_sha256')}
     for key in ('url','source_url','webpage_url','original_url'):

@@ -108,6 +108,15 @@ def counted_events(state, external, posts, current):
     return sum(in_budget(moment,current) for moment in events.values())
 
 
+def reconciliation_due(attempt,current):
+    """Fast initial confirmation, then conserve the free API during outages."""
+    last=attempt.get('last_reconcile_at')
+    if not last:return True
+    age=(current-parse_timestamp(attempt['reserved_at'])).total_seconds()
+    interval=120 if age<600 else 600 if age<3600 else 3600
+    return (current-parse_timestamp(last)).total_seconds()>=interval
+
+
 class Worker:
     def __init__(self, store, gateway, verify):
         self.store, self.gateway, self.verify = store, gateway, verify

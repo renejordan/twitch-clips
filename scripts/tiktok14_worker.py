@@ -147,6 +147,11 @@ class Worker:
         if (sent_at < parse_timestamp(attempt['reserved_at']) or
                 sent_at > current+dt.timedelta(minutes=5)):
             raise ServiceError('reconciliation_time_mismatch')
+        deadline=attempt.get('source_deadline')
+        if deadline and sent_at>parse_timestamp(deadline):
+            attempt.update(status='late_publication',sent_at=stamp(sent_at),tiktok_url=url)
+            self.store.save(state,sha)
+            raise ServiceError('published_after_source_deadline')
         if not self.verify(url):
             return 'unverified'
         attempt.update(status='verified_public',tiktok_url=url,
@@ -197,7 +202,9 @@ class Worker:
             raise ServiceError('duplicate_media')
         attempt = {'clip_id':item['clip_id'],'reserved_at':stamp(current),
                    'status':'reserved','asset_title':title,'video_url':item['video_url'],
-                   'clip_slug':item.get('clip_slug','')}
+                   'clip_slug':item.get('clip_slug',''),
+                   'original_created_at':item['original_created_at'],
+                   'source_deadline':stamp(parse_timestamp(item['original_created_at'])+dt.timedelta(hours=72))}
         state['attempts'].append(attempt)
         sha = self.store.save(state,sha)
         # No retry, even when the HTTP response is lost. A later run reconciles.

@@ -256,9 +256,12 @@ def prepare(store,config,legacy,current,host):
         except ProductionInterrupted as error:
             raise ServiceError(str(error)) from None
     counts=dict(namespace.get('_report',{}).get('counts',{}))
+    technical=any(counts.get(key) for key in
+        ('listing_failed','metadata_failed','download_failed','render_failed'))
+    quality=any(value for key,value in counts.items() if key.startswith('asr_'))
     result=('needs_review' if state['queue'] else
-        'degraded' if counts.get('listing_failed') or counts.get('metadata_failed') else 'empty')
-    state['last_prepare_hour']=slot
+        'degraded' if technical else 'quality_rejected' if quality else 'empty')
+    if result!='degraded': state['last_prepare_hour']=slot
     state['last_production']={'at':stamp(current),'result':result,'counts':counts}
     store.save(state,sha)
     report_result(state['last_production'])

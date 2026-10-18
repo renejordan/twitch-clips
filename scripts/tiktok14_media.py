@@ -122,6 +122,14 @@ def configure(namespace,report):
             'editorial_accuracy':'not_reviewed'},ensure_ascii=False,indent=2),encoding='utf-8')
         return words
 
+    original_download=namespace['download']
+    def download(clip):
+        count('download_attempted')
+        try: return original_download(clip)
+        except Exception:
+            count('download_failed')
+            raise
+
     original_render=namespace['render']
     def render(clip,source):
         count('render_attempted')
@@ -144,4 +152,4 @@ def configure(namespace,report):
 
     namespace.update(channel_urls=listing,inspect_original=inspect,transcribe=transcribe,
         # Keep original setup AND payoff; speech-density crops cut sentences/punchlines.
-        pick_window=lambda duration,words:(0.0,duration),render=render)
+        pick_window=lambda duration,words:(0.0,duration),download=download,render=render)

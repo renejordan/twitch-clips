@@ -13,6 +13,7 @@ from tiktok14_quality import review_error
 
 REPO_PREFIX = 'https://github.com/renejordan/twitch-clips/releases/download/tiktok14-'
 MAX_PER_DAY = 15
+MAX_SEND_AGE_HOURS = 71  # Buffer delivery is asynchronous: leave one hour of headroom.
 LOCAL_ZONE = ZoneInfo('Europe/Berlin')
 UTC = dt.timezone.utc
 
@@ -50,7 +51,7 @@ def eligible(item, current):
         age_h = (current - parse_timestamp(item['original_created_at'])).total_seconds() / 3600
     except (KeyError, ValueError, TypeError):
         return False
-    return 0 <= age_h <= 72
+    return 0 <= age_h <= MAX_SEND_AGE_HOURS
 
 
 def can_reserve(journal, current):

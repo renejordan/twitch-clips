@@ -1,102 +1,51 @@
-# TikTok14: eigenständiger Buffer-Publisher
+# Buffer-Publisher: bis zu 15 geprüfte TikToks täglich
 
-Die neue Route verarbeitet freigegebene Twitch-Gaming-Clips für @ufo3103.
-Auf ausdrücklichen Nutzerauftrag läuft sie ohne Metricool-Abgleich. Die
-bestehende Auto20-Pipeline, ihre Zustandsdatei und Metricool-Einstellungen
-werden nicht geändert.
+Die Dateinamen tiktok14_* bleiben aus Kompatibilitätsgründen bestehen. Das Maximum ist jetzt 15 im Berliner Kalendertag und in rollierenden 24 Stunden. Eigener Versandjournal und in Buffer sichtbare Veröffentlichungen werden nach TikTok-Video-ID zusammengeführt. Eine vollständige unabhängige Historie aller manuellen Posts wird nicht behauptet. Plattformgrenzen können früher greifen; 15 erfolgreiche Posts täglich sind kein zugesicherter Durchsatz.
 
-## Ablauf
+## Eine Route und geschützte Historie
 
-Der stündliche GitHub-Zeitplan bietet 24 Startgelegenheiten, verarbeitet pro
-Lauf höchstens einen neuen Clip und begrenzt die eigene Route auf 14 Versuche
-im Berliner Kalendertag und in rollierenden 24 Stunden. Tage mit 25 Stunden
-werden berücksichtigt. Der bestätigte Einzeltest vom 16.10.2026 wird als
-bereits veröffentlicht initialisiert und nicht erneut verwendet.
+Auto20 ist nach Nutzerfreigabe im abgestimmten Chat deaktiviert. Push-/Cron-Trigger sind entfernt und sein Job ist zusätzlich gesperrt. Der dort eingebettete Mediengenerator bleibt für den unabhängigen Generator erhalten. Vor neuem Versand prüft cloud.py, dass der überlappende Auto20-Workflow tatsächlich disabled_manually ist und keine alten laufenden oder wartenden Jobs vorhanden sind. Die bisherige Auto20-Zustandsdatei wird nur gelesen. IDs, Slugs, normalisierte Quell-URLs und bekannte verworfene Clips bleiben gesperrt.
 
-scripts/tiktok14_config.json enthält die ausdrücklich erklärte vorhandene
-50er-Quellenliste und accounting_mode independent. Die Erlaubniserklärung
-wurde nicht unabhängig bei den Erstellern verifiziert. Der tatsächliche
-Twitch-Broadcaster muss dem jeweiligen Quellkanal entsprechen. Clips müssen
-höchstens 72 Stunden alt sein; bestehende Mindestmetriken, Originallänge,
-automatisch erzeugte echte Untertitel und 1080x1920-Prüfungen bleiben erhalten.
+Metricool-Einstellungen, Twitch-Aufgaben und bestehende ChatGPT-Kontrolle werden durch diesen Code nicht verändert. Der verwaiste Branch tiktok14-state enthält ausschließlich state.json. Jeder Schreibzugriff verlangt die vorherige Dateiversion. Fehlende oder beschädigte Historie muss aus Git restauriert werden; der Worker legt keinen unvollständigen Anfangszustand neu an.
 
-scripts/tiktok14_cloud.py verwendet die getrennte generierte Produktion,
-stellt das MP4 in einem eigenen öffentlichen GitHub Release bereit und
-übermittelt die URL über die Buffer-API. Lokale Dateiauswahl oder ein laufender
-Nutzer-PC sind für diesen GitHub-Ablauf nicht nötig. Öffentliche Mediendateien
-werden vor dem Senden anhand ihrer SHA-256 geprüft. Bestehende Assets werden
-nicht überschrieben. Ein Fehler beim Hosting oder dauerhaften Speichern beendet
-die Kandidatenschleife, statt weitere Releases nach einem Zustandsfehler anzulegen.
+## Starts und externe Nachholung
 
-Bekannte Auto20-Clip-IDs und Slugs werden aus dessen aktuellem Zustand nur
-gelesen und ausgeschlossen. Eine erkannte laufende Auto20-Produktion wird
-übersprungen. TikTok14 verwendet eine eigene Ausführungssperre; es verdrängt
-keine wartenden Auto20-Läufe. Da Auto20 unverändert bleibt und Metricool nicht
-abgeglichen wird, ist ein späterer erneuter Vorschlag durch die alte Route
-nicht global ausgeschlossen. Die neue Route verhindert ihre eigenen Dubletten.
+GitHub cron bietet um Minute 11, 31 und 51 Startgelegenheiten. GitHub garantiert keine pünktliche oder vollständige Zustellung. Eine abgeschlossene Prüfung wird je UTC-Stunde gespeichert; zusätzliche Starts derselben Stunde scannen nicht erneut. Technisch gescheiterte Prüfungen reservieren die Stunde nicht. Das Versandjournal begrenzt neue Posts auf einen je UTC-Stunde. Ungeklärte Uploads werden bei späteren Starts nur abgeglichen, niemals erneut gesendet. Keine blinden Massen-Uploads für ausgefallene Stunden.
 
-## Veröffentlichung und Zustand
+python scripts/tiktok14_dispatch.py liest Zustand und aktive Läufe öffentlich und zeigt nur einen Plan. Erst --dispatch startet bei Bedarf den Workflow auf main im Modus auto. Dafür ist GH_TOKEN mit auf dieses Repository begrenztem Actions-Schreibrecht erforderlich. Keine Tokens in URLs oder Logs. Ein dauerhafter externer Scheduler ist NICHT eingerichtet. Das Skript kann auf einem vorhandenen ständig verfügbaren Scheduler alle 20 Minuten laufen. Ohne diesen Zugang bleibt das Stundenziel durch GitHub cron begrenzt.
 
-Ein separater verwaister Git-Zweig tiktok14-state enthält ausschließlich
-state.json. Er enthält keine Kopie der Workflow-Dateien und löst damit nicht
-versehentlich die alte Push-Produktion aus. Jeder Schreibzugriff verlangt die
-vorherige GitHub-Dateiversion. Ein bestehender beschädigter Zustand wird nicht
-neu initialisiert oder überschrieben.
+## Produktion und tatsächliche Medienprüfung
 
-Vor jedem Senden wird dauerhaft reserviert. Nach verlorenem Ergebnis erfolgt
-kein erneutes Senden. Der Worker gleicht bekannte Buffer-IDs und eindeutige
-Mediennamen ab. Erst Buffer sent plus exaktes Zielkonto, TikTok-Video-ID und
-anonyme offizielle oEmbed-Bestätigung erlauben den Status verified_public.
-Unbekannte Ergebnisse sperren weitere Posts. Nach einem neuen Post erfolgen
-höchstens drei lesende Statusprüfungen im Abstand von jeweils einer Minute;
-danach bleibt die Reservierung für den nächsten Abgleich bestehen.
+Die konfigurierte 50er-Quellenliste behält die vorhandene Rechteerklärung des Kontoinhabers. Diese ist keine unabhängig verifizierte Lizenz. Metadaten müssen den Broadcaster belegen; creators-Liste und älterer creator-Alias werden unterstützt. Alle 30 gefundenen Clips je Kanal werden geprüft statt nur fünf. Originalalter maximal 72h, Länge 15–60s und mindestens 800 Aufrufe bleiben bestehen. 48–72h alte Clips benötigen starke Zusatzmetriken. Eine konservative Gaming-Kategorieliste lehnt fehlende bzw. nicht geprüfte Kategorien ab. Die Kategorie allein ersetzt keine Bildprüfung.
 
-Der bereits belegte [Einzeltest](https://www.tiktok.com/@ufo3103/video/7697189362877992225)
-ist Buffer-Post 6ad1e7e9e7970040db23ebed, veröffentlicht 16.10.2026 09:07:25 UTC.
-TikTok Studio bestätigte Konto ufo3103, 18 Sekunden und Alle; anonymes oEmbed
-bestätigte dieselbe Video-ID. Dieser Clip bleibt dauerhaft ausgeschlossen.
+Faster-whisper small mit VAD, Wortzeitstempeln und Konfidenzprüfung ersetzt den bisher ungeprüften ASR-Erfolg. Unsichere Segmente/Wörter werden abgelehnt. Der ganze kurze Clip erhält Aufbau und Pointe; eine Sprachdichte-Auswahl schneidet nicht mehr bei 42 Sekunden ab. Das bisherige Bildlayout wird NICHT automatisch semantisch zugeschnitten. Browserrahmen, winzige Gesichter, verschachtelte Streams, falsche Untertitel und fehlende Pointe erfordern weiterhin eine vollständige tatsächliche Medienprüfung.
 
-## Steuerung
+Die Produktion legt höchstens einen Kandidaten in awaiting_review_tiktok14 ab und erfindet keine Freigabe. Das eigene Monatsrelease enthält MP4 plus EIN -review.zip mit Cover, Quell-/Ergebnis-Kontaktbildern, Worttranskript und Hash-Manifest. Zwei Assets je Clip ergeben bei 15 x 31 Clips 930 Assets. Die Kapazität von 1000 je Release wird zusätzlich geprüft; existierende Dateien werden nicht überschrieben.
 
-- Der Repository-Schalter TIKTOK14_ENABLED steuert ausschließlich geplante
-  regelmäßige Läufe auf main. Das Setzen allein ersetzt keine Inbetriebnahme.
-- Manueller Modus prepare erzeugt höchstens einen Kandidaten ohne TikTok-Post.
-  Er ist auf main und dem festgelegten geprüften Entwurfszweig verfügbar.
-- Manueller Modus commission veröffentlicht bzw. klärt auf main genau einen
-  reservierten Post. Veröffentlichungen vom Entwurfszweig sind im Workflow
-  und im Python-Einstieg gesperrt.
-- Pushes und Pull Requests führen nur Offline-Tests aus. Der alte Cookie-
-  Uploader bleibt abgeschaltet; dessen frühere preflight/reserve/upload-
-  Einstiege enden weiterhin mit Exitcode 3. Der neue Einstieg ist cloud.py.
+Eine media_review im separaten Zustand muss Version 1, decision approved, benannten reviewer, reviewed_at (maximal 72h alt), watched_full_video true und die exakten media_sha256/transcript_sha256 des Kandidaten enthalten. checks enthält für subtitles_accuracy, frame_composition, full_clip_payoff, audio_intelligibility und gaming_context jeweils result pass und eine konkrete Medienbeobachtung unter evidence. Diese Angaben entstehen erst nach tatsächlicher Prüfung. subtitle_verified true allein genügt nicht. Video-/Transkriptänderungen machen alte Freigaben ungültig.
 
-Der Workflow hat standardmäßig Leserechte. Nur der Cloud-Job erhält contents:
-write für seinen eigenen Zustand und Releases sowie actions:read zur lesenden
-Erkennung von Auto20-Läufen. Medienwerkzeuge werden vor der Bereitstellung
-von Service-Secrets installiert. BUFFER_API_KEY ist ausschließlich im
-Veröffentlichungsschritt vorhanden. Medien-Unterprozesse bekommen keine
-Buffer-, GitHub- oder TikTok-Zugangsdaten; nur der feste GitHub-Hostingaufruf
-erhält dessen scoped GitHub-Token. Keine Cookie-Exporte oder geheimen Werte
-in Logs, Chat oder Artefakten. Authentifizierte HTTP-Redirects sind gesperrt.
+## Versand und Ergebnisprüfung
 
-## Grenzen und Prüfungen
+Neue Uploads werden zuerst dauerhaft reserviert. Eine verlorene createPost-Antwort wird nicht wiederholt; Buffer-ID bzw. exakter deterministischer Medientitel ermöglichen den späteren Abgleich. Kein blindes Minuten-Polling. Erst Buffer sent, exaktes Konto/Video und anonymes offizielles TikTok-oEmbed erlauben verified_public. Ungeklärte Ergebnisse sperren neue Posts.
 
-Die 14er-Grenze zählt die neue Route. Metricool und manuelle Posts können
-zusätzlich stattfinden und sind kein Bestandteil dieses Zählers. Es wird
-keine Vollständigkeit einer gemeinsamen Historie behauptet. Buffer-Quoten
-und tatsächliche TikTok-Ablehnungen gehen vor; keine Limitumgehung oder
-automatische Sende-Wiederholung. Challenges, Authentifizierungsfehler,
-ungeklärte eigene Ergebnisse und ungeeignete Clips stoppen den Ablauf.
-Täglich 14 erfolgreiche Posts sind wegen Quellenangebot, Ausfällen und
-Plattformgrenzen nicht garantiert. Es wird kein kostenpflichtiger Dienst
-eingerichtet. Die Codex-Aufgabe überwacht ausschließlich diesen Publisher.
+Weil Buffer asynchron liefert, endet die Sendefreigabe bei 71h Originalalter. Die Reservation speichert Originalzeit und 72h-Deadline. Ein trotzdem verspätetes sentAt wird als late_publication gespeichert und sperrt weitere Posts. Buffer bietet hier keine garantierte Zustellfrist; der Puffer kann verspätete Auslieferung nicht absolut ausschließen.
 
-```sh
+Die Buffer-Prüfung verlangt My organization, Kanal 6ad16c0c778b240e2f21aca5, @ufo3103, Europe/Berlin, verbunden/entsperrt und video.publish. Freie Buffer-Zähler beweisen nicht das kontoübergreifende TikTok-Limit. Normalbetrieb benötigt ungefähr Overview + Create + späteren Post-Abgleich je Veröffentlichung; zusätzliche Kontrollen verbrauchen ebenfalls das gemeinsame API-Budget.
+
+## Bedienung, Diagnosen und Tests
+
+- TIKTOK14_ENABLED=true erlaubt geplanten bzw. externen automatischen Versand auf main erst nach Medien-, Konto- und Dublettenprüfung.
+- diagnose: ausschließlich Metadaten; keine Mediendownloads, Zustandsänderungen, Releases oder Posts.
+- prepare: höchstens ein Kandidat und Reviewpaket; kein TikTok-Post.
+- commission/auto: neuer Versand oder Abgleich nur auf main. Entwurfszweige können ausschließlich prepare/diagnose ausführen.
+- Push/PR führen Offline-Tests aus. Die alten Browser/Cookie-Einstiege bleiben gesperrt.
+
+Zähler stehen in der Actions-Zusammenfassung und unter last_production im separaten Zustand. empty bedeutet kein neuer Metadatenkandidat; quality_rejected bedeutet ausgeschlossene Medienqualität. degraded bedeutet technische Download-, Render-, Modell-, Listing- oder Metadatenfehler, Exitcode 1 und mögliche spätere Wiederholung. Hosting-/Speicherfehler beenden die Kandidatenschleife sofort.
+
+~~~sh
 python scripts/tiktok14_prepare.py --test
 python scripts/tiktok14_publish.py selftest
 python -m unittest discover -s tests -v
-```
+~~~
 
-67 Offline-Tests und beide Selbsttests bestehen am lokal geprüften Stand.
-Die Tests veröffentlichen nichts und verwenden keine echten Zugangsdaten.
-Inbetriebnahme verlangt zusätzlich einen geprüften GitHub-Produktionslauf
-und einen bestätigten Cloud-Upload vor der regelmäßigen Aktivierung.
+Am Stand 18.10.2026 bestehen lokal 86 Offline-Tests und beide Selbsttests. Sie senden nichts und benutzen keine echten Zugangsdaten. CI und reale Prepare-Läufe müssen zusätzlich am tatsächlich verwendeten Commit geprüft werden. Erfolgreiche Vorbereitung beweist keinen öffentlichen TikTok-Post und keine verlässliche autonome Qualitätsprüfung.

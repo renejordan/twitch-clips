@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import tiktok14_prepare as prepare
 import tiktok14_publish as publish
+from test_tiktok14_worker import add_review
 
 
 class PublishingTests(unittest.TestCase):
@@ -28,6 +29,7 @@ class PublishingTests(unittest.TestCase):
                          subtitle_verified=True, transcript_subtitles=True, clip_id='12345678',
                          original_created_at='2026-10-16T10:00:00Z',
                          video_url=publish.REPO_PREFIX+'2026-10/streamer-12345678.mp4')
+        add_review(self.item,self.moment)
 
     def test_unverified_browser_success_blocks_even_after_24_hours(self):
         self.assertFalse(publish.can_reserve({'attempts': [self.attempt]}, self.moment)[0])
@@ -49,7 +51,7 @@ class PublishingTests(unittest.TestCase):
     def test_empty_history_allows_selection_but_fourteen_attempts_do_not(self):
         self.assertTrue(publish.can_reserve({'attempts': []}, self.moment)[0])
         attempts = [dict(self.attempt, clip_id=str(i), status='verified_public',
-                         reserved_at='2026-10-16T10:00:00Z') for i in range(14)]
+                         reserved_at='2026-10-16T10:00:00Z') for i in range(15)]
         self.assertFalse(publish.can_reserve({'attempts': attempts}, self.moment)[0])
 
     def test_valid_release_video_remains_eligible(self):
@@ -107,13 +109,13 @@ class ProducerTests(unittest.TestCase):
             prepare.generate()
             return runpy.run_path(str(prepare.SCRIPT))
 
-    def test_31_day_month_allows_434_productions(self):
+    def test_31_day_month_allows_465_productions(self):
         with tempfile.TemporaryDirectory() as temporary:
             code = self.generated(temporary)
             moment = dt.datetime(2026, 10, 31, 12, tzinfo=dt.timezone.utc)
             old = {'created_at': '2026-10-01T12:00:00Z'}
             self.assertTrue(code['can_prepare']({'created': [old] * 430}, moment)[0])
-            self.assertFalse(code['can_prepare']({'created': [old] * 434}, moment)[0])
+            self.assertFalse(code['can_prepare']({'created': [old] * 465}, moment)[0])
 
     def test_legacy_created_ids_and_source_slugs_are_excluded(self):
         with tempfile.TemporaryDirectory() as temporary:

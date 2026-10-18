@@ -6,6 +6,40 @@ from tiktok14_autoreview import transcript_distance,visual_error,automated_recei
 from tiktok14_quality import review_error
 from test_tiktok14_worker import fixture,NOW
 class AutoReviewTests(unittest.TestCase):
+ def test_legacy_receipt_cannot_silently_omit_ocr_region_evidence(self):
+  item=fixture()[0]['queue'][0];item['source_sha256']='d'*64
+  evidence=self.evidence(item)
+  for key in ('detections','region_reviews','classifications'):evidence['caption_scan'].pop(key)
+  item['media_review']=automated_receipt(item,evidence,NOW)
+  self.assertIsNotNone(review_error(item,NOW))
+ def test_missing_audio_stream_rejects_candidate_before_loading_speech_models(self):
+  import tempfile,types
+  from unittest.mock import Mock,patch
+  from tiktok14_qa_pipeline import source_review
+  from tiktok14_services import QualityRejected
+  container=Mock();container.streams.audio=[]
+  opened=Mock();opened.__enter__=Mock(return_value=container);opened.__exit__=Mock(return_value=False)
+  with tempfile.TemporaryDirectory() as directory:
+   root=Path(directory);source=root/'silent.mp4';source.write_bytes(b'local stream fixture')
+   with patch.dict(sys.modules,{'av':types.SimpleNamespace(open=lambda _:opened)}):
+    with self.assertRaisesRegex(QualityRejected,'qa_audio_missing'):
+     source_review({'OUT':root,'probe':lambda _:15}, {'channel_login':'trymacs'},source,root)
+ def test_practical_fast_review_uses_real_samples_and_audio_without_claiming_asr_or_ocr(self):
+  from tiktok14_publish import eligible
+  item=fixture()[0]['queue'][0];item.update(source_sha256='d'*64,editing_status='rendered_9x16_title_only',transcript_subtitles=False)
+  evidence=self.evidence(item);evidence.update(quality_policy='ranked_practical_v1',
+   review_method='sampled_frames_and_full_decode',asr_used=False,primary_model=None,secondary_model=None,
+   caption_mode='title_only',rendered_word_count=0,transcript_distance=None,
+   timestamps=[0,12.5,24.85],source_frame_hashes=['a'*64]*3,
+   final_timestamps=[0,12.5,24.85],final_frame_hashes=['b'*64]*3,
+   caption_scan={'method':'original_overlays_preserved_no_generated_word_subtitles'})
+  evidence['source_visual']['existing_captions']=True
+  evidence['final_visual'].update(legible_title=True,legible_subtitles=False,caption_quality='readable_title_only')
+  item['media_review']=automated_receipt(item,evidence,NOW)
+  self.assertTrue(eligible(item,NOW))
+  self.assertNotIn('Two full audio transcriptions',str(item['media_review']))
+  evidence['rendered_word_count']=1;item['media_review']=automated_receipt(item,evidence,NOW)
+  self.assertFalse(eligible(item,NOW))
  def test_practical_selection_accepts_ranked_gameplay_without_perfect_payoff(self):
   from tiktok14_publish import eligible
   item=fixture()[0]['queue'][0];item['source_sha256']='d'*64

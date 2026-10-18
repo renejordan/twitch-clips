@@ -12,6 +12,7 @@ on:
           - diagnose
           - auto
           - review
+          - prefetch
         default: prepare
       review_json:
         description: 'Review mode only: exact clip_id and media_review receipt after watching the final video. No post is sent by review mode.'
@@ -68,9 +69,9 @@ jobs:
     concurrency:
       group: tiktok14-production-state
       cancel-in-progress: false
-    if: ${{ (github.ref == 'refs/heads/main' && ((github.event_name == 'schedule' && vars.TIKTOK14_ENABLED == 'true') || github.event_name == 'workflow_dispatch')) || ((github.ref == 'refs/heads/codex/tiktok14-safety-audit' || github.ref == 'refs/heads/codex/tiktok14-reliability') && github.event_name == 'workflow_dispatch' && (inputs.mode == 'prepare' || inputs.mode == 'diagnose')) }}
+    if: ${{ (github.ref == 'refs/heads/main' && ((github.event_name == 'schedule' && vars.TIKTOK14_ENABLED == 'true') || github.event_name == 'workflow_dispatch')) || ((github.ref == 'refs/heads/codex/tiktok14-safety-audit' || github.ref == 'refs/heads/codex/tiktok14-reliability' || github.ref == 'refs/heads/codex/tiktok14-longterm') && github.event_name == 'workflow_dispatch' && (inputs.mode == 'prepare' || inputs.mode == 'diagnose')) }}
     runs-on: ubuntu-24.04
-    timeout-minutes: 50
+    timeout-minutes: 65
     permissions:
       contents: write
       actions: read
@@ -87,12 +88,22 @@ jobs:
           python -m pip install --disable-pip-version-check -r requirements-tiktok14.txt
           python -m pip check
           sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core libgl1
+      - name: Restore pinned free quality models
+        if: ${{ inputs.mode != 'review' && inputs.mode != 'diagnose' }}
+        uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
+        with:
+          path: .tiktok14-models
+          key: tiktok14-cpu-ubuntu24-qwen4b-whisper-dual-v1
+      - name: Verify or install free quality models before service credentials
+        if: ${{ inputs.mode != 'review' && inputs.mode != 'diagnose' }}
+        run: python scripts/tiktok14_models.py
       - name: Prepare review candidate or inspect metadata without publication
         if: ${{ inputs.mode != 'review' }}
         env:
           GH_TOKEN: ${{ github.token }}
           HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
+          TIKTOK14_QA_MODELS: .tiktok14-models
           TIKTOK14_ACTION: ${{ inputs.mode == 'diagnose' && 'diagnose' || 'prepare' }}
         run: python scripts/tiktok14_cloud.py "$TIKTOK14_ACTION"
       - name: Apply review receipt without publishing
@@ -110,7 +121,7 @@ jobs:
 
   buffer_connection:
     needs: validate
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode != 'auto' && inputs.mode != 'review' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/codex/tiktok14-safety-audit' || github.ref == 'refs/heads/codex/tiktok14-reliability') }}
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode != 'auto' && inputs.mode != 'review' && inputs.mode != 'prefetch' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/codex/tiktok14-safety-audit' || github.ref == 'refs/heads/codex/tiktok14-reliability') }}
     runs-on: ubuntu-24.04
     timeout-minutes: 3
     steps:

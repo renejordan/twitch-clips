@@ -1,0 +1,53 @@
+name: TikTok hourly clock
+on:
+  workflow_dispatch:
+    inputs:
+      duration_minutes:
+        description: '300 = normal five-hour clock; 5 = one short handoff commissioning test'
+        type: choice
+        options: ['300', '5']
+        default: '300'
+  schedule:
+    # Recovery watchdog; the live clock supplies precise hourly opportunities.
+    - cron: '7 */3 * * *'
+  push:
+    paths: ['scripts/tiktok14_clock.py', '.github/workflows/tiktok14_clock.yml', 'tests/test_tiktok14_clock.py']
+  pull_request:
+    paths: ['scripts/tiktok14_clock.py', '.github/workflows/tiktok14_clock.yml', 'tests/test_tiktok14_clock.py']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -p test_tiktok14_clock.py -v
+  clock:
+    needs: validate
+    if: ${{ github.ref == 'refs/heads/main' && vars.TIKTOK14_ENABLED == 'true' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
+    concurrency:
+      group: tiktok14-single-clock
+      cancel-in-progress: false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 315
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Existing publisher hourly from 09 through 23 Berlin; reconcile pending sends
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TIKTOK14_CLOCK_MINUTES: ${{ inputs.duration_minutes || '300' }}
+        run: python scripts/tiktok14_clock.py --run

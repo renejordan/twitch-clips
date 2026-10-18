@@ -12,6 +12,7 @@ from pathlib import Path
 import re
 import subprocess
 import sys
+import zipfile
 from urllib.error import HTTPError
 from urllib.parse import urlsplit
 from urllib.request import Request, build_opener
@@ -148,27 +149,35 @@ class Host:
         if not re.fullmatch('[a-z0-9_]+-[A-Za-z0-9_-]+-[a-f0-9]{12}',name):
             raise ServiceError('invalid_media_name')
         movie=video.parent/(name+'.mp4')
-        thumb=video.parent/(name+'-cover.jpg')
         movie.write_bytes(video.read_bytes())
-        thumb.write_bytes(cover.read_bytes())
+        review=video.parent/(name+'-review.zip')
+        # Two assets per clip: 15 * 31 * 2 = 930, below GitHub's 1000/release cap.
+        with zipfile.ZipFile(review,'w',compression=zipfile.ZIP_DEFLATED) as archive:
+            archive.writestr('cover.jpg',cover.read_bytes())
+            for filename in ('transcript.json','source-frames.jpg','final-frames.jpg'):
+                path=video.parent/filename
+                if not path.is_file(): raise ServiceError('review_evidence_missing')
+                archive.write(path,filename)
+            archive.writestr('manifest.json',json.dumps({'clip_id':clip['id'],
+                'source_url':clip.get('url'),'category':clip.get('category'),
+                'video_sha256':digest,'transcript_sha256':hashlib.sha256(
+                    (video.parent/'transcript.json').read_bytes()).hexdigest(),
+                'review_status':'not_reviewed'},ensure_ascii=False,indent=2))
         tag='tiktok14-'+current.strftime('%Y-%m')
-        if self.command(['release','view',tag],check=False).returncode:
+        existing=self.command(['release','view',tag,'--json','assets'],check=False)
+        if existing.returncode:
             self.command(['release','create',tag,'--target','main','--title',
                           'TikTok14 '+current.strftime('%Y-%m'),'--notes',
                           'Separat vorbereitete Gaming-Clips fuer TikTok14.'])
-        # Publish review evidence alongside the exact hashed MP4.
-        evidence=[]
-        for source,suffix in (('transcript.json','-transcript.json'),
-                ('source-frames.jpg','-source-frames.jpg'),('final-frames.jpg','-final-frames.jpg')):
-            path=video.parent/source
-            if path.exists():
-                target=video.parent/(name+suffix)
-                target.write_bytes(path.read_bytes())
-                evidence.append(str(target))
+        else:
+            try: assets=json.loads(existing.stdout)['assets']
+            except (KeyError,ValueError,TypeError): raise ServiceError('release_capacity_unknown') from None
+            if not isinstance(assets,list) or len(assets)+2>1000:
+                raise ServiceError('release_asset_capacity_reached')
         # Never replace existing media. Unknown hosting outcomes cannot overwrite it.
-        self.command(['release','upload',tag,str(movie),str(thumb),*evidence])
+        self.command(['release','upload',tag,str(movie),str(review)])
         prefix=REPO_PREFIX+current.strftime('%Y-%m')+'/'
-        return prefix+movie.name,prefix+thumb.name,digest
+        return prefix+movie.name,prefix+review.name,digest
 
 
 def prepare(store,config,legacy,current,host):
@@ -227,8 +236,8 @@ def prepare(store,config,legacy,current,host):
         if transcript.exists():
             record['transcript_sha256']=hashlib.sha256(transcript.read_bytes()).hexdigest()
         root=record['video_url'][:-4]
-        record['review_assets']={'transcript':root+'-transcript.json',
-            'source_frames':root+'-source-frames.jpg','final_frames':root+'-final-frames.jpg'}
+        record.pop('cover_url',None)
+        record['review_assets']={'bundle':root+'-review.zip'}
         candidate=copy.deepcopy(state)
         candidate['queue']=[record]
         try:

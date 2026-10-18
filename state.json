@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "254468887",
+      "clip_slug": "HeartlessCourteousJalapenoPipeHype-JZf7uuGf61m9x0tc",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/HeartlessCourteousJalapenoPipeHype-JZf7uuGf61m9x0tc",
+      "original_title": "redstoner of the year btw",
+      "hook": "redstoner of the year btw",
+      "caption": "redstoner of the year btw\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 132,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-18T15:25:53Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-254468887-6375d0bb6db8.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-18T16:08:28Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "6375d0bb6db8a55d4d6abcf2e1f15a8cfea0c1a99d8a952bf01a4bbec32cfff2",
+      "category": "Minecraft",
+      "transcript_sha256": "9a65e2a4bb69fa35f66fd790a23c6b7dcd8a7e583f4cf03ac7622664219649da",
+      "asr_requires_correction": true,
+      "source_sha256": "dac0e6c3ec8e72706709d7e1c1b857979f8603b85cc1584449a937bacb5115fa",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-18T16:08:28.381214+00:00",
+        "media_sha256": "6375d0bb6db8a55d4d6abcf2e1f15a8cfea0c1a99d8a952bf01a4bbec32cfff2",
+        "transcript_sha256": "9a65e2a4bb69fa35f66fd790a23c6b7dcd8a7e583f4cf03ac7622664219649da",
+        "source_sha256": "dac0e6c3ec8e72706709d7e1c1b857979f8603b85cc1584449a937bacb5115fa",
+        "evidence_sha256": "f07f862d3442f39be04f2615c2477ae55182591c40bc80fb39dcdff56e16c69d",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "dac0e6c3ec8e72706709d7e1c1b857979f8603b85cc1584449a937bacb5115fa",
+          "reviewed_source_sha256": "dac0e6c3ec8e72706709d7e1c1b857979f8603b85cc1584449a937bacb5115fa",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "d39e0b2f19b5050b701090c6a5650c673dd45967e1037f275b0e5d1965b52271",
+            "21bdd6c30e958a0b6b7d5a68915b5ced6f9a303d1e8c9311ae6e7aa79b0a53dd",
+            "0573a0b9860a0fb36ab3840be93b0b3c2cfbd24d8d68f7d7f81c517584c6e83e"
+          ],
+          "headline": "redstoner of the year btw",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Top-left corner shows a face camera with a streamer, while the main screen displays Minecraft gameplay with a visible inventory bar and chat window. The game is in a flat, blocky world with chests and blocks, consistent ",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames provided.",
+            "payoff": "No clear payoff visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.06227473453338462,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, which is a common edited gaming layout. The top of the frame has a text overlay reading 'redstoner of the year btw'. The gameplay area, ",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "efba6d8e294d3cf84715edbd1312c19bfaf5d7d965fb90909e508a35354fb59d",
+            "a6d8cbf2b67cc9e9c733704f1513358a9b43cf68035e3023a024683738bf92ac",
+            "304aa62fa4ed3c02565b7bb7dcde7ea81a8b054c9b6e4cac351228452606b643"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "6375d0bb6db8a55d4d6abcf2e1f15a8cfea0c1a99d8a952bf01a4bbec32cfff2",
+          "transcript_sha256": "9a65e2a4bb69fa35f66fd790a23c6b7dcd8a7e583f4cf03ac7622664219649da"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, which is a common edited gaming layout. The top of the frame has a text overlay reading 'redstoner of the year btw'. The gameplay area, "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0623, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-254468887-6375d0bb6db8-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

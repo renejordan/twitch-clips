@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import subprocess
 import sys
+import tempfile
 import unittest
 from unittest.mock import patch
 
@@ -112,6 +113,22 @@ class ReliabilityTests(unittest.TestCase):
             self.assertEqual(store.data['last_production']['counts']['listing_failed'],1)
             self.assertEqual(cloud.prepare(store,config,{'processed_ids':[],'created':[]},NOW,host),'hour_complete')
             host.assert_not_called()
+
+    def test_review_packet_keeps_monthly_release_within_1000_assets(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            for name in ('tiktok.mp4','cover.jpg','transcript.json','source-frames.jpg','final-frames.jpg'):
+                (root/name).write_bytes(b'synthetic media')
+            calls=[]
+            def command(args,check=True):
+                calls.append(args)
+                return subprocess.CompletedProcess(args,0,'{"assets":[]}', '')
+            host=cloud.Host('synthetic-token')
+            host.command=command
+            host({'id':'12345678','channel_login':'trymacs'},root/'tiktok.mp4',root/'cover.jpg',NOW)
+            upload=next(args for args in calls if args[:2]==['release','upload'])
+            self.assertEqual(len(upload[3:]),2)
+            self.assertTrue(upload[-1].endswith('-review.zip'))
 
 
 if __name__=='__main__': unittest.main()

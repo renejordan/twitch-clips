@@ -408,6 +408,7 @@ def apply_review(store,config,payload,current):
     except (ValueError,KeyError,TypeError,RecursionError):
         raise ServiceError('invalid_review_payload') from None
     state,sha=store.load()
+    config,_=resolve_sources(config,state,current)
     if any(row.get('status')!='verified_public' for row in state['attempts']):
         raise ServiceError('review_send_already_pending')
     if len(state['queue'])!=1: raise ServiceError('review_candidate_missing')
@@ -443,6 +444,7 @@ def apply_review(store,config,payload,current):
 
 def diagnose(config,legacy,state,current):
     """Network metadata only: no media download, render, hosting, state write or post."""
+    config,_=resolve_sources(config,state,current)
     namespace=producer_namespace()
     namespace['STREAMERS']=list(sources(config))
     namespace['RANK']={name:i+1 for i,name in enumerate(config['sources'])}

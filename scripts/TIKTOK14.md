@@ -22,27 +22,27 @@ Dieser Code verändert keine Auto20-/Metricool- oder Twitch-Aufgabe. Überlappen
 
 ## Tatsächliche Medienprüfung
 
-Die 50er-Quellenliste behält die Rechteerklärung des Kontoinhabers; dies ist keine unabhängig verifizierte Lizenz. 24h-/7-Tage-Listen werden zusammengeführt und Einzelmetadaten frisch geprüft. Broadcaster, Originalalter bis 72h, Dauer 15–60s, mindestens 100 Views und erlaubte Gaming-Kategorie sind Pflicht. Die frühere zusätzliche Views-Hürde für 48–72h alte Clips entfällt. Popularität und Kategorie ersetzen keine Medienprüfung.
+Die Quellen sind die aktuellen Top 50 deutschsprachigen Streamer bei TwitchTracker. Sie werden täglich aktualisiert; bei Ausfall bleibt die letzte erfolgreiche Liste nutzbar. Der Kontoinhaber hat diese wechselnden Quellen erlaubt; dies ist keine unabhängig verifizierte Lizenz. 24h-/7-Tage-Listen werden zusammengeführt und Einzelmetadaten frisch geprüft. Broadcaster, Originalalter bis 72h, Dauer 15–60s, mindestens ein Aufruf und erlaubte Gaming-Kategorie sind Pflicht. Aufrufe, Aufrufgeschwindigkeit und Streamerrang priorisieren die Auswahl; kleinere Clips bleiben möglich.
 
 Der getrennte Prüfprozess erhält keine Servicezugänge. Modellgewichte und CPU-Laufzeit sind an feste offizielle Revisionen und SHA256-Werte gebunden. Installation und Laufzeit-Gesundheitstest erfolgen vor Bereitstellung der Servicezugänge; ein Cache vermeidet wiederholte große Downloads.
 
 Zwei freie Whisper-Modelle prüfen den vollständigen Ton. Wortuntertitel verlangen vollständige normalisierte Wortübereinstimmung, Konfidenz und passende Zeitstempel. Nach Nutzerfreigabe ist bei unsicherer Sprache title_only erlaubt: null Wortuntertitel, ein allgemeiner überprüfbarer Titel mit dem nachgewiesenen Streamer und kein unsicheres Transkript als Ereignisbeleg. Schlechter oder stark übersteuerter Ton bleibt gesperrt. Technische ASR-Ausfälle werden nicht als Titel-only-Erfolg behandelt.
 
-OCR untersucht zwei tatsächliche Frames pro Sekunde. Geometrie schlägt Textregionen vor; der Bildprüfer unterscheidet HUD/Chat und Dialoguntertitel anhand vollständiger Frames und vergrößerter Ausschnitte. Unterschiedliche Texte derselben Position werden getrennt geprüft. Unklare Rollen oder mehr als 24 Textzustände führen zum technischen Halt. Entfernen vorhandener Untertitel darf keine Handlung zerstören.
+OCR untersucht zwei tatsächliche Frames pro Sekunde. Geometrie schlägt Textregionen vor; der Bildprüfer unterscheidet HUD/Chat und Dialoguntertitel anhand vollständiger Frames und vergrößerter Ausschnitte. Unterschiedliche Texte derselben Position werden getrennt geprüft. Mehr als 24 Textzustände schließen nur diesen Kandidaten aus; technische Ausfälle bleiben ein Halt. Entfernen vorhandener Untertitel darf keine Handlung zerstören.
 
-Qwen prüft gleichmäßig verteilte Quellframes, frühe Details und zusätzliche Szenenwechsel. Gameplay, verständlicher Aufbau, vollständiger Ausgang, anhaltende Verständlichkeit und angemessene Komposition sind Pflicht. Auch ein Verlust kann ein vollständiger Ausgang sein. Browserrahmen, verschachtelte Wiedergabe, unklare Pointe und ungeprüfte vorhandene Untertitel sperren die Freigabe. Das ist eine Modell-Stichprobenprüfung, keine behauptete vollständige menschliche Sichtung.
+Qwen prüft gleichmäßig verteilte Quellframes, frühe Details und zusätzliche Szenenwechsel auf sichtbares Gameplay, brauchbares Bild, Browserrahmen und verschachtelte Wiedergabe. Nach ausdrücklicher Nutzerentscheidung gilt die praktische Auswahl: keine Mindestnote für Pointe, Aufbau oder Dramaturgie. Ein populärer brauchbarer Clip muss kein perfektes Highlight sein. Das ist eine Modell-Stichprobenprüfung, keine behauptete vollständige menschliche Sichtung.
 
-Das 1080×1920-Ergebnis wird vollständig decodiert und anhand echter Frames einschließlich Ereignis erneut geprüft. Eine stabil erkannte Facecam kann als eigenes Panel erscheinen; sonst wird zentrales Gameplay vergrößert. Verlorene Handlung sperrt das Ergebnis. Titel-only verlangt einen lesbaren Titel ohne hinzugefügte Wortuntertitel.
+Das 1080×1920-Ergebnis wird vollständig decodiert und anhand echter Frames erneut auf brauchbare Komposition geprüft. Eine stabil erkannte Facecam kann als eigenes Panel erscheinen; sonst wird zentrales Gameplay vergrößert. Titel-only verlangt einen lesbaren Titel ohne hinzugefügte Wortuntertitel.
 
 ## Quittungen, Hosting und Versand
 
-Automatische media_review-Version 2 bindet Quell-, Ergebnis-, Transkript- und Evidenzhashes. Modelle, zeitliche Abdeckung, OCR-Regionen, Textmodus, Ton und visuelle Ergebnisse werden vor Hosting erneut geprüft. Keine Behauptung watched_full_video und keine Freigabe allein durch subtitle_verified.
+Automatische media_review-Version 3 dokumentiert die praktische Auswahl, ohne eine perfekte Pointe zu behaupten. Version 2 bleibt für ältere streng geprüfte Dateien gültig. Beide binden Quell-, Ergebnis-, Transkript- und Evidenzhashes. Modelle, zeitliche Abdeckung, OCR-Regionen, Textmodus, Ton und visuelle Ergebnisse werden vor Hosting erneut geprüft. Keine Behauptung watched_full_video und keine Freigabe allein durch subtitle_verified.
 
 Manuelle Version 1 bleibt verfügbar: tatsächliche vollständige Sichtung, benannter Prüfer, konkrete Nachweise und exakt passende Medienhashes. Modus review sendet nichts. Rejected archiviert den Entwurf und gibt die Suche frei.
 
 Das Monatsrelease enthält pro Kandidat MP4 und ein Review-ZIP mit Kontaktbildern, Transkript, Vergleich und Evidenz. Zwei Assets je Clip ergeben bei 15×31 Kandidaten 930 Assets; die Kapazität wird geprüft. Existierende Dateien werden nicht überschrieben. Prepare kann öffentliche Reviewdateien anlegen, sendet aber keinen TikTok-Post.
 
-TIKTOK14_ENABLED=true erlaubt geplanten Betrieb und Clock auf main. Automatische Version-2-Posts verlangen zusätzlich TIKTOK14_AUTOREVIEW_ENABLED=true; diese Einstellung bleibt bis zum bestandenen echten Medien-/Inbetriebnahmetest geschlossen.
+TIKTOK14_ENABLED=true erlaubt geplanten Betrieb und Clock auf main. Automatische Version-2/3-Posts verlangen zusätzlich TIKTOK14_AUTOREVIEW_ENABLED=true; diese Einstellung bleibt bis zum bestandenen echten Medien-/Inbetriebnahmetest geschlossen.
 
 Buffer muss exakt Organisation, verbundenen/entsperrten Kanal 6ad16c0c778b240e2f21aca5, TikTok @ufo3103, Berlin und video.publish bestätigen. Buffer-Zähler beweisen nicht das kontoübergreifende TikTok-Limit; der eigene 15er-Grenzwert gilt zusätzlich.
 

@@ -17,7 +17,7 @@ CHECKS=('subtitles_accuracy','frame_composition','full_clip_payoff',
 
 
 def identities(row):
-    values={str(row.get(key,'')) for key in ('id','clip_id','clip_slug','display_id','sha256')}
+    values={str(row.get(key,'')) for key in ('id','clip_id','clip_slug','display_id','sha256','source_sha256')}
     for key in ('url','source_url','webpage_url','original_url'):
         value=row.get(key)
         if not isinstance(value,str): continue
@@ -35,10 +35,33 @@ def blocked(row):
     return bool(identities(row)&BLOCKED)
 
 
+def nearby_event(first,second):
+    """Conservatively exclude alternate clips of the same recent stream moment."""
+    def channel(row):
+        value=row.get('streamer') or row.get('channel_login')
+        if isinstance(value,str) and re.fullmatch('[a-z0-9_]{3,25}',value.casefold()):return value.casefold()
+        url=row.get('source_url') or row.get('url')
+        if isinstance(url,str):
+            parsed=urlsplit(url)
+            if parsed.scheme=='https' and parsed.netloc in ('www.twitch.tv','twitch.tv'):
+                match=re.fullmatch('/([a-zA-Z0-9_]{3,25})/clip/[^/]+',parsed.path)
+                if match:return match[1].casefold()
+        return None
+    if not channel(first) or channel(first)!=channel(second):return False
+    try:
+        times=[dt.datetime.fromisoformat(row['original_created_at'].replace('Z','+00:00')) for row in (first,second)]
+        if any(value.tzinfo is None for value in times):return False
+        return abs((times[0]-times[1]).total_seconds())<=120
+    except (KeyError,ValueError,TypeError,AttributeError):return False
+
+
 def review_error(item,current):
     if blocked(item): return 'permanently_blocked_clip'
     review=item.get('media_review')
     if not isinstance(review,dict): return 'full_media_review_required'
+    if review.get('version') in (2,3):
+        from tiktok14_autoreview import automated_review_error
+        return automated_review_error(item,review,current)
     try:
         reviewed=dt.datetime.fromisoformat(review['reviewed_at'].replace('Z','+00:00'))
         if reviewed.tzinfo is None or not 0 <= (current-reviewed).total_seconds() <= 72*3600:

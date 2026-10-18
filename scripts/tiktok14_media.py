@@ -4,11 +4,51 @@ import datetime as dt
 import hashlib
 import json
 import math
+import os
 from pathlib import Path
+import subprocess
+import sys
+import tempfile
 import threading
 
 from tiktok14_quality import blocked
-from tiktok14_services import ServiceError
+from tiktok14_services import ServiceError,QualityRejected,ProductionInterrupted
+
+
+def automated_render(namespace,clip,source,model_dir):
+    """Run actual models outside the state writer with no service credentials."""
+    from tiktok14_cloud import child_environment
+    namespace['OUT'].mkdir(parents=True,exist_ok=True)
+    if not __import__('re').fullmatch('[A-Za-z0-9_-]{4,100}',str(clip['id'])):raise ProductionInterrupted('qa_clip_id_invalid')
+    out=Path(tempfile.mkdtemp(prefix='qa-'+str(clip['id'])+'-',dir=namespace['OUT'])).resolve()
+    payload=out/'clip.json'
+    payload.write_text(json.dumps({key:value for key,value in clip.items() if not key.startswith('_')},ensure_ascii=False),encoding='utf-8')
+    try:
+        result=subprocess.run([sys.executable,str(Path(__file__).with_name('tiktok14_qa_pipeline.py')),
+            '--source',str(Path(source).resolve()),'--clip',str(payload),'--output',str(out),
+            '--models',str(Path(model_dir).resolve())],env=child_environment(),
+            capture_output=True,text=True,timeout=1200,check=False)
+        verdict=json.loads((out/'qa-result.json').read_text(encoding='utf-8'))
+        if result.returncode==2 and verdict.get('status')=='rejected':
+            reason=verdict.get('reason','')
+            if not isinstance(reason,str) or not __import__('re').fullmatch('qa_[a-z_]+',reason):raise ValueError()
+            raise QualityRejected(reason)
+        if result.returncode or verdict.get('status')!='passed':
+            reason=verdict.get('reason','')
+            location=verdict.get('diagnostic_location')
+            if isinstance(location,str) and __import__('re').fullmatch('[A-Za-z_][A-Za-z0-9_]*\\.py:[A-Za-z_][A-Za-z0-9_]*:[0-9]{1,6}',location):
+                namespace.setdefault('_report',{})['qa_diagnostic_location']=location
+            if verdict.get('status')=='technical_failure' and isinstance(reason,str) and __import__('re').fullmatch('qa_[a-z_]{1,120}',reason):
+                raise ProductionInterrupted(reason)
+            raise ServiceError('qa_child_failed')
+        evidence=json.loads((out/'qa-evidence.json').read_text(encoding='utf-8'))
+        if evidence.get('source_sha256')!=hashlib.sha256(Path(source).read_bytes()).hexdigest():raise ServiceError('qa_source_hash_mismatch')
+        for name in ('tiktok.mp4','cover.jpg','transcript.json','source-frames.jpg','final-frames.jpg'):
+            if not (out/name).is_file():raise ServiceError('qa_output_missing')
+        clip['_qa_evidence']=evidence
+        return out/'tiktok.mp4',out/'cover.jpg',evidence.get('caption_mode')=='verified_words'
+    except QualityRejected:raise
+    except Exception:raise ProductionInterrupted('qa_service_failed') from None
 
 # Conservative editorial categories. New games need an explicit reviewed addition.
 GAMES=frozenset({'League of Legends','Minecraft','Fortnite','VALORANT',
@@ -20,7 +60,7 @@ GAMES=frozenset({'League of Legends','Minecraft','Fortnite','VALORANT',
     'Pokémon','Pokémon Legends: Z-A','ELDEN RING','Hollow Knight: Silksong'})
 
 
-def metadata_decision(info,channel,current,min_views=800):
+def metadata_decision(info,channel,current,min_views=100):
     if blocked(info): return None,'permanently_blocked'
     creators=info.get('creators')
     if creators is None: creators=[info.get('creator')]
@@ -36,9 +76,9 @@ def metadata_decision(info,channel,current,min_views=800):
     age=(current-dt.datetime.fromtimestamp(info['timestamp'],dt.timezone.utc)).total_seconds()/3600
     if not 0<=age<=72: return None,'age_outside_72h'
     if not 15<=info['duration']<=60: return None,'duration_outside_15_60s'
-    if info['view_count']<min_views: return None,'views_below_800'
-    if age>48 and (info['view_count']<8000 or info['view_count']/max(1,age)<150):
-        return None,'older_clip_metrics_insufficient'
+    if info['view_count']<min_views: return None,'views_below_100'
+    # Views rank discovery, while actual media evidence decides quality. The
+    # old 8000-view gate discarded almost every otherwise valid 48–72h clip.
     categories=info.get('categories')
     if not isinstance(categories,list) or len(categories)!=1 or categories[0] not in GAMES:
         return None,'gaming_category_not_verified'
@@ -56,32 +96,44 @@ def configure(namespace,report):
         with lock: counts[key]+=1
 
     def listing(channel):
-        count('listing_requested')
-        try:
-            result=namespace['run'](['yt-dlp','--no-warnings','--flat-playlist',
-                '--playlist-end','30','--socket-timeout','15','--retries','1',
-                '--dump-single-json',f'https://www.twitch.tv/{channel}/clips?filter=clips&range=7d'],timeout=65)
-            data=json.loads(result.stdout)
-            if not isinstance(data.get('entries'),list): raise ValueError()
-            links=[]
-            for row in data['entries'][:30]:
-                if not isinstance(row,dict): continue
-                link=row.get('webpage_url') or row.get('url')
-                if isinstance(link,str) and namespace['twitch_slug'](link): links.append((channel,link))
-            count('listing_ok')
-            with lock: counts['discovered']+=len(links)
-            return links
-        except Exception:
-            count('listing_failed')
-            return []
+        links=[]; seen=set()
+        for period in ('24hr','7d'):
+            count('listing_requested')
+            try:
+                result=namespace['run'](['yt-dlp','--no-warnings','--flat-playlist',
+                    '--playlist-end','30','--socket-timeout','15','--retries','1',
+                    '--dump-single-json',f'https://www.twitch.tv/{channel}/clips?filter=clips&range={period}'],timeout=65)
+                data=json.loads(result.stdout)
+                if not isinstance(data.get('entries'),list): raise ValueError()
+                for row in data['entries'][:30]:
+                    if not isinstance(row,dict): continue
+                    link=row.get('webpage_url') or row.get('url')
+                    slug=namespace['twitch_slug'](link) if isinstance(link,str) else None
+                    if not slug or slug in seen: continue
+                    seen.add(slug)
+                    # Flat API metadata can exclude obvious unusable entries.
+                    # Every survivor still needs fresh per-clip original verification.
+                    current=namespace['now_utc']().timestamp()
+                    valid=lambda key:type(row.get(key)) in (int,float) and math.isfinite(row[key])
+                    if valid('timestamp') and not 0<=current-row['timestamp']<=72*3600:
+                        count('listing_age_prefilter');continue
+                    if valid('view_count') and row['view_count']<1:
+                        count('listing_views_prefilter');continue
+                    if valid('duration') and not 15<=row['duration']<=60:
+                        count('listing_duration_prefilter');continue
+                    links.append((channel,link))
+                count('listing_ok')
+            except Exception: count('listing_failed')
+        with lock: counts['discovered']+=len(links)
+        return links
 
-    def inspect(channel,link,current,min_views=800):
+    def inspect(channel,link,current,min_views=100):
         count('metadata_requested')
         try:
             response=namespace['run'](['yt-dlp','--no-warnings','--no-playlist',
                 '--socket-timeout','15','--retries','1','--skip-download','--dump-single-json',link],timeout=45)
             info=json.loads(response.stdout)
-            category,reason=metadata_decision(info,channel,current,min_views)
+            category,reason=metadata_decision(info,channel,current,1)
             count(reason)
             if not category: return None
             slug=namespace['twitch_slug'](info.get('webpage_url') or link)
@@ -105,27 +157,39 @@ def configure(namespace,report):
         segments,details=model.transcribe(str(path),language='de',beam_size=5,
             word_timestamps=True,condition_on_previous_text=False,vad_filter=True,
             hallucination_silence_threshold=1.0)
-        words=[]; evidence=[]
+        words=[]; evidence=[]; uncertain_words=[]; uncertain_segments=[]
         for segment in segments:
             if (segment.no_speech_prob>.5 or segment.avg_logprob<-.7 or
                     segment.compression_ratio>2.4):
-                raise ServiceError('asr_segment_uncertain')
+                uncertain_segments.append({'start':segment.words[0].start if segment.words else None,
+                    'no_speech_prob':segment.no_speech_prob,'avg_logprob':segment.avg_logprob,
+                    'compression_ratio':segment.compression_ratio})
             for word in segment.words or []:
                 if not word.word.strip(): continue
-                if word.probability<.6: raise ServiceError('asr_word_uncertain')
+                if word.probability<.6: uncertain_words.append(len(words))
                 words.append((float(word.start),float(word.end),word.word.strip()))
                 evidence.append({'start':word.start,'end':word.end,'text':word.word.strip(),
                                  'probability':word.probability})
         if len(words)<3: raise ServiceError('asr_insufficient_speech')
         target=namespace['OUT']/'transcript.json'
         target.write_text(json.dumps({'model':'small','language':'de','words':evidence,
+            'requires_correction':bool(uncertain_words or uncertain_segments),
+            'uncertain_word_indexes':uncertain_words,'uncertain_segments':uncertain_segments,
             'editorial_accuracy':'not_reviewed'},ensure_ascii=False,indent=2),encoding='utf-8')
+        if uncertain_words or uncertain_segments: count('asr_draft_requires_correction')
         return words
 
-    original_download=namespace['download']
     def download(clip):
         count('download_attempted')
-        try: return original_download(clip)
+        try:
+            namespace['OUT'].mkdir(parents=True,exist_ok=True)
+            for path in namespace['OUT'].glob('source.*'):path.unlink()
+            namespace['run'](['yt-dlp','--no-warnings','--no-playlist','--socket-timeout','15',
+                '--retries','2','--fragment-retries','2','-f','best[height<=1080]',
+                '--merge-output-format','mp4','-o',str(namespace['OUT']/'source.%(ext)s'),clip['url']],timeout=120)
+            files=[path for path in namespace['OUT'].glob('source.*') if path.suffix.lower() in ('.mp4','.mkv','.webm')]
+            if len(files)!=1:raise ServiceError('media_download_incomplete')
+            return files[0]
         except Exception:
             count('download_failed')
             raise
@@ -133,6 +197,19 @@ def configure(namespace,report):
     original_render=namespace['render']
     def render(clip,source):
         count('render_attempted')
+        report['current_candidate']={'clip_id':clip['id'],'clip_slug':clip.get('clip_slug'),
+            'streamer':clip.get('channel_login')}
+        if os.getenv('TIKTOK14_QA_MODELS'):
+            try:
+                result=automated_render(namespace,clip,source,os.environ['TIKTOK14_QA_MODELS'])
+                count('render_ok');return result
+            except QualityRejected as error:
+                count(str(error))
+                report.setdefault('rejected',[]).append({'clip_id':clip['id'],'clip_slug':clip['clip_slug'],
+                    'streamer':clip['channel_login'],'source_url':clip['url'],'status':'quality_rejected',
+                    'created_at':namespace['iso'](namespace['now_utc']()),'reason':str(error)})
+                namespace.get('_persist_rejections',lambda:None)()
+                raise
         try:
             movie,cover,subs=original_render(clip,source)
             # Full decode, not just the first two seconds.
@@ -151,5 +228,6 @@ def configure(namespace,report):
             raise
 
     namespace.update(channel_urls=listing,inspect_original=inspect,transcribe=transcribe,
+        very_strong=lambda clip:0<=clip['age_hours']<=72,
         # Keep original setup AND payoff; speech-density crops cut sentences/punchlines.
         pick_window=lambda duration,words:(0.0,duration),download=download,render=render)

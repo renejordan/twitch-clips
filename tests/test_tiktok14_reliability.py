@@ -100,6 +100,16 @@ class ReliabilityTests(unittest.TestCase):
             with self.assertRaises(ServiceError): cloud.ensure_store(Missing())
             initialize.assert_not_called()
 
+    def test_prefetch_can_prepare_one_candidate_while_send_quota_is_full(self):
+        state,config,_,_=fixture();state['queue']=[]
+        state['attempts']=[{'status':'verified_public','reserved_at':(NOW-dt.timedelta(hours=i)).isoformat()} for i in range(15)]
+        store=MemoryState(state)
+        with patch.object(cloud,'producer_namespace',return_value={'main':lambda:None}),patch.object(cloud,'report_result'):
+            self.assertEqual(cloud.prepare(store,config,{'created':[],'processed_ids':[]},NOW,None),'empty')
+        self.assertEqual(store.data['last_prefetch_hour'],NOW.strftime('%Y-%m-%dT%H'))
+        from tiktok14_clock import plan
+        self.assertEqual(plan(store.data,[],NOW),'hour_complete')
+
     def test_failed_listings_are_degraded_and_allow_a_later_retry(self):
         state,config,_,_=fixture()
         state['queue']=[]
@@ -110,7 +120,7 @@ class ReliabilityTests(unittest.TestCase):
         with patch.object(cloud,'producer_namespace',return_value=ns), \
                 patch.object(cloud,'report_result'),patch.object(cloud,'Host') as host:
             self.assertEqual(cloud.prepare(store,config,{'processed_ids':[],'created':[]},NOW,host),'degraded')
-            self.assertEqual(store.data['last_production']['counts']['listing_failed'],1)
+            self.assertEqual(store.data['last_production']['counts']['listing_failed'],2)
             self.assertNotIn('last_prepare_hour',store.data)
             self.assertEqual(cloud.prepare(store,config,{'processed_ids':[],'created':[]},NOW,host),'degraded')
             host.assert_not_called()

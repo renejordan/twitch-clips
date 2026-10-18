@@ -6,7 +6,7 @@ from urllib.parse import urlsplit
 from tiktok14_buffer_check import validate as validate_connection, CheckFailed
 from tiktok14_publish import eligible, parse_timestamp, stamp, LOCAL_ZONE, MAX_PER_DAY
 from tiktok14_services import ServiceError, CHANNEL_ID, canonical_video
-from tiktok14_quality import identities
+from tiktok14_quality import identities,nearby_event
 
 
 def sources(config):
@@ -172,6 +172,8 @@ class Worker:
             if len(unresolved) != 1:
                 raise ServiceError('multiple_unresolved_attempts')
             return self.reconcile(state,sha,unresolved[0],current)
+        from tiktok14_publish import posting_time
+        if not posting_time(current): return 'outside_window'
         permitted = sources(config)
         independent = config.get('accounting_mode','shared') == 'independent'
         external_events = {} if independent else history(external,current)
@@ -187,7 +189,7 @@ class Worker:
                 not isinstance(item.get('caption'),str) or not item['caption'].strip() or
                 len(item['caption']) > 2200):
             raise ServiceError('ineligible_queue_item')
-        if any(identities(attempt)&identities(item) for attempt in state['attempts']):
+        if identities(item)&set(state.get('used_ids',[])) or any(identities(attempt)&identities(item) or nearby_event(item,attempt) for attempt in state['attempts']):
             raise ServiceError('duplicate_clip')
         overview = self.gateway.overview(stamp(history_start(current)),
                                           stamp(current+dt.timedelta(days=1)))
@@ -201,6 +203,8 @@ class Worker:
                for asset in post.get('assets',[]) if isinstance(asset.get('video'),dict)):
             raise ServiceError('duplicate_media')
         attempt = {'clip_id':item['clip_id'],'reserved_at':stamp(current),
+                   'streamer':item['streamer'],'sha256':item['sha256'],
+                   'source_sha256':item.get('source_sha256',''),
                    'status':'reserved','asset_title':title,'video_url':item['video_url'],
                    'clip_slug':item.get('clip_slug',''),
                    'original_created_at':item['original_created_at'],

@@ -18,6 +18,14 @@ class ServiceError(Exception):
     """Only fixed internal reason codes belong in this exception, never bodies."""
 
 
+class QualityRejected(ServiceError):
+    """Real content evidence failed; exclude this candidate, not the service."""
+
+
+class ProductionInterrupted(BaseException):
+    """Stop the legacy per-candidate loop on a production service failure."""
+
+
 class NoRedirect(HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
         return None

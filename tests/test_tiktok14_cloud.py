@@ -3,6 +3,7 @@ import base64
 import contextlib
 import datetime as dt
 import io
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -18,6 +19,78 @@ from test_tiktok14_worker import MemoryState, fixture, NOW
 
 
 class CloudTests(unittest.TestCase):
+    def test_new_code_revision_can_retry_a_technical_scan_without_resetting_send_history(self):
+        for revision,expected in [('1'*40,'scan_budget_exhausted'),('2'*40,'empty')]:
+            state={'version':1,'queue':[],'attempts':[],
+                'prepare_scans':{'hour':NOW.strftime('%Y-%m-%dT%H'),'count':3,'revision':'1'*40}}
+            store=MemoryState(state)
+            with patch.dict(os.environ,GITHUB_SHA=revision),patch.object(cloud,'producer_namespace',return_value={'main':lambda:None}),patch.object(cloud,'report_result'):
+                self.assertEqual(cloud.prepare(store,fixture()[1],{'created':[],'processed_ids':[]},NOW,None),expected)
+            self.assertEqual(store.data['attempts'],[])
+            self.assertEqual(store.data['prepare_scans']['count'],3 if revision=='1'*40 else 1)
+    def test_completed_rejection_survives_hard_stop_before_the_next_candidate(self):
+        ns={'_report':{'rejected':[]}}
+        def execute():
+            ns['_report']['rejected'].append({'clip_id':'first-rejected','status':'quality_rejected','reason':'qa_visual_complete_payoff'})
+            ns['_persist_rejections']()
+            raise KeyboardInterrupt('simulated runner stop')
+        ns['main']=execute;store=MemoryState({'version':1,'attempts':[],'queue':[]})
+        with patch.object(cloud,'producer_namespace',return_value=ns):
+            with self.assertRaises(KeyboardInterrupt):cloud.prepare(store,fixture()[1],{'created':[],'processed_ids':[]},NOW,None)
+        self.assertEqual(store.data['rejected'][0]['clip_id'],'first-rejected')
+        self.assertEqual(store.data['queue'],[])
+    def test_own_duplicate_is_removed_and_search_continues_in_same_hour(self):
+        for same_bytes in (True,False):
+            state,config,_,_=fixture();item=state['queue'][0]
+            item['source_sha256']='d'*64
+            previous=dict(item,clip_id='older-id',status='verified_public',reserved_at='2026-10-16T11:00:00Z')
+            if not same_bytes:previous['source_sha256']='e'*64
+            else:previous['original_created_at']='2026-10-16T09:00:00Z'
+            state['attempts']=[previous];state['last_prepare_hour']=NOW.strftime('%Y-%m-%dT%H')
+            store=MemoryState(state);ns={'main':lambda:None}
+            with patch.object(cloud,'producer_namespace',return_value=ns),patch.object(cloud,'report_result'):
+                self.assertEqual(cloud.prepare(store,config,{'created':[],'processed_ids':[]},NOW,None),'empty')
+            self.assertEqual(store.data['queue'],[])
+            self.assertEqual(store.data['rejected'][0]['rejection_reason'],'known_source_duplicate')
+
+    def test_publish_clears_own_duplicate_before_media_or_buffer_calls(self):
+        state,config,_,_=fixture();item=state['queue'][0]
+        state['attempts']=[dict(item,clip_id='different-id',reserved_at='2026-10-16T11:00:00Z',status='verified_public')]
+        store=MemoryState(state)
+        with patch.object(cloud,'legacy_running',return_value=False),patch.object(cloud,'assert_single_route'), \
+                patch.object(cloud,'verify_media') as media,patch.object(cloud,'BufferGateway') as buffer:
+            self.assertEqual(cloud.publish(store,config,None,'fake'),'known_source_duplicate_skipped')
+            self.assertEqual(store.data['queue'],[]);media.assert_not_called();buffer.assert_not_called()
+
+    def test_automatic_receipt_cannot_publish_before_live_commissioning(self):
+        state,config,_,_=fixture();state['queue'][0]['media_review']={'version':2}
+        with patch.dict(os.environ,TIKTOK14_AUTOREVIEW_ENABLED=''),patch.object(cloud,'legacy_running',return_value=False), \
+                patch.object(cloud,'read_legacy',return_value={'created':[],'processed_ids':[]}), \
+                patch.object(cloud,'assert_single_route'),patch.object(cloud,'eligible',return_value=True), \
+                patch.object(cloud,'verify_media') as media,patch.object(cloud,'BufferGateway') as buffer:
+            self.assertEqual(cloud.publish(MemoryState(state),config,None,'fake'),'automatic_commissioning_required')
+            media.assert_not_called();buffer.assert_not_called()
+    def test_incomplete_final_evidence_is_rejected_before_immutable_hosting(self):
+        from test_tiktok14_autoreview import AutoReviewTests
+        from unittest.mock import Mock
+        with tempfile.TemporaryDirectory() as directory:
+            movie=Path(directory)/'tiktok.mp4';movie.write_bytes(b'fixture video')
+            transcript=movie.parent/'transcript.json';transcript.write_text('{}')
+            item=fixture()[0]['queue'][0]
+            item.update(source_sha256='d'*64,sha256=hashlib.sha256(movie.read_bytes()).hexdigest(),
+                transcript_sha256=hashlib.sha256(transcript.read_bytes()).hexdigest())
+            evidence=AutoReviewTests().evidence(item);evidence['final_visual']['evidence']=''
+            clip={'id':item['clip_id'],'_qa_evidence':evidence}
+            ns={}
+            ns['main']=lambda:ns['release'](clip,movie,movie,NOW)
+            host=Mock();store=MemoryState({'version':1,'attempts':[],'queue':[]})
+            with patch.object(cloud,'producer_namespace',return_value=ns),patch.object(cloud,'report_result'):
+                with self.assertRaisesRegex(ServiceError,'automatic_evidence_invalid_before_host'):
+                    cloud.prepare(store,fixture()[1],{'created':[],'processed_ids':[]},NOW,host)
+            host.assert_not_called()
+            self.assertEqual(store.data['queue'],[])
+            self.assertEqual(store.data['last_production']['result'],'degraded')
+
     def test_known_running_auto20_prevents_new_media_or_buffer_transfer(self):
         state,config,_,_=fixture()
         with patch.object(cloud,'legacy_running',return_value=True), \
@@ -28,7 +101,11 @@ class CloudTests(unittest.TestCase):
 
     def test_real_producer_stops_after_failed_durable_handoff(self):
         store=MemoryState({'version':1,'attempts':[],'queue':[]})
-        store.fail_write=True
+        save=store.save
+        def fail_handoff(data,sha):
+            if data['queue']:raise ServiceError('state_write_failed')
+            return save(data,sha)
+        store.save=fail_handoff
         _,config,_,_=fixture()
         namespace=cloud.producer_namespace()
         clip={'id':'12345678','clip_slug':'Example-123','channel_login':'rewinside',

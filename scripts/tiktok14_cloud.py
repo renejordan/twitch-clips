@@ -19,7 +19,7 @@ from urllib.request import Request, build_opener
 
 import tiktok14_prepare as producer
 from tiktok14_publish import eligible, parse_timestamp, stamp, REPO_PREFIX, MAX_PER_DAY, MAX_SEND_AGE_HOURS,LOCAL_ZONE
-from tiktok14_quality import identities, blocked, review_error,nearby_event
+from tiktok14_quality import identities, blocked, review_error,nearby_event,context_headline,social_caption
 from tiktok14_media import configure as configure_media
 from tiktok14_services import (BufferGateway, GitHubAPI, GitHubState, NoRedirect,
                                ServiceError, verify_public, ProductionInterrupted,QualityRejected)
@@ -194,6 +194,11 @@ def discard_queue(state,reason,current):
     state.pop('last_prepare_hour',None)
 
 
+def title_refresh_needed(item):
+    headline=item.get('media_review',{}).get('evidence',{}).get('headline','')
+    return any(ord(c)>=0x2500 or c in '\u200d\ufe0f' for c in headline)
+
+
 def prepare(store,config,legacy,current,host):
     old=legacy_ids(legacy)
     state,sha=store.load()
@@ -212,8 +217,23 @@ def prepare(store,config,legacy,current,host):
             sha=store.save(state,sha)
     if state['queue']:
         item=state['queue'][0]
+        if title_refresh_needed(item):
+            # Re-render unsent media with unsupported glyphs through the normal
+            # source and final checks. Do not mark the original clip as used.
+            state.setdefault('render_refreshes',[]).append({'clip_id':item.get('clip_id'),
+                'at':stamp(current),'reason':'unsupported_title_glyph'})
+            state['queue']=[]
+            state.pop('last_prepare_hour',None)
+            state.pop('last_prefetch_hour',None)
+            sha=store.save(state,sha)
+    if state['queue']:
+        item=state['queue'][0]
         if (eligible(item,current) and item.get('streamer') in permitted and
                 not identities(item) & old):
+            caption=social_caption(item)
+            if item.get('caption')!=caption:
+                item['caption']=caption
+                sha=store.save(state,sha)
             return 'ready'
         if (item.get('status')=='awaiting_review_tiktok14' and not blocked(item) and
                 item.get('streamer') in permitted and not identities(item)&old and
@@ -317,7 +337,7 @@ def prepare(store,config,legacy,current,host):
             from tiktok14_autoreview import automated_receipt
             record['source_sha256']=clip['_qa_evidence']['source_sha256']
             record['hook']=clip['_qa_evidence']['headline']
-            record['caption']=f"{record['hook']} · {record['streamer']} · Quelle: Twitch\n#gaming #twitch"
+            record['caption']=social_caption(record)
             if clip['_qa_evidence']['caption_mode']=='title_only':
                 record.update(editing_status='rendered_9x16_title_only',transcript_subtitles=False)
             record['media_review']=clip['_qa_receipt']
@@ -519,6 +539,7 @@ def publish(store,config,github,key,reconcile_only=False):
         if not state['queue']: return 'empty'
         assert_single_route(github,config)
         item=state['queue'][0]
+        if title_refresh_needed(item):return 'needs_review'
         if own_duplicate(item,state):
             discard_queue(state,'known_source_duplicate',dt.datetime.now(dt.timezone.utc))
             store.save(state,sha)
@@ -537,6 +558,10 @@ def publish(store,config,github,key,reconcile_only=False):
             state['last_commissioning_hour']=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H')
             store.save(state,sha)
             return 'automatic_commissioning_required'
+        caption=social_caption(item)
+        if item.get('caption')!=caption:
+            item['caption']=caption
+            sha=store.save(state,sha)
         verify_media(item['video_url'],item.get('sha256'))
     gateway=BufferGateway(key)
     worker=Worker(store,gateway,verify_public)
@@ -571,7 +596,7 @@ def main(action=None):
             state,_=GitHubState(github).load()
             current=dt.datetime.now(dt.timezone.utc)
             pending=any(a.get('status')!='verified_public' for a in state['attempts'])
-            ready=bool(state['queue']) and all(eligible(c,current) and not own_duplicate(c,state) and not blocked(c) for c in state['queue'])
+            ready=bool(state['queue']) and all(eligible(c,current) and not title_refresh_needed(c) and not own_duplicate(c,state) and not blocked(c) for c in state['queue'])
             needed=not pending and not ready
             with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as output:
                 output.write('media_needed='+str(needed).lower()+'\n')

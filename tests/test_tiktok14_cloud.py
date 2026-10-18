@@ -19,6 +19,35 @@ from test_tiktok14_worker import MemoryState, fixture, NOW
 
 
 class CloudTests(unittest.TestCase):
+    def test_emoji_refresh_rechecks_media_without_marking_source_used(self):
+        state,config,_,_=fixture();item=state['queue'][0]
+        item['media_review']={'evidence':{'headline':'Double Spawner 🤯'}}
+        state['last_prepare_hour']=NOW.strftime('%Y-%m-%dT%H')
+        state['prepare_scans']={'revision':'unversioned','hour':state['last_prepare_hour'],'count':1}
+        store=MemoryState(state);ns={'main':lambda:None}
+        with patch.object(cloud,'producer_namespace',return_value=ns),patch.object(cloud,'report_result'):
+            self.assertEqual(cloud.prepare(store,config,{'created':[],'processed_ids':[]},NOW,None),'empty')
+        self.assertEqual(store.data['queue'],[])
+        self.assertEqual(store.data['render_refreshes'][0]['clip_id'],item['clip_id'])
+        self.assertNotIn(item['clip_id'],ns['read_state']()['processed_ids'])
+
+    def test_prepare_migrates_existing_caption_without_media_or_send(self):
+        state,config,_,_=fixture();state['queue'][0]['caption']='Alter Titel · Quelle: Twitch'
+        store=MemoryState(state)
+        with patch.object(cloud,'producer_namespace') as media:
+            self.assertEqual(cloud.prepare(store,config,{'created':[],'processed_ids':[]},NOW,None),'ready')
+        self.assertNotIn('Quelle',store.data['queue'][0]['caption'])
+        self.assertIn('#gaming',store.data['queue'][0]['caption']);media.assert_not_called()
+
+    def test_refresh_preflight_installs_media_dependencies(self):
+        state=fixture()[0]
+        state['queue'][0]['media_review']={'evidence':{'headline':'Double Spawner 🤯'}}
+        with tempfile.TemporaryDirectory() as temporary:
+            output=Path(temporary)/'output.txt'
+            with patch.dict(os.environ,GITHUB_REPOSITORY=cloud.REPOSITORY,GITHUB_REF='refs/heads/main',GITHUB_OUTPUT=str(output)),patch.object(cloud,'GitHubAPI'),patch.object(cloud.GitHubState,'load',return_value=(state,'sha')):
+                self.assertEqual(cloud.main('plan'),0)
+                self.assertEqual(output.read_text(encoding='utf8'),'media_needed=true\n')
+
     def test_pending_preflight_skips_all_media_dependencies_without_buffer(self):
         state=fixture()[0]
         state['attempts']=[{'status':'pending','reserved_at':NOW.isoformat()}]

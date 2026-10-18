@@ -18,7 +18,7 @@ from urllib.parse import urlsplit
 from urllib.request import Request, build_opener
 
 import tiktok14_prepare as producer
-from tiktok14_publish import eligible, parse_timestamp, stamp, REPO_PREFIX, MAX_PER_DAY
+from tiktok14_publish import eligible, parse_timestamp, stamp, REPO_PREFIX, MAX_PER_DAY, MAX_SEND_AGE_HOURS
 from tiktok14_quality import identities, blocked, review_error
 from tiktok14_media import configure as configure_media
 from tiktok14_services import (BufferGateway, GitHubAPI, GitHubState, NoRedirect,
@@ -194,7 +194,7 @@ def prepare(store,config,legacy,current,host):
             return 'ready'
         if (item.get('status')=='awaiting_review_tiktok14' and not blocked(item) and
                 item.get('streamer') in permitted and not identities(item)&old and
-                0 <= (current-parse_timestamp(item['original_created_at'])).total_seconds() <= 72*3600):
+                0 <= (current-parse_timestamp(item['original_created_at'])).total_seconds() <= MAX_SEND_AGE_HOURS*3600):
             return 'needs_review'
         state.setdefault('rejected',[]).extend(state['queue'])
         state['queue']=[]

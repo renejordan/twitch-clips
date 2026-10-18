@@ -11,7 +11,7 @@ import json
 import os
 from pathlib import Path
 
-from tiktok14_publish import eligible,parse_timestamp
+from tiktok14_publish import eligible,parse_timestamp,MAX_SEND_AGE_HOURS
 from tiktok14_services import GITHUB_URL,request_json,ServiceError
 
 
@@ -29,7 +29,7 @@ def decision(state,runs,current):
     if state['queue']:
         if eligible(state['queue'][0],current): return 'dispatch'
         age=(current-parse_timestamp(state['queue'][0]['original_created_at'])).total_seconds()
-        if 0<=age<=72*3600: return 'needs_review'
+        if 0<=age<=MAX_SEND_AGE_HOURS*3600: return 'needs_review'
     return 'hour_complete' if state.get('last_prepare_hour')==slot else 'dispatch'
 
 

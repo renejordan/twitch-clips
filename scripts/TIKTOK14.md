@@ -48,4 +48,4 @@ python scripts/tiktok14_publish.py selftest
 python -m unittest discover -s tests -v
 ~~~
 
-Am Stand 18.10.2026 bestehen lokal 86 Offline-Tests und beide Selbsttests. Sie senden nichts und benutzen keine echten Zugangsdaten. CI und reale Prepare-Läufe müssen zusätzlich am tatsächlich verwendeten Commit geprüft werden. Erfolgreiche Vorbereitung beweist keinen öffentlichen TikTok-Post und keine verlässliche autonome Qualitätsprüfung.
+Am Stand 18.10.2026 bestehen lokal 87 Offline-Tests und beide Selbsttests. Sie senden nichts und benutzen keine echten Zugangsdaten. CI und reale Prepare-Läufe müssen zusätzlich am tatsächlich verwendeten Commit geprüft werden. Erfolgreiche Vorbereitung beweist keinen öffentlichen TikTok-Post und keine verlässliche autonome Qualitätsprüfung.

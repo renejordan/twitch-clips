@@ -40,7 +40,7 @@ def eligible(item, current):
         return False
     if item.get('delivery_route') != 'github14' or item.get('status') not in ('ready_tiktok14','awaiting_review_tiktok14'):
         return False
-    title_only=(item.get('media_review',{}).get('version')==2 and
+    title_only=(item.get('media_review',{}).get('version') in (2,3) and
                 item['media_review'].get('evidence',{}).get('caption_mode')=='title_only')
     if title_only:
         if item.get('editing_status')!='rendered_9x16_title_only' or item.get('transcript_subtitles') is not False:return False

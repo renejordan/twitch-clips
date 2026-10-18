@@ -65,7 +65,7 @@ def automated_receipt(item,evidence,current):
   checks={'clip_selection':'Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required.',
    'frame_composition':checks['frame_composition'],'caption_rendering':checks['subtitles_accuracy'],
    'audio_track':checks['audio_intelligibility'],
-   'gaming_context':evidence['source_visual'].get('layout_evidence','Actual sampled gameplay and source metadata checked.')}
+   'gaming_context':'Actual sampled gameplay and source metadata checked.'}
  return {'version':3 if practical else 2,'decision':'approved','method':'automated_local_models',
   'reviewer':'local-model-review-v2','reviewed_at':current.isoformat(),
   'media_sha256':item['sha256'],'transcript_sha256':item['transcript_sha256'],

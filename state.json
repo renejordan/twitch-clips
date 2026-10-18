@@ -241,26 +241,26 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-18T12:33:44Z",
+    "at": "2026-10-18T13:08:27Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 80,
-      "listing_age_prefilter": 844,
-      "discovered": 645,
-      "metadata_requested": 638,
-      "qualified_metadata": 393,
-      "title_too_short": 62,
-      "gaming_category_not_verified": 183,
+      "listing_duration_prefilter": 81,
+      "listing_age_prefilter": 847,
+      "discovered": 643,
+      "metadata_requested": 635,
+      "qualified_metadata": 386,
+      "title_too_short": 65,
+      "gaming_category_not_verified": 184,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3713714204",
-      "clip_slug": "SmellyUglyAlmondMrDestructoid-8pN0GgRPot5Ajw5e",
-      "streamer": "castcrafter"
+      "clip_id": "309969943",
+      "clip_slug": "BenevolentTriangularRuffTheTarFu-uXCV_hHtUedPGVwh",
+      "streamer": "papaplatte"
     }
   },
   "prepare_scans": {
@@ -354,6 +354,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-18T12",
-  "last_prefetch_hour": "2026-10-18T12"
+  "last_prepare_hour": "2026-10-18T13",
+  "last_prefetch_hour": "2026-10-18T13"
 }

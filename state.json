@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "524815218",
+      "clip_slug": "ResourcefulSneakyLadiesPrimeMe-8QyOLqsX6zCH97TK",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/ResourcefulSneakyLadiesPrimeMe-8QyOLqsX6zCH97TK",
+      "original_title": "schwanz",
+      "hook": "schwanz",
+      "caption": "schwanz\n#gaming #minecraft #twitchclips #krokoboss #gamer",
+      "views_at_selection": 236,
+      "original_duration": 17.0,
+      "original_created_at": "2026-10-18T20:11:43Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-524815218-50f87d624f3e.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-18T23:08:36Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "50f87d624f3eb8e974e4747614b0cc5915b31976d6264cf4f7d245e11939a443",
+      "category": "Minecraft",
+      "transcript_sha256": "1ba96f58f237079ba91b73767dd2bf5eac24a09fd5dc1b188bce255e96f46f6e",
+      "asr_requires_correction": true,
+      "source_sha256": "e483797fb7805400b94fe732d7c0684ec1ac582df06fbb6a375ad50720b49199",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-18T23:08:36.447268+00:00",
+        "media_sha256": "50f87d624f3eb8e974e4747614b0cc5915b31976d6264cf4f7d245e11939a443",
+        "transcript_sha256": "1ba96f58f237079ba91b73767dd2bf5eac24a09fd5dc1b188bce255e96f46f6e",
+        "source_sha256": "e483797fb7805400b94fe732d7c0684ec1ac582df06fbb6a375ad50720b49199",
+        "evidence_sha256": "25cd71c0e6b6dab544bc43aa0cfc5bf0f4449309836b0919ce12a4372a292ea8",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "e483797fb7805400b94fe732d7c0684ec1ac582df06fbb6a375ad50720b49199",
+          "reviewed_source_sha256": "e483797fb7805400b94fe732d7c0684ec1ac582df06fbb6a375ad50720b49199",
+          "duration": 17.15,
+          "timestamps": [
+            0.0,
+            8.5,
+            17.0
+          ],
+          "source_frame_hashes": [
+            "7dc8730335ecbdb370fc395ced17cdaba8fda37c506034a7fcc252009b890f25",
+            "0e6df16617d7cbcae0a91d2b653be3c48764ca068eb8584ba1d591781d003e28",
+            "94072222b9cd08ca8678c75387c4ce6f2ff76b05e7f2584ccaf21da1671286a6"
+          ],
+          "headline": "schwanz",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Top-right corner shows a face camera with a person, while the main screen displays Minecraft gameplay with a visible HUD and chat. The game is in a large, open area with structures and a player's inventory visible.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a large, open area with structures and a visible inventory.",
+            "payoff": "No clear outcome or payoff is visible; the player is simply moving around the area with no visible win or loss condition triggered.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.04658068067729264,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a large, open area containing structures and a visible inventory. The player is moving around the area, with no clear win or loss condition triggered. The top right corner contains",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            8.5,
+            17.0
+          ],
+          "final_frame_hashes": [
+            "92a58f731182a92ce3d3c21742350cfde3ac80309bdfcebdda7b493e96b71d68",
+            "98a5c93ad425fa227f3205ac2e37d7d2e564648cd2abed7e28eb6725d8c53ae3",
+            "4c9dbd72f08d6f1f1ffdbc927e596e8ab3b1610c9ba56929452485799ba4c01a"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "50f87d624f3eb8e974e4747614b0cc5915b31976d6264cf4f7d245e11939a443",
+          "transcript_sha256": "1ba96f58f237079ba91b73767dd2bf5eac24a09fd5dc1b188bce255e96f46f6e"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a large, open area containing structures and a visible inventory. The player is moving around the area, with no clear win or loss condition triggered. The top right corner contains"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0466, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-524815218-50f87d624f3e-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

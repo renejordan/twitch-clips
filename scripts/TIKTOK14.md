@@ -1,46 +1,66 @@
 # Buffer-Publisher: bis zu 15 geprüfte TikToks täglich
 
-Die Dateinamen tiktok14_* bleiben aus Kompatibilitätsgründen bestehen. Das Maximum ist jetzt 15 im Berliner Kalendertag und in rollierenden 24 Stunden. Eigener Versandjournal und in Buffer sichtbare Veröffentlichungen werden nach TikTok-Video-ID zusammengeführt. Eine vollständige unabhängige Historie aller manuellen Posts wird nicht behauptet. Plattformgrenzen können früher greifen; 15 erfolgreiche Posts täglich sind kein zugesicherter Durchsatz.
+ChatGPT bleibt die bestehende Kontrolle; GitHub erstellt und versendet auf seinen Servern. Ein eingeschalteter persönlicher Rechner ist für diesen Cloudbetrieb nicht erforderlich. Ziel: höchstens ein neuer Post pro Stunde von 09 bis 23 Uhr Berlin, maximal 15 pro Berliner Kalendertag UND in rollierenden 24 Stunden. Geeignete Clips, Plattformgrenzen und Serververfügbarkeit begrenzen den tatsächlichen Durchsatz.
 
-## Eine Route und geschützte Historie
+## Cloud-Zeitgeber
 
-Auto20 ist nach Nutzerfreigabe im abgestimmten Chat deaktiviert. Push-/Cron-Trigger sind entfernt und sein Job ist zusätzlich gesperrt. Der dort eingebettete Mediengenerator bleibt für den unabhängigen Generator erhalten. Vor neuem Versand prüft cloud.py, dass der überlappende Auto20-Workflow tatsächlich disabled_manually ist und keine alten laufenden oder wartenden Jobs vorhanden sind. Die bisherige Auto20-Zustandsdatei wird nur gelesen. IDs, Slugs, normalisierte Quell-URLs und bekannte verworfene Clips bleiben gesperrt.
+tiktok14_clock.yml betreibt einen begrenzten fünfstündigen Zeitgeber mit dem kurzlebigen GitHub-Jobtoken. Er liest aktive Publisher und den Zustand, bietet stündliche Starts an und gleicht offene Sends auch nachts ab. Vor Ende startet er genau einen Nachfolger. Ein manueller Lauf mit duration_minutes=5 prüft die Übergabe an einen regulären 300-Minuten-Nachfolger.
 
-Metricool-Einstellungen, Twitch-Aufgaben und bestehende ChatGPT-Kontrolle werden durch diesen Code nicht verändert. Der verwaiste Branch tiktok14-state enthält ausschließlich state.json. Jeder Schreibzugriff verlangt die vorherige Dateiversion. Fehlende oder beschädigte Historie muss aus Git restauriert werden; der Worker legt keinen unvollständigen Anfangszustand neu an.
+Native Cron-Starts bleiben Wiederanlaufmöglichkeiten: Clock alle drei Stunden, Publisher um Minute 11,31,51. GitHub kann auch diese Starts verzögern oder auslassen. Bei gescheiterter Übergabe kann bis zum nächsten tatsächlich zugestellten Watchdog-Start eine Lücke bleiben. Keine Massen-Uploads zur Nachholung alter Stunden.
 
-## Starts und externe Nachholung
+Keine persönlichen Dauertokens, lokalen Dauerprozesse, kostenpflichtigen Modelle oder zusätzlichen Hosting-Verträge. Öffentliche Standardrunner und freie CPU-Modelle werden genutzt; bezahlte Runner oder Cacheerweiterungen werden nicht eingeschaltet. Der Clock erhält keinen Buffer-Zugang.
 
-GitHub cron bietet um Minute 11, 31 und 51 Startgelegenheiten. GitHub garantiert keine pünktliche oder vollständige Zustellung. Eine abgeschlossene Prüfung wird je UTC-Stunde gespeichert; zusätzliche Starts derselben Stunde scannen nicht erneut. Technisch gescheiterte Prüfungen reservieren die Stunde nicht. Das Versandjournal begrenzt neue Posts auf einen je UTC-Stunde. Ungeklärte Uploads werden bei späteren Starts nur abgeglichen, niemals erneut gesendet. Keine blinden Massen-Uploads für ausgefallene Stunden.
+## Dauerhafter Zustand und Dubletten
 
-python scripts/tiktok14_dispatch.py liest Zustand und aktive Läufe öffentlich und zeigt nur einen Plan. Erst --dispatch startet bei Bedarf den Workflow auf main im Modus auto. Dafür ist GH_TOKEN mit auf dieses Repository begrenztem Actions-Schreibrecht erforderlich. Keine Tokens in URLs oder Logs. Ein dauerhafter externer Scheduler ist NICHT eingerichtet. Das Skript kann auf einem vorhandenen ständig verfügbaren Scheduler alle 20 Minuten laufen. Ohne diesen Zugang bleibt das Stundenziel durch GitHub cron begrenzt.
+Der separate Branch tiktok14-state enthält state.json. Jeder Schreibzugriff verlangt die vorherige Dateiversion. Fehlende oder beschädigte Historie muss restauriert werden und wird niemals unvollständig neu initialisiert. Alle produktiven Jobs teilen über Branchgrenzen hinweg eine Concurrency-Gruppe.
 
-## Produktion und tatsächliche Medienprüfung
+Eigener Verlauf und bisheriger Auto20-Zustand werden vor Versand gelesen. IDs, Slugs, Quell-URLs, Medien-/Quellenhashes und bekannte schlechte Clips bleiben gesperrt. Alternative Clips desselben Streamers mit bis zu zwei Minuten Abstand ihrer ursprünglichen Erstellung werden vorsorglich ausgeschlossen. Dies kann unterschiedliche nahe Ereignisse ebenfalls aussortieren; es ist kein universeller Video-Fingerabdruck. Verwendete Queue-Einträge werden archiviert und geben die Suche frei.
 
-Die konfigurierte 50er-Quellenliste behält die vorhandene Rechteerklärung des Kontoinhabers. Diese ist keine unabhängig verifizierte Lizenz. Metadaten müssen den Broadcaster belegen; creators-Liste und älterer creator-Alias werden unterstützt. Alle 30 gefundenen Clips je Kanal werden geprüft statt nur fünf. Originalalter maximal 72h, Länge 15–60s und mindestens 800 Aufrufe bleiben bestehen. 48–72h alte Clips benötigen starke Zusatzmetriken. Eine konservative Gaming-Kategorieliste lehnt fehlende bzw. nicht geprüfte Kategorien ab. Die Kategorie allein ersetzt keine Bildprüfung.
+Abgelehnte Kandidaten werden einzeln gespeichert, bevor der nächste aufwendig geprüft wird. Ein Runner-Abbruch verliert abgeschlossene Ablehnungen nicht. Nach sieben Tagen werden abgeschlossene Einträge zu permanenten IDs verdichtet; offene Sends bleiben vollständig erhalten. Git bewahrt frühere Detailstände.
 
-Faster-whisper small mit VAD, Wortzeitstempeln und Konfidenzprüfung ersetzt den bisher ungeprüften ASR-Erfolg. Unsichere Segmente/Wörter werden für die vollständige Prüfung im gesperrten Entwurf markiert. Der ganze kurze Clip erhält Aufbau und Pointe; eine Sprachdichte-Auswahl schneidet nicht mehr bei 42 Sekunden ab. Das bisherige Bildlayout wird NICHT automatisch semantisch zugeschnitten. Browserrahmen, winzige Gesichter, verschachtelte Streams, falsche Untertitel und fehlende Pointe erfordern weiterhin eine vollständige tatsächliche Medienprüfung.
+Dieser Code verändert keine Auto20-/Metricool- oder Twitch-Aufgabe. Überlappende Quellen verlangen weiterhin den bereits separat stillgelegten Auto20-Workflow disabled_manually; alte aktive Auto20-Jobs sperren neue Übergaben. Die bestehende ChatGPT-Kontrolle bleibt bestehen.
 
-Die Produktion legt höchstens einen Kandidaten in awaiting_review_tiktok14 ab und erfindet keine Freigabe. Das eigene Monatsrelease enthält MP4 plus EIN -review.zip mit Cover, Quell-/Ergebnis-Kontaktbildern, Worttranskript und Hash-Manifest. Zwei Assets je Clip ergeben bei 15 x 31 Clips 930 Assets. Die Kapazität von 1000 je Release wird zusätzlich geprüft; existierende Dateien werden nicht überschrieben.
+## Tatsächliche Medienprüfung
 
-Eine media_review im separaten Zustand muss Version 1, decision approved, benannten reviewer, reviewed_at (maximal 72h alt), watched_full_video true und die exakten media_sha256/transcript_sha256 des Kandidaten enthalten. checks enthält für subtitles_accuracy, frame_composition, full_clip_payoff, audio_intelligibility und gaming_context jeweils result pass und eine konkrete Medienbeobachtung unter evidence. Diese Angaben entstehen erst nach tatsächlicher Prüfung. subtitle_verified true allein genügt nicht. Video-/Transkriptänderungen machen alte Freigaben ungültig.
+Die 50er-Quellenliste behält die Rechteerklärung des Kontoinhabers; dies ist keine unabhängig verifizierte Lizenz. 24h-/7-Tage-Listen werden zusammengeführt und Einzelmetadaten frisch geprüft. Broadcaster, Originalalter bis 72h, Dauer 15–60s, mindestens 100 Views und erlaubte Gaming-Kategorie sind Pflicht. Die frühere zusätzliche Views-Hürde für 48–72h alte Clips entfällt. Popularität und Kategorie ersetzen keine Medienprüfung.
 
-## Versand und Ergebnisprüfung
+Der getrennte Prüfprozess erhält keine Servicezugänge. Modellgewichte und CPU-Laufzeit sind an feste offizielle Revisionen und SHA256-Werte gebunden. Installation und Laufzeit-Gesundheitstest erfolgen vor Bereitstellung der Servicezugänge; ein Cache vermeidet wiederholte große Downloads.
 
-Neue Uploads werden zuerst dauerhaft reserviert. Eine verlorene createPost-Antwort wird nicht wiederholt; Buffer-ID bzw. exakter deterministischer Medientitel ermöglichen den späteren Abgleich. Kein blindes Minuten-Polling. Erst Buffer sent, exaktes Konto/Video und anonymes offizielles TikTok-oEmbed erlauben verified_public. Ungeklärte Ergebnisse sperren neue Posts.
+Zwei freie Whisper-Modelle prüfen den vollständigen Ton. Wortuntertitel verlangen vollständige normalisierte Wortübereinstimmung, Konfidenz und passende Zeitstempel. Nach Nutzerfreigabe ist bei unsicherer Sprache title_only erlaubt: null Wortuntertitel, ein allgemeiner überprüfbarer Titel mit dem nachgewiesenen Streamer und kein unsicheres Transkript als Ereignisbeleg. Schlechter oder stark übersteuerter Ton bleibt gesperrt. Technische ASR-Ausfälle werden nicht als Titel-only-Erfolg behandelt.
 
-Weil Buffer asynchron liefert, endet die Sendefreigabe bei 71h Originalalter. Die Reservation speichert Originalzeit und 72h-Deadline. Ein trotzdem verspätetes sentAt wird als late_publication gespeichert und sperrt weitere Posts. Buffer bietet hier keine garantierte Zustellfrist; der Puffer kann verspätete Auslieferung nicht absolut ausschließen.
+OCR untersucht zwei tatsächliche Frames pro Sekunde. Geometrie schlägt Textregionen vor; der Bildprüfer unterscheidet HUD/Chat und Dialoguntertitel anhand vollständiger Frames und vergrößerter Ausschnitte. Unterschiedliche Texte derselben Position werden getrennt geprüft. Unklare Rollen oder mehr als 24 Textzustände führen zum technischen Halt. Entfernen vorhandener Untertitel darf keine Handlung zerstören.
 
-Die Buffer-Prüfung verlangt My organization, Kanal 6ad16c0c778b240e2f21aca5, @ufo3103, Europe/Berlin, verbunden/entsperrt und video.publish. Freie Buffer-Zähler beweisen nicht das kontoübergreifende TikTok-Limit. Normalbetrieb benötigt ungefähr Overview + Create + späteren Post-Abgleich je Veröffentlichung; zusätzliche Kontrollen verbrauchen ebenfalls das gemeinsame API-Budget.
+Qwen prüft gleichmäßig verteilte Quellframes, frühe Details und zusätzliche Szenenwechsel. Gameplay, verständlicher Aufbau, vollständiger Ausgang, anhaltende Verständlichkeit und angemessene Komposition sind Pflicht. Auch ein Verlust kann ein vollständiger Ausgang sein. Browserrahmen, verschachtelte Wiedergabe, unklare Pointe und ungeprüfte vorhandene Untertitel sperren die Freigabe. Das ist eine Modell-Stichprobenprüfung, keine behauptete vollständige menschliche Sichtung.
 
-## Bedienung, Diagnosen und Tests
+Das 1080×1920-Ergebnis wird vollständig decodiert und anhand echter Frames einschließlich Ereignis erneut geprüft. Eine stabil erkannte Facecam kann als eigenes Panel erscheinen; sonst wird zentrales Gameplay vergrößert. Verlorene Handlung sperrt das Ergebnis. Titel-only verlangt einen lesbaren Titel ohne hinzugefügte Wortuntertitel.
 
-- TIKTOK14_ENABLED=true erlaubt geplanten bzw. externen automatischen Versand auf main erst nach Medien-, Konto- und Dublettenprüfung.
-- diagnose: ausschließlich Metadaten; keine Mediendownloads, Zustandsänderungen, Releases oder Posts.
-- prepare: höchstens ein Kandidat und Reviewpaket; kein TikTok-Post.
-- commission/auto: neuer Versand oder Abgleich nur auf main. Entwurfszweige können ausschließlich prepare/diagnose ausführen.
-- Push/PR führen Offline-Tests aus. Die alten Browser/Cookie-Einstiege bleiben gesperrt.
+## Quittungen, Hosting und Versand
 
-Zähler stehen in der Actions-Zusammenfassung und unter last_production im separaten Zustand. empty bedeutet kein neuer Metadatenkandidat; quality_rejected bedeutet ausgeschlossene Medienqualität. degraded bedeutet technische Download-, Render-, Modell-, Listing- oder Metadatenfehler, Exitcode 1 und mögliche spätere Wiederholung. Hosting-/Speicherfehler beenden die Kandidatenschleife sofort.
+Automatische media_review-Version 2 bindet Quell-, Ergebnis-, Transkript- und Evidenzhashes. Modelle, zeitliche Abdeckung, OCR-Regionen, Textmodus, Ton und visuelle Ergebnisse werden vor Hosting erneut geprüft. Keine Behauptung watched_full_video und keine Freigabe allein durch subtitle_verified.
+
+Manuelle Version 1 bleibt verfügbar: tatsächliche vollständige Sichtung, benannter Prüfer, konkrete Nachweise und exakt passende Medienhashes. Modus review sendet nichts. Rejected archiviert den Entwurf und gibt die Suche frei.
+
+Das Monatsrelease enthält pro Kandidat MP4 und ein Review-ZIP mit Kontaktbildern, Transkript, Vergleich und Evidenz. Zwei Assets je Clip ergeben bei 15×31 Kandidaten 930 Assets; die Kapazität wird geprüft. Existierende Dateien werden nicht überschrieben. Prepare kann öffentliche Reviewdateien anlegen, sendet aber keinen TikTok-Post.
+
+TIKTOK14_ENABLED=true erlaubt geplanten Betrieb und Clock auf main. Automatische Version-2-Posts verlangen zusätzlich TIKTOK14_AUTOREVIEW_ENABLED=true; diese Einstellung bleibt bis zum bestandenen echten Medien-/Inbetriebnahmetest geschlossen.
+
+Buffer muss exakt Organisation, verbundenen/entsperrten Kanal 6ad16c0c778b240e2f21aca5, TikTok @ufo3103, Berlin und video.publish bestätigen. Buffer-Zähler beweisen nicht das kontoübergreifende TikTok-Limit; der eigene 15er-Grenzwert gilt zusätzlich.
+
+Neue Uploads werden vor Übergabe dauerhaft reserviert. Eine verlorene Create-Antwort wird nicht blind wiederholt. Spätere Starts gleichen Buffer-ID und deterministischen Medientitel ab. Erst Buffer sent, passendes Zielkonto/Video und anonymes offizielles TikTok-oEmbed erlauben verified_public. Ungeklärte Ergebnisse sperren neue Sends und zählen nicht als nachgewiesene öffentliche Posts.
+
+Versand nur bis 71h Originalalter als Puffer zur 72h-Grenze. Buffer liefert asynchron ohne garantierte Frist. Verspätetes sentAt wird als late_publication gespeichert und sperrt weitere Posts.
+
+## Bedienung und Diagnose
+
+- diagnose: nur Metadaten; keine Mediendownloads, Zustandsänderungen oder Posts.
+- prepare/prefetch: höchstens ein Kandidat bzw. gesperrter Entwurf; kein neuer TikTok-Post.
+- auto/commission: nur auf main nach allen Freigaben neuer Send oder Abgleich.
+- review: exakt passende manuelle Quittung ohne Buffer-Zugang.
+- Entwurfszweige erlauben nur prepare/diagnose.
+
+Zähler stehen in Actions und last_production. Empty: kein neuer geeigneter Metadatenkandidat. Quality_rejected: Inhaltsablehnung. Degraded: technischer Fehler mit späterer Wiederholungsmöglichkeit, maximal drei Suchversuche pro Stunde. Abgeschlossene Suchstunden und Sendreservationen unterdrücken Doppelarbeit. Nach erfolgreichem Versand ist eine Vorbereitung für den nächsten Slot möglich.
+
+Zum Stoppen TIKTOK14_ENABLED deaktivieren und laufende Publisher-/Clock-Jobs prüfen bzw. abbrechen. Eine bereits an Buffer übergebene Veröffentlichung bleibt bis zur Klärung offen. Keine Reservierungen löschen, um diesen Schutz zu umgehen.
 
 ~~~sh
 python scripts/tiktok14_prepare.py --test
@@ -48,14 +68,4 @@ python scripts/tiktok14_publish.py selftest
 python -m unittest discover -s tests -v
 ~~~
 
-Am Stand 18.10.2026 bestehen lokal 93 Offline-Tests und beide Selbsttests. Sie senden nichts und benutzen keine echten Zugangsdaten. CI und reale Prepare-Läufe müssen zusätzlich am tatsächlich verwendeten Commit geprüft werden. Erfolgreiche Vorbereitung beweist keinen öffentlichen TikTok-Post und keine verlässliche autonome Qualitätsprüfung.
-
-## Dauerbetrieb: Entwürfe prüfen und Warteschlange freigeben
-
-Unsichere ASR-Wörter und Segmente verwerfen einen möglichen guten Clip nicht mehr sofort. Das Transkript enthält uncertain_word_indexes, uncertain_segments und requires_correction; das Ergebnis bleibt ein gesperrter Entwurf. Dies ist keine Lockerung der Versandfreigabe. Falsche eingebrannte Untertitel müssen korrigiert und neu gerendert werden; eine Freigabe darf Fehler nicht bestätigen. Zu wenig Sprache wird weiterhin abgelehnt. Die Actions-Zusammenfassung verlinkt das fertige Video und das Prüf-ZIP auch bei späteren needs_review-Läufen.
-
-Der Modus review nimmt über review_json eine JSON-Quittung mit clip_id und media_review entgegen. Er erhält nur den GitHub-Zugang und sendet nichts an Buffer. approved verlangt sämtliche oben genannten Prüfnachweise und exakt übereinstimmende Video-/Transkript-Hashes sowie frische Quelle und erlaubten Streamer. Erst ein späterer auto/commission-Lauf darf den freigegebenen Kandidaten senden. rejected verlangt dieselben Hashes, einen benannten Prüfer und einen konkreten reason; es archiviert den Kandidaten und gibt sofort die Suche frei. Ein Urteil zu einem inzwischen ersetzten Kandidaten wird abgelehnt. JSON wird begrenzt und doppelte Schlüssel sind unzulässig. Kein Shell-Befehl wird aus Reviewtext erzeugt.
-
-Alle produktiven Prepare-/Review-/Publish-Jobs teilen eine feste Concurrency-Gruppe über Branchgrenzen hinweg. Damit können ein manueller Prepare-Test und der Hauptbetrieb nicht gleichzeitig unterschiedliche Kandidaten in dieselbe Warteschlange schreiben. Der bestehende Versionsvergleich bleibt als zusätzliche Sicherung bestehen.
-
-Ein autonomer Bild-/Tonprüfer ist weiterhin nicht angebunden. Ohne tatsächliche Prüfung kann needs_review den Betrieb bis zum Ablauf des Kandidaten anhalten. Kein Softwaretest kann einen guten Inhalt, richtige Untertitel oder eine ausreichende Pointe garantieren. Ein unabhängiger externer Zeitgeber benötigt weiterhin ein auf dieses Repository begrenztes GitHub-Actions-Schreibrecht; vorhandene Hosting-Anmeldung allein genügt nicht. Bestehende ChatGPT-Kontrolle und Twitch-Aufgaben bleiben unverändert.
+Offline-Tests brauchen keine echten Zugangsdaten oder Mediendownloads. Sie beweisen keine tatsächliche Medienqualität, Cloud-Übergabe oder öffentliche Veröffentlichung; diese sind zusätzlich am verwendeten Stand zu prüfen.

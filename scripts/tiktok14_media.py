@@ -33,7 +33,11 @@ def automated_render(namespace,clip,source,model_dir):
             reason=verdict.get('reason','')
             if not isinstance(reason,str) or not __import__('re').fullmatch('qa_[a-z_]+',reason):raise ValueError()
             raise QualityRejected(reason)
-        if result.returncode or verdict.get('status')!='passed':raise ServiceError('qa_child_failed')
+        if result.returncode or verdict.get('status')!='passed':
+            reason=verdict.get('reason','')
+            if verdict.get('status')=='technical_failure' and isinstance(reason,str) and __import__('re').fullmatch('qa_[a-z_]{1,120}',reason):
+                raise ProductionInterrupted(reason)
+            raise ServiceError('qa_child_failed')
         evidence=json.loads((out/'qa-evidence.json').read_text(encoding='utf-8'))
         if evidence.get('source_sha256')!=hashlib.sha256(Path(source).read_bytes()).hexdigest():raise ServiceError('qa_source_hash_mismatch')
         for name in ('tiktok.mp4','cover.jpg','transcript.json','source-frames.jpg','final-frames.jpg'):
@@ -190,6 +194,8 @@ def configure(namespace,report):
     original_render=namespace['render']
     def render(clip,source):
         count('render_attempted')
+        report['current_candidate']={'clip_id':clip['id'],'clip_slug':clip.get('clip_slug'),
+            'streamer':clip.get('channel_login')}
         if os.getenv('TIKTOK14_QA_MODELS'):
             try:
                 result=automated_render(namespace,clip,source,os.environ['TIKTOK14_QA_MODELS'])
@@ -199,6 +205,7 @@ def configure(namespace,report):
                 report.setdefault('rejected',[]).append({'clip_id':clip['id'],'clip_slug':clip['clip_slug'],
                     'streamer':clip['channel_login'],'source_url':clip['url'],'status':'quality_rejected',
                     'created_at':namespace['iso'](namespace['now_utc']()),'reason':str(error)})
+                namespace.get('_persist_rejections',lambda:None)()
                 raise
         try:
             movie,cover,subs=original_render(clip,source)

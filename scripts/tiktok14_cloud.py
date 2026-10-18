@@ -253,6 +253,17 @@ def prepare(store,config,legacy,current,host):
     namespace['read_state']=lambda:{'version':2,'created':copy.deepcopy(records),
                                     'processed_ids':list(processed)}
     receipts={}
+    def persist_rejections():
+        nonlocal sha
+        pending=namespace.setdefault('_report',{}).setdefault('rejected',[])
+        if not pending:return
+        candidate=copy.deepcopy(state)
+        candidate.setdefault('rejected',[]).extend(copy.deepcopy(pending))
+        try:new_sha=store.save(candidate,sha)
+        except Exception:raise ProductionInterrupted('rejection_state_write_failed') from None
+        state.clear();state.update(candidate);sha=new_sha
+        pending.clear()
+    namespace['_persist_rejections']=persist_rejections
     def release(clip,movie,cover,now):
         original=dict(clip,source_sha256=clip.get('_qa_evidence',{}).get('source_sha256',''))
         if own_duplicate(original,state) or any(nearby_event(original,row) for row in legacy['created']):
@@ -262,6 +273,7 @@ def prepare(store,config,legacy,current,host):
                 'streamer':clip.get('channel_login'),'source_url':clip.get('url'),
                 'source_sha256':original['source_sha256'],'status':'quality_rejected',
                 'reason':'qa_duplicate_source','created_at':stamp(now)})
+            persist_rejections()
             raise QualityRejected('qa_duplicate_source')
         if clip.get('_qa_evidence'):
             try:
@@ -338,6 +350,8 @@ def prepare(store,config,legacy,current,host):
         state['last_prepare_hour']=slot
         if after_send: state['last_prefetch_hour']=slot
     state['last_production']={'at':stamp(current),'result':result,'counts':counts}
+    if namespace.get('_report',{}).get('current_candidate'):
+        state['last_production']['candidate']=namespace['_report']['current_candidate']
     store.save(state,sha)
     report_result(state['last_production'])
     if state['queue'] and not eligible(state['queue'][0],current): report_review(state['queue'][0])

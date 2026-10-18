@@ -14,14 +14,18 @@ from tiktok14_vision import Vision,frame_samples,SOURCE_PROMPT,FINAL_PROMPT,sha
 
 
 def source_review(namespace,clip,source,model_dir):
+ namespace['_qa_stage']='source_probe'
  out=namespace['OUT'];duration=namespace['probe'](source)
  if not 15<=duration<=60:raise QualityRejected('qa_duration_invalid')
  source_hash=sha(source)
+ namespace['_qa_stage']='speech'
  words,speech=transcribe_pair(source,out,model_dir)
  namespace['_qa_transcript']=(source_hash,words,speech)
+ namespace['_qa_stage']='caption_scan'
  caption_report=scan_captions(source,out/'qa-captions',speech['words'])
  if caption_report['frames']<int(duration*2)-1:raise ServiceError('qa_caption_coverage_failed')
  with Vision(model_dir) as vision:
+  namespace['_qa_stage']='caption_semantics'
   if vision.model_id!=VISION_MODEL:raise ServiceError('qa_required_model_missing')
   caption_report=classify_captions(caption_report,out/'qa-captions',vision)
   clean_source=source
@@ -32,6 +36,7 @@ def source_review(namespace,clip,source,model_dir):
    namespace['run'](['ffmpeg','-y','-v','error','-i',str(source),'-vf',f'crop=iw:trunc(ih*{bottom:.6f}/2)*2:0',
     '-c:v','libx264','-threads','2','-preset','veryfast','-crf','18','-c:a','copy',str(clean_source)],timeout=180)
   namespace['_qa_clean_source']=clean_source
+  namespace['_qa_stage']='source_vision'
   frames,times=frame_samples(clean_source,out/'qa-source',duration)
   visual=vision.ask(SOURCE_PROMPT,frames,times,' '.join(w[2] for w in words))
  (out/'source-visual.json').write_text(json.dumps(visual,ensure_ascii=False,indent=2),encoding='utf-8')
@@ -87,6 +92,7 @@ def stable_face_box(frames):
 def filter_path(path):return str(Path(path).resolve()).replace('\\','/').replace(':','\\:').replace("'", "\\'")
 
 def portrait_render(namespace,clip,source,box):
+ namespace['_qa_stage']='portrait_render'
  import av,os,textwrap
  out=namespace['OUT'];source_hash,words,speech=namespace['_qa_transcript']
  with av.open(str(source)) as container:
@@ -122,11 +128,13 @@ def portrait_render(namespace,clip,source,box):
  return movie,cover,bool(words)
 
 def final_review(namespace,clip,movie,report,model_dir):
+ namespace['_qa_stage']='final_decode'
  namespace['run'](['ffmpeg','-v','error','-i',str(movie),'-f','null','-'],timeout=120)
  frames,times=frame_samples(movie,namespace['OUT']/'qa-final',report['duration'],count=10,hook_detail=False,
   extra_times=[report['source_visual']['payoff_timestamp']])
  context=json.dumps({'source_event_hypothesis':report['source_visual']['setup']+' '+report['source_visual']['payoff'],
   'caption_mode':report['caption_mode'],'expected_title':report['headline']})
+ namespace['_qa_stage']='final_vision'
  with Vision(model_dir) as vision:final=vision.ask(FINAL_PROMPT,frames,times,context)
  text_ok=(final.get('legible_subtitles') is True if report['caption_mode']=='verified_words' else final.get('caption_quality')=='readable_title_only')
  if (final.get('composition_usable') is not True or not text_ok or
@@ -147,6 +155,7 @@ def main():
  args=parser.parse_args()
  out=Path(args.output).resolve();out.mkdir(parents=True,exist_ok=True)
  result=out/'qa-result.json'
+ ns={'_qa_stage':'initialization'}
  try:
   from tiktok14_cloud import producer_namespace
   ns=producer_namespace();ns['OUT']=out
@@ -163,7 +172,9 @@ def main():
   import re
   reason=str(error) if re.fullmatch('[a-z_]+',str(error)) else 'qa_operation_failed'
   result.write_text(json.dumps({'status':'technical_failure','reason':reason}),encoding='utf-8');return 1
- except Exception:
-  result.write_text(json.dumps({'status':'technical_failure','reason':'qa_operation_failed'}),encoding='utf-8');return 1
+ except Exception as error:
+  import re
+  kind=re.sub('[^a-z_]','',type(error).__name__.lower())[:60]
+  result.write_text(json.dumps({'status':'technical_failure','reason':'qa_'+ns.get('_qa_stage','initialization')+'_'+kind}),encoding='utf-8');return 1
 
 if __name__=='__main__':raise SystemExit(main())

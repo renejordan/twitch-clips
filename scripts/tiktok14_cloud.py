@@ -195,6 +195,7 @@ def prepare(store,config,legacy,current,host):
         if (item.get('status')=='awaiting_review_tiktok14' and not blocked(item) and
                 item.get('streamer') in permitted and not identities(item)&old and
                 0 <= (current-parse_timestamp(item['original_created_at'])).total_seconds() <= MAX_SEND_AGE_HOURS*3600):
+            report_review(item)
             return 'needs_review'
         state.setdefault('rejected',[]).extend(state['queue'])
         state['queue']=[]
@@ -235,6 +236,8 @@ def prepare(store,config,legacy,current,host):
         transcript=Path('rendered/transcript.json')
         if transcript.exists():
             record['transcript_sha256']=hashlib.sha256(transcript.read_bytes()).hexdigest()
+            record['asr_requires_correction']=bool(json.loads(
+                transcript.read_text(encoding='utf-8')).get('requires_correction',True))
         root=record['video_url'][:-4]
         record.pop('cover_url',None)
         record['review_assets']={'bundle':root+'-review.zip'}
@@ -265,6 +268,7 @@ def prepare(store,config,legacy,current,host):
     state['last_production']={'at':stamp(current),'result':result,'counts':counts}
     store.save(state,sha)
     report_result(state['last_production'])
+    if state['queue']: report_review(state['queue'][0])
     return result
 
 
@@ -275,6 +279,70 @@ def report_result(report):
     if summary:
         with open(summary,'a',encoding='utf-8') as handle:
             handle.write('### TikTok production diagnostics\n```json\n'+json.dumps(report,indent=2)+'\n```\n')
+
+
+def report_review(item):
+    summary=os.getenv('GITHUB_STEP_SUMMARY')
+    if not summary: return
+    movie=item.get('video_url','')
+    if not isinstance(movie,str) or not re.fullmatch(re.escape(REPO_PREFIX)+
+            r'\d{4}-(?:0[1-9]|1[0-2])/[A-Za-z0-9_-]+\.mp4',movie): return
+    with open(summary,'a',encoding='utf-8') as handle:
+        handle.write('\n### Clip wartet auf vollstaendige Medienpruefung\n'
+            f'\n[Fertiges Video]({movie}) · [Pruefpaket]({movie[:-4]}-review.zip)\n'
+            '\nNoch keine Freigabe und kein TikTok-Post. Unsichere ASR-Stellen stehen '
+            'im Transkript; falsche eingebrannte Untertitel muessen vor Freigabe '
+            'durch einen neu gerenderten, erneut geprueften Kandidaten ersetzt werden.\n')
+
+
+def apply_review(store,config,payload,current):
+    """Accept a review of these exact bytes. This operation never contacts Buffer."""
+    def unique_pairs(pairs):
+        result={}
+        for key,value in pairs:
+            if key in result: raise ValueError('duplicate_key')
+            result[key]=value
+        return result
+    try:
+        if not isinstance(payload,str) or len(payload.encode('utf-8'))>16000: raise ValueError()
+        receipt=json.loads(payload,object_pairs_hook=unique_pairs)
+        if not isinstance(receipt,dict): raise ValueError()
+        review=receipt['media_review']
+        if not isinstance(review,dict): raise ValueError()
+    except (ValueError,KeyError,TypeError,RecursionError):
+        raise ServiceError('invalid_review_payload') from None
+    state,sha=store.load()
+    if any(row.get('status')!='verified_public' for row in state['attempts']):
+        raise ServiceError('review_send_already_pending')
+    if len(state['queue'])!=1: raise ServiceError('review_candidate_missing')
+    item=state['queue'][0]
+    if (str(receipt.get('clip_id',''))!=str(item.get('clip_id','')) or
+            review.get('media_sha256')!=item.get('sha256') or
+            review.get('transcript_sha256')!=item.get('transcript_sha256')):
+        raise ServiceError('review_candidate_changed')
+    candidate=copy.deepcopy(item)
+    candidate['media_review']=review
+    decision=review.get('decision')
+    if decision=='approved':
+        error=review_error(candidate,current)
+        if error: raise ServiceError(error)
+        candidate['status']='ready_tiktok14'
+        if candidate.get('streamer') not in sources(config) or not eligible(candidate,current):
+            raise ServiceError('review_candidate_ineligible')
+        state['queue']=[candidate]
+    elif decision=='rejected':
+        reason=review.get('reason')
+        if (not isinstance(reason,str) or not 12<=len(reason.strip())<=1000 or
+                not isinstance(review.get('reviewer'),str) or len(review['reviewer'].strip())<3):
+            raise ServiceError('review_rejection_reason_required')
+        candidate.update(status='rejected_tiktok14',rejection_reason=reason,
+                         rejected_at=stamp(current))
+        state.setdefault('rejected',[]).append(candidate)
+        state['queue']=[]
+        state.pop('last_prepare_hour',None)
+    else: raise ServiceError('invalid_review_decision')
+    store.save(state,sha)
+    return 'review_'+decision
 
 
 def diagnose(config,legacy,state,current):
@@ -373,8 +441,8 @@ def main(action=None):
         ref=os.getenv('GITHUB_REF','')
         if (os.getenv('GITHUB_REPOSITORY')!=REPOSITORY or
                 ref not in ('refs/heads/main','refs/heads/codex/tiktok14-safety-audit','refs/heads/codex/tiktok14-reliability') or
-                action not in ('prepare','publish','diagnose') or
-                (action=='publish' and ref!='refs/heads/main')):
+                action not in ('prepare','publish','diagnose','review') or
+                (action in ('publish','review') and ref!='refs/heads/main')):
             raise ServiceError('unapproved_cloud_context')
         config=json.loads(CONFIG.read_text(encoding='utf-8'))
         if config.get('accounting_mode')!='independent':
@@ -389,6 +457,9 @@ def main(action=None):
             result=('auto20_running' if legacy_running(github) else
                     prepare(store,config,read_legacy(github),
                             dt.datetime.now(dt.timezone.utc),Host(token)))
+        elif action=='review':
+            result=apply_review(GitHubState(github),config,
+                os.environ.pop('TIKTOK14_REVIEW_JSON',''),dt.datetime.now(dt.timezone.utc))
         else:
             result=publish(GitHubState(github),config,github,key)
         print('TikTok14 '+action+': '+result)

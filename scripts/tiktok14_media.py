@@ -105,21 +105,26 @@ def configure(namespace,report):
         segments,details=model.transcribe(str(path),language='de',beam_size=5,
             word_timestamps=True,condition_on_previous_text=False,vad_filter=True,
             hallucination_silence_threshold=1.0)
-        words=[]; evidence=[]
+        words=[]; evidence=[]; uncertain_words=[]; uncertain_segments=[]
         for segment in segments:
             if (segment.no_speech_prob>.5 or segment.avg_logprob<-.7 or
                     segment.compression_ratio>2.4):
-                raise ServiceError('asr_segment_uncertain')
+                uncertain_segments.append({'start':segment.words[0].start if segment.words else None,
+                    'no_speech_prob':segment.no_speech_prob,'avg_logprob':segment.avg_logprob,
+                    'compression_ratio':segment.compression_ratio})
             for word in segment.words or []:
                 if not word.word.strip(): continue
-                if word.probability<.6: raise ServiceError('asr_word_uncertain')
+                if word.probability<.6: uncertain_words.append(len(words))
                 words.append((float(word.start),float(word.end),word.word.strip()))
                 evidence.append({'start':word.start,'end':word.end,'text':word.word.strip(),
                                  'probability':word.probability})
         if len(words)<3: raise ServiceError('asr_insufficient_speech')
         target=namespace['OUT']/'transcript.json'
         target.write_text(json.dumps({'model':'small','language':'de','words':evidence,
+            'requires_correction':bool(uncertain_words or uncertain_segments),
+            'uncertain_word_indexes':uncertain_words,'uncertain_segments':uncertain_segments,
             'editorial_accuracy':'not_reviewed'},ensure_ascii=False,indent=2),encoding='utf-8')
+        if uncertain_words or uncertain_segments: count('asr_draft_requires_correction')
         return words
 
     original_download=namespace['download']

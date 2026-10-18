@@ -310,6 +310,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698053902997982496",
       "sent_at": "2026-10-18T17:02:48Z",
       "verified_at": "2026-10-18T17:06:30Z"
+    },
+    {
+      "clip_id": "3699286379",
+      "reserved_at": "2026-10-18T18:00:26Z",
+      "streamer": "montanablack88",
+      "sha256": "904f8dd86615612697fd81cbfb42b233a634c1a6c41a3357fe1cc34dba720ac0",
+      "source_sha256": "9c5b62026265c9f4d2bdd334ca3d6421a88c44cd54e32059ce9e791c16271f1a",
+      "status": "reserved",
+      "asset_title": "tiktok14-3699286379-904f8dd86615.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-3699286379-904f8dd86615.mp4",
+      "clip_slug": "BloodyHeadstrongBasenjiKippa-WYFjYZ2vw0DlqWun",
+      "original_created_at": "2026-10-18T09:24:00Z",
+      "source_deadline": "2026-10-21T09:24:00Z"
     }
   ],
   "last_production": {

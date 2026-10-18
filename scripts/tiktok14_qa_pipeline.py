@@ -14,6 +14,43 @@ from tiktok14_vision import Vision,frame_samples,SOURCE_PROMPT,FINAL_PROMPT,sha
 
 
 def source_review(namespace,clip,source,model_dir):
+ """Practical route: real audio, sampled layout, no generated word subtitles."""
+ import av
+ namespace['_qa_stage']='source_probe'
+ out=namespace['OUT'];duration=namespace['probe'](source)
+ if not 15<=duration<=60:raise QualityRejected('qa_duration_invalid')
+ source_hash=sha(source);namespace['_qa_stage']='audio'
+ with av.open(str(source)) as container:
+  if not container.streams.audio:raise QualityRejected('qa_audio_missing')
+ from faster_whisper.audio import decode_audio
+ import numpy as np
+ samples=decode_audio(str(source),sampling_rate=16000)
+ if not len(samples):raise QualityRejected('qa_audio_missing')
+ audio={'rms':float(np.sqrt(np.mean(np.square(samples,dtype=np.float64)))),
+  'clipped_fraction':float(np.mean(np.abs(samples)>=.999))}
+ if not .002<=audio['rms']<=.5 or not 0<=audio['clipped_fraction']<.01:raise QualityRejected('qa_audio_quality_failed')
+ speech={'words':[],'caption_mode':'title_only','asr_used':False,'audio':audio,
+  'editorial_accuracy':'not_assessed_no_generated_word_subtitles','normalized_token_distance':None}
+ (out/'transcript.json').write_text(json.dumps(speech,indent=2),encoding='utf-8')
+ namespace['_qa_transcript']=(source_hash,[],speech);namespace['_qa_clean_source']=source
+ namespace['_qa_stage']='source_vision'
+ frames,times=frame_samples(source,out/'qa-source',duration,count=3,hook_detail=False)
+ with Vision(model_dir) as vision:
+  if vision.model_id!=VISION_MODEL:raise ServiceError('qa_required_model_missing')
+  visual=vision.ask(SOURCE_PROMPT,frames,times)
+ (out/'source-visual.json').write_text(json.dumps(visual,ensure_ascii=False,indent=2),encoding='utf-8')
+ error=visual_error(visual,duration,practical=True,preserve_overlays=True)
+ if error:raise QualityRejected('qa_'+error)
+ return {'quality_policy':PRACTICAL_POLICY,'review_method':'sampled_frames_and_full_decode',
+  'source_sha256':source_hash,'reviewed_source_sha256':source_hash,'duration':duration,
+  'timestamps':times,'source_frame_hashes':[sha(path) for path in frames],'frames':frames,
+  'headline':f"Gaming-Moment mit {clip['channel_login']}",'source_visual':visual,
+  'caption_mode':'title_only','rendered_word_count':0,'asr_used':False,
+  'primary_model':None,'secondary_model':None,'vision_model':VISION_MODEL,'transcript_distance':None,
+  'audio_rms':audio['rms'],'clipped_fraction':audio['clipped_fraction'],
+  'caption_scan':{'method':'original_overlays_preserved_no_generated_word_subtitles'}}
+
+def strict_source_review(namespace,clip,source,model_dir):
  namespace['_qa_stage']='source_probe'
  out=namespace['OUT'];duration=namespace['probe'](source)
  if not 15<=duration<=60:raise QualityRejected('qa_duration_invalid')
@@ -95,6 +132,8 @@ def portrait_render(namespace,clip,source,box):
  namespace['_qa_stage']='portrait_render'
  import av,os,textwrap
  out=namespace['OUT'];source_hash,words,speech=namespace['_qa_transcript']
+ practical=speech.get('asr_used') is False
+ if practical:box=None
  with av.open(str(source)) as container:
   stream=container.streams.video[0];width,height=stream.width,stream.height
  duration=namespace['probe'](source)
@@ -115,10 +154,12 @@ def portrait_render(namespace,clip,source,box):
   f"ass=filename='{subs}',format=yuv420p[v]")
  if not box:
   side=min(width,height)
-  gameplay=(f'crop={side}:{side}:(iw-ow)/2:(ih-oh)/2,scale=1080:1080' if width>height else 'scale=1080:1350:force_original_aspect_ratio=decrease')
+  gameplay=('scale=1080:1500:force_original_aspect_ratio=decrease' if practical else
+   f'crop={side}:{side}:(iw-ow)/2:(ih-oh)/2,scale=1080:1080' if width>height else 'scale=1080:1350:force_original_aspect_ratio=decrease')
+  title_y=100 if practical else 240
   filters=('[0:v]split=2[b][g];[b]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:10[bg];'
    f'[g]{gameplay},setsar=1[game];[bg][game]overlay=(W-w)/2:(H-h)/2,'
-   f"drawtext=fontfile='{font}':textfile='{headline}':fontsize=48:fontcolor=white:borderw=3:bordercolor=black:box=1:boxcolor=black@0.65:x=(w-text_w)/2:y=240,"
+   f"drawtext=fontfile='{font}':textfile='{headline}':fontsize=48:fontcolor=white:borderw=3:bordercolor=black:box=1:boxcolor=black@0.65:x=(w-text_w)/2:y={title_y},"
    f"ass=filename='{subs}',format=yuv420p[v]")
  movie=out/'tiktok.mp4';cover=out/'cover.jpg'
  namespace['run'](['ffmpeg','-y','-v','error','-i',str(source),'-filter_complex',filters,'-map','[v]','-map','0:a:0?',
@@ -128,15 +169,18 @@ def portrait_render(namespace,clip,source,box):
  return movie,cover,bool(words)
 
 def final_review(namespace,clip,movie,report,model_dir):
+ fast=report.get('review_method')=='sampled_frames_and_full_decode'
  namespace['_qa_stage']='final_decode'
  namespace['run'](['ffmpeg','-v','error','-i',str(movie),'-f','null','-'],timeout=120)
- frames,times=frame_samples(movie,namespace['OUT']/'qa-final',report['duration'],count=10,hook_detail=False,
+ frames,times=frame_samples(movie,namespace['OUT']/'qa-final',report['duration'],count=3 if fast else 10,hook_detail=False,
   extra_times=[report['source_visual']['payoff_timestamp']])
  context=json.dumps({'source_event_hypothesis':report['source_visual']['setup']+' '+report['source_visual']['payoff'],
-  'caption_mode':report['caption_mode'],'expected_title':report['headline']})
+  'caption_mode':report['caption_mode'],'expected_title':report['headline'],
+  'original_source_overlays_preserved':fast,'generated_word_subtitles':False if fast else report['caption_mode']=='verified_words'})
  namespace['_qa_stage']='final_vision'
  with Vision(model_dir) as vision:final=vision.ask(FINAL_PROMPT,frames,times,context)
- text_ok=(final.get('legible_subtitles') is True if report['caption_mode']=='verified_words' else final.get('caption_quality')=='readable_title_only')
+ text_ok=(final.get('legible_subtitles') is True if report['caption_mode']=='verified_words' else
+  final.get('legible_title') is True if fast else final.get('caption_quality')=='readable_title_only')
  if (final.get('composition_usable') is not True or not text_ok or
   final.get('browser_chrome') is not False or final.get('nested_rebroadcast') is not False):
   raise QualityRejected('qa_final_composition_failed')

@@ -26,13 +26,13 @@ Die Quellen sind die aktuellen Top 50 deutschsprachigen Streamer bei TwitchTrack
 
 Der getrennte Prüfprozess erhält keine Servicezugänge. Modellgewichte und CPU-Laufzeit sind an feste offizielle Revisionen und SHA256-Werte gebunden. Installation und Laufzeit-Gesundheitstest erfolgen vor Bereitstellung der Servicezugänge; ein Cache vermeidet wiederholte große Downloads.
 
-Zwei freie Whisper-Modelle prüfen den vollständigen Ton. Wortuntertitel verlangen vollständige normalisierte Wortübereinstimmung, Konfidenz und passende Zeitstempel. Nach Nutzerfreigabe ist bei unsicherer Sprache title_only erlaubt: null Wortuntertitel, ein allgemeiner überprüfbarer Titel mit dem nachgewiesenen Streamer und kein unsicheres Transkript als Ereignisbeleg. Schlechter oder stark übersteuerter Ton bleibt gesperrt. Technische ASR-Ausfälle werden nicht als Titel-only-Erfolg behandelt.
+Die praktische Standardroute decodiert den vollständigen Ton und prüft Lautstärke und Übersteuerung. Sie erzeugt keine Wortuntertitel und behauptet keine Transkriptgenauigkeit. Ein allgemeiner Titel nennt den nachgewiesenen Streamer; ursprüngliche Texteinblendungen der Quelle bleiben erhalten, ohne deren Wortlaut als geprüft auszugeben. Die ältere strenge Route mit zwei Whisper-Modellen bleibt im Code für gezielte Prüfungen verfügbar.
 
-OCR untersucht zwei tatsächliche Frames pro Sekunde. Geometrie schlägt Textregionen vor; der Bildprüfer unterscheidet HUD/Chat und Dialoguntertitel anhand vollständiger Frames und vergrößerter Ausschnitte. Unterschiedliche Texte derselben Position werden getrennt geprüft. Mehr als 24 Textzustände schließen nur diesen Kandidaten aus; technische Ausfälle bleiben ein Halt. Entfernen vorhandener Untertitel darf keine Handlung zerstören.
+Die aufwendige Prüfung jeder Texteinblendung gehört zur älteren strengen Route. Die praktische Route setzt stattdessen auf echte Bildstichproben und erhält die Quellszene vollständig.
 
-Qwen prüft gleichmäßig verteilte Quellframes, frühe Details und zusätzliche Szenenwechsel auf sichtbares Gameplay, brauchbares Bild, Browserrahmen und verschachtelte Wiedergabe. Nach ausdrücklicher Nutzerentscheidung gilt die praktische Auswahl: keine Mindestnote für Pointe, Aufbau oder Dramaturgie. Ein populärer brauchbarer Clip muss kein perfektes Highlight sein. Das ist eine Modell-Stichprobenprüfung, keine behauptete vollständige menschliche Sichtung.
+Qwen prüft drei tatsächliche Quellframes vom Anfang, aus der Mitte und vom Ende auf sichtbares Gameplay, brauchbares Bild, Browserrahmen und verschachtelte Wiedergabe. Nach ausdrücklicher Nutzerentscheidung gilt die praktische Auswahl: keine Mindestnote für Pointe, Aufbau oder Dramaturgie. Ein populärer brauchbarer Clip muss kein perfektes Highlight sein. Das ist eine Modell-Stichprobenprüfung, keine behauptete vollständige menschliche Sichtung.
 
-Das 1080×1920-Ergebnis wird vollständig decodiert und anhand echter Frames erneut auf brauchbare Komposition geprüft. Eine stabil erkannte Facecam kann als eigenes Panel erscheinen; sonst wird zentrales Gameplay vergrößert. Titel-only verlangt einen lesbaren Titel ohne hinzugefügte Wortuntertitel.
+Das 1080×1920-Ergebnis erhält die vollständige Quellszene vor einem weichgezeichneten Hintergrund und setzt den Titel außerhalb der Szene. Es wird vollständig decodiert und anhand dreier tatsächlicher Frames erneut auf brauchbare Komposition und lesbaren Titel geprüft. Es gibt keine hinzugefügten Wortuntertitel.
 
 ## Quittungen, Hosting und Versand
 

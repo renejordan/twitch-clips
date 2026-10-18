@@ -48,5 +48,25 @@
       "sent_at": "2026-10-16T16:58:15Z",
       "verified_at": "2026-10-16T16:58:42Z"
     }
-  ]
+  ],
+  "last_prepare_hour": "2026-10-18T07",
+  "last_production": {
+    "at": "2026-10-18T07:23:53Z",
+    "result": "quality_rejected",
+    "counts": {
+      "listing_requested": 50,
+      "listing_ok": 50,
+      "discovered": 1072,
+      "metadata_requested": 1062,
+      "age_outside_72h": 751,
+      "qualified_metadata": 3,
+      "older_clip_metrics_insufficient": 4,
+      "views_below_800": 268,
+      "duration_outside_15_60s": 36,
+      "download_attempted": 3,
+      "render_attempted": 3,
+      "asr_word_uncertain": 2,
+      "asr_segment_uncertain": 1
+    }
+  }
 }

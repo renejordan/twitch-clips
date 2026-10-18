@@ -100,7 +100,7 @@ class ReliabilityTests(unittest.TestCase):
             with self.assertRaises(ServiceError): cloud.ensure_store(Missing())
             initialize.assert_not_called()
 
-    def test_failed_listings_are_degraded_and_same_hour_scan_is_skipped(self):
+    def test_failed_listings_are_degraded_and_allow_a_later_retry(self):
         state,config,_,_=fixture()
         state['queue']=[]
         store=MemoryState(state)
@@ -111,7 +111,8 @@ class ReliabilityTests(unittest.TestCase):
                 patch.object(cloud,'report_result'),patch.object(cloud,'Host') as host:
             self.assertEqual(cloud.prepare(store,config,{'processed_ids':[],'created':[]},NOW,host),'degraded')
             self.assertEqual(store.data['last_production']['counts']['listing_failed'],1)
-            self.assertEqual(cloud.prepare(store,config,{'processed_ids':[],'created':[]},NOW,host),'hour_complete')
+            self.assertNotIn('last_prepare_hour',store.data)
+            self.assertEqual(cloud.prepare(store,config,{'processed_ids':[],'created':[]},NOW,host),'degraded')
             host.assert_not_called()
 
     def test_review_packet_keeps_monthly_release_within_1000_assets(self):
@@ -129,6 +130,53 @@ class ReliabilityTests(unittest.TestCase):
             upload=next(args for args in calls if args[:2]==['release','upload'])
             self.assertEqual(len(upload[3:]),2)
             self.assertTrue(upload[-1].endswith('-review.zip'))
+
+    def test_media_tool_failures_and_quality_rejection_are_not_silent_empty(self):
+        for failure,expected,counter in (('download','degraded','download_failed'),
+                ('render','degraded','render_failed'),('asr','quality_rejected','asr_segment_uncertain')):
+            with self.subTest(failure=failure), tempfile.TemporaryDirectory() as directory:
+                ns=cloud.producer_namespace()
+                ns['OUT']=Path(directory)
+                clip={'id':'12345678','clip_slug':'Example-123','channel_login':'rewinside',
+                    'url':'https://clips.twitch.tv/Example-123','age_hours':2,'view_count':1200,
+                    'duration':25,'title':'Gaming clip','rank':1,
+                    'original_created_at':'2026-10-16T10:00:00Z'}
+                ns['fetch_candidates']=lambda:[('rewinside',clip['url'])]
+                ns['inspect_original']=lambda *a:clip
+                def run(command,**kwargs):
+                    if failure=='download' or (failure=='render' and command[0]=='ffprobe'):
+                        raise ServiceError('media_tool_failed')
+                    if command[0]=='yt-dlp': (Path(directory)/'source.mp4').write_bytes(b'source')
+                    return subprocess.CompletedProcess([],0,'25', '')
+                ns['run']=run
+                if failure=='asr':
+                    def uncertain(*a): raise ServiceError('asr_segment_uncertain')
+                    ns['transcribe']=uncertain
+                state,config,_,_=fixture();state['queue']=[]
+                store=MemoryState(state)
+                with patch.object(cloud,'producer_namespace',return_value=ns), \
+                        patch.object(cloud,'report_result'),patch.object(cloud,'Host') as host:
+                    self.assertEqual(cloud.prepare(store,config,{'created':[],'processed_ids':[]},NOW,host),expected)
+                    self.assertEqual(store.data['last_production']['counts'][counter],1)
+                    host.assert_not_called()
+
+    def test_send_margin_and_late_publication_are_explicitly_enforced(self):
+        item=fixture()[0]['queue'][0]
+        item['original_created_at']=(NOW-dt.timedelta(hours=71,minutes=1)).isoformat()
+        self.assertFalse(publish.eligible(item,NOW))
+        state,config,_,overview=fixture(); config['accounting_mode']='independent'
+        store=MemoryState(state); gateway=Gateway(store,overview)
+        worker=Worker(store,gateway,lambda _:True)
+        worker.run_one(config,None,NOW)
+        attempt=store.data['attempts'][0]
+        self.assertEqual(attempt.get('original_created_at'),'2026-10-16T10:00:00Z')
+        self.assertEqual(attempt.get('source_deadline'),'2026-10-19T10:00:00Z')
+        gateway.result.update(status='sent',sentAt='2026-10-19T10:01:00Z',
+            externalLink='https://www.tiktok.com/@ufo3103/video/7697189362877992225')
+        with self.assertRaisesRegex(ServiceError,'published_after_source_deadline'):
+            worker.run_one(config,None,NOW+dt.timedelta(days=3))
+        self.assertEqual(store.data['attempts'][0]['status'],'late_publication')
+        self.assertEqual(len(gateway.sent),1)
 
 
 if __name__=='__main__': unittest.main()

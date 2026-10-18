@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3835744608",
-      "clip_slug": "DeadMoistChoughMrDestructoid-CiHl1tw3rlau6XUJ",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/DeadMoistChoughMrDestructoid-CiHl1tw3rlau6XUJ",
-      "original_title": "Focus",
-      "hook": "Focus",
-      "caption": "Focus\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 157,
-      "original_duration": 26.0,
-      "original_created_at": "2026-10-18T18:40:13Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3835744608-dd5e9a747f9c.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-18T19:10:23Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "dd5e9a747f9c9d783998ce1fdcc3047c92c32921aad7b3d2b2f8a154efa219ab",
-      "category": "Minecraft",
-      "transcript_sha256": "8e336e76cc02e72315648ec6003d5f71ab8c471b0e569457d61714c5e97c3aad",
-      "asr_requires_correction": true,
-      "source_sha256": "21ff219a8d825caf0cd5a1c47f02bddb78eed78c23abc01069f60735b3272ddb",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-18T19:10:23.749643+00:00",
-        "media_sha256": "dd5e9a747f9c9d783998ce1fdcc3047c92c32921aad7b3d2b2f8a154efa219ab",
-        "transcript_sha256": "8e336e76cc02e72315648ec6003d5f71ab8c471b0e569457d61714c5e97c3aad",
-        "source_sha256": "21ff219a8d825caf0cd5a1c47f02bddb78eed78c23abc01069f60735b3272ddb",
-        "evidence_sha256": "4607aff9d1d96d97615709c011ddf3c56e6fe272e5507d83053f9ad6510c11c1",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "21ff219a8d825caf0cd5a1c47f02bddb78eed78c23abc01069f60735b3272ddb",
-          "reviewed_source_sha256": "21ff219a8d825caf0cd5a1c47f02bddb78eed78c23abc01069f60735b3272ddb",
-          "duration": 26.883333,
-          "timestamps": [
-            0.0,
-            13.367,
-            26.733
-          ],
-          "source_frame_hashes": [
-            "bed68c3d1a4870070feb78a74d17d65f81faf54caeea20b48001714c915f507e",
-            "49b68b35a6d4064891341df1f7124e4cc68f1b959578966276a9438689fac5a7",
-            "e2492ce3164ec70af1a5361f7b330253800b9950cf765a6c2b3bd2c81a4201d0"
-          ],
-          "headline": "Focus",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay with game HUD visible, including health, inventory, and chat text, and a minimap in top-left corner.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a Minecraft world with multiple players and a block in the center, with chat text visible.",
-            "payoff": "No visible outcome or payoff from actions taken in the frames provided, as the player is still in the same location with no clear change in status or event occurring.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.044868556583848765,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the bottom right corner, a title 'Focus' centered at the top, and no browser or desktop window borders. The game HUD is visible, including health, inventory,",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            13.367,
-            26.733
-          ],
-          "final_frame_hashes": [
-            "aa75b64da0075ce8700f6fd86d7829ef52a88f65e5a0c068e73a5cf78715ff90",
-            "7b264aa7626893fbaed87d1af4cab33bd63eeca5ad43766e82fc7711b98c6a59",
-            "4044b4d4e078000f365a5abf219855aa805e796121f769202f68d3ac2778fa14"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "dd5e9a747f9c9d783998ce1fdcc3047c92c32921aad7b3d2b2f8a154efa219ab",
-          "transcript_sha256": "8e336e76cc02e72315648ec6003d5f71ab8c471b0e569457d61714c5e97c3aad"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the bottom right corner, a title 'Focus' centered at the top, and no browser or desktop window borders. The game HUD is visible, including health, inventory,"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0449, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3835744608-dd5e9a747f9c-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -353,14 +215,17 @@
       "streamer": "trymacs",
       "sha256": "dd5e9a747f9c9d783998ce1fdcc3047c92c32921aad7b3d2b2f8a154efa219ab",
       "source_sha256": "21ff219a8d825caf0cd5a1c47f02bddb78eed78c23abc01069f60735b3272ddb",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3835744608-dd5e9a747f9c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3835744608-dd5e9a747f9c.mp4",
       "clip_slug": "DeadMoistChoughMrDestructoid-CiHl1tw3rlau6XUJ",
       "original_created_at": "2026-10-18T18:40:13Z",
       "source_deadline": "2026-10-21T18:40:13Z",
       "buffer_post_id": "6ad5255ca48c8f8371b105b6",
-      "last_reconcile_at": "2026-10-18T20:06:31Z"
+      "last_reconcile_at": "2026-10-18T20:06:31Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698100310727740704",
+      "sent_at": "2026-10-18T20:02:45Z",
+      "verified_at": "2026-10-18T20:06:32Z"
     }
   ],
   "last_production": {

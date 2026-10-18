@@ -223,18 +223,18 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-18T12:08:07Z",
+    "at": "2026-10-18T12:33:44Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 81,
-      "listing_age_prefilter": 846,
-      "discovered": 643,
-      "metadata_requested": 636,
+      "listing_duration_prefilter": 80,
+      "listing_age_prefilter": 844,
+      "discovered": 645,
+      "metadata_requested": 638,
       "qualified_metadata": 393,
       "title_too_short": 62,
-      "gaming_category_not_verified": 181,
+      "gaming_category_not_verified": 183,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
@@ -335,5 +335,7 @@
       "at": "2026-10-18T12:33:44Z",
       "reason": "unsupported_title_glyph"
     }
-  ]
+  ],
+  "last_prepare_hour": "2026-10-18T12",
+  "last_prefetch_hour": "2026-10-18T12"
 }

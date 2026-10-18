@@ -202,8 +202,15 @@ class Worker:
             raise ServiceError('ineligible_queue_item')
         if identities(item)&set(state.get('used_ids',[])) or any(identities(attempt)&identities(item) or nearby_event(item,attempt) for attempt in state['attempts']):
             raise ServiceError('duplicate_clip')
-        overview = self.gateway.overview(stamp(history_start(current)),
-                                          stamp(current+dt.timedelta(days=1)))
+        try:
+            overview = self.gateway.overview(stamp(history_start(current)),
+                                              stamp(current+dt.timedelta(days=1)))
+        except ServiceError as error:
+            if str(error) not in ('buffer_http_401','buffer_http_403','buffer_http_429'):raise
+            state['last_send_rejection']={'reason':str(error),'at':stamp(current),
+                'retry_after':stamp(current+dt.timedelta(hours=1))}
+            self.store.save(state,sha)
+            return 'buffer_preflight_cooldown'
         posts = observed_posts(overview)
         if any(post['status'] != 'sent' for post in posts):
             raise ServiceError('other_buffer_post_unresolved')

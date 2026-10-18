@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "309969943",
+      "clip_slug": "BenevolentTriangularRuffTheTarFu-uXCV_hHtUedPGVwh",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/BenevolentTriangularRuffTheTarFu-uXCV_hHtUedPGVwh",
+      "original_title": "kevin tod",
+      "hook": "kevin tod",
+      "caption": "kevin tod\n#gaming #minecraft #twitchclips #papaplatte #gamer",
+      "views_at_selection": 374,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-17T19:48:50Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-309969943-726425a417cc.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-18T13:08:27Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "726425a417cc1957c4425c9a0919ab30cd1fb43df68f29e41c03a6981316074b",
+      "category": "Minecraft",
+      "transcript_sha256": "05b71a31594fb3bf9bc7f267ef5fa1591e6befa666684ed673e0288538e43812",
+      "asr_requires_correction": true,
+      "source_sha256": "61e2e16692e5ea7c77d0a6f3659c555ab9e45b7e609c241c5650d7cc2dc43b8c",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-18T13:08:27.044258+00:00",
+        "media_sha256": "726425a417cc1957c4425c9a0919ab30cd1fb43df68f29e41c03a6981316074b",
+        "transcript_sha256": "05b71a31594fb3bf9bc7f267ef5fa1591e6befa666684ed673e0288538e43812",
+        "source_sha256": "61e2e16692e5ea7c77d0a6f3659c555ab9e45b7e609c241c5650d7cc2dc43b8c",
+        "evidence_sha256": "44a91ad86d4d653ee79d8c11c05cf028ac40d0f57b132c800a65525158337ed4",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "61e2e16692e5ea7c77d0a6f3659c555ab9e45b7e609c241c5650d7cc2dc43b8c",
+          "reviewed_source_sha256": "61e2e16692e5ea7c77d0a6f3659c555ab9e45b7e609c241c5650d7cc2dc43b8c",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "2248bd8037324b47b233128b2c6f328a8d125fde6e5380398e9a8752826183f9",
+            "1af6cf9ccbe2e31b77d891b24b29897c2bf70d869740ac082b05d1e3be12699f",
+            "d69144758f15b633b0ecd1a9e02a6ae8de6ffe879051b6bbf5a38eb23f5f1ed8"
+          ],
+          "headline": "kevin tod",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in top right corner, showing streamer with headphones, alongside game UI elements like inventory, chat, and HUD. Game is Minecraft, with visible blocky terrain and UI text overlays.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible; frames show game UI, chat, and HUD elements without a clear action or outcome.",
+            "payoff": "No visible outcome or payoff; frames show static or routine game elements without a clear result or reaction from the player or game mechanics.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.03440568387433704,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a blurred background with a clear, legible text overlay 'kevin tod' at the top center. The gameplay area displays Minecraft UI elements, chat, and a facecam panel in the top right corner. The frame at 14.93s-",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "542a6bc42a29e5327d68d78f24aab041901a4ea5d324e650d9c59c3605c6e9c8",
+            "2e9d4f49659135666f4c4c4c9d134efef4ac8743820e86f13bc6ea117e2dd893",
+            "09a756137a2c44fe495cec7f6b4a5740b463c323eacf03ea5fe6a71c661c8d60"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "726425a417cc1957c4425c9a0919ab30cd1fb43df68f29e41c03a6981316074b",
+          "transcript_sha256": "05b71a31594fb3bf9bc7f267ef5fa1591e6befa666684ed673e0288538e43812"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a blurred background with a clear, legible text overlay 'kevin tod' at the top center. The gameplay area displays Minecraft UI elements, chat, and a facecam panel in the top right corner. The frame at 14.93s-"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0344, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-309969943-726425a417cc-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

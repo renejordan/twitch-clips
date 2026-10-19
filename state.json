@@ -479,12 +479,13 @@
       "streamer": "castcrafter",
       "sha256": "400335a204f88f787073a60f1d81f709c06cbbcc6442f7b72ea8f6ca4de06a72",
       "source_sha256": "b45428e715f954b3c9d028183d6c312f78bd23789a8fdf980b87b9bba31acafa",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1086399308-400335a204f8.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1086399308-400335a204f8.mp4",
       "clip_slug": "LuckyAltruisticSangTheTarFu-8R-YEZnpcbCOj3QP",
       "original_created_at": "2026-10-18T17:36:51Z",
-      "source_deadline": "2026-10-21T17:36:51Z"
+      "source_deadline": "2026-10-21T17:36:51Z",
+      "buffer_post_id": "6ad607500d5fe571c701e022"
     }
   ],
   "last_production": {

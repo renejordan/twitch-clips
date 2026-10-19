@@ -425,12 +425,13 @@
       "streamer": "krokoboss",
       "sha256": "723c729cf567cf2d3949bf5602d917c2ff65b76e2d491e21828ce2fd298f09e6",
       "source_sha256": "4e8c86b3d62fd715d3a2cdc5282518c646add98d3b9a4deac7aaf5b9316920da",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-154404618-723c729cf567.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-154404618-723c729cf567.mp4",
       "clip_slug": "SpinelessPhilanthropicMuleSuperVinlin-oi7yFDH5Ko3es176",
       "original_created_at": "2026-10-18T18:00:51Z",
-      "source_deadline": "2026-10-21T18:00:51Z"
+      "source_deadline": "2026-10-21T18:00:51Z",
+      "buffer_post_id": "6ad5dc2eea56886c47176417"
     }
   ],
   "last_production": {

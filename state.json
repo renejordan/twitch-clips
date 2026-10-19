@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2287042913",
+      "clip_slug": "LaconicOilyCasetteRiPepperonis-ybrrDySU858-eesG",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/LaconicOilyCasetteRiPepperonis-ybrrDySU858-eesG",
+      "original_title": "Inv gescamt",
+      "hook": "Inv gescamt",
+      "caption": "Inv gescamt\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 90,
+      "original_duration": 17.0,
+      "original_created_at": "2026-10-19T15:37:04Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2287042913-70db5faa0cbf.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-19T17:09:24Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "70db5faa0cbfc60c27cd7703cdace3b7da913a9526d11ff95d0dbac1d2280013",
+      "category": "Minecraft",
+      "transcript_sha256": "8f7520f02a52026799bdcd91c15063d3700b849417f2d88c107009ac2c7db44c",
+      "asr_requires_correction": true,
+      "source_sha256": "436d4e7c99c14ecb8c07441ace84822af620ccf0cb4033c3f80d2b54638f7672",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-19T17:09:24.293266+00:00",
+        "media_sha256": "70db5faa0cbfc60c27cd7703cdace3b7da913a9526d11ff95d0dbac1d2280013",
+        "transcript_sha256": "8f7520f02a52026799bdcd91c15063d3700b849417f2d88c107009ac2c7db44c",
+        "source_sha256": "436d4e7c99c14ecb8c07441ace84822af620ccf0cb4033c3f80d2b54638f7672",
+        "evidence_sha256": "1713946d4d459e3574bc7e99e20c25e81d3d84ea788c800eef5f5ec45564dcf0",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "436d4e7c99c14ecb8c07441ace84822af620ccf0cb4033c3f80d2b54638f7672",
+          "reviewed_source_sha256": "436d4e7c99c14ecb8c07441ace84822af620ccf0cb4033c3f80d2b54638f7672",
+          "duration": 17.045,
+          "timestamps": [
+            0.0,
+            8.448,
+            16.895
+          ],
+          "source_frame_hashes": [
+            "ed21a8cb8d4a627d987afc1a8ec3e64b54092a5b5041a6c6040878e709b91d81",
+            "fce73647330729d099bef6a0cc2d964a6fbd0bcefcc859e62d22b4890d606d9b",
+            "f6c52c84cbc99589c941cb4c944275214f1459aa1bfd49ba4ae4e051e1d430a5"
+          ],
+          "headline": "Inv gescamt",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, chat overlay, game HUD visible",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft, face camera visible, chat overlay, game HUD visible",
+            "payoff": "No visible outcome or payoff in frames provided, no win/loss or clear reaction visible",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.06423706927404524,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The provided frames show a Minecraft gameplay session with a facecam panel in the top-left corner, which is a common editing style for live streams. The game's HUD, including the inventory bar and health bar, is visible. The chat overlay is",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            8.448,
+            16.895
+          ],
+          "final_frame_hashes": [
+            "534d2b809ecab97558e973cfe2ca17243a634c907f8b6849c89c94da8ec9842d",
+            "dba9a13377f3620f234c8c8a1293dd982382c9bc1cd2c3f1a7d482810af1b467",
+            "aef07f995d578132c15c8d89ab6660a2e22f57b608c6b90cb337bbdd0c18e8c4"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "70db5faa0cbfc60c27cd7703cdace3b7da913a9526d11ff95d0dbac1d2280013",
+          "transcript_sha256": "8f7520f02a52026799bdcd91c15063d3700b849417f2d88c107009ac2c7db44c"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The provided frames show a Minecraft gameplay session with a facecam panel in the top-left corner, which is a common editing style for live streams. The game's HUD, including the inventory bar and health bar, is visible. The chat overlay is"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0642, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2287042913-70db5faa0cbf-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

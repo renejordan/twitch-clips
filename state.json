@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "154404618",
+      "clip_slug": "SpinelessPhilanthropicMuleSuperVinlin-oi7yFDH5Ko3es176",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/SpinelessPhilanthropicMuleSuperVinlin-oi7yFDH5Ko3es176",
+      "original_title": "Kroko geht insane",
+      "hook": "Kroko geht insane",
+      "caption": "Kroko geht insane\n#gaming #minecraft #twitchclips #krokoboss #gamer",
+      "views_at_selection": 257,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-18T18:00:51Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-154404618-723c729cf567.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-19T08:06:18Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "723c729cf567cf2d3949bf5602d917c2ff65b76e2d491e21828ce2fd298f09e6",
+      "category": "Minecraft",
+      "transcript_sha256": "f98e726a7420c16566d68f74c6729c90e67e052eac22cbadd89c233b11b4b6ad",
+      "asr_requires_correction": true,
+      "source_sha256": "4e8c86b3d62fd715d3a2cdc5282518c646add98d3b9a4deac7aaf5b9316920da",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-19T08:06:18.087675+00:00",
+        "media_sha256": "723c729cf567cf2d3949bf5602d917c2ff65b76e2d491e21828ce2fd298f09e6",
+        "transcript_sha256": "f98e726a7420c16566d68f74c6729c90e67e052eac22cbadd89c233b11b4b6ad",
+        "source_sha256": "4e8c86b3d62fd715d3a2cdc5282518c646add98d3b9a4deac7aaf5b9316920da",
+        "evidence_sha256": "452ce874056ad0daa99571c00f97d835e3da5f0569b7c62a07273eb2cdbd4f20",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "4e8c86b3d62fd715d3a2cdc5282518c646add98d3b9a4deac7aaf5b9316920da",
+          "reviewed_source_sha256": "4e8c86b3d62fd715d3a2cdc5282518c646add98d3b9a4deac7aaf5b9316920da",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "dd2ec34a29618f1082ccbb9f88f2dacc70406f8da274fc7169a6cbbac5122b04",
+            "0e939ea2da4fa6cbd45eb93574424b35d107f4c83e83b0019ad61c6e00961ae6",
+            "1c7603fc1dc3588a0a4f82d7c3cbf7ec9f6d961c7895252090c45c1ad8b7769c"
+          ],
+          "headline": "Kroko geht insane",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Top-left corner shows a minimap, bottom-left shows inventory, bottom-center shows health and hunger bars, and top-right shows a face camera of a player with headphones. The game is Minecraft, with a first-person view of砖",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is navigating a constructed brick and wood structure in Minecraft, with a minimap and inventory visible.",
+            "payoff": "No visible outcome or payoff; player continues navigating the structure without a clear win or loss condition being met or triggered.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.04614552413656956,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a minimap and inventory visible, and a facecam panel in the top right corner. The title 'Kroko geht insane' is clearly visible as a subtitle. The gameplay area is large enough, ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "a0018902ae8ec42d864ea7b34ad9797b91b61b7d157f39ca17b72a76616de6b6",
+            "0519fad61a0481adffdeacecb24e9c2c658b8e64a24f1f58af2889e23b955aff",
+            "1ae590d915f36fb1552936e682c7380ffebf37cb349bd2950c06c41910789397"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "723c729cf567cf2d3949bf5602d917c2ff65b76e2d491e21828ce2fd298f09e6",
+          "transcript_sha256": "f98e726a7420c16566d68f74c6729c90e67e052eac22cbadd89c233b11b4b6ad"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a minimap and inventory visible, and a facecam panel in the top right corner. The title 'Kroko geht insane' is clearly visible as a subtitle. The gameplay area is large enough, "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0461, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-154404618-723c729cf567-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

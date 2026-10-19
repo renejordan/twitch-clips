@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1086399308",
-      "clip_slug": "LuckyAltruisticSangTheTarFu-8R-YEZnpcbCOj3QP",
-      "streamer": "castcrafter",
-      "source_url": "https://www.twitch.tv/castcrafter/clip/LuckyAltruisticSangTheTarFu-8R-YEZnpcbCOj3QP",
-      "original_title": "Lapuzzy",
-      "hook": "Lapuzzy",
-      "caption": "Lapuzzy\n#gaming #minecraft #twitchclips #castcrafter #gamer",
-      "views_at_selection": 242,
-      "original_duration": 16.0,
-      "original_created_at": "2026-10-18T17:36:51Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1086399308-400335a204f8.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-19T11:32:25Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "400335a204f88f787073a60f1d81f709c06cbbcc6442f7b72ea8f6ca4de06a72",
-      "category": "Minecraft",
-      "transcript_sha256": "31dc2e728458bb45007b83c8db0b530c215a28a1701b005fd9fe3cfeca0ea3ee",
-      "asr_requires_correction": true,
-      "source_sha256": "b45428e715f954b3c9d028183d6c312f78bd23789a8fdf980b87b9bba31acafa",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-19T11:32:25.127057+00:00",
-        "media_sha256": "400335a204f88f787073a60f1d81f709c06cbbcc6442f7b72ea8f6ca4de06a72",
-        "transcript_sha256": "31dc2e728458bb45007b83c8db0b530c215a28a1701b005fd9fe3cfeca0ea3ee",
-        "source_sha256": "b45428e715f954b3c9d028183d6c312f78bd23789a8fdf980b87b9bba31acafa",
-        "evidence_sha256": "b535170e511f9170d0c857ffc669d6186c24aa7db0ef801a97f4c2426d769c67",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "b45428e715f954b3c9d028183d6c312f78bd23789a8fdf980b87b9bba31acafa",
-          "reviewed_source_sha256": "b45428e715f954b3c9d028183d6c312f78bd23789a8fdf980b87b9bba31acafa",
-          "duration": 16.554,
-          "timestamps": [
-            0.0,
-            8.202,
-            16.404
-          ],
-          "source_frame_hashes": [
-            "47f79c766425fc1335ffad4b2224a2c93a650ae5bca4c36f549050dbe9454b9a",
-            "6418245dba885e2f078cc48693863781d2b14e63dc61074a67c240776a87e048",
-            "57e504dcc7d9616a365f55fb86b1d9ebcd42b06646577a8de95875b7c984dce7"
-          ],
-          "headline": "Lapuzzy",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is building a structure with iron and stone blocks.",
-            "payoff": "Player is mining dirt blocks, no clear outcome or payoff visible in frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.05692420099286184,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, which is a common edited gaming layout. The title 'Lapuzzy' is clearly visible as a subtitle at the top center, matching the expected 'L",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            8.202,
-            16.404
-          ],
-          "final_frame_hashes": [
-            "d382cb25b6f4b6af626759d8cf24865ef1786a81e89aa47e028f54be96ecdbe5",
-            "9cc270d5e71c2e057e5227d0cfa647fa0e9b7a713e66a9921a5659925dffc838",
-            "fe8aa9c40db383642ad38aac2ad2f4c28fd9095a05fcaadb2efd269a7f0672eb"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "400335a204f88f787073a60f1d81f709c06cbbcc6442f7b72ea8f6ca4de06a72",
-          "transcript_sha256": "31dc2e728458bb45007b83c8db0b530c215a28a1701b005fd9fe3cfeca0ea3ee"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, which is a common edited gaming layout. The title 'Lapuzzy' is clearly visible as a subtitle at the top center, matching the expected 'L"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0569, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1086399308-400335a204f8-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -479,14 +341,17 @@
       "streamer": "castcrafter",
       "sha256": "400335a204f88f787073a60f1d81f709c06cbbcc6442f7b72ea8f6ca4de06a72",
       "source_sha256": "b45428e715f954b3c9d028183d6c312f78bd23789a8fdf980b87b9bba31acafa",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1086399308-400335a204f8.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1086399308-400335a204f8.mp4",
       "clip_slug": "LuckyAltruisticSangTheTarFu-8R-YEZnpcbCOj3QP",
       "original_created_at": "2026-10-18T17:36:51Z",
       "source_deadline": "2026-10-21T17:36:51Z",
       "buffer_post_id": "6ad607500d5fe571c701e022",
-      "last_reconcile_at": "2026-10-19T15:06:28Z"
+      "last_reconcile_at": "2026-10-19T15:06:28Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698348972989025569",
+      "sent_at": "2026-10-19T12:09:18Z",
+      "verified_at": "2026-10-19T16:06:51Z"
     }
   ],
   "last_production": {

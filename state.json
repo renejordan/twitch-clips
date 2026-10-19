@@ -529,27 +529,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-19T16:44:58Z",
+    "at": "2026-10-19T17:09:24Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
+      "listing_duration_prefilter": 84,
       "listing_ok": 100,
-      "listing_duration_prefilter": 83,
-      "listing_age_prefilter": 751,
-      "discovered": 797,
-      "metadata_requested": 775,
-      "gaming_category_not_verified": 389,
-      "qualified_metadata": 323,
+      "listing_age_prefilter": 763,
+      "discovered": 783,
+      "metadata_requested": 760,
+      "gaming_category_not_verified": 378,
+      "qualified_metadata": 322,
+      "title_too_short": 60,
       "duplicate_source_event": 5,
-      "title_too_short": 63,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2974198887",
-      "clip_slug": "PopularDistinctGnatNononoCat-Z6J58bDtx2AcSjwd",
-      "streamer": "niekbeats"
+      "clip_id": "2287042913",
+      "clip_slug": "LaconicOilyCasetteRiPepperonis-ybrrDySU858-eesG",
+      "streamer": "castcrafter"
     }
   },
   "prepare_scans": {
@@ -670,6 +670,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-19T16",
-  "last_prefetch_hour": "2026-10-19T16"
+  "last_prepare_hour": "2026-10-19T17",
+  "last_prefetch_hour": "2026-10-19T17"
 }

@@ -454,6 +454,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698316820259818784",
       "sent_at": "2026-10-19T10:02:15Z",
       "verified_at": "2026-10-19T10:02:28Z"
+    },
+    {
+      "clip_id": "3858506260",
+      "reserved_at": "2026-10-19T11:22:45Z",
+      "streamer": "krokoboss",
+      "sha256": "8106a6d0c03a70874d3fe4f9c51a9e0ffef740a3b0584497c90bc8794510cb6f",
+      "source_sha256": "55f7cf4a5505cb384c070a73e855a6d47ebd31c4245ef4ad9b217b9646ea72ec",
+      "status": "reserved",
+      "asset_title": "tiktok14-3858506260-8106a6d0c03a.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3858506260-8106a6d0c03a.mp4",
+      "clip_slug": "OilyDepressedStarlingKeepo-o8pKbvo5BtgOTvFc",
+      "original_created_at": "2026-10-18T19:44:07Z",
+      "source_deadline": "2026-10-21T19:44:07Z"
     }
   ],
   "last_production": {

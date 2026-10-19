@@ -33,8 +33,59 @@ class ServiceTests(unittest.TestCase):
         for field, value in [('author_url', 'https://www.tiktok.com/@other'),
                              ('provider_name', 'Other'), ('type', 'photo'),
                              ('html', '<p>7697189362877992225</p>')]:
-            with patch.object(services, 'request_json', return_value={**good, field:value}):
+            with patch.object(services, 'request_json', return_value={**good, field:value}), patch.object(services, 'request_public_page', return_value=''):
                 self.assertFalse(services.verify_public('https://www.tiktok.com/@ufo3103/video/7697189362877992225'))
+
+    def public_page(self, **changes):
+        item = {'id':'7697189362877992225',
+                'author':{'uniqueId':'ufo3103','privateAccount':False,'secret':False},
+                'privateItem':False,'secret':False,
+                'video':{'id':'7697189362877992225','duration':16}}
+        item.update(changes)
+        data = {'__DEFAULT_SCOPE__':{'webapp.video-detail':{
+            'statusCode':0,'itemInfo':{'itemStruct':item}}}}
+        return '<script id="__UNIVERSAL_DATA_FOR_REHYDRATION__" type="application/json">'+json.dumps(data)+'</script>'
+
+    def test_rate_limited_oembed_uses_exact_public_video_page(self):
+        with patch.object(services,'request_json',side_effect=services.ServiceError('tiktok_http_429')), patch.object(services,'request_public_page',return_value=self.public_page()) as page:
+            self.assertTrue(services.verify_public('https://tiktok.com/@ufo3103/video/7697189362877992225'))
+            page.assert_called_once_with('https://www.tiktok.com/@ufo3103/video/7697189362877992225')
+
+    def test_empty_oembed_can_be_confirmed_by_public_page(self):
+        with patch.object(services,'request_json',return_value={}), patch.object(services,'request_public_page',return_value=self.public_page()):
+            self.assertTrue(services.verify_public('https://www.tiktok.com/@ufo3103/video/7697189362877992225'))
+
+    def test_public_fallback_rejects_private_wrong_account_wrong_id_and_photos(self):
+        for changes in ({'privateItem':True},{'secret':True},{'id':'7697189362877999999'},
+                        {'author':{'uniqueId':'other','privateAccount':False,'secret':False}},
+                        {'author':{'uniqueId':'ufo3103','privateAccount':True,'secret':False}},
+                        {'video':{}},{'video':{'id':'7697189362877999999','duration':16}},
+                        {'privateItem':None}):
+            with self.subTest(changes=changes),patch.object(services,'request_json',return_value={}),patch.object(services,'request_public_page',return_value=self.public_page(**changes)):
+                self.assertFalse(services.verify_public('https://www.tiktok.com/@ufo3103/video/7697189362877992225'))
+
+    def test_public_fallback_rejects_unavailable_malformed_and_related_video_markup(self):
+        good=self.public_page()
+        for body in ('', 'ratelimit triggered',good.replace('"statusCode": 0','"statusCode": 10204'),
+                     good.replace('__UNIVERSAL_DATA_FOR_REHYDRATION__','RELATED_VIDEOS'),
+                     good.replace('"itemStruct": {','"itemStruct": [] , "unrelated": {'),
+                     '<script id="__UNIVERSAL_DATA_FOR_REHYDRATION__">invalid json</script>'):
+            with self.subTest(body=body[:40]),patch.object(services,'request_json',return_value={}),patch.object(services,'request_public_page',return_value=body):
+                self.assertFalse(services.verify_public('https://www.tiktok.com/@ufo3103/video/7697189362877992225'))
+
+    def test_both_public_checks_unavailable_do_not_confirm(self):
+        with patch.object(services,'request_json',side_effect=services.ServiceError('tiktok_http_429')),patch.object(services,'request_public_page',side_effect=services.ServiceError('tiktok_page_http_429')):
+            self.assertFalse(services.verify_public('https://www.tiktok.com/@ufo3103/video/7697189362877992225'))
+
+    def test_public_page_fetch_is_bounded_and_rejects_other_accounts_without_request(self):
+        for url in ('https://evil.test/video/7697189362877992225','https://www.tiktok.com/@other/video/7697189362877992225'):
+            with patch.object(services,'build_opener') as opener:
+                with self.assertRaises(services.ServiceError):services.request_public_page(url)
+                opener.assert_not_called()
+        class Opener:
+            def open(self,*args,**kwargs):return io.BytesIO(b' '*(services.MAX_BYTES+1))
+        with patch.object(services,'build_opener',return_value=Opener()):
+            with self.assertRaises(services.ServiceError):services.request_public_page('https://www.tiktok.com/@ufo3103/video/7697189362877992225')
 
     def test_untrusted_video_urls_never_make_requests(self):
         for url in ('http://tiktok.com/@ufo3103/video/123',

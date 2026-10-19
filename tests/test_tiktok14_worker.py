@@ -261,6 +261,30 @@ class WorkerTests(unittest.TestCase):
         self.assertEqual(self.store.data['queue'], [])
         self.assertEqual(len(self.gateway.sent), 1)
 
+    def test_public_page_recovers_sent_post_after_oembed_failure_without_resending(self):
+        import json
+        from unittest.mock import patch
+        import tiktok14_services as services
+        self.run_one()
+        self.gateway.result.update(status='sent',externalLink=URL,sentAt='2026-10-16T12:00:02Z')
+        self.worker.verify=services.verify_public
+        item={'id':URL.rsplit('/',1)[1],
+              'author':{'uniqueId':'ufo3103','privateAccount':False,'secret':False},
+              'privateItem':False,'secret':False,
+              'video':{'id':URL.rsplit('/',1)[1],'duration':16}}
+        data={'__DEFAULT_SCOPE__':{'webapp.video-detail':{
+            'statusCode':0,'itemInfo':{'itemStruct':item}}}}
+        page='<script id="__UNIVERSAL_DATA_FOR_REHYDRATION__">'+json.dumps(data)+'</script>'
+        with patch.object(services,'request_json',side_effect=ServiceError('tiktok_http_429')):
+            with patch.object(services,'request_public_page',return_value=''):
+                self.assertEqual(self.run_one(),'unverified')
+                self.assertEqual(self.store.data['attempts'][0]['status'],'pending')
+            with patch.object(services,'request_public_page',return_value=page):
+                self.assertEqual(self.run_one(),'verified_public')
+                self.assertEqual(self.run_one(),'empty')
+        self.assertEqual(self.store.data['queue'],[])
+        self.assertEqual(len(self.gateway.sent),1)
+
     def test_external_history_unknown_or_expired_prevents_sending(self):
         for changes in ({'complete':False}, {'valid_until':'2026-10-16T11:59:59Z'},
                         {'window_start':'2026-10-16T00:00:00Z'},

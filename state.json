@@ -490,6 +490,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698348972989025569",
       "sent_at": "2026-10-19T12:09:18Z",
       "verified_at": "2026-10-19T16:06:51Z"
+    },
+    {
+      "clip_id": "3026950595",
+      "reserved_at": "2026-10-19T16:20:12Z",
+      "streamer": "trymacs",
+      "sha256": "ac78eeba099295074073c0446e7d574b328b7773f7ff2de586d5fba4fe36e0ad",
+      "source_sha256": "9b8f7be6c462a8b7808c05f51ff305ccca0ba1a27ed513eaec6d11cf67d21e91",
+      "status": "reserved",
+      "asset_title": "tiktok14-3026950595-ac78eeba0992.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3026950595-ac78eeba0992.mp4",
+      "clip_slug": "SullenRelievedPartridgeCoolStoryBob-rk78ZtmkT5icWsva",
+      "original_created_at": "2026-10-18T18:43:44Z",
+      "source_deadline": "2026-10-21T18:43:44Z"
     }
   ],
   "last_production": {

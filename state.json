@@ -421,28 +421,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-19T07:06:26Z",
+    "at": "2026-10-19T08:06:18Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 89,
+      "listing_duration_prefilter": 88,
       "listing_ok": 100,
-      "listing_age_prefilter": 774,
-      "discovered": 837,
-      "metadata_requested": 822,
-      "gaming_category_not_verified": 415,
-      "qualified_metadata": 354,
-      "title_too_short": 53,
-      "duplicate_source_event": 7,
+      "listing_age_prefilter": 769,
+      "discovered": 832,
+      "metadata_requested": 815,
+      "gaming_category_not_verified": 404,
+      "qualified_metadata": 359,
+      "title_too_short": 52,
+      "duplicate_source_event": 6,
       "download_attempted": 2,
       "render_attempted": 2,
-      "qa_duration_invalid": 1,
+      "qa_visual_gameplay_visible": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "635147332",
-      "clip_slug": "LongGlamorousCakePunchTrees-9zfzEzIDv286aX8j",
-      "streamer": "repaz"
+      "clip_id": "154404618",
+      "clip_slug": "SpinelessPhilanthropicMuleSuperVinlin-oi7yFDH5Ko3es176",
+      "streamer": "krokoboss"
     }
   },
   "prepare_scans": {
@@ -563,6 +563,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-19T07",
-  "last_prefetch_hour": "2026-10-19T07"
+  "last_prepare_hour": "2026-10-19T08",
+  "last_prefetch_hour": "2026-10-19T08"
 }

@@ -443,12 +443,13 @@
       "streamer": "krokoboss",
       "sha256": "67314ffbfe5510e5cd888d04168c48e63ba6348492319fdf70d9e3f95845b5c2",
       "source_sha256": "462dc1849985cda2589c42c910ab07e52215f1f0daf0f4fb5c2a20204500943e",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1847050907-67314ffbfe55.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1847050907-67314ffbfe55.mp4",
       "clip_slug": "VenomousGlamorousChinchillaSmoocherZ-Zl9hxVnxvYE5D6_X",
       "original_created_at": "2026-10-18T23:21:31Z",
-      "source_deadline": "2026-10-21T23:21:31Z"
+      "source_deadline": "2026-10-21T23:21:31Z",
+      "buffer_post_id": "6ad5ea4204e1e2b04408dc29"
     }
   ],
   "last_production": {

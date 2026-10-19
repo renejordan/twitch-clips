@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "4043106256",
-      "clip_slug": "KnottyExuberantWormMikeHogu-HGJXwonT3bAgzJ23",
-      "streamer": "bastighg",
-      "source_url": "https://www.twitch.tv/bastighg/clip/KnottyExuberantWormMikeHogu-HGJXwonT3bAgzJ23",
-      "original_title": "Aurafarming von Basti",
-      "hook": "Aurafarming von Basti",
-      "caption": "Aurafarming von Basti\n#gaming #minecraft #twitchclips #bastighg #gamer",
-      "views_at_selection": 246,
-      "original_duration": 24.0,
-      "original_created_at": "2026-10-19T17:49:03Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-4043106256-f029b3ffd793.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-19T19:09:53Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "f029b3ffd793bcbd8d1cfe312ef4c6e21d5f4c52fe35344984f2d436dcf5f6f5",
-      "category": "Minecraft",
-      "transcript_sha256": "b905fa9752ce42e81ade5554de86a050ad2c387be516aed8224ab7584e1fa77e",
-      "asr_requires_correction": true,
-      "source_sha256": "84b2adff4d135f39db133083a5cdbd4592457a011b5d17d2afc836f4b75ba293",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-19T19:09:53.939704+00:00",
-        "media_sha256": "f029b3ffd793bcbd8d1cfe312ef4c6e21d5f4c52fe35344984f2d436dcf5f6f5",
-        "transcript_sha256": "b905fa9752ce42e81ade5554de86a050ad2c387be516aed8224ab7584e1fa77e",
-        "source_sha256": "84b2adff4d135f39db133083a5cdbd4592457a011b5d17d2afc836f4b75ba293",
-        "evidence_sha256": "2789138438bac8d8125c359fb67a74526cd6ccf43ba67e90d5604c1b852d2920",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "84b2adff4d135f39db133083a5cdbd4592457a011b5d17d2afc836f4b75ba293",
-          "reviewed_source_sha256": "84b2adff4d135f39db133083a5cdbd4592457a011b5d17d2afc836f4b75ba293",
-          "duration": 24.768,
-          "timestamps": [
-            0.0,
-            12.309,
-            24.618
-          ],
-          "source_frame_hashes": [
-            "bd099e04fefc7c5b65f2f30ce1148f799fcc7c2993f0d3d311151972e219a260",
-            "ae5054661e79474349890e8bcc35085f43635490335a0197abb516a8a736855c",
-            "61ddfc5d1844ef5471d0616862ebcd1a8a659b604638cc076008a8dbda864ab1"
-          ],
-          "headline": "Aurafarming von Basti",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, game HUD present with inventory and chat, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft lobby with inventory and chat visible, no clear action or outcome",
-            "payoff": "No visible outcome or payoff from actions taken in frames, no win/loss or reaction visible",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.02618756767124374,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft lobby with inventory and chat visible, no clear action or outcome. The frame at 12.31 seconds shows a sound effects menu, which is a menu overlay, not gameplay. The frame at 24.62 seconds shows a ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            12.309,
-            24.618
-          ],
-          "final_frame_hashes": [
-            "a7208ba6a8b6ed7bb6eefdc94c346eebf6cc042cfe7c67b1109aa21bf38f0edf",
-            "9b7b23a2f697a370d3b4571dd4960b9ca76dc3b1b6567faaa6939766e253b7f4",
-            "6a44afceea177b120c552e65799cc0affad68a5139f5de7d158995c99d5b4840"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "f029b3ffd793bcbd8d1cfe312ef4c6e21d5f4c52fe35344984f2d436dcf5f6f5",
-          "transcript_sha256": "b905fa9752ce42e81ade5554de86a050ad2c387be516aed8224ab7584e1fa77e"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft lobby with inventory and chat visible, no clear action or outcome. The frame at 12.31 seconds shows a sound effects menu, which is a menu overlay, not gameplay. The frame at 24.62 seconds shows a "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0262, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-4043106256-f029b3ffd793-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -569,14 +431,17 @@
       "streamer": "bastighg",
       "sha256": "f029b3ffd793bcbd8d1cfe312ef4c6e21d5f4c52fe35344984f2d436dcf5f6f5",
       "source_sha256": "84b2adff4d135f39db133083a5cdbd4592457a011b5d17d2afc836f4b75ba293",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-4043106256-f029b3ffd793.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-4043106256-f029b3ffd793.mp4",
       "clip_slug": "KnottyExuberantWormMikeHogu-HGJXwonT3bAgzJ23",
       "original_created_at": "2026-10-19T17:49:03Z",
       "source_deadline": "2026-10-22T17:49:03Z",
       "buffer_post_id": "6ad676dcb87e2d180251445f",
-      "last_reconcile_at": "2026-10-19T20:06:29Z"
+      "last_reconcile_at": "2026-10-19T20:06:29Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698471362897136928",
+      "sent_at": "2026-10-19T20:02:28Z",
+      "verified_at": "2026-10-19T20:06:30Z"
     }
   ],
   "last_production": {

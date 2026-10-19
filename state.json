@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2205224163",
+      "clip_slug": "SourBovineDragonKappa-t1xF9n2xTK0XtAVV",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/SourBovineDragonKappa-t1xF9n2xTK0XtAVV",
+      "original_title": "thzemenwechsel",
+      "hook": "thzemenwechsel",
+      "caption": "thzemenwechsel\n#gaming #minecraft #twitchclips #zarbex #gamer",
+      "views_at_selection": 728,
+      "original_duration": 31.0,
+      "original_created_at": "2026-10-19T16:42:18Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-2205224163-295fe84b6cbe.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-19T18:06:23Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "295fe84b6cbeeafa5d0f94eabe0868b7fa7d21ddc0b8d8f75af04be7273445f3",
+      "category": "Minecraft",
+      "transcript_sha256": "5e252997e2bd4ac0ee40fafbed1662cea497b11182d46cfd7d4bba955b7718f2",
+      "asr_requires_correction": true,
+      "source_sha256": "85a5c9c60c6e7aac38220ca92adebe1a877e8bfe5c9e23ce2e764dc4147d529f",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-19T18:06:23.378182+00:00",
+        "media_sha256": "295fe84b6cbeeafa5d0f94eabe0868b7fa7d21ddc0b8d8f75af04be7273445f3",
+        "transcript_sha256": "5e252997e2bd4ac0ee40fafbed1662cea497b11182d46cfd7d4bba955b7718f2",
+        "source_sha256": "85a5c9c60c6e7aac38220ca92adebe1a877e8bfe5c9e23ce2e764dc4147d529f",
+        "evidence_sha256": "8d135208648a1088745509bf2e274818814a69a60a6e4a5fe57a86236ab64d7c",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "85a5c9c60c6e7aac38220ca92adebe1a877e8bfe5c9e23ce2e764dc4147d529f",
+          "reviewed_source_sha256": "85a5c9c60c6e7aac38220ca92adebe1a877e8bfe5c9e23ce2e764dc4147d529f",
+          "duration": 31.68,
+          "timestamps": [
+            0.0,
+            15.765,
+            31.53
+          ],
+          "source_frame_hashes": [
+            "035e4d24c78648e32f60cec55ec1fa36499f394775dde2569661e13d6e348f68",
+            "fef2ee1d3639cd5562756c35f9495761be65769045a9f76d6a740bf8f0751d9e",
+            "01ea474e05802372e0669c6c0fadce4ca13fc4df45e601064fad562651fd3574"
+          ],
+          "headline": "thzemenwechsel",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, visible chat and HUD, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft mines a gold vein in a dark cave, no visible outcome or reaction.",
+            "payoff": "No visible payoff or outcome from mining action; no win/loss or reaction visible in frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.07244138757473813,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The text 'thzemenwech'",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            15.765,
+            31.53
+          ],
+          "final_frame_hashes": [
+            "5cb33e77857857f7928938e860e9b9ec09e731499de923f7d60eab76118ffa96",
+            "db25d5667e9a5b72fac428ae7d403feadc4188fd7435d48490fea142c729a5c1",
+            "9210aa1745e91beea4dda704a642f86c8f0bca55451a2cdd36424611b37a1ef1"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "295fe84b6cbeeafa5d0f94eabe0868b7fa7d21ddc0b8d8f75af04be7273445f3",
+          "transcript_sha256": "5e252997e2bd4ac0ee40fafbed1662cea497b11182d46cfd7d4bba955b7718f2"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The text 'thzemenwech'"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0724, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-2205224163-295fe84b6cbe-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

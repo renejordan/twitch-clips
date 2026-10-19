@@ -2,6 +2,7 @@
 import base64
 import json
 import re
+from html.parser import HTMLParser
 from urllib.error import HTTPError
 from urllib.parse import urlencode, urlsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
@@ -81,14 +82,84 @@ def canonical_video(url):
     return 'https://www.tiktok.com/@ufo3103/video/' + url.rsplit('/', 1)[1]
 
 
+def request_public_page(url):
+    """Read only the exact public account/video page, without credentials."""
+    canonical = canonical_video(url)
+    request = Request(canonical, headers={'User-Agent':'TikTok14/1.0','Accept':'text/html'})
+    try:
+        with build_opener(NoRedirect()).open(request, timeout=25) as response:
+            raw = response.read(MAX_BYTES+1)
+    except HTTPError as error:
+        raise ServiceError('tiktok_page_http_'+str(error.code)) from None
+    except Exception:
+        raise ServiceError('tiktok_page_transport_error') from None
+    if len(raw)>MAX_BYTES:raise ServiceError('tiktok_page_too_large')
+    try:return raw.decode('utf-8')
+    except UnicodeError:raise ServiceError('tiktok_page_invalid_encoding') from None
+
+
+class PublicVideoData(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=False)
+        self.active=False
+        self.blocks=[]
+        self.parts=[]
+
+    def handle_starttag(self,tag,attrs):
+        if tag=='script' and dict(attrs).get('id')=='__UNIVERSAL_DATA_FOR_REHYDRATION__':
+            self.active=True
+            self.parts=[]
+
+    def handle_data(self,data):
+        if self.active:self.parts.append(data)
+
+    def handle_endtag(self,tag):
+        if tag=='script' and self.active:
+            self.blocks.append(''.join(self.parts))
+            self.active=False
+
+
+def public_page_evidence(page,video_id):
+    """Ignore titles/recommendations: require the served public video's data."""
+    try:
+        parser=PublicVideoData()
+        parser.feed(page)
+        if len(parser.blocks)!=1:return False,'page_missing_video_data'
+        detail=json.loads(parser.blocks[0])['__DEFAULT_SCOPE__']['webapp.video-detail']
+        if type(detail.get('statusCode')) is not int or detail['statusCode']!=0:
+            return False,'page_video_unavailable'
+        item=detail['itemInfo']['itemStruct']
+        author=item['author']
+        if item['id']!=video_id or author['uniqueId']!='ufo3103':
+            return False,'page_identity_mismatch'
+        if (item.get('privateItem') is not False or item.get('secret') is not False
+                or author.get('privateAccount') is not False or author.get('secret') is not False):
+            return False,'page_not_public'
+        video=item['video']
+        if (video.get('id')!=video_id or type(video.get('duration')) is not int
+                or video['duration']<=0):return False,'page_not_video'
+        return True,'page_verified'
+    except (KeyError,TypeError,ValueError,AttributeError):
+        return False,'page_invalid_video_data'
+
+
 def verify_public(url):
     canonical = canonical_video(url)
     video_id = canonical.rsplit('/', 1)[1]
-    body = request_json('https://www.tiktok.com/oembed?' + urlencode({'url':canonical}))
-    return (body.get('provider_name') == 'TikTok' and body.get('type') == 'video'
-            and body.get('author_url') == 'https://www.tiktok.com/@ufo3103'
-            and bool(re.search(r'data-video-id=[\"\x27]' + video_id + r'[\"\x27]',
-                               str(body.get('html', '')))))
+    reason='oembed_unmatched'
+    try:
+        body = request_json('https://www.tiktok.com/oembed?' + urlencode({'url':canonical}))
+        if (body.get('provider_name') == 'TikTok' and body.get('type') == 'video'
+                and body.get('author_url') == 'https://www.tiktok.com/@ufo3103'
+                and re.search(r'data-video-id=[\"\x27]' + video_id + r'[\"\x27]',str(body.get('html','')))):
+            print('TikTok public check: oembed_verified',flush=True)
+            return True
+    except ServiceError as error:
+        reason='oembed_'+str(error)
+    try:verified,page_reason=public_page_evidence(request_public_page(canonical),video_id)
+    except ServiceError as error:verified,page_reason=False,str(error)
+    print('TikTok public check: '+reason+'; '+page_reason,flush=True)
+    return verified
 
 
 POST_FIELDS = '''id status text channelId sentAt dueAt createdAt externalLink

@@ -562,6 +562,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698455929443962144",
       "sent_at": "2026-10-19T19:02:57Z",
       "verified_at": "2026-10-19T19:06:35Z"
+    },
+    {
+      "clip_id": "4043106256",
+      "reserved_at": "2026-10-19T20:00:26Z",
+      "streamer": "bastighg",
+      "sha256": "f029b3ffd793bcbd8d1cfe312ef4c6e21d5f4c52fe35344984f2d436dcf5f6f5",
+      "source_sha256": "84b2adff4d135f39db133083a5cdbd4592457a011b5d17d2afc836f4b75ba293",
+      "status": "reserved",
+      "asset_title": "tiktok14-4043106256-f029b3ffd793.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-4043106256-f029b3ffd793.mp4",
+      "clip_slug": "KnottyExuberantWormMikeHogu-HGJXwonT3bAgzJ23",
+      "original_created_at": "2026-10-19T17:49:03Z",
+      "source_deadline": "2026-10-22T17:49:03Z"
     }
   ],
   "last_production": {

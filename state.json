@@ -526,6 +526,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698425011094195489",
       "sent_at": "2026-10-19T17:03:40Z",
       "verified_at": "2026-10-19T17:05:18Z"
+    },
+    {
+      "clip_id": "2287042913",
+      "reserved_at": "2026-10-19T18:00:24Z",
+      "streamer": "castcrafter",
+      "sha256": "70db5faa0cbfc60c27cd7703cdace3b7da913a9526d11ff95d0dbac1d2280013",
+      "source_sha256": "436d4e7c99c14ecb8c07441ace84822af620ccf0cb4033c3f80d2b54638f7672",
+      "status": "reserved",
+      "asset_title": "tiktok14-2287042913-70db5faa0cbf.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2287042913-70db5faa0cbf.mp4",
+      "clip_slug": "LaconicOilyCasetteRiPepperonis-ybrrDySU858-eesG",
+      "original_created_at": "2026-10-19T15:37:04Z",
+      "source_deadline": "2026-10-22T15:37:04Z"
     }
   ],
   "last_production": {

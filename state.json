@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3026950595",
-      "clip_slug": "SullenRelievedPartridgeCoolStoryBob-rk78ZtmkT5icWsva",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/SullenRelievedPartridgeCoolStoryBob-rk78ZtmkT5icWsva",
-      "original_title": "OKAY ICH HABS (Fokusarbeit)",
-      "hook": "OKAY ICH HABS (Fokusarbeit)",
-      "caption": "OKAY ICH HABS (Fokusarbeit)\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 271,
-      "original_duration": 34.0,
-      "original_created_at": "2026-10-18T18:43:44Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3026950595-ac78eeba0992.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-19T16:12:35Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "ac78eeba099295074073c0446e7d574b328b7773f7ff2de586d5fba4fe36e0ad",
-      "category": "Minecraft",
-      "transcript_sha256": "228da5c0ad27d03bf527e7bffb40ab05992f6484bd3a53a922d217c4c1b0be80",
-      "asr_requires_correction": true,
-      "source_sha256": "9b8f7be6c462a8b7808c05f51ff305ccca0ba1a27ed513eaec6d11cf67d21e91",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-19T16:12:35.442994+00:00",
-        "media_sha256": "ac78eeba099295074073c0446e7d574b328b7773f7ff2de586d5fba4fe36e0ad",
-        "transcript_sha256": "228da5c0ad27d03bf527e7bffb40ab05992f6484bd3a53a922d217c4c1b0be80",
-        "source_sha256": "9b8f7be6c462a8b7808c05f51ff305ccca0ba1a27ed513eaec6d11cf67d21e91",
-        "evidence_sha256": "4c085c9b72212e97785be4837b52862b68bab255e3a79d8c42956088f3f1d29f",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "9b8f7be6c462a8b7808c05f51ff305ccca0ba1a27ed513eaec6d11cf67d21e91",
-          "reviewed_source_sha256": "9b8f7be6c462a8b7808c05f51ff305ccca0ba1a27ed513eaec6d11cf67d21e91",
-          "duration": 34.366667,
-          "timestamps": [
-            0.0,
-            17.108,
-            34.217
-          ],
-          "source_frame_hashes": [
-            "379ce9c5878a9924283779f5391555db3a3fe07f52e24213b0554a91064e037e",
-            "733fb351e557b7f43447328edcbdf7ec8e6780db61e9c0285ac4d42657758ce6",
-            "df392aa05198d337aada9379a36dee6fb082a9ce613ada55f2ce5449bfbc173d"
-          ],
-          "headline": "OKAY ICH HABS (Fokusarbeit)",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, HUD visible, chat text overlay, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, holding a tool, standing near a chest and a block with a purple item, no clear action or outcome",
-            "payoff": "No visible outcome or payoff from actions; no win/loss or clear event result visible in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04384589868305653,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a Minecraft gameplay session with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD, including health, inventory, and minimap, is visible. The stream chat is not visible, and there",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            17.108,
-            34.217
-          ],
-          "final_frame_hashes": [
-            "07c4f9da6487fe541c2086f8e79a9af96267a27eadde13387d6d6891720b1f05",
-            "16f8b5d37d52e6672e64d883aed51fd55753dcd07822b07e47cf9e1bd5513c8a",
-            "d7907094243114945a06ce7346e2e619e55bbb3f5e6ca35de12a65499fa838ef"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "ac78eeba099295074073c0446e7d574b328b7773f7ff2de586d5fba4fe36e0ad",
-          "transcript_sha256": "228da5c0ad27d03bf527e7bffb40ab05992f6484bd3a53a922d217c4c1b0be80"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a Minecraft gameplay session with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD, including health, inventory, and minimap, is visible. The stream chat is not visible, and there"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0438, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3026950595-ac78eeba0992-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -497,14 +359,17 @@
       "streamer": "trymacs",
       "sha256": "ac78eeba099295074073c0446e7d574b328b7773f7ff2de586d5fba4fe36e0ad",
       "source_sha256": "9b8f7be6c462a8b7808c05f51ff305ccca0ba1a27ed513eaec6d11cf67d21e91",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3026950595-ac78eeba0992.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3026950595-ac78eeba0992.mp4",
       "clip_slug": "SullenRelievedPartridgeCoolStoryBob-rk78ZtmkT5icWsva",
       "original_created_at": "2026-10-18T18:43:44Z",
       "source_deadline": "2026-10-21T18:43:44Z",
       "buffer_post_id": "6ad6433f3c0a22592c488d02",
-      "last_reconcile_at": "2026-10-19T16:37:02Z"
+      "last_reconcile_at": "2026-10-19T16:37:02Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698414617256660256",
+      "sent_at": "2026-10-19T16:21:59Z",
+      "verified_at": "2026-10-19T16:37:03Z"
     }
   ],
   "last_production": {

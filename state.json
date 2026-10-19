@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3858506260",
+      "clip_slug": "OilyDepressedStarlingKeepo-o8pKbvo5BtgOTvFc",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/OilyDepressedStarlingKeepo-o8pKbvo5BtgOTvFc",
+      "original_title": "kroko joint rotpilz und den anderen uns singen Country Road",
+      "hook": "kroko joint rotpilz und den anderen uns singen…",
+      "caption": "kroko joint rotpilz und den anderen uns singen…\n#gaming #minecraft #twitchclips #krokoboss #gamer",
+      "views_at_selection": 195,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-18T19:44:07Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3858506260-8106a6d0c03a.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-19T10:06:05Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "8106a6d0c03a70874d3fe4f9c51a9e0ffef740a3b0584497c90bc8794510cb6f",
+      "category": "Minecraft",
+      "transcript_sha256": "76ca970a58b6ec060d92da84704dff96b0aabfde2047e48a303af1121ebe1d88",
+      "asr_requires_correction": true,
+      "source_sha256": "55f7cf4a5505cb384c070a73e855a6d47ebd31c4245ef4ad9b217b9646ea72ec",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-19T10:06:05.440628+00:00",
+        "media_sha256": "8106a6d0c03a70874d3fe4f9c51a9e0ffef740a3b0584497c90bc8794510cb6f",
+        "transcript_sha256": "76ca970a58b6ec060d92da84704dff96b0aabfde2047e48a303af1121ebe1d88",
+        "source_sha256": "55f7cf4a5505cb384c070a73e855a6d47ebd31c4245ef4ad9b217b9646ea72ec",
+        "evidence_sha256": "23778fbe8ea4422f8c9094a28bee1a0b8e0c7bd1623a79c553417ed8fb3fa1c7",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "55f7cf4a5505cb384c070a73e855a6d47ebd31c4245ef4ad9b217b9646ea72ec",
+          "reviewed_source_sha256": "55f7cf4a5505cb384c070a73e855a6d47ebd31c4245ef4ad9b217b9646ea72ec",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "2b5a73191e5fad62ecef783b4ab052586dc6c40eca342c1e4b7445d743780427",
+            "463729f3682581bb3e2756fce1cc4a6346b0d06c7ee7838a4ddb841ee08d3feb",
+            "f36c652a4d46f6c959a9ef010fda4bbdc1029c29326dead805e70a3d8ab73c69"
+          ],
+          "headline": "kroko joint rotpilz und den anderen uns singen…",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game menu visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player selects group members in Minecraft multiplayer menu.",
+            "payoff": "No visible outcome or payoff from selection; game resumes with no clear result or reaction from player or game mechanics.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.08757769364947303,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft multiplayer menu with a list of players, including 'kroko', 'rotspilz', and others. The menu is overlaid on the game, and the player's facecam is visible in the top right corner. The game world is",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "1d03cdcb2c10e5293939136035a433157d6494df803a23d3beb9c31ad0fb1363",
+            "a180ef6f86299ba0b651b77d11ed6ce3200bbb4094d915d98f4a66ba1ab5e612",
+            "2a0a2477919b966df3b3a4d64e26385a6d444e593719d8e80b248f93746f7800"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "8106a6d0c03a70874d3fe4f9c51a9e0ffef740a3b0584497c90bc8794510cb6f",
+          "transcript_sha256": "76ca970a58b6ec060d92da84704dff96b0aabfde2047e48a303af1121ebe1d88"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft multiplayer menu with a list of players, including 'kroko', 'rotspilz', and others. The menu is overlaid on the game, and the player's facecam is visible in the top right corner. The game world is"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0876, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3858506260-8106a6d0c03a-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

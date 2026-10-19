@@ -577,6 +577,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-19T08:06:18Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "576576114",
+      "clip_slug": "CrypticPerfectWhaleAMPEnergyCherry-eKaJDDq0fEyMefGR",
+      "streamer": "agurin",
+      "source_url": "https://www.twitch.tv/agurin/clip/CrypticPerfectWhaleAMPEnergyCherry-eKaJDDq0fEyMefGR",
+      "status": "quality_rejected",
+      "created_at": "2026-10-19T20:09:51Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

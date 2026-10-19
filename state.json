@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2974198887",
+      "clip_slug": "PopularDistinctGnatNononoCat-Z6J58bDtx2AcSjwd",
+      "streamer": "niekbeats",
+      "source_url": "https://www.twitch.tv/niekbeats/clip/PopularDistinctGnatNononoCat-Z6J58bDtx2AcSjwd",
+      "original_title": "Felika endschuldingt sich Bei niek",
+      "hook": "Felika endschuldingt sich Bei niek",
+      "caption": "Felika endschuldingt sich Bei niek\n#gaming #minecraft #twitchclips #niekbeats #gamer",
+      "views_at_selection": 98,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-19T15:01:32Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-2974198887-2a6d9618ee0a.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-19T16:44:58Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "2a6d9618ee0a90dd0ffb23fcf5485234dcd71f225d688bfcd717ba7e7b648f8e",
+      "category": "Minecraft",
+      "transcript_sha256": "313432566876d861545d3347e0628ae3f86b7a17e5febf7012fec3e027788e3a",
+      "asr_requires_correction": true,
+      "source_sha256": "4d97da1cb0b0e76c5b11e36fc25ed636574d53388fd5dc9466ea5f9309edd053",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-19T16:44:58.630457+00:00",
+        "media_sha256": "2a6d9618ee0a90dd0ffb23fcf5485234dcd71f225d688bfcd717ba7e7b648f8e",
+        "transcript_sha256": "313432566876d861545d3347e0628ae3f86b7a17e5febf7012fec3e027788e3a",
+        "source_sha256": "4d97da1cb0b0e76c5b11e36fc25ed636574d53388fd5dc9466ea5f9309edd053",
+        "evidence_sha256": "d24837c51c99f9bc2c4b266d1db52043789ae888a6cbc57c7558035d1ff787fa",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "4d97da1cb0b0e76c5b11e36fc25ed636574d53388fd5dc9466ea5f9309edd053",
+          "reviewed_source_sha256": "4d97da1cb0b0e76c5b11e36fc25ed636574d53388fd5dc9466ea5f9309edd053",
+          "duration": 30.016,
+          "timestamps": [
+            0.0,
+            14.933,
+            29.866
+          ],
+          "source_frame_hashes": [
+            "a72f4e5d544fd775c2640e86bbfe1abc82c025469d67ecef9333ce952f17187d",
+            "6a23e2fbb5415d8e1803a95018732c0846c51455db800062c48668e07666378b",
+            "e6da08bcc0d7128a807a70042ec35ad854c7efde712e0b9936304febd2537652"
+          ],
+          "headline": "Felika endschuldingt sich Bei niek",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in the top-left corner shows a person in a room with bookshelves, while the main screen displays Minecraft gameplay with a player character in purple armor standing in a grassy field with a cityscape in the",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "A player character in purple armor stands in a grassy field with a cityscape in the background, with a face camera in the top-left corner showing a person in a room with bookshelves.",
+            "payoff": "No visible outcome or payoff from the action, as the player is standing still and no significant event occurs in the frames provided. The chat and HUD are visible, but no clear win or loss is indicated. The player's in- ",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.0714569367950623,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a player character in purple armor standing in a grassy field with a cityscape in the background. A facecam panel is visible in the top-left corner, showing a person in a room.",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.933,
+            29.866
+          ],
+          "final_frame_hashes": [
+            "4520d843d378fb42b1df6fb86f13e9b95643d60edd0c8daea762e553b7df9605",
+            "ab9464ebf44c45ef22c84f6af1436f147ccb359c6cc810101ef76b0852af56cd",
+            "2aebf1314895f4315379f195ad532accbeb4018a49501a22ee530a16405757ad"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "2a6d9618ee0a90dd0ffb23fcf5485234dcd71f225d688bfcd717ba7e7b648f8e",
+          "transcript_sha256": "313432566876d861545d3347e0628ae3f86b7a17e5febf7012fec3e027788e3a"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a player character in purple armor standing in a grassy field with a cityscape in the background. A facecam panel is visible in the top-left corner, showing a person in a room."
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0715, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-2974198887-2a6d9618ee0a-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

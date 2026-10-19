@@ -547,27 +547,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-19T17:09:24Z",
+    "at": "2026-10-19T18:06:23Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 84,
+      "listing_duration_prefilter": 83,
       "listing_ok": 100,
-      "listing_age_prefilter": 763,
+      "listing_age_prefilter": 766,
       "discovered": 783,
-      "metadata_requested": 760,
-      "gaming_category_not_verified": 378,
-      "qualified_metadata": 322,
-      "title_too_short": 60,
-      "duplicate_source_event": 5,
+      "metadata_requested": 759,
+      "gaming_category_not_verified": 364,
+      "title_too_short": 68,
+      "qualified_metadata": 327,
+      "duplicate_source_event": 6,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2287042913",
-      "clip_slug": "LaconicOilyCasetteRiPepperonis-ybrrDySU858-eesG",
-      "streamer": "castcrafter"
+      "clip_id": "2205224163",
+      "clip_slug": "SourBovineDragonKappa-t1xF9n2xTK0XtAVV",
+      "streamer": "zarbex"
     }
   },
   "prepare_scans": {
@@ -688,6 +688,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-19T17",
-  "last_prefetch_hour": "2026-10-19T17"
+  "last_prepare_hour": "2026-10-19T18",
+  "last_prefetch_hour": "2026-10-19T18"
 }

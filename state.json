@@ -382,6 +382,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698115798170176800",
       "sent_at": "2026-10-18T21:02:30Z",
       "verified_at": "2026-10-18T21:05:29Z"
+    },
+    {
+      "clip_id": "524815218",
+      "reserved_at": "2026-10-19T07:00:29Z",
+      "streamer": "krokoboss",
+      "sha256": "50f87d624f3eb8e974e4747614b0cc5915b31976d6264cf4f7d245e11939a443",
+      "source_sha256": "e483797fb7805400b94fe732d7c0684ec1ac582df06fbb6a375ad50720b49199",
+      "status": "reserved",
+      "asset_title": "tiktok14-524815218-50f87d624f3e.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-524815218-50f87d624f3e.mp4",
+      "clip_slug": "ResourcefulSneakyLadiesPrimeMe-8QyOLqsX6zCH97TK",
+      "original_created_at": "2026-10-18T20:11:43Z",
+      "source_deadline": "2026-10-21T20:11:43Z"
     }
   ],
   "last_production": {

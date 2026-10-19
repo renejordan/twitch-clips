@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1847050907",
-      "clip_slug": "VenomousGlamorousChinchillaSmoocherZ-Zl9hxVnxvYE5D6_X",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/VenomousGlamorousChinchillaSmoocherZ-Zl9hxVnxvYE5D6_X",
-      "original_title": "Willkommen zurück Freund",
-      "hook": "Willkommen zurück Freund",
-      "caption": "Willkommen zurück Freund\n#gaming #minecraft #twitchclips #krokoboss #gamer",
-      "views_at_selection": 204,
-      "original_duration": 47.0,
-      "original_created_at": "2026-10-18T23:21:31Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1847050907-67314ffbfe55.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-19T09:06:11Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "67314ffbfe5510e5cd888d04168c48e63ba6348492319fdf70d9e3f95845b5c2",
-      "category": "Minecraft",
-      "transcript_sha256": "fb52ab74f514b02906d0dba2daa75d1cc4062bd0539ef99c102cdcc0e6a8510a",
-      "asr_requires_correction": true,
-      "source_sha256": "462dc1849985cda2589c42c910ab07e52215f1f0daf0f4fb5c2a20204500943e",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-19T09:06:11.874840+00:00",
-        "media_sha256": "67314ffbfe5510e5cd888d04168c48e63ba6348492319fdf70d9e3f95845b5c2",
-        "transcript_sha256": "fb52ab74f514b02906d0dba2daa75d1cc4062bd0539ef99c102cdcc0e6a8510a",
-        "source_sha256": "462dc1849985cda2589c42c910ab07e52215f1f0daf0f4fb5c2a20204500943e",
-        "evidence_sha256": "6135e0a493aaecf2406e16eb092f072413fb5b4b622bd2199d065498e5fbab3e",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "462dc1849985cda2589c42c910ab07e52215f1f0daf0f4fb5c2a20204500943e",
-          "reviewed_source_sha256": "462dc1849985cda2589c42c910ab07e52215f1f0daf0f4fb5c2a20204500943e",
-          "duration": 47.317,
-          "timestamps": [
-            0.0,
-            23.584,
-            47.167
-          ],
-          "source_frame_hashes": [
-            "a4b90417f75dd5f8377aa403cf4201e53ba75c6e8a63540d0037d3fb37f76df3",
-            "6775c4acb53973fea69468d98437325c47f54f99a8687c86a9d9b9b9b59ac5df",
-            "934e2c106f85b7cbb310b3a8ca4310f0b40874a075214721f30e3a7066c94dbe"
-          ],
-          "headline": "Willkommen zurück Freund",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner over gameplay, showing player and game environment with HUD elements and chat text.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player explores a room with a green gem and wooden doors, then moves to a long corridor with chests and torches.",
-            "payoff": "Player encounters another player in a room with a chest, but no clear outcome or reaction is visible in the frames provided.",
-            "payoff_timestamp": 47.167,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.08194103700293848,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The provided frames show a Minecraft gameplay session with a facecam panel above the gameplay, which is a common edited gaming layout. The game HUD and stream chat are visible, but there are no browser tabs, address bars, or desktop window,",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            23.584,
-            47.167
-          ],
-          "final_frame_hashes": [
-            "a93e4b7d4a7e459fe0b1d773bb7a16960366f1fbea275391917dc0c1873537b4",
-            "4e5140a57c050a2d6a3fa5e0ff71b61e5240950c980511f8a3238b317f086bd2",
-            "505bf155367b6f9a051782be11ed8f73bc0081e2f9bcf60f7e4b3bdd2f9ceffc"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "67314ffbfe5510e5cd888d04168c48e63ba6348492319fdf70d9e3f95845b5c2",
-          "transcript_sha256": "fb52ab74f514b02906d0dba2daa75d1cc4062bd0539ef99c102cdcc0e6a8510a"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The provided frames show a Minecraft gameplay session with a facecam panel above the gameplay, which is a common edited gaming layout. The game HUD and stream chat are visible, but there are no browser tabs, address bars, or desktop window,"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0819, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1847050907-67314ffbfe55-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -443,14 +305,17 @@
       "streamer": "krokoboss",
       "sha256": "67314ffbfe5510e5cd888d04168c48e63ba6348492319fdf70d9e3f95845b5c2",
       "source_sha256": "462dc1849985cda2589c42c910ab07e52215f1f0daf0f4fb5c2a20204500943e",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1847050907-67314ffbfe55.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1847050907-67314ffbfe55.mp4",
       "clip_slug": "VenomousGlamorousChinchillaSmoocherZ-Zl9hxVnxvYE5D6_X",
       "original_created_at": "2026-10-18T23:21:31Z",
       "source_deadline": "2026-10-21T23:21:31Z",
       "buffer_post_id": "6ad5ea4204e1e2b04408dc29",
-      "last_reconcile_at": "2026-10-19T10:02:27Z"
+      "last_reconcile_at": "2026-10-19T10:02:27Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698316820259818784",
+      "sent_at": "2026-10-19T10:02:15Z",
+      "verified_at": "2026-10-19T10:02:28Z"
     }
   ],
   "last_production": {

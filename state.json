@@ -406,6 +406,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-19T07:06:26Z",
       "reason": "qa_duration_invalid"
+    },
+    {
+      "clip_id": "3707302748",
+      "clip_slug": "ShyMoistSageFloof-OZv3XisQ-TDP_Jus",
+      "streamer": "noway4u_sir",
+      "source_url": "https://www.twitch.tv/noway4u_sir/clip/ShyMoistSageFloof-OZv3XisQ-TDP_Jus",
+      "status": "quality_rejected",
+      "created_at": "2026-10-19T08:06:18Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

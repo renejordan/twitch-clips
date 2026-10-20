@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1322757433",
+      "clip_slug": "EagerFancyCheeseOSfrog-Nn1HaEfIdW3Wf4Tz",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/EagerFancyCheeseOSfrog-Nn1HaEfIdW3Wf4Tz",
+      "original_title": "hab ich dich!! hihihi",
+      "hook": "hab ich dich!! hihihi",
+      "caption": "hab ich dich!! hihihi\n#gaming #minecraft #twitchclips #krokoboss #gamer",
+      "views_at_selection": 419,
+      "original_duration": 39.0,
+      "original_created_at": "2026-10-20T19:46:38Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1322757433-fcce4e69f181.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-20T20:10:31Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "fcce4e69f181447cd88536aa02b21bfb5f5c7e6b0ad838211fe1cb2d357b7990",
+      "category": "Minecraft",
+      "transcript_sha256": "ddb76aace5117c82649a034c3d1a67c05e6f5bc7472d9f9da1104b11e8538e2f",
+      "asr_requires_correction": true,
+      "source_sha256": "c09ca639556e02818b085c80ce7f5a1a98d374cc5e35958fd514e414a7a017ac",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-20T20:10:31.193065+00:00",
+        "media_sha256": "fcce4e69f181447cd88536aa02b21bfb5f5c7e6b0ad838211fe1cb2d357b7990",
+        "transcript_sha256": "ddb76aace5117c82649a034c3d1a67c05e6f5bc7472d9f9da1104b11e8538e2f",
+        "source_sha256": "c09ca639556e02818b085c80ce7f5a1a98d374cc5e35958fd514e414a7a017ac",
+        "evidence_sha256": "13077db988a4b7930a8db87a40ac95da8eca638f3e43aed15e2c45caed75ebf7",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "c09ca639556e02818b085c80ce7f5a1a98d374cc5e35958fd514e414a7a017ac",
+          "reviewed_source_sha256": "c09ca639556e02818b085c80ce7f5a1a98d374cc5e35958fd514e414a7a017ac",
+          "duration": 39.104,
+          "timestamps": [
+            0.0,
+            19.477,
+            38.954
+          ],
+          "source_frame_hashes": [
+            "697f55eadfa04f2b3fcedbf92affe875b9a9940ad77883c7b9205f0cbf277670",
+            "03b4d8303fb9b64383ae149319eae361336bb397374a45b4b3246bce91c8ed85",
+            "7538a347448fee72a6bf666f95e4dbd1740636c1e425bd3dd7cbdfabee687a41"
+          ],
+          "headline": "hab ich dich!! hihihi",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Top-left: minimap with coordinates; bottom: inventory bar with diamond pickaxe; top-right: facecam of player with headphones; game world: stone walls, chests, grassy plains, water, sky, and clouds visible in different in",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a stone room with chests and a diamond pickaxe in inventory, then moves to an open grassy area with water and sky.",
+            "payoff": "No clear outcome or payoff visible; player moves from indoor to outdoor without significant event or reaction.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.09958992625753726,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft stone room with chests and a diamond pickaxe in inventory, with a facecam panel above gameplay. The frame at 19.48 seconds shows the player moving to an open grassy area with water and sky, with a",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            19.477,
+            38.954
+          ],
+          "final_frame_hashes": [
+            "5e4145615e4e0da965e75a3d6b0e6911135cfcfc2c3c87919cc99c8d7f8243b1",
+            "b31e82d7d00c4dbb439eb1c4f903e4dc69297b81753bc04639f0e381a2fc4823",
+            "b691f141ee8164e3b393431e94f416d461da015d450d7631a2a5e84024b33662"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "fcce4e69f181447cd88536aa02b21bfb5f5c7e6b0ad838211fe1cb2d357b7990",
+          "transcript_sha256": "ddb76aace5117c82649a034c3d1a67c05e6f5bc7472d9f9da1104b11e8538e2f"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft stone room with chests and a diamond pickaxe in inventory, with a facecam panel above gameplay. The frame at 19.48 seconds shows the player moving to an open grassy area with water and sky, with a"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0996, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1322757433-fcce4e69f181-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

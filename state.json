@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3344576570",
-      "clip_slug": "DepressedStormyWormTooSpicy-Uo-1xRkNzGWZPkLg",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/DepressedStormyWormTooSpicy-Uo-1xRkNzGWZPkLg",
-      "original_title": "1 2 oder 3 FAAAK",
-      "hook": "1 2 oder 3 FAAAK",
-      "caption": "1 2 oder 3 FAAAK\n#gaming #leagueoflegends #twitchclips #krokoboss #gamer",
-      "views_at_selection": 128,
-      "original_duration": 40.0,
-      "original_created_at": "2026-10-20T01:29:30Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3344576570-88e0d5f9005a.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-20T12:10:29Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "88e0d5f9005aa90cb021f1c188abff0917a8572fe3b497cc912c9f12e6b96b74",
-      "category": "League of Legends",
-      "transcript_sha256": "c4537512f66a51c97800dd2d1c7b7ac7f72ab42b6df570f504e71da4a465b4d3",
-      "asr_requires_correction": true,
-      "source_sha256": "985ef5c7c7fca7d19b44e285bb07f3a5b879a649cbf5936bb2d08737df3ef54a",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-20T12:10:29.780278+00:00",
-        "media_sha256": "88e0d5f9005aa90cb021f1c188abff0917a8572fe3b497cc912c9f12e6b96b74",
-        "transcript_sha256": "c4537512f66a51c97800dd2d1c7b7ac7f72ab42b6df570f504e71da4a465b4d3",
-        "source_sha256": "985ef5c7c7fca7d19b44e285bb07f3a5b879a649cbf5936bb2d08737df3ef54a",
-        "evidence_sha256": "c03e4362f52ad0cf462f92ff3bdd19d4be05d4659edc14da7276dd9e0c3db74b",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "985ef5c7c7fca7d19b44e285bb07f3a5b879a649cbf5936bb2d08737df3ef54a",
-          "reviewed_source_sha256": "985ef5c7c7fca7d19b44e285bb07f3a5b879a649cbf5936bb2d08737df3ef54a",
-          "duration": 40.95,
-          "timestamps": [
-            0.0,
-            20.4,
-            40.8
-          ],
-          "source_frame_hashes": [
-            "236dd1ac9135f74cfba449d0e6d915a5a7fd805dbbb9bcca0a0b43c029f54207",
-            "6d04abe922e24e945a766c83e79d7707d97c5928424f2cbae095d65fd4239053",
-            "2e7b0eeae7c1a99571c7f4f107199799a9ff0d36009759a4a3a4626596245997"
-          ],
-          "headline": "1 2 oder 3 FAAAK",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left: minimap; bottom: inventory bar; top-right: facecam with player; game is Minecraft with blocky terrain and water features.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a Minecraft room with water and wooden structures, no clear action or outcome.",
-            "payoff": "No visible outcome or payoff; no win/loss or reaction visible in frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.03480851632565257,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a facecam panel above gameplay, which is a normal edited gaming layout. The game HUD and stream chat are not visible as a browser; instead, the game is captured directly. The title",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            20.4,
-            40.8
-          ],
-          "final_frame_hashes": [
-            "a54b32c8db6616ca05c0efc9a00793575c010cf2f6873c69ccf90811bcafe1a9",
-            "955112e06e6b1fbd3545c93304e4ce04d561a7fdeeb14b612219e07fde3d5663",
-            "0a2ab8ae1ef063e89944cad90642c76bfdc9089b0a15ea597a775a48fc1733fa"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "88e0d5f9005aa90cb021f1c188abff0917a8572fe3b497cc912c9f12e6b96b74",
-          "transcript_sha256": "c4537512f66a51c97800dd2d1c7b7ac7f72ab42b6df570f504e71da4a465b4d3"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a facecam panel above gameplay, which is a normal edited gaming layout. The game HUD and stream chat are not visible as a browser; instead, the game is captured directly. The title"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0348, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3344576570-88e0d5f9005a-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -713,14 +575,17 @@
       "streamer": "krokoboss",
       "sha256": "88e0d5f9005aa90cb021f1c188abff0917a8572fe3b497cc912c9f12e6b96b74",
       "source_sha256": "985ef5c7c7fca7d19b44e285bb07f3a5b879a649cbf5936bb2d08737df3ef54a",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3344576570-88e0d5f9005a.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3344576570-88e0d5f9005a.mp4",
       "clip_slug": "DepressedStormyWormTooSpicy-Uo-1xRkNzGWZPkLg",
       "original_created_at": "2026-10-20T01:29:30Z",
       "source_deadline": "2026-10-23T01:29:30Z",
       "buffer_post_id": "6ad765f0ff291a23994dea74",
-      "last_reconcile_at": "2026-10-20T13:06:01Z"
+      "last_reconcile_at": "2026-10-20T13:06:01Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698734258394877217",
+      "sent_at": "2026-10-20T13:02:33Z",
+      "verified_at": "2026-10-20T13:06:02Z"
     }
   ],
   "last_production": {

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "215749810",
-      "clip_slug": "DiligentCooperativeDumplingsHeyGuys-PdJt8u_3dU6lmsVw",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/DiligentCooperativeDumplingsHeyGuys-PdJt8u_3dU6lmsVw",
-      "original_title": "Er redet einfach weiter HAHAHA",
-      "hook": "Er redet einfach weiter HAHAHA",
-      "caption": "Er redet einfach weiter HAHAHA\n#gaming #minecraft #twitchclips #krokoboss #gamer",
-      "views_at_selection": 252,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-20T18:16:58Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-215749810-a2fdffcdee2a.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-20T19:10:28Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "a2fdffcdee2aedfaba08b92321b8c315bbf43215c6c03c077f156b848dc514bf",
-      "category": "Minecraft",
-      "transcript_sha256": "99c1373d203ce8a952061501f3dffa9eace929ac303e47e869a3f516946e1a37",
-      "asr_requires_correction": true,
-      "source_sha256": "c39bb96941774a34ce8f38a0da9e2d561e39bfca6bcd12042158beaf77ce9413",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-20T19:10:28.972083+00:00",
-        "media_sha256": "a2fdffcdee2aedfaba08b92321b8c315bbf43215c6c03c077f156b848dc514bf",
-        "transcript_sha256": "99c1373d203ce8a952061501f3dffa9eace929ac303e47e869a3f516946e1a37",
-        "source_sha256": "c39bb96941774a34ce8f38a0da9e2d561e39bfca6bcd12042158beaf77ce9413",
-        "evidence_sha256": "c65817112de98d5e4ad5a890ac5214eea1951cee2d2e305fcd9c12e63d7f2dc7",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "c39bb96941774a34ce8f38a0da9e2d561e39bfca6bcd12042158beaf77ce9413",
-          "reviewed_source_sha256": "c39bb96941774a34ce8f38a0da9e2d561e39bfca6bcd12042158beaf77ce9413",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "9e2801ac17bf907b4962801969fa2c1f0188985e780cd689ed28ab96ab5491f5",
-            "f75d557581bacfbd1a4855517e99d525ad2e804bc0bbe84c4a798263e317b431",
-            "046152232ba374fe87594dcb587ecfb5bd6c2a10cbdb8fbe170dd5670bd28905"
-          ],
-          "headline": "Er redet einfach weiter HAHAHA",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in the top right corner shows a player's face, while the main screen displays Minecraft gameplay with a minimap, inventory bar, and health bar visible. The player is holding a purple item, and the scene is ",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No visible setup or payoff in the frames provided.",
-            "payoff": "No visible payoff or outcome in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.022165799094553327,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame shows a Minecraft gameplay scene with a facecam panel in the top right corner, displaying a person wearing headphones. The game's HUD is visible, including the player's inventory and health bar. The text overlay 'Er redet einfach ",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "1891b813dea06135ab8c54ca9bc708b9748dea5d50b489b99cd852b077c5e022",
-            "2264401b17f9767b73e55750b5e267518318193a1ab63a89d126d50f8f7c04d2",
-            "8eea95e24aefaa853284de672e2406e4e69a39309859e788e90ffd747ed1986e"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "a2fdffcdee2aedfaba08b92321b8c315bbf43215c6c03c077f156b848dc514bf",
-          "transcript_sha256": "99c1373d203ce8a952061501f3dffa9eace929ac303e47e869a3f516946e1a37"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame shows a Minecraft gameplay scene with a facecam panel in the top right corner, displaying a person wearing headphones. The game's HUD is visible, including the player's inventory and health bar. The text overlay 'Er redet einfach "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0222, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-215749810-a2fdffcdee2a-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -839,14 +701,17 @@
       "streamer": "krokoboss",
       "sha256": "a2fdffcdee2aedfaba08b92321b8c315bbf43215c6c03c077f156b848dc514bf",
       "source_sha256": "c39bb96941774a34ce8f38a0da9e2d561e39bfca6bcd12042158beaf77ce9413",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-215749810-a2fdffcdee2a.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-215749810-a2fdffcdee2a.mp4",
       "clip_slug": "DiligentCooperativeDumplingsHeyGuys-PdJt8u_3dU6lmsVw",
       "original_created_at": "2026-10-20T18:16:58Z",
       "source_deadline": "2026-10-23T18:16:58Z",
       "buffer_post_id": "6ad7c956ed28fb758abb44f9",
-      "last_reconcile_at": "2026-10-20T20:06:33Z"
+      "last_reconcile_at": "2026-10-20T20:06:33Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698843531674275105",
+      "sent_at": "2026-10-20T20:06:21Z",
+      "verified_at": "2026-10-20T20:06:35Z"
     }
   ],
   "last_production": {

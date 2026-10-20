@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2547757854",
+      "clip_slug": "HilariousRichGoblinBloodTrail-K7ePIgtDr2bZqEW6",
+      "streamer": "bastighg",
+      "source_url": "https://www.twitch.tv/bastighg/clip/HilariousRichGoblinBloodTrail-K7ePIgtDr2bZqEW6",
+      "original_title": "normaler abend",
+      "hook": "normaler abend",
+      "caption": "normaler abend\n#gaming #minecraft #twitchclips #bastighg #gamer",
+      "views_at_selection": 410,
+      "original_duration": 60.0,
+      "original_created_at": "2026-10-19T20:05:04Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-2547757854-cd21ce1f9460.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-20T09:06:06Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "cd21ce1f9460644b72b9719a45e0804ea4f67d592a24c7018b8a76222e429405",
+      "category": "Minecraft",
+      "transcript_sha256": "fc42bfbbf71f32e31efe3aa576df437a16f8d06d53700dd021fd71aa074c1a5f",
+      "asr_requires_correction": true,
+      "source_sha256": "063eee18679dd280609c86398f1e31a621877aff85348fc209ed8857009c2077",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-20T09:06:06.279035+00:00",
+        "media_sha256": "cd21ce1f9460644b72b9719a45e0804ea4f67d592a24c7018b8a76222e429405",
+        "transcript_sha256": "fc42bfbbf71f32e31efe3aa576df437a16f8d06d53700dd021fd71aa074c1a5f",
+        "source_sha256": "063eee18679dd280609c86398f1e31a621877aff85348fc209ed8857009c2077",
+        "evidence_sha256": "433c371cb11b8087e19bf29abe947a62111114e590fba68ac8e68bea20939ac2",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "063eee18679dd280609c86398f1e31a621877aff85348fc209ed8857009c2077",
+          "reviewed_source_sha256": "063eee18679dd280609c86398f1e31a621877aff85348fc209ed8857009c2077",
+          "duration": 60.0,
+          "timestamps": [
+            0.0,
+            29.925,
+            59.85
+          ],
+          "source_frame_hashes": [
+            "90f03bf115331eaf4a43b6e23c12fcaa6ab1e836c5f7872f92790a50811dedbd",
+            "0bc6010f1123982bfed83d4e0e5deae0ab17c157fba87299d0f61ae66fdc022b",
+            "064915aaafc69317eac7a97d406ce693c42f07dcc4396f755958393b7745539b"
+          ],
+          "headline": "normaler abend",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, showing player's hands and keyboard, with Minecraft game visible in background including inventory bar and chat.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a Minecraft building with inventory and chat visible, no clear action or outcome.",
+            "payoff": "No visible outcome or payoff from actions taken in the frames provided, no clear win or loss, no reaction or event conclusion visible in the frames provided, no clear payoff or outcome visible in the frames provided, no ",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.022646216539630403,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The provided frames show a Minecraft gameplay session with a facecam panel above the gameplay, which is a common edited gaming layout. The frames also show Minecraft menus, HUD, and stream chat, which are not browser or desktop captures. A ",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            29.925,
+            59.85
+          ],
+          "final_frame_hashes": [
+            "24551fd2762f71d472b3ce51a6bbb6332b15a13949e6938925f16040e7b489a6",
+            "ca22d6188dcfb760d7b9de8941e3dcd6384bbddf19e7f7e51235091c77bfa095",
+            "edacdec522526c91a8dff98b1d3adf45521f1c3dca926caa16b797d0cc44217e"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "cd21ce1f9460644b72b9719a45e0804ea4f67d592a24c7018b8a76222e429405",
+          "transcript_sha256": "fc42bfbbf71f32e31efe3aa576df437a16f8d06d53700dd021fd71aa074c1a5f"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The provided frames show a Minecraft gameplay session with a facecam panel above the gameplay, which is a common edited gaming layout. The frames also show Minecraft menus, HUD, and stream chat, which are not browser or desktop captures. A "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0226, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-2547757854-cd21ce1f9460-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

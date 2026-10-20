@@ -799,28 +799,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-20T17:08:07Z",
+    "at": "2026-10-20T17:24:39Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
+      "listing_duration_prefilter": 90,
       "listing_ok": 100,
-      "listing_duration_prefilter": 87,
-      "listing_age_prefilter": 732,
-      "discovered": 738,
-      "metadata_requested": 695,
-      "gaming_category_not_verified": 335,
-      "qualified_metadata": 291,
-      "title_too_short": 69,
-      "duplicate_source_event": 11,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_visual_gameplay_visible": 1,
+      "listing_age_prefilter": 735,
+      "discovered": 732,
+      "metadata_requested": 687,
+      "gaming_category_not_verified": 329,
+      "qualified_metadata": 290,
+      "title_too_short": 68,
+      "duplicate_source_event": 12,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1090220916",
-      "clip_slug": "CrepuscularManlyShieldWoofer-AXxxOVtLHYXrIFE9",
-      "streamer": "castcrafter"
+      "clip_id": "3466599113",
+      "clip_slug": "EasyBoxyOwlHassaanChop-cdpoIKpOVNFkVkWr",
+      "streamer": "eliasn97"
     }
   },
   "prepare_scans": {
@@ -1023,5 +1022,5 @@
     }
   ],
   "last_prepare_hour": "2026-10-20T17",
-  "last_prefetch_hour": "2026-10-20T16"
+  "last_prefetch_hour": "2026-10-20T17"
 }

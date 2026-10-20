@@ -778,6 +778,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698786389793541409",
       "sent_at": "2026-10-20T16:24:39Z",
       "verified_at": "2026-10-20T16:24:50Z"
+    },
+    {
+      "clip_id": "1090220916",
+      "reserved_at": "2026-10-20T17:15:05Z",
+      "streamer": "castcrafter",
+      "sha256": "028702651a520ecb54e29d72c129240019b317249129f452fa7b32022f30fcc2",
+      "source_sha256": "2602af22ff20aafac2aea7a19085c16137577e1e09efaff04260e9fecb389331",
+      "status": "reserved",
+      "asset_title": "tiktok14-1090220916-028702651a52.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1090220916-028702651a52.mp4",
+      "clip_slug": "CrepuscularManlyShieldWoofer-AXxxOVtLHYXrIFE9",
+      "original_created_at": "2026-10-20T16:27:21Z",
+      "source_deadline": "2026-10-23T16:27:21Z"
     }
   ],
   "last_production": {

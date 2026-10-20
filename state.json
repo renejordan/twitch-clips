@@ -637,27 +637,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-20T07:06:32Z",
+    "at": "2026-10-20T08:05:42Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 86,
+      "listing_duration_prefilter": 85,
       "listing_ok": 100,
-      "listing_age_prefilter": 779,
-      "discovered": 695,
-      "metadata_requested": 668,
-      "gaming_category_not_verified": 299,
-      "qualified_metadata": 303,
-      "title_too_short": 66,
+      "listing_age_prefilter": 775,
+      "discovered": 694,
+      "metadata_requested": 666,
+      "gaming_category_not_verified": 297,
+      "qualified_metadata": 302,
+      "title_too_short": 67,
       "duplicate_source_event": 2,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3660835968",
-      "clip_slug": "GeniusDependableKeyboardBlargNaut-psfFjtfZCTDfbXev",
-      "streamer": "repaz"
+      "clip_id": "1776120825",
+      "clip_slug": "DeliciousAggressivePeppermintTheRinger-CVMJXHieYewoAvJo",
+      "streamer": "krokoboss"
     }
   },
   "prepare_scans": {
@@ -787,6 +787,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-20T07",
-  "last_prefetch_hour": "2026-10-20T07"
+  "last_prepare_hour": "2026-10-20T08",
+  "last_prefetch_hour": "2026-10-20T08"
 }

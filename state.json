@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1694983154",
-      "clip_slug": "TangibleRealWebBatChest-tHiA50tEIdJ9oRs5",
-      "streamer": "zarbex",
-      "source_url": "https://www.twitch.tv/zarbex/clip/TangibleRealWebBatChest-tHiA50tEIdJ9oRs5",
-      "original_title": "bist du sauer auf Eistee?",
-      "hook": "bist du sauer auf Eistee?",
-      "caption": "bist du sauer auf Eistee?\n#gaming #minecraft #twitchclips #zarbex #gamer",
-      "views_at_selection": 184,
-      "original_duration": 38.0,
-      "original_created_at": "2026-10-19T18:08:26Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-1694983154-5848b07c8180.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-20T15:10:33Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "5848b07c8180b711a5c86530d7802767157c6c1f470bc20fa57f743004f050c9",
-      "category": "Minecraft",
-      "transcript_sha256": "3d397d59c1c83316c8fd77a09a34a5bf6be011de8e8aaa577633892cd8e30d13",
-      "asr_requires_correction": true,
-      "source_sha256": "002662e9fffb47df447a0a8bbe0cbff38dd5c30cee4d5f91b921c6c68f3b71f2",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-20T15:10:33.386136+00:00",
-        "media_sha256": "5848b07c8180b711a5c86530d7802767157c6c1f470bc20fa57f743004f050c9",
-        "transcript_sha256": "3d397d59c1c83316c8fd77a09a34a5bf6be011de8e8aaa577633892cd8e30d13",
-        "source_sha256": "002662e9fffb47df447a0a8bbe0cbff38dd5c30cee4d5f91b921c6c68f3b71f2",
-        "evidence_sha256": "46b32f8c9436debcfde625869d2e9edf44963adbc60a43a7a6dc96c2c0c4434b",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "002662e9fffb47df447a0a8bbe0cbff38dd5c30cee4d5f91b921c6c68f3b71f2",
-          "reviewed_source_sha256": "002662e9fffb47df447a0a8bbe0cbff38dd5c30cee4d5f91b921c6c68f3b71f2",
-          "duration": 38.016,
-          "timestamps": [
-            0.0,
-            18.933,
-            37.866
-          ],
-          "source_frame_hashes": [
-            "ed613aaffe70d8f2e74a011ccde59cf35b9a246db3400e48cd98c65279c24c10",
-            "a418596a4827aa61522752e081db6f9a9612545711434840455afbf54defca59",
-            "2988750b612ee2ffceeefdfa91bf29795b982979e21328a7fefcc6e36c06d7f8"
-          ],
-          "headline": "bist du sauer auf Eistee?",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left: minimap; bottom: inventory bar; top-right: facecam with streamer; chat window visible; game is Minecraft with blocky terrain and structures.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible; gameplay transitions between open world and structures without significant event or reaction.",
-            "payoff": "No visible outcome or payoff; no win/loss or clear event conclusion in frames provided; chat and HUD are static without action payoff.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.08939574299694339,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, a small map in the top left, and a chat window on the right side. The text 'bist du sauer auf Eistee?' is displayed at the top center. ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            18.933,
-            37.866
-          ],
-          "final_frame_hashes": [
-            "54a9f701e2159a4a7ca721fe80c29eb7c78f456085047149da9dc6fd159a261c",
-            "4c570c0047dd18a2cc24787d958b982d5c5d88a6b0436f4bc489ead7a1772442",
-            "cffbc0d8a3bafd4295c68625c6eaf6fa65fe4819957c583245df9ae417c4d902"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "5848b07c8180b711a5c86530d7802767157c6c1f470bc20fa57f743004f050c9",
-          "transcript_sha256": "3d397d59c1c83316c8fd77a09a34a5bf6be011de8e8aaa577633892cd8e30d13"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, a small map in the top left, and a chat window on the right side. The text 'bist du sauer auf Eistee?' is displayed at the top center. "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0894, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-1694983154-5848b07c8180-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -767,14 +629,17 @@
       "streamer": "zarbex",
       "sha256": "5848b07c8180b711a5c86530d7802767157c6c1f470bc20fa57f743004f050c9",
       "source_sha256": "002662e9fffb47df447a0a8bbe0cbff38dd5c30cee4d5f91b921c6c68f3b71f2",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1694983154-5848b07c8180.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-1694983154-5848b07c8180.mp4",
       "clip_slug": "TangibleRealWebBatChest-tHiA50tEIdJ9oRs5",
       "original_created_at": "2026-10-19T18:08:26Z",
       "source_deadline": "2026-10-22T18:08:26Z",
       "buffer_post_id": "6ad7955fdf9971c887bb3c2d",
-      "last_reconcile_at": "2026-10-20T16:24:49Z"
+      "last_reconcile_at": "2026-10-20T16:24:49Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698786389793541409",
+      "sent_at": "2026-10-20T16:24:39Z",
+      "verified_at": "2026-10-20T16:24:50Z"
     }
   ],
   "last_production": {

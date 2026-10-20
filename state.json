@@ -857,12 +857,13 @@
       "streamer": "krokoboss",
       "sha256": "fcce4e69f181447cd88536aa02b21bfb5f5c7e6b0ad838211fe1cb2d357b7990",
       "source_sha256": "c09ca639556e02818b085c80ce7f5a1a98d374cc5e35958fd514e414a7a017ac",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1322757433-fcce4e69f181.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1322757433-fcce4e69f181.mp4",
       "clip_slug": "EagerFancyCheeseOSfrog-Nn1HaEfIdW3Wf4Tz",
       "original_created_at": "2026-10-20T19:46:38Z",
-      "source_deadline": "2026-10-23T19:46:38Z"
+      "source_deadline": "2026-10-23T19:46:38Z",
+      "buffer_post_id": "6ad7d762a3268b987c4b8459"
     }
   ],
   "last_production": {

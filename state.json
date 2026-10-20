@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3530894836",
+      "clip_slug": "ConfidentSilkyMoonPRChase-Tt_wtTlYb9gvuwEJ",
+      "streamer": "bastighg",
+      "source_url": "https://www.twitch.tv/bastighg/clip/ConfidentSilkyMoonPRChase-Tt_wtTlYb9gvuwEJ",
+      "original_title": "Lattensepp glaze",
+      "hook": "Lattensepp glaze",
+      "caption": "Lattensepp glaze\n#gaming #minecraft #twitchclips #bastighg #gamer",
+      "views_at_selection": 152,
+      "original_duration": 41.0,
+      "original_created_at": "2026-10-19T18:08:21Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-3530894836-7b66893e71e8.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-20T13:09:50Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "7b66893e71e81aae9823b5f9598aea54dbca6e404d2f0da1401db9bc057106ce",
+      "category": "Minecraft",
+      "transcript_sha256": "43042032f836d11a962ad7b1129237a5739cfe84d277423ecbc191ba8c59c0ff",
+      "asr_requires_correction": true,
+      "source_sha256": "777a86f45a2993aa7498ae23488e454db0d2e11e0682fb51e106571f80d96dfb",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-20T13:09:50.333248+00:00",
+        "media_sha256": "7b66893e71e81aae9823b5f9598aea54dbca6e404d2f0da1401db9bc057106ce",
+        "transcript_sha256": "43042032f836d11a962ad7b1129237a5739cfe84d277423ecbc191ba8c59c0ff",
+        "source_sha256": "777a86f45a2993aa7498ae23488e454db0d2e11e0682fb51e106571f80d96dfb",
+        "evidence_sha256": "0b17dadf9a5784ef6a151bccd4d7a57c4b6347cdac1f809b02c12c85a690cd3d",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "777a86f45a2993aa7498ae23488e454db0d2e11e0682fb51e106571f80d96dfb",
+          "reviewed_source_sha256": "777a86f45a2993aa7498ae23488e454db0d2e11e0682fb51e106571f80d96dfb",
+          "duration": 41.216,
+          "timestamps": [
+            0.0,
+            20.533,
+            41.066
+          ],
+          "source_frame_hashes": [
+            "c0a1c12e6b19acf9887ed19de3c7d15f5df5f9f404e066a125c51a2cfa77aab2",
+            "b661c558d045a75d277c3bc155f65548563230450ec794e1289507a931c50b26",
+            "363f77d4595323db5b610ee8688be2887ce5c699684765851a544ae2fdf69280"
+          ],
+          "headline": "Lattensepp glaze",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, showing hands on keyboard, game HUD with inventory, health, and chat text, and a visible Minecraft world with blocks and structures.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is mining or interacting with blocks in a Minecraft world, with a face camera showing hands on keyboard.",
+            "payoff": "No clear outcome or payoff visible; gameplay continues without a visible win or loss or significant event.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.021212804184022372,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, displaying hands on a keyboard. The game HUD is visible, including health, inventory, and a minimap. The title 'Lattensepp glaze' is at 0",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            20.533,
+            41.066
+          ],
+          "final_frame_hashes": [
+            "6900a68f79d2f483eebb697ea7bc25eedba443345b546e4d666775df33bc862f",
+            "3d58245df41f3ca1ab716e94d1d687915811566457d9967373f9b38c35d252cd",
+            "ca0c3f439e9067a0c29a4c2d5a0d08226df83b619059575704fa202c14c14080"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "7b66893e71e81aae9823b5f9598aea54dbca6e404d2f0da1401db9bc057106ce",
+          "transcript_sha256": "43042032f836d11a962ad7b1129237a5739cfe84d277423ecbc191ba8c59c0ff"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, displaying hands on a keyboard. The game HUD is visible, including health, inventory, and a minimap. The title 'Lattensepp glaze' is at 0"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0212, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-3530894836-7b66893e71e8-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

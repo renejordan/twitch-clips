@@ -742,6 +742,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698749713826270497",
       "sent_at": "2026-10-20T14:02:38Z",
       "verified_at": "2026-10-20T14:06:43Z"
+    },
+    {
+      "clip_id": "2394094226",
+      "reserved_at": "2026-10-20T15:00:41Z",
+      "streamer": "zarbex",
+      "sha256": "b94c63794aa181e188b06a10bb072162dd1c87bdd2374d9398ae0ce78b62af3a",
+      "source_sha256": "960ff4892cd18e2274f95e97f3552f94d792c731a2f453b086d38ebb7c79f9ff",
+      "status": "reserved",
+      "asset_title": "tiktok14-2394094226-b94c63794aa1.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-2394094226-b94c63794aa1.mp4",
+      "clip_slug": "AmazingIncredulousTortoiseGrammarKing-u3KtX0EMcYRUGQFI",
+      "original_created_at": "2026-10-20T13:26:40Z",
+      "source_deadline": "2026-10-23T13:26:40Z"
     }
   ],
   "last_production": {

@@ -763,26 +763,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-20T14:16:25Z",
+    "at": "2026-10-20T15:10:33Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 81,
+      "listing_duration_prefilter": 77,
       "listing_ok": 100,
-      "listing_age_prefilter": 772,
-      "discovered": 713,
-      "metadata_requested": 677,
-      "gaming_category_not_verified": 329,
-      "qualified_metadata": 282,
-      "title_too_short": 66,
-      "duplicate_source_event": 10,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_age_prefilter": 765,
+      "discovered": 718,
+      "metadata_requested": 682,
+      "gaming_category_not_verified": 331,
+      "qualified_metadata": 283,
+      "title_too_short": 68,
+      "duplicate_source_event": 11,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_visual_gameplay_visible": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2394094226",
-      "clip_slug": "AmazingIncredulousTortoiseGrammarKing-u3KtX0EMcYRUGQFI",
+      "clip_id": "1694983154",
+      "clip_slug": "TangibleRealWebBatChest-tHiA50tEIdJ9oRs5",
       "streamer": "zarbex"
     }
   },
@@ -949,6 +950,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-20T14",
-  "last_prefetch_hour": "2026-10-20T14"
+  "last_prepare_hour": "2026-10-20T15",
+  "last_prefetch_hour": "2026-10-20T15"
 }

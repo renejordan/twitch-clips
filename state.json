@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2394094226",
-      "clip_slug": "AmazingIncredulousTortoiseGrammarKing-u3KtX0EMcYRUGQFI",
-      "streamer": "zarbex",
-      "source_url": "https://www.twitch.tv/zarbex/clip/AmazingIncredulousTortoiseGrammarKing-u3KtX0EMcYRUGQFI",
-      "original_title": "Schradin macht Fitna",
-      "hook": "Schradin macht Fitna",
-      "caption": "Schradin macht Fitna\n#gaming #minecraft #twitchclips #zarbex #gamer",
-      "views_at_selection": 83,
-      "original_duration": 19.0,
-      "original_created_at": "2026-10-20T13:26:40Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-2394094226-b94c63794aa1.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-20T14:16:25Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "b94c63794aa181e188b06a10bb072162dd1c87bdd2374d9398ae0ce78b62af3a",
-      "category": "Minecraft",
-      "transcript_sha256": "c2b82fac4be276c769c27855e3c2a0a9a9fdeef3a78d9ef7d3f2afc4feda334b",
-      "asr_requires_correction": true,
-      "source_sha256": "960ff4892cd18e2274f95e97f3552f94d792c731a2f453b086d38ebb7c79f9ff",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-20T14:16:25.647014+00:00",
-        "media_sha256": "b94c63794aa181e188b06a10bb072162dd1c87bdd2374d9398ae0ce78b62af3a",
-        "transcript_sha256": "c2b82fac4be276c769c27855e3c2a0a9a9fdeef3a78d9ef7d3f2afc4feda334b",
-        "source_sha256": "960ff4892cd18e2274f95e97f3552f94d792c731a2f453b086d38ebb7c79f9ff",
-        "evidence_sha256": "e8e111f8e987a5b224db2539aa8173d9eeedd1bb1114b410b2f4d6faccf55a42",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "960ff4892cd18e2274f95e97f3552f94d792c731a2f453b086d38ebb7c79f9ff",
-          "reviewed_source_sha256": "960ff4892cd18e2274f95e97f3552f94d792c731a2f453b086d38ebb7c79f9ff",
-          "duration": 19.434,
-          "timestamps": [
-            0.0,
-            9.642,
-            19.284
-          ],
-          "source_frame_hashes": [
-            "2dfae9b83dc78a030181e32ff6bf9b515d580f634ad729bf4ad0f9c007a04dc3",
-            "8ca4fa9be03f7999e2df55cb354988d5df0a250fe39a9036b820c7d187d1fc21",
-            "29e7c0491adb20323663680c50c7aab5de3e8837ff97552920a33ebcd454f2b4"
-          ],
-          "headline": "Schradin macht Fitna",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, game HUD present, chat visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, standing near a dirt wall with inventory and chat visible",
-            "payoff": "No visible outcome or payoff from actions in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.03503525759103146,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a Minecraft gameplay scene with a visible HUD, inventory bar, chat window, and minimap. The title 'Schradin macht Fitna' is overlaid at the top center, and no facecam panel is present. The chat window contains visible text, ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_without_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            9.642,
-            19.284
-          ],
-          "final_frame_hashes": [
-            "1990f6df30fc82a227dac4bc179e0116f0ecd2e6e2c29a8ebd54d235cd2e1efb",
-            "85343b9c2f151873288ea7119a0568a6fd683b453ad49409cce43e30268e8fd4",
-            "80f653d36c326ba907e3ee4490b4673999bbbd7390a4c8f909c94ab074040421"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "b94c63794aa181e188b06a10bb072162dd1c87bdd2374d9398ae0ce78b62af3a",
-          "transcript_sha256": "c2b82fac4be276c769c27855e3c2a0a9a9fdeef3a78d9ef7d3f2afc4feda334b"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a Minecraft gameplay scene with a visible HUD, inventory bar, chat window, and minimap. The title 'Schradin macht Fitna' is overlaid at the top center, and no facecam panel is present. The chat window contains visible text, "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0350, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-2394094226-b94c63794aa1-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -749,14 +611,17 @@
       "streamer": "zarbex",
       "sha256": "b94c63794aa181e188b06a10bb072162dd1c87bdd2374d9398ae0ce78b62af3a",
       "source_sha256": "960ff4892cd18e2274f95e97f3552f94d792c731a2f453b086d38ebb7c79f9ff",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2394094226-b94c63794aa1.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-2394094226-b94c63794aa1.mp4",
       "clip_slug": "AmazingIncredulousTortoiseGrammarKing-u3KtX0EMcYRUGQFI",
       "original_created_at": "2026-10-20T13:26:40Z",
       "source_deadline": "2026-10-23T13:26:40Z",
       "buffer_post_id": "6ad7821d009aee686444c6fe",
-      "last_reconcile_at": "2026-10-20T15:06:35Z"
+      "last_reconcile_at": "2026-10-20T15:06:35Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698765286836604193",
+      "sent_at": "2026-10-20T15:02:41Z",
+      "verified_at": "2026-10-20T15:06:36Z"
     }
   ],
   "last_production": {

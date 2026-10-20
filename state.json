@@ -767,12 +767,13 @@
       "streamer": "zarbex",
       "sha256": "5848b07c8180b711a5c86530d7802767157c6c1f470bc20fa57f743004f050c9",
       "source_sha256": "002662e9fffb47df447a0a8bbe0cbff38dd5c30cee4d5f91b921c6c68f3b71f2",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1694983154-5848b07c8180.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-1694983154-5848b07c8180.mp4",
       "clip_slug": "TangibleRealWebBatChest-tHiA50tEIdJ9oRs5",
       "original_created_at": "2026-10-19T18:08:26Z",
-      "source_deadline": "2026-10-22T18:08:26Z"
+      "source_deadline": "2026-10-22T18:08:26Z",
+      "buffer_post_id": "6ad7955fdf9971c887bb3c2d"
     }
   ],
   "last_production": {

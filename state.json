@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3660835968",
+      "clip_slug": "GeniusDependableKeyboardBlargNaut-psfFjtfZCTDfbXev",
+      "streamer": "repaz",
+      "source_url": "https://www.twitch.tv/repaz/clip/GeniusDependableKeyboardBlargNaut-psfFjtfZCTDfbXev",
+      "original_title": "die Psychose kracht",
+      "hook": "die Psychose kracht",
+      "caption": "die Psychose kracht\n#gaming #minecraft #twitchclips #repaz #gamer",
+      "views_at_selection": 426,
+      "original_duration": 29.0,
+      "original_created_at": "2026-10-19T21:34:12Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-3660835968-662bdb77729a.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-20T07:06:32Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "662bdb77729ad8ecb3a2ad562bc3510bca0d0921fb15f93c7fa6e9542ece18b2",
+      "category": "Minecraft",
+      "transcript_sha256": "9fb01050f65ad94e0309d661e7978f9c2ba1a85bec0d1ae3de3ae13f46510e6f",
+      "asr_requires_correction": true,
+      "source_sha256": "3708d5035bc78f3a138e5e3d791e17ee906917f01a118ef2c9bab8412ffb12fe",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-20T07:06:32.094804+00:00",
+        "media_sha256": "662bdb77729ad8ecb3a2ad562bc3510bca0d0921fb15f93c7fa6e9542ece18b2",
+        "transcript_sha256": "9fb01050f65ad94e0309d661e7978f9c2ba1a85bec0d1ae3de3ae13f46510e6f",
+        "source_sha256": "3708d5035bc78f3a138e5e3d791e17ee906917f01a118ef2c9bab8412ffb12fe",
+        "evidence_sha256": "31cb442c8972421934a67909f1466eafbb7bd6775be1e6202d3eaaf4d62c432f",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "3708d5035bc78f3a138e5e3d791e17ee906917f01a118ef2c9bab8412ffb12fe",
+          "reviewed_source_sha256": "3708d5035bc78f3a138e5e3d791e17ee906917f01a118ef2c9bab8412ffb12fe",
+          "duration": 29.226,
+          "timestamps": [
+            0.0,
+            14.538,
+            29.076
+          ],
+          "source_frame_hashes": [
+            "c600209c11342c158044f9d51a643d67ab3c29b5c9d227e0480ebd997e66c85e",
+            "23d5c79e153b2dd02c530dc9c625ab7cd3f885f3eec9a5304cb62cffacbff659",
+            "8b71085d7ab3428ccf1200a42321944c607a683a162bfc2e14a9f22201bf53e9"
+          ],
+          "headline": "die Psychose kracht",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay with game HUD and chat visible, not a video player or browser.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a Minecraft world with a face camera overlay showing a streamer.",
+            "payoff": "No clear outcome or payoff visible; player is moving around a blocky environment with no win/loss or significant event occurring in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.12271642113160064,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, displaying a streamer. The game HUD is visible, including the player's inventory, health bar, and minimap. The title 'die Psychose kracht",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.538,
+            29.076
+          ],
+          "final_frame_hashes": [
+            "cde9416df31f5f81e71584018c8dadb458f6f92519fe8b49ea4c8755e6725761",
+            "e333bcb327d8d6e13a3cd27b6f5011930c6b72c8064c352f9e318b4b72046643",
+            "03bc3755107a2685f5b6405bf89b2b33e1efd17aa0c5564f8f6065c008fbdcc4"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "662bdb77729ad8ecb3a2ad562bc3510bca0d0921fb15f93c7fa6e9542ece18b2",
+          "transcript_sha256": "9fb01050f65ad94e0309d661e7978f9c2ba1a85bec0d1ae3de3ae13f46510e6f"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, displaying a streamer. The game HUD is visible, including the player's inventory, health bar, and minimap. The title 'die Psychose kracht"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.1227, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-3660835968-662bdb77729a-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

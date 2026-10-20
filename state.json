@@ -847,6 +847,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-20T16:28:23Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "3439049317",
+      "clip_slug": "CrunchyMotionlessSkunkMau5-rTrTJ2xptbFZItUe",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/CrunchyMotionlessSkunkMau5-rTrTJ2xptbFZItUe",
+      "status": "quality_rejected",
+      "created_at": "2026-10-20T17:08:07Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

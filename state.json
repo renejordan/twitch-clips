@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "206829726",
-      "clip_slug": "SpinelessBoldBananaPanicVis-iVVWV2kOhDem6vhA",
-      "streamer": "niekbeats",
-      "source_url": "https://www.twitch.tv/niekbeats/clip/SpinelessBoldBananaPanicVis-iVVWV2kOhDem6vhA",
-      "original_title": "frog psychose",
-      "hook": "frog psychose",
-      "caption": "frog psychose\n#gaming #minecraft #twitchclips #niekbeats #gamer",
-      "views_at_selection": 497,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-19T20:06:46Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-206829726-a7afaf6d5035.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-19T23:09:45Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "a7afaf6d5035b06a8659cfb2279f2b3045593b6a0e935e9e15f972f94281abbb",
-      "category": "Minecraft",
-      "transcript_sha256": "405227404515314d4c6bdc6726979f8dc306394ed99e7e6dbf38c03bbd4ef9ac",
-      "asr_requires_correction": true,
-      "source_sha256": "67c1fd35c1a0269a9fce323de897518b2b0ed132714c1836ed3b6ad6e52c76a2",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-19T23:09:45.137219+00:00",
-        "media_sha256": "a7afaf6d5035b06a8659cfb2279f2b3045593b6a0e935e9e15f972f94281abbb",
-        "transcript_sha256": "405227404515314d4c6bdc6726979f8dc306394ed99e7e6dbf38c03bbd4ef9ac",
-        "source_sha256": "67c1fd35c1a0269a9fce323de897518b2b0ed132714c1836ed3b6ad6e52c76a2",
-        "evidence_sha256": "a445c294d3444229d8806b003b9e9e789f6c4bd7209e90253108fcbcf921d23d",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "67c1fd35c1a0269a9fce323de897518b2b0ed132714c1836ed3b6ad6e52c76a2",
-          "reviewed_source_sha256": "67c1fd35c1a0269a9fce323de897518b2b0ed132714c1836ed3b6ad6e52c76a2",
-          "duration": 30.003,
-          "timestamps": [
-            0.0,
-            14.927,
-            29.853
-          ],
-          "source_frame_hashes": [
-            "542ae3e92107c55d00204d35538fc2f5a2fb0e682fe5e605dc4719016800d175",
-            "48aec279e3989c3dc24aaf781e9834e2d74ac06db638d5070e91ac444a4f9caf",
-            "19b6d3d57d81d2c0c01689b8ecd773762c2877d8732b9e164706f2d4395de80f"
-          ],
-          "headline": "frog psychose",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "In-game view with face camera in corner, showing player's inventory, health, and chat, with a small map in top left corner. Chat messages are visible on left side, indicating live interaction. No browser or desktop UI is",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is inside a wooden structure, holding a tool, with a cow nearby and a small map visible in the top left corner. Chat messages are visible on the left side of the screen, indicating live interaction with viewers.",
-            "payoff": "No visible outcome or payoff; player is simply moving around inside the structure, with no clear action or result visible in the frames provided. No win or loss is indicated, and no significant event occurs within the 30",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.12529436186629972,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top left corner, displaying a person sitting in front of a computer. The game view shows a wooden structure with a cow nearby and a small map visible in a",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.927,
-            29.853
-          ],
-          "final_frame_hashes": [
-            "9d4a41e72852c38bfe3d274d9c92709c8353ce0c3f0bf906e7815f171ef77eda",
-            "c5c40475d4ce6712fa779e0b9ec9b202138af8f1266c2143d6133886667dd6b5",
-            "145e32e1027ade8d40ffcacc3a10d474e6e04b27c17b1f0c93fd2cbe8b1880ca"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "a7afaf6d5035b06a8659cfb2279f2b3045593b6a0e935e9e15f972f94281abbb",
-          "transcript_sha256": "405227404515314d4c6bdc6726979f8dc306394ed99e7e6dbf38c03bbd4ef9ac"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top left corner, displaying a person sitting in front of a computer. The game view shows a wooden structure with a cow nearby and a small map visible in a"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1253, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-206829726-a7afaf6d5035-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -605,14 +467,17 @@
       "streamer": "niekbeats",
       "sha256": "a7afaf6d5035b06a8659cfb2279f2b3045593b6a0e935e9e15f972f94281abbb",
       "source_sha256": "67c1fd35c1a0269a9fce323de897518b2b0ed132714c1836ed3b6ad6e52c76a2",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-206829726-a7afaf6d5035.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-206829726-a7afaf6d5035.mp4",
       "clip_slug": "SpinelessBoldBananaPanicVis-iVVWV2kOhDem6vhA",
       "original_created_at": "2026-10-19T20:06:46Z",
       "source_deadline": "2026-10-22T20:06:46Z",
       "buffer_post_id": "6ad7118d9d034d7aede0ca53",
-      "last_reconcile_at": "2026-10-20T07:02:24Z"
+      "last_reconcile_at": "2026-10-20T07:02:24Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698641457279749409",
+      "sent_at": "2026-10-20T07:02:22Z",
+      "verified_at": "2026-10-20T07:02:26Z"
     }
   ],
   "last_production": {

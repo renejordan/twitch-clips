@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3398016197",
+      "clip_slug": "NastyEnjoyableDogeDogFace-njq8UOvYivrFSkWo",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/NastyEnjoyableDogeDogFace-njq8UOvYivrFSkWo",
+      "original_title": "Forza ist fertig runtergeladen in 2026",
+      "hook": "Forza ist fertig runtergeladen in 2026",
+      "caption": "Forza ist fertig runtergeladen in 2026\n#gaming #minecraft #twitchclips #krokoboss #gamer",
+      "views_at_selection": 137,
+      "original_duration": 29.0,
+      "original_created_at": "2026-10-20T17:34:01Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3398016197-b5b25bcc42ee.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-20T18:12:48Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "b5b25bcc42eef12de73f2190ba6bc4cf4f4996e8256589e1992da28241e42625",
+      "category": "Minecraft",
+      "transcript_sha256": "d4f24c7ee79a12fa98627c8763ef16f78b7216c011919210197faf0909aae936",
+      "asr_requires_correction": true,
+      "source_sha256": "98df3797d6ad3692dac4b3cda47c97d2fc1de80fea04cd7e00cb6e3769673373",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-20T18:12:48.729321+00:00",
+        "media_sha256": "b5b25bcc42eef12de73f2190ba6bc4cf4f4996e8256589e1992da28241e42625",
+        "transcript_sha256": "d4f24c7ee79a12fa98627c8763ef16f78b7216c011919210197faf0909aae936",
+        "source_sha256": "98df3797d6ad3692dac4b3cda47c97d2fc1de80fea04cd7e00cb6e3769673373",
+        "evidence_sha256": "caaf10168850cd69bc3484831d6bd7ebd6cc4232585405bbb8ea70ab5d601b27",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "98df3797d6ad3692dac4b3cda47c97d2fc1de80fea04cd7e00cb6e3769673373",
+          "reviewed_source_sha256": "98df3797d6ad3692dac4b3cda47c97d2fc1de80fea04cd7e00cb6e3769673373",
+          "duration": 29.966667,
+          "timestamps": [
+            0.0,
+            14.908,
+            29.817
+          ],
+          "source_frame_hashes": [
+            "a7e04ab6a68cf4e95db75c0d2e6ad1a19717c62cbf395225ed5e6f8f36a1501d",
+            "65480b979f413cb6b66aa0f7711016c0733e75c8ced08316147a96eac01e8e7f",
+            "08cdf84cdad3545a2feae40675523f869805a003c434368de354e81aa8508ef3"
+          ],
+          "headline": "Forza ist fertig runtergeladen in 2026",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Top-left: minimap, top-right: facecam, bottom: inventory bar, health bar, and crosshair. Game is Minecraft with visible block structures and player avatar.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is inside a Minecraft structure, standing near a white block wall with a wooden plank above it.",
+            "payoff": "No visible outcome or payoff; player is still standing in the same location with no clear action or result shown in the frames provided. No win or loss is indicated. No dialogue or subtitles are visible. No clear tension",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.02085438386979876,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The text 'Forza ist fertig",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.908,
+            29.817
+          ],
+          "final_frame_hashes": [
+            "df6f59a18a478c11b0aa122d27b0dae4f50b602292ffb6c8342e28ed1c945436",
+            "522daa19d63aabf778afa534f0e445a1c90eb27d73190eab8e53fe30870bd899",
+            "0d9f889b16938634ae0497764acc96c20986b7d22a2f3e7700911ae0a81a9ec9"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "b5b25bcc42eef12de73f2190ba6bc4cf4f4996e8256589e1992da28241e42625",
+          "transcript_sha256": "d4f24c7ee79a12fa98627c8763ef16f78b7216c011919210197faf0909aae936"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The text 'Forza ist fertig"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0209, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3398016197-b5b25bcc42ee-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

@@ -641,12 +641,13 @@
       "streamer": "krokoboss",
       "sha256": "bc667f31997d4d8c2d11851aac43ebd0f0d22035cdee071d224f58e9d1f553aa",
       "source_sha256": "7a3cefd46e06ccde5eeb91dc88d60b912556522d9542c25a53a0e4b05feddf4e",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1776120825-bc667f31997d.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1776120825-bc667f31997d.mp4",
       "clip_slug": "DeliciousAggressivePeppermintTheRinger-CVMJXHieYewoAvJo",
       "original_created_at": "2026-10-19T19:54:53Z",
-      "source_deadline": "2026-10-22T19:54:53Z"
+      "source_deadline": "2026-10-22T19:54:53Z",
+      "buffer_post_id": "6ad72dabed43fb48e28f8f81"
     }
   ],
   "last_production": {

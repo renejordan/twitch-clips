@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3466599113",
-      "clip_slug": "EasyBoxyOwlHassaanChop-cdpoIKpOVNFkVkWr",
-      "streamer": "eliasn97",
-      "source_url": "https://www.twitch.tv/eliasn97/clip/EasyBoxyOwlHassaanChop-cdpoIKpOVNFkVkWr",
-      "original_title": "Eli maximal uneffektiv am bauen",
-      "hook": "Eli maximal uneffektiv am bauen",
-      "caption": "Eli maximal uneffektiv am bauen\n#gaming #minecraft #twitchclips #eliasn97 #gamer",
-      "views_at_selection": 73,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-20T16:54:25Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-3466599113-5098b87704ec.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-20T17:24:39Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "5098b87704ecf1ab8cf26385940698bd3bab927802d39cefd34a625f99bcdce0",
-      "category": "Minecraft",
-      "transcript_sha256": "bc471b831d44423317ca4380dec71433074a423d53c5181120b348a8c73d7d2d",
-      "asr_requires_correction": true,
-      "source_sha256": "d865ba74a2611a340a5352345946f4639896f5d79c8af5cc07859555dc3881bf",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-20T17:24:39.921752+00:00",
-        "media_sha256": "5098b87704ecf1ab8cf26385940698bd3bab927802d39cefd34a625f99bcdce0",
-        "transcript_sha256": "bc471b831d44423317ca4380dec71433074a423d53c5181120b348a8c73d7d2d",
-        "source_sha256": "d865ba74a2611a340a5352345946f4639896f5d79c8af5cc07859555dc3881bf",
-        "evidence_sha256": "8901bb9372817cd49de68ab333ea014c906f3e9a1b0225b6efb9fe5807afea75",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "d865ba74a2611a340a5352345946f4639896f5d79c8af5cc07859555dc3881bf",
-          "reviewed_source_sha256": "d865ba74a2611a340a5352345946f4639896f5d79c8af5cc07859555dc3881bf",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "a9fdd2137b19eafae4d5e38dba0d2b8dcea9238125420d99d927db051678d9fa",
-            "1b41a311a58e225dca1978ee49c15efd0161de756340f34e12c7ab5beabfed75",
-            "79dbf76c8ff066db07525e5e2b7765bcdc9bd24cf7427f64ddb16b70340137dc"
-          ],
-          "headline": "Eli maximal uneffektiv am bauen",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, chat text visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player inside a Minecraft house with inventory and chat visible",
-            "payoff": "No visible outcome or payoff from actions taken in frames",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.05293863232900979,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft house interior with inventory and chat visible, and a facecam panel above gameplay. The title 'Eli maximal uneffektiv am bauen' is clearly readable and is the only text present. The frame at 14.93",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "2506ec3ca779ca9a64a9f253d8505dff8a99833231de71ff4ecafab997bae38d",
-            "0410142ee5a34bb88c7e0b22f6564c89011dcfa55fab3d9e7479132290c10770",
-            "111630b5fb94e91152e1cf5e5d985c09964ba306e07b48fa45d2feb086d12424"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "5098b87704ecf1ab8cf26385940698bd3bab927802d39cefd34a625f99bcdce0",
-          "transcript_sha256": "bc471b831d44423317ca4380dec71433074a423d53c5181120b348a8c73d7d2d"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft house interior with inventory and chat visible, and a facecam panel above gameplay. The title 'Eli maximal uneffektiv am bauen' is clearly readable and is the only text present. The frame at 14.93"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0529, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-3466599113-5098b87704ec-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -803,14 +665,17 @@
       "streamer": "eliasn97",
       "sha256": "5098b87704ecf1ab8cf26385940698bd3bab927802d39cefd34a625f99bcdce0",
       "source_sha256": "d865ba74a2611a340a5352345946f4639896f5d79c8af5cc07859555dc3881bf",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3466599113-5098b87704ec.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-3466599113-5098b87704ec.mp4",
       "clip_slug": "EasyBoxyOwlHassaanChop-cdpoIKpOVNFkVkWr",
       "original_created_at": "2026-10-20T16:54:25Z",
       "source_deadline": "2026-10-23T16:54:25Z",
       "buffer_post_id": "6ad7ad32dbe8f4b851e54048",
-      "last_reconcile_at": "2026-10-20T18:08:29Z"
+      "last_reconcile_at": "2026-10-20T18:08:29Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698812634295962913",
+      "sent_at": "2026-10-20T18:06:42Z",
+      "verified_at": "2026-10-20T18:08:30Z"
     }
   ],
   "last_production": {

@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3706707462",
+      "clip_slug": "LazyIcyHorseradishCorgiDerp-1QwoLC_9zhrEdCIR",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/LazyIcyHorseradishCorgiDerp-1QwoLC_9zhrEdCIR",
+      "original_title": "DU KANNST MICH NICHT AUFHALTEN RESPATZ",
+      "hook": "DU KANNST MICH NICHT AUFHALTEN RESPATZ",
+      "caption": "DU KANNST MICH NICHT AUFHALTEN RESPATZ\n#gaming #leagueoflegends #twitchclips #krokoboss #gamer",
+      "views_at_selection": 201,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-20T01:31:59Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3706707462-761bd0d38612.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-20T11:10:33Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "761bd0d3861260c3804388ae749f14b447ab62673be69a625150d1f1428c0015",
+      "category": "League of Legends",
+      "transcript_sha256": "998489b380cdf8ee41a100f7f4c47d2e79f400c2b84449b5c5066479f4523468",
+      "asr_requires_correction": true,
+      "source_sha256": "35926ed084a656a708ef265a52346eb745b3e2753aa78fa21c80716a658f8b64",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-20T11:10:33.962978+00:00",
+        "media_sha256": "761bd0d3861260c3804388ae749f14b447ab62673be69a625150d1f1428c0015",
+        "transcript_sha256": "998489b380cdf8ee41a100f7f4c47d2e79f400c2b84449b5c5066479f4523468",
+        "source_sha256": "35926ed084a656a708ef265a52346eb745b3e2753aa78fa21c80716a658f8b64",
+        "evidence_sha256": "2f5443db8dec2a71171e60196d34f829900b883ee7010517abd28fd1865294bd",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "35926ed084a656a708ef265a52346eb745b3e2753aa78fa21c80716a658f8b64",
+          "reviewed_source_sha256": "35926ed084a656a708ef265a52346eb745b3e2753aa78fa21c80716a658f8b64",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "c3e88b1959bcddb481250603793a8af0a1a6327368c420612123328fee272a0e",
+            "3e276085868545ef1e14bd5fc467d8807f3ccc7a4891e3bf09dfcfa6232b34cf",
+            "8f83c0104d56226bbba55626c803bde38f6f2f99519e4a8a0c98192038f6ae06"
+          ],
+          "headline": "DU KANNST MICH NICHT AUFHALTEN RESPATZ",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Top-left corner shows a minimap, bottom-center shows a health bar and inventory slots, top-right corner shows a face camera of a player with headphones, and the main screen shows Minecraft gameplay with a first-person视角.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a Minecraft cave with water flowing down a slope, and the minimap is visible in the top-left corner.",
+            "payoff": "Player is in a Minecraft cave with water flowing down a slope, and the minimap is visible in the top-left corner. The player is not shown to have taken any action that results in a win or loss, and the scene is static. A",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.08934168621041524,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft cave with water flowing down a slope, and the minimap is visible in the top-left corner. The player is not shown to have taken any action that results in a win or loss, and the scene is static. A",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "0df3a1305eaa1c12cfc4f07d524c4abccde0f8324808ea168cfa04cb81b583b7",
+            "a3eabef2689ef66348d316b9ea6e1809dc38d770b0149090b49ea943ebb945fa",
+            "c79d613b1e3a0e3978be4241490b54d26dc9a81ec977d7a5e5d61bb3b8fbf375"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "761bd0d3861260c3804388ae749f14b447ab62673be69a625150d1f1428c0015",
+          "transcript_sha256": "998489b380cdf8ee41a100f7f4c47d2e79f400c2b84449b5c5066479f4523468"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft cave with water flowing down a slope, and the minimap is visible in the top-left corner. The player is not shown to have taken any action that results in a win or loss, and the scene is static. A"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0893, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3706707462-761bd0d38612-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

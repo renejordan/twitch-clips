@@ -598,6 +598,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698486818232110369",
       "sent_at": "2026-10-19T21:02:18Z",
       "verified_at": "2026-10-19T21:02:25Z"
+    },
+    {
+      "clip_id": "206829726",
+      "reserved_at": "2026-10-20T07:00:26Z",
+      "streamer": "niekbeats",
+      "sha256": "a7afaf6d5035b06a8659cfb2279f2b3045593b6a0e935e9e15f972f94281abbb",
+      "source_sha256": "67c1fd35c1a0269a9fce323de897518b2b0ed132714c1836ed3b6ad6e52c76a2",
+      "status": "reserved",
+      "asset_title": "tiktok14-206829726-a7afaf6d5035.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-206829726-a7afaf6d5035.mp4",
+      "clip_slug": "SpinelessBoldBananaPanicVis-iVVWV2kOhDem6vhA",
+      "original_created_at": "2026-10-19T20:06:46Z",
+      "source_deadline": "2026-10-22T20:06:46Z"
     }
   ],
   "last_production": {

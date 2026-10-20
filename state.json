@@ -631,7 +631,7 @@
   },
   "source_ranking": {
     "source_url": "https://twitchtracker.com/channels/ranking/german",
-    "checked_at": "2026-10-19T01:11:07.815138+00:00",
+    "checked_at": "2026-10-20T01:47:55.732510+00:00",
     "sources": [
       "eliasn97",
       "papaplatte",
@@ -685,7 +685,7 @@
       "repaz"
     ],
     "fetched_at": "2026-10-19T01:11:07.815138+00:00",
-    "result": "fresh"
+    "result": "cached_fallback"
   },
   "rejected": [
     {

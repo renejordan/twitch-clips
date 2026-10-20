@@ -713,12 +713,13 @@
       "streamer": "krokoboss",
       "sha256": "88e0d5f9005aa90cb021f1c188abff0917a8572fe3b497cc912c9f12e6b96b74",
       "source_sha256": "985ef5c7c7fca7d19b44e285bb07f3a5b879a649cbf5936bb2d08737df3ef54a",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3344576570-88e0d5f9005a.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3344576570-88e0d5f9005a.mp4",
       "clip_slug": "DepressedStormyWormTooSpicy-Uo-1xRkNzGWZPkLg",
       "original_created_at": "2026-10-20T01:29:30Z",
-      "source_deadline": "2026-10-23T01:29:30Z"
+      "source_deadline": "2026-10-23T01:29:30Z",
+      "buffer_post_id": "6ad765f0ff291a23994dea74"
     }
   ],
   "last_production": {

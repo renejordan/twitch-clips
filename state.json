@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2088617063",
+      "clip_slug": "SuccessfulDirtyEggnogVoteYea-0PX2sd3ufBvQwAat",
+      "streamer": "repaz",
+      "source_url": "https://www.twitch.tv/repaz/clip/SuccessfulDirtyEggnogVoteYea-0PX2sd3ufBvQwAat",
+      "original_title": "HAB ICH DIIIIIICH",
+      "hook": "HAB ICH DIIIIIICH",
+      "caption": "HAB ICH DIIIIIICH\n#gaming #minecraft #twitchclips #repaz #gamer",
+      "views_at_selection": 487,
+      "original_duration": 40.0,
+      "original_created_at": "2026-10-20T19:46:51Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2088617063-0b672362a8a9.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-20T23:31:34Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "0b672362a8a97e79ba39ae79c28e34116d5c03f27fe59e4c43e76742c1eb72af",
+      "category": "Minecraft",
+      "transcript_sha256": "01b32f6cf21bcf704632ad5e75acec26350658d39a583e2af6b3d3c83a780a5f",
+      "asr_requires_correction": true,
+      "source_sha256": "3b47cfda2f679f0d0ea8e46c5640942472386d417109046050133f3ad32742c8",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-20T23:31:34.453800+00:00",
+        "media_sha256": "0b672362a8a97e79ba39ae79c28e34116d5c03f27fe59e4c43e76742c1eb72af",
+        "transcript_sha256": "01b32f6cf21bcf704632ad5e75acec26350658d39a583e2af6b3d3c83a780a5f",
+        "source_sha256": "3b47cfda2f679f0d0ea8e46c5640942472386d417109046050133f3ad32742c8",
+        "evidence_sha256": "bc380a7d55f528810f95ad55b796e4c3cd2f59b5454c5b2cfaf64db9750310ee",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "3b47cfda2f679f0d0ea8e46c5640942472386d417109046050133f3ad32742c8",
+          "reviewed_source_sha256": "3b47cfda2f679f0d0ea8e46c5640942472386d417109046050133f3ad32742c8",
+          "duration": 40.981,
+          "timestamps": [
+            0.0,
+            20.416,
+            40.831
+          ],
+          "source_frame_hashes": [
+            "90561a15234ec40424ed49c5aa0edc64b6e5bc691392927acfefc8935c278fa6",
+            "57ed679868b3501739de001e3d651c07bfda163be5ff38633eb30e244b9700c0",
+            "f61ba9dc4476c2374908128ec8d47ce6401571ba236d82eab658d9f5ada2aae8"
+          ],
+          "headline": "HAB ICH DIIIIIICH",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, with game HUD visible including inventory, chat, and minimap, and a small window showing the streamer's face and chat overlay.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a Minecraft world with a face camera in the corner, showing a streamer and game HUD including inventory and chat.",
+            "payoff": "No clear outcome or payoff visible; player is moving through the game without a visible win or loss, or strong reaction from the streamer or game mechanics.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.08095237523026784,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay window with a facecam panel in the top-left corner, displaying a streamer. The game HUD, including inventory and chat, is visible. The text 'HAB ICH DIIIIIIICH' is overlaid at the top. At",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            20.416,
+            40.831
+          ],
+          "final_frame_hashes": [
+            "b4e1379305a1d78acef870516bd9fd7e168f01cbe08ab41dea203e950890bf0a",
+            "29c80be34f618ffcaa15b8524ee82a5e374bafd7c244ce7ba2af63ee222af93f",
+            "e4cabd60a621cabf5d3b07a28cf2d2ea198723ecb8f417a30b80c9204428fda9"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "0b672362a8a97e79ba39ae79c28e34116d5c03f27fe59e4c43e76742c1eb72af",
+          "transcript_sha256": "01b32f6cf21bcf704632ad5e75acec26350658d39a583e2af6b3d3c83a780a5f"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay window with a facecam panel in the top-left corner, displaying a streamer. The game HUD, including inventory and chat, is visible. The text 'HAB ICH DIIIIIIICH' is overlaid at the top. At"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0810, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2088617063-0b672362a8a9-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

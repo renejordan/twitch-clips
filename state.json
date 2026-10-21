@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1746857233",
+      "clip_slug": "CarelessChillyMilkUnSane-M3aBIrMCr02rByRY",
+      "streamer": "handofblood",
+      "source_url": "https://www.twitch.tv/handofblood/clip/CarelessChillyMilkUnSane-M3aBIrMCr02rByRY",
+      "original_title": "NIKBIT mit der Kroko Technique",
+      "hook": "NIKBIT mit der Kroko Technique",
+      "caption": "NIKBIT mit der Kroko Technique\n#gaming #minecraft #twitchclips #handofblood #gamer",
+      "views_at_selection": 407,
+      "original_duration": 34.0,
+      "original_created_at": "2026-10-21T16:17:57Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-1746857233-354fdd8ac1f7.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-21T18:14:30Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "354fdd8ac1f7549c066bb63af63eccf56b86239c870c069022ea2c236134688b",
+      "category": "Minecraft",
+      "transcript_sha256": "6131324419426990d98d723d8fd20ef037d04f9ae706e61ea5cb71d59707811b",
+      "asr_requires_correction": true,
+      "source_sha256": "8066d60fa70b27ea5aa25071a0fa5dacd871269b3f3a52ad3119aa6d9eb8a112",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-21T18:14:30.517526+00:00",
+        "media_sha256": "354fdd8ac1f7549c066bb63af63eccf56b86239c870c069022ea2c236134688b",
+        "transcript_sha256": "6131324419426990d98d723d8fd20ef037d04f9ae706e61ea5cb71d59707811b",
+        "source_sha256": "8066d60fa70b27ea5aa25071a0fa5dacd871269b3f3a52ad3119aa6d9eb8a112",
+        "evidence_sha256": "22174229d1a673fdfe7c9c2e2dd6b4a3e712cb0ed4a314ba322fbe37ae0f6949",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "8066d60fa70b27ea5aa25071a0fa5dacd871269b3f3a52ad3119aa6d9eb8a112",
+          "reviewed_source_sha256": "8066d60fa70b27ea5aa25071a0fa5dacd871269b3f3a52ad3119aa6d9eb8a112",
+          "duration": 34.351,
+          "timestamps": [
+            0.0,
+            17.101,
+            34.201
+          ],
+          "source_frame_hashes": [
+            "c24b37ffefe4d15a05bd36bcb4ca50f86f4639adac00f4bff71ed963d1c3639f",
+            "4596e8989007cd135792b1048fd209bb78ebc320ade8d35af8d63d8eeea87b1b",
+            "7c39a11c9b85fe14fbd97c24a0a06b60757423b8129bf82b39c3cc82944bdbb5"
+          ],
+          "headline": "NIKBIT mit der Kroko Technique",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, chat visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player explores a grassy area with a glass structure, then enters a menu.",
+            "payoff": "No clear outcome or payoff visible; transition to menu without action result or reaction.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.013827130751286528,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a grassy area and a glass structure, consistent with the hypothesis. The title 'NIKBIT mit der Kroko Technique' is clearly visible as a static overlay, not a subtitle. The face",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            17.101,
+            34.201
+          ],
+          "final_frame_hashes": [
+            "38794ca74c01a16f5ed55979254f55a795b54ff058d9b055eee47b71924d7b98",
+            "9d0e75f110b8057b454c761eae7938b6366e58a91cffb094f17baafba636317a",
+            "3084f2d8e6cd22700a019db800ca656316389696804e3d5eadb349f5022008d0"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "354fdd8ac1f7549c066bb63af63eccf56b86239c870c069022ea2c236134688b",
+          "transcript_sha256": "6131324419426990d98d723d8fd20ef037d04f9ae706e61ea5cb71d59707811b"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a grassy area and a glass structure, consistent with the hypothesis. The title 'NIKBIT mit der Kroko Technique' is clearly visible as a static overlay, not a subtitle. The face"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0138, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-1746857233-354fdd8ac1f7-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

@@ -925,27 +925,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-21T08:09:53Z",
+    "at": "2026-10-21T09:08:30Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 88,
       "listing_ok": 100,
-      "listing_age_prefilter": 686,
-      "discovered": 871,
-      "metadata_requested": 827,
-      "gaming_category_not_verified": 383,
+      "listing_duration_prefilter": 89,
+      "listing_age_prefilter": 681,
+      "discovered": 876,
+      "metadata_requested": 831,
+      "gaming_category_not_verified": 385,
       "qualified_metadata": 379,
-      "title_too_short": 65,
+      "title_too_short": 67,
       "duplicate_source_event": 13,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1458488875",
-      "clip_slug": "BoringFitDelicataTheTarFu-gtnjyYQo1oBfAGMM",
-      "streamer": "trymacs"
+      "clip_id": "2809276235",
+      "clip_slug": "FrailFunnyTriangleDansGame-X1FqVz3ql2PazTTV",
+      "streamer": "repaz"
     }
   },
   "prepare_scans": {
@@ -1147,6 +1147,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-21T08",
-  "last_prefetch_hour": "2026-10-21T08"
+  "last_prepare_hour": "2026-10-21T09",
+  "last_prefetch_hour": "2026-10-21T09"
 }

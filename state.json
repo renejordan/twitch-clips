@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1458488875",
-      "clip_slug": "BoringFitDelicataTheTarFu-gtnjyYQo1oBfAGMM",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/BoringFitDelicataTheTarFu-gtnjyYQo1oBfAGMM",
-      "original_title": "wo ist kroko?",
-      "hook": "wo ist kroko?",
-      "caption": "wo ist kroko?\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 326,
-      "original_duration": 18.0,
-      "original_created_at": "2026-10-20T21:15:13Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-1458488875-c7ed2d6a6375.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-21T08:09:53Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "c7ed2d6a6375006001f01931a034da5b476c6bad8ebd8ca73559db67f3d9d0df",
-      "category": "Minecraft",
-      "transcript_sha256": "8ae64a45850b15fe348017700dbc85dfb109a6d75def09e5cb7a40f1aeb5ab04",
-      "asr_requires_correction": true,
-      "source_sha256": "4e42d597548962ccdb545aee622aba86fd2eee2cd2ea7cdf995bc0584d42bc8a",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-21T08:09:53.449404+00:00",
-        "media_sha256": "c7ed2d6a6375006001f01931a034da5b476c6bad8ebd8ca73559db67f3d9d0df",
-        "transcript_sha256": "8ae64a45850b15fe348017700dbc85dfb109a6d75def09e5cb7a40f1aeb5ab04",
-        "source_sha256": "4e42d597548962ccdb545aee622aba86fd2eee2cd2ea7cdf995bc0584d42bc8a",
-        "evidence_sha256": "7eb531a973d0b592687e72cfb972d5f9fbb69774b9586464ee4ededdd85ba822",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "4e42d597548962ccdb545aee622aba86fd2eee2cd2ea7cdf995bc0584d42bc8a",
-          "reviewed_source_sha256": "4e42d597548962ccdb545aee622aba86fd2eee2cd2ea7cdf995bc0584d42bc8a",
-          "duration": 18.566667,
-          "timestamps": [
-            0.0,
-            9.208,
-            18.417
-          ],
-          "source_frame_hashes": [
-            "384f2987fab83b58641d5141d884c8fd20455558188f2edcc22abc4ddc19cdaf",
-            "45c427ca89c95a975f225d55bfb2a246825c580e9bac7eb3082d825ce5d3550d",
-            "78d8815781b6c7db2a1949ce5b6683fc2457dc71d16e220d300f0d38fa268ed0"
-          ],
-          "headline": "wo ist kroko?",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner with gameplay overlay; Minecraft game UI and chat visible; no browser or desktop window borders present",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player selects group or creates group in Minecraft multiplayer menu.",
-            "payoff": "Player transitions to in-game view with inventory and health bar visible, no clear outcome or reaction visible in frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.0295517708850278,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a Minecraft multiplayer menu with group selection options, followed by a transition to in-game view with inventory and health bar visible. The facecam panel is present in all frames, indicating an edited gaming layout. The '",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            9.208,
-            18.417
-          ],
-          "final_frame_hashes": [
-            "53dd53de1943ee831e573a59e397ac41dadf1a34220d65e12af69c5e7c6a18c2",
-            "ad87bf38b7e4209100503c3a492da99def1de26d25d593633e4a69e615968f14",
-            "ff619bbccc365a8623d7d8657c674ece8d76e1c5267699fc9dcf957ce8f5e9a8"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "c7ed2d6a6375006001f01931a034da5b476c6bad8ebd8ca73559db67f3d9d0df",
-          "transcript_sha256": "8ae64a45850b15fe348017700dbc85dfb109a6d75def09e5cb7a40f1aeb5ab04"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a Minecraft multiplayer menu with group selection options, followed by a transition to in-game view with inventory and health bar visible. The facecam panel is present in all frames, indicating an edited gaming layout. The '"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0296, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-1458488875-c7ed2d6a6375-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -911,14 +773,17 @@
       "streamer": "trymacs",
       "sha256": "c7ed2d6a6375006001f01931a034da5b476c6bad8ebd8ca73559db67f3d9d0df",
       "source_sha256": "4e42d597548962ccdb545aee622aba86fd2eee2cd2ea7cdf995bc0584d42bc8a",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1458488875-c7ed2d6a6375.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-1458488875-c7ed2d6a6375.mp4",
       "clip_slug": "BoringFitDelicataTheTarFu-gtnjyYQo1oBfAGMM",
       "original_created_at": "2026-10-20T21:15:13Z",
       "source_deadline": "2026-10-23T21:15:13Z",
       "buffer_post_id": "6ad88024d109f3f66b88660a",
-      "last_reconcile_at": "2026-10-21T09:06:27Z"
+      "last_reconcile_at": "2026-10-21T09:06:27Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699044505479138593",
+      "sent_at": "2026-10-21T09:06:19Z",
+      "verified_at": "2026-10-21T09:06:28Z"
     }
   ],
   "last_production": {

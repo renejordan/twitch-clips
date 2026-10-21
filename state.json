@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2927866367",
-      "clip_slug": "AmazingLuckyBunnyCoolCat-OpTF4KFDMgM8k-D-",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/AmazingLuckyBunnyCoolCat-OpTF4KFDMgM8k-D-",
-      "original_title": "ne gar nicht cringe",
-      "hook": "ne gar nicht cringe",
-      "caption": "ne gar nicht cringe\n#gaming #minecraft #twitchclips #krokoboss #gamer",
-      "views_at_selection": 374,
-      "original_duration": 16.0,
-      "original_created_at": "2026-10-20T18:44:15Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2927866367-cbf2e262952e.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-21T14:12:55Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "cbf2e262952e08b471c93e1e682e61c900562bb11d4f5f1e143ae1ec56bc1429",
-      "category": "Minecraft",
-      "transcript_sha256": "3ba1e5c2a2a70a43b95ca161d0c3604e4f42762350a4fe1d86027938ddd5e7da",
-      "asr_requires_correction": true,
-      "source_sha256": "bd7610a771fd9a99fa821b00144c676bebb9045627ff5bf9c0b2282b12d8ef4f",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-21T14:12:55.109945+00:00",
-        "media_sha256": "cbf2e262952e08b471c93e1e682e61c900562bb11d4f5f1e143ae1ec56bc1429",
-        "transcript_sha256": "3ba1e5c2a2a70a43b95ca161d0c3604e4f42762350a4fe1d86027938ddd5e7da",
-        "source_sha256": "bd7610a771fd9a99fa821b00144c676bebb9045627ff5bf9c0b2282b12d8ef4f",
-        "evidence_sha256": "73081db22b6edf22288523fa87164cba3804d56144636fbac14e419b7e7289d4",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "bd7610a771fd9a99fa821b00144c676bebb9045627ff5bf9c0b2282b12d8ef4f",
-          "reviewed_source_sha256": "bd7610a771fd9a99fa821b00144c676bebb9045627ff5bf9c0b2282b12d8ef4f",
-          "duration": 16.25,
-          "timestamps": [
-            0.0,
-            8.05,
-            16.1
-          ],
-          "source_frame_hashes": [
-            "62c069eb5dce03d2e5abdbcb0c5b18d8aaa11826fa940bd19b008996f1aa626a",
-            "6278f4f91998c27c164d767699d455813f3aa6007c2765044b33a9486bc43693",
-            "39940964995185aaad5ceea9f3e42756469b22ddefa4f12ac4550d424a55cd0c"
-          ],
-          "headline": "ne gar nicht cringe",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay with player names and game HUD visible, including inventory and chat, not browser or video player.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Players in a Minecraft room with inventory and chat visible, no clear action or outcome.",
-            "payoff": "No visible outcome or payoff from actions in frames, routine gameplay without reaction or result.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.05411058734596871,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame shows a Minecraft gameplay scene with multiple player characters, inventory slots, and chat text visible. A facecam panel is present in the top right corner, showing a person reacting to the game. The text 'ne gar nicht cringe' is",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            8.05,
-            16.1
-          ],
-          "final_frame_hashes": [
-            "230ce13676729aa010fa108ce2c9196edcfde16a19b055e4d1b38bbefe3a8363",
-            "83660ebf55c0a4a226157f77cb83f867a71f753b8704a210724d0f029a1eab3f",
-            "bf4fc695797bde4624b6cb7a72bf588f3819ba23479fabb22540c54f940ce7a0"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "cbf2e262952e08b471c93e1e682e61c900562bb11d4f5f1e143ae1ec56bc1429",
-          "transcript_sha256": "3ba1e5c2a2a70a43b95ca161d0c3604e4f42762350a4fe1d86027938ddd5e7da"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame shows a Minecraft gameplay scene with multiple player characters, inventory slots, and chat text visible. A facecam panel is present in the top right corner, showing a person reacting to the game. The text 'ne gar nicht cringe' is"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0541, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2927866367-cbf2e262952e-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1019,14 +881,17 @@
       "streamer": "krokoboss",
       "sha256": "cbf2e262952e08b471c93e1e682e61c900562bb11d4f5f1e143ae1ec56bc1429",
       "source_sha256": "bd7610a771fd9a99fa821b00144c676bebb9045627ff5bf9c0b2282b12d8ef4f",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2927866367-cbf2e262952e.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2927866367-cbf2e262952e.mp4",
       "clip_slug": "AmazingLuckyBunnyCoolCat-OpTF4KFDMgM8k-D-",
       "original_created_at": "2026-10-20T18:44:15Z",
       "source_deadline": "2026-10-23T18:44:15Z",
       "buffer_post_id": "6ad8d485d7ec68457b69944e",
-      "last_reconcile_at": "2026-10-21T15:12:38Z"
+      "last_reconcile_at": "2026-10-21T15:12:38Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699138285632884001",
+      "sent_at": "2026-10-21T15:10:23Z",
+      "verified_at": "2026-10-21T15:12:40Z"
     }
   ],
   "last_production": {

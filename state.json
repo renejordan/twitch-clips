@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2809276235",
-      "clip_slug": "FrailFunnyTriangleDansGame-X1FqVz3ql2PazTTV",
-      "streamer": "repaz",
-      "source_url": "https://www.twitch.tv/repaz/clip/FrailFunnyTriangleDansGame-X1FqVz3ql2PazTTV",
-      "original_title": "er hat es schon wieder getan",
-      "hook": "er hat es schon wieder getan",
-      "caption": "er hat es schon wieder getan\n#gaming #minecraft #twitchclips #repaz #gamer",
-      "views_at_selection": 364,
-      "original_duration": 16.0,
-      "original_created_at": "2026-10-20T19:49:54Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2809276235-be7067f202d3.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-21T09:08:30Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "be7067f202d368dc2fc07dbc230ba0ae6d495773453d6a847df9ff3ab4f68f42",
-      "category": "Minecraft",
-      "transcript_sha256": "1469601dfd60d74acc7dc1677200e545381faf847f058015a950476a5e129898",
-      "asr_requires_correction": true,
-      "source_sha256": "51d3796f986a69fc8dd88c2f82e3d71a9c694c3b7aa99f11808a11a39c634051",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-21T09:08:30.873999+00:00",
-        "media_sha256": "be7067f202d368dc2fc07dbc230ba0ae6d495773453d6a847df9ff3ab4f68f42",
-        "transcript_sha256": "1469601dfd60d74acc7dc1677200e545381faf847f058015a950476a5e129898",
-        "source_sha256": "51d3796f986a69fc8dd88c2f82e3d71a9c694c3b7aa99f11808a11a39c634051",
-        "evidence_sha256": "2e778d86020ff1ea323a77f4ee5aad5ae8a2d5f6d23b18680512e2288feb9046",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "51d3796f986a69fc8dd88c2f82e3d71a9c694c3b7aa99f11808a11a39c634051",
-          "reviewed_source_sha256": "51d3796f986a69fc8dd88c2f82e3d71a9c694c3b7aa99f11808a11a39c634051",
-          "duration": 16.597,
-          "timestamps": [
-            0.0,
-            8.224,
-            16.447
-          ],
-          "source_frame_hashes": [
-            "a84701024e5bd8fc0b5a109dc7d68f5d5913337a3331c3170616b62eb97d3b66",
-            "403cccfaaa6df5e51113294b4c1fd4345d7464207ce2bc7189ee1c05d6224d08",
-            "8c481fe3e62133062f42b2137a93051583646deb1a174a560a51c52343a360ba"
-          ],
-          "headline": "er hat es schon wieder getan",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, with game HUD and chat visible, no browser or desktop elements.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, no clear action or outcome visible.",
-            "payoff": "No visible outcome or payoff from actions taken in frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.09322813354718724,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The provided frames show a Minecraft gameplay stream with a facecam panel in the top-left corner, which is a common edited gaming layout. The game HUD, including inventory and health bars, is visible. The stream chat text appears as a chat/",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            8.224,
-            16.447
-          ],
-          "final_frame_hashes": [
-            "896e2a1382247e80ee57070385b04daa34470269b5bdc95b5bd182329aa1026d",
-            "4240e2ba01d5c3a4bd109eaa8e2055acc40f164d28beb2361fc295d4fbc999f2",
-            "98e69f2ec8f707535a27bc3c771139b6a8b12053213df286312b57b083156e85"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "be7067f202d368dc2fc07dbc230ba0ae6d495773453d6a847df9ff3ab4f68f42",
-          "transcript_sha256": "1469601dfd60d74acc7dc1677200e545381faf847f058015a950476a5e129898"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The provided frames show a Minecraft gameplay stream with a facecam panel in the top-left corner, which is a common edited gaming layout. The game HUD, including inventory and health bars, is visible. The stream chat text appears as a chat/"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0932, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2809276235-be7067f202d3-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -929,14 +791,17 @@
       "streamer": "repaz",
       "sha256": "be7067f202d368dc2fc07dbc230ba0ae6d495773453d6a847df9ff3ab4f68f42",
       "source_sha256": "51d3796f986a69fc8dd88c2f82e3d71a9c694c3b7aa99f11808a11a39c634051",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2809276235-be7067f202d3.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2809276235-be7067f202d3.mp4",
       "clip_slug": "FrailFunnyTriangleDansGame-X1FqVz3ql2PazTTV",
       "original_created_at": "2026-10-20T19:49:54Z",
       "source_deadline": "2026-10-23T19:49:54Z",
       "buffer_post_id": "6ad88e2f7143aca6ab09eb4b",
-      "last_reconcile_at": "2026-10-21T10:06:27Z"
+      "last_reconcile_at": "2026-10-21T10:06:27Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699059955915066657",
+      "sent_at": "2026-10-21T10:06:14Z",
+      "verified_at": "2026-10-21T10:06:28Z"
     }
   ],
   "last_production": {

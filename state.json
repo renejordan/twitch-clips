@@ -875,12 +875,13 @@
       "streamer": "repaz",
       "sha256": "0b672362a8a97e79ba39ae79c28e34116d5c03f27fe59e4c43e76742c1eb72af",
       "source_sha256": "3b47cfda2f679f0d0ea8e46c5640942472386d417109046050133f3ad32742c8",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2088617063-0b672362a8a9.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2088617063-0b672362a8a9.mp4",
       "clip_slug": "SuccessfulDirtyEggnogVoteYea-0PX2sd3ufBvQwAat",
       "original_created_at": "2026-10-20T19:46:51Z",
-      "source_deadline": "2026-10-23T19:46:51Z"
+      "source_deadline": "2026-10-23T19:46:51Z",
+      "buffer_post_id": "6ad863fedb7d8198214e1277"
     }
   ],
   "last_production": {

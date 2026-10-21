@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2847113030",
-      "clip_slug": "InspiringHeartlessAlfalfaPicoMause-q7wXxlqPKCtElrbt",
-      "streamer": "montanablack88",
-      "source_url": "https://www.twitch.tv/montanablack88/clip/InspiringHeartlessAlfalfaPicoMause-q7wXxlqPKCtElrbt",
-      "original_title": "Adam Schriftzug auf dem Berg",
-      "hook": "Adam Schriftzug auf dem Berg",
-      "caption": "Adam Schriftzug auf dem Berg\n#gaming #minecraft #twitchclips #montanablack88 #gamer",
-      "views_at_selection": 203,
-      "original_duration": 50.0,
-      "original_created_at": "2026-10-21T09:11:57Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-2847113030-84a0944f9bb0.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-21T13:15:05Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "84a0944f9bb04fde298a26ebbabcac7e3e9b8e42db019c21afdecf8bc065e630",
-      "category": "Minecraft",
-      "transcript_sha256": "22d1db6bae1079a8be46e8b4097c621e7d4a81b93b2391df2dd0d03d09f0156b",
-      "asr_requires_correction": true,
-      "source_sha256": "57c7175fe91ad1f35d2afb487eb0d494917e68b3f94e535b2b6f2ffa5aaa0b42",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-21T13:15:05.151429+00:00",
-        "media_sha256": "84a0944f9bb04fde298a26ebbabcac7e3e9b8e42db019c21afdecf8bc065e630",
-        "transcript_sha256": "22d1db6bae1079a8be46e8b4097c621e7d4a81b93b2391df2dd0d03d09f0156b",
-        "source_sha256": "57c7175fe91ad1f35d2afb487eb0d494917e68b3f94e535b2b6f2ffa5aaa0b42",
-        "evidence_sha256": "a1dfeef7cfda56da5bfca8a749d35c2acc4bee07ddfc741e2b7f1c314a11a291",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "57c7175fe91ad1f35d2afb487eb0d494917e68b3f94e535b2b6f2ffa5aaa0b42",
-          "reviewed_source_sha256": "57c7175fe91ad1f35d2afb487eb0d494917e68b3f94e535b2b6f2ffa5aaa0b42",
-          "duration": 50.266667,
-          "timestamps": [
-            0.0,
-            25.058,
-            50.117
-          ],
-          "source_frame_hashes": [
-            "3e0d9a485e1796b7586a60e864ba733dc5f360c57a4b81ae767bffe5035268b7",
-            "409ddf477620935c5e75eb7a275f3685e50e6ea6bb98418e213d48d029a656b8",
-            "43cdaea090238db47d09b3a2ca06f9963acd1b01faa49624ec7a0f733e97ea38"
-          ],
-          "headline": "Adam Schriftzug auf dem Berg",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, chat visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in frames",
-            "payoff": "No clear payoff visible in frames",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.026371962084899222,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'Adam Schriftzug auf dem Berg' is clearly visible as a subtitle overlay, and no other ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            25.058,
-            50.117
-          ],
-          "final_frame_hashes": [
-            "d838f2e994a80a99cd95df6084f264b30e9e3cdc04c39dd1aba19bbe247472cd",
-            "62e069df45338a268060390b89b03eba427a600e286511ffe7cd8664223db322",
-            "7828db7d00bf58197c38c99d52940e9a94a9043f39e5537deb4b9005c6c31e2d"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "84a0944f9bb04fde298a26ebbabcac7e3e9b8e42db019c21afdecf8bc065e630",
-          "transcript_sha256": "22d1db6bae1079a8be46e8b4097c621e7d4a81b93b2391df2dd0d03d09f0156b"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'Adam Schriftzug auf dem Berg' is clearly visible as a subtitle overlay, and no other "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0264, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-2847113030-84a0944f9bb0-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1001,14 +863,17 @@
       "streamer": "montanablack88",
       "sha256": "84a0944f9bb04fde298a26ebbabcac7e3e9b8e42db019c21afdecf8bc065e630",
       "source_sha256": "57c7175fe91ad1f35d2afb487eb0d494917e68b3f94e535b2b6f2ffa5aaa0b42",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2847113030-84a0944f9bb0.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-2847113030-84a0944f9bb0.mp4",
       "clip_slug": "InspiringHeartlessAlfalfaPicoMause-q7wXxlqPKCtElrbt",
       "original_created_at": "2026-10-21T09:11:57Z",
       "source_deadline": "2026-10-24T09:11:57Z",
       "buffer_post_id": "6ad8c674d4269b1b7a6cc80c",
-      "last_reconcile_at": "2026-10-21T14:09:21Z"
+      "last_reconcile_at": "2026-10-21T14:09:21Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699122062530563360",
+      "sent_at": "2026-10-21T14:08:15Z",
+      "verified_at": "2026-10-21T14:09:23Z"
     }
   ],
   "last_production": {

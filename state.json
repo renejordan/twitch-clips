@@ -1012,6 +1012,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699122062530563360",
       "sent_at": "2026-10-21T14:08:15Z",
       "verified_at": "2026-10-21T14:09:23Z"
+    },
+    {
+      "clip_id": "2927866367",
+      "reserved_at": "2026-10-21T15:04:33Z",
+      "streamer": "krokoboss",
+      "sha256": "cbf2e262952e08b471c93e1e682e61c900562bb11d4f5f1e143ae1ec56bc1429",
+      "source_sha256": "bd7610a771fd9a99fa821b00144c676bebb9045627ff5bf9c0b2282b12d8ef4f",
+      "status": "reserved",
+      "asset_title": "tiktok14-2927866367-cbf2e262952e.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2927866367-cbf2e262952e.mp4",
+      "clip_slug": "AmazingLuckyBunnyCoolCat-OpTF4KFDMgM8k-D-",
+      "original_created_at": "2026-10-20T18:44:15Z",
+      "source_deadline": "2026-10-23T18:44:15Z"
     }
   ],
   "last_production": {

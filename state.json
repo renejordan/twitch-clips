@@ -1084,6 +1084,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699184737331481889",
       "sent_at": "2026-10-21T18:10:27Z",
       "verified_at": "2026-10-21T18:10:37Z"
+    },
+    {
+      "clip_id": "1746857233",
+      "reserved_at": "2026-10-21T19:07:25Z",
+      "streamer": "handofblood",
+      "sha256": "354fdd8ac1f7549c066bb63af63eccf56b86239c870c069022ea2c236134688b",
+      "source_sha256": "8066d60fa70b27ea5aa25071a0fa5dacd871269b3f3a52ad3119aa6d9eb8a112",
+      "status": "reserved",
+      "asset_title": "tiktok14-1746857233-354fdd8ac1f7.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-1746857233-354fdd8ac1f7.mp4",
+      "clip_slug": "CarelessChillyMilkUnSane-M3aBIrMCr02rByRY",
+      "original_created_at": "2026-10-21T16:17:57Z",
+      "source_deadline": "2026-10-24T16:17:57Z"
     }
   ],
   "last_production": {

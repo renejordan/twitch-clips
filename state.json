@@ -1141,26 +1141,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-21T20:14:03Z",
+    "at": "2026-10-21T21:45:05Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 85,
+      "listing_duration_prefilter": 87,
       "listing_ok": 100,
-      "listing_age_prefilter": 683,
-      "discovered": 967,
-      "metadata_requested": 915,
-      "gaming_category_not_verified": 402,
-      "title_too_short": 87,
-      "qualified_metadata": 426,
-      "duplicate_source_event": 12,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_age_prefilter": 689,
+      "discovered": 971,
+      "metadata_requested": 918,
+      "gaming_category_not_verified": 417,
+      "title_too_short": 85,
+      "qualified_metadata": 416,
+      "duplicate_source_event": 13,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_visual_gameplay_visible": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "4061971143",
-      "clip_slug": "VainAcceptableDoveResidentSleeper-ISwClEoD9Oj7ZsU1",
+      "clip_id": "3784756528",
+      "clip_slug": "AlertOddPheasantMcaT-2eCEOw-6TuQxyq1K",
       "streamer": "krokoboss"
     }
   },
@@ -1435,6 +1436,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-21T20",
-  "last_prefetch_hour": "2026-10-21T20"
+  "last_prepare_hour": "2026-10-21T21",
+  "last_prefetch_hour": "2026-10-21T21"
 }

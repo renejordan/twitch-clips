@@ -983,12 +983,13 @@
       "streamer": "montanablack88",
       "sha256": "bee2b182e9ba46a8140ab4053f3f503f2a374e96d2181616b3164da01b505ff2",
       "source_sha256": "2308e33b713c6a3992cef220756a3af6df0cff491572d0f9f0bdac65bd00bd7c",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1327874565-bee2b182e9ba.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-1327874565-bee2b182e9ba.mp4",
       "clip_slug": "OilyUnusualShallotCharlieBitMe-WQCE-URUgkStr-RD",
       "original_created_at": "2026-10-21T11:13:42Z",
-      "source_deadline": "2026-10-24T11:13:42Z"
+      "source_deadline": "2026-10-24T11:13:42Z",
+      "buffer_post_id": "6ad8b8630c5e774bdfb1400e"
     }
   ],
   "last_production": {

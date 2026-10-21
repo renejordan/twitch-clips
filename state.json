@@ -929,12 +929,13 @@
       "streamer": "repaz",
       "sha256": "be7067f202d368dc2fc07dbc230ba0ae6d495773453d6a847df9ff3ab4f68f42",
       "source_sha256": "51d3796f986a69fc8dd88c2f82e3d71a9c694c3b7aa99f11808a11a39c634051",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2809276235-be7067f202d3.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2809276235-be7067f202d3.mp4",
       "clip_slug": "FrailFunnyTriangleDansGame-X1FqVz3ql2PazTTV",
       "original_created_at": "2026-10-20T19:49:54Z",
-      "source_deadline": "2026-10-23T19:49:54Z"
+      "source_deadline": "2026-10-23T19:49:54Z",
+      "buffer_post_id": "6ad88e2f7143aca6ab09eb4b"
     }
   ],
   "last_production": {

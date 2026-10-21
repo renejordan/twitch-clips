@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2158687206",
+      "clip_slug": "DarlingRepleteDuckFreakinStinkin-AaePE9WyrYfJ2bHi",
+      "streamer": "handofblood",
+      "source_url": "https://www.twitch.tv/handofblood/clip/DarlingRepleteDuckFreakinStinkin-AaePE9WyrYfJ2bHi",
+      "original_title": "hänno ist raus",
+      "hook": "hänno ist raus",
+      "caption": "hänno ist raus\n#gaming #minecraft #twitchclips #handofblood #gamer",
+      "views_at_selection": 207,
+      "original_duration": 19.0,
+      "original_created_at": "2026-10-21T18:11:23Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-2158687206-c9e79b516708.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-21T19:13:20Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "c9e79b516708061d148a024bedfd0209f55acb3997302e05a06e8131ef62eb3d",
+      "category": "Minecraft",
+      "transcript_sha256": "ac51fe4a1ac1e853a9642d63c6d1dbf663e9ad415e864be3cd7fdc76270291c8",
+      "asr_requires_correction": true,
+      "source_sha256": "1eed794126adbcd104bf32f48a6a47e722d4701eb52d7a0c4c4ce980bbb623ab",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-21T19:13:20.193083+00:00",
+        "media_sha256": "c9e79b516708061d148a024bedfd0209f55acb3997302e05a06e8131ef62eb3d",
+        "transcript_sha256": "ac51fe4a1ac1e853a9642d63c6d1dbf663e9ad415e864be3cd7fdc76270291c8",
+        "source_sha256": "1eed794126adbcd104bf32f48a6a47e722d4701eb52d7a0c4c4ce980bbb623ab",
+        "evidence_sha256": "ff0c1a1ecdea9679a89ff668712fb4c3a7daa5ead45b16e58022674ed3658a64",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "1eed794126adbcd104bf32f48a6a47e722d4701eb52d7a0c4c4ce980bbb623ab",
+          "reviewed_source_sha256": "1eed794126adbcd104bf32f48a6a47e722d4701eb52d7a0c4c4ce980bbb623ab",
+          "duration": 19.2,
+          "timestamps": [
+            0.0,
+            9.525,
+            19.05
+          ],
+          "source_frame_hashes": [
+            "c078569295c45c4749a72204236e87483757b71fbc4b1fdd300471bacca87b95",
+            "694f6df83d3d03f67212298451295487928b683727b7a06d9a4062470c39c61b",
+            "db668638c4a8a79b4b0384c6e9b211518d50e48f9cc0ca270403e9c69e573386"
+          ],
+          "headline": "hänno ist raus",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in corner with gameplay, HUD, chat, and player names visible, no browser or desktop elements.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in frames.",
+            "payoff": "No clear payoff visible in frames.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.02349339690922826,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the bottom right corner, which is a common edited gaming layout. The text 'hänno ist raus' is clearly visible as a subtitle at the top center. The gameplay, ",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_single",
+            "composition_usable": true,
+            "legible_subtitles": true,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            9.525,
+            19.05
+          ],
+          "final_frame_hashes": [
+            "de5936721c9c3bd7734c43fac49d92d35db09317b28b671399afbbd29d99d488",
+            "2c5f883ce412b4e2e723549701ad3f81035fb1e04b90c7b1ebd062cb89cda2c7",
+            "89d90710df9fb34509a421365d82c545bbd0a416d5fbe2adcb5d7f12eb08eb27"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "c9e79b516708061d148a024bedfd0209f55acb3997302e05a06e8131ef62eb3d",
+          "transcript_sha256": "ac51fe4a1ac1e853a9642d63c6d1dbf663e9ad415e864be3cd7fdc76270291c8"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the bottom right corner, which is a common edited gaming layout. The text 'hänno ist raus' is clearly visible as a subtitle at the top center. The gameplay, "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0235, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-2158687206-c9e79b516708-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

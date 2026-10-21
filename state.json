@@ -893,12 +893,13 @@
       "streamer": "repaz",
       "sha256": "c2d793d2feeeb8831481288d0c2eb64ce631d128bbbc2b14f69e3c5ec2a9eb80",
       "source_sha256": "510b14fa2e2d75bfbecaacf8f099f371929156d675c77a144d5324014348e024",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2954668346-c2d793d2feee.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2954668346-c2d793d2feee.mp4",
       "clip_slug": "DepressedBigWerewolfUWot-YZBRxUyD-ngmkyvi",
       "original_created_at": "2026-10-20T23:37:00Z",
-      "source_deadline": "2026-10-23T23:37:00Z"
+      "source_deadline": "2026-10-23T23:37:00Z",
+      "buffer_post_id": "6ad872135a7ff3cbee4fc796"
     }
   ],
   "last_production": {

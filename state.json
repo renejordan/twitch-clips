@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1014059590",
-      "clip_slug": "ReliableGracefulPassionfruitDendiFace-uymoe5pfY2u5C4_l",
-      "streamer": "exsl95",
-      "source_url": "https://www.twitch.tv/exsl95/clip/ReliableGracefulPassionfruitDendiFace-uymoe5pfY2u5C4_l",
-      "original_title": "Exel über Adam🥺🥺",
-      "hook": "Exel über Adam",
-      "caption": "Exel über Adam\n#gaming #minecraft #twitchclips #exsl95 #gamer",
-      "views_at_selection": 399,
-      "original_duration": 25.0,
-      "original_created_at": "2026-10-20T15:45:22Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/exsl95-1014059590-4d1177a2a936.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-21T15:16:40Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "4d1177a2a93626e1d4873b454e207da46cc69331527f7c9bd2ad8402397446f8",
-      "category": "Minecraft",
-      "transcript_sha256": "ad1c984058790abec14ce167dc945d645c8708f1365f4b50efa414dc89cb5ee5",
-      "asr_requires_correction": true,
-      "source_sha256": "53cb1e0190a6a93119e631108af5af5d41785bdf4f68c5e26634ae352f341615",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-21T15:16:40.854639+00:00",
-        "media_sha256": "4d1177a2a93626e1d4873b454e207da46cc69331527f7c9bd2ad8402397446f8",
-        "transcript_sha256": "ad1c984058790abec14ce167dc945d645c8708f1365f4b50efa414dc89cb5ee5",
-        "source_sha256": "53cb1e0190a6a93119e631108af5af5d41785bdf4f68c5e26634ae352f341615",
-        "evidence_sha256": "b5e388236109dd50a3546de6477bc6446b57297d2f9e1c55f1916e6883b2235e",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "53cb1e0190a6a93119e631108af5af5d41785bdf4f68c5e26634ae352f341615",
-          "reviewed_source_sha256": "53cb1e0190a6a93119e631108af5af5d41785bdf4f68c5e26634ae352f341615",
-          "duration": 25.1,
-          "timestamps": [
-            0.0,
-            12.475,
-            24.95
-          ],
-          "source_frame_hashes": [
-            "768fda3607e9d0687db6eb95c09c6525212501e8bcad60e125c0ee234c5c80d2",
-            "ba813f8308dd808d5953b3119349cc0dd8c865ab03cfd4ed111af070fd61e050",
-            "e3d71597c9a212eea6f485bd7cb58545d8cef2aed866ec79c71a996f38369249"
-          ],
-          "headline": "Exel über Adam",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera is visible in the top left corner, showing a player's face, while the main screen shows Minecraft gameplay with a minimap, health bar, and inventory. The top right corner displays a timer and subscriber/eng",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "The player is standing on a snowy biome with a large structure nearby.",
-            "payoff": "The player is standing on a snowy biome with a large structure nearby. No clear outcome or reaction is visible. The player's actions are not clearly visible or identifiable. The player's actions are not clearly visible. ",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.01483146102019001,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel above the gameplay, which is a normal edited gaming layout. The title 'Exel über Adam' is clearly visible as a subtitle. The gameplay shows a snowy biome with a ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            12.475,
-            24.95
-          ],
-          "final_frame_hashes": [
-            "683169056dd14f9125c3c1710a6bdb73a96a8a89c21339fac449f021eeb0deb6",
-            "5756be718619ed30e7b89ba335e9ef6010d2d02497b41a85006ef4d9460a21fe",
-            "1cfded471a3e60d37007043916482510c5cb6a6b2c6ade07cffc764a8012681c"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "4d1177a2a93626e1d4873b454e207da46cc69331527f7c9bd2ad8402397446f8",
-          "transcript_sha256": "ad1c984058790abec14ce167dc945d645c8708f1365f4b50efa414dc89cb5ee5"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel above the gameplay, which is a normal edited gaming layout. The title 'Exel über Adam' is clearly visible as a subtitle. The gameplay shows a snowy biome with a "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0148, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/exsl95-1014059590-4d1177a2a936-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1037,14 +899,17 @@
       "streamer": "exsl95",
       "sha256": "4d1177a2a93626e1d4873b454e207da46cc69331527f7c9bd2ad8402397446f8",
       "source_sha256": "53cb1e0190a6a93119e631108af5af5d41785bdf4f68c5e26634ae352f341615",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1014059590-4d1177a2a936.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/exsl95-1014059590-4d1177a2a936.mp4",
       "clip_slug": "ReliableGracefulPassionfruitDendiFace-uymoe5pfY2u5C4_l",
       "original_created_at": "2026-10-20T15:45:22Z",
       "source_deadline": "2026-10-23T15:45:22Z",
       "buffer_post_id": "6ad8e7d998b0339f03981943",
-      "last_reconcile_at": "2026-10-21T16:28:57Z"
+      "last_reconcile_at": "2026-10-21T16:28:57Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699158546147069217",
+      "sent_at": "2026-10-21T16:28:49Z",
+      "verified_at": "2026-10-21T16:28:58Z"
     }
   ],
   "last_production": {

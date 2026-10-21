@@ -1109,12 +1109,13 @@
       "streamer": "handofblood",
       "sha256": "c9e79b516708061d148a024bedfd0209f55acb3997302e05a06e8131ef62eb3d",
       "source_sha256": "1eed794126adbcd104bf32f48a6a47e722d4701eb52d7a0c4c4ce980bbb623ab",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2158687206-c9e79b516708.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-2158687206-c9e79b516708.mp4",
       "clip_slug": "DarlingRepleteDuckFreakinStinkin-AaePE9WyrYfJ2bHi",
       "original_created_at": "2026-10-21T18:11:23Z",
-      "source_deadline": "2026-10-24T18:11:23Z"
+      "source_deadline": "2026-10-24T18:11:23Z",
+      "buffer_post_id": "6ad91bc4b4d22f4a98186c6a"
     }
   ],
   "last_production": {

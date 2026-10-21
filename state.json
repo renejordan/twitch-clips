@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2954668346",
-      "clip_slug": "DepressedBigWerewolfUWot-YZBRxUyD-ngmkyvi",
-      "streamer": "repaz",
-      "source_url": "https://www.twitch.tv/repaz/clip/DepressedBigWerewolfUWot-YZBRxUyD-ngmkyvi",
-      "original_title": "Sergen TREU",
-      "hook": "Sergen TREU",
-      "caption": "Sergen TREU\n#gaming #minecraft #twitchclips #repaz #gamer",
-      "views_at_selection": 413,
-      "original_duration": 32.0,
-      "original_created_at": "2026-10-20T23:37:00Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2954668346-c2d793d2feee.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-21T07:10:12Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "c2d793d2feeeb8831481288d0c2eb64ce631d128bbbc2b14f69e3c5ec2a9eb80",
-      "category": "Minecraft",
-      "transcript_sha256": "56ce54edc3ce523deabe0a1774de315ae29dcb50b901f5a7f771d0615ed86eb5",
-      "asr_requires_correction": true,
-      "source_sha256": "510b14fa2e2d75bfbecaacf8f099f371929156d675c77a144d5324014348e024",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-21T07:10:12.855991+00:00",
-        "media_sha256": "c2d793d2feeeb8831481288d0c2eb64ce631d128bbbc2b14f69e3c5ec2a9eb80",
-        "transcript_sha256": "56ce54edc3ce523deabe0a1774de315ae29dcb50b901f5a7f771d0615ed86eb5",
-        "source_sha256": "510b14fa2e2d75bfbecaacf8f099f371929156d675c77a144d5324014348e024",
-        "evidence_sha256": "3735dffda3f0a13bd0fa133b735621fa6ea15ee1087475040b0d44df3545d15b",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "510b14fa2e2d75bfbecaacf8f099f371929156d675c77a144d5324014348e024",
-          "reviewed_source_sha256": "510b14fa2e2d75bfbecaacf8f099f371929156d675c77a144d5324014348e024",
-          "duration": 32.484,
-          "timestamps": [
-            0.0,
-            16.167,
-            32.334
-          ],
-          "source_frame_hashes": [
-            "ba7de17d0dec2e487e112792843d6375cc9086a434b3e604b9b0ef28d3147802",
-            "dc7cecad65fa4b04133438aa085f8daaede71769a08443fa39da40a1ddfd5b52",
-            "3f21c1dcff4b6fd787ed1c57c0da635527a75318971d5e88c52099629f4322ec"
-          ],
-          "headline": "Sergen TREU",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, chat text overlay, no browser or desktop window borders",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player explores Nether, no clear action or outcome",
-            "payoff": "No visible win or loss, no clear payoff from action",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.0305037074122561,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, displaying a person. The game's HUD is visible, including the inventory bar and health bar. The title 'Sergen TREU' is displayed at the ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            16.167,
-            32.334
-          ],
-          "final_frame_hashes": [
-            "767f8bf62ba132d18801af8ea66434f2211e0176bec021c193a46b16f8d3c379",
-            "85d8d60864bc6a78430b759009d1968780949d9c44f37d8b6f3062fd33d6039a",
-            "2d8551d37730ffa1892a89ee7db6f7b95a932752e9ddd559f22b6865376ce643"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "c2d793d2feeeb8831481288d0c2eb64ce631d128bbbc2b14f69e3c5ec2a9eb80",
-          "transcript_sha256": "56ce54edc3ce523deabe0a1774de315ae29dcb50b901f5a7f771d0615ed86eb5"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, displaying a person. The game's HUD is visible, including the inventory bar and health bar. The title 'Sergen TREU' is displayed at the "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0305, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2954668346-c2d793d2feee-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -893,14 +755,17 @@
       "streamer": "repaz",
       "sha256": "c2d793d2feeeb8831481288d0c2eb64ce631d128bbbc2b14f69e3c5ec2a9eb80",
       "source_sha256": "510b14fa2e2d75bfbecaacf8f099f371929156d675c77a144d5324014348e024",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2954668346-c2d793d2feee.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2954668346-c2d793d2feee.mp4",
       "clip_slug": "DepressedBigWerewolfUWot-YZBRxUyD-ngmkyvi",
       "original_created_at": "2026-10-20T23:37:00Z",
       "source_deadline": "2026-10-23T23:37:00Z",
       "buffer_post_id": "6ad872135a7ff3cbee4fc796",
-      "last_reconcile_at": "2026-10-21T08:06:33Z"
+      "last_reconcile_at": "2026-10-21T08:06:33Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699029051528219936",
+      "sent_at": "2026-10-21T08:06:19Z",
+      "verified_at": "2026-10-21T08:06:35Z"
     }
   ],
   "last_production": {

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1590452140",
-      "clip_slug": "ThankfulPopularEagleCopyThis-BnefwZsrLo1ZrQq9",
-      "streamer": "montanablack88",
-      "source_url": "https://www.twitch.tv/montanablack88/clip/ThankfulPopularEagleCopyThis-BnefwZsrLo1ZrQq9",
-      "original_title": "Random Kreuz",
-      "hook": "Random Kreuz",
-      "caption": "Random Kreuz\n#gaming #minecraft #twitchclips #montanablack88 #gamer",
-      "views_at_selection": 723,
-      "original_duration": 60.0,
-      "original_created_at": "2026-10-21T07:57:00Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-1590452140-6a717cdc8139.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-21T10:10:28Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "6a717cdc813992326b9091be287328301f7dfe00b105743dd3dfd796b5de2f45",
-      "category": "Minecraft",
-      "transcript_sha256": "dcf6f5dbb7a917a46327af7d4758e87865afbfad40bf541c2ac956362224c430",
-      "asr_requires_correction": true,
-      "source_sha256": "a2a549bd81f68a8143aa5812c3ecaf408331998646cd2582e8c72e37e8f0d454",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-21T10:10:28.887679+00:00",
-        "media_sha256": "6a717cdc813992326b9091be287328301f7dfe00b105743dd3dfd796b5de2f45",
-        "transcript_sha256": "dcf6f5dbb7a917a46327af7d4758e87865afbfad40bf541c2ac956362224c430",
-        "source_sha256": "a2a549bd81f68a8143aa5812c3ecaf408331998646cd2582e8c72e37e8f0d454",
-        "evidence_sha256": "b7346097ad15fd9cf849439b2a205790ed27de4329cf77b42c47ba7bf6962a02",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "a2a549bd81f68a8143aa5812c3ecaf408331998646cd2582e8c72e37e8f0d454",
-          "reviewed_source_sha256": "a2a549bd81f68a8143aa5812c3ecaf408331998646cd2582e8c72e37e8f0d454",
-          "duration": 60.0,
-          "timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "source_frame_hashes": [
-            "8027a528a07391b0e9ecaa18d7c18e6955ed622af29bf427133e2d57a63785b5",
-            "2ee7af193fb6655bc0ae6f7d7404d892f7e434c7d461e9667d0b5c331b32d163",
-            "79c2cd9ff7d67219fb0908ec3fb44c67abcaddf5b6ea37a0c41a6e62784f9f2b"
-          ],
-          "headline": "Random Kreuz",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in a corner over gameplay, with game HUD and chat visible, not a browser or video player.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in frames.",
-            "payoff": "No clear payoff visible in frames.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.016268579245869694,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a small facecam panel on the right, a map in the top-left corner, and a chat window below the facecam. The title 'Random Kreuz' is centered at the top. The gameplay area is not ",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "final_frame_hashes": [
-            "703a208ffb6ae81b7941a6bbb255b5fc690f18640c8ec3c3b4c9c1a488aaf47d",
-            "64d0687ea9be4ed706c6f42a42a2553ea03fd8343ad183c7019b8afb7899c5ee",
-            "ba848c4a147d88ca08635e00a389b9a1bc678a0555e8ff17a3fb99bd99b72358"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "6a717cdc813992326b9091be287328301f7dfe00b105743dd3dfd796b5de2f45",
-          "transcript_sha256": "dcf6f5dbb7a917a46327af7d4758e87865afbfad40bf541c2ac956362224c430"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a small facecam panel on the right, a map in the top-left corner, and a chat window below the facecam. The title 'Random Kreuz' is centered at the top. The gameplay area is not "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0163, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-1590452140-6a717cdc8139-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -947,14 +809,17 @@
       "streamer": "montanablack88",
       "sha256": "6a717cdc813992326b9091be287328301f7dfe00b105743dd3dfd796b5de2f45",
       "source_sha256": "a2a549bd81f68a8143aa5812c3ecaf408331998646cd2582e8c72e37e8f0d454",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1590452140-6a717cdc8139.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-1590452140-6a717cdc8139.mp4",
       "clip_slug": "ThankfulPopularEagleCopyThis-BnefwZsrLo1ZrQq9",
       "original_created_at": "2026-10-21T07:57:00Z",
       "source_deadline": "2026-10-24T07:57:00Z",
       "buffer_post_id": "6ad89c3edd065d6158915808",
-      "last_reconcile_at": "2026-10-21T11:10:31Z"
+      "last_reconcile_at": "2026-10-21T11:10:31Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699075482280594720",
+      "sent_at": "2026-10-21T11:08:14Z",
+      "verified_at": "2026-10-21T11:10:32Z"
     }
   ],
   "last_production": {

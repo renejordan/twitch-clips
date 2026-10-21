@@ -1001,12 +1001,13 @@
       "streamer": "montanablack88",
       "sha256": "84a0944f9bb04fde298a26ebbabcac7e3e9b8e42db019c21afdecf8bc065e630",
       "source_sha256": "57c7175fe91ad1f35d2afb487eb0d494917e68b3f94e535b2b6f2ffa5aaa0b42",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2847113030-84a0944f9bb0.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-2847113030-84a0944f9bb0.mp4",
       "clip_slug": "InspiringHeartlessAlfalfaPicoMause-q7wXxlqPKCtElrbt",
       "original_created_at": "2026-10-21T09:11:57Z",
-      "source_deadline": "2026-10-24T09:11:57Z"
+      "source_deadline": "2026-10-24T09:11:57Z",
+      "buffer_post_id": "6ad8c674d4269b1b7a6cc80c"
     }
   ],
   "last_production": {

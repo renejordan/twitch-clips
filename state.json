@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "4061971143",
+      "clip_slug": "VainAcceptableDoveResidentSleeper-ISwClEoD9Oj7ZsU1",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/VainAcceptableDoveResidentSleeper-ISwClEoD9Oj7ZsU1",
+      "original_title": "Beschneidung",
+      "hook": "Beschneidung",
+      "caption": "Beschneidung\n#gaming #minecraft #twitchclips #krokoboss #gamer",
+      "views_at_selection": 164,
+      "original_duration": 27.0,
+      "original_created_at": "2026-10-21T19:18:47Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-4061971143-605ecf322693.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-21T20:14:03Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "605ecf322693d1fad24c0abd69798e3a78d246d059e7737c4b628bdf2fc60727",
+      "category": "Minecraft",
+      "transcript_sha256": "230b6a198b93750142fc4a7a582a5806da4894a2b848cda40fee55c4044862a5",
+      "asr_requires_correction": true,
+      "source_sha256": "c9e35e423e8092649961b79f16de778326ffabc888fbdbeaf1b7ec9dac51e8e5",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-21T20:14:03.254640+00:00",
+        "media_sha256": "605ecf322693d1fad24c0abd69798e3a78d246d059e7737c4b628bdf2fc60727",
+        "transcript_sha256": "230b6a198b93750142fc4a7a582a5806da4894a2b848cda40fee55c4044862a5",
+        "source_sha256": "c9e35e423e8092649961b79f16de778326ffabc888fbdbeaf1b7ec9dac51e8e5",
+        "evidence_sha256": "601ced6e08c0b3c521c4fcec95736b925985f5a0ccfa84d5e3e7f69602bc0ed3",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "c9e35e423e8092649961b79f16de778326ffabc888fbdbeaf1b7ec9dac51e8e5",
+          "reviewed_source_sha256": "c9e35e423e8092649961b79f16de778326ffabc888fbdbeaf1b7ec9dac51e8e5",
+          "duration": 27.669,
+          "timestamps": [
+            0.0,
+            13.76,
+            27.519
+          ],
+          "source_frame_hashes": [
+            "19b64d825842c5da4c3f526b52cadb3beefd323565b2eb5584ea44bfa4c5a565",
+            "38251c658928ff6099aa05aa6033cde58039f7720f6a732e0404bcfe67f62b30",
+            "3f8cc69e0a934c700b9e910a13e137fb95a435eac2f3d830ea342e34d9f88947"
+          ],
+          "headline": "Beschneidung",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in corner, game HUD with inventory, chat, and minimap visible, player names displayed above characters, no browser or desktop elements present",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft interacts with other players in a stone-walled room with a visible inventory and chat, no clear action or outcome visible",
+            "payoff": "No visible outcome or payoff from actions taken, no win/loss or reaction visible in frames provided",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.06952112057617198,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The game HUD and stream chat are visible, but there is no browser or desktop window border, ruling a",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            13.76,
+            27.519
+          ],
+          "final_frame_hashes": [
+            "cf0f7d250d4a4b157396f2173fed485f5de4ffc6fcc257865a98ebed110ffcaa",
+            "553919e740954b7626a1864a47b1e7d6ec98c53acfc99a48e90d05a857ee7965",
+            "a38d477d1042b55493b64c11c9687a32319de33a6da6b1bc015655225eef401b"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "605ecf322693d1fad24c0abd69798e3a78d246d059e7737c4b628bdf2fc60727",
+          "transcript_sha256": "230b6a198b93750142fc4a7a582a5806da4894a2b848cda40fee55c4044862a5"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The game HUD and stream chat are visible, but there is no browser or desktop window border, ruling a"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0695, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-4061971143-605ecf322693-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

@@ -976,6 +976,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699090935291956513",
       "sent_at": "2026-10-21T12:06:58Z",
       "verified_at": "2026-10-21T12:10:32Z"
+    },
+    {
+      "clip_id": "1327874565",
+      "reserved_at": "2026-10-21T13:04:33Z",
+      "streamer": "montanablack88",
+      "sha256": "bee2b182e9ba46a8140ab4053f3f503f2a374e96d2181616b3164da01b505ff2",
+      "source_sha256": "2308e33b713c6a3992cef220756a3af6df0cff491572d0f9f0bdac65bd00bd7c",
+      "status": "reserved",
+      "asset_title": "tiktok14-1327874565-bee2b182e9ba.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/montanablack88-1327874565-bee2b182e9ba.mp4",
+      "clip_slug": "OilyUnusualShallotCharlieBitMe-WQCE-URUgkStr-RD",
+      "original_created_at": "2026-10-21T11:13:42Z",
+      "source_deadline": "2026-10-24T11:13:42Z"
     }
   ],
   "last_production": {

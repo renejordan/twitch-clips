@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "4085047648",
+      "clip_slug": "SassyArtisticSproutPogChamp-8-KXFAn_zZ4FDqHC",
+      "streamer": "niklaswilson",
+      "source_url": "https://www.twitch.tv/niklaswilson/clip/SassyArtisticSproutPogChamp-8-KXFAn_zZ4FDqHC",
+      "original_title": "Firma an die Wand",
+      "hook": "Firma an die Wand",
+      "caption": "Firma an die Wand\n#gaming #minecraft #twitchclips #niklaswilson #gamer",
+      "views_at_selection": 282,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-21T10:07:31Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niklaswilson-4085047648-47ac2ca12f29.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-21T11:14:30Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "47ac2ca12f29f679d003bbf16c34390f603615a09bf5f4c891f2d6e66575fd32",
+      "category": "Minecraft",
+      "transcript_sha256": "24a2501b4b09da864d32891ce2c7b99691756585ac5d56a67761b997be89d5f8",
+      "asr_requires_correction": true,
+      "source_sha256": "a353b59c6adc7e646753b9a5c7294d0e09143a00536c2568e3c5469e6f002694",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-21T11:14:30.929640+00:00",
+        "media_sha256": "47ac2ca12f29f679d003bbf16c34390f603615a09bf5f4c891f2d6e66575fd32",
+        "transcript_sha256": "24a2501b4b09da864d32891ce2c7b99691756585ac5d56a67761b997be89d5f8",
+        "source_sha256": "a353b59c6adc7e646753b9a5c7294d0e09143a00536c2568e3c5469e6f002694",
+        "evidence_sha256": "d6300d4d75c0227b3140a205e194e19fb8968cabc232f2c72405e826b839ee2d",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "a353b59c6adc7e646753b9a5c7294d0e09143a00536c2568e3c5469e6f002694",
+          "reviewed_source_sha256": "a353b59c6adc7e646753b9a5c7294d0e09143a00536c2568e3c5469e6f002694",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "e6accd9558d17b0a51091d1f270bfb998c3c442d3bc71afc0a979982cabb1e05",
+            "00bc1fb77a9a093ec2c90ea646fc76e1321a6c3e032606dfe6e17370a3a6bc0a",
+            "d13883d56985209103173f7f6f65cdebefab64e8ad0ad864a86e60abcdb1dc79"
+          ],
+          "headline": "Firma an die Wand",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with health, inventory, and chat, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft, no visible action or outcome",
+            "payoff": "No visible outcome or payoff from action",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.0321268944907569,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game interface with a facecam panel in the bottom right corner, which is a common edited gaming layout. The game HUD is visible, including the health bar, inventory, and a crosshair. The text 'Fir",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "31f37b130c301d6d5b220351a2b7ebac05b3f119900b79eba4e278d7534ec18a",
+            "57f95e7975993c54dc0ebd276349570111dbee65f53f79325cc5f3d492055c92",
+            "6e09ec2b422ae35a49df415822ef6c89d87251ff79b643200a7afa3eae61ce4b"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "47ac2ca12f29f679d003bbf16c34390f603615a09bf5f4c891f2d6e66575fd32",
+          "transcript_sha256": "24a2501b4b09da864d32891ce2c7b99691756585ac5d56a67761b997be89d5f8"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game interface with a facecam panel in the bottom right corner, which is a common edited gaming layout. The game HUD is visible, including the health bar, inventory, and a crosshair. The text 'Fir"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0321, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niklaswilson-4085047648-47ac2ca12f29-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

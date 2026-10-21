@@ -1030,6 +1030,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699138285632884001",
       "sent_at": "2026-10-21T15:10:23Z",
       "verified_at": "2026-10-21T15:12:40Z"
+    },
+    {
+      "clip_id": "1014059590",
+      "reserved_at": "2026-10-21T16:27:02Z",
+      "streamer": "exsl95",
+      "sha256": "4d1177a2a93626e1d4873b454e207da46cc69331527f7c9bd2ad8402397446f8",
+      "source_sha256": "53cb1e0190a6a93119e631108af5af5d41785bdf4f68c5e26634ae352f341615",
+      "status": "reserved",
+      "asset_title": "tiktok14-1014059590-4d1177a2a936.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/exsl95-1014059590-4d1177a2a936.mp4",
+      "clip_slug": "ReliableGracefulPassionfruitDendiFace-uymoe5pfY2u5C4_l",
+      "original_created_at": "2026-10-20T15:45:22Z",
+      "source_deadline": "2026-10-23T15:45:22Z"
     }
   ],
   "last_production": {

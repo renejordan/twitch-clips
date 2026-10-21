@@ -1048,6 +1048,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699158546147069217",
       "sent_at": "2026-10-21T16:28:49Z",
       "verified_at": "2026-10-21T16:28:58Z"
+    },
+    {
+      "clip_id": "433948050",
+      "reserved_at": "2026-10-21T17:18:49Z",
+      "streamer": "trymacs",
+      "sha256": "4e442259c02c9d2d5f1a76e64b8f12c4c4b3cdc169e041a51cc0cd217ff42349",
+      "source_sha256": "0ba40f0176a3d46d1c4e1a9156ef26922c3934cad997c1501b6eb637acafee1a",
+      "status": "reserved",
+      "asset_title": "tiktok14-433948050-4e442259c02c.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-433948050-4e442259c02c.mp4",
+      "clip_slug": "MistySolidStingrayFrankerZ-rQaCOmGxwhoz7ewJ",
+      "original_created_at": "2026-10-20T21:37:01Z",
+      "source_deadline": "2026-10-23T21:37:01Z"
     }
   ],
   "last_production": {

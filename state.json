@@ -904,6 +904,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699029051528219936",
       "sent_at": "2026-10-21T08:06:19Z",
       "verified_at": "2026-10-21T08:06:35Z"
+    },
+    {
+      "clip_id": "1458488875",
+      "reserved_at": "2026-10-21T09:04:33Z",
+      "streamer": "trymacs",
+      "sha256": "c7ed2d6a6375006001f01931a034da5b476c6bad8ebd8ca73559db67f3d9d0df",
+      "source_sha256": "4e42d597548962ccdb545aee622aba86fd2eee2cd2ea7cdf995bc0584d42bc8a",
+      "status": "reserved",
+      "asset_title": "tiktok14-1458488875-c7ed2d6a6375.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-1458488875-c7ed2d6a6375.mp4",
+      "clip_slug": "BoringFitDelicataTheTarFu-gtnjyYQo1oBfAGMM",
+      "original_created_at": "2026-10-20T21:15:13Z",
+      "source_deadline": "2026-10-23T21:15:13Z"
     }
   ],
   "last_production": {

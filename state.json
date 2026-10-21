@@ -965,12 +965,13 @@
       "streamer": "niklaswilson",
       "sha256": "47ac2ca12f29f679d003bbf16c34390f603615a09bf5f4c891f2d6e66575fd32",
       "source_sha256": "a353b59c6adc7e646753b9a5c7294d0e09143a00536c2568e3c5469e6f002694",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-4085047648-47ac2ca12f29.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niklaswilson-4085047648-47ac2ca12f29.mp4",
       "clip_slug": "SassyArtisticSproutPogChamp-8-KXFAn_zZ4FDqHC",
       "original_created_at": "2026-10-21T10:07:31Z",
-      "source_deadline": "2026-10-24T10:07:31Z"
+      "source_deadline": "2026-10-24T10:07:31Z",
+      "buffer_post_id": "6ad8aa5b9c5d256f659b5d42"
     }
   ],
   "last_production": {

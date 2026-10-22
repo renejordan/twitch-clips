@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1205574061",
+      "clip_slug": "AlluringSingleSharkLitty-EJoL18Ndu0tu2_0B",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/AlluringSingleSharkLitty-EJoL18Ndu0tu2_0B",
+      "original_title": "Rosemondy…",
+      "hook": "Rosemondy…",
+      "caption": "Rosemondy…\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 186,
+      "original_duration": 44.0,
+      "original_created_at": "2026-10-22T17:23:28Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1205574061-0c034ba63ed2.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-22T18:18:27Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "0c034ba63ed2ec7846d42a1e646f73d4b7e27f34a905bb6b787eee8a25a25e9a",
+      "category": "Minecraft",
+      "transcript_sha256": "c259c7ccc7c186fbe19be7a9d3c7afa13a790591498552a4bf456b9be938528f",
+      "asr_requires_correction": true,
+      "source_sha256": "c24429c9e97bc1bbeb761545ccec3745b44e41bb66ac183cfe3be8af00abcf03",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-22T18:18:27.957502+00:00",
+        "media_sha256": "0c034ba63ed2ec7846d42a1e646f73d4b7e27f34a905bb6b787eee8a25a25e9a",
+        "transcript_sha256": "c259c7ccc7c186fbe19be7a9d3c7afa13a790591498552a4bf456b9be938528f",
+        "source_sha256": "c24429c9e97bc1bbeb761545ccec3745b44e41bb66ac183cfe3be8af00abcf03",
+        "evidence_sha256": "d25d7c04a8dafd4cddbb55e9539cca8670bfa86a1e115c8176f7a09c3f309221",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "c24429c9e97bc1bbeb761545ccec3745b44e41bb66ac183cfe3be8af00abcf03",
+          "reviewed_source_sha256": "c24429c9e97bc1bbeb761545ccec3745b44e41bb66ac183cfe3be8af00abcf03",
+          "duration": 44.01,
+          "timestamps": [
+            0.0,
+            21.93,
+            43.86
+          ],
+          "source_frame_hashes": [
+            "6bef1833fedfb78a3d820a4107833b6a53cc1263f52d6d9ddffebb5b3cf9fb52",
+            "ec330364c45f84874055cb332eceea5d14ade1dd948a9632f6ee1b1e5c24c99b",
+            "6d7b550100023d2a5b490572b8706a9b2425ea046a25fced93998c0f33eaa65c"
+          ],
+          "headline": "Rosemondy…",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay with chat and HUD visible, no browser or video player",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player explores a large, empty underground structure with columns and glowing blocks.",
+            "payoff": "No clear outcome or reaction visible; player continues moving through the structure without notable event or win/loss indicator.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.04262801704390579,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, which is a common edited gaming layout. The gameplay area is visible with the player's inventory and health bar, and the title 'Rosemondy",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            21.93,
+            43.86
+          ],
+          "final_frame_hashes": [
+            "c36a0f8a1ab515fd8088075ceab93d21455036a1aaa2a5976f1ef989b7c467d4",
+            "3bda7aee7713062a93154c7aa4deb66eae3a20e407d37aedb426b7b933d0f382",
+            "db562e90641d5dbb9c7ddf70f9a9f5771025c1b7dbd5168acbe03da6a169c172"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "0c034ba63ed2ec7846d42a1e646f73d4b7e27f34a905bb6b787eee8a25a25e9a",
+          "transcript_sha256": "c259c7ccc7c186fbe19be7a9d3c7afa13a790591498552a4bf456b9be938528f"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, which is a common edited gaming layout. The gameplay area is visible with the player's inventory and health bar, and the title 'Rosemondy"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0426, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1205574061-0c034ba63ed2-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

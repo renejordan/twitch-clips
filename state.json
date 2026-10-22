@@ -1246,6 +1246,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699463022313524512",
       "sent_at": "2026-10-22T12:10:20Z",
       "verified_at": "2026-10-22T12:10:33Z"
+    },
+    {
+      "clip_id": "2078601665",
+      "reserved_at": "2026-10-22T13:08:35Z",
+      "streamer": "trymacs",
+      "sha256": "62dc87a7f9dcfde0d249379f2067f0be18c9b34a2d0aa7ff1b9ac7edfcda16d2",
+      "source_sha256": "76de5fda2447ba4f6fe69d42f3abb51585d5eb233e17e4c2a13efd491be708c2",
+      "status": "reserved",
+      "asset_title": "tiktok14-2078601665-62dc87a7f9dc.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2078601665-62dc87a7f9dc.mp4",
+      "clip_slug": "ChillySpicyNightingaleLitty-x261dAJjdU5vMo8n",
+      "original_created_at": "2026-10-21T21:46:59Z",
+      "source_deadline": "2026-10-24T21:46:59Z"
     }
   ],
   "last_production": {

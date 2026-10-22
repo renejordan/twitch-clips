@@ -1375,27 +1375,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-22T18:18:27Z",
+    "at": "2026-10-22T19:54:46Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 97,
+      "listing_duration_prefilter": 106,
       "listing_ok": 100,
-      "listing_age_prefilter": 654,
-      "discovered": 958,
-      "metadata_requested": 901,
-      "qualified_metadata": 405,
-      "gaming_category_not_verified": 417,
-      "title_too_short": 79,
-      "duplicate_source_event": 17,
+      "listing_age_prefilter": 661,
+      "discovered": 970,
+      "metadata_requested": 914,
+      "qualified_metadata": 390,
+      "gaming_category_not_verified": 463,
+      "title_too_short": 61,
+      "duplicate_source_event": 15,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1205574061",
-      "clip_slug": "AlluringSingleSharkLitty-EJoL18Ndu0tu2_0B",
-      "streamer": "castcrafter"
+      "clip_id": "385959500",
+      "clip_slug": "KathishSavoryKoalaBudBlast-h5UOXQcUv-QbTGM8",
+      "streamer": "eliasn97"
     }
   },
   "prepare_scans": {
@@ -1687,6 +1687,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-22T18",
-  "last_prefetch_hour": "2026-10-22T18"
+  "last_prepare_hour": "2026-10-22T19",
+  "last_prefetch_hour": "2026-10-22T19"
 }

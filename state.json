@@ -1217,12 +1217,13 @@
       "streamer": "castcrafter",
       "sha256": "1f8994a9bf26f6ec28a91dab70be45acc6f2fd0d9c2f512b4601e2081fa4c54d",
       "source_sha256": "277798417387dc2192e941f304a9c41150c3910fd6fbe81cd19fa57e6a354331",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2642584236-1f8994a9bf26.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2642584236-1f8994a9bf26.mp4",
       "clip_slug": "ProductiveEndearingBeaverCharlieBitMe-2_HZGwCJLMjdVAUk",
       "original_created_at": "2026-10-21T17:42:35Z",
-      "source_deadline": "2026-10-24T17:42:35Z"
+      "source_deadline": "2026-10-24T17:42:35Z",
+      "buffer_post_id": "6ad9ef31b7096b8d3810729f"
     }
   ],
   "last_production": {

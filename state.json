@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "385959500",
-      "clip_slug": "KathishSavoryKoalaBudBlast-h5UOXQcUv-QbTGM8",
-      "streamer": "eliasn97",
-      "source_url": "https://www.twitch.tv/eliasn97/clip/KathishSavoryKoalaBudBlast-h5UOXQcUv-QbTGM8",
-      "original_title": "Ich Trage kein Hass mehr in Mir",
-      "hook": "Ich Trage kein Hass mehr in Mir",
-      "caption": "Ich Trage kein Hass mehr in Mir\n#gaming #minecraft #twitchclips #eliasn97 #gamer",
-      "views_at_selection": 308,
-      "original_duration": 41.0,
-      "original_created_at": "2026-10-22T17:47:23Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-385959500-560e1df9ab60.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-22T19:54:46Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "560e1df9ab6019b2cff2f28e0f08ee244e9ab387112b7fd62a00c232dc0769b3",
-      "category": "Minecraft",
-      "transcript_sha256": "058edd30f379f1ca790728c09b98c30ad1d25d4ef5f12e185d3b55a669f8f449",
-      "asr_requires_correction": true,
-      "source_sha256": "f9b4757b27b4be705ef31d15e6d9cc7108eca0178e741bbd3541f57d96e0d007",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-22T19:54:46.142270+00:00",
-        "media_sha256": "560e1df9ab6019b2cff2f28e0f08ee244e9ab387112b7fd62a00c232dc0769b3",
-        "transcript_sha256": "058edd30f379f1ca790728c09b98c30ad1d25d4ef5f12e185d3b55a669f8f449",
-        "source_sha256": "f9b4757b27b4be705ef31d15e6d9cc7108eca0178e741bbd3541f57d96e0d007",
-        "evidence_sha256": "62a750aad003d31e9567cc4250745f53fc918145d7467212197593402c4e0b3a",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "f9b4757b27b4be705ef31d15e6d9cc7108eca0178e741bbd3541f57d96e0d007",
-          "reviewed_source_sha256": "f9b4757b27b4be705ef31d15e6d9cc7108eca0178e741bbd3541f57d96e0d007",
-          "duration": 41.283333,
-          "timestamps": [
-            0.0,
-            20.567,
-            41.133
-          ],
-          "source_frame_hashes": [
-            "5fb2274191b2644a05c7506d0e803622440185faff55da85420b811eaf77c21c",
-            "71ba30b73a5e1b1c018953dfbb262811b419e6b123d5da8744cb6e632348d43f",
-            "aa58471f1a61549d2c7f53d07a08e939e55e2dedf34268deca40d02caa690df5"
-          ],
-          "headline": "Ich Trage kein Hass mehr in Mir",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left: minimap, bottom: inventory bar, top-right: facecam with streamer, bottom-right: chat text 'LukeCraft joined the game'.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player walks through a stone corridor in Minecraft, no clear action or outcome.",
-            "payoff": "No visible result or payoff from actions taken; chat notification only indicates player join, not outcome of gameplay action.",
-            "payoff_timestamp": 41.133,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.1344287988296162,
-          "clipped_fraction": 2.878181716274906e-05,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The stream chat is in",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            20.567,
-            41.133
-          ],
-          "final_frame_hashes": [
-            "0e226d967a99510339a3d42f9d881e7b676a494776d5704fcaf18c2978d921c8",
-            "3ad1a1cd0f045c59e8ccb45eee77062b623ec954af8e5892306cb83b2ab06372",
-            "7197a554e7da0beca6aa4b0b8ea190ced4a2d893a17550fa71f465fd11f28978"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "560e1df9ab6019b2cff2f28e0f08ee244e9ab387112b7fd62a00c232dc0769b3",
-          "transcript_sha256": "058edd30f379f1ca790728c09b98c30ad1d25d4ef5f12e185d3b55a669f8f449"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The stream chat is in"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1344, clipping fraction 0.00003. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-385959500-560e1df9ab60-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1379,14 +1241,17 @@
       "streamer": "eliasn97",
       "sha256": "560e1df9ab6019b2cff2f28e0f08ee244e9ab387112b7fd62a00c232dc0769b3",
       "source_sha256": "f9b4757b27b4be705ef31d15e6d9cc7108eca0178e741bbd3541f57d96e0d007",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-385959500-560e1df9ab60.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-385959500-560e1df9ab60.mp4",
       "clip_slug": "KathishSavoryKoalaBudBlast-h5UOXQcUv-QbTGM8",
       "original_created_at": "2026-10-22T17:47:23Z",
       "source_deadline": "2026-10-25T17:47:23Z",
       "buffer_post_id": "6ada6e3343a2d9ebee175198",
-      "last_reconcile_at": "2026-10-22T20:14:31Z"
+      "last_reconcile_at": "2026-10-22T20:14:31Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699587743482973473",
+      "sent_at": "2026-10-22T20:14:18Z",
+      "verified_at": "2026-10-22T20:14:32Z"
     }
   ],
   "last_production": {

@@ -1307,12 +1307,13 @@
       "streamer": "niekbeats",
       "sha256": "c67aa53afd409d8590bb7ef5343da8dfc4e99326883aa96f8e4481b39d310b93",
       "source_sha256": "cb8fe30d763aeaf6e6d7c8a4abab0e005341195de4b620ca60a43abf23c760e3",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1234041558-c67aa53afd40.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-1234041558-c67aa53afd40.mp4",
       "clip_slug": "MuddyKindMinkResidentSleeper-nuGwpYiyLDj-mlOP",
       "original_created_at": "2026-10-22T14:16:06Z",
-      "source_deadline": "2026-10-25T14:16:06Z"
+      "source_deadline": "2026-10-25T14:16:06Z",
+      "buffer_post_id": "6ada3a589a8a68d3cd6d6d0b"
     }
   ],
   "last_production": {

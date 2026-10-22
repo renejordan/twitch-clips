@@ -1267,28 +1267,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-22T12:17:47Z",
+    "at": "2026-10-22T13:14:12Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 105,
+      "listing_duration_prefilter": 101,
       "listing_ok": 100,
-      "listing_age_prefilter": 637,
-      "discovered": 1011,
-      "metadata_requested": 956,
-      "gaming_category_not_verified": 471,
-      "qualified_metadata": 402,
-      "title_too_short": 83,
-      "duplicate_source_event": 16,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_visual_gameplay_visible": 1,
+      "listing_age_prefilter": 638,
+      "discovered": 996,
+      "metadata_requested": 939,
+      "gaming_category_not_verified": 464,
+      "qualified_metadata": 394,
+      "title_too_short": 81,
+      "duplicate_source_event": 15,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2078601665",
-      "clip_slug": "ChillySpicyNightingaleLitty-x261dAJjdU5vMo8n",
-      "streamer": "trymacs"
+      "clip_id": "1064253296",
+      "clip_slug": "JazzyLaconicPotHeyGirl-ojA-LqV9NL7b93ca",
+      "streamer": "krokoboss"
     }
   },
   "prepare_scans": {
@@ -1571,6 +1570,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-22T12",
-  "last_prefetch_hour": "2026-10-22T12"
+  "last_prepare_hour": "2026-10-22T13",
+  "last_prefetch_hour": "2026-10-22T13"
 }

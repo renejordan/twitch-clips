@@ -1379,12 +1379,13 @@
       "streamer": "eliasn97",
       "sha256": "560e1df9ab6019b2cff2f28e0f08ee244e9ab387112b7fd62a00c232dc0769b3",
       "source_sha256": "f9b4757b27b4be705ef31d15e6d9cc7108eca0178e741bbd3541f57d96e0d007",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-385959500-560e1df9ab60.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-385959500-560e1df9ab60.mp4",
       "clip_slug": "KathishSavoryKoalaBudBlast-h5UOXQcUv-QbTGM8",
       "original_created_at": "2026-10-22T17:47:23Z",
-      "source_deadline": "2026-10-25T17:47:23Z"
+      "source_deadline": "2026-10-25T17:47:23Z",
+      "buffer_post_id": "6ada6e3343a2d9ebee175198"
     }
   ],
   "last_production": {

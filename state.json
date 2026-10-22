@@ -1273,26 +1273,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-22T20:50:10Z",
-    "result": "ready",
+    "at": "2026-10-22T22:39:27Z",
+    "result": "quality_rejected",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 107,
+      "listing_duration_prefilter": 113,
       "listing_ok": 100,
-      "listing_age_prefilter": 670,
+      "listing_age_prefilter": 663,
       "discovered": 978,
-      "metadata_requested": 925,
-      "qualified_metadata": 373,
-      "gaming_category_not_verified": 485,
-      "title_too_short": 67,
-      "duplicate_source_event": 16,
-      "download_attempted": 1,
-      "render_attempted": 1,
-      "render_ok": 1
+      "metadata_requested": 926,
+      "gaming_category_not_verified": 491,
+      "qualified_metadata": 366,
+      "title_too_short": 69,
+      "duplicate_source_event": 14,
+      "download_attempted": 3,
+      "render_attempted": 3,
+      "qa_duration_invalid": 2,
+      "qa_audio_quality_failed": 1
     },
     "candidate": {
-      "clip_id": "1725146422",
-      "clip_slug": "GlutenFreeShyTardigradeSSSsss-gZaenXqoKsKI4eh4",
+      "clip_id": "65589402",
+      "clip_slug": "AbnegateDullTroutSMOrc-_c6PCVCBhoQySuel",
       "streamer": "letshugotv"
     }
   },
@@ -1612,6 +1613,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-22T20",
+  "last_prepare_hour": "2026-10-22T22",
   "last_prefetch_hour": "2026-10-22T20"
 }

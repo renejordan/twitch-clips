@@ -1174,6 +1174,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699401168686026017",
       "sent_at": "2026-10-22T08:10:20Z",
       "verified_at": "2026-10-22T08:10:31Z"
+    },
+    {
+      "clip_id": "395432597",
+      "reserved_at": "2026-10-22T09:08:39Z",
+      "streamer": "trymacs",
+      "sha256": "cad2ccecf0c4e2c324c19db21cdcce958e8157c7009bd4b26aa8a2f138433e83",
+      "source_sha256": "525973a357855cd1bf327faf6f2029efebcc126362535dca481765cb7eb10a34",
+      "status": "reserved",
+      "asset_title": "tiktok14-395432597-cad2ccecf0c4.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-395432597-cad2ccecf0c4.mp4",
+      "clip_slug": "LovelyStrangeFrogTheTarFu-dAlioPzlTOIrBKaH",
+      "original_created_at": "2026-10-21T18:19:34Z",
+      "source_deadline": "2026-10-24T18:19:34Z"
     }
   ],
   "last_production": {

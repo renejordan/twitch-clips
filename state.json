@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1858383777",
-      "clip_slug": "ThoughtfulFamousRaccoonBleedPurple--Xp1euzTPtxGXhm7",
-      "streamer": "niekbeats",
-      "source_url": "https://www.twitch.tv/niekbeats/clip/ThoughtfulFamousRaccoonBleedPurple--Xp1euzTPtxGXhm7",
-      "original_title": "niekdezibel",
-      "hook": "niekdezibel",
-      "caption": "niekdezibel\n#gaming #minecraft #twitchclips #niekbeats #gamer",
-      "views_at_selection": 235,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-21T21:05:42Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-1858383777-87b97b89fef4.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-22T09:14:25Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "87b97b89fef40a22787cbc0201d61d7fd75c0a41ca681480c9143ea5ee59c922",
-      "category": "Minecraft",
-      "transcript_sha256": "ca0100b28b185285536654d78db9f66bdbab5a8adcd8259c2b032bf87262208a",
-      "asr_requires_correction": true,
-      "source_sha256": "ea475e146846418049544901785d7faf1be72129fd87a6d8f4782ca6f0ff664d",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-22T09:14:25.823878+00:00",
-        "media_sha256": "87b97b89fef40a22787cbc0201d61d7fd75c0a41ca681480c9143ea5ee59c922",
-        "transcript_sha256": "ca0100b28b185285536654d78db9f66bdbab5a8adcd8259c2b032bf87262208a",
-        "source_sha256": "ea475e146846418049544901785d7faf1be72129fd87a6d8f4782ca6f0ff664d",
-        "evidence_sha256": "efa40fe7621eaf6d6f9b1c504c63d5bcfc3c18bcf6c46d1051b1e6dd23435512",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "ea475e146846418049544901785d7faf1be72129fd87a6d8f4782ca6f0ff664d",
-          "reviewed_source_sha256": "ea475e146846418049544901785d7faf1be72129fd87a6d8f4782ca6f0ff664d",
-          "duration": 30.019,
-          "timestamps": [
-            0.0,
-            14.934,
-            29.869
-          ],
-          "source_frame_hashes": [
-            "42503b345dba3ad2ed5e99d9744304ed603915cb7efc8a1dd9ed3134ce9582fc",
-            "56eed56092444d2ee2f98db0177f235c42c58ad5cfdb95b0076680e3da9f6458",
-            "ff4ce6bf6f25878c56bd274937bc5198f7ea4640c777b69525f56503e7daa11f"
-          ],
-          "headline": "niekdezibel",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player moves through a brick-walled structure with inventory visible.",
-            "payoff": "No visible outcome or reaction from gameplay or player; chat is active but not indicative of a payoff or highlight.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.15460578145712248,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, a chat overlay on the left, and a title 'niekdezibel' centered at the top. The gameplay is rendered with standard Minecraft HUD elements",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.934,
-            29.869
-          ],
-          "final_frame_hashes": [
-            "e9cdbe979c1d846edbd4880faa7353045470bbdc7b15929d0f9272fbf26b4a57",
-            "90334a5010db24273a39fa2da28a4da1c251382f6625277f8a71d0c222349343",
-            "1e5af375cf38f9e0335201e7a442cd6221391d1fca82ca2002da7b8c2b6c6833"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "87b97b89fef40a22787cbc0201d61d7fd75c0a41ca681480c9143ea5ee59c922",
-          "transcript_sha256": "ca0100b28b185285536654d78db9f66bdbab5a8adcd8259c2b032bf87262208a"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, a chat overlay on the left, and a title 'niekdezibel' centered at the top. The gameplay is rendered with standard Minecraft HUD elements"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1546, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-1858383777-87b97b89fef4-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1199,14 +1061,17 @@
       "streamer": "niekbeats",
       "sha256": "87b97b89fef40a22787cbc0201d61d7fd75c0a41ca681480c9143ea5ee59c922",
       "source_sha256": "ea475e146846418049544901785d7faf1be72129fd87a6d8f4782ca6f0ff664d",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1858383777-87b97b89fef4.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-1858383777-87b97b89fef4.mp4",
       "clip_slug": "ThoughtfulFamousRaccoonBleedPurple--Xp1euzTPtxGXhm7",
       "original_created_at": "2026-10-21T21:05:42Z",
       "source_deadline": "2026-10-24T21:05:42Z",
       "buffer_post_id": "6ad9e0794187d54841a3ad03",
-      "last_reconcile_at": "2026-10-22T10:09:59Z"
+      "last_reconcile_at": "2026-10-22T10:09:59Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699431908261891360",
+      "sent_at": "2026-10-22T10:09:36Z",
+      "verified_at": "2026-10-22T10:10:00Z"
     }
   ],
   "last_production": {

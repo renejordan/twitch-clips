@@ -1285,27 +1285,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-22T13:14:12Z",
+    "at": "2026-10-22T14:24:06Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 101,
+      "listing_duration_prefilter": 96,
       "listing_ok": 100,
-      "listing_age_prefilter": 638,
-      "discovered": 996,
-      "metadata_requested": 939,
-      "gaming_category_not_verified": 464,
-      "qualified_metadata": 394,
-      "title_too_short": 81,
-      "duplicate_source_event": 15,
+      "listing_age_prefilter": 637,
+      "discovered": 998,
+      "metadata_requested": 940,
+      "qualified_metadata": 393,
+      "gaming_category_not_verified": 456,
+      "title_too_short": 91,
+      "duplicate_source_event": 17,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1064253296",
-      "clip_slug": "JazzyLaconicPotHeyGirl-ojA-LqV9NL7b93ca",
-      "streamer": "krokoboss"
+      "clip_id": "2711270633",
+      "clip_slug": "EagerRamshackleLampDendiFace-A_oN-7lSw2ML_NBU",
+      "streamer": "letshugotv"
     }
   },
   "prepare_scans": {
@@ -1588,6 +1588,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-22T13",
-  "last_prefetch_hour": "2026-10-22T13"
+  "last_prepare_hour": "2026-10-22T14",
+  "last_prefetch_hour": "2026-10-22T14"
 }

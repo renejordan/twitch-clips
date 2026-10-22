@@ -1336,6 +1336,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699544070741364001",
       "sent_at": "2026-10-22T17:24:50Z",
       "verified_at": "2026-10-22T17:25:01Z"
+    },
+    {
+      "clip_id": "814582439",
+      "reserved_at": "2026-10-22T18:12:38Z",
+      "streamer": "honeypuu",
+      "sha256": "0f55f3c884045f4d584d9799b7b645a09b4eb494dc09b36b437c8bfda966ebc9",
+      "source_sha256": "7ccc0b14ef63c6d9b5cced04534e2238d00cb2e56949c06d581438084d17d7bf",
+      "status": "reserved",
+      "asset_title": "tiktok14-814582439-0f55f3c88404.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/honeypuu-814582439-0f55f3c88404.mp4",
+      "clip_slug": "ArbitraryDirtyRatCharlieBitMe-trE0ueoN8z9bYXd4",
+      "original_created_at": "2026-10-22T11:13:01Z",
+      "source_deadline": "2026-10-25T11:13:01Z"
     }
   ],
   "last_production": {

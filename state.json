@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2078601665",
-      "clip_slug": "ChillySpicyNightingaleLitty-x261dAJjdU5vMo8n",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/ChillySpicyNightingaleLitty-x261dAJjdU5vMo8n",
-      "original_title": "Ich spiel so Minecraft",
-      "hook": "Ich spiel so Minecraft",
-      "caption": "Ich spiel so Minecraft\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 197,
-      "original_duration": 35.0,
-      "original_created_at": "2026-10-21T21:46:59Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2078601665-62dc87a7f9dc.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-22T12:17:47Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "62dc87a7f9dcfde0d249379f2067f0be18c9b34a2d0aa7ff1b9ac7edfcda16d2",
-      "category": "Minecraft",
-      "transcript_sha256": "085a1009fb20561a3d6f7f0cea696cc6bc5f828491763713f5f7beb253346bc1",
-      "asr_requires_correction": true,
-      "source_sha256": "76de5fda2447ba4f6fe69d42f3abb51585d5eb233e17e4c2a13efd491be708c2",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-22T12:17:47.633604+00:00",
-        "media_sha256": "62dc87a7f9dcfde0d249379f2067f0be18c9b34a2d0aa7ff1b9ac7edfcda16d2",
-        "transcript_sha256": "085a1009fb20561a3d6f7f0cea696cc6bc5f828491763713f5f7beb253346bc1",
-        "source_sha256": "76de5fda2447ba4f6fe69d42f3abb51585d5eb233e17e4c2a13efd491be708c2",
-        "evidence_sha256": "71714729593537a75a14d25553fe2c3d3809b8942c07b7ae2e5fdec9f3493742",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "76de5fda2447ba4f6fe69d42f3abb51585d5eb233e17e4c2a13efd491be708c2",
-          "reviewed_source_sha256": "76de5fda2447ba4f6fe69d42f3abb51585d5eb233e17e4c2a13efd491be708c2",
-          "duration": 35.562,
-          "timestamps": [
-            0.0,
-            17.706,
-            35.412
-          ],
-          "source_frame_hashes": [
-            "e993478624fa4b64323918fec1954b61704c31c3ce0ac9f02f6640d837506801",
-            "9b48e69124bd43488a231495bb59e514cd41addee2267048da6d4aea041a8aa1",
-            "659c075cddb0f12037eebd3cf443202dbd8d09d0cf38c694078a8ea9ffe121fb"
-          ],
-          "headline": "Ich spiel so Minecraft",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay with HUD visible, including health, inventory, and minimap, consistent with direct_game_capture_with_facecam",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a Minecraft build with lighting and structures, no clear action or outcome visible",
-            "payoff": "No visible outcome or payoff from actions; gameplay continues without clear result or reaction from player or game",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.06057932589073846,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The title 'Ich spiel so Minecraft' is clearly visible at the top, and no word subtitles are present.",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            17.706,
-            35.412
-          ],
-          "final_frame_hashes": [
-            "57d2501863962ac1f258944e10e075cfde3e24c9400278497ebf3af91df8889c",
-            "2f26a937f9316d7e89ab1374123be52aeb8d9314ae8237749206cb28cc9dd8c9",
-            "9a0c7c4e6b65af49d2e5cccfa761a6a12898ef087f11bfc02c60b76def7785f7"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "62dc87a7f9dcfde0d249379f2067f0be18c9b34a2d0aa7ff1b9ac7edfcda16d2",
-          "transcript_sha256": "085a1009fb20561a3d6f7f0cea696cc6bc5f828491763713f5f7beb253346bc1"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The title 'Ich spiel so Minecraft' is clearly visible at the top, and no word subtitles are present."
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0606, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2078601665-62dc87a7f9dc-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1253,14 +1115,17 @@
       "streamer": "trymacs",
       "sha256": "62dc87a7f9dcfde0d249379f2067f0be18c9b34a2d0aa7ff1b9ac7edfcda16d2",
       "source_sha256": "76de5fda2447ba4f6fe69d42f3abb51585d5eb233e17e4c2a13efd491be708c2",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2078601665-62dc87a7f9dc.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2078601665-62dc87a7f9dc.mp4",
       "clip_slug": "ChillySpicyNightingaleLitty-x261dAJjdU5vMo8n",
       "original_created_at": "2026-10-21T21:46:59Z",
       "source_deadline": "2026-10-24T21:46:59Z",
       "buffer_post_id": "6ada0ad61cc831fdc3bc49c9",
-      "last_reconcile_at": "2026-10-22T13:10:30Z"
+      "last_reconcile_at": "2026-10-22T13:10:30Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699478505507015968",
+      "sent_at": "2026-10-22T13:10:29Z",
+      "verified_at": "2026-10-22T13:10:31Z"
     }
   ],
   "last_production": {

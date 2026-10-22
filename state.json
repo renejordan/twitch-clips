@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1234041558",
+      "clip_slug": "MuddyKindMinkResidentSleeper-nuGwpYiyLDj-mlOP",
+      "streamer": "niekbeats",
+      "source_url": "https://www.twitch.tv/niekbeats/clip/MuddyKindMinkResidentSleeper-nuGwpYiyLDj-mlOP",
+      "original_title": "Napoléon",
+      "hook": "Napoléon",
+      "caption": "Napoléon\n#gaming #minecraft #twitchclips #niekbeats #gamer",
+      "views_at_selection": 533,
+      "original_duration": 22.0,
+      "original_created_at": "2026-10-22T14:16:06Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-1234041558-c67aa53afd40.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-22T15:18:11Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "c67aa53afd409d8590bb7ef5343da8dfc4e99326883aa96f8e4481b39d310b93",
+      "category": "Minecraft",
+      "transcript_sha256": "ecfe77ad4cae475504ed4be9a8764319dcab1f6efd20b7c14fe27cebb5bc72e4",
+      "asr_requires_correction": true,
+      "source_sha256": "cb8fe30d763aeaf6e6d7c8a4abab0e005341195de4b620ca60a43abf23c760e3",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-22T15:18:11.330864+00:00",
+        "media_sha256": "c67aa53afd409d8590bb7ef5343da8dfc4e99326883aa96f8e4481b39d310b93",
+        "transcript_sha256": "ecfe77ad4cae475504ed4be9a8764319dcab1f6efd20b7c14fe27cebb5bc72e4",
+        "source_sha256": "cb8fe30d763aeaf6e6d7c8a4abab0e005341195de4b620ca60a43abf23c760e3",
+        "evidence_sha256": "21d10ab89fdb5d69c106911b1d1fb28741d5d555c32cfd53c64e37ac51a57daa",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "cb8fe30d763aeaf6e6d7c8a4abab0e005341195de4b620ca60a43abf23c760e3",
+          "reviewed_source_sha256": "cb8fe30d763aeaf6e6d7c8a4abab0e005341195de4b620ca60a43abf23c760e3",
+          "duration": 22.57,
+          "timestamps": [
+            0.0,
+            11.21,
+            22.42
+          ],
+          "source_frame_hashes": [
+            "9d19f3d83873debb5acaab5573e3cd98198af110cb861a4ac592b2f565de7d46",
+            "5c76c34226617e4e413a4ad1026a0fa4167a2b8ba70f14658360279a638c127c",
+            "ec089c89e9ab2b1bc9ac677e4d503f46751bfce9106fc2779b79acd566dd3b06"
+          ],
+          "headline": "Napoléon",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in the top-left corner shows a streamer in a room with bookshelves, while the main screen displays Minecraft gameplay with a map and inventory bar visible. The game is in a long, narrow corridor with grass,",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "A player is in a long, narrow corridor in Minecraft with grass and a map visible in the top-left corner.",
+            "payoff": "The player is in a long, narrow corridor in Minecraft with grass and a map visible in the top-left corner. The player is not interacting with the game or the environment in any meaningful way. The player is not winning, ",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.05292156107974407,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a facecam panel in the top-left corner, a chat window, and a map visible in the top-left corner. The game view is a long, narrow corridor with grass and a map visible in the top-lef",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            11.21,
+            22.42
+          ],
+          "final_frame_hashes": [
+            "83012e08b2c81fe3c7cc177bdd99ceaf40ebde6d11b81a281f4493857bf0725a",
+            "4ca9f072505ed06c49c5ccdb39ebd93c55ceefa0b3378b36d767cd7d052892ee",
+            "c1e23c7a29ab43f20b1516b4be0bb4e78c517e8336ae2b6c4e9eaafca56d7a24"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "c67aa53afd409d8590bb7ef5343da8dfc4e99326883aa96f8e4481b39d310b93",
+          "transcript_sha256": "ecfe77ad4cae475504ed4be9a8764319dcab1f6efd20b7c14fe27cebb5bc72e4"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a facecam panel in the top-left corner, a chat window, and a map visible in the top-left corner. The game view is a long, narrow corridor with grass and a map visible in the top-lef"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0529, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-1234041558-c67aa53afd40-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

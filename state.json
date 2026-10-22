@@ -1253,12 +1253,13 @@
       "streamer": "trymacs",
       "sha256": "62dc87a7f9dcfde0d249379f2067f0be18c9b34a2d0aa7ff1b9ac7edfcda16d2",
       "source_sha256": "76de5fda2447ba4f6fe69d42f3abb51585d5eb233e17e4c2a13efd491be708c2",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2078601665-62dc87a7f9dc.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2078601665-62dc87a7f9dc.mp4",
       "clip_slug": "ChillySpicyNightingaleLitty-x261dAJjdU5vMo8n",
       "original_created_at": "2026-10-21T21:46:59Z",
-      "source_deadline": "2026-10-24T21:46:59Z"
+      "source_deadline": "2026-10-24T21:46:59Z",
+      "buffer_post_id": "6ada0ad61cc831fdc3bc49c9"
     }
   ],
   "last_production": {

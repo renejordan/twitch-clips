@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1266944851",
-      "clip_slug": "TacitFairWerewolfPJSugar-t3_OONwP5Mi0SpOC",
-      "streamer": "zarbex",
-      "source_url": "https://www.twitch.tv/zarbex/clip/TacitFairWerewolfPJSugar-t3_OONwP5Mi0SpOC",
-      "original_title": "in gedenken an skylinetv",
-      "hook": "in gedenken an skylinetv",
-      "caption": "in gedenken an skylinetv\n#gaming #minecraft #twitchclips #zarbex #gamer",
-      "views_at_selection": 432,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-21T15:03:14Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-1266944851-52ff0a649f69.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-22T07:16:04Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "52ff0a649f695d619dc6278c9e25525b4b7d833a8610683aaff4509a3f969964",
-      "category": "Minecraft",
-      "transcript_sha256": "49d7b9d0d9b02c09f5de9b9fed5f686d1ffad7a232dc83f46c01b75b5fd093d1",
-      "asr_requires_correction": true,
-      "source_sha256": "539208b9f663203949a73fc94f86f9626519d050be74e0ab8fdb054a6c12b82d",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-22T07:16:04.571993+00:00",
-        "media_sha256": "52ff0a649f695d619dc6278c9e25525b4b7d833a8610683aaff4509a3f969964",
-        "transcript_sha256": "49d7b9d0d9b02c09f5de9b9fed5f686d1ffad7a232dc83f46c01b75b5fd093d1",
-        "source_sha256": "539208b9f663203949a73fc94f86f9626519d050be74e0ab8fdb054a6c12b82d",
-        "evidence_sha256": "e8ec5d0ada63f3d5aca6fb0f75dc80a2b700e2a2b3bf37b389ef023dce92179b",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "539208b9f663203949a73fc94f86f9626519d050be74e0ab8fdb054a6c12b82d",
-          "reviewed_source_sha256": "539208b9f663203949a73fc94f86f9626519d050be74e0ab8fdb054a6c12b82d",
-          "duration": 30.008,
-          "timestamps": [
-            0.0,
-            14.929,
-            29.858
-          ],
-          "source_frame_hashes": [
-            "f29b8b988fe4baa60ebfb5fca76a4d30253853aec98cdf04348148aa1d923158",
-            "5e14614f3a04aa774f6c07eb4900783d035a049e39ad735aa7068fe9b80d4f30",
-            "c610737c7245862c5d93a486c3ccaf3ecb86b1e4f98afd4056f35965185720ea"
-          ],
-          "headline": "in gedenken an skylinetv",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left corner: minimap; bottom: inventory bar; top-right: chat window; top: player name; bottom-right: player facecam; game is Minecraft",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is on a floating structure in a Minecraft world with a minimap and inventory visible.",
-            "payoff": "No visible outcome or payoff from the action; player remains on structure without change in status or event outcome.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.03471218537306905,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a minimap and inventory visible, and a facecam panel in the top right corner. The text 'in gedenken an skylinetv' is displayed at the top center. The gameplay area is large and佔",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.929,
-            29.858
-          ],
-          "final_frame_hashes": [
-            "e6934c337e08c76f06b64483815fadc8576f45a2e5dca3edea256c75037f2ad2",
-            "9b3ad5e87640f8662d34ec2037cca5f18132df8efccca1c5d2b86e06f96f3165",
-            "290711bf1f747b38f6d742a35a4a8044c1a25745f8afdc4d87f281e4ea7244bb"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "52ff0a649f695d619dc6278c9e25525b4b7d833a8610683aaff4509a3f969964",
-          "transcript_sha256": "49d7b9d0d9b02c09f5de9b9fed5f686d1ffad7a232dc83f46c01b75b5fd093d1"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a minimap and inventory visible, and a facecam panel in the top right corner. The text 'in gedenken an skylinetv' is displayed at the top center. The gameplay area is large and佔"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0347, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-1266944851-52ff0a649f69-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1163,14 +1025,17 @@
       "streamer": "zarbex",
       "sha256": "52ff0a649f695d619dc6278c9e25525b4b7d833a8610683aaff4509a3f969964",
       "source_sha256": "539208b9f663203949a73fc94f86f9626519d050be74e0ab8fdb054a6c12b82d",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1266944851-52ff0a649f69.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-1266944851-52ff0a649f69.mp4",
       "clip_slug": "TacitFairWerewolfPJSugar-t3_OONwP5Mi0SpOC",
       "original_created_at": "2026-10-21T15:03:14Z",
       "source_deadline": "2026-10-24T15:03:14Z",
       "buffer_post_id": "6ad9c485dc56a50ca30065f6",
-      "last_reconcile_at": "2026-10-22T08:10:30Z"
+      "last_reconcile_at": "2026-10-22T08:10:30Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699401168686026017",
+      "sent_at": "2026-10-22T08:10:20Z",
+      "verified_at": "2026-10-22T08:10:31Z"
     }
   ],
   "last_production": {

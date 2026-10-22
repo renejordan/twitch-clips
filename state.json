@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2642584236",
+      "clip_slug": "ProductiveEndearingBeaverCharlieBitMe-2_HZGwCJLMjdVAUk",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/ProductiveEndearingBeaverCharlieBitMe-2_HZGwCJLMjdVAUk",
+      "original_title": "aber triff das Wasser gerne, ja?",
+      "hook": "aber triff das Wasser gerne, ja?",
+      "caption": "aber triff das Wasser gerne, ja?\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 264,
+      "original_duration": 27.0,
+      "original_created_at": "2026-10-21T17:42:35Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2642584236-1f8994a9bf26.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-22T10:13:56Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "1f8994a9bf26f6ec28a91dab70be45acc6f2fd0d9c2f512b4601e2081fa4c54d",
+      "category": "Minecraft",
+      "transcript_sha256": "be48a56aa8dbaf106364ade7b12784ec56e52f7f10a88208cc00799cf47a6e6b",
+      "asr_requires_correction": true,
+      "source_sha256": "277798417387dc2192e941f304a9c41150c3910fd6fbe81cd19fa57e6a354331",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-22T10:13:56.031997+00:00",
+        "media_sha256": "1f8994a9bf26f6ec28a91dab70be45acc6f2fd0d9c2f512b4601e2081fa4c54d",
+        "transcript_sha256": "be48a56aa8dbaf106364ade7b12784ec56e52f7f10a88208cc00799cf47a6e6b",
+        "source_sha256": "277798417387dc2192e941f304a9c41150c3910fd6fbe81cd19fa57e6a354331",
+        "evidence_sha256": "5ea9376ec95a01bcecca2687daf1ee36bfc89c55196609232c93bc66346bcfec",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "277798417387dc2192e941f304a9c41150c3910fd6fbe81cd19fa57e6a354331",
+          "reviewed_source_sha256": "277798417387dc2192e941f304a9c41150c3910fd6fbe81cd19fa57e6a354331",
+          "duration": 27.533333,
+          "timestamps": [
+            0.0,
+            13.692,
+            27.383
+          ],
+          "source_frame_hashes": [
+            "7bb4a413996e9aefd93589aedd11a8765137ed2875d62d8eff8dc9b094386f77",
+            "2649b663fcd7ce63458a65e5eee47275c27fa50f48d0e944d6adf5b051cad523",
+            "c7d29f423899b65bb30741cc10cbcd737c91a97dd62699cb6db9eb1947d0846b"
+          ],
+          "headline": "aber triff das Wasser gerne, ja?",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft, visible chat and HUD, no clear action or outcome",
+            "payoff": "No visible outcome or payoff from actions, no clear win/loss or reaction",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.03374187501232443,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, a chat overlay on the left, and a HUD at the bottom. The title 'aber triff das Wasser gerne, ja?' is displayed as a subtitle at the top.",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            13.692,
+            27.383
+          ],
+          "final_frame_hashes": [
+            "6eebc2f2b41e8349c35c6768bcfe254841e9bbea77b8dbf0bf2c07aa54b45b4e",
+            "98825964d5eb240b724a93b72332a148191cd59797073d504152fc990a778aec",
+            "62fc8ebf642b1cc7f0b75c8f548b46c7ed34039866ea90e0227d7ef568b4a37b"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "1f8994a9bf26f6ec28a91dab70be45acc6f2fd0d9c2f512b4601e2081fa4c54d",
+          "transcript_sha256": "be48a56aa8dbaf106364ade7b12784ec56e52f7f10a88208cc00799cf47a6e6b"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, a chat overlay on the left, and a HUD at the bottom. The title 'aber triff das Wasser gerne, ja?' is displayed as a subtitle at the top."
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0337, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2642584236-1f8994a9bf26-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

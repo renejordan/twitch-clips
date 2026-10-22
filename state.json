@@ -1282,6 +1282,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699494493724232993",
       "sent_at": "2026-10-22T14:12:27Z",
       "verified_at": "2026-10-22T14:14:40Z"
+    },
+    {
+      "clip_id": "2711270633",
+      "reserved_at": "2026-10-22T15:12:26Z",
+      "streamer": "letshugotv",
+      "sha256": "ab018299c56b444522ed12e410b17c2cc37342ec4b3f25a39539e459a9d09331",
+      "source_sha256": "89a5320db2337a9def9ca5696bdb5087ae6f2f6a9eea25da5cf85dc2870e9773",
+      "status": "reserved",
+      "asset_title": "tiktok14-2711270633-ab018299c56b.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2711270633-ab018299c56b.mp4",
+      "clip_slug": "EagerRamshackleLampDendiFace-A_oN-7lSw2ML_NBU",
+      "original_created_at": "2026-10-21T14:49:26Z",
+      "source_deadline": "2026-10-24T14:49:26Z"
     }
   ],
   "last_production": {

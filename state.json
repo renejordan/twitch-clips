@@ -1192,6 +1192,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699416644212362528",
       "sent_at": "2026-10-22T09:10:25Z",
       "verified_at": "2026-10-22T09:10:34Z"
+    },
+    {
+      "clip_id": "1858383777",
+      "reserved_at": "2026-10-22T10:07:51Z",
+      "streamer": "niekbeats",
+      "sha256": "87b97b89fef40a22787cbc0201d61d7fd75c0a41ca681480c9143ea5ee59c922",
+      "source_sha256": "ea475e146846418049544901785d7faf1be72129fd87a6d8f4782ca6f0ff664d",
+      "status": "reserved",
+      "asset_title": "tiktok14-1858383777-87b97b89fef4.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-1858383777-87b97b89fef4.mp4",
+      "clip_slug": "ThoughtfulFamousRaccoonBleedPurple--Xp1euzTPtxGXhm7",
+      "original_created_at": "2026-10-21T21:05:42Z",
+      "source_deadline": "2026-10-24T21:05:42Z"
     }
   ],
   "last_production": {

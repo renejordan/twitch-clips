@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "530654244",
-      "clip_slug": "ImpossibleOpenCurlewGOWSkull-dJsBJ0XjMUh2U5qN",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/ImpossibleOpenCurlewGOWSkull-dJsBJ0XjMUh2U5qN",
-      "original_title": "Was eine Lache OME44",
-      "hook": "Was eine Lache OME44",
-      "caption": "Was eine Lache OME44\n#gaming #minecraft #twitchclips #krokoboss #gamer",
-      "views_at_selection": 172,
-      "original_duration": 28.0,
-      "original_created_at": "2026-10-21T21:07:31Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-530654244-01c111fdbd0d.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-22T11:32:57Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "01c111fdbd0d326ac198b5eefebb148df3f1d3ff5dddb839b98e77210107ad28",
-      "category": "Minecraft",
-      "transcript_sha256": "06e30a1e9dca993422b8bc4d9376552d74a321165827c0636419fb6c8649b621",
-      "asr_requires_correction": true,
-      "source_sha256": "d0d66959c3d997349c15bd99eb316a93dc2c53ffb5d6fbd0b092100e687926f1",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-22T11:32:57.614663+00:00",
-        "media_sha256": "01c111fdbd0d326ac198b5eefebb148df3f1d3ff5dddb839b98e77210107ad28",
-        "transcript_sha256": "06e30a1e9dca993422b8bc4d9376552d74a321165827c0636419fb6c8649b621",
-        "source_sha256": "d0d66959c3d997349c15bd99eb316a93dc2c53ffb5d6fbd0b092100e687926f1",
-        "evidence_sha256": "b34fd740342f2812108c1c7b267c9064a41335b6d4ee858540406f8d40195357",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "d0d66959c3d997349c15bd99eb316a93dc2c53ffb5d6fbd0b092100e687926f1",
-          "reviewed_source_sha256": "d0d66959c3d997349c15bd99eb316a93dc2c53ffb5d6fbd0b092100e687926f1",
-          "duration": 28.316667,
-          "timestamps": [
-            0.0,
-            14.083,
-            28.167
-          ],
-          "source_frame_hashes": [
-            "e42d88aa7ed3aff7c91122ad5181fa0b30ab76292bca945c4225a0b22930c200",
-            "d495c11d31619ce751072dbd46071e5f69590c15a353456a5a1086cad2049f8f",
-            "1c5bbcfc557107277167ec6b1f57d873e96e328cf4e8f9378f05738a66a01f4b"
-          ],
-          "headline": "Was eine Lache OME44",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in top right corner, showing player's face, with Minecraft gameplay in main view including inventory bar, minimap, and chat text.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a brick structure, looking down at a wooden platform.",
-            "payoff": "Player is in a brick structure, looking down at a wooden platform. No clear outcome or reaction is visible beyond the chat message 'denn da so?' and the player's facial expression, which is not clearly tied to an event. ",
-            "payoff_timestamp": 28.167,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.09098896584301588,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a brick structure and wooden platform, and a facecam panel above gameplay. The title 'Was eine Lache OME44' is clearly visible as a subtitle. The frame at 14.08 seconds shows the in",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.083,
-            28.167
-          ],
-          "final_frame_hashes": [
-            "fa473d0cff6f316d70f5d9051c1816e4e540f30390baff5d2ddf9d6831822790",
-            "73a33f10397b2319ab3400f21910dc8b5ab551199253e229bec9df1253bd1228",
-            "5abb8644bda984dacb5a7c4468d090d6ea29523835aee7256a8dda6ed68e1186"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "01c111fdbd0d326ac198b5eefebb148df3f1d3ff5dddb839b98e77210107ad28",
-          "transcript_sha256": "06e30a1e9dca993422b8bc4d9376552d74a321165827c0636419fb6c8649b621"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a brick structure and wooden platform, and a facecam panel above gameplay. The title 'Was eine Lache OME44' is clearly visible as a subtitle. The frame at 14.08 seconds shows the in"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0910, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-530654244-01c111fdbd0d-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1235,14 +1097,17 @@
       "streamer": "krokoboss",
       "sha256": "01c111fdbd0d326ac198b5eefebb148df3f1d3ff5dddb839b98e77210107ad28",
       "source_sha256": "d0d66959c3d997349c15bd99eb316a93dc2c53ffb5d6fbd0b092100e687926f1",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-530654244-01c111fdbd0d.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-530654244-01c111fdbd0d.mp4",
       "clip_slug": "ImpossibleOpenCurlewGOWSkull-dJsBJ0XjMUh2U5qN",
       "original_created_at": "2026-10-21T21:07:31Z",
       "source_deadline": "2026-10-24T21:07:31Z",
       "buffer_post_id": "6ad9fcc5f09f431dcad966f8",
-      "last_reconcile_at": "2026-10-22T12:10:32Z"
+      "last_reconcile_at": "2026-10-22T12:10:32Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699463022313524512",
+      "sent_at": "2026-10-22T12:10:20Z",
+      "verified_at": "2026-10-22T12:10:33Z"
     }
   ],
   "last_production": {

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3784756528",
-      "clip_slug": "AlertOddPheasantMcaT-2eCEOw-6TuQxyq1K",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/AlertOddPheasantMcaT-2eCEOw-6TuQxyq1K",
-      "original_title": "Kroko vergisst sich ingame zu muten OME",
-      "hook": "Kroko vergisst sich ingame zu muten OME",
-      "caption": "Kroko vergisst sich ingame zu muten OME\n#gaming #minecraft #twitchclips #krokoboss #gamer",
-      "views_at_selection": 158,
-      "original_duration": 60.0,
-      "original_created_at": "2026-10-21T19:39:11Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3784756528-da3135c0282d.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-21T21:45:05Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "da3135c0282d63e659737d69245d035dcb36b928999066b9358eab48d4914e3b",
-      "category": "Minecraft",
-      "transcript_sha256": "84c5cd263c33d4697562dbdfa6251216bc120f87a2d118d0d414940eb40987a5",
-      "asr_requires_correction": true,
-      "source_sha256": "c81896a9368949a6e2e9331f0f52d235ea0f1339c276d276300c113d32ee9482",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-21T21:45:05.343164+00:00",
-        "media_sha256": "da3135c0282d63e659737d69245d035dcb36b928999066b9358eab48d4914e3b",
-        "transcript_sha256": "84c5cd263c33d4697562dbdfa6251216bc120f87a2d118d0d414940eb40987a5",
-        "source_sha256": "c81896a9368949a6e2e9331f0f52d235ea0f1339c276d276300c113d32ee9482",
-        "evidence_sha256": "1a73b87fd2cfb2afa5d3c594ccfa649dd1e8d071ae2c4b14cffc1bd2db1c39dd",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "c81896a9368949a6e2e9331f0f52d235ea0f1339c276d276300c113d32ee9482",
-          "reviewed_source_sha256": "c81896a9368949a6e2e9331f0f52d235ea0f1339c276d276300c113d32ee9482",
-          "duration": 60.0,
-          "timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "source_frame_hashes": [
-            "b5f430a9a4ba9e6d8417a8d9ffc4db23a22a3269409612ff5e6b11f62023105f",
-            "112c9346b8fc13a2bce3407683668331dfe001ff8dbf455a53fe9d4f6c25226c",
-            "60edb0035d62cbf88e7a10a715360001ef7de5755acb9d79c86dd8111466d2fc"
-          ],
-          "headline": "Kroko vergisst sich ingame zu muten OME",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left corner shows a minimap, bottom-center shows inventory bar, top-right corner shows a face camera with a player wearing headphones. The game is Minecraft, with a visible player character and environment. The facec",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in the frames provided.",
-            "payoff": "No clear payoff visible in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.019030621218285616,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a Minecraft gameplay view with a facecam panel in the top right corner, which is a common editing style for live streams. The game's HUD, including the minimap and inventory bar, is visible, indicating a direct game capture.",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "final_frame_hashes": [
-            "049d16a278e02b61863145e8083047c08b03879c52ec7dd431e328def02948c0",
-            "8ae3bea313afe6744a2505805dd4bde6763b8dfedc19326355ff5dd9a7f2fa54",
-            "675c312330b0097ef83847b88943dcd2b5d5378319b28cf120e62c920ed5988c"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "da3135c0282d63e659737d69245d035dcb36b928999066b9358eab48d4914e3b",
-          "transcript_sha256": "84c5cd263c33d4697562dbdfa6251216bc120f87a2d118d0d414940eb40987a5"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a Minecraft gameplay view with a facecam panel in the top right corner, which is a common editing style for live streams. The game's HUD, including the minimap and inventory bar, is visible, indicating a direct game capture."
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0190, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3784756528-da3135c0282d-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1145,14 +1007,17 @@
       "streamer": "krokoboss",
       "sha256": "da3135c0282d63e659737d69245d035dcb36b928999066b9358eab48d4914e3b",
       "source_sha256": "c81896a9368949a6e2e9331f0f52d235ea0f1339c276d276300c113d32ee9482",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3784756528-da3135c0282d.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3784756528-da3135c0282d.mp4",
       "clip_slug": "AlertOddPheasantMcaT-2eCEOw-6TuQxyq1K",
       "original_created_at": "2026-10-21T19:39:11Z",
       "source_deadline": "2026-10-24T19:39:11Z",
       "buffer_post_id": "6ad9b6757dadc432f7442990",
-      "last_reconcile_at": "2026-10-22T07:10:30Z"
+      "last_reconcile_at": "2026-10-22T07:10:30Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699385712927362337",
+      "sent_at": "2026-10-22T07:10:20Z",
+      "verified_at": "2026-10-22T07:10:31Z"
     }
   ],
   "last_production": {

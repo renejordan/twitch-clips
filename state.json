@@ -1138,6 +1138,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699231089784671521",
       "sent_at": "2026-10-21T21:10:18Z",
       "verified_at": "2026-10-21T21:10:30Z"
+    },
+    {
+      "clip_id": "3784756528",
+      "reserved_at": "2026-10-22T07:08:34Z",
+      "streamer": "krokoboss",
+      "sha256": "da3135c0282d63e659737d69245d035dcb36b928999066b9358eab48d4914e3b",
+      "source_sha256": "c81896a9368949a6e2e9331f0f52d235ea0f1339c276d276300c113d32ee9482",
+      "status": "reserved",
+      "asset_title": "tiktok14-3784756528-da3135c0282d.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3784756528-da3135c0282d.mp4",
+      "clip_slug": "AlertOddPheasantMcaT-2eCEOw-6TuQxyq1K",
+      "original_created_at": "2026-10-21T19:39:11Z",
+      "source_deadline": "2026-10-24T19:39:11Z"
     }
   ],
   "last_production": {

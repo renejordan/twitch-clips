@@ -1151,7 +1151,8 @@
       "clip_slug": "AlertOddPheasantMcaT-2eCEOw-6TuQxyq1K",
       "original_created_at": "2026-10-21T19:39:11Z",
       "source_deadline": "2026-10-24T19:39:11Z",
-      "buffer_post_id": "6ad9b6757dadc432f7442990"
+      "buffer_post_id": "6ad9b6757dadc432f7442990",
+      "last_reconcile_at": "2026-10-22T07:10:30Z"
     }
   ],
   "last_production": {

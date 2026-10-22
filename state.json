@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1064253296",
+      "clip_slug": "JazzyLaconicPotHeyGirl-ojA-LqV9NL7b93ca",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/JazzyLaconicPotHeyGirl-ojA-LqV9NL7b93ca",
+      "original_title": "Er hat ihn beschworen",
+      "hook": "Er hat ihn beschworen",
+      "caption": "Er hat ihn beschworen\n#gaming #minecraft #twitchclips #krokoboss #gamer",
+      "views_at_selection": 219,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-21T18:54:16Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1064253296-c0e0eaf5e3b1.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-22T13:14:12Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "c0e0eaf5e3b1499b0b8da809310bf46ac3ac81a09b1bc9accbed0e0b5aef4889",
+      "category": "Minecraft",
+      "transcript_sha256": "e8dfcc14f3cafe64e6c6438389b3b95148407895db59da9f3a0a1584f606921e",
+      "asr_requires_correction": true,
+      "source_sha256": "d471b31c962a515407a23b67f08c6b7af88bbbaa419c7ba34500b7cb7bb35784",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-22T13:14:12.468215+00:00",
+        "media_sha256": "c0e0eaf5e3b1499b0b8da809310bf46ac3ac81a09b1bc9accbed0e0b5aef4889",
+        "transcript_sha256": "e8dfcc14f3cafe64e6c6438389b3b95148407895db59da9f3a0a1584f606921e",
+        "source_sha256": "d471b31c962a515407a23b67f08c6b7af88bbbaa419c7ba34500b7cb7bb35784",
+        "evidence_sha256": "af762e41a4a7019c6c16be92b1f989d30b826baabf067bb587db8f6617bec8ce",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "d471b31c962a515407a23b67f08c6b7af88bbbaa419c7ba34500b7cb7bb35784",
+          "reviewed_source_sha256": "d471b31c962a515407a23b67f08c6b7af88bbbaa419c7ba34500b7cb7bb35784",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "341281f19410472ebe5a769e047eab1bd700a507640dd98cdf3a249e13db1aad",
+            "7e9e56a8ad56937e2fa4b4f5d9f97b383411be4cef41fcf56a9090c39ee5a8b1",
+            "7ddfcef589683bad636d0777d156f26de8f774675b5725826b80f6a223af8635"
+          ],
+          "headline": "Er hat ihn beschworen",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, with game HUD and chat visible, no browser or desktop elements.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft facing a large mob with inventory and chat visible.",
+            "payoff": "No clear outcome or payoff visible in frames; gameplay continues without resolution or reaction from player or game mechanics.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.06802500277403159,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a large mob (possibly a zombie or similar entity) in the center, surrounded by player characters and inventory items. The top of the screen displays the title 'Er hat ihn besch",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "e75f602e8ab0b327eeb33413eacd9b198e97aa804c3982b98cc36b897d9cb49b",
+            "b0f98ad90a385fe263f642a40e88f05d290f098d61c6fc464c17aae7fffbd949",
+            "83daeb97f959ede81ae5bdd0e3aae088b8f40c66521105e978ab4f270fb24f83"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "c0e0eaf5e3b1499b0b8da809310bf46ac3ac81a09b1bc9accbed0e0b5aef4889",
+          "transcript_sha256": "e8dfcc14f3cafe64e6c6438389b3b95148407895db59da9f3a0a1584f606921e"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a large mob (possibly a zombie or similar entity) in the center, surrounded by player characters and inventory items. The top of the screen displays the title 'Er hat ihn besch"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0680, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1064253296-c0e0eaf5e3b1-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

@@ -1177,27 +1177,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-22T07:16:04Z",
+    "at": "2026-10-22T08:13:59Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_ok": 100,
       "listing_duration_prefilter": 98,
-      "listing_age_prefilter": 660,
-      "discovered": 1001,
-      "metadata_requested": 949,
-      "gaming_category_not_verified": 457,
-      "title_too_short": 87,
-      "qualified_metadata": 405,
+      "listing_ok": 100,
+      "listing_age_prefilter": 654,
+      "discovered": 1012,
+      "metadata_requested": 959,
+      "title_too_short": 88,
+      "gaming_category_not_verified": 452,
+      "qualified_metadata": 419,
       "duplicate_source_event": 15,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1266944851",
-      "clip_slug": "TacitFairWerewolfPJSugar-t3_OONwP5Mi0SpOC",
-      "streamer": "zarbex"
+      "clip_id": "395432597",
+      "clip_slug": "LovelyStrangeFrogTheTarFu-dAlioPzlTOIrBKaH",
+      "streamer": "trymacs"
     }
   },
   "prepare_scans": {
@@ -1471,6 +1471,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-22T07",
-  "last_prefetch_hour": "2026-10-22T07"
+  "last_prepare_hour": "2026-10-22T08",
+  "last_prefetch_hour": "2026-10-22T08"
 }

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3165684609",
-      "clip_slug": "CovertSillyQueleaHeyGuys-RTpw8zDvCdjhwtx9",
-      "streamer": "metashi12",
-      "source_url": "https://www.twitch.tv/metashi12/clip/CovertSillyQueleaHeyGuys-RTpw8zDvCdjhwtx9",
-      "original_title": "Voting über AusLÄNDER in CA",
-      "hook": "Voting über AusLÄNDER in CA",
-      "caption": "Voting über AusLÄNDER in CA\n#gaming #minecraft #twitchclips #metashi12 #gamer",
-      "views_at_selection": 200,
-      "original_duration": 38.0,
-      "original_created_at": "2026-10-22T07:44:14Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-3165684609-a19b66517a3c.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-22T16:42:51Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "a19b66517a3c36aff3bbd0e348fe92f9ec5891957c248c93e04442774595b5ba",
-      "category": "Minecraft",
-      "transcript_sha256": "2ccc1edf6c6265018eeddba405526cd67aec06b110173359187d10e2b0d2a70c",
-      "asr_requires_correction": true,
-      "source_sha256": "6933c8906cddff52dc4d00de39b74c84b5b93602500caeab6ebae900db36c14e",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-22T16:42:51.256882+00:00",
-        "media_sha256": "a19b66517a3c36aff3bbd0e348fe92f9ec5891957c248c93e04442774595b5ba",
-        "transcript_sha256": "2ccc1edf6c6265018eeddba405526cd67aec06b110173359187d10e2b0d2a70c",
-        "source_sha256": "6933c8906cddff52dc4d00de39b74c84b5b93602500caeab6ebae900db36c14e",
-        "evidence_sha256": "25bf1d6c7f482615ba2a861235ca40cafb2249458a6e37a502d403f44518bfa1",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "6933c8906cddff52dc4d00de39b74c84b5b93602500caeab6ebae900db36c14e",
-          "reviewed_source_sha256": "6933c8906cddff52dc4d00de39b74c84b5b93602500caeab6ebae900db36c14e",
-          "duration": 38.698,
-          "timestamps": [
-            0.0,
-            19.274,
-            38.548
-          ],
-          "source_frame_hashes": [
-            "4064138564b1009b80c9a8b150e1b32aabb248376cf3a5bfac1e537f26f384a9",
-            "a5b0c0d5c8f1c5c67e1f7686727653fc9e06bf7caa2fd2c67d6791ab35f15b7a",
-            "5be3b276f26af423020168ce4dc39847dc85bd3679d7c384613a9e731a450a50"
-          ],
-          "headline": "Voting über AusLÄNDER in CA",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, inventory and trades UI visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is trading with a Mason - Master NPC, inventory full of items and gold, no visible outcome or reaction",
-            "payoff": "No visible outcome or reaction, no win/loss, no clear payoff from action",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.042283995006790115,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft trading interface with a Mason - Master NPC, full inventory of items and gold, and no visible outcome or reaction. The title 'Voting über AusLÄNDER in CA' is clearly visible at the top. The frame ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            19.274,
-            38.548
-          ],
-          "final_frame_hashes": [
-            "f1865882045290659ee20425ab40e77128d02ef893f30827ee83689dc51217f8",
-            "89d94632cdf57d5bdfb0acc1392285ea8b0d4df0c0b1613a0fb16e022f3bb6dc",
-            "94bc6d7d11712f4d0627930cac858986a1a35134a401efd820f8980c074df822"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "a19b66517a3c36aff3bbd0e348fe92f9ec5891957c248c93e04442774595b5ba",
-          "transcript_sha256": "2ccc1edf6c6265018eeddba405526cd67aec06b110173359187d10e2b0d2a70c"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft trading interface with a Mason - Master NPC, full inventory of items and gold, and no visible outcome or reaction. The title 'Voting über AusLÄNDER in CA' is clearly visible at the top. The frame "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0423, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-3165684609-a19b66517a3c-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1325,14 +1187,17 @@
       "streamer": "metashi12",
       "sha256": "a19b66517a3c36aff3bbd0e348fe92f9ec5891957c248c93e04442774595b5ba",
       "source_sha256": "6933c8906cddff52dc4d00de39b74c84b5b93602500caeab6ebae900db36c14e",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3165684609-a19b66517a3c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-3165684609-a19b66517a3c.mp4",
       "clip_slug": "CovertSillyQueleaHeyGuys-RTpw8zDvCdjhwtx9",
       "original_created_at": "2026-10-22T07:44:14Z",
       "source_deadline": "2026-10-25T07:44:14Z",
       "buffer_post_id": "6ada46779a8a68d3cd708ee5",
-      "last_reconcile_at": "2026-10-22T17:24:59Z"
+      "last_reconcile_at": "2026-10-22T17:24:59Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699544070741364001",
+      "sent_at": "2026-10-22T17:24:50Z",
+      "verified_at": "2026-10-22T17:25:01Z"
     }
   ],
   "last_production": {

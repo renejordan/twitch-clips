@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2711270633",
-      "clip_slug": "EagerRamshackleLampDendiFace-A_oN-7lSw2ML_NBU",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/EagerRamshackleLampDendiFace-A_oN-7lSw2ML_NBU",
-      "original_title": "wichtiger hat probleme zu reden",
-      "hook": "wichtiger hat probleme zu reden",
-      "caption": "wichtiger hat probleme zu reden\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 278,
-      "original_duration": 34.0,
-      "original_created_at": "2026-10-21T14:49:26Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2711270633-ab018299c56b.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-22T14:24:06Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "ab018299c56b444522ed12e410b17c2cc37342ec4b3f25a39539e459a9d09331",
-      "category": "Minecraft",
-      "transcript_sha256": "5990ad1b86bfe141be21376c063f1509ee80a533520282a46dc5843e7e188b37",
-      "asr_requires_correction": true,
-      "source_sha256": "89a5320db2337a9def9ca5696bdb5087ae6f2f6a9eea25da5cf85dc2870e9773",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-22T14:24:06.114006+00:00",
-        "media_sha256": "ab018299c56b444522ed12e410b17c2cc37342ec4b3f25a39539e459a9d09331",
-        "transcript_sha256": "5990ad1b86bfe141be21376c063f1509ee80a533520282a46dc5843e7e188b37",
-        "source_sha256": "89a5320db2337a9def9ca5696bdb5087ae6f2f6a9eea25da5cf85dc2870e9773",
-        "evidence_sha256": "5ca3bc25bc92539a90394df4e66273fe51be1eebcdcdd2e8ce0d5100030637b7",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "89a5320db2337a9def9ca5696bdb5087ae6f2f6a9eea25da5cf85dc2870e9773",
-          "reviewed_source_sha256": "89a5320db2337a9def9ca5696bdb5087ae6f2f6a9eea25da5cf85dc2870e9773",
-          "duration": 34.944,
-          "timestamps": [
-            0.0,
-            17.397,
-            34.794
-          ],
-          "source_frame_hashes": [
-            "7e571a6692a8e742d3955527718e29c67dee4b7afa52bf2d61d5530eaee78750",
-            "694c190d583332d46d11d47f17befa8c6a556a86c728c2eb2a8c448d0c9eed9f",
-            "5118eac6d462353853d6ec3ade098b026d77464459c259962bfe9bb38af95938"
-          ],
-          "headline": "wichtiger hat probleme zu reden",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, inventory open, game HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player opens inventory, no clear action or outcome visible",
-            "payoff": "No visible result or payoff from action, routine inventory interaction without consequence or reaction visible in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.03911382514765084,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, displaying a streamer. The game's HUD is visible, including the inventory and health bar. The chat window is present, showing text from ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            17.397,
-            34.794
-          ],
-          "final_frame_hashes": [
-            "23c569ab36b2e29d7fe3e78a8a0b20bb87bb48cf117a6a7a79352b9c7754825f",
-            "955a121c712bab58a7c60a2298279eed14f20dc66e3273bda570a7b131771697",
-            "74257ae3ac66230e4afa04e2c4cde714bb15d87e2aca8dfdbfebd55df2d256d9"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "ab018299c56b444522ed12e410b17c2cc37342ec4b3f25a39539e459a9d09331",
-          "transcript_sha256": "5990ad1b86bfe141be21376c063f1509ee80a533520282a46dc5843e7e188b37"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, displaying a streamer. The game's HUD is visible, including the inventory and health bar. The chat window is present, showing text from "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0391, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2711270633-ab018299c56b-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "761785150",
@@ -1289,14 +1151,17 @@
       "streamer": "letshugotv",
       "sha256": "ab018299c56b444522ed12e410b17c2cc37342ec4b3f25a39539e459a9d09331",
       "source_sha256": "89a5320db2337a9def9ca5696bdb5087ae6f2f6a9eea25da5cf85dc2870e9773",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2711270633-ab018299c56b.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2711270633-ab018299c56b.mp4",
       "clip_slug": "EagerRamshackleLampDendiFace-A_oN-7lSw2ML_NBU",
       "original_created_at": "2026-10-21T14:49:26Z",
       "source_deadline": "2026-10-24T14:49:26Z",
       "buffer_post_id": "6ada27dd1cc831fdc3c44ffa",
-      "last_reconcile_at": "2026-10-22T15:14:26Z"
+      "last_reconcile_at": "2026-10-22T15:14:26Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699510423527132449",
+      "sent_at": "2026-10-22T15:14:12Z",
+      "verified_at": "2026-10-22T15:14:27Z"
     }
   ],
   "last_production": {

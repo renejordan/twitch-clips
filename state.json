@@ -1339,28 +1339,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-22T16:42:51Z",
+    "at": "2026-10-22T17:28:22Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 94,
+      "listing_duration_prefilter": 98,
       "listing_ok": 100,
-      "listing_age_prefilter": 649,
-      "discovered": 979,
-      "metadata_requested": 922,
-      "gaming_category_not_verified": 443,
-      "qualified_metadata": 396,
-      "title_too_short": 83,
-      "duplicate_source_event": 16,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_duration_invalid": 1,
+      "listing_age_prefilter": 655,
+      "discovered": 971,
+      "metadata_requested": 912,
+      "qualified_metadata": 404,
+      "title_too_short": 80,
+      "gaming_category_not_verified": 428,
+      "duplicate_source_event": 18,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3165684609",
-      "clip_slug": "CovertSillyQueleaHeyGuys-RTpw8zDvCdjhwtx9",
-      "streamer": "metashi12"
+      "clip_id": "814582439",
+      "clip_slug": "ArbitraryDirtyRatCharlieBitMe-trE0ueoN8z9bYXd4",
+      "streamer": "honeypuu"
     }
   },
   "prepare_scans": {
@@ -1652,6 +1651,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-22T16",
-  "last_prefetch_hour": "2026-10-22T16"
+  "last_prepare_hour": "2026-10-22T17",
+  "last_prefetch_hour": "2026-10-22T17"
 }

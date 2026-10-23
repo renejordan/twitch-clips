@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1206247462",
+      "clip_slug": "AuspiciousLitigiousCardBloodTrail-AtrXkmaOVTk8zOqv",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/AuspiciousLitigiousCardBloodTrail-AtrXkmaOVTk8zOqv",
+      "original_title": "Heiko ist am Chillen",
+      "hook": "Heiko ist am Chillen",
+      "caption": "Heiko ist am Chillen\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 138,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-22T19:37:48Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1206247462-b99d11ddc816.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T01:31:06Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "b99d11ddc8162ca9dcabd74fe4d2a9c8d3a04c27c0d20173d67bff88edaaa555",
+      "category": "Minecraft",
+      "transcript_sha256": "205465d2cec75836c9ef5ede684ba7c9c944b2115ac0b6dbcd61b48fa08caa5f",
+      "asr_requires_correction": true,
+      "source_sha256": "540628f995398ca156ad5f33a9dca0f8325f335a209a6ffdb4c3920dc1a2284b",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T01:31:06.072206+00:00",
+        "media_sha256": "b99d11ddc8162ca9dcabd74fe4d2a9c8d3a04c27c0d20173d67bff88edaaa555",
+        "transcript_sha256": "205465d2cec75836c9ef5ede684ba7c9c944b2115ac0b6dbcd61b48fa08caa5f",
+        "source_sha256": "540628f995398ca156ad5f33a9dca0f8325f335a209a6ffdb4c3920dc1a2284b",
+        "evidence_sha256": "f589274238c1c2ccf87de76968fb4374c9df7be5bb2f5095494de751cd0f3e80",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "540628f995398ca156ad5f33a9dca0f8325f335a209a6ffdb4c3920dc1a2284b",
+          "reviewed_source_sha256": "540628f995398ca156ad5f33a9dca0f8325f335a209a6ffdb4c3920dc1a2284b",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "5d554e6d70d1e8a75b4702f6010d6d5315c694948a88c8ef98e0a3ead09b232b",
+            "ae3f27dc4236a88764e83178e9f30284bc685b9c9504ec8588d5a3fa56b85dee",
+            "a91c62c65ee0496b6e29c2fae19613098bec9fa1f1125705e7b4524e46813af2"
+          ],
+          "headline": "Heiko ist am Chillen",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in the top-left corner shows a person, while the main screen displays Minecraft gameplay with a diner building and vehicles. The game's HUD is visible, including health, inventory, and chat. The top-right '",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "The player is in a Minecraft world with a diner and vehicles, with a chat window visible.",
+            "payoff": "No clear outcome or payoff is visible; the player is simply moving around the world with no visible win or loss condition triggered by the action described in the speech. The speech is not actionable or observable in the",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.027559649811033513,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft diner with vehicles parked outside, and a facecam panel in the top-left corner. The title 'Heiko ist am Chillen' is visible at the top. The frame at 14.93 seconds shows the same diner, but with a ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "6179390d8e589ea7771dbea25f1c06ad5b0f837e6530fa6178575e4956a3959c",
+            "c5e57c383e4329e53170fab0ec9e9224294f09679ebb79ab32e24dc240545c23",
+            "bc01f28fc1e76218b28faad424ef7dc0399af65a9d067728a5a50f3ad11d2394"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "b99d11ddc8162ca9dcabd74fe4d2a9c8d3a04c27c0d20173d67bff88edaaa555",
+          "transcript_sha256": "205465d2cec75836c9ef5ede684ba7c9c944b2115ac0b6dbcd61b48fa08caa5f"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft diner with vehicles parked outside, and a facecam panel in the top-left corner. The title 'Heiko ist am Chillen' is visible at the top. The frame at 14.93 seconds shows the same diner, but with a "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0276, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1206247462-b99d11ddc816-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

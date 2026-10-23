@@ -1603,12 +1603,13 @@
       "streamer": "niklaswilson",
       "sha256": "bd1be01473bd52703f9846a85bb73d138c71b8b05520399c0aeae0ab8652f218",
       "source_sha256": "04efed2479590ef64e5b662f965d85418207181b54d1b572f4dc57ccef0e3541",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3168340049-bd1be01473bd.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niklaswilson-3168340049-bd1be01473bd.mp4",
       "clip_slug": "CoyHardAniseFutureMan-aOAJSgfDhxYhbUeK",
       "original_created_at": "2026-10-23T18:35:15Z",
-      "source_deadline": "2026-10-26T18:35:15Z"
+      "source_deadline": "2026-10-26T18:35:15Z",
+      "buffer_post_id": "6adbc0a98b3d437ddc84b241"
     }
   ],
   "last_production": {

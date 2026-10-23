@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3633553876",
-      "clip_slug": "ResilientDullWrenDogFace-t9_Cy8gKqd5rCYU6",
-      "streamer": "repaz",
-      "source_url": "https://www.twitch.tv/repaz/clip/ResilientDullWrenDogFace-t9_Cy8gKqd5rCYU6",
-      "original_title": "AchtungKatze :3",
-      "hook": "AchtungKatze :3",
-      "caption": "AchtungKatze :3\n#gaming #minecraft #twitchclips #repaz #gamer",
-      "views_at_selection": 146,
-      "original_duration": 32.0,
-      "original_created_at": "2026-10-23T00:16:51Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-3633553876-931ad90b21cb.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-23T08:18:04Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "931ad90b21cba2c26da6ba222e5ad1ca7c5c90f1d929be8cc1674f978066c7ed",
-      "category": "Minecraft",
-      "transcript_sha256": "aafd78d09744dc8f5f739e57bf392fd61467ebc748d18ce87f3bf6990166db08",
-      "asr_requires_correction": true,
-      "source_sha256": "885c79296c9c57bfb9918d99ddc940dae683fef0f781f55e37c7782e039f359c",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-23T08:18:04.492680+00:00",
-        "media_sha256": "931ad90b21cba2c26da6ba222e5ad1ca7c5c90f1d929be8cc1674f978066c7ed",
-        "transcript_sha256": "aafd78d09744dc8f5f739e57bf392fd61467ebc748d18ce87f3bf6990166db08",
-        "source_sha256": "885c79296c9c57bfb9918d99ddc940dae683fef0f781f55e37c7782e039f359c",
-        "evidence_sha256": "4aee41a08bc88d237c1d900b174147d47a1889206b6389902f3cb926db05033b",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "885c79296c9c57bfb9918d99ddc940dae683fef0f781f55e37c7782e039f359c",
-          "reviewed_source_sha256": "885c79296c9c57bfb9918d99ddc940dae683fef0f781f55e37c7782e039f359c",
-          "duration": 32.192,
-          "timestamps": [
-            0.0,
-            16.021,
-            32.042
-          ],
-          "source_frame_hashes": [
-            "f54103de1cf66e336c7f39006afe22f36fd50a29520e0f64d69e56b05d0435ac",
-            "9ca7eabfca1d331997870faaaf44bc763511366a62e5b88708be3f20a901713b",
-            "5cf9c9e340163a2854bd765605d7788229c3bf6b76a606177c4210b7080bfaab"
-          ],
-          "headline": "AchtungKatze :3",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, chat visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player explores open world with inventory and chat visible",
-            "payoff": "No clear outcome or reaction visible in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04093181288648499,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, which is a common edited gaming layout. The title 'AchtungKatze :3' is clearly visible at the top center, and no browser or desktop UI (",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            16.021,
-            32.042
-          ],
-          "final_frame_hashes": [
-            "d98c9606735dd5d75d7441466f8b6bc587eaad7bd6f80bd0582ae882563f51e9",
-            "f2b17e10dc7727c1f0325adb8eb911692e9d414aa822146e04429d2d5a1a2410",
-            "a407e15a27c7830ce55391ec60e043caaa494d8fbc605cbc2f55b21ba6be002a"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "931ad90b21cba2c26da6ba222e5ad1ca7c5c90f1d929be8cc1674f978066c7ed",
-          "transcript_sha256": "aafd78d09744dc8f5f739e57bf392fd61467ebc748d18ce87f3bf6990166db08"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, which is a common edited gaming layout. The title 'AchtungKatze :3' is clearly visible at the top center, and no browser or desktop UI ("
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0409, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-3633553876-931ad90b21cb-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "263989408",
@@ -1441,14 +1303,17 @@
       "streamer": "repaz",
       "sha256": "931ad90b21cba2c26da6ba222e5ad1ca7c5c90f1d929be8cc1674f978066c7ed",
       "source_sha256": "885c79296c9c57bfb9918d99ddc940dae683fef0f781f55e37c7782e039f359c",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3633553876-931ad90b21cb.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-3633553876-931ad90b21cb.mp4",
       "clip_slug": "ResilientDullWrenDogFace-t9_Cy8gKqd5rCYU6",
       "original_created_at": "2026-10-23T00:16:51Z",
       "source_deadline": "2026-10-26T00:16:51Z",
       "buffer_post_id": "6adb2508d8e05f97fb0a9610",
-      "last_reconcile_at": "2026-10-23T09:14:37Z"
+      "last_reconcile_at": "2026-10-23T09:14:37Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699788768848399649",
+      "sent_at": "2026-10-23T09:14:24Z",
+      "verified_at": "2026-10-23T09:14:38Z"
     }
   ],
   "last_production": {

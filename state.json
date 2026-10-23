@@ -1473,27 +1473,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-23T09:59:15Z",
+    "at": "2026-10-23T10:19:02Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 110,
+      "listing_duration_prefilter": 108,
       "listing_ok": 100,
-      "listing_age_prefilter": 630,
-      "discovered": 993,
-      "metadata_requested": 935,
+      "listing_age_prefilter": 629,
+      "discovered": 991,
+      "metadata_requested": 932,
       "gaming_category_not_verified": 498,
-      "qualified_metadata": 360,
+      "qualified_metadata": 357,
       "title_too_short": 77,
-      "duplicate_source_event": 18,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "duplicate_source_event": 19,
+      "download_attempted": 3,
+      "render_attempted": 3,
+      "qa_visual_gameplay_visible": 2,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2659130194",
-      "clip_slug": "TriangularFrigidZebraTwitchRPG-cyU5V-ORqYLN59kt",
-      "streamer": "metashi12"
+      "clip_id": "857609776",
+      "clip_slug": "SparklingUnsightlySwanMoreCowbell-LoUYkKIR8qEydfXn",
+      "streamer": "castcrafter"
     }
   },
   "prepare_scans": {
@@ -1839,8 +1840,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-23T09",
-  "last_prefetch_hour": "2026-10-23T09",
+  "last_prepare_hour": "2026-10-23T10",
+  "last_prefetch_hour": "2026-10-23T10",
   "archived_verified_count": 1,
   "used_ids": [
     "761785150"

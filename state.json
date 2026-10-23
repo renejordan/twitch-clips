@@ -1599,27 +1599,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-23T18:38:20Z",
+    "at": "2026-10-23T19:21:29Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 102,
+      "listing_duration_prefilter": 107,
       "listing_ok": 100,
-      "listing_age_prefilter": 667,
-      "discovered": 954,
-      "metadata_requested": 890,
-      "gaming_category_not_verified": 454,
-      "qualified_metadata": 366,
-      "title_too_short": 70,
-      "duplicate_source_event": 23,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_age_prefilter": 673,
+      "discovered": 938,
+      "metadata_requested": 877,
+      "gaming_category_not_verified": 432,
+      "qualified_metadata": 367,
+      "title_too_short": 78,
+      "duplicate_source_event": 16,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_visual_gameplay_visible": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1696146319",
-      "clip_slug": "InnocentConfidentCiderEagleEye-13sJVoe-LdJzp-Kr",
-      "streamer": "nooreax"
+      "clip_id": "3168340049",
+      "clip_slug": "CoyHardAniseFutureMan-aOAJSgfDhxYhbUeK",
+      "streamer": "niklaswilson"
     }
   },
   "prepare_scans": {
@@ -2046,8 +2047,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-23T18",
-  "last_prefetch_hour": "2026-10-23T18",
+  "last_prepare_hour": "2026-10-23T19",
+  "last_prefetch_hour": "2026-10-23T19",
   "archived_verified_count": 4,
   "used_ids": [
     "1411062380",

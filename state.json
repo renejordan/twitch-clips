@@ -1489,12 +1489,13 @@
       "streamer": "letshugotv",
       "sha256": "499cb6560bb70880d4b21760095cd734ae70378ae69cfba8f51e0da5f0d37568",
       "source_sha256": "6e1083fe65706336cb86cc8e9b4ed117733205633b637bd04ed3262945f0ee8c",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3556975930-499cb6560bb7.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-3556975930-499cb6560bb7.mp4",
       "clip_slug": "JazzyAltruisticSrirachaJebaited-EeiSw9UwZW5qdozw",
       "original_created_at": "2026-10-22T18:49:04Z",
-      "source_deadline": "2026-10-25T18:49:04Z"
+      "source_deadline": "2026-10-25T18:49:04Z",
+      "buffer_post_id": "6adb60ac7af932dee4e02cb9"
     }
   ],
   "last_production": {

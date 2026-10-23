@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3168340049",
+      "clip_slug": "CoyHardAniseFutureMan-aOAJSgfDhxYhbUeK",
+      "streamer": "niklaswilson",
+      "source_url": "https://www.twitch.tv/niklaswilson/clip/CoyHardAniseFutureMan-aOAJSgfDhxYhbUeK",
+      "original_title": "ONLINE",
+      "hook": "ONLINE",
+      "caption": "ONLINE\n#gaming #minecraft #twitchclips #niklaswilson #gamer",
+      "views_at_selection": 139,
+      "original_duration": 44.0,
+      "original_created_at": "2026-10-23T18:35:15Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niklaswilson-3168340049-bd1be01473bd.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T19:21:29Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "bd1be01473bd52703f9846a85bb73d138c71b8b05520399c0aeae0ab8652f218",
+      "category": "Minecraft",
+      "transcript_sha256": "f3cb6cc939cc5a2a5785330ba63b6200fa6a297276bf57e43071003cc086e856",
+      "asr_requires_correction": true,
+      "source_sha256": "04efed2479590ef64e5b662f965d85418207181b54d1b572f4dc57ccef0e3541",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T19:21:29.917960+00:00",
+        "media_sha256": "bd1be01473bd52703f9846a85bb73d138c71b8b05520399c0aeae0ab8652f218",
+        "transcript_sha256": "f3cb6cc939cc5a2a5785330ba63b6200fa6a297276bf57e43071003cc086e856",
+        "source_sha256": "04efed2479590ef64e5b662f965d85418207181b54d1b572f4dc57ccef0e3541",
+        "evidence_sha256": "06ffdd164973d198ccff557ae981a1f577ecdf5b9dd97d83265b08e67273dfcb",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "04efed2479590ef64e5b662f965d85418207181b54d1b572f4dc57ccef0e3541",
+          "reviewed_source_sha256": "04efed2479590ef64e5b662f965d85418207181b54d1b572f4dc57ccef0e3541",
+          "duration": 44.015011,
+          "timestamps": [
+            0.0,
+            21.933,
+            43.865
+          ],
+          "source_frame_hashes": [
+            "3709e6b886a2e40d1ced17585b1aacf6243e630b4ec380a1ffdcbc6815ae55ff",
+            "340cdf6e7d479c715e85e4f2839618793da1363d92aec77ac6aef919cfd481ac",
+            "cbbf1f7f0f78f3f118424955c0e0e2541f2391e27c7af4b5480fd56ee398226b"
+          ],
+          "headline": "ONLINE",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Main screen shows Minecraft gameplay with a face camera in the bottom right corner, displaying a player's face and room. The game HUD is visible with health, inventory, and a minimap. The face camera is positioned in a '",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames provided.",
+            "payoff": "No clear payoff visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.2255505643717876,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the bottom right corner, displaying a streamer. The top of the frame has the word 'ONLINE' as a title overlay. The gameplay includes the game's HUD, inventory",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            21.933,
+            43.865
+          ],
+          "final_frame_hashes": [
+            "9cb33108868033dad024a0498290f1f3c613de09e59ab73fe80ffe0d271890c0",
+            "7442d890bae48b1f694390c650368631545b3a9e3aff3ef3f6a690ab44c8f3d3",
+            "61a0aad1bb2b3bd0de6d0e1aca13fbb213e8e220891661ab6723e7b10e109f58"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "bd1be01473bd52703f9846a85bb73d138c71b8b05520399c0aeae0ab8652f218",
+          "transcript_sha256": "f3cb6cc939cc5a2a5785330ba63b6200fa6a297276bf57e43071003cc086e856"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the bottom right corner, displaying a streamer. The top of the frame has the word 'ONLINE' as a title overlay. The gameplay includes the game's HUD, inventory"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.2256, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niklaswilson-3168340049-bd1be01473bd-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "311924564",

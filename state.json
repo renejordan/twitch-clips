@@ -1549,12 +1549,13 @@
       "streamer": "repaz",
       "sha256": "63673862e97347d043d9ad4dc5116b634230de31d95a25589b5dcdcb346032ef",
       "source_sha256": "9910c29e7ef16b2202a1b3b0c67ebd664880514f5101717d616042bf2d6e448f",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-510578383-63673862e973.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-510578383-63673862e973.mp4",
       "clip_slug": "EndearingFamousCaterpillarKappa-JgnbQvGBfJ9IDwnc",
       "original_created_at": "2026-10-23T13:23:46Z",
-      "source_deadline": "2026-10-26T13:23:46Z"
+      "source_deadline": "2026-10-26T13:23:46Z",
+      "buffer_post_id": "6adb98d9e4be8a4d8619d69a"
     }
   ],
   "last_production": {

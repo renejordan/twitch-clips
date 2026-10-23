@@ -1578,6 +1578,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699928963539406112",
       "sent_at": "2026-10-23T18:26:27Z",
       "verified_at": "2026-10-23T18:35:04Z"
+    },
+    {
+      "clip_id": "1696146319",
+      "reserved_at": "2026-10-23T19:14:35Z",
+      "streamer": "nooreax",
+      "sha256": "3b9f25d9ca61ae880b35249352137c25e01aef7a2ae69a2403897f7724607664",
+      "source_sha256": "4f04a527493e63ffe8773d9fe1fdb4cf2b5096acf5b530ef5c04c7c349519e70",
+      "status": "reserved",
+      "asset_title": "tiktok14-1696146319-3b9f25d9ca61.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1696146319-3b9f25d9ca61.mp4",
+      "clip_slug": "InnocentConfidentCiderEagleEye-13sJVoe-LdJzp-Kr",
+      "original_created_at": "2026-10-23T17:17:47Z",
+      "source_deadline": "2026-10-26T17:17:47Z"
     }
   ],
   "last_production": {

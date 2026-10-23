@@ -1740,6 +1740,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-23T13:15:18Z",
       "reason": "qa_duration_invalid"
+    },
+    {
+      "clip_id": "189326581",
+      "clip_slug": "InventiveGlutenFreeGnatPermaSmug-3-qvqGL386vj5pJs",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/InventiveGlutenFreeGnatPermaSmug-3-qvqGL386vj5pJs",
+      "status": "quality_rejected",
+      "created_at": "2026-10-23T13:15:18Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

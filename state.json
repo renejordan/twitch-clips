@@ -1471,12 +1471,13 @@
       "streamer": "castcrafter",
       "sha256": "ce534e05d204da73d8505327076a86541a91c2a0f49342af4c03fd90d2c43deb",
       "source_sha256": "f993cecce8c7e66becc90ba671aa0e222c30505ea26eb12253d1937e53e9f3f1",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-39298492-ce534e05d204.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-39298492-ce534e05d204.mp4",
       "clip_slug": "CovertFancyShallotTinyFace-u0wnG7M8nMaTqxZv",
       "original_created_at": "2026-10-22T19:41:28Z",
-      "source_deadline": "2026-10-25T19:41:28Z"
+      "source_deadline": "2026-10-25T19:41:28Z",
+      "buffer_post_id": "6adb4f3797d61d392144a464"
     }
   ],
   "last_production": {

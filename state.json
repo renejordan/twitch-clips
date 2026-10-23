@@ -1458,6 +1458,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699803708145552672",
       "sent_at": "2026-10-23T10:12:22Z",
       "verified_at": "2026-10-23T10:12:39Z"
+    },
+    {
+      "clip_id": "857609776",
+      "reserved_at": "2026-10-23T11:13:03Z",
+      "streamer": "castcrafter",
+      "sha256": "64b6fe4e2d4b84bba27dd5190eb0d824d037c97dae5773063007431e4e6e665a",
+      "source_sha256": "7f031eaf91a35a7c9a9260e135b83aa52bc64c38636e724a40af08380a4285db",
+      "status": "reserved",
+      "asset_title": "tiktok14-857609776-64b6fe4e2d4b.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-857609776-64b6fe4e2d4b.mp4",
+      "clip_slug": "SparklingUnsightlySwanMoreCowbell-LoUYkKIR8qEydfXn",
+      "original_created_at": "2026-10-22T19:44:45Z",
+      "source_deadline": "2026-10-25T19:44:45Z"
     }
   ],
   "last_production": {

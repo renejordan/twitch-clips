@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "39298492",
+      "clip_slug": "CovertFancyShallotTinyFace-u0wnG7M8nMaTqxZv",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/CovertFancyShallotTinyFace-u0wnG7M8nMaTqxZv",
+      "original_title": "Exorzismus übertragen?",
+      "hook": "Exorzismus übertragen?",
+      "caption": "Exorzismus übertragen?\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 148,
+      "original_duration": 38.0,
+      "original_created_at": "2026-10-22T19:41:28Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-39298492-ce534e05d204.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T11:20:54Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "ce534e05d204da73d8505327076a86541a91c2a0f49342af4c03fd90d2c43deb",
+      "category": "Minecraft",
+      "transcript_sha256": "44f0b9e17815cefbd90462fa599c86f5a9f543d5e9d4a0b15f8df6799fb723a8",
+      "asr_requires_correction": true,
+      "source_sha256": "f993cecce8c7e66becc90ba671aa0e222c30505ea26eb12253d1937e53e9f3f1",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T11:20:54.100819+00:00",
+        "media_sha256": "ce534e05d204da73d8505327076a86541a91c2a0f49342af4c03fd90d2c43deb",
+        "transcript_sha256": "44f0b9e17815cefbd90462fa599c86f5a9f543d5e9d4a0b15f8df6799fb723a8",
+        "source_sha256": "f993cecce8c7e66becc90ba671aa0e222c30505ea26eb12253d1937e53e9f3f1",
+        "evidence_sha256": "044a328fe2162a42bd34d13b2ce7128da084849d3b9ec231021ca2f757be82ea",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "f993cecce8c7e66becc90ba671aa0e222c30505ea26eb12253d1937e53e9f3f1",
+          "reviewed_source_sha256": "f993cecce8c7e66becc90ba671aa0e222c30505ea26eb12253d1937e53e9f3f1",
+          "duration": 38.15,
+          "timestamps": [
+            0.0,
+            19.0,
+            38.0
+          ],
+          "source_frame_hashes": [
+            "be95a38bb0654d4b5ccf55bed5d063bf67ab1afbe0bb7ac96d54e34d1abca87e",
+            "437263d3691f09c5784918d36eabdfb061a9a08449600666b4cdaae83a251a52",
+            "125392a450ec916f46f8a7f3434b3c6dc6563dd735f482cc307d20d586dd55ae"
+          ],
+          "headline": "Exorzismus übertragen?",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in the top-left corner shows a streamer, while the main screen displays Minecraft gameplay with a visible inventory bar and chat window. The game is in a desert-like biome with a large building in the mid-2",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "A player is walking through a desert biome with a large building in the distance.",
+            "payoff": "The player continues walking without any significant event or outcome visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.05510849166402973,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft desert biome with a large building in the distance, consistent with the source event hypothesis. The player character is walking along a paved path, and the building remains visible in the frame. ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            19.0,
+            38.0
+          ],
+          "final_frame_hashes": [
+            "ff2c626a565e88b73813008614dd589eeec72f58030ecc9c096cfd8e337b1efe",
+            "86a79f1f42b27a42a36d99b428a36611f92a73923bc3e677857b5e686fcd1008",
+            "e82c20cc75f58b4491ef7ce6090080a8e891c296bb7f1b3f96d64587f5f09842"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "ce534e05d204da73d8505327076a86541a91c2a0f49342af4c03fd90d2c43deb",
+          "transcript_sha256": "44f0b9e17815cefbd90462fa599c86f5a9f543d5e9d4a0b15f8df6799fb723a8"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft desert biome with a large building in the distance, consistent with the source event hypothesis. The player character is walking along a paved path, and the building remains visible in the frame. "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0551, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-39298492-ce534e05d204-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2845373187",

@@ -1447,28 +1447,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-23T07:18:18Z",
+    "at": "2026-10-23T08:18:04Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 109,
+      "listing_duration_prefilter": 110,
       "listing_ok": 100,
-      "listing_age_prefilter": 642,
-      "discovered": 969,
-      "metadata_requested": 914,
-      "gaming_category_not_verified": 490,
+      "listing_age_prefilter": 638,
+      "discovered": 976,
+      "metadata_requested": 919,
       "qualified_metadata": 352,
+      "gaming_category_not_verified": 495,
       "title_too_short": 72,
-      "duplicate_source_event": 16,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_duration_invalid": 1,
+      "duplicate_source_event": 17,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1428259648",
-      "clip_slug": "AgileCalmCrabPRChase-M9WF0Td8SLUQByVl",
-      "streamer": "trymacs"
+      "clip_id": "3633553876",
+      "clip_slug": "ResilientDullWrenDogFace-t9_Cy8gKqd5rCYU6",
+      "streamer": "repaz"
     }
   },
   "prepare_scans": {
@@ -1796,6 +1795,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-23T07",
-  "last_prefetch_hour": "2026-10-23T07"
+  "last_prepare_hour": "2026-10-23T08",
+  "last_prefetch_hour": "2026-10-23T08"
 }

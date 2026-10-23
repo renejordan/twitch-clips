@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "311088002",
+      "clip_slug": "DelightfulBlazingWaspCeilingCat-h9vFcnWne_78RjwX",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/DelightfulBlazingWaspCeilingCat-h9vFcnWne_78RjwX",
+      "original_title": "du bist scheiße",
+      "hook": "du bist scheiße",
+      "caption": "du bist scheiße\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 157,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-22T18:14:23Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-311088002-489c3878431d.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T13:38:09Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "489c3878431d2833a6e423ba5955f2407defb038643daf84b36959a0c193e194",
+      "category": "Minecraft",
+      "transcript_sha256": "ae143fa21d45d52cbbbc352dd86af24ab2b85b9785ffe4c50314900214b7c3a5",
+      "asr_requires_correction": true,
+      "source_sha256": "dd7783ee3068d27c7a3e391f176b5cb30615e5ebb740f9e1700962242ca3b276",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T13:38:09.664650+00:00",
+        "media_sha256": "489c3878431d2833a6e423ba5955f2407defb038643daf84b36959a0c193e194",
+        "transcript_sha256": "ae143fa21d45d52cbbbc352dd86af24ab2b85b9785ffe4c50314900214b7c3a5",
+        "source_sha256": "dd7783ee3068d27c7a3e391f176b5cb30615e5ebb740f9e1700962242ca3b276",
+        "evidence_sha256": "1e127e7254796e5ca4ab0afe96e300d2965e091249ff55564f04c1421d76a906",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "dd7783ee3068d27c7a3e391f176b5cb30615e5ebb740f9e1700962242ca3b276",
+          "reviewed_source_sha256": "dd7783ee3068d27c7a3e391f176b5cb30615e5ebb740f9e1700962242ca3b276",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "fdabe24958688845c580f8a32a8968d87598ae411844ba07b66882304413c9ab",
+            "676a66c11a6b71a2fa935b5ba7ab8a3732c492d546b70b9a8f97fcf71c8c8401",
+            "7efab1dad9fd7d6badd6934998bdb58a3092c3ce0d428f428ef39ba3a0d1c5fd"
+          ],
+          "headline": "du bist scheiße",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay, with game HUD and chat visible, and a visible streamer in the top right corner.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames.",
+            "payoff": "No clear payoff visible in the frames.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.06664509691167378,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frames show a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The Minecraft menus, HUD, and stream chat are visible, but there are no browser tabs, address bars, or desktop窗口bord",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "b824c833e7e129cf93938b89e39d9f538e44bb8af86c8cfd6a49789efa1134fa",
+            "00f7127d1acb98590a7ebf562d386704a20fedd88b3c4fee3e7a3b92d065c41a",
+            "5cec792c1358c88f6971ef346103664d51f2095e2a137fd9da2c014a13220510"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "489c3878431d2833a6e423ba5955f2407defb038643daf84b36959a0c193e194",
+          "transcript_sha256": "ae143fa21d45d52cbbbc352dd86af24ab2b85b9785ffe4c50314900214b7c3a5"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frames show a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The Minecraft menus, HUD, and stream chat are visible, but there are no browser tabs, address bars, or desktop窗口bord"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0666, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-311088002-489c3878431d-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1411062380",

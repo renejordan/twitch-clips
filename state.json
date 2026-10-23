@@ -1452,6 +1452,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699788768848399649",
       "sent_at": "2026-10-23T09:14:24Z",
       "verified_at": "2026-10-23T09:14:38Z"
+    },
+    {
+      "clip_id": "2659130194",
+      "reserved_at": "2026-10-23T10:10:36Z",
+      "streamer": "metashi12",
+      "sha256": "e7e7f33925f9e04715fc175632175b0dd76c13fbcb9a1fcf558ddf63cb0bface",
+      "source_sha256": "b912a4869b3676d01437f803710ad3a9621b410ea73adb16c8959c5f7bafe756",
+      "status": "reserved",
+      "asset_title": "tiktok14-2659130194-e7e7f33925f9.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-2659130194-e7e7f33925f9.mp4",
+      "clip_slug": "TriangularFrigidZebraTwitchRPG-cyU5V-ORqYLN59kt",
+      "original_created_at": "2026-10-22T10:13:06Z",
+      "source_deadline": "2026-10-25T10:13:06Z"
     }
   ],
   "last_production": {

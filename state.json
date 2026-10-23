@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1465026956",
+      "clip_slug": "SmallSincerePuppyKevinTurtle-7Z8XuM6Sd3UsfHSc",
+      "streamer": "rumathra",
+      "source_url": "https://www.twitch.tv/rumathra/clip/SmallSincerePuppyKevinTurtle-7Z8XuM6Sd3UsfHSc",
+      "original_title": "Wielands sabotageplan",
+      "hook": "Wielands sabotageplan",
+      "caption": "Wielands sabotageplan\n#gaming #minecraft #twitchclips #rumathra #gamer",
+      "views_at_selection": 64,
+      "original_duration": 21.0,
+      "original_created_at": "2026-10-23T14:25:45Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/rumathra-1465026956-e8a6c4531e3f.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T15:17:27Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "e8a6c4531e3f971b27e475e9e9afd69cdf75cfcda9adb67b8d820295ee1ae2da",
+      "category": "Minecraft",
+      "transcript_sha256": "8181aa965447cf3ec22889be545e7eab93a1b304b663de937bd044eeaf9f42df",
+      "asr_requires_correction": true,
+      "source_sha256": "32bc69fcfa8a4c7a2f71ae895e1e5fc1e7e3607d65b1a495a909ff1606e317d6",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T15:17:27.055244+00:00",
+        "media_sha256": "e8a6c4531e3f971b27e475e9e9afd69cdf75cfcda9adb67b8d820295ee1ae2da",
+        "transcript_sha256": "8181aa965447cf3ec22889be545e7eab93a1b304b663de937bd044eeaf9f42df",
+        "source_sha256": "32bc69fcfa8a4c7a2f71ae895e1e5fc1e7e3607d65b1a495a909ff1606e317d6",
+        "evidence_sha256": "43cee689d6db8703371a1f5707c53749414fbae953072f11cf79efb49a1a651a",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "32bc69fcfa8a4c7a2f71ae895e1e5fc1e7e3607d65b1a495a909ff1606e317d6",
+          "reviewed_source_sha256": "32bc69fcfa8a4c7a2f71ae895e1e5fc1e7e3607d65b1a495a909ff1606e317d6",
+          "duration": 21.461,
+          "timestamps": [
+            0.0,
+            10.655,
+            21.311
+          ],
+          "source_frame_hashes": [
+            "56640d4a954879271a53745a30a067b1edb10cf1876d25025707ee9f7cbb9372",
+            "30a3cccf6630a3db1b7d229f57d41d74b5332ffac87dd00ea87138d4267a313f",
+            "521f48f4896ec1b0227e1387e13c146b7fbdf5ff7987ef6c9f8d51028d6509ce"
+          ],
+          "headline": "Wielands sabotageplan",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, browser tab visible with address bar, no video player or recursive stream",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player navigating a white block structure in Minecraft, no clear action or outcome visible",
+            "payoff": "No visible outcome or payoff from player actions, no win/loss or reaction visible in frames provided",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.045687911738389764,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a white block structure, a player's hand holding a purple block, and a small map in the top left corner. A browser window is visible on the right side of the screen, displaying ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            10.655,
+            21.311
+          ],
+          "final_frame_hashes": [
+            "7cc264e55aeebcda1b03aba155f30e0477da4dc0c07bab11d3ea7c0ee31eb197",
+            "8f92e8af754b45b15f32258ebc96db7020ba9f75d166285d0160a160b163c8fe",
+            "f0621f5fa125e24141a24835847e1db1c2312b565c13a6f33beff7dae8bb04c2"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "e8a6c4531e3f971b27e475e9e9afd69cdf75cfcda9adb67b8d820295ee1ae2da",
+          "transcript_sha256": "8181aa965447cf3ec22889be545e7eab93a1b304b663de937bd044eeaf9f42df"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a white block structure, a player's hand holding a purple block, and a small map in the top left corner. A browser window is visible on the right side of the screen, displaying "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0457, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/rumathra-1465026956-e8a6c4531e3f-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1411062380",

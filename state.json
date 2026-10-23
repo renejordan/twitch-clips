@@ -1411,28 +1411,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-22T22:39:27Z",
-    "result": "quality_rejected",
+    "at": "2026-10-23T01:31:06Z",
+    "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 113,
+      "listing_duration_prefilter": 110,
       "listing_ok": 100,
-      "listing_age_prefilter": 663,
-      "discovered": 978,
-      "metadata_requested": 926,
-      "gaming_category_not_verified": 491,
-      "qualified_metadata": 366,
-      "title_too_short": 69,
+      "listing_age_prefilter": 639,
+      "discovered": 989,
+      "metadata_requested": 934,
+      "gaming_category_not_verified": 504,
+      "qualified_metadata": 355,
+      "title_too_short": 75,
       "duplicate_source_event": 14,
-      "download_attempted": 3,
-      "render_attempted": 3,
-      "qa_duration_invalid": 2,
-      "qa_audio_quality_failed": 1
+      "download_attempted": 1,
+      "render_attempted": 1,
+      "render_ok": 1
     },
     "candidate": {
-      "clip_id": "65589402",
-      "clip_slug": "AbnegateDullTroutSMOrc-_c6PCVCBhoQySuel",
-      "streamer": "letshugotv"
+      "clip_id": "1206247462",
+      "clip_slug": "AuspiciousLitigiousCardBloodTrail-AtrXkmaOVTk8zOqv",
+      "streamer": "castcrafter"
     }
   },
   "prepare_scans": {
@@ -1751,6 +1750,6 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-22T22",
+  "last_prepare_hour": "2026-10-23T01",
   "last_prefetch_hour": "2026-10-22T20"
 }

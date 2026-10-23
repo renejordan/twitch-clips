@@ -141,16 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "761785150",
-      "clip_slug": "SpicyLuckyCodDeIlluminati-YapuNSUEQJCM8URt",
-      "reserved_at": "2026-10-16T09:05:16Z",
-      "status": "verified_public",
-      "buffer_post_id": "6ad1e7e9e7970040db23ebed",
-      "sent_at": "2026-10-16T09:07:25Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697189362877992225",
-      "verified_at": "2026-10-16T09:14:20Z"
-    },
-    {
       "clip_id": "263989408",
       "reserved_at": "2026-10-16T10:50:03Z",
       "status": "verified_public",
@@ -1796,5 +1786,9 @@
     }
   ],
   "last_prepare_hour": "2026-10-23T08",
-  "last_prefetch_hour": "2026-10-23T08"
+  "last_prefetch_hour": "2026-10-23T08",
+  "archived_verified_count": 1,
+  "used_ids": [
+    "761785150"
+  ]
 }

@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "594654959",
+      "clip_slug": "RealReliableSashimiBibleThump-HvsMtdlc2YIPxcz_",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/RealReliableSashimiBibleThump-HvsMtdlc2YIPxcz_",
+      "original_title": "Jumpscare",
+      "hook": "Jumpscare",
+      "caption": "Jumpscare\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 200,
+      "original_duration": 19.0,
+      "original_created_at": "2026-10-23T21:12:08Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-594654959-ff6e0a396a34.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T23:09:23Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "ff6e0a396a34addc6a1fbdfe2bf5231e5d7747a735388179bc3de3f1293cf635",
+      "category": "Minecraft",
+      "transcript_sha256": "279f229a3688c6af2f2a4093d303e28d218618a35e12d771a279704580a92c9c",
+      "asr_requires_correction": true,
+      "source_sha256": "3ca277115abb2de653197a4ab38ac3c5500baf87997cb2add41a3658f03956a1",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T23:09:23.018995+00:00",
+        "media_sha256": "ff6e0a396a34addc6a1fbdfe2bf5231e5d7747a735388179bc3de3f1293cf635",
+        "transcript_sha256": "279f229a3688c6af2f2a4093d303e28d218618a35e12d771a279704580a92c9c",
+        "source_sha256": "3ca277115abb2de653197a4ab38ac3c5500baf87997cb2add41a3658f03956a1",
+        "evidence_sha256": "8118e92c36e8dd7252b808890394564ba441e3058cd7356450a88ee3e5c35e6b",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "3ca277115abb2de653197a4ab38ac3c5500baf87997cb2add41a3658f03956a1",
+          "reviewed_source_sha256": "3ca277115abb2de653197a4ab38ac3c5500baf87997cb2add41a3658f03956a1",
+          "duration": 19.916667,
+          "timestamps": [
+            0.0,
+            9.883,
+            19.767
+          ],
+          "source_frame_hashes": [
+            "114378479e0e3cbb2c86001be02c37cb45d8b0d9098eaca4808581a19e8f40ac",
+            "5b4d1141b09f07b01e1348b6ff4611791d0503c932fddf95d57b50fc4403c8ca",
+            "96b45a24a338be84d695d0cda5d5700277d8d43252b5879dc22f214417f4e947"
+          ],
+          "headline": "Jumpscare",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a complex structure with glass and wood blocks, holding a spruce button, no clear action or outcome.",
+            "payoff": "No visible outcome or payoff; player is still in the same location, no win/loss or reaction visible in frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.015924526293631575,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, a title overlay reading 'Jumpscare' at the top center, and a visible game HUD including health, inventory, and chat. The gameplay area,雖",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            9.883,
+            19.767
+          ],
+          "final_frame_hashes": [
+            "9dd09de7f3c30534953ea9247a372890865a25db83ee737aa6f17b20ef1def23",
+            "3c35fe91eaefed6fab0f38b2b52ab7288599c17c7b29643fe06591908800d06d",
+            "b019fd025b9da4e276161def58146d1a9c1301d0662c847061f278f8e741575f"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "ff6e0a396a34addc6a1fbdfe2bf5231e5d7747a735388179bc3de3f1293cf635",
+          "transcript_sha256": "279f229a3688c6af2f2a4093d303e28d218618a35e12d771a279704580a92c9c"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, a title overlay reading 'Jumpscare' at the top center, and a visible game HUD including health, inventory, and chat. The gameplay area,雖"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0159, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-594654959-ff6e0a396a34-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "311924564",

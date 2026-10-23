@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1696146319",
+      "clip_slug": "InnocentConfidentCiderEagleEye-13sJVoe-LdJzp-Kr",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/InnocentConfidentCiderEagleEye-13sJVoe-LdJzp-Kr",
+      "original_title": "Veto Villager",
+      "hook": "Veto Villager",
+      "caption": "Veto Villager\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 107,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-23T17:17:47Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1696146319-3b9f25d9ca61.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T18:38:20Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "3b9f25d9ca61ae880b35249352137c25e01aef7a2ae69a2403897f7724607664",
+      "category": "Minecraft",
+      "transcript_sha256": "eeda6ef68ca55945b5763b4fbcfd50249c016588067773221933f2a772d5e2b9",
+      "asr_requires_correction": true,
+      "source_sha256": "4f04a527493e63ffe8773d9fe1fdb4cf2b5096acf5b530ef5c04c7c349519e70",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T18:38:20.293007+00:00",
+        "media_sha256": "3b9f25d9ca61ae880b35249352137c25e01aef7a2ae69a2403897f7724607664",
+        "transcript_sha256": "eeda6ef68ca55945b5763b4fbcfd50249c016588067773221933f2a772d5e2b9",
+        "source_sha256": "4f04a527493e63ffe8773d9fe1fdb4cf2b5096acf5b530ef5c04c7c349519e70",
+        "evidence_sha256": "f13574df6f3ec26a083209ad3c560daca6d30e1bf1afddacb22d25ebd55892b7",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "4f04a527493e63ffe8773d9fe1fdb4cf2b5096acf5b530ef5c04c7c349519e70",
+          "reviewed_source_sha256": "4f04a527493e63ffe8773d9fe1fdb4cf2b5096acf5b530ef5c04c7c349519e70",
+          "duration": 30.016,
+          "timestamps": [
+            0.0,
+            14.933,
+            29.866
+          ],
+          "source_frame_hashes": [
+            "f2f53e58a0ce7eae68d47edec4e234661f9cb6ddd957d9aecdc946dd5eab99ef",
+            "8c3f8d43ff9a500f223c4eaa74664eefa022dfa3d8da14d98f9010da47c65f19",
+            "67a7d9edf03f8f1c96182d1e33a059a0ee95c359c1588a9b21949d6710691c51"
+          ],
+          "headline": "Veto Villager",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in corner, game inventory and chat visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in inventory, then moves to a chest in a wooden structure.",
+            "payoff": "Player approaches chest, no visible outcome or reaction from game or player.",
+            "payoff_timestamp": 29.866,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.013568706838114475,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft inventory screen with a title overlay 'Veto Villager'. The frame at 14.93 seconds shows the player character approaching a chest inside a wooden structure, with a yellow cat-like creature visible.",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.933,
+            29.866
+          ],
+          "final_frame_hashes": [
+            "989903676e22ebf3c054543ed2aa213326e88f7243e92b44a244dc12e20873b8",
+            "f496c9c4b0a8ea8bb8e4ea94372c690b8ef406a0e3bbece694fe646d26def276",
+            "16df5c19cad1af8c3b5c67c438ad8c9c3546013d63b123a0b58369c87b4ea47d"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "3b9f25d9ca61ae880b35249352137c25e01aef7a2ae69a2403897f7724607664",
+          "transcript_sha256": "eeda6ef68ca55945b5763b4fbcfd50249c016588067773221933f2a772d5e2b9"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft inventory screen with a title overlay 'Veto Villager'. The frame at 14.93 seconds shows the player character approaching a chest inside a wooden structure, with a yellow cat-like creature visible."
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0136, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1696146319-3b9f25d9ca61-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "311924564",

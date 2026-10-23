@@ -141,18 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "263989408",
-      "reserved_at": "2026-10-16T10:50:03Z",
-      "status": "verified_public",
-      "asset_title": "tiktok14-263989408-c43bea2af851.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/sterzik-263989408-c43bea2af851.mp4",
-      "clip_slug": "WealthyTacitEagleVoHiYo-kS6Ke7uKrixKtaQi",
-      "buffer_post_id": "6ad2015df24c5797a235ea49",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697216271485603104",
-      "sent_at": "2026-10-16T10:51:48Z",
-      "verified_at": "2026-10-16T10:52:16Z"
-    },
-    {
       "clip_id": "2845373187",
       "reserved_at": "2026-10-16T11:53:50Z",
       "status": "verified_public",
@@ -1842,8 +1830,9 @@
   ],
   "last_prepare_hour": "2026-10-23T10",
   "last_prefetch_hour": "2026-10-23T10",
-  "archived_verified_count": 1,
+  "archived_verified_count": 2,
   "used_ids": [
+    "263989408",
     "761785150"
   ]
 }

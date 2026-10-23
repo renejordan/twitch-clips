@@ -1563,27 +1563,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-23T16:42:20Z",
+    "at": "2026-10-23T17:51:44Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 101,
+      "listing_duration_prefilter": 103,
       "listing_ok": 100,
-      "listing_age_prefilter": 650,
-      "discovered": 966,
+      "listing_age_prefilter": 662,
+      "discovered": 965,
       "metadata_requested": 902,
-      "gaming_category_not_verified": 470,
-      "qualified_metadata": 362,
-      "title_too_short": 70,
-      "duplicate_source_event": 25,
+      "gaming_category_not_verified": 460,
+      "qualified_metadata": 366,
+      "title_too_short": 76,
+      "duplicate_source_event": 23,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "510578383",
-      "clip_slug": "EndearingFamousCaterpillarKappa-JgnbQvGBfJ9IDwnc",
-      "streamer": "repaz"
+      "clip_id": "3019148940",
+      "clip_slug": "SlickExquisiteAnteaterTheRinger-qJLlIQga_EUCIG3f",
+      "streamer": "castcrafter"
     }
   },
   "prepare_scans": {
@@ -2001,8 +2001,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-23T16",
-  "last_prefetch_hour": "2026-10-23T16",
+  "last_prepare_hour": "2026-10-23T17",
+  "last_prefetch_hour": "2026-10-23T17",
   "archived_verified_count": 4,
   "used_ids": [
     "1411062380",

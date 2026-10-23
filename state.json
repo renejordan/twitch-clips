@@ -1439,7 +1439,8 @@
       "clip_slug": "AgileCalmCrabPRChase-M9WF0Td8SLUQByVl",
       "original_created_at": "2026-10-22T15:45:06Z",
       "source_deadline": "2026-10-25T15:45:06Z",
-      "buffer_post_id": "6adb16f71e4eba04737651ac"
+      "buffer_post_id": "6adb16f71e4eba04737651ac",
+      "last_reconcile_at": "2026-10-23T08:14:39Z"
     }
   ],
   "last_production": {

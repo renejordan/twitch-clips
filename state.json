@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1428259648",
+      "clip_slug": "AgileCalmCrabPRChase-M9WF0Td8SLUQByVl",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/AgileCalmCrabPRChase-M9WF0Td8SLUQByVl",
+      "original_title": "Oboensolo Vorwand",
+      "hook": "Oboensolo Vorwand",
+      "caption": "Oboensolo Vorwand\n#gaming #minecraft #twitchclips #trymacs #gamer",
+      "views_at_selection": 167,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-22T15:45:06Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-1428259648-69f9f38fa731.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T07:18:18Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "69f9f38fa731c277788add0682497dbf426d3f3980d5d96dafd62057e747eadf",
+      "category": "Minecraft",
+      "transcript_sha256": "d5c958d9fbfaf7f45f716ec992d6b1bcf0feb792a5f3ba29bdee96da9e5e8555",
+      "asr_requires_correction": true,
+      "source_sha256": "14fe9866e1f922d45e455882d1770415e19fd16db8040d66dfee259b515fe4bc",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T07:18:18.055175+00:00",
+        "media_sha256": "69f9f38fa731c277788add0682497dbf426d3f3980d5d96dafd62057e747eadf",
+        "transcript_sha256": "d5c958d9fbfaf7f45f716ec992d6b1bcf0feb792a5f3ba29bdee96da9e5e8555",
+        "source_sha256": "14fe9866e1f922d45e455882d1770415e19fd16db8040d66dfee259b515fe4bc",
+        "evidence_sha256": "529362e88d37a168b0e6f03a3550339325aab81c38a11bc38a09a11b20457a5e",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "14fe9866e1f922d45e455882d1770415e19fd16db8040d66dfee259b515fe4bc",
+          "reviewed_source_sha256": "14fe9866e1f922d45e455882d1770415e19fd16db8040d66dfee259b515fe4bc",
+          "duration": 30.016,
+          "timestamps": [
+            0.0,
+            14.933,
+            29.866
+          ],
+          "source_frame_hashes": [
+            "2c64ac249604b97118928e3875d38518390035d5eca869caac45e98b4c73484c",
+            "0d39e4d2a67a716647cb22db74e8607d8e2ec493b8ce14884a1169b639bc9777",
+            "2c1375cac2ef6ba5351f01ba09c7c2513aa6c5f542841c39368ed65bd48cca6e"
+          ],
+          "headline": "Oboensolo Vorwand",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in corner with gameplay, HUD, and chat visible, no browser or desktop elements.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player opens chest and views inventory, no clear action or outcome.",
+            "payoff": "No visible result or payoff from action, no win/loss or reaction visible.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.05720638932929714,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a facecam panel above gameplay, which is a normal edited gaming layout. The title 'Oboensolo Vorwand' is clearly visible at the top. The game HUD and stream chat are not present, a",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.933,
+            29.866
+          ],
+          "final_frame_hashes": [
+            "75b7999e9e08fb58c073ed3fdc8066e8125604071453bd39bc6d156252628f1a",
+            "72a96784d047ec0d7beef4a344bc6612174742ded3532515d9a4e2ffe5979b4a",
+            "a445ade5239b5781bbac4e086eb7ae695f60f2de5a678bc9d28b266b65e14f15"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "69f9f38fa731c277788add0682497dbf426d3f3980d5d96dafd62057e747eadf",
+          "transcript_sha256": "d5c958d9fbfaf7f45f716ec992d6b1bcf0feb792a5f3ba29bdee96da9e5e8555"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a facecam panel above gameplay, which is a normal edited gaming layout. The title 'Oboensolo Vorwand' is clearly visible at the top. The game HUD and stream chat are not present, a"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0572, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-1428259648-69f9f38fa731-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "761785150",

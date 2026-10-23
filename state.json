@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2659130194",
-      "clip_slug": "TriangularFrigidZebraTwitchRPG-cyU5V-ORqYLN59kt",
-      "streamer": "metashi12",
-      "source_url": "https://www.twitch.tv/metashi12/clip/TriangularFrigidZebraTwitchRPG-cyU5V-ORqYLN59kt",
-      "original_title": "[CA14] KEIN VOD. BIG GIVEAWAYS! | !grover | !rested | !Snocks | !Holy | !hitech | !More | !prepmymeal | !TB | #Werbung",
-      "hook": "[CA14] KEIN VOD. BIG GIVEAWAYS! | !grover |…",
-      "caption": "[CA14] KEIN VOD. BIG GIVEAWAYS! | !grover |…\n#gaming #minecraft #twitchclips #metashi12 #gamer",
-      "views_at_selection": 252,
-      "original_duration": 59.0,
-      "original_created_at": "2026-10-22T10:13:06Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-2659130194-e7e7f33925f9.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-23T09:59:15Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "e7e7f33925f9e04715fc175632175b0dd76c13fbcb9a1fcf558ddf63cb0bface",
-      "category": "Minecraft",
-      "transcript_sha256": "68ef31854ea0ddea6c032000dfd1d7e2349fef052796ae7e08e619715813c931",
-      "asr_requires_correction": true,
-      "source_sha256": "b912a4869b3676d01437f803710ad3a9621b410ea73adb16c8959c5f7bafe756",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-23T09:59:15.565064+00:00",
-        "media_sha256": "e7e7f33925f9e04715fc175632175b0dd76c13fbcb9a1fcf558ddf63cb0bface",
-        "transcript_sha256": "68ef31854ea0ddea6c032000dfd1d7e2349fef052796ae7e08e619715813c931",
-        "source_sha256": "b912a4869b3676d01437f803710ad3a9621b410ea73adb16c8959c5f7bafe756",
-        "evidence_sha256": "cf2660bbc25071548acea77b3044f64ed3cffdf0a01388a764f4a7366822245e",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "b912a4869b3676d01437f803710ad3a9621b410ea73adb16c8959c5f7bafe756",
-          "reviewed_source_sha256": "b912a4869b3676d01437f803710ad3a9621b410ea73adb16c8959c5f7bafe756",
-          "duration": 59.933333,
-          "timestamps": [
-            0.0,
-            29.892,
-            59.783
-          ],
-          "source_frame_hashes": [
-            "600978fb41673e26dfce16ac21993ed3b2eef68ad037414f5a1247a1414332ea",
-            "d9f86489aab07d62c211fc6f208c68c1f00cde5e0b556990dce5899acab1aa02",
-            "5d44f61d38eea47288f6b98b02e09521bc1fb6935f07fe43f8c38cf27ae6cccb"
-          ],
-          "headline": "[CA14] KEIN VOD. BIG GIVEAWAYS! | !grover |…",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, game UI and chat overlay present, no browser or desktop window borders visible",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player opens inventory and chest, no clear action or outcome visible",
-            "payoff": "No visible outcome or payoff from actions taken in frames, no win/loss or reaction visible",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.055313307419388835,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The provided frames show a Minecraft gameplay session with a facecam panel in the top-left corner, which is a common editing style for live streams. The game interface, including the inventory, crafting table, and HUD, is visible and intact",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            29.892,
-            59.783
-          ],
-          "final_frame_hashes": [
-            "a56350a83977aa082f834627d89de04140f1b3227a7079893b9a9d55d119ffe5",
-            "03bf0da88905a70c6400d0182bea3a73495d3a9d1be8ec921dd696b6baba40cc",
-            "bf4b4dbdc81aa98d462df3c2e8b3d872d15f281b4b05ca538a1bf207ebec7c8d"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "e7e7f33925f9e04715fc175632175b0dd76c13fbcb9a1fcf558ddf63cb0bface",
-          "transcript_sha256": "68ef31854ea0ddea6c032000dfd1d7e2349fef052796ae7e08e619715813c931"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The provided frames show a Minecraft gameplay session with a facecam panel in the top-left corner, which is a common editing style for live streams. The game interface, including the inventory, crafting table, and HUD, is visible and intact"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0553, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-2659130194-e7e7f33925f9-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "263989408",
@@ -1459,14 +1321,17 @@
       "streamer": "metashi12",
       "sha256": "e7e7f33925f9e04715fc175632175b0dd76c13fbcb9a1fcf558ddf63cb0bface",
       "source_sha256": "b912a4869b3676d01437f803710ad3a9621b410ea73adb16c8959c5f7bafe756",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2659130194-e7e7f33925f9.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-2659130194-e7e7f33925f9.mp4",
       "clip_slug": "TriangularFrigidZebraTwitchRPG-cyU5V-ORqYLN59kt",
       "original_created_at": "2026-10-22T10:13:06Z",
       "source_deadline": "2026-10-25T10:13:06Z",
       "buffer_post_id": "6adb329f50cce2289e0bbbe7",
-      "last_reconcile_at": "2026-10-23T10:12:37Z"
+      "last_reconcile_at": "2026-10-23T10:12:37Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699803708145552672",
+      "sent_at": "2026-10-23T10:12:22Z",
+      "verified_at": "2026-10-23T10:12:39Z"
     }
   ],
   "last_production": {

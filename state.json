@@ -1543,12 +1543,13 @@
       "streamer": "letshugotv",
       "sha256": "05c23aeb659932bcf7170e0a99866a8e64d121ea9a9de5a3659452387963324e",
       "source_sha256": "ff138f3fdc7552c09585770ff4ca7407e6f5cc81ee5afee868ebaa079333ee56",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1690791466-05c23aeb6599.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1690791466-05c23aeb6599.mp4",
       "clip_slug": "BoldSarcasticGalagoMcaT-GshXr1-yEBDg7xI0",
       "original_created_at": "2026-10-22T19:11:59Z",
-      "source_deadline": "2026-10-25T19:11:59Z"
+      "source_deadline": "2026-10-25T19:11:59Z",
+      "buffer_post_id": "6adb8cd4d6f1d57d2c294853"
     }
   ],
   "last_production": {

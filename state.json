@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1690791466",
+      "clip_slug": "BoldSarcasticGalagoMcaT-GshXr1-yEBDg7xI0",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/BoldSarcasticGalagoMcaT-GshXr1-yEBDg7xI0",
+      "original_title": "Zaun prank",
+      "hook": "Zaun prank",
+      "caption": "Zaun prank\n#gaming #minecraft #twitchclips #letshugotv #gamer",
+      "views_at_selection": 138,
+      "original_duration": 25.0,
+      "original_created_at": "2026-10-22T19:11:59Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1690791466-05c23aeb6599.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T15:33:59Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "05c23aeb659932bcf7170e0a99866a8e64d121ea9a9de5a3659452387963324e",
+      "category": "Minecraft",
+      "transcript_sha256": "da47f15b8514202e7b8bd73c73760f7cbed86e5f9997e86ad54388aff0c3092d",
+      "asr_requires_correction": true,
+      "source_sha256": "ff138f3fdc7552c09585770ff4ca7407e6f5cc81ee5afee868ebaa079333ee56",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T15:33:59.991365+00:00",
+        "media_sha256": "05c23aeb659932bcf7170e0a99866a8e64d121ea9a9de5a3659452387963324e",
+        "transcript_sha256": "da47f15b8514202e7b8bd73c73760f7cbed86e5f9997e86ad54388aff0c3092d",
+        "source_sha256": "ff138f3fdc7552c09585770ff4ca7407e6f5cc81ee5afee868ebaa079333ee56",
+        "evidence_sha256": "02f4dfdf989d562a9a52984f98eea0f6395dc7869488814ac52c53d490a90942",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "ff138f3fdc7552c09585770ff4ca7407e6f5cc81ee5afee868ebaa079333ee56",
+          "reviewed_source_sha256": "ff138f3fdc7552c09585770ff4ca7407e6f5cc81ee5afee868ebaa079333ee56",
+          "duration": 25.792,
+          "timestamps": [
+            0.0,
+            12.821,
+            25.642
+          ],
+          "source_frame_hashes": [
+            "64ebd6014229ac970f6d620b5bf6b3d130fbd98e5d21fa1f7e6f0d6f99c3d960",
+            "2ce92385e3b4954ed76aa0dc7c73b596d6681a20538e30618e5bcc4cffa9852b",
+            "4a355c9ed57b3524ffb95e0c77ddfeef7f2efaf52cbd8126f494ccc90cabc81c"
+          ],
+          "headline": "Zaun prank",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player near portal, no visible action or outcome",
+            "payoff": "No visible outcome or payoff from actions taken",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.07702317302337079,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, a title overlay 'Zaun prank' at the top center, and game HUD elements. The gameplay area is large and centered, with no browser or tabUI",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            12.821,
+            25.642
+          ],
+          "final_frame_hashes": [
+            "28de40df066f01a18d24a447313d1c5974385ee61d74453c957b95efdd6f049c",
+            "cde90aac9e3f781226699f88cbb2c8e006a42e7d3e72eb66f3cb2a0a8e0d9e3a",
+            "a32fd9a7914c9fd1129c07d7895765a3a8922441142ffaf198f8ad2b9ea9fa97"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "05c23aeb659932bcf7170e0a99866a8e64d121ea9a9de5a3659452387963324e",
+          "transcript_sha256": "da47f15b8514202e7b8bd73c73760f7cbed86e5f9997e86ad54388aff0c3092d"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, a title overlay 'Zaun prank' at the top center, and game HUD elements. The gameplay area is large and centered, with no browser or tabUI"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0770, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1690791466-05c23aeb6599-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1411062380",

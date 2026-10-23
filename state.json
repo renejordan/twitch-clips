@@ -141,18 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "1411062380",
-      "reserved_at": "2026-10-16T16:56:28Z",
-      "status": "verified_public",
-      "asset_title": "tiktok14-1411062380-7ccbcfe5808c.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-1411062380-7ccbcfe5808c.mp4",
-      "clip_slug": "TameTacitAlligatorSoonerLater-4t57oOHCjEP2vLwI",
-      "buffer_post_id": "6ad2573edcd88593548c1ea3",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697310709436140833",
-      "sent_at": "2026-10-16T16:58:15Z",
-      "verified_at": "2026-10-16T16:58:42Z"
-    },
-    {
       "clip_id": "311924564",
       "reserved_at": "2026-10-18T11:19:18Z",
       "streamer": "papaplatte",
@@ -1997,8 +1985,9 @@
   ],
   "last_prepare_hour": "2026-10-23T16",
   "last_prefetch_hour": "2026-10-23T16",
-  "archived_verified_count": 3,
+  "archived_verified_count": 4,
   "used_ids": [
+    "1411062380",
     "263989408",
     "2845373187",
     "761785150"

@@ -1415,12 +1415,13 @@
       "streamer": "castcrafter",
       "sha256": "b99d11ddc8162ca9dcabd74fe4d2a9c8d3a04c27c0d20173d67bff88edaaa555",
       "source_sha256": "540628f995398ca156ad5f33a9dca0f8325f335a209a6ffdb4c3920dc1a2284b",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1206247462-b99d11ddc816.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1206247462-b99d11ddc816.mp4",
       "clip_slug": "AuspiciousLitigiousCardBloodTrail-AtrXkmaOVTk8zOqv",
       "original_created_at": "2026-10-22T19:37:48Z",
-      "source_deadline": "2026-10-25T19:37:48Z"
+      "source_deadline": "2026-10-25T19:37:48Z",
+      "buffer_post_id": "6adb08f20b4dd2dd0c08448d"
     }
   ],
   "last_production": {

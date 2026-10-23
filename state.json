@@ -1347,27 +1347,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-23T11:20:54Z",
-    "result": "ready",
+    "at": "2026-10-23T12:54:33Z",
+    "result": "quality_rejected",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 107,
+      "listing_duration_prefilter": 102,
       "listing_ok": 100,
-      "listing_age_prefilter": 626,
-      "discovered": 991,
-      "metadata_requested": 929,
-      "qualified_metadata": 358,
-      "gaming_category_not_verified": 499,
-      "title_too_short": 72,
-      "duplicate_source_event": 20,
-      "download_attempted": 1,
-      "render_attempted": 1,
-      "render_ok": 1
+      "listing_age_prefilter": 634,
+      "discovered": 976,
+      "metadata_requested": 917,
+      "qualified_metadata": 353,
+      "gaming_category_not_verified": 491,
+      "title_too_short": 73,
+      "duplicate_source_event": 22,
+      "download_attempted": 3,
+      "render_attempted": 3,
+      "qa_duration_invalid": 2,
+      "qa_visual_gameplay_visible": 1
     },
     "candidate": {
-      "clip_id": "39298492",
-      "clip_slug": "CovertFancyShallotTinyFace-u0wnG7M8nMaTqxZv",
-      "streamer": "castcrafter"
+      "clip_id": "1818374733",
+      "clip_slug": "TubularColdSoybeanSwiftRage-YK1OITFbqGr_7-Gc",
+      "streamer": "letshugotv"
     }
   },
   "prepare_scans": {
@@ -1740,8 +1741,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-23T11",
-  "last_prefetch_hour": "2026-10-23T11",
+  "last_prepare_hour": "2026-10-23T12",
+  "last_prefetch_hour": "2026-10-23T12",
   "archived_verified_count": 3,
   "used_ids": [
     "263989408",

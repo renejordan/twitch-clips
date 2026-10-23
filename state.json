@@ -1479,27 +1479,26 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-23T10:19:02Z",
+    "at": "2026-10-23T11:20:54Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 108,
+      "listing_duration_prefilter": 107,
       "listing_ok": 100,
-      "listing_age_prefilter": 629,
+      "listing_age_prefilter": 626,
       "discovered": 991,
-      "metadata_requested": 932,
-      "gaming_category_not_verified": 498,
-      "qualified_metadata": 357,
-      "title_too_short": 77,
-      "duplicate_source_event": 19,
-      "download_attempted": 3,
-      "render_attempted": 3,
-      "qa_visual_gameplay_visible": 2,
+      "metadata_requested": 929,
+      "qualified_metadata": 358,
+      "gaming_category_not_verified": 499,
+      "title_too_short": 72,
+      "duplicate_source_event": 20,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "857609776",
-      "clip_slug": "SparklingUnsightlySwanMoreCowbell-LoUYkKIR8qEydfXn",
+      "clip_id": "39298492",
+      "clip_slug": "CovertFancyShallotTinyFace-u0wnG7M8nMaTqxZv",
       "streamer": "castcrafter"
     }
   },
@@ -1846,8 +1845,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-23T10",
-  "last_prefetch_hour": "2026-10-23T10",
+  "last_prepare_hour": "2026-10-23T11",
+  "last_prefetch_hour": "2026-10-23T11",
   "archived_verified_count": 2,
   "used_ids": [
     "263989408",

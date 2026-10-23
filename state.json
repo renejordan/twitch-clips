@@ -1617,28 +1617,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-23T19:21:29Z",
+    "at": "2026-10-23T20:23:35Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 107,
+      "listing_duration_prefilter": 110,
       "listing_ok": 100,
-      "listing_age_prefilter": 673,
-      "discovered": 938,
-      "metadata_requested": 877,
-      "gaming_category_not_verified": 432,
-      "qualified_metadata": 367,
+      "listing_age_prefilter": 682,
+      "discovered": 912,
+      "metadata_requested": 853,
+      "qualified_metadata": 381,
+      "gaming_category_not_verified": 394,
       "title_too_short": 78,
-      "duplicate_source_event": 16,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_visual_gameplay_visible": 1,
+      "duplicate_source_event": 14,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3168340049",
-      "clip_slug": "CoyHardAniseFutureMan-aOAJSgfDhxYhbUeK",
-      "streamer": "niklaswilson"
+      "clip_id": "402356184",
+      "clip_slug": "NimbleAlertPeafowlOSkomodo-nF0bxi6IsjMIQH6P",
+      "streamer": "krokoboss"
     }
   },
   "prepare_scans": {
@@ -2065,8 +2064,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-23T19",
-  "last_prefetch_hour": "2026-10-23T19",
+  "last_prepare_hour": "2026-10-23T20",
+  "last_prefetch_hour": "2026-10-23T20",
   "archived_verified_count": 4,
   "used_ids": [
     "1411062380",

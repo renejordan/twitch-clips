@@ -1539,27 +1539,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-23T15:17:27Z",
+    "at": "2026-10-23T15:33:59Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
+      "listing_duration_prefilter": 98,
       "listing_ok": 100,
-      "listing_duration_prefilter": 101,
-      "listing_age_prefilter": 645,
-      "discovered": 954,
-      "metadata_requested": 890,
-      "gaming_category_not_verified": 468,
-      "qualified_metadata": 353,
-      "title_too_short": 69,
-      "duplicate_source_event": 24,
+      "listing_age_prefilter": 649,
+      "discovered": 957,
+      "metadata_requested": 892,
+      "gaming_category_not_verified": 464,
+      "qualified_metadata": 355,
+      "title_too_short": 73,
+      "duplicate_source_event": 25,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1465026956",
-      "clip_slug": "SmallSincerePuppyKevinTurtle-7Z8XuM6Sd3UsfHSc",
-      "streamer": "rumathra"
+      "clip_id": "1690791466",
+      "clip_slug": "BoldSarcasticGalagoMcaT-GshXr1-yEBDg7xI0",
+      "streamer": "letshugotv"
     }
   },
   "prepare_scans": {
@@ -1978,7 +1978,7 @@
     }
   ],
   "last_prepare_hour": "2026-10-23T15",
-  "last_prefetch_hour": "2026-10-23T14",
+  "last_prefetch_hour": "2026-10-23T15",
   "archived_verified_count": 3,
   "used_ids": [
     "263989408",

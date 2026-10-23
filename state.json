@@ -1621,12 +1621,13 @@
       "streamer": "krokoboss",
       "sha256": "dd43e28d788eb8fe36302968dcdab0f1b63b610383f9c17be8887b922cf1f498",
       "source_sha256": "e835791d36227f869633b948a180412230a9d67a7287ae5a584e73dc9ebf4a85",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-402356184-dd43e28d788e.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-402356184-dd43e28d788e.mp4",
       "clip_slug": "NimbleAlertPeafowlOSkomodo-nF0bxi6IsjMIQH6P",
       "original_created_at": "2026-10-23T17:25:42Z",
-      "source_deadline": "2026-10-26T17:25:42Z"
+      "source_deadline": "2026-10-26T17:25:42Z",
+      "buffer_post_id": "6adbce729acae620d81b4bb1"
     }
   ],
   "last_production": {

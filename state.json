@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "510578383",
+      "clip_slug": "EndearingFamousCaterpillarKappa-JgnbQvGBfJ9IDwnc",
+      "streamer": "repaz",
+      "source_url": "https://www.twitch.tv/repaz/clip/EndearingFamousCaterpillarKappa-JgnbQvGBfJ9IDwnc",
+      "original_title": "willkommenZurück",
+      "hook": "willkommenZurück",
+      "caption": "willkommenZurück\n#gaming #minecraft #twitchclips #repaz #gamer",
+      "views_at_selection": 126,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-23T13:23:46Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-510578383-63673862e973.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T16:42:20Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "63673862e97347d043d9ad4dc5116b634230de31d95a25589b5dcdcb346032ef",
+      "category": "Minecraft",
+      "transcript_sha256": "21702e7e9e3e368e3e71df6a0397fa1ab86093942a1f751b4a6a64145643e30c",
+      "asr_requires_correction": true,
+      "source_sha256": "9910c29e7ef16b2202a1b3b0c67ebd664880514f5101717d616042bf2d6e448f",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T16:42:20.000851+00:00",
+        "media_sha256": "63673862e97347d043d9ad4dc5116b634230de31d95a25589b5dcdcb346032ef",
+        "transcript_sha256": "21702e7e9e3e368e3e71df6a0397fa1ab86093942a1f751b4a6a64145643e30c",
+        "source_sha256": "9910c29e7ef16b2202a1b3b0c67ebd664880514f5101717d616042bf2d6e448f",
+        "evidence_sha256": "d81135ca9188d33d078a1418134e7e1ef1f95716b1ec311676469824118541e5",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "9910c29e7ef16b2202a1b3b0c67ebd664880514f5101717d616042bf2d6e448f",
+          "reviewed_source_sha256": "9910c29e7ef16b2202a1b3b0c67ebd664880514f5101717d616042bf2d6e448f",
+          "duration": 30.02,
+          "timestamps": [
+            0.0,
+            14.935,
+            29.87
+          ],
+          "source_frame_hashes": [
+            "b0b6cb82b1642c6a6c438dc2411e4f47b8730e2e188a4c978c793f234e845ba1",
+            "e1b5601f35fd569a5a97232987d55205b071088bcecc55851d2a1e3cb8c185e5",
+            "a20e51108678ffbf1f8d5896cff08ad7c3dcffa7a0516fcb653b970f5a3ffc8b"
+          ],
+          "headline": "willkommenZurück",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay with game HUD visible, including inventory, chat, and minimap.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a storage room with chests and items, no clear action or outcome.",
+            "payoff": "No visible outcome or payoff from actions taken in the frames provided. No win or loss is indicated, and no clear event or reaction is visible in the frames provided. No clear payoff or outcome is visible in the frames. ",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.025757081193315545,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, which is a common edited gaming layout. The main gameplay area displays a storage room with chests and items. The text 'willkommenZurück",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.935,
+            29.87
+          ],
+          "final_frame_hashes": [
+            "7afda8f85484a78cc8c97c4be5455a7fd80f770825115b93dc0de93f1e0735a4",
+            "482c64de873d7fd3610e545ff042d5dc59ffd2cceb64ffe85ae872b3e4121f9f",
+            "8321ed908fd6a5fc4127809f410505252b18b95d1a2d5692d44c4852074d4a8d"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "63673862e97347d043d9ad4dc5116b634230de31d95a25589b5dcdcb346032ef",
+          "transcript_sha256": "21702e7e9e3e368e3e71df6a0397fa1ab86093942a1f751b4a6a64145643e30c"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top-left corner, which is a common edited gaming layout. The main gameplay area displays a storage room with chests and items. The text 'willkommenZurück"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0258, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-510578383-63673862e973-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1411062380",

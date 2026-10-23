@@ -1518,6 +1518,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699866621212445984",
       "sent_at": "2026-10-23T14:16:40Z",
       "verified_at": "2026-10-23T14:20:45Z"
+    },
+    {
+      "clip_id": "1465026956",
+      "reserved_at": "2026-10-23T15:26:33Z",
+      "streamer": "rumathra",
+      "sha256": "e8a6c4531e3f971b27e475e9e9afd69cdf75cfcda9adb67b8d820295ee1ae2da",
+      "source_sha256": "32bc69fcfa8a4c7a2f71ae895e1e5fc1e7e3607d65b1a495a909ff1606e317d6",
+      "status": "reserved",
+      "asset_title": "tiktok14-1465026956-e8a6c4531e3f.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/rumathra-1465026956-e8a6c4531e3f.mp4",
+      "clip_slug": "SmallSincerePuppyKevinTurtle-7Z8XuM6Sd3UsfHSc",
+      "original_created_at": "2026-10-23T14:25:45Z",
+      "source_deadline": "2026-10-26T14:25:45Z"
     }
   ],
   "last_production": {

@@ -141,18 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "2845373187",
-      "reserved_at": "2026-10-16T11:53:50Z",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2845373187-9ffc84791615.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/coachlim-2845373187-9ffc84791615.mp4",
-      "clip_slug": "AliveCautiousMonitorPJSalt-_khBUBf020YdG7yv",
-      "buffer_post_id": "6ad210502fe657de6ea1907f",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697232709906681121",
-      "sent_at": "2026-10-16T11:55:35Z",
-      "verified_at": "2026-10-16T11:56:04Z"
-    },
-    {
       "clip_id": "1411062380",
       "reserved_at": "2026-10-16T16:56:28Z",
       "status": "verified_public",
@@ -1847,9 +1835,10 @@
   ],
   "last_prepare_hour": "2026-10-23T11",
   "last_prefetch_hour": "2026-10-23T11",
-  "archived_verified_count": 2,
+  "archived_verified_count": 3,
   "used_ids": [
     "263989408",
+    "2845373187",
     "761785150"
   ]
 }

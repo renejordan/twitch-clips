@@ -1500,6 +1500,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699854356543212833",
       "sent_at": "2026-10-23T13:28:55Z",
       "verified_at": "2026-10-23T13:32:55Z"
+    },
+    {
+      "clip_id": "311088002",
+      "reserved_at": "2026-10-23T14:14:44Z",
+      "streamer": "nooreax",
+      "sha256": "489c3878431d2833a6e423ba5955f2407defb038643daf84b36959a0c193e194",
+      "source_sha256": "dd7783ee3068d27c7a3e391f176b5cb30615e5ebb740f9e1700962242ca3b276",
+      "status": "reserved",
+      "asset_title": "tiktok14-311088002-489c3878431d.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-311088002-489c3878431d.mp4",
+      "clip_slug": "DelightfulBlazingWaspCeilingCat-h9vFcnWne_78RjwX",
+      "original_created_at": "2026-10-22T18:14:23Z",
+      "source_deadline": "2026-10-25T18:14:23Z"
     }
   ],
   "last_production": {

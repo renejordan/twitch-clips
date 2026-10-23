@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3556975930",
+      "clip_slug": "JazzyAltruisticSrirachaJebaited-EeiSw9UwZW5qdozw",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/JazzyAltruisticSrirachaJebaited-EeiSw9UwZW5qdozw",
+      "original_title": "rose arbeit ist verbrannt",
+      "hook": "rose arbeit ist verbrannt",
+      "caption": "rose arbeit ist verbrannt\n#gaming #minecraft #twitchclips #letshugotv #gamer",
+      "views_at_selection": 151,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-22T18:49:04Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-3556975930-499cb6560bb7.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-23T13:15:18Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "499cb6560bb70880d4b21760095cd734ae70378ae69cfba8f51e0da5f0d37568",
+      "category": "Minecraft",
+      "transcript_sha256": "bbc86da920d93bef253773a1ed623aa7b65a127caf393d623d46a66c2f3041b2",
+      "asr_requires_correction": true,
+      "source_sha256": "6e1083fe65706336cb86cc8e9b4ed117733205633b637bd04ed3262945f0ee8c",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-23T13:15:18.673123+00:00",
+        "media_sha256": "499cb6560bb70880d4b21760095cd734ae70378ae69cfba8f51e0da5f0d37568",
+        "transcript_sha256": "bbc86da920d93bef253773a1ed623aa7b65a127caf393d623d46a66c2f3041b2",
+        "source_sha256": "6e1083fe65706336cb86cc8e9b4ed117733205633b637bd04ed3262945f0ee8c",
+        "evidence_sha256": "73ff33860a396c9dededf894d3f0c7dbc57c695958ffe4a575c41cdd7e228941",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "6e1083fe65706336cb86cc8e9b4ed117733205633b637bd04ed3262945f0ee8c",
+          "reviewed_source_sha256": "6e1083fe65706336cb86cc8e9b4ed117733205633b637bd04ed3262945f0ee8c",
+          "duration": 30.005,
+          "timestamps": [
+            0.0,
+            14.928,
+            29.855
+          ],
+          "source_frame_hashes": [
+            "4abf331f77f6381393e62928770fe99c87a5a3aa586f59ac57f32171ab6281eb",
+            "588f326649c256e3506c4bfa44144cb97bd9ee16112082efba4ccce27c053a29",
+            "d3b1502eceebfc1a55a68b7c0c947845f69517f73a74d5723f917223eec48d8f"
+          ],
+          "headline": "rose arbeit ist verbrannt",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, chat overlay, game HUD visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft is in a room with fire and blocks, no clear action or outcome",
+            "payoff": "No visible outcome or payoff from actions taken in frames, no win/loss or reaction visible",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.07311415781316145,
+          "clipped_fraction": 2.9151119402985074e-05,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a fire burning above the player, and a facecam panel in the top-left corner. The text 'rose arbeit ist verbrannt' is displayed as a title overlay. The gameplay area is visible,",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.928,
+            29.855
+          ],
+          "final_frame_hashes": [
+            "83d9865c7955f9c38cc86d30820c26226f4772196a8e354758bd23548eacfe3e",
+            "ed4e0d1fd43576230186adeaa884b00c287e66c81f67589fe87e99d275934aa2",
+            "7ceb05e15c9d823396c3188c5b81d1778587a900da4abdb7bcec5c10f22634db"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "499cb6560bb70880d4b21760095cd734ae70378ae69cfba8f51e0da5f0d37568",
+          "transcript_sha256": "bbc86da920d93bef253773a1ed623aa7b65a127caf393d623d46a66c2f3041b2"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a fire burning above the player, and a facecam panel in the top-left corner. The text 'rose arbeit ist verbrannt' is displayed as a title overlay. The gameplay area is visible,"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0731, clipping fraction 0.00003. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-3556975930-499cb6560bb7-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1411062380",

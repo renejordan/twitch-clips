@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "402356184",
-      "clip_slug": "NimbleAlertPeafowlOSkomodo-nF0bxi6IsjMIQH6P",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/NimbleAlertPeafowlOSkomodo-nF0bxi6IsjMIQH6P",
-      "original_title": "Krokobacca",
-      "hook": "Krokobacca",
-      "caption": "Krokobacca\n#gaming #minecraft #twitchclips #krokoboss #gamer",
-      "views_at_selection": 90,
-      "original_duration": 21.0,
-      "original_created_at": "2026-10-23T17:25:42Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-402356184-dd43e28d788e.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-23T20:23:35Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "dd43e28d788eb8fe36302968dcdab0f1b63b610383f9c17be8887b922cf1f498",
-      "category": "Minecraft",
-      "transcript_sha256": "71617fc49c031201095a79fc59a54081c9529689bd1c8309f4d81695152d63ea",
-      "asr_requires_correction": true,
-      "source_sha256": "e835791d36227f869633b948a180412230a9d67a7287ae5a584e73dc9ebf4a85",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-23T20:23:35.866748+00:00",
-        "media_sha256": "dd43e28d788eb8fe36302968dcdab0f1b63b610383f9c17be8887b922cf1f498",
-        "transcript_sha256": "71617fc49c031201095a79fc59a54081c9529689bd1c8309f4d81695152d63ea",
-        "source_sha256": "e835791d36227f869633b948a180412230a9d67a7287ae5a584e73dc9ebf4a85",
-        "evidence_sha256": "58b334f45122783f8e57355823e2264848d9c529572a4783bf1996d839c33b16",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "e835791d36227f869633b948a180412230a9d67a7287ae5a584e73dc9ebf4a85",
-          "reviewed_source_sha256": "e835791d36227f869633b948a180412230a9d67a7287ae5a584e73dc9ebf4a85",
-          "duration": 21.482,
-          "timestamps": [
-            0.0,
-            10.666,
-            21.332
-          ],
-          "source_frame_hashes": [
-            "babbfdbff22f5bb708d6157b8edb362b4f7fd02539c746da4c27e6e46eab82be",
-            "371227e6aca7a691b85b91b064d7353cd8826a92ea7787c380c26fbf8147c16e",
-            "c1ac628b885b9e1d6663f8fe65b8308c63f807f1070e01cb02c6967d6fb96bdb"
-          ],
-          "headline": "Krokobacca",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, no clear action or outcome visible",
-            "payoff": "No visible outcome or payoff from actions taken",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04211351308766759,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'Krokobacca' is clearly visible as a subtitle at the top center. The game HUD and in-",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            10.666,
-            21.332
-          ],
-          "final_frame_hashes": [
-            "15803d02aaa0026d217e82f87bac01fe48d48505d78865a6babb71a5d993b199",
-            "8a4bda547bd6e33f542fefa0eea01603a34625304d18d182ffc583baeb14e296",
-            "0ccaa7e1a308fd785a803a96761783e5bee8b7425edba050b6beb5d68d6ea884"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "dd43e28d788eb8fe36302968dcdab0f1b63b610383f9c17be8887b922cf1f498",
-          "transcript_sha256": "71617fc49c031201095a79fc59a54081c9529689bd1c8309f4d81695152d63ea"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'Krokobacca' is clearly visible as a subtitle at the top center. The game HUD and in-"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0421, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-402356184-dd43e28d788e-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1621,14 +1483,17 @@
       "streamer": "krokoboss",
       "sha256": "dd43e28d788eb8fe36302968dcdab0f1b63b610383f9c17be8887b922cf1f498",
       "source_sha256": "e835791d36227f869633b948a180412230a9d67a7287ae5a584e73dc9ebf4a85",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-402356184-dd43e28d788e.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-402356184-dd43e28d788e.mp4",
       "clip_slug": "NimbleAlertPeafowlOSkomodo-nF0bxi6IsjMIQH6P",
       "original_created_at": "2026-10-23T17:25:42Z",
       "source_deadline": "2026-10-26T17:25:42Z",
       "buffer_post_id": "6adbce729acae620d81b4bb1",
-      "last_reconcile_at": "2026-10-23T21:17:25Z"
+      "last_reconcile_at": "2026-10-23T21:17:25Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699975041043139873",
+      "sent_at": "2026-10-23T21:17:13Z",
+      "verified_at": "2026-10-23T21:17:26Z"
     }
   ],
   "last_production": {

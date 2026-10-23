@@ -1477,7 +1477,8 @@
       "clip_slug": "CovertFancyShallotTinyFace-u0wnG7M8nMaTqxZv",
       "original_created_at": "2026-10-22T19:41:28Z",
       "source_deadline": "2026-10-25T19:41:28Z",
-      "buffer_post_id": "6adb4f3797d61d392144a464"
+      "buffer_post_id": "6adb4f3797d61d392144a464",
+      "last_reconcile_at": "2026-10-23T12:14:32Z"
     }
   ],
   "last_production": {

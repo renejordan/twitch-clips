@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "4282988255",
-      "clip_slug": "AggressiveCarelessClintmullinsDansGame-zOv-1AkY7p5rxMSW",
-      "streamer": "zarbex",
-      "source_url": "https://www.twitch.tv/zarbex/clip/AggressiveCarelessClintmullinsDansGame-zOv-1AkY7p5rxMSW",
-      "original_title": "erster tod",
-      "hook": "erster tod",
-      "caption": "erster tod\n#gaming #minecraft #twitchclips #zarbex #gamer",
-      "views_at_selection": 448,
-      "original_duration": 44.0,
-      "original_created_at": "2026-10-23T20:22:54Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-4282988255-748dafc6dee5.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-24T07:23:52Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "748dafc6dee5f664c45e3b4495c94c6c49c91f2e0ee68a88186a5e2069bac95d",
-      "category": "Minecraft",
-      "transcript_sha256": "aff2a5a23f87950f64302105ad42cf207dc2718b7f51583f2dcfe8ead437db4e",
-      "asr_requires_correction": true,
-      "source_sha256": "cdb1ee4ecce3bf207f600ff85a8536781cdbc59fc8dbc0e039a7c376743f0d84",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-24T07:23:52.925458+00:00",
-        "media_sha256": "748dafc6dee5f664c45e3b4495c94c6c49c91f2e0ee68a88186a5e2069bac95d",
-        "transcript_sha256": "aff2a5a23f87950f64302105ad42cf207dc2718b7f51583f2dcfe8ead437db4e",
-        "source_sha256": "cdb1ee4ecce3bf207f600ff85a8536781cdbc59fc8dbc0e039a7c376743f0d84",
-        "evidence_sha256": "66f93de1e3fddc43d50612273b8def8eb51eceee80a62f8e22c6264eca931bf9",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "cdb1ee4ecce3bf207f600ff85a8536781cdbc59fc8dbc0e039a7c376743f0d84",
-          "reviewed_source_sha256": "cdb1ee4ecce3bf207f600ff85a8536781cdbc59fc8dbc0e039a7c376743f0d84",
-          "duration": 44.383333,
-          "timestamps": [
-            0.0,
-            22.117,
-            44.233
-          ],
-          "source_frame_hashes": [
-            "a0dd6fa7d2aec7460e97341e20cacfe11766f342965871fa33628e32adc31bbd",
-            "698402b746f9d75c8d712bb50fe7e7d1aee4c80d52569b780199727456f8e011",
-            "850a446e347331aff143c0c3a75a6f4700cc8777f76b4b5d667564ddd6586ef5"
-          ],
-          "headline": "erster tod",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, inventory and chat visible, game HUD present",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player opens inventory, then moves to open world.",
-            "payoff": "No visible outcome or reaction from gameplay or player, no win/loss or clear payoff visible in frames provided. No action has a visible result or payoff in frames provided. No clear tension or reaction visible in frames.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.0670915740228622,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The provided frames show a Minecraft gameplay session with a facecam panel in the top right corner, which is a common editing choice for live streams. The game's HUD, including the inventory, health bar, and minimap, is visible, indicating ",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            22.117,
-            44.233
-          ],
-          "final_frame_hashes": [
-            "29414b8e59461878abc9e8ecea40722accf71484f4332b1024cc2353d5f9a168",
-            "7233e60790f111a3d83b3aa74abacb1d1af2478d3d153b1d73a56bccaa5e163a",
-            "3b1be48389ee96badafff234f8b5450aacf5d0fed1f041487d682b4d40e110ab"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "748dafc6dee5f664c45e3b4495c94c6c49c91f2e0ee68a88186a5e2069bac95d",
-          "transcript_sha256": "aff2a5a23f87950f64302105ad42cf207dc2718b7f51583f2dcfe8ead437db4e"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The provided frames show a Minecraft gameplay session with a facecam panel in the top right corner, which is a common editing choice for live streams. The game's HUD, including the inventory, health bar, and minimap, is visible, indicating "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0671, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-4282988255-748dafc6dee5-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1657,14 +1519,17 @@
       "streamer": "zarbex",
       "sha256": "748dafc6dee5f664c45e3b4495c94c6c49c91f2e0ee68a88186a5e2069bac95d",
       "source_sha256": "cdb1ee4ecce3bf207f600ff85a8536781cdbc59fc8dbc0e039a7c376743f0d84",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-4282988255-748dafc6dee5.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-4282988255-748dafc6dee5.mp4",
       "clip_slug": "AggressiveCarelessClintmullinsDansGame-zOv-1AkY7p5rxMSW",
       "original_created_at": "2026-10-23T20:22:54Z",
       "source_deadline": "2026-10-26T20:22:54Z",
       "buffer_post_id": "6adc69718b3d437ddcaaa086",
-      "last_reconcile_at": "2026-10-24T08:18:47Z"
+      "last_reconcile_at": "2026-10-24T08:18:47Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700145433741413665",
+      "sent_at": "2026-10-24T08:18:33Z",
+      "verified_at": "2026-10-24T08:18:49Z"
     }
   ],
   "last_production": {

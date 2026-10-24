@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "945475581",
+      "clip_slug": "FaithfulOriginalFlamingoHotPokket-_BnRobp5LrvdKF-V",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/FaithfulOriginalFlamingoHotPokket-_BnRobp5LrvdKF-V",
+      "original_title": "totschlag argument",
+      "hook": "totschlag argument",
+      "caption": "totschlag argument\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 210,
+      "original_duration": 20.0,
+      "original_created_at": "2026-10-24T10:37:08Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-945475581-d6abc8d44acf.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-24T11:22:50Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "d6abc8d44acf42a95852805b171dcd7b8f0595656b66bcc4563e4498fa8aed02",
+      "category": "Minecraft",
+      "transcript_sha256": "cf253ee1823301092133edeb5ab8fe158238e6a6185daa82e33628d9b63f3536",
+      "asr_requires_correction": true,
+      "source_sha256": "c8a3970db78cfe5a61c3d8a7eb3eb449cf55b6ac16c979f0505149b46fc02640",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-24T11:22:50.621390+00:00",
+        "media_sha256": "d6abc8d44acf42a95852805b171dcd7b8f0595656b66bcc4563e4498fa8aed02",
+        "transcript_sha256": "cf253ee1823301092133edeb5ab8fe158238e6a6185daa82e33628d9b63f3536",
+        "source_sha256": "c8a3970db78cfe5a61c3d8a7eb3eb449cf55b6ac16c979f0505149b46fc02640",
+        "evidence_sha256": "40b02ebf09999c666eb8ea1cc06cc91bb8bc6d1e76c71339cf6512cfd7513311",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "c8a3970db78cfe5a61c3d8a7eb3eb449cf55b6ac16c979f0505149b46fc02640",
+          "reviewed_source_sha256": "c8a3970db78cfe5a61c3d8a7eb3eb449cf55b6ac16c979f0505149b46fc02640",
+          "duration": 20.8,
+          "timestamps": [
+            0.0,
+            10.325,
+            20.65
+          ],
+          "source_frame_hashes": [
+            "19e11a9cd33d511cdd0962bc24f41e2e3395c019ae9633538a144eda767e7f45",
+            "ab73b897738ee8a7aec44228f2c7e44d9cd8cfd721b0a0b8624b8009eaf8bc40",
+            "d4bd4ed4787c30e90144f3bb41728d043cff764857ec67864b119a1ebd8cfd08"
+          ],
+          "headline": "totschlag argument",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay, with game HUD and chat visible, and a visible player character in Minecraft.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "A player is standing on a platform in Minecraft, with a chat window and game HUD visible.",
+            "payoff": "No clear outcome or payoff is visible in the frames provided, as the player is still standing on the platform and no significant action or result is shown.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.048021276591401235,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a chat window and game HUD visible, consistent with a direct game capture. The title 'totschlag argument' is clearly readable at the top, with no added word subtitles. The face",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            10.325,
+            20.65
+          ],
+          "final_frame_hashes": [
+            "5d5cddff21ad1a379c0be8c28d42b9dfbb9597002cc61750c5fc2e52492f56af",
+            "8c51496bd6f5acac7181e1b42d6315940112c9158f55da1b25bbcf4424cf5903",
+            "937494e828dea225ee3b8d45929c6f1fd45e5c256fe0d6ea379486af25765f09"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "d6abc8d44acf42a95852805b171dcd7b8f0595656b66bcc4563e4498fa8aed02",
+          "transcript_sha256": "cf253ee1823301092133edeb5ab8fe158238e6a6185daa82e33628d9b63f3536"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a chat window and game HUD visible, consistent with a direct game capture. The title 'totschlag argument' is clearly readable at the top, with no added word subtitles. The face"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0480, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-945475581-d6abc8d44acf-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "311924564",

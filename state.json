@@ -1675,12 +1675,13 @@
       "streamer": "castcrafter",
       "sha256": "78cf50ea40035f1faaf1015569d45cd476698c5696884dff6c7e86e6c4da9e2f",
       "source_sha256": "5cd45117c976ee1c61a1a3a863aa0caa79e8f9eb0d868c684db65f9347e66bfc",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2624621525-78cf50ea4003.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2624621525-78cf50ea4003.mp4",
       "clip_slug": "ExcitedManlyHumanOSkomodo-kM4azXIsxoKVDiZp",
       "original_created_at": "2026-10-23T23:04:02Z",
-      "source_deadline": "2026-10-26T23:04:02Z"
+      "source_deadline": "2026-10-26T23:04:02Z",
+      "buffer_post_id": "6adc77858b3d437ddcae1978"
     }
   ],
   "last_production": {

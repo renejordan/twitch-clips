@@ -1848,6 +1848,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700303376424258848",
       "sent_at": "2026-10-24T18:31:25Z",
       "verified_at": "2026-10-24T18:34:54Z"
+    },
+    {
+      "clip_id": "3101807848",
+      "reserved_at": "2026-10-24T19:18:41Z",
+      "streamer": "zarbex",
+      "sha256": "e1193e396a7dc65d1d98ebdbe2f0bb2600d8f6baba8ee6096557d7b513461269",
+      "source_sha256": "03f67d0d1ec1a94d51610f7578b9ed691a3becee53ca224992b09def1b964c6d",
+      "status": "reserved",
+      "asset_title": "tiktok14-3101807848-e1193e396a7d.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-3101807848-e1193e396a7d.mp4",
+      "clip_slug": "MoralBloodyNigiriJebaited-NWSXxBUT8zRJsR9A",
+      "original_created_at": "2026-10-24T17:29:02Z",
+      "source_deadline": "2026-10-27T17:29:02Z"
     }
   ],
   "last_production": {

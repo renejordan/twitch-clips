@@ -1765,12 +1765,13 @@
       "streamer": "nooreax",
       "sha256": "aaf95c061fffd17e98810fe4ad4b2a44da14164a992b18234e677f663c0e66d7",
       "source_sha256": "f8bc10b517858372b90add223770f9a8657383ad20cbe1338962a2540192aecb",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3081137165-aaf95c061fff.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-3081137165-aaf95c061fff.mp4",
       "clip_slug": "LittleCrispyStapleBibleThump-IpEb3NebYhr0YzZo",
       "original_created_at": "2026-10-24T11:30:40Z",
-      "source_deadline": "2026-10-27T11:30:40Z"
+      "source_deadline": "2026-10-27T11:30:40Z",
+      "buffer_post_id": "6adcbe480b5343d070893f28"
     }
   ],
   "last_production": {

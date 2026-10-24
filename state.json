@@ -1776,6 +1776,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700238738433133856",
       "sent_at": "2026-10-24T14:20:32Z",
       "verified_at": "2026-10-24T14:20:42Z"
+    },
+    {
+      "clip_id": "3369427252",
+      "reserved_at": "2026-10-24T15:28:51Z",
+      "streamer": "papaplatte",
+      "sha256": "dd154a1731e446550e14616f6434a80aab8a60ff1b3cda87cdebb8bbbcbc0b4c",
+      "source_sha256": "98733e0ece0198ba09ad4d260065d14a0810aaee9f3b3a5dd1a87dfb61ebdca6",
+      "status": "reserved",
+      "asset_title": "tiktok14-3369427252-dd154a1731e4.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-3369427252-dd154a1731e4.mp4",
+      "clip_slug": "KitschyCoweringEggGrammarKing-XvR50wD2sCWCk6WC",
+      "original_created_at": "2026-10-24T12:52:00Z",
+      "source_deadline": "2026-10-27T12:52:00Z"
     }
   ],
   "last_production": {

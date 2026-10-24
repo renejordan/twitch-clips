@@ -1869,27 +1869,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-24T18:39:48Z",
+    "at": "2026-10-24T19:24:54Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 107,
-      "listing_age_prefilter": 791,
-      "discovered": 770,
-      "metadata_requested": 719,
-      "gaming_category_not_verified": 262,
-      "qualified_metadata": 382,
-      "title_too_short": 75,
-      "duplicate_source_event": 13,
+      "listing_duration_prefilter": 101,
+      "listing_age_prefilter": 808,
+      "discovered": 752,
+      "metadata_requested": 701,
+      "qualified_metadata": 367,
+      "title_too_short": 77,
+      "gaming_category_not_verified": 257,
+      "duplicate_source_event": 14,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3101807848",
-      "clip_slug": "MoralBloodyNigiriJebaited-NWSXxBUT8zRJsR9A",
-      "streamer": "zarbex"
+      "clip_id": "3803975482",
+      "clip_slug": "PiercingProtectiveDogePrimeMe-IMtggHbHBWnS3y8y",
+      "streamer": "trymacs"
     }
   },
   "prepare_scans": {
@@ -2325,8 +2325,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-24T18",
-  "last_prefetch_hour": "2026-10-24T18",
+  "last_prepare_hour": "2026-10-24T19",
+  "last_prefetch_hour": "2026-10-24T19",
   "archived_verified_count": 4,
   "used_ids": [
     "1411062380",

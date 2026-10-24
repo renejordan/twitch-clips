@@ -1873,12 +1873,13 @@
       "streamer": "trymacs",
       "sha256": "5e4efe15804fa6a0f7555f8cd5d68d3c94b69ef912bdc5b295df8470bf4044cc",
       "source_sha256": "f55261e9925bd96a96d3cb98555ae7b9fd517bdce26603fd03228eb9ade0642a",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3803975482-5e4efe15804f.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3803975482-5e4efe15804f.mp4",
       "clip_slug": "PiercingProtectiveDogePrimeMe-IMtggHbHBWnS3y8y",
       "original_created_at": "2026-10-24T18:53:03Z",
-      "source_deadline": "2026-10-27T18:53:03Z"
+      "source_deadline": "2026-10-27T18:53:03Z",
+      "buffer_post_id": "6add131c8b3d437ddcd7f90a"
     }
   ],
   "last_production": {

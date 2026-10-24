@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "212946245",
-      "clip_slug": "BlushingToughMonkeyPipeHype-NQLNPT0AZKvILF2f",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/BlushingToughMonkeyPipeHype-NQLNPT0AZKvILF2f",
-      "original_title": "Voll eingestellt",
-      "hook": "Voll eingestellt",
-      "caption": "Voll eingestellt\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 663,
-      "original_duration": 24.0,
-      "original_created_at": "2026-10-24T15:37:32Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-212946245-8075b0c6e569.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-24T16:47:07Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "8075b0c6e56985223a263cb9093e88e3bf568a2e93b2aa015fbecf76239fc9cc",
-      "category": "Minecraft",
-      "transcript_sha256": "6a71905215de83e7bf61925ca22dd35777a9d3da66bd9519ea4cee25f1e1d8b5",
-      "asr_requires_correction": true,
-      "source_sha256": "b1835257808cbbd8167b6d479b2b3526d735cf0beea4a307c14e7346e104b116",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-24T16:47:07.425035+00:00",
-        "media_sha256": "8075b0c6e56985223a263cb9093e88e3bf568a2e93b2aa015fbecf76239fc9cc",
-        "transcript_sha256": "6a71905215de83e7bf61925ca22dd35777a9d3da66bd9519ea4cee25f1e1d8b5",
-        "source_sha256": "b1835257808cbbd8167b6d479b2b3526d735cf0beea4a307c14e7346e104b116",
-        "evidence_sha256": "d977a2e114439e147078d537388eedb16715f1d28bafaa2c7d9671df61d82c0f",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "b1835257808cbbd8167b6d479b2b3526d735cf0beea4a307c14e7346e104b116",
-          "reviewed_source_sha256": "b1835257808cbbd8167b6d479b2b3526d735cf0beea4a307c14e7346e104b116",
-          "duration": 24.333333,
-          "timestamps": [
-            0.0,
-            12.092,
-            24.183
-          ],
-          "source_frame_hashes": [
-            "e96a5e504499ba060a1ce2b5cd36fffad82e9f5f08a49db6dc115d7affea5131",
-            "9183919faffecb013637909aeda3a5c02b71ebf2c9961069c7c60eb0721070da",
-            "3224a01f510e9a04a9c99b568e8ce923201e59a8eece8d667d339f723d5fe1d0"
-          ],
-          "headline": "Voll eingestellt",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, visible game menu overlay, chat overlay, and game HUD elements like inventory and health bar.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player opens game menu, no clear action or outcome visible.",
-            "payoff": "No visible result or payoff from actions taken; game continues as usual without clear win/loss or reaction from player or game mechanics.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04638072981234139,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a title overlay 'Voll eingestellt' centered above the facecam panel, which is a standard edited gaming layout. The facecam panel is enlarged and positioned above the gameplay, which is consistent with a video",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            12.092,
-            24.183
-          ],
-          "final_frame_hashes": [
-            "98ee33f1d2f2a7076981594538bb82654546ede07056bd3b3305ea2edcdbbd28",
-            "13c61d3dac47420478cd39c7eadbf3be169f989c84b089ebfc8433c25687dc4a",
-            "4f664ac66883bd13447205fac933389267f7dda56429efb24d83a36b7f0bcdfe"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "8075b0c6e56985223a263cb9093e88e3bf568a2e93b2aa015fbecf76239fc9cc",
-          "transcript_sha256": "6a71905215de83e7bf61925ca22dd35777a9d3da66bd9519ea4cee25f1e1d8b5"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a title overlay 'Voll eingestellt' centered above the facecam panel, which is a standard edited gaming layout. The facecam panel is enlarged and positioned above the gameplay, which is consistent with a video"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0464, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-212946245-8075b0c6e569-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1819,14 +1681,17 @@
       "streamer": "nooreax",
       "sha256": "8075b0c6e56985223a263cb9093e88e3bf568a2e93b2aa015fbecf76239fc9cc",
       "source_sha256": "b1835257808cbbd8167b6d479b2b3526d735cf0beea4a307c14e7346e104b116",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-212946245-8075b0c6e569.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-212946245-8075b0c6e569.mp4",
       "clip_slug": "BlushingToughMonkeyPipeHype-NQLNPT0AZKvILF2f",
       "original_created_at": "2026-10-24T15:37:32Z",
       "source_deadline": "2026-10-27T15:37:32Z",
       "buffer_post_id": "6adced1e6887a2efc1cb397c",
-      "last_reconcile_at": "2026-10-24T17:40:26Z"
+      "last_reconcile_at": "2026-10-24T17:40:26Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700290241277578528",
+      "sent_at": "2026-10-24T17:40:21Z",
+      "verified_at": "2026-10-24T17:40:28Z"
     }
   ],
   "last_production": {

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2624621525",
-      "clip_slug": "ExcitedManlyHumanOSkomodo-kM4azXIsxoKVDiZp",
-      "streamer": "castcrafter",
-      "source_url": "https://www.twitch.tv/castcrafter/clip/ExcitedManlyHumanOSkomodo-kM4azXIsxoKVDiZp",
-      "original_title": "Gambo hat es zerrissen",
-      "hook": "Gambo hat es zerrissen",
-      "caption": "Gambo hat es zerrissen\n#gaming #minecraft #twitchclips #castcrafter #gamer",
-      "views_at_selection": 239,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-23T23:04:02Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2624621525-78cf50ea4003.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-24T08:23:07Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "78cf50ea40035f1faaf1015569d45cd476698c5696884dff6c7e86e6c4da9e2f",
-      "category": "Minecraft",
-      "transcript_sha256": "84b091677b84c75ef4ad0e1f85782093e029afa7011dc6a9fe104e46a495f937",
-      "asr_requires_correction": true,
-      "source_sha256": "5cd45117c976ee1c61a1a3a863aa0caa79e8f9eb0d868c684db65f9347e66bfc",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-24T08:23:07.295734+00:00",
-        "media_sha256": "78cf50ea40035f1faaf1015569d45cd476698c5696884dff6c7e86e6c4da9e2f",
-        "transcript_sha256": "84b091677b84c75ef4ad0e1f85782093e029afa7011dc6a9fe104e46a495f937",
-        "source_sha256": "5cd45117c976ee1c61a1a3a863aa0caa79e8f9eb0d868c684db65f9347e66bfc",
-        "evidence_sha256": "fd275bd81681e5795f45f8839d50ce48a6973f506b5b63307b198d6a1a69fd42",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "5cd45117c976ee1c61a1a3a863aa0caa79e8f9eb0d868c684db65f9347e66bfc",
-          "reviewed_source_sha256": "5cd45117c976ee1c61a1a3a863aa0caa79e8f9eb0d868c684db65f9347e66bfc",
-          "duration": 30.016,
-          "timestamps": [
-            0.0,
-            14.933,
-            29.866
-          ],
-          "source_frame_hashes": [
-            "1d280ffec86923ceb65b3ec748f549c30932ef1542a40e24ff9eb95d4faa2fb0",
-            "c180982ca29ab51356d1f45b110d109619f595f3d4c46039ac93aa4bba80c6ae",
-            "611d680d9ec7642331da97241078dfe57ae5bbbfb45f95e8190bd210b6263984"
-          ],
-          "headline": "Gambo hat es zerrissen",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, no clear action or outcome visible",
-            "payoff": "No visible outcome or payoff from actions taken",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04032943189140288,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay window with a facecam panel in the top-left corner, a chat window on the left, and a title overlay reading 'Gambo hat es zerrissen'. The gameplay area is centered and contains the game's ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.933,
-            29.866
-          ],
-          "final_frame_hashes": [
-            "21d6950d6cb2b4d59267fc6391118e45d7d81ce445f111706af2df1d4868f953",
-            "a401ec3ab7d7c3701f3b1febf0f70192d6a17a9bc7e8eea7537cad875ebd1241",
-            "6c36cad9b035dcad308456632d1eebec98adf021054953e2f55a3542595e3114"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "78cf50ea40035f1faaf1015569d45cd476698c5696884dff6c7e86e6c4da9e2f",
-          "transcript_sha256": "84b091677b84c75ef4ad0e1f85782093e029afa7011dc6a9fe104e46a495f937"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay window with a facecam panel in the top-left corner, a chat window on the left, and a title overlay reading 'Gambo hat es zerrissen'. The gameplay area is centered and contains the game's "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0403, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2624621525-78cf50ea4003-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1675,14 +1537,17 @@
       "streamer": "castcrafter",
       "sha256": "78cf50ea40035f1faaf1015569d45cd476698c5696884dff6c7e86e6c4da9e2f",
       "source_sha256": "5cd45117c976ee1c61a1a3a863aa0caa79e8f9eb0d868c684db65f9347e66bfc",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2624621525-78cf50ea4003.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2624621525-78cf50ea4003.mp4",
       "clip_slug": "ExcitedManlyHumanOSkomodo-kM4azXIsxoKVDiZp",
       "original_created_at": "2026-10-23T23:04:02Z",
       "source_deadline": "2026-10-26T23:04:02Z",
       "buffer_post_id": "6adc77858b3d437ddcae1978",
-      "last_reconcile_at": "2026-10-24T09:18:45Z"
+      "last_reconcile_at": "2026-10-24T09:18:45Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700160933401857312",
+      "sent_at": "2026-10-24T09:18:36Z",
+      "verified_at": "2026-10-24T09:18:46Z"
     }
   ],
   "last_production": {

@@ -1740,6 +1740,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700207087552417057",
       "sent_at": "2026-10-24T12:17:43Z",
       "verified_at": "2026-10-24T12:17:57Z"
+    },
+    {
+      "clip_id": "2186789910",
+      "reserved_at": "2026-10-24T13:30:54Z",
+      "streamer": "dhalucard",
+      "sha256": "feb507e5a19f437c16ddc2fca6ded7e77955d295b0be36fcd0b1f042b05d8d36",
+      "source_sha256": "c70f6171e30e3676a56282849f795a19d7c2808776bab5363950a838c90e6328",
+      "status": "reserved",
+      "asset_title": "tiktok14-2186789910-feb507e5a19f.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/dhalucard-2186789910-feb507e5a19f.mp4",
+      "clip_slug": "BigFurryBubbleteaArgieB8-XhCXtJzzP8ar2R2f",
+      "original_created_at": "2026-10-24T10:23:09Z",
+      "source_deadline": "2026-10-27T10:23:09Z"
     }
   ],
   "last_production": {

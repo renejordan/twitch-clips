@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3803975482",
-      "clip_slug": "PiercingProtectiveDogePrimeMe-IMtggHbHBWnS3y8y",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/PiercingProtectiveDogePrimeMe-IMtggHbHBWnS3y8y",
-      "original_title": "Die Sucht",
-      "hook": "Die Sucht",
-      "caption": "Die Sucht\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 277,
-      "original_duration": 26.0,
-      "original_created_at": "2026-10-24T18:53:03Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3803975482-5e4efe15804f.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-24T19:24:54Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "5e4efe15804fa6a0f7555f8cd5d68d3c94b69ef912bdc5b295df8470bf4044cc",
-      "category": "Minecraft",
-      "transcript_sha256": "0b41511165532ad48c886993b07fa3166ea5c9429359cdbbd2383426343d43ae",
-      "asr_requires_correction": true,
-      "source_sha256": "f55261e9925bd96a96d3cb98555ae7b9fd517bdce26603fd03228eb9ade0642a",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-24T19:24:54.412475+00:00",
-        "media_sha256": "5e4efe15804fa6a0f7555f8cd5d68d3c94b69ef912bdc5b295df8470bf4044cc",
-        "transcript_sha256": "0b41511165532ad48c886993b07fa3166ea5c9429359cdbbd2383426343d43ae",
-        "source_sha256": "f55261e9925bd96a96d3cb98555ae7b9fd517bdce26603fd03228eb9ade0642a",
-        "evidence_sha256": "e701878e0042b35e1746f17a65c932dba6fe0551a26a85d3dbfbc0c1a6544cdb",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "f55261e9925bd96a96d3cb98555ae7b9fd517bdce26603fd03228eb9ade0642a",
-          "reviewed_source_sha256": "f55261e9925bd96a96d3cb98555ae7b9fd517bdce26603fd03228eb9ade0642a",
-          "duration": 26.001,
-          "timestamps": [
-            0.0,
-            12.926,
-            25.851
-          ],
-          "source_frame_hashes": [
-            "fecb8334d4b7b656f41d85b3b626ec3425308742497c71afcb61253438755037",
-            "dde76c6a65c4ee9485fe8fbd3af77d8c17f4ce6408430b3495670bb7faef630e",
-            "eaa33b99528d4ad29c184078d914d910d9459a1193eb3d2c268fdb44dd9aa25e"
-          ],
-          "headline": "Die Sucht",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner with gameplay, HUD, and map visible, no browser or video player",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft at night with aurora, no action or payoff visible",
-            "payoff": "No visible outcome or reaction from gameplay or player, no win/loss or event conclusion visible in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.03947847081078768,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a purple aurora sky, a minimap in the top-left corner, and a player's inventory bar at the bottom. The streamer's facecam is visible in the bottom-right corner, with a microphone in",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            12.926,
-            25.851
-          ],
-          "final_frame_hashes": [
-            "51c9c9c0af503429258358a96e974ac021470dbbb3d0f6a40ef8a5850f9be5d2",
-            "962cf6f9d1ab6a0ff9469ad218a1e931d37c2afcea14354a470ca77d0270a68f",
-            "40ee7b06d15e1dcea0a9da50561d20999a89c37f8f22707a8a665f98ac3830f3"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "5e4efe15804fa6a0f7555f8cd5d68d3c94b69ef912bdc5b295df8470bf4044cc",
-          "transcript_sha256": "0b41511165532ad48c886993b07fa3166ea5c9429359cdbbd2383426343d43ae"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a purple aurora sky, a minimap in the top-left corner, and a player's inventory bar at the bottom. The streamer's facecam is visible in the bottom-right corner, with a microphone in"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0395, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3803975482-5e4efe15804f-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1873,14 +1735,17 @@
       "streamer": "trymacs",
       "sha256": "5e4efe15804fa6a0f7555f8cd5d68d3c94b69ef912bdc5b295df8470bf4044cc",
       "source_sha256": "f55261e9925bd96a96d3cb98555ae7b9fd517bdce26603fd03228eb9ade0642a",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3803975482-5e4efe15804f.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3803975482-5e4efe15804f.mp4",
       "clip_slug": "PiercingProtectiveDogePrimeMe-IMtggHbHBWnS3y8y",
       "original_created_at": "2026-10-24T18:53:03Z",
       "source_deadline": "2026-10-27T18:53:03Z",
       "buffer_post_id": "6add131c8b3d437ddcd7f90a",
-      "last_reconcile_at": "2026-10-24T20:22:42Z"
+      "last_reconcile_at": "2026-10-24T20:22:42Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700332016138554656",
+      "sent_at": "2026-10-24T20:22:27Z",
+      "verified_at": "2026-10-24T20:22:43Z"
     }
   ],
   "last_production": {

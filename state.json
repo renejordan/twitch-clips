@@ -1851,27 +1851,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-24T17:43:44Z",
+    "at": "2026-10-24T18:39:48Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 105,
-      "listing_age_prefilter": 780,
-      "discovered": 784,
-      "metadata_requested": 730,
-      "qualified_metadata": 374,
-      "gaming_category_not_verified": 281,
+      "listing_duration_prefilter": 107,
+      "listing_age_prefilter": 791,
+      "discovered": 770,
+      "metadata_requested": 719,
+      "gaming_category_not_verified": 262,
+      "qualified_metadata": 382,
       "title_too_short": 75,
-      "duplicate_source_event": 16,
+      "duplicate_source_event": 13,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2089435146",
-      "clip_slug": "ObliviousColdGarlicBrokeBack-rVReJHVnXHVgbMGm",
-      "streamer": "repaz"
+      "clip_id": "3101807848",
+      "clip_slug": "MoralBloodyNigiriJebaited-NWSXxBUT8zRJsR9A",
+      "streamer": "zarbex"
     }
   },
   "prepare_scans": {
@@ -2307,8 +2307,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-24T17",
-  "last_prefetch_hour": "2026-10-24T17",
+  "last_prepare_hour": "2026-10-24T18",
+  "last_prefetch_hour": "2026-10-24T18",
   "archived_verified_count": 4,
   "used_ids": [
     "1411062380",

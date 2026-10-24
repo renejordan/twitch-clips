@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2533905876",
+      "clip_slug": "RefinedSmoothEmuGrammarKing-HzvaC-rpzWNDCqNo",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/RefinedSmoothEmuGrammarKing-HzvaC-rpzWNDCqNo",
+      "original_title": "Pull no. 2 HAHAHAHAHA",
+      "hook": "Pull no. 2 HAHAHAHAHA",
+      "caption": "Pull no. 2 HAHAHAHAHA\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 199,
+      "original_duration": 18.0,
+      "original_created_at": "2026-10-24T18:49:01Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-2533905876-7e6abf401e5e.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-24T20:26:48Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "7e6abf401e5ed2a6ed30461e97b3261ef9c7fe6587b1d40bcf5fdf7529747854",
+      "category": "Minecraft",
+      "transcript_sha256": "6bd67705a04464516c4b244e223cf875bfb628956fb6e0ca54299dad049fe636",
+      "asr_requires_correction": true,
+      "source_sha256": "1f9a54269c670a38016ba8259997b8dc0a536237d826f26c42062b77e78925ff",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-24T20:26:48.329550+00:00",
+        "media_sha256": "7e6abf401e5ed2a6ed30461e97b3261ef9c7fe6587b1d40bcf5fdf7529747854",
+        "transcript_sha256": "6bd67705a04464516c4b244e223cf875bfb628956fb6e0ca54299dad049fe636",
+        "source_sha256": "1f9a54269c670a38016ba8259997b8dc0a536237d826f26c42062b77e78925ff",
+        "evidence_sha256": "6feabb351f0e3bad128da9cfa3f8c783c827a6a1b5966d21f749438262140360",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "1f9a54269c670a38016ba8259997b8dc0a536237d826f26c42062b77e78925ff",
+          "reviewed_source_sha256": "1f9a54269c670a38016ba8259997b8dc0a536237d826f26c42062b77e78925ff",
+          "duration": 18.85,
+          "timestamps": [
+            0.0,
+            9.35,
+            18.7
+          ],
+          "source_frame_hashes": [
+            "3e170bc1bc36cb0ec248643c7375ea0930f69dc87cc0de2d0c46508cdf80b29b",
+            "c2e62b7b20aee56fce3fa140c1aa102ef495a58cb4989da57ab53f08286344f2",
+            "4af5735bfbeb3bb07efe8583f12fbad5ab7e5c139b6121ae9d9fa511ec9b3f23"
+          ],
+          "headline": "Pull no. 2 HAHAHAHAHA",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in corner, game UI and chat visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft, visible HUD and chat, no clear action or outcome",
+            "payoff": "No visible outcome or payoff from actions taken in frames",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.06357174975811018,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with visible HUD elements, chat, and a facecam panel above the gameplay. The title 'Pull no. 2 HAHAHAHAHA' is clearly visible at the top. The gameplay area is not cropped, and the '",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            9.35,
+            18.7
+          ],
+          "final_frame_hashes": [
+            "53c89cee6a57e477e934d0f328c8bb61da4ca12f7711783d4d54b51853b62e76",
+            "3b28b8291285da603d159fa4d763ea9156ca83a26c8a8a3f19a16cf6ed179e96",
+            "126fe6b503873df57b240913c31b0a7fbd6cc0aeaaa467c67e6155cac77b67b0"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "7e6abf401e5ed2a6ed30461e97b3261ef9c7fe6587b1d40bcf5fdf7529747854",
+          "transcript_sha256": "6bd67705a04464516c4b244e223cf875bfb628956fb6e0ca54299dad049fe636"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with visible HUD elements, chat, and a facecam panel above the gameplay. The title 'Pull no. 2 HAHAHAHAHA' is clearly visible at the top. The gameplay area is not cropped, and the '"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0636, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-2533905876-7e6abf401e5e-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "311924564",

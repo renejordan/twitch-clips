@@ -1887,27 +1887,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-24T19:24:54Z",
+    "at": "2026-10-24T20:26:48Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 101,
-      "listing_age_prefilter": 808,
-      "discovered": 752,
-      "metadata_requested": 701,
-      "qualified_metadata": 367,
-      "title_too_short": 77,
-      "gaming_category_not_verified": 257,
+      "listing_duration_prefilter": 97,
+      "listing_age_prefilter": 826,
+      "discovered": 727,
+      "metadata_requested": 676,
+      "qualified_metadata": 360,
+      "gaming_category_not_verified": 241,
+      "title_too_short": 75,
       "duplicate_source_event": 14,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3803975482",
-      "clip_slug": "PiercingProtectiveDogePrimeMe-IMtggHbHBWnS3y8y",
-      "streamer": "trymacs"
+      "clip_id": "2533905876",
+      "clip_slug": "RefinedSmoothEmuGrammarKing-HzvaC-rpzWNDCqNo",
+      "streamer": "nooreax"
     }
   },
   "prepare_scans": {
@@ -2343,8 +2343,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-24T19",
-  "last_prefetch_hour": "2026-10-24T19",
+  "last_prepare_hour": "2026-10-24T20",
+  "last_prefetch_hour": "2026-10-24T20",
   "archived_verified_count": 4,
   "used_ids": [
     "1411062380",

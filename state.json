@@ -1711,12 +1711,13 @@
       "streamer": "castcrafter",
       "sha256": "be34098a7459fdfd7b909f50a9526ca99392853de16a270bcca3790f453e3b54",
       "source_sha256": "3704b853b586947793bcbc21c644dd773f1eb66235d2dd4848f2c78daa974989",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2142163357-be34098a7459.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2142163357-be34098a7459.mp4",
       "clip_slug": "GiantIronicHummingbirdMcaT-UutKXMEYmjnItcWt",
       "original_created_at": "2026-10-23T20:35:43Z",
-      "source_deadline": "2026-10-26T20:35:43Z"
+      "source_deadline": "2026-10-26T20:35:43Z",
+      "buffer_post_id": "6adc93a48b3d437ddcb58fbf"
     }
   ],
   "last_production": {

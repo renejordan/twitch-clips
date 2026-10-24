@@ -1812,6 +1812,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700274902229699872",
       "sent_at": "2026-10-24T16:40:48Z",
       "verified_at": "2026-10-24T16:41:01Z"
+    },
+    {
+      "clip_id": "212946245",
+      "reserved_at": "2026-10-24T17:38:34Z",
+      "streamer": "nooreax",
+      "sha256": "8075b0c6e56985223a263cb9093e88e3bf568a2e93b2aa015fbecf76239fc9cc",
+      "source_sha256": "b1835257808cbbd8167b6d479b2b3526d735cf0beea4a307c14e7346e104b116",
+      "status": "reserved",
+      "asset_title": "tiktok14-212946245-8075b0c6e569.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-212946245-8075b0c6e569.mp4",
+      "clip_slug": "BlushingToughMonkeyPipeHype-NQLNPT0AZKvILF2f",
+      "original_created_at": "2026-10-24T15:37:32Z",
+      "source_deadline": "2026-10-27T15:37:32Z"
     }
   ],
   "last_production": {

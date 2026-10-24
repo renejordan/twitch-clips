@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3369427252",
-      "clip_slug": "KitschyCoweringEggGrammarKing-XvR50wD2sCWCk6WC",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/KitschyCoweringEggGrammarKing-XvR50wD2sCWCk6WC",
-      "original_title": "nooreax kann nicht D-tappen",
-      "hook": "nooreax kann nicht D-tappen",
-      "caption": "nooreax kann nicht D-tappen\n#gaming #minecraft #twitchclips #papaplatte #gamer",
-      "views_at_selection": 89,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-24T12:52:00Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-3369427252-dd154a1731e4.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-24T14:26:24Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "dd154a1731e446550e14616f6434a80aab8a60ff1b3cda87cdebb8bbbcbc0b4c",
-      "category": "Minecraft",
-      "transcript_sha256": "4c92383fb9077dfeef15f36ea06e015009defe585c8488be96cf3ca20776d7ce",
-      "asr_requires_correction": true,
-      "source_sha256": "98733e0ece0198ba09ad4d260065d14a0810aaee9f3b3a5dd1a87dfb61ebdca6",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-24T14:26:24.408665+00:00",
-        "media_sha256": "dd154a1731e446550e14616f6434a80aab8a60ff1b3cda87cdebb8bbbcbc0b4c",
-        "transcript_sha256": "4c92383fb9077dfeef15f36ea06e015009defe585c8488be96cf3ca20776d7ce",
-        "source_sha256": "98733e0ece0198ba09ad4d260065d14a0810aaee9f3b3a5dd1a87dfb61ebdca6",
-        "evidence_sha256": "0d45a1f9090fc1a54ec24cdfc005ea2611aa75c2039f7559d4067cfd9f09a9d0",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "98733e0ece0198ba09ad4d260065d14a0810aaee9f3b3a5dd1a87dfb61ebdca6",
-          "reviewed_source_sha256": "98733e0ece0198ba09ad4d260065d14a0810aaee9f3b3a5dd1a87dfb61ebdca6",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "9a4818085e7ff173a65e7c5d3b8a5aec1a729620bad29674d940d6e060f4ee6c",
-            "18567be8f69119520899250dbf61cf1f5a5e8ed0d5a26be2c0092d46e5ff7f36",
-            "836663817da943679c1eebf8c8a584864dcac2de1e9b2481ed67b234c059f4ec"
-          ],
-          "headline": "nooreax kann nicht D-tappen",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, visible game HUD with inventory and chat, live chat overlay, and small inset map view.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player explores a constructed area with stone and concrete blocks.",
-            "payoff": "No clear outcome or reaction visible; gameplay continues without significant event or payoff.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.07866470455655399,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a constructed area made of stone and concrete blocks, consistent with the hypothesis. The player's facecam is visible in the top right corner, which is a common editing style.🎮",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "e2dee2e9a0845f1300ff679f1c8f0a5ab02a7597426a63bd33062319a0e43153",
-            "221686cb6636324f1148f9ebe2b80e15d09c0cb0c66cef513a668f82528a2e5c",
-            "4510fb76fa71f462b0b341ac98e626b2d3142068eb755b3fa662ef7279747639"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "dd154a1731e446550e14616f6434a80aab8a60ff1b3cda87cdebb8bbbcbc0b4c",
-          "transcript_sha256": "4c92383fb9077dfeef15f36ea06e015009defe585c8488be96cf3ca20776d7ce"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a constructed area made of stone and concrete blocks, consistent with the hypothesis. The player's facecam is visible in the top right corner, which is a common editing style.🎮"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0787, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-3369427252-dd154a1731e4-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1783,14 +1645,17 @@
       "streamer": "papaplatte",
       "sha256": "dd154a1731e446550e14616f6434a80aab8a60ff1b3cda87cdebb8bbbcbc0b4c",
       "source_sha256": "98733e0ece0198ba09ad4d260065d14a0810aaee9f3b3a5dd1a87dfb61ebdca6",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3369427252-dd154a1731e4.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-3369427252-dd154a1731e4.mp4",
       "clip_slug": "KitschyCoweringEggGrammarKing-XvR50wD2sCWCk6WC",
       "original_created_at": "2026-10-24T12:52:00Z",
       "source_deadline": "2026-10-27T12:52:00Z",
       "buffer_post_id": "6adcceb50b5343d0708dc637",
-      "last_reconcile_at": "2026-10-24T15:34:54Z"
+      "last_reconcile_at": "2026-10-24T15:34:54Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700256792760061217",
+      "sent_at": "2026-10-24T15:32:05Z",
+      "verified_at": "2026-10-24T15:34:56Z"
     }
   ],
   "last_production": {

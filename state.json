@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2089435146",
-      "clip_slug": "ObliviousColdGarlicBrokeBack-rVReJHVnXHVgbMGm",
-      "streamer": "repaz",
-      "source_url": "https://www.twitch.tv/repaz/clip/ObliviousColdGarlicBrokeBack-rVReJHVnXHVgbMGm",
-      "original_title": "Perle Pull",
-      "hook": "Perle Pull",
-      "caption": "Perle Pull\n#gaming #minecraft #twitchclips #repaz #gamer",
-      "views_at_selection": 170,
-      "original_duration": 55.0,
-      "original_created_at": "2026-10-24T16:50:12Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2089435146-0651371e6bba.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-24T17:43:44Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "0651371e6bbabd999d575a5dfc8e90112e4d71c5b5443f00cd3f5635f0d69adb",
-      "category": "Minecraft",
-      "transcript_sha256": "27479bd6c1f33446908faebe06a62e3f24d0a083ef1fae5acf1dafe6ec2c5426",
-      "asr_requires_correction": true,
-      "source_sha256": "56f528723c1c9030dbd47da49cb5b68466528c9e047c5402dc8ba85e2587c713",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-24T17:43:44.900191+00:00",
-        "media_sha256": "0651371e6bbabd999d575a5dfc8e90112e4d71c5b5443f00cd3f5635f0d69adb",
-        "transcript_sha256": "27479bd6c1f33446908faebe06a62e3f24d0a083ef1fae5acf1dafe6ec2c5426",
-        "source_sha256": "56f528723c1c9030dbd47da49cb5b68466528c9e047c5402dc8ba85e2587c713",
-        "evidence_sha256": "639c29eb2744365eb65b505cc60b3a8d6012ea44621c872967116d33e5e6dede",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "56f528723c1c9030dbd47da49cb5b68466528c9e047c5402dc8ba85e2587c713",
-          "reviewed_source_sha256": "56f528723c1c9030dbd47da49cb5b68466528c9e047c5402dc8ba85e2587c713",
-          "duration": 55.168,
-          "timestamps": [
-            0.0,
-            27.509,
-            55.018
-          ],
-          "source_frame_hashes": [
-            "65bc8a4fe1d532163e53a0f7cebe036be9dbb3900a8cfba9c8fc4685aaab61a9",
-            "4c4d342174ae87a284fe95bbfb3460cb9e6e2f498a3169d808ee70376e2e8aca",
-            "801e7172d511fc8901504cdadb1f776b1f6f6ff4f07818e75a8a8d17bd9dbaab"
-          ],
-          "headline": "Perle Pull",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with inventory and chat, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player moves through a Minecraft world with inventory and chat visible.",
-            "payoff": "No clear outcome or payoff visible in frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.024186889954233095,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, which is a common edited gaming layout. The title 'Perle Pull' is clearly visible at the top center. The game HUD and inventory are fully",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            27.509,
-            55.018
-          ],
-          "final_frame_hashes": [
-            "02b897bb9ec571117cad48088abbd3c52a41b2327b6b62daa66d225366e3672e",
-            "8bd4a83d5eaf38b4e7e77d05b4c39c7f5196f547775b492b05a449e87b542f1a",
-            "baeb8cda5622024894f5ce9f3744f9c50a55502f1325f5e2245cf8dae9e0f8ad"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "0651371e6bbabd999d575a5dfc8e90112e4d71c5b5443f00cd3f5635f0d69adb",
-          "transcript_sha256": "27479bd6c1f33446908faebe06a62e3f24d0a083ef1fae5acf1dafe6ec2c5426"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, which is a common edited gaming layout. The title 'Perle Pull' is clearly visible at the top center. The game HUD and inventory are fully"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0242, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2089435146-0651371e6bba-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1837,14 +1699,17 @@
       "streamer": "repaz",
       "sha256": "0651371e6bbabd999d575a5dfc8e90112e4d71c5b5443f00cd3f5635f0d69adb",
       "source_sha256": "56f528723c1c9030dbd47da49cb5b68466528c9e047c5402dc8ba85e2587c713",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2089435146-0651371e6bba.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2089435146-0651371e6bba.mp4",
       "clip_slug": "ObliviousColdGarlicBrokeBack-rVReJHVnXHVgbMGm",
       "original_created_at": "2026-10-24T16:50:12Z",
       "source_deadline": "2026-10-27T16:50:12Z",
       "buffer_post_id": "6adcf910e4be8a4d86720d80",
-      "last_reconcile_at": "2026-10-24T18:34:53Z"
+      "last_reconcile_at": "2026-10-24T18:34:53Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700303376424258848",
+      "sent_at": "2026-10-24T18:31:25Z",
+      "verified_at": "2026-10-24T18:34:54Z"
     }
   ],
   "last_production": {

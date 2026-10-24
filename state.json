@@ -1650,6 +1650,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700129736856587553",
       "sent_at": "2026-10-24T07:17:35Z",
       "verified_at": "2026-10-24T07:17:49Z"
+    },
+    {
+      "clip_id": "4282988255",
+      "reserved_at": "2026-10-24T08:16:47Z",
+      "streamer": "zarbex",
+      "sha256": "748dafc6dee5f664c45e3b4495c94c6c49c91f2e0ee68a88186a5e2069bac95d",
+      "source_sha256": "cdb1ee4ecce3bf207f600ff85a8536781cdbc59fc8dbc0e039a7c376743f0d84",
+      "status": "reserved",
+      "asset_title": "tiktok14-4282988255-748dafc6dee5.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-4282988255-748dafc6dee5.mp4",
+      "clip_slug": "AggressiveCarelessClintmullinsDansGame-zOv-1AkY7p5rxMSW",
+      "original_created_at": "2026-10-23T20:22:54Z",
+      "source_deadline": "2026-10-26T20:22:54Z"
     }
   ],
   "last_production": {

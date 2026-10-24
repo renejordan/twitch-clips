@@ -1743,27 +1743,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-24T11:22:50Z",
+    "at": "2026-10-24T12:30:02Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 106,
-      "listing_age_prefilter": 718,
-      "discovered": 825,
-      "metadata_requested": 771,
-      "gaming_category_not_verified": 345,
-      "title_too_short": 73,
-      "qualified_metadata": 353,
-      "duplicate_source_event": 10,
+      "listing_duration_prefilter": 108,
+      "listing_age_prefilter": 747,
+      "discovered": 814,
+      "metadata_requested": 759,
+      "gaming_category_not_verified": 315,
+      "title_too_short": 74,
+      "qualified_metadata": 370,
+      "duplicate_source_event": 14,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "945475581",
-      "clip_slug": "FaithfulOriginalFlamingoHotPokket-_BnRobp5LrvdKF-V",
-      "streamer": "nooreax"
+      "clip_id": "2186789910",
+      "clip_slug": "BigFurryBubbleteaArgieB8-XhCXtJzzP8ar2R2f",
+      "streamer": "dhalucard"
     }
   },
   "prepare_scans": {
@@ -2199,8 +2199,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-24T11",
-  "last_prefetch_hour": "2026-10-24T11",
+  "last_prepare_hour": "2026-10-24T12",
+  "last_prefetch_hour": "2026-10-24T12",
   "archived_verified_count": 4,
   "used_ids": [
     "1411062380",

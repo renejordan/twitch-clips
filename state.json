@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2186789910",
-      "clip_slug": "BigFurryBubbleteaArgieB8-XhCXtJzzP8ar2R2f",
-      "streamer": "dhalucard",
-      "source_url": "https://www.twitch.tv/dhalucard/clip/BigFurryBubbleteaArgieB8-XhCXtJzzP8ar2R2f",
-      "original_title": "Dhalucard Archipelago Quest (quallenfelder)",
-      "hook": "Dhalucard Archipelago Quest (quallenfelder)",
-      "caption": "Dhalucard Archipelago Quest (quallenfelder)\n#gaming #gamingde #twitchclips #dhalucard #gamer",
-      "views_at_selection": 293,
-      "original_duration": 35.0,
-      "original_created_at": "2026-10-24T10:23:09Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/dhalucard-2186789910-feb507e5a19f.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-24T12:30:02Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "feb507e5a19f437c16ddc2fca6ded7e77955d295b0be36fcd0b1f042b05d8d36",
-      "category": "Deadlock",
-      "transcript_sha256": "cc12d674f18269cb90705ddffc02580abbd0c55053fd4630e494ede39f618da1",
-      "asr_requires_correction": true,
-      "source_sha256": "c70f6171e30e3676a56282849f795a19d7c2808776bab5363950a838c90e6328",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-24T12:30:02.753324+00:00",
-        "media_sha256": "feb507e5a19f437c16ddc2fca6ded7e77955d295b0be36fcd0b1f042b05d8d36",
-        "transcript_sha256": "cc12d674f18269cb90705ddffc02580abbd0c55053fd4630e494ede39f618da1",
-        "source_sha256": "c70f6171e30e3676a56282849f795a19d7c2808776bab5363950a838c90e6328",
-        "evidence_sha256": "53bacfca88497d1e93d6eb8d0cf88266655cab09b25775b6fe532e415398f005",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "c70f6171e30e3676a56282849f795a19d7c2808776bab5363950a838c90e6328",
-          "reviewed_source_sha256": "c70f6171e30e3676a56282849f795a19d7c2808776bab5363950a838c90e6328",
-          "duration": 35.418,
-          "timestamps": [
-            0.0,
-            17.634,
-            35.268
-          ],
-          "source_frame_hashes": [
-            "47e9c2ccf287e3c286c6e75e7a1c11e4fb354d2ab6558e63b6f197d2832a9b90",
-            "ed8598bb2fea20cfa03dcd83cc8202bb5c4ac2eab2611c67ad415ff4b449f865",
-            "ef8d6465eea34311cfc60e15a2c2bcc4fa06d6249a4af7aac58d693d4c4fed1e"
-          ],
-          "headline": "Dhalucard Archipelago Quest (quallenfelder)",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in a corner over gameplay is visible, with game HUD elements like health, inventory, and chat visible on screen.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in the frames.",
-            "payoff": "No clear payoff visible in the frames.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.045645267338644366,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a direct game capture with a facecam panel above gameplay, which is a normal edited gaming layout. The Minecraft menus, HUD, and stream chat are not browser elements; there are no tabs, address bars, or desktop window edges.",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            17.634,
-            35.268
-          ],
-          "final_frame_hashes": [
-            "89344bc3d7f21a0470db95d181f7cafea60f9e82ed81acb983720f1e8e3c239b",
-            "f4181b08dbe3658a3536e723e597c353d33b213d104997f5e85a68ada7198461",
-            "f22901ddbd52110b4ffb3788f77b0c1987200c3ef9d9b6a09859db9015308bde"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "feb507e5a19f437c16ddc2fca6ded7e77955d295b0be36fcd0b1f042b05d8d36",
-          "transcript_sha256": "cc12d674f18269cb90705ddffc02580abbd0c55053fd4630e494ede39f618da1"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a direct game capture with a facecam panel above gameplay, which is a normal edited gaming layout. The Minecraft menus, HUD, and stream chat are not browser elements; there are no tabs, address bars, or desktop window edges."
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0456, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/dhalucard-2186789910-feb507e5a19f-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1747,14 +1609,17 @@
       "streamer": "dhalucard",
       "sha256": "feb507e5a19f437c16ddc2fca6ded7e77955d295b0be36fcd0b1f042b05d8d36",
       "source_sha256": "c70f6171e30e3676a56282849f795a19d7c2808776bab5363950a838c90e6328",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2186789910-feb507e5a19f.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/dhalucard-2186789910-feb507e5a19f.mp4",
       "clip_slug": "BigFurryBubbleteaArgieB8-XhCXtJzzP8ar2R2f",
       "original_created_at": "2026-10-24T10:23:09Z",
       "source_deadline": "2026-10-27T10:23:09Z",
       "buffer_post_id": "6adcb310e4be8a4d865ed5c4",
-      "last_reconcile_at": "2026-10-24T13:32:53Z"
+      "last_reconcile_at": "2026-10-24T13:32:53Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700226427144146208",
+      "sent_at": "2026-10-24T13:32:49Z",
+      "verified_at": "2026-10-24T13:32:54Z"
     }
   ],
   "last_production": {

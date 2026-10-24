@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1465792884",
-      "clip_slug": "SavoryPrettyGoshawkCoolCat-ZMXluasEiVeSiOhf",
-      "streamer": "castcrafter",
-      "source_url": "https://www.twitch.tv/castcrafter/clip/SavoryPrettyGoshawkCoolCat-ZMXluasEiVeSiOhf",
-      "original_title": "Hier ist der Admiiiin",
-      "hook": "Hier ist der Admiiiin",
-      "caption": "Hier ist der Admiiiin\n#gaming #minecraft #twitchclips #castcrafter #gamer",
-      "views_at_selection": 303,
-      "original_duration": 36.0,
-      "original_created_at": "2026-10-23T21:30:17Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1465792884-4f7b6a8f9046.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-24T09:24:33Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "4f7b6a8f904673149defefbea4562ff23fe4d4b798fb08b02ab73c75f2c88fb7",
-      "category": "Minecraft",
-      "transcript_sha256": "08bcf062c992be4c2025ae0857f2e4b1ff959b14eb2ce2e87e18ac03f8abc06f",
-      "asr_requires_correction": true,
-      "source_sha256": "b48261d9c5459fb388fc9f3616167537ae0b024985cb20b3fd08b9d5642e2a69",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-24T09:24:33.104700+00:00",
-        "media_sha256": "4f7b6a8f904673149defefbea4562ff23fe4d4b798fb08b02ab73c75f2c88fb7",
-        "transcript_sha256": "08bcf062c992be4c2025ae0857f2e4b1ff959b14eb2ce2e87e18ac03f8abc06f",
-        "source_sha256": "b48261d9c5459fb388fc9f3616167537ae0b024985cb20b3fd08b9d5642e2a69",
-        "evidence_sha256": "60392df4b561792651b5d19516286387a02b45ed79c1192c413e434835dda9a9",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "b48261d9c5459fb388fc9f3616167537ae0b024985cb20b3fd08b9d5642e2a69",
-          "reviewed_source_sha256": "b48261d9c5459fb388fc9f3616167537ae0b024985cb20b3fd08b9d5642e2a69",
-          "duration": 36.4,
-          "timestamps": [
-            0.0,
-            18.125,
-            36.25
-          ],
-          "source_frame_hashes": [
-            "01c5fec1c27dc09330b40cbbe9fc182e04c2ffc15c0743b1af6217622833c64f",
-            "380d80a1804cebf575ea707676bd589f654c2a7609ff452e4f614cd75f4e92cd",
-            "6b61a1e2eccee8ef38a40e89d7701fcde78f0dde5f254e7242843c3ab74ba42b"
-          ],
-          "headline": "Hier ist der Admiiiin",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a Minecraft world with a tall structure and a pickaxe in hand, no clear action or outcome visible.",
-            "payoff": "No visible outcome or payoff from the action; player is simply holding a pickaxe and standing in a structure, with no clear win or loss indicated by game HUD or chat text.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.07099259279852294,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a tall structure and a pickaxe in hand, consistent with the source event hypothesis. The facecam panel is visible in the top-left corner, which is a common edited gaming layout",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            18.125,
-            36.25
-          ],
-          "final_frame_hashes": [
-            "ce144ebab23215dae44de3276e14da973b5061c2a30d8f3fc93dc6f0d53bd430",
-            "b17300371d89f102be802672dcb8b9b4c6c4dd6ac4b40ad6679cef8a6ecd58de",
-            "380aa24818e1b2f47571ba30377763fb4960f4ae2e786a7d1bf931b280ccd17e"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "4f7b6a8f904673149defefbea4562ff23fe4d4b798fb08b02ab73c75f2c88fb7",
-          "transcript_sha256": "08bcf062c992be4c2025ae0857f2e4b1ff959b14eb2ce2e87e18ac03f8abc06f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a tall structure and a pickaxe in hand, consistent with the source event hypothesis. The facecam panel is visible in the top-left corner, which is a common edited gaming layout"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0710, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1465792884-4f7b6a8f9046-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1693,14 +1555,17 @@
       "streamer": "castcrafter",
       "sha256": "4f7b6a8f904673149defefbea4562ff23fe4d4b798fb08b02ab73c75f2c88fb7",
       "source_sha256": "b48261d9c5459fb388fc9f3616167537ae0b024985cb20b3fd08b9d5642e2a69",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1465792884-4f7b6a8f9046.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1465792884-4f7b6a8f9046.mp4",
       "clip_slug": "SavoryPrettyGoshawkCoolCat-ZMXluasEiVeSiOhf",
       "original_created_at": "2026-10-23T21:30:17Z",
       "source_deadline": "2026-10-26T21:30:17Z",
       "buffer_post_id": "6adc85143d5b27036b7a959a",
-      "last_reconcile_at": "2026-10-24T10:16:46Z"
+      "last_reconcile_at": "2026-10-24T10:16:46Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700175851135995169",
+      "sent_at": "2026-10-24T10:16:28Z",
+      "verified_at": "2026-10-24T10:16:47Z"
     }
   ],
   "last_production": {

@@ -1639,12 +1639,13 @@
       "streamer": "castcrafter",
       "sha256": "ff6e0a396a34addc6a1fbdfe2bf5231e5d7747a735388179bc3de3f1293cf635",
       "source_sha256": "3ca277115abb2de653197a4ab38ac3c5500baf87997cb2add41a3658f03956a1",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-594654959-ff6e0a396a34.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-594654959-ff6e0a396a34.mp4",
       "clip_slug": "RealReliableSashimiBibleThump-HvsMtdlc2YIPxcz_",
       "original_created_at": "2026-10-23T21:12:08Z",
-      "source_deadline": "2026-10-26T21:12:08Z"
+      "source_deadline": "2026-10-26T21:12:08Z",
+      "buffer_post_id": "6adc5b278b3d437ddca771a0"
     }
   ],
   "last_production": {

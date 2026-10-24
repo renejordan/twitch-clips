@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3081137165",
-      "clip_slug": "LittleCrispyStapleBibleThump-IpEb3NebYhr0YzZo",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/LittleCrispyStapleBibleThump-IpEb3NebYhr0YzZo",
-      "original_title": "LVaper",
-      "hook": "LVaper",
-      "caption": "LVaper\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 124,
-      "original_duration": 24.0,
-      "original_created_at": "2026-10-24T11:30:40Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-3081137165-aaf95c061fff.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-24T13:39:10Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "aaf95c061fffd17e98810fe4ad4b2a44da14164a992b18234e677f663c0e66d7",
-      "category": "Minecraft",
-      "transcript_sha256": "9ad97fde92e1c47ba833ab1cb4c4a4381c66c3eb580ac69ead0cf37529aa1633",
-      "asr_requires_correction": true,
-      "source_sha256": "f8bc10b517858372b90add223770f9a8657383ad20cbe1338962a2540192aecb",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-24T13:39:10.577945+00:00",
-        "media_sha256": "aaf95c061fffd17e98810fe4ad4b2a44da14164a992b18234e677f663c0e66d7",
-        "transcript_sha256": "9ad97fde92e1c47ba833ab1cb4c4a4381c66c3eb580ac69ead0cf37529aa1633",
-        "source_sha256": "f8bc10b517858372b90add223770f9a8657383ad20cbe1338962a2540192aecb",
-        "evidence_sha256": "e3c15a8b01454999650a133cc4c2cfe9baafa2142c2785638df9fcd2018fe797",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "f8bc10b517858372b90add223770f9a8657383ad20cbe1338962a2540192aecb",
-          "reviewed_source_sha256": "f8bc10b517858372b90add223770f9a8657383ad20cbe1338962a2540192aecb",
-          "duration": 24.233333,
-          "timestamps": [
-            0.0,
-            12.042,
-            24.083
-          ],
-          "source_frame_hashes": [
-            "1f982cfdc15591038af300a6e4c4f37b923803423d69d2664b90960f4bdbcea3",
-            "1429e5b1038c2b60684153a85bb9d7b36ff113aba808fdeefbb6431680ea5d9b",
-            "a3cec34832df0f12a5421b39d5ef0c943eb27200b705311036a0d8c4e1446c6d"
-          ],
-          "headline": "LVaper",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, game HUD present, chat visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player standing near a large structure with floating blocks, no clear action or outcome",
-            "payoff": "No visible outcome or payoff from actions taken, no clear win or loss indicated in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.054458838866601404,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a large structure and floating blocks, and the title 'LVaper' is clearly visible at the top. The frame at 12.04 seconds shows the same game scene with a facecam panel above the in-",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            12.042,
-            24.083
-          ],
-          "final_frame_hashes": [
-            "2681d1e0d68a97fba98f076bd9f45d59689b5383b8b01495632150d331c3b3c2",
-            "a7798d46bdf713b2dcea40c2cbcb1a7f05356c24bd12993ab6a84afcf7798882",
-            "40d3b20a881a27bb582c01dfce5e3610d9dda909f0a7e70c970aad7565f8e7dd"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "aaf95c061fffd17e98810fe4ad4b2a44da14164a992b18234e677f663c0e66d7",
-          "transcript_sha256": "9ad97fde92e1c47ba833ab1cb4c4a4381c66c3eb580ac69ead0cf37529aa1633"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a large structure and floating blocks, and the title 'LVaper' is clearly visible at the top. The frame at 12.04 seconds shows the same game scene with a facecam panel above the in-"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0545, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-3081137165-aaf95c061fff-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1765,14 +1627,17 @@
       "streamer": "nooreax",
       "sha256": "aaf95c061fffd17e98810fe4ad4b2a44da14164a992b18234e677f663c0e66d7",
       "source_sha256": "f8bc10b517858372b90add223770f9a8657383ad20cbe1338962a2540192aecb",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3081137165-aaf95c061fff.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-3081137165-aaf95c061fff.mp4",
       "clip_slug": "LittleCrispyStapleBibleThump-IpEb3NebYhr0YzZo",
       "original_created_at": "2026-10-24T11:30:40Z",
       "source_deadline": "2026-10-27T11:30:40Z",
       "buffer_post_id": "6adcbe480b5343d070893f28",
-      "last_reconcile_at": "2026-10-24T14:20:41Z"
+      "last_reconcile_at": "2026-10-24T14:20:41Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700238738433133856",
+      "sent_at": "2026-10-24T14:20:32Z",
+      "verified_at": "2026-10-24T14:20:42Z"
     }
   ],
   "last_production": {

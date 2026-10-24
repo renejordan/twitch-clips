@@ -1729,12 +1729,13 @@
       "streamer": "nooreax",
       "sha256": "d6abc8d44acf42a95852805b171dcd7b8f0595656b66bcc4563e4498fa8aed02",
       "source_sha256": "c8a3970db78cfe5a61c3d8a7eb3eb449cf55b6ac16c979f0505149b46fc02640",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-945475581-d6abc8d44acf.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-945475581-d6abc8d44acf.mp4",
       "clip_slug": "FaithfulOriginalFlamingoHotPokket-_BnRobp5LrvdKF-V",
       "original_created_at": "2026-10-24T10:37:08Z",
-      "source_deadline": "2026-10-27T10:37:08Z"
+      "source_deadline": "2026-10-27T10:37:08Z",
+      "buffer_post_id": "6adca17fe4be8a4d86598dea"
     }
   ],
   "last_production": {

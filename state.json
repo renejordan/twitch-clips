@@ -1884,6 +1884,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700332016138554656",
       "sent_at": "2026-10-24T20:22:27Z",
       "verified_at": "2026-10-24T20:22:43Z"
+    },
+    {
+      "clip_id": "2533905876",
+      "reserved_at": "2026-10-24T21:18:46Z",
+      "streamer": "nooreax",
+      "sha256": "7e6abf401e5ed2a6ed30461e97b3261ef9c7fe6587b1d40bcf5fdf7529747854",
+      "source_sha256": "1f9a54269c670a38016ba8259997b8dc0a536237d826f26c42062b77e78925ff",
+      "status": "reserved",
+      "asset_title": "tiktok14-2533905876-7e6abf401e5e.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-2533905876-7e6abf401e5e.mp4",
+      "clip_slug": "RefinedSmoothEmuGrammarKing-HzvaC-rpzWNDCqNo",
+      "original_created_at": "2026-10-24T18:49:01Z",
+      "source_deadline": "2026-10-27T18:49:01Z"
     }
   ],
   "last_production": {

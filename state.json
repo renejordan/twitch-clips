@@ -1686,6 +1686,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700160933401857312",
       "sent_at": "2026-10-24T09:18:36Z",
       "verified_at": "2026-10-24T09:18:46Z"
+    },
+    {
+      "clip_id": "1465792884",
+      "reserved_at": "2026-10-24T10:14:42Z",
+      "streamer": "castcrafter",
+      "sha256": "4f7b6a8f904673149defefbea4562ff23fe4d4b798fb08b02ab73c75f2c88fb7",
+      "source_sha256": "b48261d9c5459fb388fc9f3616167537ae0b024985cb20b3fd08b9d5642e2a69",
+      "status": "reserved",
+      "asset_title": "tiktok14-1465792884-4f7b6a8f9046.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1465792884-4f7b6a8f9046.mp4",
+      "clip_slug": "SavoryPrettyGoshawkCoolCat-ZMXluasEiVeSiOhf",
+      "original_created_at": "2026-10-23T21:30:17Z",
+      "source_deadline": "2026-10-26T21:30:17Z"
     }
   ],
   "last_production": {

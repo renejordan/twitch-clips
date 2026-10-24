@@ -1797,27 +1797,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-24T14:26:24Z",
+    "at": "2026-10-24T15:40:43Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 104,
-      "listing_age_prefilter": 772,
-      "discovered": 804,
-      "metadata_requested": 749,
-      "title_too_short": 75,
-      "gaming_category_not_verified": 290,
-      "qualified_metadata": 384,
+      "listing_duration_prefilter": 110,
+      "listing_age_prefilter": 779,
+      "discovered": 794,
+      "metadata_requested": 739,
+      "gaming_category_not_verified": 285,
+      "title_too_short": 78,
+      "qualified_metadata": 376,
       "duplicate_source_event": 15,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3369427252",
-      "clip_slug": "KitschyCoweringEggGrammarKing-XvR50wD2sCWCk6WC",
-      "streamer": "papaplatte"
+      "clip_id": "443088016",
+      "clip_slug": "PrettiestInquisitiveOstrichJKanStyle-SpTGl5z9jXeP7NGA",
+      "streamer": "krokoboss"
     }
   },
   "prepare_scans": {
@@ -2253,8 +2253,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-24T14",
-  "last_prefetch_hour": "2026-10-24T14",
+  "last_prepare_hour": "2026-10-24T15",
+  "last_prefetch_hour": "2026-10-24T15",
   "archived_verified_count": 4,
   "used_ids": [
     "1411062380",

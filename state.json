@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "443088016",
+      "clip_slug": "PrettiestInquisitiveOstrichJKanStyle-SpTGl5z9jXeP7NGA",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/PrettiestInquisitiveOstrichJKanStyle-SpTGl5z9jXeP7NGA",
+      "original_title": "2 Döner",
+      "hook": "2 Döner",
+      "caption": "2 Döner\n#gaming #minecraft #twitchclips #krokoboss #gamer",
+      "views_at_selection": 277,
+      "original_duration": 26.0,
+      "original_created_at": "2026-10-23T16:36:40Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-443088016-a3d4225b7c57.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-24T15:40:43Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "a3d4225b7c571bdda7463843d9b6640388ffd6224f24c6d7b289fed542ec94f3",
+      "category": "Minecraft",
+      "transcript_sha256": "5d807aa11c2c0e873d8b8107468b13485410d549facb5319b4a28cd496a0a298",
+      "asr_requires_correction": true,
+      "source_sha256": "488b6f39336ffcccd89099ee806d9aec5465ece8cf0dbe7aa700dff2b072066e",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-24T15:40:43.898790+00:00",
+        "media_sha256": "a3d4225b7c571bdda7463843d9b6640388ffd6224f24c6d7b289fed542ec94f3",
+        "transcript_sha256": "5d807aa11c2c0e873d8b8107468b13485410d549facb5319b4a28cd496a0a298",
+        "source_sha256": "488b6f39336ffcccd89099ee806d9aec5465ece8cf0dbe7aa700dff2b072066e",
+        "evidence_sha256": "780d4a885ee2de4ec0af9643a63474fda0440bf5a2bd2c3cd01ca9fb89cf7963",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "488b6f39336ffcccd89099ee806d9aec5465ece8cf0dbe7aa700dff2b072066e",
+          "reviewed_source_sha256": "488b6f39336ffcccd89099ee806d9aec5465ece8cf0dbe7aa700dff2b072066e",
+          "duration": 26.901,
+          "timestamps": [
+            0.0,
+            13.376,
+            26.751
+          ],
+          "source_frame_hashes": [
+            "a944c492433c5f8fc5e2ed0d167f8934d00834a815f2ca2b1727e15a13ca58e9",
+            "bfb98d5a42ba883107f37b79d396b580f7e44bb7b31082086e6c3109c5c5d08c",
+            "d28f6ae479659435cca72ccfcbe3edde2b485c5a482f69743a2db3249d69f27f"
+          ],
+          "headline": "2 Döner",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in top right corner, showing player's face and headphones, with Minecraft gameplay in foreground. Game HUD includes minimap, inventory bar, and health bar. No browser or desktop window borders visible",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is navigating a large, complex Minecraft structure built with bricks and wood, with a river flowing through the area. The player is moving along a path that appears to be part of a larger construction project.",
+            "payoff": "No clear outcome or payoff is visible; the player continues to move through the structure without any significant event or result occurring. The player's actions are routine and do not indicate a win, loss, or major game",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.07472863520131826,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a large, complex structure made of bricks and wood, featuring a river flowing through it. The player is moving along a path within this structure. A facecam panel is visible in",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            13.376,
+            26.751
+          ],
+          "final_frame_hashes": [
+            "38aa9aa77bbddbc2e0b926a701519cefc16ef72af6f4336e8d73a1a6ad83baec",
+            "1838e8c9206a1b1d5d726384cd0467dae7e91a13e0e2a2db9b93fddb254b77ae",
+            "746167f6c961824a6490573c0591ae2e5084a22a1b65dbc4a14263b1a1af6c95"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "a3d4225b7c571bdda7463843d9b6640388ffd6224f24c6d7b289fed542ec94f3",
+          "transcript_sha256": "5d807aa11c2c0e873d8b8107468b13485410d549facb5319b4a28cd496a0a298"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a large, complex structure made of bricks and wood, featuring a river flowing through it. The player is moving along a path within this structure. A facecam panel is visible in"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0747, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-443088016-a3d4225b7c57-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "311924564",

@@ -1957,6 +1957,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700574287761067297",
       "sent_at": "2026-10-25T12:04:44Z",
       "verified_at": "2026-10-25T12:06:36Z"
+    },
+    {
+      "clip_id": "722767312",
+      "reserved_at": "2026-10-25T13:00:26Z",
+      "streamer": "rumathra",
+      "sha256": "343ca5de3afea700d43032bd9b3167f1c7c87a22982c151802f78e3fca57a511",
+      "source_sha256": "fb2071ef219f57986ffa135c04c2591e619ff41b20c7e1a479856d34fac249f9",
+      "status": "reserved",
+      "asset_title": "tiktok14-722767312-343ca5de3afe.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/rumathra-722767312-343ca5de3afe.mp4",
+      "clip_slug": "ArborealIncredulousMetalDAESuppy-315qqv3ke1htoywy",
+      "original_created_at": "2026-10-25T08:17:34Z",
+      "source_deadline": "2026-10-28T08:17:34Z"
     }
   ],
   "last_production": {

@@ -1957,6 +1957,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700713415701957921",
       "sent_at": "2026-10-25T21:02:37Z",
       "verified_at": "2026-10-25T21:06:32Z"
+    },
+    {
+      "clip_id": "307581897",
+      "reserved_at": "2026-10-25T22:00:29Z",
+      "streamer": "castcrafter",
+      "sha256": "adcdf223af1f89ad8a8e8408ebbb8f953aec875a060671f1faaed2bbe69b2cf6",
+      "source_sha256": "d55f8edc3630c478e7324ca1e6db42ff5844a2f85afffebdb0b8a30c5bdeded2",
+      "status": "reserved",
+      "asset_title": "tiktok14-307581897-adcdf223af1f.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-307581897-adcdf223af1f.mp4",
+      "clip_slug": "CarefulCulturedElephantKappaRoss-l-4f8lPJzqgdJ-Bq",
+      "original_created_at": "2026-10-25T20:45:02Z",
+      "source_deadline": "2026-10-28T20:45:02Z"
     }
   ],
   "last_production": {

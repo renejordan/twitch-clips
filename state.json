@@ -1902,6 +1902,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700346973324315937",
       "sent_at": "2026-10-24T21:20:32Z",
       "verified_at": "2026-10-24T21:20:41Z"
+    },
+    {
+      "clip_id": "2707644400",
+      "reserved_at": "2026-10-25T08:00:29Z",
+      "streamer": "trymacs",
+      "sha256": "c57cd42a5fdb271b85375ea4b987025b80d88c15cffefebc0a25130f3a09b927",
+      "source_sha256": "8323e0971fbf2cc4305e7c508260bafba216dcc458bc4d668e5012fca407ec23",
+      "status": "reserved",
+      "asset_title": "tiktok14-2707644400-c57cd42a5fdb.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2707644400-c57cd42a5fdb.mp4",
+      "clip_slug": "CheerfulPrettiestDurianChefFrank-wuGPZysYgQ-stW0Y",
+      "original_created_at": "2026-10-24T21:38:42Z",
+      "source_deadline": "2026-10-27T21:38:42Z"
     }
   ],
   "last_production": {

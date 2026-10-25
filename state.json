@@ -1964,12 +1964,13 @@
       "streamer": "trymacs",
       "sha256": "1af366759340c861f83528d8d9605758da097769549ab78cd93ea5c521d07f45",
       "source_sha256": "a6c7f2a29b41043d7e75415a2ff5e3ef5dff9fdfa99bdd14a8cfcc762d0999a1",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1605390686-1af366759340.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-1605390686-1af366759340.mp4",
       "clip_slug": "AgileBlatantAardvarkThisIsSparta-0Fm7_19XMx8oftDQ",
       "original_created_at": "2026-10-25T01:15:32Z",
-      "source_deadline": "2026-10-28T01:15:32Z"
+      "source_deadline": "2026-10-28T01:15:32Z",
+      "buffer_post_id": "6addef630b5343d070cdd80d"
     }
   ],
   "last_production": {

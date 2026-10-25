@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "2236393291",
-      "reserved_at": "2026-10-18T16:00:23Z",
-      "streamer": "letshugotv",
-      "sha256": "23b76b8856679dd7a79b26e3acebe82b5e166bc8bcba672f28db1a9670fdbdec",
-      "source_sha256": "0f9cb340621a9d61f210c629d0377cb5c64beba4b825938248b69766c5535df2",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2236393291-23b76b885667.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2236393291-23b76b885667.mp4",
-      "clip_slug": "EndearingAmazonianCamelPrimeMe-qnhxEoluSjY9Rwuu",
-      "original_created_at": "2026-10-18T12:30:15Z",
-      "source_deadline": "2026-10-21T12:30:15Z",
-      "buffer_post_id": "6ad4ed1a0b0d72757a2c564d",
-      "last_reconcile_at": "2026-10-18T16:04:45Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698038454227160353",
-      "sent_at": "2026-10-18T16:03:04Z",
-      "verified_at": "2026-10-18T16:04:46Z"
-    },
-    {
       "clip_id": "254468887",
       "reserved_at": "2026-10-18T17:00:25Z",
       "streamer": "castcrafter",
@@ -2300,9 +2282,10 @@
   ],
   "last_prepare_hour": "2026-10-25T15",
   "last_prefetch_hour": "2026-10-25T15",
-  "archived_verified_count": 9,
+  "archived_verified_count": 10,
   "used_ids": [
     "1411062380",
+    "2236393291",
     "2242279572",
     "263989408",
     "2845373187",

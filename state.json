@@ -1960,26 +1960,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-25T14:10:15Z",
+    "at": "2026-10-25T15:10:31Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 107,
-      "listing_age_prefilter": 781,
-      "discovered": 728,
-      "metadata_requested": 679,
-      "gaming_category_not_verified": 284,
-      "qualified_metadata": 338,
-      "title_too_short": 57,
-      "duplicate_source_event": 23,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_duration_prefilter": 108,
+      "listing_age_prefilter": 773,
+      "discovered": 751,
+      "metadata_requested": 702,
+      "gaming_category_not_verified": 303,
+      "qualified_metadata": 344,
+      "title_too_short": 55,
+      "duplicate_source_event": 24,
+      "download_attempted": 3,
+      "render_attempted": 3,
+      "qa_duration_invalid": 1,
+      "qa_visual_gameplay_visible": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2963515657",
-      "clip_slug": "HelpfulYawningVanillaOSfrog-pWXptmy3n7a87mB6",
+      "clip_id": "2514639811",
+      "clip_slug": "MiniatureRamshackleBearCurseLit-1q1T8HtOwhkqubh9",
       "streamer": "trymacs"
     }
   },
@@ -2416,8 +2418,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-25T14",
-  "last_prefetch_hour": "2026-10-25T14",
+  "last_prepare_hour": "2026-10-25T15",
+  "last_prefetch_hour": "2026-10-25T15",
   "archived_verified_count": 9,
   "used_ids": [
     "1411062380",

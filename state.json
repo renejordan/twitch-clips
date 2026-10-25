@@ -1957,6 +1957,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700697942587411745",
       "sent_at": "2026-10-25T20:02:48Z",
       "verified_at": "2026-10-25T20:04:29Z"
+    },
+    {
+      "clip_id": "4195356920",
+      "reserved_at": "2026-10-25T21:00:31Z",
+      "streamer": "nooreax",
+      "sha256": "2aa8bd94c851bc8f7c04139dad95e494b5c18b240ead9834c4e2529721985890",
+      "source_sha256": "669b909de3e803f1cd7c2eeba0fd4d6c89e1d6afd8ab05273d8eae9647ad1762",
+      "status": "reserved",
+      "asset_title": "tiktok14-4195356920-2aa8bd94c851.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-4195356920-2aa8bd94c851.mp4",
+      "clip_slug": "HappyAssiduousRutabagaSSSsss-wLYx4ooq3gOtoHxV",
+      "original_created_at": "2026-10-24T20:30:33Z",
+      "source_deadline": "2026-10-27T20:30:33Z"
     }
   ],
   "last_production": {

@@ -2287,6 +2287,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-25T21:10:20Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "1937140420",
+      "clip_slug": "VibrantCredulousJalapenoDatSheffy-VdA98SsVBa3YAXFM",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/VibrantCredulousJalapenoDatSheffy-VdA98SsVBa3YAXFM",
+      "status": "quality_rejected",
+      "created_at": "2026-10-25T22:33:00Z",
+      "reason": "qa_audio_quality_failed"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

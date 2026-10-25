@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "254468887",
-      "reserved_at": "2026-10-18T17:00:25Z",
-      "streamer": "castcrafter",
-      "sha256": "6375d0bb6db8a55d4d6abcf2e1f15a8cfea0c1a99d8a952bf01a4bbec32cfff2",
-      "source_sha256": "dac0e6c3ec8e72706709d7e1c1b857979f8603b85cc1584449a937bacb5115fa",
-      "status": "verified_public",
-      "asset_title": "tiktok14-254468887-6375d0bb6db8.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-254468887-6375d0bb6db8.mp4",
-      "clip_slug": "HeartlessCourteousJalapenoPipeHype-JZf7uuGf61m9x0tc",
-      "original_created_at": "2026-10-18T15:25:53Z",
-      "source_deadline": "2026-10-21T15:25:53Z",
-      "buffer_post_id": "6ad4fb2b938409f1d0dcc2c4",
-      "last_reconcile_at": "2026-10-18T17:06:29Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698053902997982496",
-      "sent_at": "2026-10-18T17:02:48Z",
-      "verified_at": "2026-10-18T17:06:30Z"
-    },
-    {
       "clip_id": "3699286379",
       "reserved_at": "2026-10-18T18:00:26Z",
       "streamer": "montanablack88",
@@ -1928,15 +1910,6 @@
   },
   "rejected": [
     {
-      "clip_id": "3857817711",
-      "clip_slug": "IcyUninterestedHamburgerPhilosoraptor-UeZP0-IgYO9XGJNw",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/IcyUninterestedHamburgerPhilosoraptor-UeZP0-IgYO9XGJNw",
-      "status": "quality_rejected",
-      "created_at": "2026-10-18T17:10:15Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "2620158523",
       "clip_slug": "TriumphantAdventurousLlamaRedCoat-x0T28zOwFyO57M_S",
       "streamer": "trymacs",
@@ -2298,20 +2271,22 @@
   ],
   "last_prepare_hour": "2026-10-25T16",
   "last_prefetch_hour": "2026-10-25T16",
-  "archived_verified_count": 10,
+  "archived_verified_count": 11,
   "used_ids": [
     "1411062380",
     "2236393291",
     "2242279572",
+    "254468887",
     "263989408",
     "2845373187",
     "309969943",
     "311924564",
     "366414941",
     "3713714204",
+    "3857817711",
     "4108530673",
     "502558914",
     "761785150"
   ],
-  "archived_rejected_count": 2
+  "archived_rejected_count": 3
 }

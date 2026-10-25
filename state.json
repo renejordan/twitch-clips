@@ -141,23 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "311924564",
-      "reserved_at": "2026-10-18T11:19:18Z",
-      "streamer": "papaplatte",
-      "sha256": "166592c12b2da9927a1c04aec6570d4b364a0c06907edddf3fec0f811c187614",
-      "source_sha256": "3d5ddc5eb375d52f21090da1d1e075f1bb3f976b12ea972b9df35f83f58b7e12",
-      "status": "verified_public",
-      "asset_title": "tiktok14-311924564-166592c12b2d.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-311924564-166592c12b2d.mp4",
-      "clip_slug": "CleanPreciousLardWholeWheat-2vbb0Rrt-oV_BApa",
-      "original_created_at": "2026-10-17T18:16:43Z",
-      "source_deadline": "2026-10-20T18:16:43Z",
-      "buffer_post_id": "6ad4ab38ae173d6e00fb475c",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697965980386938144",
-      "sent_at": "2026-10-18T11:21:07Z",
-      "verified_at": "2026-10-18T11:22:11Z"
-    },
-    {
       "clip_id": "366414941",
       "reserved_at": "2026-10-18T12:00:25Z",
       "streamer": "krokoboss",
@@ -2065,15 +2048,6 @@
   },
   "rejected": [
     {
-      "clip_id": "2242279572",
-      "clip_slug": "SaltyAnnoyingPlumageMau5-FU-RmTYLTOjow0TY",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/SaltyAnnoyingPlumageMau5-FU-RmTYLTOjow0TY",
-      "status": "quality_rejected",
-      "created_at": "2026-10-18T11:23:52Z",
-      "reason": "qa_final_composition_failed"
-    },
-    {
       "clip_id": "3857817711",
       "clip_slug": "IcyUninterestedHamburgerPhilosoraptor-UeZP0-IgYO9XGJNw",
       "streamer": "letshugotv",
@@ -2426,13 +2400,15 @@
   ],
   "last_prepare_hour": "2026-10-25T11",
   "last_prefetch_hour": "2026-10-25T11",
-  "archived_verified_count": 4,
+  "archived_verified_count": 5,
   "used_ids": [
     "1411062380",
+    "2242279572",
     "263989408",
     "2845373187",
+    "311924564",
     "4108530673",
     "761785150"
   ],
-  "archived_rejected_count": 1
+  "archived_rejected_count": 2
 }

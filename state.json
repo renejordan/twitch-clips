@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "307581897",
-      "clip_slug": "CarefulCulturedElephantKappaRoss-l-4f8lPJzqgdJ-Bq",
-      "streamer": "castcrafter",
-      "source_url": "https://www.twitch.tv/castcrafter/clip/CarefulCulturedElephantKappaRoss-l-4f8lPJzqgdJ-Bq",
-      "original_title": "cast rave",
-      "hook": "cast rave",
-      "caption": "cast rave\n#gaming #minecraft #twitchclips #castcrafter #gamer",
-      "views_at_selection": 173,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-25T20:45:02Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-307581897-adcdf223af1f.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-25T21:10:20Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "adcdf223af1f89ad8a8e8408ebbb8f953aec875a060671f1faaed2bbe69b2cf6",
-      "category": "Minecraft",
-      "transcript_sha256": "d714e98d6422629f41ed3c3c4ee2f85d137f36e112bb6c9fd5f6d52b677ef5ca",
-      "asr_requires_correction": true,
-      "source_sha256": "d55f8edc3630c478e7324ca1e6db42ff5844a2f85afffebdb0b8a30c5bdeded2",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-25T21:10:20.536679+00:00",
-        "media_sha256": "adcdf223af1f89ad8a8e8408ebbb8f953aec875a060671f1faaed2bbe69b2cf6",
-        "transcript_sha256": "d714e98d6422629f41ed3c3c4ee2f85d137f36e112bb6c9fd5f6d52b677ef5ca",
-        "source_sha256": "d55f8edc3630c478e7324ca1e6db42ff5844a2f85afffebdb0b8a30c5bdeded2",
-        "evidence_sha256": "c93795ac3356c366006c585644a9c6e4084d58d858cef835d7d8472fcd421c20",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "d55f8edc3630c478e7324ca1e6db42ff5844a2f85afffebdb0b8a30c5bdeded2",
-          "reviewed_source_sha256": "d55f8edc3630c478e7324ca1e6db42ff5844a2f85afffebdb0b8a30c5bdeded2",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "06e4f5859803402cc6d4b56254d8071122ece48e93402fd5b20ff2d6ec08cbf3",
-            "1176a021ce03aefbd6733e9c57757428a5ada82ffdf62f9d2fc50b8ebf25dcfd",
-            "c58434eea3252cad7f30b23c93bb531b3acb52010c9a7baeb96f0277b06e4e9b"
-          ],
-          "headline": "cast rave",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, with game HUD visible, including inventory, chat, and player name.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a Minecraft building with a Netherite Sword, no clear action or outcome.",
-            "payoff": "No visible outcome or payoff from actions taken in the frames provided, no win or loss indicated, no clear reaction or event outcome visible in the frames provided, no clear payoff or outcome visible in the frames, no in",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.018764473192968395,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, a visible HUD, and a stream chat overlay. The title 'cast rave' is displayed as a word subtitle. The gameplay area is large and clear, no",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_single",
-            "composition_usable": true,
-            "legible_subtitles": true,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "f4633362767d8dda016b6f08f61d25417d466125d4d47ae5176a21a91cf55b7e",
-            "02ddad42a49d02f5b7bd5d9395f20622d20b3a0013b0872c0514b3c736803d7a",
-            "134ef6c30feaceb6ee7002ede452d3760be003e150046b88c8b7bcffd0e68a29"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "adcdf223af1f89ad8a8e8408ebbb8f953aec875a060671f1faaed2bbe69b2cf6",
-          "transcript_sha256": "d714e98d6422629f41ed3c3c4ee2f85d137f36e112bb6c9fd5f6d52b677ef5ca"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, a visible HUD, and a stream chat overlay. The title 'cast rave' is displayed as a word subtitle. The gameplay area is large and clear, no"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0188, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-307581897-adcdf223af1f-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "524815218",
@@ -1964,14 +1826,17 @@
       "streamer": "castcrafter",
       "sha256": "adcdf223af1f89ad8a8e8408ebbb8f953aec875a060671f1faaed2bbe69b2cf6",
       "source_sha256": "d55f8edc3630c478e7324ca1e6db42ff5844a2f85afffebdb0b8a30c5bdeded2",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-307581897-adcdf223af1f.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-307581897-adcdf223af1f.mp4",
       "clip_slug": "CarefulCulturedElephantKappaRoss-l-4f8lPJzqgdJ-Bq",
       "original_created_at": "2026-10-25T20:45:02Z",
       "source_deadline": "2026-10-28T20:45:02Z",
       "buffer_post_id": "6ade7c008b3d437ddc2cb0ae",
-      "last_reconcile_at": "2026-10-25T22:02:26Z"
+      "last_reconcile_at": "2026-10-25T22:02:26Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700728814896254241",
+      "sent_at": "2026-10-25T22:02:22Z",
+      "verified_at": "2026-10-25T22:02:27Z"
     }
   ],
   "last_production": {

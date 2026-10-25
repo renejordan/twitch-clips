@@ -1964,12 +1964,13 @@
       "streamer": "papaplatte",
       "sha256": "3311463588b6ed6df6acca10e120c5723cc824622dbd0ec0570b04c95780df2c",
       "source_sha256": "05b09a604f3adc0f4eb285f8bd1ac28cf2b3b871d94fb40b9644253dcdd1a9ad",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1622951541-3311463588b6.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-1622951541-3311463588b6.mp4",
       "clip_slug": "SucculentMoldyChamoisResidentSleeper-1JP0HrU3oZiqMFhH",
       "original_created_at": "2026-10-25T01:15:48Z",
-      "source_deadline": "2026-10-28T01:15:48Z"
+      "source_deadline": "2026-10-28T01:15:48Z",
+      "buffer_post_id": "6ade35ae8b3d437ddc19f3c3"
     }
   ],
   "last_production": {

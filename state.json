@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3848447097",
-      "clip_slug": "AnnoyingDeafCatPeoplesChamp-lpeBcX8xV1yHBxdZ",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/AnnoyingDeafCatPeoplesChamp-lpeBcX8xV1yHBxdZ",
-      "original_title": "Veni pull",
-      "hook": "Veni pull",
-      "caption": "Veni pull\n#gaming #minecraft #twitchclips #papaplatte #gamer",
-      "views_at_selection": 713,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-24T18:52:40Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-3848447097-6363e3e08c14.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-25T17:32:55Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "6363e3e08c140e2dd0ce07764f8d6b20029e5f49cbe5aa03d2b0238c926a54c5",
-      "category": "Minecraft",
-      "transcript_sha256": "27df73d268ba9cdccacdc8256fe14c9c4e08753eda5d7ce12e11e91639bd4e95",
-      "asr_requires_correction": true,
-      "source_sha256": "25a72be90ba45089bc9d8b7e1f26e1787ba354003c2119515959f7522fe75020",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-25T17:32:55.997979+00:00",
-        "media_sha256": "6363e3e08c140e2dd0ce07764f8d6b20029e5f49cbe5aa03d2b0238c926a54c5",
-        "transcript_sha256": "27df73d268ba9cdccacdc8256fe14c9c4e08753eda5d7ce12e11e91639bd4e95",
-        "source_sha256": "25a72be90ba45089bc9d8b7e1f26e1787ba354003c2119515959f7522fe75020",
-        "evidence_sha256": "2a4731115b50f72123005eb612c049313d56064d89e1825298df4f64855dbbc6",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "25a72be90ba45089bc9d8b7e1f26e1787ba354003c2119515959f7522fe75020",
-          "reviewed_source_sha256": "25a72be90ba45089bc9d8b7e1f26e1787ba354003c2119515959f7522fe75020",
-          "duration": 30.016,
-          "timestamps": [
-            0.0,
-            14.933,
-            29.866
-          ],
-          "source_frame_hashes": [
-            "16e9387c58fb02d52573afe37eb473541607aa20b0c54c00322fb35e293b36c1",
-            "bd33fd27738156ebde90adb47731583bd2807de825d684443703232098ca2aad",
-            "368d0b46edf7104bb458a481dfa36908bf44782facf7d836d40b519cc6177179"
-          ],
-          "headline": "Veni pull",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat and HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is on a floating platform in a purple sky biome, no clear action or outcome visible",
-            "payoff": "No visible outcome or payoff from actions, no win/loss or reaction visible in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.09869497800426033,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a purple sky biome, floating platforms, and a player's facecam in the top right corner. The title 'Veni pull' is visible at the top center. The frame at 14.93 seconds shows the sky",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.933,
-            29.866
-          ],
-          "final_frame_hashes": [
-            "dc3edee3d3ca9d5a53373126f2f7b128e4d97fd76c2764110d0dd9b2d6c3098c",
-            "45b1e374c514356faa04f60318bb3205433d17f4e46a5aea0df908048a51dc30",
-            "807a154a9a211ba05d1a9b0f6ab02566011693f752010e6de4cc4305b82951fa"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "6363e3e08c140e2dd0ce07764f8d6b20029e5f49cbe5aa03d2b0238c926a54c5",
-          "transcript_sha256": "27df73d268ba9cdccacdc8256fe14c9c4e08753eda5d7ce12e11e91639bd4e95"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a purple sky biome, floating platforms, and a player's facecam in the top right corner. The title 'Veni pull' is visible at the top center. The frame at 14.93 seconds shows the sky"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0987, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-3848447097-6363e3e08c14-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3699286379",
@@ -1964,14 +1826,17 @@
       "streamer": "papaplatte",
       "sha256": "6363e3e08c140e2dd0ce07764f8d6b20029e5f49cbe5aa03d2b0238c926a54c5",
       "source_sha256": "25a72be90ba45089bc9d8b7e1f26e1787ba354003c2119515959f7522fe75020",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3848447097-6363e3e08c14.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-3848447097-6363e3e08c14.mp4",
       "clip_slug": "AnnoyingDeafCatPeoplesChamp-lpeBcX8xV1yHBxdZ",
       "original_created_at": "2026-10-24T18:52:40Z",
       "source_deadline": "2026-10-27T18:52:40Z",
       "buffer_post_id": "6ade43bbbd33ce99c3841970",
-      "last_reconcile_at": "2026-10-25T18:06:35Z"
+      "last_reconcile_at": "2026-10-25T18:06:35Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700666987952737568",
+      "sent_at": "2026-10-25T18:02:44Z",
+      "verified_at": "2026-10-25T18:06:36Z"
     }
   ],
   "last_production": {

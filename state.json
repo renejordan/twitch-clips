@@ -1957,6 +1957,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700605121243270433",
       "sent_at": "2026-10-25T14:02:38Z",
       "verified_at": "2026-10-25T14:06:31Z"
+    },
+    {
+      "clip_id": "2963515657",
+      "reserved_at": "2026-10-25T15:00:24Z",
+      "streamer": "trymacs",
+      "sha256": "f0adf9bae59c8f79c719964989386ec3513e447824226c5f2997068f8f84ebfc",
+      "source_sha256": "5ac8e85b829dd67e33e55c60a07d4142cc7f45ac3d76e65cb0cccc23a2198b2c",
+      "status": "reserved",
+      "asset_title": "tiktok14-2963515657-f0adf9bae59c.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2963515657-f0adf9bae59c.mp4",
+      "clip_slug": "HelpfulYawningVanillaOSfrog-pWXptmy3n7a87mB6",
+      "original_created_at": "2026-10-24T20:47:56Z",
+      "source_deadline": "2026-10-27T20:47:56Z"
     }
   ],
   "last_production": {

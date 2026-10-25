@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "4180518052",
-      "clip_slug": "VainSarcasticElkDerp-FrsRERj1MLy989ai",
-      "streamer": "castcrafter",
-      "source_url": "https://www.twitch.tv/castcrafter/clip/VainSarcasticElkDerp-FrsRERj1MLy989ai",
-      "original_title": "basties Küche",
-      "hook": "basties Küche",
-      "caption": "basties Küche\n#gaming #minecraft #twitchclips #castcrafter #gamer",
-      "views_at_selection": 197,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-25T18:49:44Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-4180518052-ea552bdc4e75.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-25T19:10:37Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "ea552bdc4e75b77b8b909953ac5402bc88c1c8c12ef267c0789688c22ef6c938",
-      "category": "Minecraft",
-      "transcript_sha256": "2a62448339209af0b434493cee561a6955e7418487cf72103f1d737c1a5a06e9",
-      "asr_requires_correction": true,
-      "source_sha256": "daec4e9f5d919d6c47ee78318aa4d3bd1ba1de84cc17373f0ce3c579641873db",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-25T19:10:37.322447+00:00",
-        "media_sha256": "ea552bdc4e75b77b8b909953ac5402bc88c1c8c12ef267c0789688c22ef6c938",
-        "transcript_sha256": "2a62448339209af0b434493cee561a6955e7418487cf72103f1d737c1a5a06e9",
-        "source_sha256": "daec4e9f5d919d6c47ee78318aa4d3bd1ba1de84cc17373f0ce3c579641873db",
-        "evidence_sha256": "098139618d65b3d75c2a42471684d27ef1a4f76829411322aa890c647114507e",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "daec4e9f5d919d6c47ee78318aa4d3bd1ba1de84cc17373f0ce3c579641873db",
-          "reviewed_source_sha256": "daec4e9f5d919d6c47ee78318aa4d3bd1ba1de84cc17373f0ce3c579641873db",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "40e21d5ce9bd8edba5b5b930cc2bbc328eb6b1951e57d731009163962aa73f6f",
-            "7ed109339ede59b7cbd553270e229e82d2515b9214325864680c65ac146ce065",
-            "d4310ecc29ba9a4be993bd3e220708641c43306c64a398485d7f1748cf0ebea5"
-          ],
-          "headline": "basties Küche",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in the top-left corner shows a person, with a Minecraft game window visible below and to the right, and a drawing application window above the game. The game HUD is visible at the bottom of the screen, and ",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in the frames provided.",
-            "payoff": "No clear payoff visible in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.026189031749698655,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a Minecraft game window with a facecam panel in the top-left corner, which is a common edited gaming layout. The game window contains a drawing application with two horizontal lines. The 'M",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "cac56adae8920b2e20a593407a61284393d195e494dcd61cbe278021b73ca074",
-            "6ba3061d86d1eb557f713b365d7ef1c19ea9d9a7dc377d7e7f88401c3de1963d",
-            "9c8265ba6145788cdc8f692a39a7dc0bf29835d7efd0c180db789362cee896f6"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "ea552bdc4e75b77b8b909953ac5402bc88c1c8c12ef267c0789688c22ef6c938",
-          "transcript_sha256": "2a62448339209af0b434493cee561a6955e7418487cf72103f1d737c1a5a06e9"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a Minecraft game window with a facecam panel in the top-left corner, which is a common edited gaming layout. The game window contains a drawing application with two horizontal lines. The 'M"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0262, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-4180518052-ea552bdc4e75-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3835744608",
@@ -1964,14 +1826,17 @@
       "streamer": "castcrafter",
       "sha256": "ea552bdc4e75b77b8b909953ac5402bc88c1c8c12ef267c0789688c22ef6c938",
       "source_sha256": "daec4e9f5d919d6c47ee78318aa4d3bd1ba1de84cc17373f0ce3c579641873db",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-4180518052-ea552bdc4e75.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-4180518052-ea552bdc4e75.mp4",
       "clip_slug": "VainSarcasticElkDerp-FrsRERj1MLy989ai",
       "original_created_at": "2026-10-25T18:49:44Z",
       "source_deadline": "2026-10-28T18:49:44Z",
       "buffer_post_id": "6ade5fddbd33ce99c38ba40a",
-      "last_reconcile_at": "2026-10-25T20:04:28Z"
+      "last_reconcile_at": "2026-10-25T20:04:28Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700697942587411745",
+      "sent_at": "2026-10-25T20:02:48Z",
+      "verified_at": "2026-10-25T20:04:29Z"
     }
   ],
   "last_production": {

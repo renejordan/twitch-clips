@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2963515657",
-      "clip_slug": "HelpfulYawningVanillaOSfrog-pWXptmy3n7a87mB6",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/HelpfulYawningVanillaOSfrog-pWXptmy3n7a87mB6",
-      "original_title": "Retter Respatz",
-      "hook": "Retter Respatz",
-      "caption": "Retter Respatz\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 857,
-      "original_duration": 39.0,
-      "original_created_at": "2026-10-24T20:47:56Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2963515657-f0adf9bae59c.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-25T14:10:15Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "f0adf9bae59c8f79c719964989386ec3513e447824226c5f2997068f8f84ebfc",
-      "category": "Minecraft",
-      "transcript_sha256": "d656e1e4e7a55ff0287363470df9d2999b88a56abbfbc96d0b28bee1e9747760",
-      "asr_requires_correction": true,
-      "source_sha256": "5ac8e85b829dd67e33e55c60a07d4142cc7f45ac3d76e65cb0cccc23a2198b2c",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-25T14:10:15.689937+00:00",
-        "media_sha256": "f0adf9bae59c8f79c719964989386ec3513e447824226c5f2997068f8f84ebfc",
-        "transcript_sha256": "d656e1e4e7a55ff0287363470df9d2999b88a56abbfbc96d0b28bee1e9747760",
-        "source_sha256": "5ac8e85b829dd67e33e55c60a07d4142cc7f45ac3d76e65cb0cccc23a2198b2c",
-        "evidence_sha256": "7a9eea4c4c9b70d33ff54d966e9ef1af543155543ad5df8bd11eaa126e75448b",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "5ac8e85b829dd67e33e55c60a07d4142cc7f45ac3d76e65cb0cccc23a2198b2c",
-          "reviewed_source_sha256": "5ac8e85b829dd67e33e55c60a07d4142cc7f45ac3d76e65cb0cccc23a2198b2c",
-          "duration": 39.033333,
-          "timestamps": [
-            0.0,
-            19.442,
-            38.883
-          ],
-          "source_frame_hashes": [
-            "c646e5bd9f15e37f82091284ed1ad5a0b828ca8fab26dbf8a2c6b2caf0e2d941",
-            "928414a042ed77601cab62e74f7bbced32d912c3069777c62fb2b01d4bb061ad",
-            "fdab727f7ea163142d9b93d71135a929f6c32bd5b1783b2f8271f2bcb679e488"
-          ],
-          "headline": "Retter Respatz",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in a corner over gameplay with a visible game HUD and chat, not a browser or video player.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in the frames provided.",
-            "payoff": "No clear payoff visible in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.12730943135303882,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a split-screen layout with a Minecraft gameplay area on the left and a facecam of a streamer on the right. The gameplay includes the game's HUD, inventory, and minimap, consistent with a direct game capture. The facecam is a",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            19.442,
-            38.883
-          ],
-          "final_frame_hashes": [
-            "d95e991dfa3897b05525550fee44b4b84332c9b62fd5be9038aa237d76265b15",
-            "81d09ecec65ee8b0926b3dddafd187d6bbda6ec3fadc8d5241f4ab83c0104a26",
-            "c7bd12458d3766514120a77070f2abdc13682f0817aedfbdda18b10f08b5a247"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "f0adf9bae59c8f79c719964989386ec3513e447824226c5f2997068f8f84ebfc",
-          "transcript_sha256": "d656e1e4e7a55ff0287363470df9d2999b88a56abbfbc96d0b28bee1e9747760"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a split-screen layout with a Minecraft gameplay area on the left and a facecam of a streamer on the right. The gameplay includes the game's HUD, inventory, and minimap, consistent with a direct game capture. The facecam is a"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1273, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2963515657-f0adf9bae59c-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "502558914",
@@ -1964,14 +1826,17 @@
       "streamer": "trymacs",
       "sha256": "f0adf9bae59c8f79c719964989386ec3513e447824226c5f2997068f8f84ebfc",
       "source_sha256": "5ac8e85b829dd67e33e55c60a07d4142cc7f45ac3d76e65cb0cccc23a2198b2c",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2963515657-f0adf9bae59c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2963515657-f0adf9bae59c.mp4",
       "clip_slug": "HelpfulYawningVanillaOSfrog-pWXptmy3n7a87mB6",
       "original_created_at": "2026-10-24T20:47:56Z",
       "source_deadline": "2026-10-27T20:47:56Z",
       "buffer_post_id": "6ade198a0b5343d070d8f41a",
-      "last_reconcile_at": "2026-10-25T15:06:30Z"
+      "last_reconcile_at": "2026-10-25T15:06:30Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700620568281828640",
+      "sent_at": "2026-10-25T15:02:38Z",
+      "verified_at": "2026-10-25T15:06:32Z"
     }
   ],
   "last_production": {

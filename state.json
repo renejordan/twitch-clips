@@ -1964,12 +1964,13 @@
       "streamer": "trymacs",
       "sha256": "78bbfc6940ea56ed0ce5fcd8ed342d0c207c9bc3485f120009aab029bb450b1d",
       "source_sha256": "c25080ca1b95c547533f73650aa5f1782421b175f88e7c1fe0e48798efd96756",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2514639811-78bbfc6940ea.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2514639811-78bbfc6940ea.mp4",
       "clip_slug": "MiniatureRamshackleBearCurseLit-1q1T8HtOwhkqubh9",
       "original_created_at": "2026-10-24T20:12:22Z",
-      "source_deadline": "2026-10-27T20:12:22Z"
+      "source_deadline": "2026-10-27T20:12:22Z",
+      "buffer_post_id": "6ade27a30b5343d070dd18e6"
     }
   ],
   "last_production": {

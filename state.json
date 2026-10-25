@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2088179216",
-      "clip_slug": "PrettyTangentialMilkMikeHogu-M_vDWEQV3zkSY6rw",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/PrettyTangentialMilkMikeHogu-M_vDWEQV3zkSY6rw",
-      "original_title": "Papaplatte besser als Noreax und Dima",
-      "hook": "Papaplatte besser als Noreax und Dima",
-      "caption": "Papaplatte besser als Noreax und Dima\n#gaming #minecraft #twitchclips #papaplatte #gamer",
-      "views_at_selection": 832,
-      "original_duration": 43.0,
-      "original_created_at": "2026-10-25T01:18:16Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-2088179216-7afb8f4d1c62.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-25T13:05:44Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "7afb8f4d1c62cde6e7453d780a38267c2c3091fb585db53eb845788598e02792",
-      "category": "Minecraft",
-      "transcript_sha256": "d93e6f6e1d1300d45d7a13e3d72ffdda2b70abcadd5ae2f79b6ec86888a148f4",
-      "asr_requires_correction": true,
-      "source_sha256": "a4bba470bdc376e3843a842ab10e11ff23c4a56543e7d8378d19d2d0b36ef845",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-25T13:05:44.254017+00:00",
-        "media_sha256": "7afb8f4d1c62cde6e7453d780a38267c2c3091fb585db53eb845788598e02792",
-        "transcript_sha256": "d93e6f6e1d1300d45d7a13e3d72ffdda2b70abcadd5ae2f79b6ec86888a148f4",
-        "source_sha256": "a4bba470bdc376e3843a842ab10e11ff23c4a56543e7d8378d19d2d0b36ef845",
-        "evidence_sha256": "a8e00bc99e85952732e579ae9950cd639b863b5a589210cab162d041d3f76d30",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "a4bba470bdc376e3843a842ab10e11ff23c4a56543e7d8378d19d2d0b36ef845",
-          "reviewed_source_sha256": "a4bba470bdc376e3843a842ab10e11ff23c4a56543e7d8378d19d2d0b36ef845",
-          "duration": 43.133333,
-          "timestamps": [
-            0.0,
-            21.492,
-            42.983
-          ],
-          "source_frame_hashes": [
-            "8dea606e95c2de195e6a84e2127fd858bcd0eae48f99ca77d9543cbbb34d57ea",
-            "4ea11ec92980b0bdaf16488712ad6f4f535abae608e23952f5f29bb0417b25ad",
-            "f627d448df1291aa3bc1b6311278d6c35ccb9c91b36f21b8c29ae47dc531c865"
-          ],
-          "headline": "Papaplatte besser als Noreax und Dima",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, game screen occupies main area, chat and HUD elements present, no browser or desktop UI visible.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, visible chat and HUD, no clear action or outcome.",
-            "payoff": "No visible outcome or payoff from actions; game menu visible, no win/loss or reaction visible in frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.056524905640223846,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a purple background with a title overlay 'Papaplatte besser als Noreax und Dima' and a small facecam panel in the top right corner. The gameplay area is visible but not the main focus. The frame at 21.49s and",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            21.492,
-            42.983
-          ],
-          "final_frame_hashes": [
-            "00d9492f286463d32dd684e67e7ddddbd13156498f904335a37538de3baa0f4b",
-            "c50ef3e49c3e4d70ccbeb9f6c3662ec94cd58a98492759e22d4e15c95e3f1b81",
-            "f173e7d8daa6905906a297ed4bed3d8f3bc1c27425e6d4641b109f076af3f1e0"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "7afb8f4d1c62cde6e7453d780a38267c2c3091fb585db53eb845788598e02792",
-          "transcript_sha256": "d93e6f6e1d1300d45d7a13e3d72ffdda2b70abcadd5ae2f79b6ec86888a148f4"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a purple background with a title overlay 'Papaplatte besser als Noreax und Dima' and a small facecam panel in the top right corner. The gameplay area is visible but not the main focus. The frame at 21.49s and"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0565, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-2088179216-7afb8f4d1c62-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "309969943",
@@ -1964,14 +1826,17 @@
       "streamer": "papaplatte",
       "sha256": "7afb8f4d1c62cde6e7453d780a38267c2c3091fb585db53eb845788598e02792",
       "source_sha256": "a4bba470bdc376e3843a842ab10e11ff23c4a56543e7d8378d19d2d0b36ef845",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2088179216-7afb8f4d1c62.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-2088179216-7afb8f4d1c62.mp4",
       "clip_slug": "PrettyTangentialMilkMikeHogu-M_vDWEQV3zkSY6rw",
       "original_created_at": "2026-10-25T01:18:16Z",
       "source_deadline": "2026-10-28T01:18:16Z",
       "buffer_post_id": "6ade0b803d5b27036bd61411",
-      "last_reconcile_at": "2026-10-25T14:06:30Z"
+      "last_reconcile_at": "2026-10-25T14:06:30Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700605121243270433",
+      "sent_at": "2026-10-25T14:02:38Z",
+      "verified_at": "2026-10-25T14:06:31Z"
     }
   ],
   "last_production": {

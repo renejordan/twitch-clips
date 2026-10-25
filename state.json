@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "502558914",
-      "reserved_at": "2026-10-18T15:00:25Z",
-      "streamer": "metashi12",
-      "sha256": "04e9337cd7ab6dfd3ed6136657014b02c885ed1a0a3ea530392c527a7371ec2d",
-      "source_sha256": "41aba3f4a2cc4c96efadf2d088969f49cac58763d05d6464bf7194eeba7c0f50",
-      "status": "verified_public",
-      "asset_title": "tiktok14-502558914-04e9337cd7ab.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-502558914-04e9337cd7ab.mp4",
-      "clip_slug": "WrongEphemeralWitchPastaThat-vXteTJPHfRH2u4Q9",
-      "original_created_at": "2026-10-18T12:08:33Z",
-      "source_deadline": "2026-10-21T12:08:33Z",
-      "buffer_post_id": "6ad4df0c0b0d72757a289258",
-      "last_reconcile_at": "2026-10-18T15:04:29Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698022977127894304",
-      "sent_at": "2026-10-18T15:02:39Z",
-      "verified_at": "2026-10-18T15:04:30Z"
-    },
-    {
       "clip_id": "2236393291",
       "reserved_at": "2026-10-18T16:00:23Z",
       "streamer": "letshugotv",
@@ -2280,7 +2262,7 @@
   ],
   "last_prepare_hour": "2026-10-25T14",
   "last_prefetch_hour": "2026-10-25T14",
-  "archived_verified_count": 8,
+  "archived_verified_count": 9,
   "used_ids": [
     "1411062380",
     "2242279572",
@@ -2291,6 +2273,7 @@
     "366414941",
     "3713714204",
     "4108530673",
+    "502558914",
     "761785150"
   ],
   "archived_rejected_count": 2

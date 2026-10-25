@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2933165164",
+      "clip_slug": "SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
+      "original_title": "nooreax fast tot!",
+      "hook": "nooreax fast tot!",
+      "caption": "nooreax fast tot!\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 159,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-25T20:56:58Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-2933165164-48893f913870.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-25T22:33:00Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "48893f9138706fa18f7309dac669ca26a3f7588e6cf0c49346aa4b3048143fed",
+      "category": "Minecraft",
+      "transcript_sha256": "b88069289453ef6968daf2ce65960517e8940cb458be39695b5a8be5b4968c8a",
+      "asr_requires_correction": true,
+      "source_sha256": "24a358d5999a49bd1f1fbd050cf1ada09d354939303f2e8478ca25b463c9a49c",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-25T22:33:00.218078+00:00",
+        "media_sha256": "48893f9138706fa18f7309dac669ca26a3f7588e6cf0c49346aa4b3048143fed",
+        "transcript_sha256": "b88069289453ef6968daf2ce65960517e8940cb458be39695b5a8be5b4968c8a",
+        "source_sha256": "24a358d5999a49bd1f1fbd050cf1ada09d354939303f2e8478ca25b463c9a49c",
+        "evidence_sha256": "d5144d20c7e0e8d9a76a744d23ce04c3e7727e861ad1fb76ffd3621e45fd8032",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "24a358d5999a49bd1f1fbd050cf1ada09d354939303f2e8478ca25b463c9a49c",
+          "reviewed_source_sha256": "24a358d5999a49bd1f1fbd050cf1ada09d354939303f2e8478ca25b463c9a49c",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "e4b74a096e5611057e72ba9751724dd19f55e1212bdba557c079b183779de060",
+            "446c7d5fe0f7507468fecc13531e9cf092bc8a2b342605eb3db76e649690596d",
+            "2eedf8f52439e6d263b310f69665492366665fd712289611efda36ff65688232"
+          ],
+          "headline": "nooreax fast tot!",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with inventory, chat, and player name, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft, no clear action or outcome visible",
+            "payoff": "No visible outcome or payoff from actions taken",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.05541250526721002,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, a title overlay 'nooreax fast tot!' at the top center, and no visible browser or desktop window borders. The gameplay is not cropped, is",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "14a416b14e15912c8552bf4a0be92ff40644a92554a21765633a6f5a3c9e584b",
+            "4c1f4ceb6a0773c5f3023ec4161e9c993f0adeb46362f9dcc173a3e28d7ea90e",
+            "39238a438fd1b7db64679b3f0a106702425edd71bb1390f54c2a9bb08e548bfb"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "48893f9138706fa18f7309dac669ca26a3f7588e6cf0c49346aa4b3048143fed",
+          "transcript_sha256": "b88069289453ef6968daf2ce65960517e8940cb458be39695b5a8be5b4968c8a"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, a title overlay 'nooreax fast tot!' at the top center, and no visible browser or desktop window borders. The gameplay is not cropped, is"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0554, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-2933165164-48893f913870-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "524815218",

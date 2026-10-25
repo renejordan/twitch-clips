@@ -1960,27 +1960,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-25T12:10:05Z",
+    "at": "2026-10-25T13:05:44Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
       "listing_duration_prefilter": 104,
-      "listing_age_prefilter": 797,
-      "discovered": 671,
-      "metadata_requested": 624,
-      "title_too_short": 55,
-      "qualified_metadata": 345,
-      "gaming_category_not_verified": 224,
+      "listing_age_prefilter": 794,
+      "discovered": 700,
+      "metadata_requested": 652,
+      "gaming_category_not_verified": 256,
+      "title_too_short": 54,
+      "qualified_metadata": 342,
       "duplicate_source_event": 20,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "722767312",
-      "clip_slug": "ArborealIncredulousMetalDAESuppy-315qqv3ke1htoywy",
-      "streamer": "rumathra"
+      "clip_id": "2088179216",
+      "clip_slug": "PrettyTangentialMilkMikeHogu-M_vDWEQV3zkSY6rw",
+      "streamer": "papaplatte"
     }
   },
   "prepare_scans": {
@@ -2398,8 +2398,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-25T12",
-  "last_prefetch_hour": "2026-10-25T12",
+  "last_prepare_hour": "2026-10-25T13",
+  "last_prefetch_hour": "2026-10-25T13",
   "archived_verified_count": 7,
   "used_ids": [
     "1411062380",

@@ -1920,6 +1920,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700512305636855073",
       "sent_at": "2026-10-25T08:01:25Z",
       "verified_at": "2026-10-25T08:02:25Z"
+    },
+    {
+      "clip_id": "1620819993",
+      "reserved_at": "2026-10-25T09:00:29Z",
+      "streamer": "letshugotv",
+      "sha256": "510a302642540c55a15f0e1ced4c5f6e8f24f3186d2158fdff6c0d1f6dfdbccb",
+      "source_sha256": "cff45e48239a727333544c8d00a50defc8d62991508dfa21080d12a39af06833",
+      "status": "reserved",
+      "asset_title": "tiktok14-1620819993-510a30264254.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1620819993-510a30264254.mp4",
+      "clip_slug": "CarelessDarkPeafowlYouDontSay-j_cMA2HXDRzd5ivk",
+      "original_created_at": "2026-10-24T21:28:59Z",
+      "source_deadline": "2026-10-27T21:28:59Z"
     }
   ],
   "last_production": {

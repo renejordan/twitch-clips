@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1622951541",
+      "clip_slug": "SucculentMoldyChamoisResidentSleeper-1JP0HrU3oZiqMFhH",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/SucculentMoldyChamoisResidentSleeper-1JP0HrU3oZiqMFhH",
+      "original_title": "trymac platzt",
+      "hook": "trymac platzt",
+      "caption": "trymac platzt\n#gaming #minecraft #twitchclips #papaplatte #gamer",
+      "views_at_selection": 604,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-25T01:15:48Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-1622951541-3311463588b6.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-25T16:41:51Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "3311463588b6ed6df6acca10e120c5723cc824622dbd0ec0570b04c95780df2c",
+      "category": "Minecraft",
+      "transcript_sha256": "aa6bbceb65a399252660d39dbbecee4ea15732d187b2b4724a5a1f8657852293",
+      "asr_requires_correction": true,
+      "source_sha256": "05b09a604f3adc0f4eb285f8bd1ac28cf2b3b871d94fb40b9644253dcdd1a9ad",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-25T16:41:51.978449+00:00",
+        "media_sha256": "3311463588b6ed6df6acca10e120c5723cc824622dbd0ec0570b04c95780df2c",
+        "transcript_sha256": "aa6bbceb65a399252660d39dbbecee4ea15732d187b2b4724a5a1f8657852293",
+        "source_sha256": "05b09a604f3adc0f4eb285f8bd1ac28cf2b3b871d94fb40b9644253dcdd1a9ad",
+        "evidence_sha256": "a86c7a5653358b75c5255505385e3d0a2d117f68ae02ef958eb5a0a32989045b",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "05b09a604f3adc0f4eb285f8bd1ac28cf2b3b871d94fb40b9644253dcdd1a9ad",
+          "reviewed_source_sha256": "05b09a604f3adc0f4eb285f8bd1ac28cf2b3b871d94fb40b9644253dcdd1a9ad",
+          "duration": 30.033333,
+          "timestamps": [
+            0.0,
+            14.942,
+            29.883
+          ],
+          "source_frame_hashes": [
+            "e74a86953cc602458a2c3d6e5a415e78a5f12078a469e2a60a705cfd6104dfbb",
+            "5eeeb6457a5fb40db049b265e6006239c3a7fb79ab488f1cfc9c38eb23496ad1",
+            "3a55a3ece541e11f1fdf7d7cc41c4bf7344ea46debbfe415c6d2f8c639782cc3"
+          ],
+          "headline": "trymac platzt",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with 'You Died' and inventory/chat, chat window visible with player names and messages, game menu visible at 29.88s",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player dies in Minecraft, game menu appears, no clear setup or payoff",
+            "payoff": "No visible outcome or reaction, game menu is static, no clear payoff or win/loss moment visible",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.06900792337127037,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a purple background with the title 'trymac platzt' centered. The frame at 14.94 seconds shows the same title, with a game menu overlay and a small stream chat panel on the right. The frame at 29.88 seconds is",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.942,
+            29.883
+          ],
+          "final_frame_hashes": [
+            "a2702196d17145d729aca2425a979e5f0663bbaad8a05eb4874e3f98710eb70c",
+            "7eb9bad6743c9f6f74ceb180f8361b83828b5a9e05c64ebb8b99b8cc0f7c446f",
+            "a544411ff985bddce3f0631ec552a31a4a1d3ade98b9d462280dfbf51a65b51d"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "3311463588b6ed6df6acca10e120c5723cc824622dbd0ec0570b04c95780df2c",
+          "transcript_sha256": "aa6bbceb65a399252660d39dbbecee4ea15732d187b2b4724a5a1f8657852293"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a purple background with the title 'trymac platzt' centered. The frame at 14.94 seconds shows the same title, with a game menu overlay and a small stream chat panel on the right. The frame at 29.88 seconds is"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0690, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-1622951541-3311463588b6-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "254468887",

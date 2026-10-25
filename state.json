@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "366414941",
-      "reserved_at": "2026-10-18T12:00:25Z",
-      "streamer": "krokoboss",
-      "sha256": "a6236b22bab482e4281e8ce8e524c025052ca1a6d0196e839d0f2ebba72a2419",
-      "source_sha256": "1649f687f241d7168bd7ce9b6e61ceabda0e209946da737748e3f706bb3a329b",
-      "status": "verified_public",
-      "asset_title": "tiktok14-366414941-a6236b22bab4.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-366414941-a6236b22bab4.mp4",
-      "clip_slug": "BoxyStupidSpiderBrokeBack--ntZvRoT5y89mrMc",
-      "original_created_at": "2026-10-17T18:46:22Z",
-      "source_deadline": "2026-10-20T18:46:22Z",
-      "buffer_post_id": "6ad4b4dcae173d6e00fd396c",
-      "last_reconcile_at": "2026-10-18T12:04:31Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7697976583595838752",
-      "sent_at": "2026-10-18T12:03:12Z",
-      "verified_at": "2026-10-18T12:04:32Z"
-    },
-    {
       "clip_id": "3713714204",
       "reserved_at": "2026-10-18T13:00:27Z",
       "streamer": "castcrafter",
@@ -2280,13 +2262,14 @@
   ],
   "last_prepare_hour": "2026-10-25T11",
   "last_prefetch_hour": "2026-10-25T11",
-  "archived_verified_count": 5,
+  "archived_verified_count": 6,
   "used_ids": [
     "1411062380",
     "2242279572",
     "263989408",
     "2845373187",
     "311924564",
+    "366414941",
     "4108530673",
     "761785150"
   ],

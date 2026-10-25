@@ -1960,27 +1960,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-25T20:09:11Z",
+    "at": "2026-10-25T21:10:20Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 114,
+      "listing_duration_prefilter": 113,
       "listing_ok": 100,
-      "listing_age_prefilter": 804,
-      "discovered": 811,
-      "metadata_requested": 772,
-      "gaming_category_not_verified": 379,
-      "qualified_metadata": 339,
-      "title_too_short": 54,
-      "duplicate_source_event": 19,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_age_prefilter": 809,
+      "discovered": 827,
+      "metadata_requested": 788,
+      "gaming_category_not_verified": 380,
+      "qualified_metadata": 351,
+      "title_too_short": 57,
+      "duplicate_source_event": 14,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_visual_gameplay_visible": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "4195356920",
-      "clip_slug": "HappyAssiduousRutabagaSSSsss-wLYx4ooq3gOtoHxV",
-      "streamer": "nooreax"
+      "clip_id": "307581897",
+      "clip_slug": "CarefulCulturedElephantKappaRoss-l-4f8lPJzqgdJ-Bq",
+      "streamer": "castcrafter"
     }
   },
   "prepare_scans": {
@@ -2416,8 +2417,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-25T20",
-  "last_prefetch_hour": "2026-10-25T20",
+  "last_prepare_hour": "2026-10-25T21",
+  "last_prefetch_hour": "2026-10-25T21",
   "archived_verified_count": 15,
   "used_ids": [
     "1411062380",

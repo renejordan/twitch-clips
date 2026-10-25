@@ -1960,27 +1960,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-25T19:10:37Z",
+    "at": "2026-10-25T20:09:11Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 111,
+      "listing_duration_prefilter": 114,
       "listing_ok": 100,
-      "listing_age_prefilter": 796,
-      "discovered": 801,
-      "metadata_requested": 759,
-      "gaming_category_not_verified": 368,
-      "qualified_metadata": 338,
-      "title_too_short": 53,
-      "duplicate_source_event": 21,
+      "listing_age_prefilter": 804,
+      "discovered": 811,
+      "metadata_requested": 772,
+      "gaming_category_not_verified": 379,
+      "qualified_metadata": 339,
+      "title_too_short": 54,
+      "duplicate_source_event": 19,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "4180518052",
-      "clip_slug": "VainSarcasticElkDerp-FrsRERj1MLy989ai",
-      "streamer": "castcrafter"
+      "clip_id": "4195356920",
+      "clip_slug": "HappyAssiduousRutabagaSSSsss-wLYx4ooq3gOtoHxV",
+      "streamer": "nooreax"
     }
   },
   "prepare_scans": {
@@ -2407,8 +2407,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-25T19",
-  "last_prefetch_hour": "2026-10-25T19",
+  "last_prepare_hour": "2026-10-25T20",
+  "last_prefetch_hour": "2026-10-25T20",
   "archived_verified_count": 14,
   "used_ids": [
     "1411062380",

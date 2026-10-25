@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2514639811",
-      "clip_slug": "MiniatureRamshackleBearCurseLit-1q1T8HtOwhkqubh9",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/MiniatureRamshackleBearCurseLit-1q1T8HtOwhkqubh9",
-      "original_title": "trimak troll",
-      "hook": "trimak troll",
-      "caption": "trimak troll\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 698,
-      "original_duration": 26.0,
-      "original_created_at": "2026-10-24T20:12:22Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2514639811-78bbfc6940ea.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-25T15:10:31Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "78bbfc6940ea56ed0ce5fcd8ed342d0c207c9bc3485f120009aab029bb450b1d",
-      "category": "Minecraft",
-      "transcript_sha256": "f0be57b9fea49f6ea4f9eb4166edc81c6c3b3417da33963a0c7250a9655d1d1a",
-      "asr_requires_correction": true,
-      "source_sha256": "c25080ca1b95c547533f73650aa5f1782421b175f88e7c1fe0e48798efd96756",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-25T15:10:31.417936+00:00",
-        "media_sha256": "78bbfc6940ea56ed0ce5fcd8ed342d0c207c9bc3485f120009aab029bb450b1d",
-        "transcript_sha256": "f0be57b9fea49f6ea4f9eb4166edc81c6c3b3417da33963a0c7250a9655d1d1a",
-        "source_sha256": "c25080ca1b95c547533f73650aa5f1782421b175f88e7c1fe0e48798efd96756",
-        "evidence_sha256": "14c992eead04b29a64be60b9463590d1eee8af14f37531d8773f93f68c438a8f",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "c25080ca1b95c547533f73650aa5f1782421b175f88e7c1fe0e48798efd96756",
-          "reviewed_source_sha256": "c25080ca1b95c547533f73650aa5f1782421b175f88e7c1fe0e48798efd96756",
-          "duration": 26.752,
-          "timestamps": [
-            0.0,
-            13.301,
-            26.602
-          ],
-          "source_frame_hashes": [
-            "30e9168e0ca05ae78ecfc1cfc0c0ce12ab93b83b1e1a0921fcd47a3a96b65403",
-            "44daba402cf4543a16e18e0c34e2db3b57dccd87c9008b71a36ed6ae7dadc269",
-            "d7ad11de1fc21f422dd0fb8283b77e837f7a58d2e62f5deb8c7d19d7dde0320a"
-          ],
-          "headline": "trimak troll",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, showing player's face and game HUD including health, inventory, and map, with Ender Dragon visible in game.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in combat with Ender Dragon, visible health and inventory bars, map in corner, and face camera in corner over gameplay.",
-            "payoff": "No visible outcome or payoff; player continues to face Ender Dragon without clear win or loss result or reaction from player or game.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04697129982770831,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the bottom right corner, a map in the top left, and a health bar and inventory bar visible. The text 'trimak troll' is displayed at the top center. The frame",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            13.301,
-            26.602
-          ],
-          "final_frame_hashes": [
-            "39e1f8914c3f75272f753980a91239caa30008888cd4f76ad03797648e8b0b5b",
-            "6334d45eea8e14b0fdfe186c13a77b4de5d730c145969bfb96cccfc6c96a9bd7",
-            "1e9c2cc218ce67607576f02e331649e68a2b176181922ec3d55c7736bfac768f"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "78bbfc6940ea56ed0ce5fcd8ed342d0c207c9bc3485f120009aab029bb450b1d",
-          "transcript_sha256": "f0be57b9fea49f6ea4f9eb4166edc81c6c3b3417da33963a0c7250a9655d1d1a"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the bottom right corner, a map in the top left, and a health bar and inventory bar visible. The text 'trimak troll' is displayed at the top center. The frame"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0470, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2514639811-78bbfc6940ea-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2236393291",
@@ -1964,14 +1826,17 @@
       "streamer": "trymacs",
       "sha256": "78bbfc6940ea56ed0ce5fcd8ed342d0c207c9bc3485f120009aab029bb450b1d",
       "source_sha256": "c25080ca1b95c547533f73650aa5f1782421b175f88e7c1fe0e48798efd96756",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2514639811-78bbfc6940ea.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2514639811-78bbfc6940ea.mp4",
       "clip_slug": "MiniatureRamshackleBearCurseLit-1q1T8HtOwhkqubh9",
       "original_created_at": "2026-10-24T20:12:22Z",
       "source_deadline": "2026-10-27T20:12:22Z",
       "buffer_post_id": "6ade27a30b5343d070dd18e6",
-      "last_reconcile_at": "2026-10-25T16:02:24Z"
+      "last_reconcile_at": "2026-10-25T16:02:24Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700636055556410657",
+      "sent_at": "2026-10-25T16:02:22Z",
+      "verified_at": "2026-10-25T16:02:25Z"
     }
   ],
   "last_production": {

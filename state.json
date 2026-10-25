@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1008150185",
-      "clip_slug": "InventivePoorSrirachaImGlitch-7_kpl-BgT9DFcX6e",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/InventivePoorSrirachaImGlitch-7_kpl-BgT9DFcX6e",
-      "original_title": "HUGO CLUTCH",
-      "hook": "HUGO CLUTCH",
-      "caption": "HUGO CLUTCH\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 1268,
-      "original_duration": 20.0,
-      "original_created_at": "2026-10-24T21:00:45Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1008150185-0bc809a464b3.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-25T10:08:06Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "0bc809a464b3a8ca39afa00fa71fda240e0371f389fce6e5c668aad12b2ddd50",
-      "category": "Minecraft",
-      "transcript_sha256": "a9dd499e5178196f2076898133623252b767504a13292df493cccc384c3d889f",
-      "asr_requires_correction": true,
-      "source_sha256": "837d8a129cba033e15d8e48cfe584e5b445275576227bc5643c0d4a23fcc0a37",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-25T10:08:06.549484+00:00",
-        "media_sha256": "0bc809a464b3a8ca39afa00fa71fda240e0371f389fce6e5c668aad12b2ddd50",
-        "transcript_sha256": "a9dd499e5178196f2076898133623252b767504a13292df493cccc384c3d889f",
-        "source_sha256": "837d8a129cba033e15d8e48cfe584e5b445275576227bc5643c0d4a23fcc0a37",
-        "evidence_sha256": "b47ce71aba91a24362d5c1d188d56ee5091d653b3d0a46cf9db8bb31e89ffadf",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "837d8a129cba033e15d8e48cfe584e5b445275576227bc5643c0d4a23fcc0a37",
-          "reviewed_source_sha256": "837d8a129cba033e15d8e48cfe584e5b445275576227bc5643c0d4a23fcc0a37",
-          "duration": 20.885,
-          "timestamps": [
-            0.0,
-            10.368,
-            20.735
-          ],
-          "source_frame_hashes": [
-            "6dae8b908bc5266f9ec2601ceb2c95a20dd497636bf3341ca7a5ecfd3a9c2c11",
-            "19bf8ef8f92026fdd4b421dbbd9079ac0d1fada7c23054dc194d27e1c59765c1",
-            "e920ee3e863f89998649ff4690ddd33985f78383a0b25b8932ac16aef24ae0ef"
-          ],
-          "headline": "HUGO CLUTCH",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in top-left corner, showing streamer, with game overlay including health, inventory, chat, and player names. Game is Minecraft, with visible HUD elements like health bar, inventory slots, and chat log",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in the Nether, facing an End Dragon with health bars visible, preparing to fight.",
-            "payoff": "Player is still in combat, no clear outcome or payoff visible in frames provided. No win/loss or clear action result shown. No visible reaction or outcome from the player's actions. No clear payoff or outcome visible in ",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.12611868237870127,
-          "clipped_fraction": 2.9925336285966514e-06,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a Minecraft game with a facecam panel in the top-left corner, a title overlay 'HUGO CLUTCH' at the top center, and a chat window on the left side. The game HUD is visible, including health,",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            10.368,
-            20.735
-          ],
-          "final_frame_hashes": [
-            "2dbef8bca90c9b759aeea4807a18d15dfef40a60ae7a868d35562e4260b564e5",
-            "d2e37661e564bd04f726018481691c5648ea49c887306796e659260a0161b66b",
-            "e7d20ab81a87c4f8c21a0a577c696cf7f7740e8bee18476e0009ac9660b348c0"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "0bc809a464b3a8ca39afa00fa71fda240e0371f389fce6e5c668aad12b2ddd50",
-          "transcript_sha256": "a9dd499e5178196f2076898133623252b767504a13292df493cccc384c3d889f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a Minecraft game with a facecam panel in the top-left corner, a title overlay 'HUGO CLUTCH' at the top center, and a chat window on the left side. The game HUD is visible, including health,"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1261, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1008150185-0bc809a464b3-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1963,14 +1825,17 @@
       "streamer": "letshugotv",
       "sha256": "0bc809a464b3a8ca39afa00fa71fda240e0371f389fce6e5c668aad12b2ddd50",
       "source_sha256": "837d8a129cba033e15d8e48cfe584e5b445275576227bc5643c0d4a23fcc0a37",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1008150185-0bc809a464b3.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1008150185-0bc809a464b3.mp4",
       "clip_slug": "InventivePoorSrirachaImGlitch-7_kpl-BgT9DFcX6e",
       "original_created_at": "2026-10-24T21:00:45Z",
       "source_deadline": "2026-10-27T21:00:45Z",
       "buffer_post_id": "6adde14e3d5b27036bcb1797",
-      "last_reconcile_at": "2026-10-25T11:02:26Z"
+      "last_reconcile_at": "2026-10-25T11:02:26Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700558814701047073",
+      "sent_at": "2026-10-25T11:02:19Z",
+      "verified_at": "2026-10-25T11:02:27Z"
     }
   ],
   "last_production": {

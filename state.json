@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "4195356920",
-      "clip_slug": "HappyAssiduousRutabagaSSSsss-wLYx4ooq3gOtoHxV",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/HappyAssiduousRutabagaSSSsss-wLYx4ooq3gOtoHxV",
-      "original_title": "End jetzt",
-      "hook": "End jetzt",
-      "caption": "End jetzt\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 603,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-24T20:30:33Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-4195356920-2aa8bd94c851.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-25T20:09:11Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "2aa8bd94c851bc8f7c04139dad95e494b5c18b240ead9834c4e2529721985890",
-      "category": "Minecraft",
-      "transcript_sha256": "af3886563c8227025623aa33315283fb35db85768981927034af4fdd0fa51994",
-      "asr_requires_correction": true,
-      "source_sha256": "669b909de3e803f1cd7c2eeba0fd4d6c89e1d6afd8ab05273d8eae9647ad1762",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-25T20:09:11.159111+00:00",
-        "media_sha256": "2aa8bd94c851bc8f7c04139dad95e494b5c18b240ead9834c4e2529721985890",
-        "transcript_sha256": "af3886563c8227025623aa33315283fb35db85768981927034af4fdd0fa51994",
-        "source_sha256": "669b909de3e803f1cd7c2eeba0fd4d6c89e1d6afd8ab05273d8eae9647ad1762",
-        "evidence_sha256": "7072513a44275ab6d6faaa779c42d00cf5abc6372bed2b91b944ab010df73b9c",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "669b909de3e803f1cd7c2eeba0fd4d6c89e1d6afd8ab05273d8eae9647ad1762",
-          "reviewed_source_sha256": "669b909de3e803f1cd7c2eeba0fd4d6c89e1d6afd8ab05273d8eae9647ad1762",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "10541026a78cb86dd7d6fdb3c6eda0fa43e6c44023693ee55f0d3061e9428882",
-            "9cf1a917bbf02b7833fe80594a7e4a92c8586b76b7e5a29b7792b75846db41ed",
-            "d5ef7831374d8a389f6b81224d042b85af6bfc79609665e963e2bf3fe0b0b002"
-          ],
-          "headline": "End jetzt",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, game HUD with health, inventory, chat, and dragon health bar, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in underwater biome with dragon health bar visible, no clear action or outcome",
-            "payoff": "No visible outcome or payoff from actions, no win/loss or reaction visible in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.03208534002430885,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, a stream chat overlay on the left, and a title 'End jetzt' centered at the top. The gameplay depicts a player in an underwater biome, a",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "3c456ce128dc34d0eb58eba60a78ce70e188cc287ba407a2f114d71a5f9a1cf6",
-            "1ee293ea018d4dd7549d7c1031d7d61eeebd93635aca4c715f4d69fd8331e717",
-            "03aa587aa1acf8e786ebeddac11c3778ae122f8b568f2661e41ae7e9820c04ab"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "2aa8bd94c851bc8f7c04139dad95e494b5c18b240ead9834c4e2529721985890",
-          "transcript_sha256": "af3886563c8227025623aa33315283fb35db85768981927034af4fdd0fa51994"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, a stream chat overlay on the left, and a title 'End jetzt' centered at the top. The gameplay depicts a player in an underwater biome, a"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0321, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-4195356920-2aa8bd94c851-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "60281847",
@@ -1964,14 +1826,17 @@
       "streamer": "nooreax",
       "sha256": "2aa8bd94c851bc8f7c04139dad95e494b5c18b240ead9834c4e2529721985890",
       "source_sha256": "669b909de3e803f1cd7c2eeba0fd4d6c89e1d6afd8ab05273d8eae9647ad1762",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-4195356920-2aa8bd94c851.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-4195356920-2aa8bd94c851.mp4",
       "clip_slug": "HappyAssiduousRutabagaSSSsss-wLYx4ooq3gOtoHxV",
       "original_created_at": "2026-10-24T20:30:33Z",
       "source_deadline": "2026-10-27T20:30:33Z",
       "buffer_post_id": "6ade6df3e4be8a4d86c7fcf8",
-      "last_reconcile_at": "2026-10-25T21:06:30Z"
+      "last_reconcile_at": "2026-10-25T21:06:30Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700713415701957921",
+      "sent_at": "2026-10-25T21:02:37Z",
+      "verified_at": "2026-10-25T21:06:32Z"
     }
   ],
   "last_production": {

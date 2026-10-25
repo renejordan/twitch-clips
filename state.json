@@ -1963,12 +1963,13 @@
       "streamer": "letshugotv",
       "sha256": "0bc809a464b3a8ca39afa00fa71fda240e0371f389fce6e5c668aad12b2ddd50",
       "source_sha256": "837d8a129cba033e15d8e48cfe584e5b445275576227bc5643c0d4a23fcc0a37",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1008150185-0bc809a464b3.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1008150185-0bc809a464b3.mp4",
       "clip_slug": "InventivePoorSrirachaImGlitch-7_kpl-BgT9DFcX6e",
       "original_created_at": "2026-10-24T21:00:45Z",
-      "source_deadline": "2026-10-27T21:00:45Z"
+      "source_deadline": "2026-10-27T21:00:45Z",
+      "buffer_post_id": "6adde14e3d5b27036bcb1797"
     }
   ],
   "last_production": {

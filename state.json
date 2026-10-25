@@ -1964,12 +1964,13 @@
       "streamer": "krokoboss",
       "sha256": "870e8455673ad13c2f0581cc123e5e35f916ee8cecf54c3bb7a57e567b2c7a37",
       "source_sha256": "4549c81d1b68b817fdd30a365bb1085a9774da10e3cd57870388ecbe15251799",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-303680278-870e8455673a.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-303680278-870e8455673a.mp4",
       "clip_slug": "ProductiveRenownedPigPartyTime-KnADVq2PTDv6n7Fy",
       "original_created_at": "2026-10-24T18:17:23Z",
-      "source_deadline": "2026-10-27T18:17:23Z"
+      "source_deadline": "2026-10-27T18:17:23Z",
+      "buffer_post_id": "6ade51cf6887a2efc11dab39"
     }
   ],
   "last_production": {

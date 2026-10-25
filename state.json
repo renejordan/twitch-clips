@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1620819993",
-      "clip_slug": "CarelessDarkPeafowlYouDontSay-j_cMA2HXDRzd5ivk",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/CarelessDarkPeafowlYouDontSay-j_cMA2HXDRzd5ivk",
-      "original_title": "lets gooooo",
-      "hook": "lets gooooo",
-      "caption": "lets gooooo\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 2521,
-      "original_duration": 16.0,
-      "original_created_at": "2026-10-24T21:28:59Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1620819993-510a30264254.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-25T08:05:41Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "510a302642540c55a15f0e1ced4c5f6e8f24f3186d2158fdff6c0d1f6dfdbccb",
-      "category": "Minecraft",
-      "transcript_sha256": "22ed79f0b032fae7d553e6bb32ba110ac8fb9fede61117996c5180dc08d2b440",
-      "asr_requires_correction": true,
-      "source_sha256": "cff45e48239a727333544c8d00a50defc8d62991508dfa21080d12a39af06833",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-25T08:05:41.489408+00:00",
-        "media_sha256": "510a302642540c55a15f0e1ced4c5f6e8f24f3186d2158fdff6c0d1f6dfdbccb",
-        "transcript_sha256": "22ed79f0b032fae7d553e6bb32ba110ac8fb9fede61117996c5180dc08d2b440",
-        "source_sha256": "cff45e48239a727333544c8d00a50defc8d62991508dfa21080d12a39af06833",
-        "evidence_sha256": "c144d1f10f30cf6dfbf71707e1fabcfb536125e3c6cfa8e8a517857630c41dbc",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "cff45e48239a727333544c8d00a50defc8d62991508dfa21080d12a39af06833",
-          "reviewed_source_sha256": "cff45e48239a727333544c8d00a50defc8d62991508dfa21080d12a39af06833",
-          "duration": 16.004,
-          "timestamps": [
-            0.0,
-            7.927,
-            15.854
-          ],
-          "source_frame_hashes": [
-            "2195ecdaed314e50de000fd22cc837dfedead7bb10b11d193afc25419bd5cdc3",
-            "0cf485171a83e4c3b829a12964cbdaf2fb766bad489cc3276890b7712f7e0a21",
-            "6ea81b712a8d8e02db89d694c6dfc64467b1b14ecdd1ac1f7681db4d13ae8d2f"
-          ],
-          "headline": "lets gooooo",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, visible game HUD with health, inventory, chat, and player names, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player faces Ender Dragon with full health bar and inventory visible, no action yet",
-            "payoff": "No visible outcome or payoff; player remains in combat stance without clear result or win/loss indicator",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.14668723910258266,
-          "clipped_fraction": 3.901053674597509e-06,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game interface with a facecam panel in the top-left corner, a chat window on the left, and a health bar and inventory visible. The text 'lets gooooo' is displayed as a title overlay at the top. At",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            7.927,
-            15.854
-          ],
-          "final_frame_hashes": [
-            "8b2e87cfb3b5381cb44f85a071c6182beae16f0232f09fe432b927310756aa1e",
-            "db1199414630aa8488c3e3e9ad3cf2cfe3cc549ff652c08b6bf3cb62276e475b",
-            "eff3300727e97934ce35b095745055680927131b841ce9b4586879ffe0e059cc"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "510a302642540c55a15f0e1ced4c5f6e8f24f3186d2158fdff6c0d1f6dfdbccb",
-          "transcript_sha256": "22ed79f0b032fae7d553e6bb32ba110ac8fb9fede61117996c5180dc08d2b440"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game interface with a facecam panel in the top-left corner, a chat window on the left, and a health bar and inventory visible. The text 'lets gooooo' is displayed as a title overlay at the top. At"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1467, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1620819993-510a30264254-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "311924564",
@@ -1927,14 +1789,17 @@
       "streamer": "letshugotv",
       "sha256": "510a302642540c55a15f0e1ced4c5f6e8f24f3186d2158fdff6c0d1f6dfdbccb",
       "source_sha256": "cff45e48239a727333544c8d00a50defc8d62991508dfa21080d12a39af06833",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1620819993-510a30264254.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1620819993-510a30264254.mp4",
       "clip_slug": "CarelessDarkPeafowlYouDontSay-j_cMA2HXDRzd5ivk",
       "original_created_at": "2026-10-24T21:28:59Z",
       "source_deadline": "2026-10-27T21:28:59Z",
       "buffer_post_id": "6addc5310b5343d070c2bdf8",
-      "last_reconcile_at": "2026-10-25T09:06:36Z"
+      "last_reconcile_at": "2026-10-25T09:06:36Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700527817016020256",
+      "sent_at": "2026-10-25T09:02:29Z",
+      "verified_at": "2026-10-25T09:06:37Z"
     }
   ],
   "last_production": {

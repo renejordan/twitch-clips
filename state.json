@@ -1938,6 +1938,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700527817016020256",
       "sent_at": "2026-10-25T09:02:29Z",
       "verified_at": "2026-10-25T09:06:37Z"
+    },
+    {
+      "clip_id": "3700686251",
+      "reserved_at": "2026-10-25T10:00:31Z",
+      "streamer": "letshugotv",
+      "sha256": "29832b8a87e75133901c18839d3b40f2759b091cce20d6218b481707aff37d3c",
+      "source_sha256": "73e5757c065939f829857a32a713b1dc1cb6204c189ea4410ae9a85b788a6784",
+      "status": "reserved",
+      "asset_title": "tiktok14-3700686251-29832b8a87e7.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-3700686251-29832b8a87e7.mp4",
+      "clip_slug": "LuckyHyperRatStinkyCheese-D5_rYXJvXGMvNhOo",
+      "original_created_at": "2026-10-24T19:44:16Z",
+      "source_deadline": "2026-10-27T19:44:16Z"
     }
   ],
   "last_production": {

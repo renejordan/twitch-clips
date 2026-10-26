@@ -1911,15 +1911,6 @@
   },
   "rejected": [
     {
-      "clip_id": "3707302748",
-      "clip_slug": "ShyMoistSageFloof-OZv3XisQ-TDP_Jus",
-      "streamer": "noway4u_sir",
-      "source_url": "https://www.twitch.tv/noway4u_sir/clip/ShyMoistSageFloof-OZv3XisQ-TDP_Jus",
-      "status": "quality_rejected",
-      "created_at": "2026-10-19T08:06:18Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "576576114",
       "clip_slug": "CrypticPerfectWhaleAMPEnergyCherry-eKaJDDq0fEyMefGR",
       "streamer": "agurin",
@@ -2294,6 +2285,7 @@
     "311924564",
     "366414941",
     "3699286379",
+    "3707302748",
     "3713714204",
     "3835744608",
     "3857817711",
@@ -2305,5 +2297,5 @@
     "635147332",
     "761785150"
   ],
-  "archived_rejected_count": 4
+  "archived_rejected_count": 5
 }

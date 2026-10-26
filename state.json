@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2859207532",
-      "clip_slug": "FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
-      "original_title": "max entdeckt den neuen MOB",
-      "hook": "max entdeckt den neuen MOB",
-      "caption": "max entdeckt den neuen MOB\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 403,
-      "original_duration": 50.0,
-      "original_created_at": "2026-10-25T21:48:55Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2859207532-e468f40da71e.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-26T08:45:23Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "e468f40da71e6971bb81fb7b91eee648cae061f052b7bb86099d5ef28be6af0a",
-      "category": "Minecraft",
-      "transcript_sha256": "d78a89dcc048422f32356f404af1ed9fd95eaa7bdf720108284e9aa32817b3d4",
-      "asr_requires_correction": true,
-      "source_sha256": "3e2899382e13d92f12d2a85994263d16eb8466f7f8b5f390b400b9c7ecce4d4e",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-26T08:45:23.427330+00:00",
-        "media_sha256": "e468f40da71e6971bb81fb7b91eee648cae061f052b7bb86099d5ef28be6af0a",
-        "transcript_sha256": "d78a89dcc048422f32356f404af1ed9fd95eaa7bdf720108284e9aa32817b3d4",
-        "source_sha256": "3e2899382e13d92f12d2a85994263d16eb8466f7f8b5f390b400b9c7ecce4d4e",
-        "evidence_sha256": "ee9ea6c59342ddb741caaaede98a282fbc178397be1cf1fd4a9da50fbad47ff0",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "3e2899382e13d92f12d2a85994263d16eb8466f7f8b5f390b400b9c7ecce4d4e",
-          "reviewed_source_sha256": "3e2899382e13d92f12d2a85994263d16eb8466f7f8b5f390b400b9c7ecce4d4e",
-          "duration": 50.883333,
-          "timestamps": [
-            0.0,
-            25.367,
-            50.733
-          ],
-          "source_frame_hashes": [
-            "d4c1f315ab4d34890b97760dc555f4348426c8d4408ecd0a7b2d8ca392af896d",
-            "5dd3bcf981595265dce7d66b3d861dac046a90de2e5f560e8eb516130d2b8fcf",
-            "76375277a05236103e09f4a6e5a0ada51a69e44fa0855ab7ef6130250f6f519a"
-          ],
-          "headline": "max entdeckt den neuen MOB",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner over gameplay, with game HUD and chat visible, no browser or desktop elements.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a cave, holding a tool, with a redstone block visible.",
-            "payoff": "No clear outcome or payoff visible; player is still in the same location with no visible action result or win/loss indicator.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04531175129365185,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a cave environment, a player holding a tool, and a redstone block visible. The title 'max entdeckt den neuen MOB' is clearly displayed at the top. The player's facecam is overl",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            25.367,
-            50.733
-          ],
-          "final_frame_hashes": [
-            "3d3fbbd09e96684bd745cf5ac5a93ebbfc654a501cabf4ead7cff39c49259efa",
-            "1c5dd05b39f3f9088e1d1c4e8756f4a9ada5aec2b523a0cbad4adff802b9eabd",
-            "628bcac71a681fe93721c354953fe63663cb773220d188d0d250fa106c8b293c"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "e468f40da71e6971bb81fb7b91eee648cae061f052b7bb86099d5ef28be6af0a",
-          "transcript_sha256": "d78a89dcc048422f32356f404af1ed9fd95eaa7bdf720108284e9aa32817b3d4"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a cave environment, a player holding a tool, and a redstone block visible. The title 'max entdeckt den neuen MOB' is clearly displayed at the top. The player's facecam is overl"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0453, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2859207532-e468f40da71e-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1847050907",
@@ -1946,14 +1808,17 @@
       "streamer": "trymacs",
       "sha256": "e468f40da71e6971bb81fb7b91eee648cae061f052b7bb86099d5ef28be6af0a",
       "source_sha256": "3e2899382e13d92f12d2a85994263d16eb8466f7f8b5f390b400b9c7ecce4d4e",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2859207532-e468f40da71e.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2859207532-e468f40da71e.mp4",
       "clip_slug": "FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
       "original_created_at": "2026-10-25T21:48:55Z",
       "source_deadline": "2026-10-28T21:48:55Z",
       "buffer_post_id": "6adf17a3411d512f6d6f871e",
-      "last_reconcile_at": "2026-10-26T09:06:26Z"
+      "last_reconcile_at": "2026-10-26T09:06:26Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700899917262261537",
+      "sent_at": "2026-10-26T09:06:18Z",
+      "verified_at": "2026-10-26T09:06:27Z"
     }
   ],
   "last_production": {

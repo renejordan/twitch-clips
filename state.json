@@ -1975,6 +1975,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700962036305415456",
       "sent_at": "2026-10-26T13:08:15Z",
       "verified_at": "2026-10-26T13:10:35Z"
+    },
+    {
+      "clip_id": "4024438646",
+      "reserved_at": "2026-10-26T14:04:35Z",
+      "streamer": "papaplatte",
+      "sha256": "660dad90af880321eb4d7dfee7b0e0a4850d5fc1bd2e4a6e6a9662ebdd505e4d",
+      "source_sha256": "54235f9a6c7b844b9606f49fdbc6f8743c1223d63b2f87f02d023194eedf2beb",
+      "status": "reserved",
+      "asset_title": "tiktok14-4024438646-660dad90af88.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-4024438646-660dad90af88.mp4",
+      "clip_slug": "SaltyMistySparrowSSSsss-QkSQZxyZb3Fvsb8X",
+      "original_created_at": "2026-10-25T18:40:00Z",
+      "source_deadline": "2026-10-28T18:40:00Z"
     }
   ],
   "last_production": {

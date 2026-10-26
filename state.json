@@ -1965,15 +1965,6 @@
   },
   "rejected": [
     {
-      "clip_id": "576576114",
-      "clip_slug": "CrypticPerfectWhaleAMPEnergyCherry-eKaJDDq0fEyMefGR",
-      "streamer": "agurin",
-      "source_url": "https://www.twitch.tv/agurin/clip/CrypticPerfectWhaleAMPEnergyCherry-eKaJDDq0fEyMefGR",
-      "status": "quality_rejected",
-      "created_at": "2026-10-19T20:09:51Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "781900318",
       "clip_slug": "LuckyYawningBeaverStrawBeary-mNZE1qgMWXk6RO1G",
       "streamer": "zarbex",
@@ -2401,9 +2392,10 @@
     "4108530673",
     "502558914",
     "524815218",
+    "576576114",
     "60281847",
     "635147332",
     "761785150"
   ],
-  "archived_rejected_count": 5
+  "archived_rejected_count": 6
 }

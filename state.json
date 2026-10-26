@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "1086399308",
-      "reserved_at": "2026-10-19T12:04:28Z",
-      "streamer": "castcrafter",
-      "sha256": "400335a204f88f787073a60f1d81f709c06cbbcc6442f7b72ea8f6ca4de06a72",
-      "source_sha256": "b45428e715f954b3c9d028183d6c312f78bd23789a8fdf980b87b9bba31acafa",
-      "status": "verified_public",
-      "asset_title": "tiktok14-1086399308-400335a204f8.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1086399308-400335a204f8.mp4",
-      "clip_slug": "LuckyAltruisticSangTheTarFu-8R-YEZnpcbCOj3QP",
-      "original_created_at": "2026-10-18T17:36:51Z",
-      "source_deadline": "2026-10-21T17:36:51Z",
-      "buffer_post_id": "6ad607500d5fe571c701e022",
-      "last_reconcile_at": "2026-10-19T15:06:28Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698348972989025569",
-      "sent_at": "2026-10-19T12:09:18Z",
-      "verified_at": "2026-10-19T16:06:51Z"
-    },
-    {
       "clip_id": "3026950595",
       "reserved_at": "2026-10-19T16:20:12Z",
       "streamer": "trymacs",
@@ -2307,8 +2289,9 @@
   ],
   "last_prepare_hour": "2026-10-26T11",
   "last_prefetch_hour": "2026-10-26T11",
-  "archived_verified_count": 20,
+  "archived_verified_count": 21,
   "used_ids": [
+    "1086399308",
     "1411062380",
     "154404618",
     "1847050907",

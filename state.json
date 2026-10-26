@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701008578290765089",
       "sent_at": "2026-10-26T16:07:07Z",
       "verified_at": "2026-10-26T16:10:43Z"
+    },
+    {
+      "clip_id": "1769273648",
+      "reserved_at": "2026-10-26T17:04:33Z",
+      "streamer": "castcrafter",
+      "sha256": "6df46afabeb0b9f0938bf2b821eceea6fe906d4462ae446792295ee6a01da374",
+      "source_sha256": "aafa4cb4e60ad97da8e1ce7136bb1bc10bd2609f5c257805e8ae2b0171e6fd5a",
+      "status": "reserved",
+      "asset_title": "tiktok14-1769273648-6df46afabeb0.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1769273648-6df46afabeb0.mp4",
+      "clip_slug": "ObservantLovelyOtterStrawBeary-Ehj_ok9G90mJ_377",
+      "original_created_at": "2026-10-25T16:27:55Z",
+      "source_deadline": "2026-10-28T16:27:55Z"
     }
   ],
   "last_production": {

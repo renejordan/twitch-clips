@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "471578372",
+      "clip_slug": "ShySneakyDunlinBloodTrail-a4amZ0-qtn2kdhTF",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/ShySneakyDunlinBloodTrail-a4amZ0-qtn2kdhTF",
+      "original_title": "Hugo killt Merle",
+      "hook": "Hugo killt Merle",
+      "caption": "Hugo killt Merle\n#gaming #minecraft #twitchclips #letshugotv #gamer",
+      "views_at_selection": 233,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-25T16:03:27Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-471578372-0f264608e095.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-26T15:15:11Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "0f264608e0950f5519cfdc6e1acec1edc21541cdcafe8650b54f71889d5005e0",
+      "category": "Minecraft",
+      "transcript_sha256": "a8c0b122670f77b898ff137de74ba4a6afe5894997437c6d4bbd1d0a443899f3",
+      "asr_requires_correction": true,
+      "source_sha256": "69743aea8505207615f415317f341c8f7ca15a0fea88443972b231abb946b7e7",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-26T15:15:11.636903+00:00",
+        "media_sha256": "0f264608e0950f5519cfdc6e1acec1edc21541cdcafe8650b54f71889d5005e0",
+        "transcript_sha256": "a8c0b122670f77b898ff137de74ba4a6afe5894997437c6d4bbd1d0a443899f3",
+        "source_sha256": "69743aea8505207615f415317f341c8f7ca15a0fea88443972b231abb946b7e7",
+        "evidence_sha256": "7759d478b3c0978d875220b054c72e6c6210477ef171bacad1ebd1c8fb393c23",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "69743aea8505207615f415317f341c8f7ca15a0fea88443972b231abb946b7e7",
+          "reviewed_source_sha256": "69743aea8505207615f415317f341c8f7ca15a0fea88443972b231abb946b7e7",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "fd4a050623ef7c1c0cc34065cca1cfaef1d957e4eba82d145d5faea4229db0ca",
+            "4782d7c51e14be90c13dd7e12b49647b6d206ba0460e7421403605c2c4fda9ce",
+            "9e83606228389acfac6589a2969c3734e53fd7e65b29bead3350ab65869b80ea"
+          ],
+          "headline": "Hugo killt Merle",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Top-left corner shows a face camera with a person wearing headphones, while the main screen displays Minecraft gameplay with a visible inventory bar and chat window. The game is in first-person perspective with a health/",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames provided.",
+            "payoff": "No clear payoff visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.04461831750964653,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a split-screen layout with a facecam panel on the left and Minecraft gameplay on the right. The facecam panel is enlarged and positioned above the gameplay, which is a common edited gaming layout. The game is",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "2f93bb6a50539190876cc49307b03906f0cdca855da71b848a2da967b3b3647e",
+            "dc193b6738125dfb74de7630ab31c3d6be7b1b15381268c8309bc3c12b715de7",
+            "0e0df17fc0b29e095f458df66cbaa0f4ee5faa3681de5e75f8ab4a0631893612"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "0f264608e0950f5519cfdc6e1acec1edc21541cdcafe8650b54f71889d5005e0",
+          "transcript_sha256": "a8c0b122670f77b898ff137de74ba4a6afe5894997437c6d4bbd1d0a443899f3"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a split-screen layout with a facecam panel on the left and Minecraft gameplay on the right. The facecam panel is enlarged and positioned above the gameplay, which is a common edited gaming layout. The game is"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0446, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-471578372-0f264608e095-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3026950595",

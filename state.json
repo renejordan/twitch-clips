@@ -1957,6 +1957,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700946853172448544",
       "sent_at": "2026-10-26T12:08:22Z",
       "verified_at": "2026-10-26T12:08:34Z"
+    },
+    {
+      "clip_id": "870970129",
+      "reserved_at": "2026-10-26T13:04:32Z",
+      "streamer": "krokoboss",
+      "sha256": "bb5bf77637f6814971faa4d1b166a0406b52a3bab7e090cfad546f0793437d43",
+      "source_sha256": "5517b9862e6575d66ba7c975a901f3a061457e712ad6af16aeb26ae04289324c",
+      "status": "reserved",
+      "asset_title": "tiktok14-870970129-bb5bf77637f6.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-870970129-bb5bf77637f6.mp4",
+      "clip_slug": "TardyAmazonianFriesFailFish-T-uaopc6WVJNfISs",
+      "original_created_at": "2026-10-25T20:19:24Z",
+      "source_deadline": "2026-10-28T20:19:24Z"
     }
   ],
   "last_production": {

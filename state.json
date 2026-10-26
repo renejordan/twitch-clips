@@ -1952,7 +1952,8 @@
       "clip_slug": "FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
       "original_created_at": "2026-10-25T21:48:55Z",
       "source_deadline": "2026-10-28T21:48:55Z",
-      "buffer_post_id": "6adf17a3411d512f6d6f871e"
+      "buffer_post_id": "6adf17a3411d512f6d6f871e",
+      "last_reconcile_at": "2026-10-26T09:06:26Z"
     }
   ],
   "last_production": {

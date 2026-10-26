@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "870970129",
+      "clip_slug": "TardyAmazonianFriesFailFish-T-uaopc6WVJNfISs",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/TardyAmazonianFriesFailFish-T-uaopc6WVJNfISs",
+      "original_title": "krokoboss – Der Chat explodiert",
+      "hook": "krokoboss – Der Chat explodiert",
+      "caption": "krokoboss – Der Chat explodiert\n#gaming #minecraft #twitchclips #krokoboss #gamer",
+      "views_at_selection": 275,
+      "original_duration": 60.0,
+      "original_created_at": "2026-10-25T20:19:24Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-870970129-bb5bf77637f6.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-26T12:11:50Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "bb5bf77637f6814971faa4d1b166a0406b52a3bab7e090cfad546f0793437d43",
+      "category": "Minecraft",
+      "transcript_sha256": "7a46d4e66a830437fe552d0668e79c11a4921a0f57c14bfc045145744c9c04a8",
+      "asr_requires_correction": true,
+      "source_sha256": "5517b9862e6575d66ba7c975a901f3a061457e712ad6af16aeb26ae04289324c",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-26T12:11:50.977353+00:00",
+        "media_sha256": "bb5bf77637f6814971faa4d1b166a0406b52a3bab7e090cfad546f0793437d43",
+        "transcript_sha256": "7a46d4e66a830437fe552d0668e79c11a4921a0f57c14bfc045145744c9c04a8",
+        "source_sha256": "5517b9862e6575d66ba7c975a901f3a061457e712ad6af16aeb26ae04289324c",
+        "evidence_sha256": "60f28e56044f135579294fd1f7888da4ef931cc1641402516d3886c370cea0ae",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "5517b9862e6575d66ba7c975a901f3a061457e712ad6af16aeb26ae04289324c",
+          "reviewed_source_sha256": "5517b9862e6575d66ba7c975a901f3a061457e712ad6af16aeb26ae04289324c",
+          "duration": 60.0,
+          "timestamps": [
+            0.0,
+            29.925,
+            59.85
+          ],
+          "source_frame_hashes": [
+            "d92e2681f46b59cbb82f831422238593aca6afc00d04a0ffebeab0226e882629",
+            "b67a685ff0dcf90f1f82bcd609cc61cf0c91c0e1e10284885d0599ac52b83dfb",
+            "09786086e91f3062bc11e6fc65a762e2e00e1696724f9d9a946a54cd5d8c9713"
+          ],
+          "headline": "krokoboss – Der Chat explodiert",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, with game HUD visible including inventory, map, and chat bar; no browser or desktop elements present.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a Minecraft building with torches and brick walls, holding a tool, with a map and inventory visible.",
+            "payoff": "No visible outcome or payoff; player navigates to game menu and returns to gameplay without clear event or reaction.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.019234813300375863,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a facecam panel in the top right corner, which is a common edited gaming layout. The game view is clear, showing a room with torches and brick walls, and the player is holding a cob",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            29.925,
+            59.85
+          ],
+          "final_frame_hashes": [
+            "0599f8f86ac1607ae5630a68f19ec1ff0c5d38a260430b05d9d3f2be03164d69",
+            "9043aa4eb2d6129ffcf559ae6bc445a01439ad73c92f667084ddbf677c30406c",
+            "9ce7c147e1acd8f2649b58a6a8d4d439d4c913cea9189cfeb45e70c8d8aad5e0"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "bb5bf77637f6814971faa4d1b166a0406b52a3bab7e090cfad546f0793437d43",
+          "transcript_sha256": "7a46d4e66a830437fe552d0668e79c11a4921a0f57c14bfc045145744c9c04a8"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a facecam panel in the top right corner, which is a common edited gaming layout. The game view is clear, showing a room with torches and brick walls, and the player is holding a cob"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0192, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-870970129-bb5bf77637f6-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3026950595",

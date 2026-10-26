@@ -1957,6 +1957,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700915402200632609",
       "sent_at": "2026-10-26T10:06:19Z",
       "verified_at": "2026-10-26T10:06:31Z"
+    },
+    {
+      "clip_id": "1001913153",
+      "reserved_at": "2026-10-26T11:04:30Z",
+      "streamer": "castcrafter",
+      "sha256": "af3f27b0c874b9c9ceb5219ab5e9c7a4aac5d512470ceec77f14fd0aaffe7e66",
+      "source_sha256": "d5fe5cc552e0a0528e5cc07261072470b49bbca8cef9bc9d5c66765650762559",
+      "status": "reserved",
+      "asset_title": "tiktok14-1001913153-af3f27b0c874.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1001913153-af3f27b0c874.mp4",
+      "clip_slug": "SlipperyMildWalletHeyGuys-lIzKQ5KEyhoUzE3H",
+      "original_created_at": "2026-10-25T10:12:03Z",
+      "source_deadline": "2026-10-28T10:12:03Z"
     }
   ],
   "last_production": {

@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "344501075",
+      "clip_slug": "EmpathicFitAyeayeDoubleRainbow-kM4jrQWDK_wmoEHC",
+      "streamer": "bastighg",
+      "source_url": "https://www.twitch.tv/bastighg/clip/EmpathicFitAyeayeDoubleRainbow-kM4jrQWDK_wmoEHC",
+      "original_title": "basti über drachenei",
+      "hook": "basti über drachenei",
+      "caption": "basti über drachenei\n#gaming #minecraft #twitchclips #bastighg #gamer",
+      "views_at_selection": 202,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-25T18:47:07Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-344501075-a874f7a18d55.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-26T17:32:39Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "a874f7a18d551042708a7a1075e699ec3d3e01c2cce39f8cb7df3f2b8903a456",
+      "category": "Minecraft",
+      "transcript_sha256": "2abb3b2d62baa4569bf3b6a9b71254023a3a57438ca137aaea536c5c6e04164c",
+      "asr_requires_correction": true,
+      "source_sha256": "8922950e0838fac737d8307741c9008c4fdd4b352170a87e184141a502e20b91",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-26T17:32:39.061790+00:00",
+        "media_sha256": "a874f7a18d551042708a7a1075e699ec3d3e01c2cce39f8cb7df3f2b8903a456",
+        "transcript_sha256": "2abb3b2d62baa4569bf3b6a9b71254023a3a57438ca137aaea536c5c6e04164c",
+        "source_sha256": "8922950e0838fac737d8307741c9008c4fdd4b352170a87e184141a502e20b91",
+        "evidence_sha256": "0494bc0472c56f70f4f9a3262c870115529709f7abd6e8c932f28c442dd1bda1",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "8922950e0838fac737d8307741c9008c4fdd4b352170a87e184141a502e20b91",
+          "reviewed_source_sha256": "8922950e0838fac737d8307741c9008c4fdd4b352170a87e184141a502e20b91",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "e13269bd41ca8174e2d56f901d88db1977d2d690afb568f72d0eea7a55709b0e",
+            "ee422f2b5b5c8cc80628bfdc2475ee5dfec5c33c1cf8d7be4418ddc6a4a95fdc",
+            "a4be909af515a31e86335389e59ab1fc2db5f8518ff0a8eed5640f43b38135c0"
+          ],
+          "headline": "basti über drachenei",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, showing hands on keyboard and game UI with inventory and chat, no browser or desktop elements visible",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a Minecraft building with chests, no clear action or outcome visible",
+            "payoff": "No visible outcome or payoff from actions, only static gameplay with chat messages and HUD elements visible",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.0342872751048007,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a facecam panel above the gameplay, which is a common edited gaming layout. The game is in a building with chests, and the HUD and chat are visible. The title 'basti über drachenei'",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "5966f3723e28d77c73c91c09636c242835a1f47f80fb682d88c17e08b77c9b27",
+            "374528abd512f033aa2ec04949ee71aa76355883270ef13d33759fa9c0373704",
+            "c7354f1c8fd4ff06d69ebde6ef26382b15065c50324fb57f4d63d4f295165996"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "a874f7a18d551042708a7a1075e699ec3d3e01c2cce39f8cb7df3f2b8903a456",
+          "transcript_sha256": "2abb3b2d62baa4569bf3b6a9b71254023a3a57438ca137aaea536c5c6e04164c"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a facecam panel above the gameplay, which is a common edited gaming layout. The game is in a building with chests, and the HUD and chat are visible. The title 'basti über drachenei'"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0343, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-344501075-a874f7a18d55-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2287042913",

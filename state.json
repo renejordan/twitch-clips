@@ -1996,27 +1996,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-26T13:15:06Z",
+    "at": "2026-10-26T14:42:55Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 100,
+      "listing_duration_prefilter": 94,
       "listing_ok": 100,
-      "listing_age_prefilter": 782,
-      "discovered": 816,
-      "metadata_requested": 769,
-      "gaming_category_not_verified": 373,
-      "qualified_metadata": 331,
-      "title_too_short": 65,
-      "duplicate_source_event": 8,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_age_prefilter": 783,
+      "discovered": 812,
+      "metadata_requested": 766,
+      "gaming_category_not_verified": 355,
+      "qualified_metadata": 338,
+      "title_too_short": 73,
+      "duplicate_source_event": 10,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_duration_invalid": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "4024438646",
-      "clip_slug": "SaltyMistySparrowSSSsss-QkSQZxyZb3Fvsb8X",
-      "streamer": "papaplatte"
+      "clip_id": "2284566068",
+      "clip_slug": "UgliestLittleEggOpieOP-aZnWY53z9gbC5j4h",
+      "streamer": "letshugotv"
     }
   },
   "prepare_scans": {
@@ -2470,8 +2471,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-26T13",
-  "last_prefetch_hour": "2026-10-26T13",
+  "last_prepare_hour": "2026-10-26T14",
+  "last_prefetch_hour": "2026-10-26T14",
   "archived_verified_count": 21,
   "used_ids": [
     "1086399308",

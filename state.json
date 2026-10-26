@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "154404618",
-      "reserved_at": "2026-10-19T09:00:28Z",
-      "streamer": "krokoboss",
-      "sha256": "723c729cf567cf2d3949bf5602d917c2ff65b76e2d491e21828ce2fd298f09e6",
-      "source_sha256": "4e8c86b3d62fd715d3a2cdc5282518c646add98d3b9a4deac7aaf5b9316920da",
-      "status": "verified_public",
-      "asset_title": "tiktok14-154404618-723c729cf567.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-154404618-723c729cf567.mp4",
-      "clip_slug": "SpinelessPhilanthropicMuleSuperVinlin-oi7yFDH5Ko3es176",
-      "original_created_at": "2026-10-18T18:00:51Z",
-      "source_deadline": "2026-10-21T18:00:51Z",
-      "buffer_post_id": "6ad5dc2eea56886c47176417",
-      "last_reconcile_at": "2026-10-19T09:02:25Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698301279101029665",
-      "sent_at": "2026-10-19T09:02:16Z",
-      "verified_at": "2026-10-19T09:02:26Z"
-    },
-    {
       "clip_id": "1847050907",
       "reserved_at": "2026-10-19T10:00:31Z",
       "streamer": "krokoboss",
@@ -2419,9 +2401,10 @@
   ],
   "last_prepare_hour": "2026-10-26T08",
   "last_prefetch_hour": "2026-10-26T08",
-  "archived_verified_count": 17,
+  "archived_verified_count": 18,
   "used_ids": [
     "1411062380",
+    "154404618",
     "2236393291",
     "2242279572",
     "254468887",

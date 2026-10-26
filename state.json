@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700992951132130593",
       "sent_at": "2026-10-26T15:06:53Z",
       "verified_at": "2026-10-26T15:10:42Z"
+    },
+    {
+      "clip_id": "471578372",
+      "reserved_at": "2026-10-26T16:04:33Z",
+      "streamer": "letshugotv",
+      "sha256": "0f264608e0950f5519cfdc6e1acec1edc21541cdcafe8650b54f71889d5005e0",
+      "source_sha256": "69743aea8505207615f415317f341c8f7ca15a0fea88443972b231abb946b7e7",
+      "status": "reserved",
+      "asset_title": "tiktok14-471578372-0f264608e095.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-471578372-0f264608e095.mp4",
+      "clip_slug": "ShySneakyDunlinBloodTrail-a4amZ0-qtn2kdhTF",
+      "original_created_at": "2026-10-25T16:03:27Z",
+      "source_deadline": "2026-10-28T16:03:27Z"
     }
   ],
   "last_production": {

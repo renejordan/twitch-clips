@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2548768936",
+      "clip_slug": "SullenPlumpAlligatorBuddhaBar-2cW0cDOTKwFzUJcM",
+      "streamer": "giggand",
+      "source_url": "https://www.twitch.tv/giggand/clip/SullenPlumpAlligatorBuddhaBar-2cW0cDOTKwFzUJcM",
+      "original_title": "Giggand macht RTL RP",
+      "hook": "Giggand macht RTL RP",
+      "caption": "Giggand macht RTL RP\n#gaming #gta #twitchclips #giggand #gamer",
+      "views_at_selection": 235,
+      "original_duration": 40.0,
+      "original_created_at": "2026-10-26T00:06:10Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/giggand-2548768936-bac3c215f841.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-26T11:09:51Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "bac3c215f84195c177f18134447eb9e8a896a12d8f974fd68cac0c7a12165ae8",
+      "category": "Grand Theft Auto V",
+      "transcript_sha256": "2d40e9b43290bbc880b7a45003b435f61ccdb5e5218e4ddd5756d3b76c6dc13c",
+      "asr_requires_correction": true,
+      "source_sha256": "aa6226d48f210c11fe4c7c50a94365ba48b9a57b8302cee95da10d1279618534",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-26T11:09:51.934509+00:00",
+        "media_sha256": "bac3c215f84195c177f18134447eb9e8a896a12d8f974fd68cac0c7a12165ae8",
+        "transcript_sha256": "2d40e9b43290bbc880b7a45003b435f61ccdb5e5218e4ddd5756d3b76c6dc13c",
+        "source_sha256": "aa6226d48f210c11fe4c7c50a94365ba48b9a57b8302cee95da10d1279618534",
+        "evidence_sha256": "5193e3040a792c851716058f1848d8f08fedfd062b686f761750ff914a2ffecb",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "aa6226d48f210c11fe4c7c50a94365ba48b9a57b8302cee95da10d1279618534",
+          "reviewed_source_sha256": "aa6226d48f210c11fe4c7c50a94365ba48b9a57b8302cee95da10d1279618534",
+          "duration": 40.0,
+          "timestamps": [
+            0.0,
+            19.925,
+            39.85
+          ],
+          "source_frame_hashes": [
+            "9b5a3e8e0848568d0226db98da975d9462900269f905e1f7c546e285881b7421",
+            "b60e9618de87e620de0b107e3c103216ae49782a8593d1f795a0a6c1e792ee41",
+            "b8baf0a401cb3462ec212a6ed4c8a3f5019c7452e27b0d88a184f9a978a2b0e9"
+          ],
+          "headline": "Giggand macht RTL RP",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "dialogue_subtitles",
+            "layout_evidence": "Top-left inset shows a face camera with a person, while main screen displays gameplay with a flying vehicle and landscape. Subtitles appear at bottom of main screen.",
+            "game_name": "Grand Theft Auto V",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is flying a vehicle over a mountainous landscape with a visible score and name tag.",
+            "payoff": "No visible outcome or reaction from gameplay; subtitles are present but do not indicate a clear payoff or event outcome.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": true,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.04869866668226588,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a clear title overlay 'Giggand macht RTL RP' at the top, with no additional word subtitles. The gameplay is a direct capture of a vehicle flying over mountains, with a facecam panel visible in the top-left. A",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            19.925,
+            39.85
+          ],
+          "final_frame_hashes": [
+            "b0f50548e78ebe0da67ac3eda82e9d81c6788f70f7fd83be2ca3972c70bc9758",
+            "3243271fe93e4474ddc678e0061fcc8c4ba6e1458ab75b539c25f5419d33bc16",
+            "89ea6abb6304191c713cc7eeba8943e574fb95cb13af28f34f93b6e669eb908d"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "bac3c215f84195c177f18134447eb9e8a896a12d8f974fd68cac0c7a12165ae8",
+          "transcript_sha256": "2d40e9b43290bbc880b7a45003b435f61ccdb5e5218e4ddd5756d3b76c6dc13c"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a clear title overlay 'Giggand macht RTL RP' at the top, with no additional word subtitles. The gameplay is a direct capture of a vehicle flying over mountains, with a facecam panel visible in the top-left. A"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0487, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/giggand-2548768936-bac3c215f841-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3858506260",

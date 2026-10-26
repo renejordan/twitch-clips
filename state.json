@@ -2260,6 +2260,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-25T22:33:00Z",
       "reason": "qa_audio_quality_failed"
+    },
+    {
+      "clip_id": "886498542",
+      "clip_slug": "SullenWanderingGaurPupper-7Y6RtRD5Ik0jBie-",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/SullenWanderingGaurPupper-7Y6RtRD5Ik0jBie-",
+      "status": "quality_rejected",
+      "created_at": "2026-10-26T08:45:23Z",
+      "reason": "qa_duration_invalid"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

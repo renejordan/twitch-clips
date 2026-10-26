@@ -2032,27 +2032,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-26T15:15:11Z",
+    "at": "2026-10-26T16:14:18Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 95,
+      "listing_duration_prefilter": 96,
       "listing_ok": 100,
-      "listing_age_prefilter": 783,
-      "discovered": 802,
-      "metadata_requested": 754,
-      "gaming_category_not_verified": 340,
-      "qualified_metadata": 338,
-      "title_too_short": 76,
-      "duplicate_source_event": 9,
+      "listing_age_prefilter": 786,
+      "discovered": 778,
+      "metadata_requested": 731,
+      "qualified_metadata": 344,
+      "gaming_category_not_verified": 321,
+      "title_too_short": 66,
+      "duplicate_source_event": 10,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "471578372",
-      "clip_slug": "ShySneakyDunlinBloodTrail-a4amZ0-qtn2kdhTF",
-      "streamer": "letshugotv"
+      "clip_id": "1769273648",
+      "clip_slug": "ObservantLovelyOtterStrawBeary-Ehj_ok9G90mJ_377",
+      "streamer": "castcrafter"
     }
   },
   "prepare_scans": {
@@ -2506,8 +2506,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-26T15",
-  "last_prefetch_hour": "2026-10-26T15",
+  "last_prepare_hour": "2026-10-26T16",
+  "last_prefetch_hour": "2026-10-26T16",
   "archived_verified_count": 21,
   "used_ids": [
     "1086399308",

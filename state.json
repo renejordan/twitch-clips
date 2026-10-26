@@ -1957,6 +1957,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700930849495158048",
       "sent_at": "2026-10-26T11:06:16Z",
       "verified_at": "2026-10-26T11:06:32Z"
+    },
+    {
+      "clip_id": "2548768936",
+      "reserved_at": "2026-10-26T12:06:34Z",
+      "streamer": "giggand",
+      "sha256": "bac3c215f84195c177f18134447eb9e8a896a12d8f974fd68cac0c7a12165ae8",
+      "source_sha256": "aa6226d48f210c11fe4c7c50a94365ba48b9a57b8302cee95da10d1279618534",
+      "status": "reserved",
+      "asset_title": "tiktok14-2548768936-bac3c215f841.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/giggand-2548768936-bac3c215f841.mp4",
+      "clip_slug": "SullenPlumpAlligatorBuddhaBar-2cW0cDOTKwFzUJcM",
+      "original_created_at": "2026-10-26T00:06:10Z",
+      "source_deadline": "2026-10-29T00:06:10Z"
     }
   ],
   "last_production": {

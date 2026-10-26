@@ -1946,12 +1946,13 @@
       "streamer": "nooreax",
       "sha256": "9a59285066992ffd9219bff0c9276a39c3664acbe1db85769d799733f7ab35bd",
       "source_sha256": "5a4bb3a8a6512c461e98c7c01407948e282d39de5d38b5b45f4ac0baf911d1a5",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3175503582-9a5928506699.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-3175503582-9a5928506699.mp4",
       "clip_slug": "VainRoughClintTheThing--BiWrir958u1I3Xg",
       "original_created_at": "2026-10-25T10:17:15Z",
-      "source_deadline": "2026-10-28T10:17:15Z"
+      "source_deadline": "2026-10-28T10:17:15Z",
+      "buffer_post_id": "6adf25b494c52cb8effa5987"
     }
   ],
   "last_production": {

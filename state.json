@@ -1939,6 +1939,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700728814896254241",
       "sent_at": "2026-10-25T22:02:22Z",
       "verified_at": "2026-10-25T22:02:27Z"
+    },
+    {
+      "clip_id": "2933165164",
+      "reserved_at": "2026-10-26T08:02:33Z",
+      "streamer": "nooreax",
+      "sha256": "48893f9138706fa18f7309dac669ca26a3f7588e6cf0c49346aa4b3048143fed",
+      "source_sha256": "24a358d5999a49bd1f1fbd050cf1ada09d354939303f2e8478ca25b463c9a49c",
+      "status": "reserved",
+      "asset_title": "tiktok14-2933165164-48893f913870.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-2933165164-48893f913870.mp4",
+      "clip_slug": "SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
+      "original_created_at": "2026-10-25T20:56:58Z",
+      "source_deadline": "2026-10-28T20:56:58Z"
     }
   ],
   "last_production": {

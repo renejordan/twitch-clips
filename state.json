@@ -141,42 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "524815218",
-      "reserved_at": "2026-10-19T07:00:29Z",
-      "streamer": "krokoboss",
-      "sha256": "50f87d624f3eb8e974e4747614b0cc5915b31976d6264cf4f7d245e11939a443",
-      "source_sha256": "e483797fb7805400b94fe732d7c0684ec1ac582df06fbb6a375ad50720b49199",
-      "status": "verified_public",
-      "asset_title": "tiktok14-524815218-50f87d624f3e.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-524815218-50f87d624f3e.mp4",
-      "clip_slug": "ResourcefulSneakyLadiesPrimeMe-8QyOLqsX6zCH97TK",
-      "original_created_at": "2026-10-18T20:11:43Z",
-      "source_deadline": "2026-10-21T20:11:43Z",
-      "buffer_post_id": "6ad5c010ee362c3569460b7b",
-      "last_reconcile_at": "2026-10-19T07:02:29Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698270356284394785",
-      "sent_at": "2026-10-19T07:02:18Z",
-      "verified_at": "2026-10-19T07:02:30Z"
-    },
-    {
-      "clip_id": "635147332",
-      "reserved_at": "2026-10-19T08:00:30Z",
-      "streamer": "repaz",
-      "sha256": "bfc226c8b053964c10363a9cf6998b868233a2332559c6e0dfd13cdcf6d3413b",
-      "source_sha256": "39ce99dc9d9aa423d4df4a2d9b6f03ae3d3e16b307480913dd794ae45de08991",
-      "status": "verified_public",
-      "asset_title": "tiktok14-635147332-bfc226c8b053.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-635147332-bfc226c8b053.mp4",
-      "clip_slug": "LongGlamorousCakePunchTrees-9zfzEzIDv286aX8j",
-      "original_created_at": "2026-10-18T23:33:38Z",
-      "source_deadline": "2026-10-21T23:33:38Z",
-      "buffer_post_id": "6ad5ce218499c6b28d70dbd0",
-      "last_reconcile_at": "2026-10-19T08:02:27Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698285831710166305",
-      "sent_at": "2026-10-19T08:02:18Z",
-      "verified_at": "2026-10-19T08:02:28Z"
-    },
-    {
       "clip_id": "154404618",
       "reserved_at": "2026-10-19T09:00:28Z",
       "streamer": "krokoboss",
@@ -2067,15 +2031,6 @@
   },
   "rejected": [
     {
-      "clip_id": "2620158523",
-      "clip_slug": "TriumphantAdventurousLlamaRedCoat-x0T28zOwFyO57M_S",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/TriumphantAdventurousLlamaRedCoat-x0T28zOwFyO57M_S",
-      "status": "quality_rejected",
-      "created_at": "2026-10-19T07:06:26Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
       "clip_id": "3707302748",
       "clip_slug": "ShyMoistSageFloof-OZv3XisQ-TDP_Jus",
       "streamer": "noway4u_sir",
@@ -2446,12 +2401,13 @@
   ],
   "last_prepare_hour": "2026-10-25T22",
   "last_prefetch_hour": "2026-10-25T22",
-  "archived_verified_count": 15,
+  "archived_verified_count": 17,
   "used_ids": [
     "1411062380",
     "2236393291",
     "2242279572",
     "254468887",
+    "2620158523",
     "263989408",
     "2845373187",
     "309969943",
@@ -2464,8 +2420,10 @@
     "403364789",
     "4108530673",
     "502558914",
+    "524815218",
     "60281847",
+    "635147332",
     "761785150"
   ],
-  "archived_rejected_count": 3
+  "archived_rejected_count": 4
 }

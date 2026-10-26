@@ -1960,28 +1960,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-25T22:33:00Z",
+    "at": "2026-10-26T08:45:23Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_duration_prefilter": 111,
       "listing_ok": 100,
-      "listing_age_prefilter": 801,
-      "discovered": 832,
-      "metadata_requested": 792,
-      "gaming_category_not_verified": 377,
-      "qualified_metadata": 356,
-      "title_too_short": 59,
-      "duplicate_source_event": 11,
+      "listing_age_prefilter": 786,
+      "discovered": 817,
+      "metadata_requested": 776,
+      "gaming_category_not_verified": 364,
+      "qualified_metadata": 349,
+      "title_too_short": 63,
+      "duplicate_source_event": 8,
       "download_attempted": 2,
       "render_attempted": 2,
-      "qa_audio_quality_failed": 1,
+      "qa_duration_invalid": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2933165164",
-      "clip_slug": "SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
-      "streamer": "nooreax"
+      "clip_id": "2859207532",
+      "clip_slug": "FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
+      "streamer": "trymacs"
     }
   },
   "prepare_scans": {
@@ -2417,8 +2417,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-25T22",
-  "last_prefetch_hour": "2026-10-25T22",
+  "last_prepare_hour": "2026-10-26T08",
+  "last_prefetch_hour": "2026-10-26T08",
   "archived_verified_count": 17,
   "used_ids": [
     "1411062380",

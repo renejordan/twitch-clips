@@ -2349,6 +2349,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-26T19:13:00Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "2255382084",
+      "clip_slug": "AmusedTentativeMetalDuDudu-KfTcJKqlO4DLHQEX",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/AmusedTentativeMetalDuDudu-KfTcJKqlO4DLHQEX",
+      "status": "quality_rejected",
+      "created_at": "2026-10-26T21:10:15Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

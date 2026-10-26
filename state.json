@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1769273648",
+      "clip_slug": "ObservantLovelyOtterStrawBeary-Ehj_ok9G90mJ_377",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/ObservantLovelyOtterStrawBeary-Ehj_ok9G90mJ_377",
+      "original_title": "#CraftAttack #CastCrafter Der Kedos-Cast-Song",
+      "hook": "#CraftAttack #CastCrafter Der Kedos-Cast-Song",
+      "caption": "#CraftAttack #CastCrafter Der Kedos-Cast-Song\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 264,
+      "original_duration": 47.0,
+      "original_created_at": "2026-10-25T16:27:55Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1769273648-6df46afabeb0.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-26T16:14:18Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "6df46afabeb0b9f0938bf2b821eceea6fe906d4462ae446792295ee6a01da374",
+      "category": "Minecraft",
+      "transcript_sha256": "6284af43cb1dd280fb668295a528027903aeecc848868f6166163a52597e9ebc",
+      "asr_requires_correction": true,
+      "source_sha256": "aafa4cb4e60ad97da8e1ce7136bb1bc10bd2609f5c257805e8ae2b0171e6fd5a",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-26T16:14:18.255884+00:00",
+        "media_sha256": "6df46afabeb0b9f0938bf2b821eceea6fe906d4462ae446792295ee6a01da374",
+        "transcript_sha256": "6284af43cb1dd280fb668295a528027903aeecc848868f6166163a52597e9ebc",
+        "source_sha256": "aafa4cb4e60ad97da8e1ce7136bb1bc10bd2609f5c257805e8ae2b0171e6fd5a",
+        "evidence_sha256": "dc89dfccca8883a55a43b6e68d4d4e2c90b48d7e4b041265f033d831baecf603",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "aafa4cb4e60ad97da8e1ce7136bb1bc10bd2609f5c257805e8ae2b0171e6fd5a",
+          "reviewed_source_sha256": "aafa4cb4e60ad97da8e1ce7136bb1bc10bd2609f5c257805e8ae2b0171e6fd5a",
+          "duration": 47.125,
+          "timestamps": [
+            0.0,
+            23.488,
+            46.975
+          ],
+          "source_frame_hashes": [
+            "395c8686e7f775a077995a88c118d62cf06480b440cec201de9b9c4c8e42bd37",
+            "d43fe4620d412f51ab2241624277a42c186bb2f0f026b794f35d15155ea6fde3",
+            "87853ad9bdfe1f74e188aab71f4fc07563d2f9798940c6119ad6d4e25e83d0ea"
+          ],
+          "headline": "#CraftAttack #CastCrafter Der Kedos-Cast-Song",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in top-left corner, game HUD with inventory and chat visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a dark, enclosed space with green blocks, holding a tool, and looking at a block with a crosshair.",
+            "payoff": "No visible outcome or reaction from the player or game environment; no win or loss indicated, no clear payoff from the action taken.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.02679395180593484,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The stream chat is also",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            23.488,
+            46.975
+          ],
+          "final_frame_hashes": [
+            "4276fac587b3d42e47bef8695dea8941290299bb76a14aff450a1129dae71ab1",
+            "6fda0bb80b8d4b805b377e2f3da63e5c17622c4bacd97af902207a35dd8dc973",
+            "a4f30ddbbaac7eb1c8d9ee077d80084ac3d862baa4403e0b69ec8e2cf0c86860"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "6df46afabeb0b9f0938bf2b821eceea6fe906d4462ae446792295ee6a01da374",
+          "transcript_sha256": "6284af43cb1dd280fb668295a528027903aeecc848868f6166163a52597e9ebc"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The stream chat is also"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0268, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1769273648-6df46afabeb0-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3026950595",

@@ -2014,27 +2014,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-26T16:14:18Z",
+    "at": "2026-10-26T17:32:39Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 96,
+      "listing_duration_prefilter": 91,
       "listing_ok": 100,
-      "listing_age_prefilter": 786,
-      "discovered": 778,
-      "metadata_requested": 731,
-      "qualified_metadata": 344,
-      "gaming_category_not_verified": 321,
-      "title_too_short": 66,
+      "listing_age_prefilter": 787,
+      "discovered": 776,
+      "metadata_requested": 730,
+      "qualified_metadata": 336,
+      "title_too_short": 68,
+      "gaming_category_not_verified": 326,
       "duplicate_source_event": 10,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_visual_gameplay_visible": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1769273648",
-      "clip_slug": "ObservantLovelyOtterStrawBeary-Ehj_ok9G90mJ_377",
-      "streamer": "castcrafter"
+      "clip_id": "344501075",
+      "clip_slug": "EmpathicFitAyeayeDoubleRainbow-kM4jrQWDK_wmoEHC",
+      "streamer": "bastighg"
     }
   },
   "prepare_scans": {
@@ -2497,8 +2498,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-26T16",
-  "last_prefetch_hour": "2026-10-26T16",
+  "last_prepare_hour": "2026-10-26T17",
+  "last_prefetch_hour": "2026-10-26T17",
   "archived_verified_count": 23,
   "used_ids": [
     "1086399308",

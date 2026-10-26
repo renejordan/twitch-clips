@@ -2018,12 +2018,13 @@
       "streamer": "nooreax",
       "sha256": "112090514cadc247df43b352182b48974204bbb45b32b5539c786814f3c44462",
       "source_sha256": "65dfbe7d13db75a17137a2705dde0a3dbd730b9bc8c3c414e9cb30e5279634be",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1536575280-112090514cad.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1536575280-112090514cad.mp4",
       "clip_slug": "DarlingWiseKuduAMPTropPunch-SrHBsfVK3khsMnH6",
       "original_created_at": "2026-10-25T22:34:18Z",
-      "source_deadline": "2026-10-28T22:34:18Z"
+      "source_deadline": "2026-10-28T22:34:18Z",
+      "buffer_post_id": "6adfce6fc26d8b40cc795e25"
     }
   ],
   "last_production": {

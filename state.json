@@ -1960,17 +1960,17 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-26T08:45:23Z",
+    "at": "2026-10-26T09:11:30Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_duration_prefilter": 111,
       "listing_ok": 100,
-      "listing_age_prefilter": 786,
-      "discovered": 817,
-      "metadata_requested": 776,
-      "gaming_category_not_verified": 364,
-      "qualified_metadata": 349,
+      "listing_age_prefilter": 792,
+      "discovered": 808,
+      "metadata_requested": 765,
+      "gaming_category_not_verified": 368,
+      "qualified_metadata": 334,
       "title_too_short": 63,
       "duplicate_source_event": 8,
       "download_attempted": 2,
@@ -1979,9 +1979,9 @@
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2859207532",
-      "clip_slug": "FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
-      "streamer": "trymacs"
+      "clip_id": "3175503582",
+      "clip_slug": "VainRoughClintTheThing--BiWrir958u1I3Xg",
+      "streamer": "nooreax"
     }
   },
   "prepare_scans": {
@@ -2426,8 +2426,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-26T08",
-  "last_prefetch_hour": "2026-10-26T08",
+  "last_prepare_hour": "2026-10-26T09",
+  "last_prefetch_hour": "2026-10-26T09",
   "archived_verified_count": 18,
   "used_ids": [
     "1411062380",

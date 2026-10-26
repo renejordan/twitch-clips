@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1536575280",
-      "clip_slug": "DarlingWiseKuduAMPTropPunch-SrHBsfVK3khsMnH6",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/DarlingWiseKuduAMPTropPunch-SrHBsfVK3khsMnH6",
-      "original_title": "repaz falle idee",
-      "hook": "repaz falle idee",
-      "caption": "repaz falle idee\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 174,
-      "original_duration": 45.0,
-      "original_created_at": "2026-10-25T22:34:18Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1536575280-112090514cad.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-26T21:10:15Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "112090514cadc247df43b352182b48974204bbb45b32b5539c786814f3c44462",
-      "category": "Minecraft",
-      "transcript_sha256": "5ee4b2bb997b43cab386e6fee5e144946668d3f25a381230ee4c4ecaf4ab977f",
-      "asr_requires_correction": true,
-      "source_sha256": "65dfbe7d13db75a17137a2705dde0a3dbd730b9bc8c3c414e9cb30e5279634be",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-26T21:10:15.031906+00:00",
-        "media_sha256": "112090514cadc247df43b352182b48974204bbb45b32b5539c786814f3c44462",
-        "transcript_sha256": "5ee4b2bb997b43cab386e6fee5e144946668d3f25a381230ee4c4ecaf4ab977f",
-        "source_sha256": "65dfbe7d13db75a17137a2705dde0a3dbd730b9bc8c3c414e9cb30e5279634be",
-        "evidence_sha256": "4ea094dfaaed1a3ce088225b6b53ecdbeb3a66c2581293f4123fa0a95ceabb8d",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "65dfbe7d13db75a17137a2705dde0a3dbd730b9bc8c3c414e9cb30e5279634be",
-          "reviewed_source_sha256": "65dfbe7d13db75a17137a2705dde0a3dbd730b9bc8c3c414e9cb30e5279634be",
-          "duration": 45.166667,
-          "timestamps": [
-            0.0,
-            22.508,
-            45.017
-          ],
-          "source_frame_hashes": [
-            "e453c2fd3f18725301f4cf13e48cacf87b18c135d8fd4ba57bfffab15e3ff013",
-            "a788a86f04bee9f124714ca4a5bf3ff88f1d2490c12adc11eafec9e99fbd9cfe",
-            "777d67257d166b5d3cba2bdef7b20651cd8c8a1971d630b8e7f75e38850d1f89"
-          ],
-          "headline": "repaz falle idee",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, game HUD with inventory, chat, and player name visible, chat messages scrolling, no browser or desktop window visible",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, holding sponge, looking at water, no clear action or outcome visible",
-            "payoff": "No visible outcome or payoff from action, no win/loss or reaction visible, no clear payoff from action or event",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04181447673463384,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The stream chat is on,",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            22.508,
-            45.017
-          ],
-          "final_frame_hashes": [
-            "c708bd1834131e326c2cc93ae2a918cf87a7ad3ea56df16439433700ea6d4143",
-            "e7eccd4585c9c21a26ec4c80324a932ea0a5d0864869403ddcaa79267aaac2d8",
-            "4c6411f2b455ce2dc6e37b5803abe04b88e4eb69029c178ebe5d597717732e1f"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "112090514cadc247df43b352182b48974204bbb45b32b5539c786814f3c44462",
-          "transcript_sha256": "5ee4b2bb997b43cab386e6fee5e144946668d3f25a381230ee4c4ecaf4ab977f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The stream chat is on,"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0418, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1536575280-112090514cad-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "206829726",
@@ -2018,14 +1880,17 @@
       "streamer": "nooreax",
       "sha256": "112090514cadc247df43b352182b48974204bbb45b32b5539c786814f3c44462",
       "source_sha256": "65dfbe7d13db75a17137a2705dde0a3dbd730b9bc8c3c414e9cb30e5279634be",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1536575280-112090514cad.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1536575280-112090514cad.mp4",
       "clip_slug": "DarlingWiseKuduAMPTropPunch-SrHBsfVK3khsMnH6",
       "original_created_at": "2026-10-25T22:34:18Z",
       "source_deadline": "2026-10-28T22:34:18Z",
       "buffer_post_id": "6adfce6fc26d8b40cc795e25",
-      "last_reconcile_at": "2026-10-26T22:06:27Z"
+      "last_reconcile_at": "2026-10-26T22:06:27Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701100934427938080",
+      "sent_at": "2026-10-26T22:06:19Z",
+      "verified_at": "2026-10-26T22:06:28Z"
     }
   ],
   "last_production": {

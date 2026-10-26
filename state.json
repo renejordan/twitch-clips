@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3760748518",
-      "clip_slug": "ArtisticBoringWormCharlieBitMe-Fl-gFm-OL7f_QUeJ",
-      "streamer": "noway4u_sir",
-      "source_url": "https://www.twitch.tv/noway4u_sir/clip/ArtisticBoringWormCharlieBitMe-Fl-gFm-OL7f_QUeJ",
-      "original_title": "ist das AI lobby P",
-      "hook": "ist das AI lobby P",
-      "caption": "ist das AI lobby P\n#gaming #leagueoflegends #twitchclips #noway4u_sir #gamer",
-      "views_at_selection": 112,
-      "original_duration": 60.0,
-      "original_created_at": "2026-10-26T17:00:18Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-3760748518-70cb9a577827.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-26T18:16:02Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "70cb9a577827599849c0614795d8ed2de38ad9b21808e900907585d0a9c1b19f",
-      "category": "League of Legends",
-      "transcript_sha256": "3e5887e85f94abecc41119dc7493527e9aae6193dcc09096ba4e6e52ff783ab6",
-      "asr_requires_correction": true,
-      "source_sha256": "7c877a8294b54286b13ec19f8f8f7b743c750661ef780f7ea96cda8b82fb74c1",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-26T18:16:02.293857+00:00",
-        "media_sha256": "70cb9a577827599849c0614795d8ed2de38ad9b21808e900907585d0a9c1b19f",
-        "transcript_sha256": "3e5887e85f94abecc41119dc7493527e9aae6193dcc09096ba4e6e52ff783ab6",
-        "source_sha256": "7c877a8294b54286b13ec19f8f8f7b743c750661ef780f7ea96cda8b82fb74c1",
-        "evidence_sha256": "b71978f5ae7005c68b7478f9910e97d96269079666f2e67775680868352ffaa2",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "7c877a8294b54286b13ec19f8f8f7b743c750661ef780f7ea96cda8b82fb74c1",
-          "reviewed_source_sha256": "7c877a8294b54286b13ec19f8f8f7b743c750661ef780f7ea96cda8b82fb74c1",
-          "duration": 60.0,
-          "timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "source_frame_hashes": [
-            "ecf05c94b2b3bd4b72c2741b85fb764635e46af774da55d8ad47550188330841",
-            "26bb92584bc008839cb1b13dde0efa2aaa0049c7fa21797b2011561420e35e60",
-            "479e89f71f2c977e76c3d5c8e8c144f14e9540e5ee34e494f34f9ba85ecf85c0"
-          ],
-          "headline": "ist das AI lobby P",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay with game UI visible, including minimap, chat, and health bar.",
-            "game_name": "League of Legends",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in frames.",
-            "payoff": "No clear payoff visible in frames.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.03879401587736053,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a clear view of the game's map and UI elements, including the minimap, character abilities, and chat window. The facecam panel is visible in the bottom right corner, showing the streamer. The text 'ist das AI",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "final_frame_hashes": [
-            "ef8888ce63896cc213d0e3ea90e51db940d342c780aa9e54b58a1d71db2d5ffd",
-            "4fdd0ad5d095beb61fdcbe3db4bda09424574c0d630e7f78ca444b8582e6fb02",
-            "1bcf31218a88592b69383b96e68a6e0fc2ac22e003f5330496584fd97da9e0cc"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "70cb9a577827599849c0614795d8ed2de38ad9b21808e900907585d0a9c1b19f",
-          "transcript_sha256": "3e5887e85f94abecc41119dc7493527e9aae6193dcc09096ba4e6e52ff783ab6"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a clear view of the game's map and UI elements, including the minimap, character abilities, and chat window. The facecam panel is visible in the bottom right corner, showing the streamer. The text 'ist das AI"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0388, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-3760748518-70cb9a577827-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "4043106256",
@@ -2000,14 +1862,17 @@
       "streamer": "noway4u_sir",
       "sha256": "70cb9a577827599849c0614795d8ed2de38ad9b21808e900907585d0a9c1b19f",
       "source_sha256": "7c877a8294b54286b13ec19f8f8f7b743c750661ef780f7ea96cda8b82fb74c1",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3760748518-70cb9a577827.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-3760748518-70cb9a577827.mp4",
       "clip_slug": "ArtisticBoringWormCharlieBitMe-Fl-gFm-OL7f_QUeJ",
       "original_created_at": "2026-10-26T17:00:18Z",
       "source_deadline": "2026-10-29T17:00:18Z",
       "buffer_post_id": "6adfa442fbfb299b1ae9171c",
-      "last_reconcile_at": "2026-10-26T19:10:37Z"
+      "last_reconcile_at": "2026-10-26T19:10:37Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701055014986386720",
+      "sent_at": "2026-10-26T19:08:18Z",
+      "verified_at": "2026-10-26T19:10:38Z"
     }
   ],
   "last_production": {

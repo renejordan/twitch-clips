@@ -1978,28 +1978,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-26T12:11:50Z",
+    "at": "2026-10-26T13:15:06Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 104,
+      "listing_duration_prefilter": 100,
       "listing_ok": 100,
-      "listing_age_prefilter": 787,
-      "discovered": 811,
-      "metadata_requested": 764,
-      "gaming_category_not_verified": 371,
-      "qualified_metadata": 328,
-      "title_too_short": 63,
+      "listing_age_prefilter": 782,
+      "discovered": 816,
+      "metadata_requested": 769,
+      "gaming_category_not_verified": 373,
+      "qualified_metadata": 331,
+      "title_too_short": 65,
       "duplicate_source_event": 8,
-      "metadata_failed": 2,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "870970129",
-      "clip_slug": "TardyAmazonianFriesFailFish-T-uaopc6WVJNfISs",
-      "streamer": "krokoboss"
+      "clip_id": "4024438646",
+      "clip_slug": "SaltyMistySparrowSSSsss-QkSQZxyZb3Fvsb8X",
+      "streamer": "papaplatte"
     }
   },
   "prepare_scans": {
@@ -2444,8 +2443,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-26T12",
-  "last_prefetch_hour": "2026-10-26T12",
+  "last_prepare_hour": "2026-10-26T13",
+  "last_prefetch_hour": "2026-10-26T13",
   "archived_verified_count": 21,
   "used_ids": [
     "1086399308",

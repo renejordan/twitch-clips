@@ -1946,12 +1946,13 @@
       "streamer": "trymacs",
       "sha256": "e468f40da71e6971bb81fb7b91eee648cae061f052b7bb86099d5ef28be6af0a",
       "source_sha256": "3e2899382e13d92f12d2a85994263d16eb8466f7f8b5f390b400b9c7ecce4d4e",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2859207532-e468f40da71e.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2859207532-e468f40da71e.mp4",
       "clip_slug": "FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
       "original_created_at": "2026-10-25T21:48:55Z",
-      "source_deadline": "2026-10-28T21:48:55Z"
+      "source_deadline": "2026-10-28T21:48:55Z",
+      "buffer_post_id": "6adf17a3411d512f6d6f871e"
     }
   ],
   "last_production": {

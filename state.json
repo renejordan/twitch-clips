@@ -2000,12 +2000,13 @@
       "streamer": "noway4u_sir",
       "sha256": "70cb9a577827599849c0614795d8ed2de38ad9b21808e900907585d0a9c1b19f",
       "source_sha256": "7c877a8294b54286b13ec19f8f8f7b743c750661ef780f7ea96cda8b82fb74c1",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3760748518-70cb9a577827.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-3760748518-70cb9a577827.mp4",
       "clip_slug": "ArtisticBoringWormCharlieBitMe-Fl-gFm-OL7f_QUeJ",
       "original_created_at": "2026-10-26T17:00:18Z",
-      "source_deadline": "2026-10-29T17:00:18Z"
+      "source_deadline": "2026-10-29T17:00:18Z",
+      "buffer_post_id": "6adfa442fbfb299b1ae9171c"
     }
   ],
   "last_production": {

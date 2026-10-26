@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2284566068",
-      "clip_slug": "UgliestLittleEggOpieOP-aZnWY53z9gbC5j4h",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/UgliestLittleEggOpieOP-aZnWY53z9gbC5j4h",
-      "original_title": "Nooreax darf das Ei halten",
-      "hook": "Nooreax darf das Ei halten",
-      "caption": "Nooreax darf das Ei halten\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 235,
-      "original_duration": 29.0,
-      "original_created_at": "2026-10-25T15:24:49Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2284566068-00ed8cd5d56e.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-26T14:42:55Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "00ed8cd5d56e3bf09d004aa2261270a177f2b218645847e00cd878cf42618365",
-      "category": "Minecraft",
-      "transcript_sha256": "c196b2295579c9b8dfb422caa93c790523993cf844142ebec670364552137a4f",
-      "asr_requires_correction": true,
-      "source_sha256": "e3891b863d93dc4f04a34952551f9ae57622db0dcb62e03cff4d0c7670a96305",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-26T14:42:55.593486+00:00",
-        "media_sha256": "00ed8cd5d56e3bf09d004aa2261270a177f2b218645847e00cd878cf42618365",
-        "transcript_sha256": "c196b2295579c9b8dfb422caa93c790523993cf844142ebec670364552137a4f",
-        "source_sha256": "e3891b863d93dc4f04a34952551f9ae57622db0dcb62e03cff4d0c7670a96305",
-        "evidence_sha256": "b167778aecaa02a15c226d042dd872675582eed033cafdb2e8eaee18d926df2c",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "e3891b863d93dc4f04a34952551f9ae57622db0dcb62e03cff4d0c7670a96305",
-          "reviewed_source_sha256": "e3891b863d93dc4f04a34952551f9ae57622db0dcb62e03cff4d0c7670a96305",
-          "duration": 29.033333,
-          "timestamps": [
-            0.0,
-            14.442,
-            28.883
-          ],
-          "source_frame_hashes": [
-            "44824cda5b328c0969cbce4a93589888142d111eb36ba12f6b28aaa3a6aab744",
-            "32398e7980ede43cf2c70c07d7c4eced9b1d10b3b2b17cb67c3edebdc825898e",
-            "351060e94188775b2633b27a12b8d24aa822896f6a632183803afd33055d28b4"
-          ],
-          "headline": "Nooreax darf das Ei halten",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in a corner over gameplay, with a visible game HUD and chat window, and a player character in a Minecraft-style environment.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "A player character in a Minecraft-style environment with a visible game HUD and chat window.",
-            "payoff": "No clear outcome or payoff visible in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04488170469146398,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a split-screen layout with a facecam panel on the left and Minecraft gameplay on the right. The gameplay includes a visible HUD, chat window, and player character. The title 'Nooreax darf das Ei halten' is at",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.442,
-            28.883
-          ],
-          "final_frame_hashes": [
-            "16eed1298dce4c742232b2aba599ce77bda8b5b1acc71be9d980ab76363d2835",
-            "4792368e55a85fbbebaaf55a3d4f28d88839a5180254a674c3666491743b8d86",
-            "b1c043305833aa50a9f62d59dab932408c987201ec750e3ffc9b36c906e8f73b"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "00ed8cd5d56e3bf09d004aa2261270a177f2b218645847e00cd878cf42618365",
-          "transcript_sha256": "c196b2295579c9b8dfb422caa93c790523993cf844142ebec670364552137a4f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a split-screen layout with a facecam panel on the left and Minecraft gameplay on the right. The gameplay includes a visible HUD, chat window, and player character. The title 'Nooreax darf das Ei halten' is at"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0449, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2284566068-00ed8cd5d56e-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3026950595",
@@ -2000,14 +1862,17 @@
       "streamer": "letshugotv",
       "sha256": "00ed8cd5d56e3bf09d004aa2261270a177f2b218645847e00cd878cf42618365",
       "source_sha256": "e3891b863d93dc4f04a34952551f9ae57622db0dcb62e03cff4d0c7670a96305",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2284566068-00ed8cd5d56e.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2284566068-00ed8cd5d56e.mp4",
       "clip_slug": "UgliestLittleEggOpieOP-aZnWY53z9gbC5j4h",
       "original_created_at": "2026-10-25T15:24:49Z",
       "source_deadline": "2026-10-28T15:24:49Z",
       "buffer_post_id": "6adf6c07bc208c66b5fd5876",
-      "last_reconcile_at": "2026-10-26T15:10:40Z"
+      "last_reconcile_at": "2026-10-26T15:10:40Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700992951132130593",
+      "sent_at": "2026-10-26T15:06:53Z",
+      "verified_at": "2026-10-26T15:10:42Z"
     }
   ],
   "last_production": {

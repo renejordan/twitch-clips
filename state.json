@@ -2349,6 +2349,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-26T17:32:39Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "3022105680",
+      "clip_slug": "AltruisticInexpensiveGrasshopperTheTarFu-NqHROXCpacx8CPFh",
+      "streamer": "giggand",
+      "source_url": "https://www.twitch.tv/giggand/clip/AltruisticInexpensiveGrasshopperTheTarFu-NqHROXCpacx8CPFh",
+      "status": "quality_rejected",
+      "created_at": "2026-10-26T19:13:00Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "2484613252",
-      "reserved_at": "2026-10-19T21:00:25Z",
-      "streamer": "zarbex",
-      "sha256": "80fd26117fd939487652bdbf514cd99be6e331e3a8f9d5d45b4b482deff1ff1e",
-      "source_sha256": "73d3f0af1f33612dc7a6a3458ffed65a15f765a015f387122f8235131e64b0d9",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2484613252-80fd26117fd9.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-2484613252-80fd26117fd9.mp4",
-      "clip_slug": "PlumpSoftBunnyWow-puNPn9Wo_uEGBiWj",
-      "original_created_at": "2026-10-19T18:18:33Z",
-      "source_deadline": "2026-10-22T18:18:33Z",
-      "buffer_post_id": "6ad684ebe61f3ff983508819",
-      "last_reconcile_at": "2026-10-19T21:02:24Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698486818232110369",
-      "sent_at": "2026-10-19T21:02:18Z",
-      "verified_at": "2026-10-19T21:02:25Z"
-    },
-    {
       "clip_id": "206829726",
       "reserved_at": "2026-10-20T07:00:26Z",
       "streamer": "niekbeats",
@@ -2499,7 +2481,7 @@
   ],
   "last_prepare_hour": "2026-10-26T20",
   "last_prefetch_hour": "2026-10-26T20",
-  "archived_verified_count": 26,
+  "archived_verified_count": 27,
   "used_ids": [
     "1086399308",
     "1411062380",
@@ -2509,6 +2491,7 @@
     "2236393291",
     "2242279572",
     "2287042913",
+    "2484613252",
     "254468887",
     "2620158523",
     "263989408",

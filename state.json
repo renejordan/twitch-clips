@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701023772798668064",
       "sent_at": "2026-10-26T17:06:12Z",
       "verified_at": "2026-10-26T17:06:29Z"
+    },
+    {
+      "clip_id": "344501075",
+      "reserved_at": "2026-10-26T18:04:34Z",
+      "streamer": "bastighg",
+      "sha256": "a874f7a18d551042708a7a1075e699ec3d3e01c2cce39f8cb7df3f2b8903a456",
+      "source_sha256": "8922950e0838fac737d8307741c9008c4fdd4b352170a87e184141a502e20b91",
+      "status": "reserved",
+      "asset_title": "tiktok14-344501075-a874f7a18d55.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-344501075-a874f7a18d55.mp4",
+      "clip_slug": "EmpathicFitAyeayeDoubleRainbow-kM4jrQWDK_wmoEHC",
+      "original_created_at": "2026-10-25T18:47:07Z",
+      "source_deadline": "2026-10-28T18:47:07Z"
     }
   ],
   "last_production": {

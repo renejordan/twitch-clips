@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3175503582",
-      "clip_slug": "VainRoughClintTheThing--BiWrir958u1I3Xg",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/VainRoughClintTheThing--BiWrir958u1I3Xg",
-      "original_title": "ansage",
-      "hook": "ansage",
-      "caption": "ansage\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 464,
-      "original_duration": 24.0,
-      "original_created_at": "2026-10-25T10:17:15Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-3175503582-9a5928506699.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-26T09:11:30Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "9a59285066992ffd9219bff0c9276a39c3664acbe1db85769d799733f7ab35bd",
-      "category": "Minecraft",
-      "transcript_sha256": "c33a81f20e366c385f774da061e3b91aa37010a25e295465ff0fa0caf21f841e",
-      "asr_requires_correction": true,
-      "source_sha256": "5a4bb3a8a6512c461e98c7c01407948e282d39de5d38b5b45f4ac0baf911d1a5",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-26T09:11:30.938811+00:00",
-        "media_sha256": "9a59285066992ffd9219bff0c9276a39c3664acbe1db85769d799733f7ab35bd",
-        "transcript_sha256": "c33a81f20e366c385f774da061e3b91aa37010a25e295465ff0fa0caf21f841e",
-        "source_sha256": "5a4bb3a8a6512c461e98c7c01407948e282d39de5d38b5b45f4ac0baf911d1a5",
-        "evidence_sha256": "6972301696109cee38e12c21ea151910d8d0203e8bccaf668cc4d532a2c19065",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "5a4bb3a8a6512c461e98c7c01407948e282d39de5d38b5b45f4ac0baf911d1a5",
-          "reviewed_source_sha256": "5a4bb3a8a6512c461e98c7c01407948e282d39de5d38b5b45f4ac0baf911d1a5",
-          "duration": 24.896,
-          "timestamps": [
-            0.0,
-            12.373,
-            24.746
-          ],
-          "source_frame_hashes": [
-            "2a028fa29f65ee9db802524ca6c7d2c1d509ee593f3ebfbdbb7ad96c8d1b8aa8",
-            "604bd58453275acb26e78e64669e4ed9ad9e680ef238b7514a507b61332214a4",
-            "88039986316aabdd395e4c8d932f7e614a4257507054d15e5ef70e51c6bd4711"
-          ],
-          "headline": "ansage",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with inventory, chat, and timer, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Players stand on a platform in a Minecraft arena with a timer counting down, no action or outcome visible",
-            "payoff": "No visible outcome or payoff from actions, timer continues without change or event",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.07393902614774796,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a timer counting down from 00:09:18, and a facecam panel above gameplay. The game is in a custom arena with multiple players and mobs. The stream chat is visible on the right side,",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            12.373,
-            24.746
-          ],
-          "final_frame_hashes": [
-            "5c44ff21cd477414a29765773c77a56d736cb17ae3e5ae32442b09e6be6ed58c",
-            "cf593da49ce462201aa75729bd3515b976c7699449e5cd924be71b4ebf802784",
-            "130b081db0d145a8e179bc0650afb12072a25fe3df684f6543381f9df90d0e70"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "9a59285066992ffd9219bff0c9276a39c3664acbe1db85769d799733f7ab35bd",
-          "transcript_sha256": "c33a81f20e366c385f774da061e3b91aa37010a25e295465ff0fa0caf21f841e"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a timer counting down from 00:09:18, and a facecam panel above gameplay. The game is in a custom arena with multiple players and mobs. The stream chat is visible on the right side,"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0739, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-3175503582-9a5928506699-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3858506260",
@@ -1946,14 +1808,17 @@
       "streamer": "nooreax",
       "sha256": "9a59285066992ffd9219bff0c9276a39c3664acbe1db85769d799733f7ab35bd",
       "source_sha256": "5a4bb3a8a6512c461e98c7c01407948e282d39de5d38b5b45f4ac0baf911d1a5",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3175503582-9a5928506699.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-3175503582-9a5928506699.mp4",
       "clip_slug": "VainRoughClintTheThing--BiWrir958u1I3Xg",
       "original_created_at": "2026-10-25T10:17:15Z",
       "source_deadline": "2026-10-28T10:17:15Z",
       "buffer_post_id": "6adf25b494c52cb8effa5987",
-      "last_reconcile_at": "2026-10-26T10:06:29Z"
+      "last_reconcile_at": "2026-10-26T10:06:29Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700915402200632609",
+      "sent_at": "2026-10-26T10:06:19Z",
+      "verified_at": "2026-10-26T10:06:31Z"
     }
   ],
   "last_production": {

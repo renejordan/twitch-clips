@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1001913153",
-      "clip_slug": "SlipperyMildWalletHeyGuys-lIzKQ5KEyhoUzE3H",
-      "streamer": "castcrafter",
-      "source_url": "https://www.twitch.tv/castcrafter/clip/SlipperyMildWalletHeyGuys-lIzKQ5KEyhoUzE3H",
-      "original_title": "Alphastein Weker",
-      "hook": "Alphastein Weker",
-      "caption": "Alphastein Weker\n#gaming #minecraft #twitchclips #castcrafter #gamer",
-      "views_at_selection": 422,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-25T10:12:03Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1001913153-af3f27b0c874.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-26T10:10:47Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "af3f27b0c874b9c9ceb5219ab5e9c7a4aac5d512470ceec77f14fd0aaffe7e66",
-      "category": "Minecraft",
-      "transcript_sha256": "8d26dfff4244a29404acf33eb76cdbffe3fa88e95f44f6802fcbb13c189eb8fc",
-      "asr_requires_correction": true,
-      "source_sha256": "d5fe5cc552e0a0528e5cc07261072470b49bbca8cef9bc9d5c66765650762559",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-26T10:10:47.526005+00:00",
-        "media_sha256": "af3f27b0c874b9c9ceb5219ab5e9c7a4aac5d512470ceec77f14fd0aaffe7e66",
-        "transcript_sha256": "8d26dfff4244a29404acf33eb76cdbffe3fa88e95f44f6802fcbb13c189eb8fc",
-        "source_sha256": "d5fe5cc552e0a0528e5cc07261072470b49bbca8cef9bc9d5c66765650762559",
-        "evidence_sha256": "4c77e60184be8e53c64c520f8f493109814b754965f905d7b8d438e8906ea6b5",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "d5fe5cc552e0a0528e5cc07261072470b49bbca8cef9bc9d5c66765650762559",
-          "reviewed_source_sha256": "d5fe5cc552e0a0528e5cc07261072470b49bbca8cef9bc9d5c66765650762559",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "de9a7164748cb37d0846d7e2a4bf5d838eca5a58cbac4db3edb88a39cdd39adb",
-            "d12e5e764dbd2f555b7d468375960d2a64386a13e0c6c274ffdff5be74a27c1f",
-            "670d72a740661725bdabc78c2650aad5b360c1cb95e790ac77293541e0ea957c"
-          ],
-          "headline": "Alphastein Weker",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in the top-left corner shows a streamer with a hand to his face, while the main screen displays Minecraft gameplay with a search menu overlay and chat text. The game is in a room with green tiled walls and ",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "A player is in a Minecraft room with green tiled walls, standing on a black platform with a search menu overlay. The player is not interacting with the menu or environment.",
-            "payoff": "The player remains stationary in the room, with no visible outcome or reaction from the game or streamer. The chat is active, but no clear payoff is visible. The streamer's reaction is minimal, with no clear emotional or",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.05527704854209075,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft search menu overlay with items like 'Pharmakisten' and 'Dropper' listed, indicating a direct game capture with facecam. The streamer's facecam is visible in the top-left corner, and the chat is in",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "921747c124c8bf839035e39f6b9a4b3ed31310ba4680e7d513cb3b6c9fbeee90",
-            "a6ec39093beb0e77f2ce93314b42be8c72e13d7ababaaa49f7105e9c0a03601c",
-            "c47bccd34d82b51beb98070f13750087ce1cfe7118d88927591fb9a6e9272122"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "af3f27b0c874b9c9ceb5219ab5e9c7a4aac5d512470ceec77f14fd0aaffe7e66",
-          "transcript_sha256": "8d26dfff4244a29404acf33eb76cdbffe3fa88e95f44f6802fcbb13c189eb8fc"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft search menu overlay with items like 'Pharmakisten' and 'Dropper' listed, indicating a direct game capture with facecam. The streamer's facecam is visible in the top-left corner, and the chat is in"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0553, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1001913153-af3f27b0c874-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3858506260",
@@ -1964,14 +1826,17 @@
       "streamer": "castcrafter",
       "sha256": "af3f27b0c874b9c9ceb5219ab5e9c7a4aac5d512470ceec77f14fd0aaffe7e66",
       "source_sha256": "d5fe5cc552e0a0528e5cc07261072470b49bbca8cef9bc9d5c66765650762559",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1001913153-af3f27b0c874.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1001913153-af3f27b0c874.mp4",
       "clip_slug": "SlipperyMildWalletHeyGuys-lIzKQ5KEyhoUzE3H",
       "original_created_at": "2026-10-25T10:12:03Z",
       "source_deadline": "2026-10-28T10:12:03Z",
       "buffer_post_id": "6adf33c14dcf9e76ce4c76a3",
-      "last_reconcile_at": "2026-10-26T11:06:31Z"
+      "last_reconcile_at": "2026-10-26T11:06:31Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700930849495158048",
+      "sent_at": "2026-10-26T11:06:16Z",
+      "verified_at": "2026-10-26T11:06:32Z"
     }
   ],
   "last_production": {

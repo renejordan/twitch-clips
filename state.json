@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "325329214",
+      "clip_slug": "VivaciousSlickSwallowWOOP-6wQM0reU-o3oNn8c",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/VivaciousSlickSwallowWOOP-6wQM0reU-o3oNn8c",
+      "original_title": "HAHAHHAHA",
+      "hook": "HAHAHHAHA",
+      "caption": "HAHAHHAHA\n#gaming #minecraft #twitchclips #letshugotv #gamer",
+      "views_at_selection": 87,
+      "original_duration": 22.0,
+      "original_created_at": "2026-10-27T16:40:58Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-325329214-853d15cd8f82.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-27T17:15:08Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "853d15cd8f8222e7fdd76bbfdd751e0032fe3b66ef18cf7458099259eb4dd7de",
+      "category": "Minecraft",
+      "transcript_sha256": "b108d67204c6a4b1108f8f8275f6c999bcbf54dbe397aa1ba7240f2747f12327",
+      "asr_requires_correction": true,
+      "source_sha256": "65ed6966bc62c3d3e2f52d0eb635158fdb6653db4b0e277d015fcd4ccde42b93",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-27T17:15:08.950276+00:00",
+        "media_sha256": "853d15cd8f8222e7fdd76bbfdd751e0032fe3b66ef18cf7458099259eb4dd7de",
+        "transcript_sha256": "b108d67204c6a4b1108f8f8275f6c999bcbf54dbe397aa1ba7240f2747f12327",
+        "source_sha256": "65ed6966bc62c3d3e2f52d0eb635158fdb6653db4b0e277d015fcd4ccde42b93",
+        "evidence_sha256": "54fe3f72085461993a1cbebbf3322c3642546153d983c185067c90893c0b7be9",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "65ed6966bc62c3d3e2f52d0eb635158fdb6653db4b0e277d015fcd4ccde42b93",
+          "reviewed_source_sha256": "65ed6966bc62c3d3e2f52d0eb635158fdb6653db4b0e277d015fcd4ccde42b93",
+          "duration": 22.016667,
+          "timestamps": [
+            0.0,
+            10.933,
+            21.867
+          ],
+          "source_frame_hashes": [
+            "319b16c1303d3c9478e101b430962a4c698c5baed89b858200d913c0e2e65435",
+            "8bca3497c69371397d181965fd544b9a0f6682f376f543289a6de7749b4e4a5c",
+            "382be99d456de6454c2cd7a480cbcc57d224acafac27a6aafec17c68a968777b"
+          ],
+          "headline": "HAHAHHAHA",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in top-left corner showing streamer's room, game HUD visible with inventory, chat, and player names, Minecraft game environment visible with player character and enemy in a tunnel.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a tunnel with an enemy nearby, no clear action or outcome visible.",
+            "payoff": "No visible outcome or payoff from the action, no win or loss indicated, no clear reaction or result from gameplay event visible in frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.05569697930955485,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel above the gameplay, which is a common edited gaming layout. The gameplay area is centered, with the player's inventory and HUD visible. The stream chat is on the",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            10.933,
+            21.867
+          ],
+          "final_frame_hashes": [
+            "219722f1a9c9c14047bf3450bbef91fc1c5bf1fc3f8109cf0453e0ceb6c75048",
+            "68d8760059f2a2a67e8311130b3da57880e1f6481e7cd3ad14815e09d800d109",
+            "aefcff2c4a2e5e4b1b22adfec2624a6290beaa4a00c54b9e17b0e8146e4f987b"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "853d15cd8f8222e7fdd76bbfdd751e0032fe3b66ef18cf7458099259eb4dd7de",
+          "transcript_sha256": "b108d67204c6a4b1108f8f8275f6c999bcbf54dbe397aa1ba7240f2747f12327"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel above the gameplay, which is a common edited gaming layout. The gameplay area is centered, with the player's inventory and HUD visible. The stream chat is on the"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0557, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-325329214-853d15cd8f82-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1090220916",

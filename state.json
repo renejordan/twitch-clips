@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701272026534759712",
       "sent_at": "2026-10-27T09:10:18Z",
       "verified_at": "2026-10-27T09:10:36Z"
+    },
+    {
+      "clip_id": "2138893258",
+      "reserved_at": "2026-10-27T10:08:34Z",
+      "streamer": "letshugotv",
+      "sha256": "044cc75b7209422d2398837b8dda50737eeb798c3da72b993df392987d2c6d78",
+      "source_sha256": "3766e766b245f182f3b10a86eb6330fb0d8053b974ea123069a336eeed3a2131",
+      "status": "reserved",
+      "asset_title": "tiktok14-2138893258-044cc75b7209.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2138893258-044cc75b7209.mp4",
+      "clip_slug": "CrypticTallFiddleheadsJKanStyle-FkBu4peBQTJNEVfX",
+      "original_created_at": "2026-10-26T10:45:51Z",
+      "source_deadline": "2026-10-29T10:45:51Z"
     }
   ],
   "last_production": {

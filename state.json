@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-27T13:56:33Z",
+    "at": "2026-10-27T14:14:05Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 97,
+      "listing_duration_prefilter": 99,
       "listing_ok": 100,
-      "listing_age_prefilter": 791,
+      "listing_age_prefilter": 788,
       "discovered": 921,
-      "metadata_requested": 870,
-      "gaming_category_not_verified": 554,
-      "qualified_metadata": 273,
-      "title_too_short": 43,
-      "duplicate_source_event": 10,
+      "metadata_requested": 869,
+      "gaming_category_not_verified": 552,
+      "qualified_metadata": 270,
+      "title_too_short": 47,
+      "duplicate_source_event": 13,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3939743810",
-      "clip_slug": "LachrymoseObeseMomHeyGirl-_5bkjNXWHu_YdFyM",
-      "streamer": "castcrafter"
+      "clip_id": "721915767",
+      "clip_slug": "ObliqueHardGiraffeBCWarrior-wh6xIEceJRCauN3m",
+      "streamer": "nooreax"
     }
   },
   "prepare_scans": {
@@ -2515,8 +2515,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-27T13",
-  "last_prefetch_hour": "2026-10-27T13",
+  "last_prepare_hour": "2026-10-27T14",
+  "last_prefetch_hour": "2026-10-27T14",
   "archived_verified_count": 35,
   "used_ids": [
     "1086399308",

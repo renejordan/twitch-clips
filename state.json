@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-27T09:14:45Z",
+    "at": "2026-10-27T10:13:55Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 94,
+      "listing_duration_prefilter": 97,
       "listing_ok": 100,
-      "listing_age_prefilter": 790,
-      "discovered": 874,
-      "metadata_requested": 825,
-      "gaming_category_not_verified": 536,
-      "qualified_metadata": 240,
-      "title_too_short": 49,
-      "duplicate_source_event": 12,
+      "listing_age_prefilter": 796,
+      "discovered": 884,
+      "metadata_requested": 834,
+      "gaming_category_not_verified": 548,
+      "qualified_metadata": 242,
+      "title_too_short": 44,
+      "duplicate_source_event": 11,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2138893258",
-      "clip_slug": "CrypticTallFiddleheadsJKanStyle-FkBu4peBQTJNEVfX",
-      "streamer": "letshugotv"
+      "clip_id": "2103200892",
+      "clip_slug": "CaringHelpfulBaguetteYouDontSay-kNFrbYnzDhbuZsll",
+      "streamer": "honeypuu"
     }
   },
   "prepare_scans": {
@@ -2524,8 +2524,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-27T09",
-  "last_prefetch_hour": "2026-10-27T09",
+  "last_prepare_hour": "2026-10-27T10",
+  "last_prefetch_hour": "2026-10-27T10",
   "archived_verified_count": 31,
   "used_ids": [
     "1086399308",

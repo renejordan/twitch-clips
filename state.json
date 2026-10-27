@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1246026570",
+      "clip_slug": "FilthyTacitChickenFreakinStinkin-R-4zSZid88Qsnh02",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/FilthyTacitChickenFreakinStinkin-R-4zSZid88Qsnh02",
+      "original_title": "er hat auch mal neh gute zeit",
+      "hook": "er hat auch mal neh gute zeit",
+      "caption": "er hat auch mal neh gute zeit\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 22,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-27T10:04:56Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1246026570-0c48537fc715.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-27T11:49:03Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "0c48537fc71590cd14f7567a0730eaf5d1af9d59e09b706f7c89a17ce3f0bbc8",
+      "category": "Minecraft",
+      "transcript_sha256": "fe4800c93e44809ecfb05aeb66ec6d5e8c793c0e7e43a1fcb9701eb016376ddf",
+      "asr_requires_correction": true,
+      "source_sha256": "c7c33c61b1857428efdf62e5bfdc20492a5b421e2614ee6df2edde4b83ed51f9",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-27T11:49:03.905928+00:00",
+        "media_sha256": "0c48537fc71590cd14f7567a0730eaf5d1af9d59e09b706f7c89a17ce3f0bbc8",
+        "transcript_sha256": "fe4800c93e44809ecfb05aeb66ec6d5e8c793c0e7e43a1fcb9701eb016376ddf",
+        "source_sha256": "c7c33c61b1857428efdf62e5bfdc20492a5b421e2614ee6df2edde4b83ed51f9",
+        "evidence_sha256": "0215a4dc5375e4bf9d0d3d1397a7839a67f072b81c69c4a6a849d2524d022e57",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "c7c33c61b1857428efdf62e5bfdc20492a5b421e2614ee6df2edde4b83ed51f9",
+          "reviewed_source_sha256": "c7c33c61b1857428efdf62e5bfdc20492a5b421e2614ee6df2edde4b83ed51f9",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "9988b198f308a00f98801081997bb8b63bed96b22ad344a84fd7d524e355e543",
+            "607ad9b7f816efc90da3c860eff42cbbf736db528a48cf0941b18403837639b7",
+            "6bed24f58cd1b7262ab4f85b30a9eed66b85a180bd5e02254f5123a9b76be211"
+          ],
+          "headline": "er hat auch mal neh gute zeit",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay, with game HUD and chat visible, not a browser or video player.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in frames.",
+            "payoff": "No clear payoff visible in frames.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.09372592952345414,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD and stream chat are visible, but there are no browser tabs, address bars, or desktop窗口",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "2975b7dc2b1a7fdf8161fe5a4550ab3c5a3856add9f98af5af1a26badc76d7e0",
+            "95932ba4a6e491cf33c43c979c24e40444022a5fa61a0ee514510b8d69f49b50",
+            "7219a2391017b4b9b64ade26698d8c5c7853826b37a996b54098799543580b68"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "0c48537fc71590cd14f7567a0730eaf5d1af9d59e09b706f7c89a17ce3f0bbc8",
+          "transcript_sha256": "fe4800c93e44809ecfb05aeb66ec6d5e8c793c0e7e43a1fcb9701eb016376ddf"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD and stream chat are visible, but there are no browser tabs, address bars, or desktop窗口"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0937, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1246026570-0c48537fc715-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3706707462",

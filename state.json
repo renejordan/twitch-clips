@@ -2032,27 +2032,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-27T21:14:22Z",
+    "at": "2026-10-27T22:31:58Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 99,
-      "listing_age_prefilter": 779,
-      "discovered": 962,
-      "metadata_requested": 915,
-      "gaming_category_not_verified": 459,
-      "title_too_short": 78,
-      "qualified_metadata": 378,
-      "duplicate_source_event": 13,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_duration_prefilter": 102,
+      "listing_age_prefilter": 767,
+      "discovered": 947,
+      "metadata_requested": 901,
+      "gaming_category_not_verified": 420,
+      "qualified_metadata": 407,
+      "title_too_short": 74,
+      "duplicate_source_event": 12,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_duration_invalid": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3735587027",
-      "clip_slug": "CreativeColdbloodedHerdAllenHuhu-efdjS8l4_Vmsc-VD",
-      "streamer": "schradin"
+      "clip_id": "1629452982",
+      "clip_slug": "JoyousFlirtyGarageDatSheffy-sZtc4-vLOPHiLtrq",
+      "streamer": "krokoboss"
     }
   },
   "prepare_scans": {
@@ -2506,8 +2507,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-27T21",
-  "last_prefetch_hour": "2026-10-27T21",
+  "last_prepare_hour": "2026-10-27T22",
+  "last_prefetch_hour": "2026-10-27T22",
   "archived_verified_count": 42,
   "used_ids": [
     "1028276668",

@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701457605872405793",
       "sent_at": "2026-10-27T21:10:20Z",
       "verified_at": "2026-10-27T21:10:30Z"
+    },
+    {
+      "clip_id": "3735587027",
+      "reserved_at": "2026-10-27T22:08:29Z",
+      "streamer": "schradin",
+      "sha256": "00d31fb534ac765f5308fd9fb06b11f9e89494ff48f463a26985729db8cdefba",
+      "source_sha256": "3eda25a675918b50ea9c0c785f8b3bf98866f4332e5364ec0751d865a084f593",
+      "status": "reserved",
+      "asset_title": "tiktok14-3735587027-00d31fb534ac.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/schradin-3735587027-00d31fb534ac.mp4",
+      "clip_slug": "CreativeColdbloodedHerdAllenHuhu-efdjS8l4_Vmsc-VD",
+      "original_created_at": "2026-10-27T16:41:16Z",
+      "source_deadline": "2026-10-30T16:41:16Z"
     }
   ],
   "last_production": {

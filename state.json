@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701411261283650849",
       "sent_at": "2026-10-27T18:10:29Z",
       "verified_at": "2026-10-27T18:10:49Z"
+    },
+    {
+      "clip_id": "1847134248",
+      "reserved_at": "2026-10-27T19:10:48Z",
+      "streamer": "noway4u_sir",
+      "sha256": "80ed5a7980e95b07fbd9dd3e1819dd9e97bb79ef600094c78b72295b2644225c",
+      "source_sha256": "2714b5ed4d56b11a71934668894a9046bf9ea8dabc201cea0dc74693b795b8e0",
+      "status": "reserved",
+      "asset_title": "tiktok14-1847134248-80ed5a7980e9.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-1847134248-80ed5a7980e9.mp4",
+      "clip_slug": "GloriousGiantGrassTooSpicy-Ge0XRQnuD_UMiei4",
+      "original_created_at": "2026-10-27T17:49:34Z",
+      "source_deadline": "2026-10-30T17:49:34Z"
     }
   ],
   "last_production": {

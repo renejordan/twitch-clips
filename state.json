@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3311250602",
+      "clip_slug": "SecretivePluckyRabbitWTRuck-Np-3REw5OMczdYJ3",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/SecretivePluckyRabbitWTRuck-Np-3REw5OMczdYJ3",
+      "original_title": "Minecraft clip at 7h10m55s",
+      "hook": "Minecraft clip at 7h10m55s",
+      "caption": "Minecraft clip at 7h10m55s\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 190,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-27T15:33:31Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-3311250602-531dc7646557.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-27T19:40:03Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "531dc764655744b651940dde60085c16d4e3054dc8a8bf9b4dc76aff0053f211",
+      "category": "Minecraft",
+      "transcript_sha256": "fbe3665110abda902b9211c5823728ca31aaa41c3af181e6e4af71c6fe6e0348",
+      "asr_requires_correction": true,
+      "source_sha256": "dc424571e6a8bc8947e6b1c5fc776dc76d201260f05d80a547faf8ca0c4fee0e",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-27T19:40:03.386311+00:00",
+        "media_sha256": "531dc764655744b651940dde60085c16d4e3054dc8a8bf9b4dc76aff0053f211",
+        "transcript_sha256": "fbe3665110abda902b9211c5823728ca31aaa41c3af181e6e4af71c6fe6e0348",
+        "source_sha256": "dc424571e6a8bc8947e6b1c5fc776dc76d201260f05d80a547faf8ca0c4fee0e",
+        "evidence_sha256": "a0f12e4f2b207f43956ba13ab5a58509425121f4ed1f2f433fc2d386f0ec8996",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "dc424571e6a8bc8947e6b1c5fc776dc76d201260f05d80a547faf8ca0c4fee0e",
+          "reviewed_source_sha256": "dc424571e6a8bc8947e6b1c5fc776dc76d201260f05d80a547faf8ca0c4fee0e",
+          "duration": 30.016,
+          "timestamps": [
+            0.0,
+            14.933,
+            29.866
+          ],
+          "source_frame_hashes": [
+            "8a57b74f7d0817c459aa724a9499dd3d6e745c593e35abbd414972d3991df5f1",
+            "7a3c1ee59c3f7a603e35b83e99c2ca8a0f8a045ec8e5d0f040a8e292e428aeb6",
+            "c82aa95bf2f02235256a854772781fb846810b09c8bcf17eaa74273bba4b6cab"
+          ],
+          "headline": "Minecraft clip at 7h10m55s",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in top-left corner, game HUD visible with inventory and chat, chat text visible, game menu visible, no browser or desktop window visible, no video player or recursive stream visible",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a large, complex Minecraft structure with a visible inventory and chat, no clear action or outcome visible",
+            "payoff": "No visible outcome or payoff from the action, no clear win or loss, no reaction or result visible in the frames provided",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.08287011824179495,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a visible inventory bar, chat window, and a facecam panel in the top-left corner. The title 'Minecraft clip at 7h10m55s' is clearly visible at the top. The gameplay area is not",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.933,
+            29.866
+          ],
+          "final_frame_hashes": [
+            "b3f3103faa04f2717171a9ffad29e69ed69a1826540e3a10753295881268b1a4",
+            "98525288336022713aaef352ce9064a67ed40308cfcd1e579b6254bdebbba9f0",
+            "4851626068105409341ddf8c944f7fef85ccc6623130a3a0ca9da591c8a87d3a"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "531dc764655744b651940dde60085c16d4e3054dc8a8bf9b4dc76aff0053f211",
+          "transcript_sha256": "fbe3665110abda902b9211c5823728ca31aaa41c3af181e6e4af71c6fe6e0348"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a visible inventory bar, chat window, and a facecam panel in the top-left corner. The title 'Minecraft clip at 7h10m55s' is clearly visible at the top. The gameplay area is not"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0829, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-3311250602-531dc7646557-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "215749810",

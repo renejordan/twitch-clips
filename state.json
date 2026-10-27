@@ -2000,12 +2000,13 @@
       "streamer": "nooreax",
       "sha256": "3b422015fa07920be1be7561074e3e4c8fed28ea2431603baf6f8935226a7875",
       "source_sha256": "8a6ff03f8c6fb11ce2674d60bf6c5a1f92c637d0a25530732a9db4cfa092c3b2",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-721915767-3b422015fa07.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-721915767-3b422015fa07.mp4",
       "clip_slug": "ObliqueHardGiraffeBCWarrior-wh6xIEceJRCauN3m",
       "original_created_at": "2026-10-27T12:12:49Z",
-      "source_deadline": "2026-10-30T12:12:49Z"
+      "source_deadline": "2026-10-30T12:12:49Z",
+      "buffer_post_id": "6ae0be817d2301ca995ee9b5"
     }
   ],
   "last_production": {

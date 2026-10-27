@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701100934427938080",
       "sent_at": "2026-10-26T22:06:19Z",
       "verified_at": "2026-10-26T22:06:28Z"
+    },
+    {
+      "clip_id": "1348008932",
+      "reserved_at": "2026-10-27T08:06:33Z",
+      "streamer": "bastighg",
+      "sha256": "b87cd873962b1d8d3a1d9dfeee75918c577792fc362d2bf66fc294672e6c1662",
+      "source_sha256": "c3565694dbb6d7984acc4b158098b0c49fb1fc0a7b4464b55c33aee8d018324c",
+      "status": "reserved",
+      "asset_title": "tiktok14-1348008932-b87cd873962b.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-1348008932-b87cd873962b.mp4",
+      "clip_slug": "CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON",
+      "original_created_at": "2026-10-26T21:27:51Z",
+      "source_deadline": "2026-10-29T21:27:51Z"
     }
   ],
   "last_production": {

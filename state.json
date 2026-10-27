@@ -2000,12 +2000,13 @@
       "streamer": "letshugotv",
       "sha256": "853d15cd8f8222e7fdd76bbfdd751e0032fe3b66ef18cf7458099259eb4dd7de",
       "source_sha256": "65ed6966bc62c3d3e2f52d0eb635158fdb6653db4b0e277d015fcd4ccde42b93",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-325329214-853d15cd8f82.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-325329214-853d15cd8f82.mp4",
       "clip_slug": "VivaciousSlickSwallowWOOP-6wQM0reU-o3oNn8c",
       "original_created_at": "2026-10-27T16:40:58Z",
-      "source_deadline": "2026-10-30T16:40:58Z"
+      "source_deadline": "2026-10-30T16:40:58Z",
+      "buffer_post_id": "6ae0e8ae51de1fce7dce4810"
     }
   ],
   "last_production": {

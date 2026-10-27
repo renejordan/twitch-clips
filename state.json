@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "721915767",
-      "clip_slug": "ObliqueHardGiraffeBCWarrior-wh6xIEceJRCauN3m",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/ObliqueHardGiraffeBCWarrior-wh6xIEceJRCauN3m",
-      "original_title": "Die Stimmen werden lauter",
-      "hook": "Die Stimmen werden lauter",
-      "caption": "Die Stimmen werden lauter\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 44,
-      "original_duration": 39.0,
-      "original_created_at": "2026-10-27T12:12:49Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-721915767-3b422015fa07.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-27T14:14:05Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "3b422015fa07920be1be7561074e3e4c8fed28ea2431603baf6f8935226a7875",
-      "category": "Minecraft",
-      "transcript_sha256": "891cdb316741d237a8822556f0a35f254c7c9dea42f2c09ed839cd50d51a3dd4",
-      "asr_requires_correction": true,
-      "source_sha256": "8a6ff03f8c6fb11ce2674d60bf6c5a1f92c637d0a25530732a9db4cfa092c3b2",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-27T14:14:05.247882+00:00",
-        "media_sha256": "3b422015fa07920be1be7561074e3e4c8fed28ea2431603baf6f8935226a7875",
-        "transcript_sha256": "891cdb316741d237a8822556f0a35f254c7c9dea42f2c09ed839cd50d51a3dd4",
-        "source_sha256": "8a6ff03f8c6fb11ce2674d60bf6c5a1f92c637d0a25530732a9db4cfa092c3b2",
-        "evidence_sha256": "c105f35740a7bd64649747ed466e41b426f1ef6720b8bf2f1a0fec1ef6cc0cd2",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "8a6ff03f8c6fb11ce2674d60bf6c5a1f92c637d0a25530732a9db4cfa092c3b2",
-          "reviewed_source_sha256": "8a6ff03f8c6fb11ce2674d60bf6c5a1f92c637d0a25530732a9db4cfa092c3b2",
-          "duration": 39.033333,
-          "timestamps": [
-            0.0,
-            19.442,
-            38.883
-          ],
-          "source_frame_hashes": [
-            "68789205b7c0d008f2fbdb0fd114a06a769f18ad3eb913ccdab46e0ea4239ddd",
-            "257cda49d5e9549b9d06a45ac72dc53c60e71e6209b69e1557a4486b075d7759",
-            "c560edea06a0603d242ff7995564239bd5daafc394cf82e60b21ee0fc8f7b6b5"
-          ],
-          "headline": "Die Stimmen werden lauter",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "dialogue_subtitles",
-            "layout_evidence": "A face camera is visible in the corner, capturing gameplay with a facecam, and the game is Minecraft. The game is visible with a large white structure and a dark sky. The subtitles are visible at the bottom of the screen",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "A player is in a Minecraft game, standing on a large white structure with a dark sky in the background. The player is speaking in German, saying 'Ich stretch sie' and 'schlechter Chef'.",
-            "payoff": "The player is speaking in German, saying 'Ich stretch sie' and 'schlechter Chef'. There is no visible outcome or payoff from the player's actions. The player is not winning or losing, and there is no visible reaction or ",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": true,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.11465464745343525,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a Minecraft game with a dark sky and a large white structure. The title 'Die Stimmen werden lauter' is visible at the top. At 19.44 seconds, the subtitle 'Ich stretch sie' appears. At 38.88 seconds, the subtitle 'schlechter'",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            19.442,
-            38.883
-          ],
-          "final_frame_hashes": [
-            "4f60d4777557037fb4dbebb36364c93552e3e291fb01008f592d055fa59dbcc7",
-            "3e563cf5e6f35d748ef4fa8e0a12811a11eeb0f66a1f4dd45e7cff25675cb1fa",
-            "b1b693483e4f933a210438c5839e8a1b902f2e0d29f45600731eaa9d56b10366"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "3b422015fa07920be1be7561074e3e4c8fed28ea2431603baf6f8935226a7875",
-          "transcript_sha256": "891cdb316741d237a8822556f0a35f254c7c9dea42f2c09ed839cd50d51a3dd4"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a Minecraft game with a dark sky and a large white structure. The title 'Die Stimmen werden lauter' is visible at the top. At 19.44 seconds, the subtitle 'Ich stretch sie' appears. At 38.88 seconds, the subtitle 'schlechter'"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1147, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-721915767-3b422015fa07-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1694983154",
@@ -2000,14 +1862,17 @@
       "streamer": "nooreax",
       "sha256": "3b422015fa07920be1be7561074e3e4c8fed28ea2431603baf6f8935226a7875",
       "source_sha256": "8a6ff03f8c6fb11ce2674d60bf6c5a1f92c637d0a25530732a9db4cfa092c3b2",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-721915767-3b422015fa07.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-721915767-3b422015fa07.mp4",
       "clip_slug": "ObliqueHardGiraffeBCWarrior-wh6xIEceJRCauN3m",
       "original_created_at": "2026-10-27T12:12:49Z",
       "source_deadline": "2026-10-30T12:12:49Z",
       "buffer_post_id": "6ae0be817d2301ca995ee9b5",
-      "last_reconcile_at": "2026-10-27T15:10:38Z"
+      "last_reconcile_at": "2026-10-27T15:10:38Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701364881424911649",
+      "sent_at": "2026-10-27T15:10:32Z",
+      "verified_at": "2026-10-27T15:10:39Z"
     }
   ],
   "last_production": {

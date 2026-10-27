@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701427278303005984",
       "sent_at": "2026-10-27T19:12:36Z",
       "verified_at": "2026-10-27T19:12:45Z"
+    },
+    {
+      "clip_id": "3311250602",
+      "reserved_at": "2026-10-27T20:08:39Z",
+      "streamer": "castcrafter",
+      "sha256": "531dc764655744b651940dde60085c16d4e3054dc8a8bf9b4dc76aff0053f211",
+      "source_sha256": "dc424571e6a8bc8947e6b1c5fc776dc76d201260f05d80a547faf8ca0c4fee0e",
+      "status": "reserved",
+      "asset_title": "tiktok14-3311250602-531dc7646557.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-3311250602-531dc7646557.mp4",
+      "clip_slug": "SecretivePluckyRabbitWTRuck-Np-3REw5OMczdYJ3",
+      "original_created_at": "2026-10-27T15:33:31Z",
+      "source_deadline": "2026-10-30T15:33:31Z"
     }
   ],
   "last_production": {

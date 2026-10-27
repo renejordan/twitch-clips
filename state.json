@@ -2014,28 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-27T12:16:28Z",
+    "at": "2026-10-27T13:56:33Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_duration_prefilter": 97,
       "listing_ok": 100,
-      "listing_age_prefilter": 802,
-      "discovered": 893,
-      "metadata_requested": 843,
-      "gaming_category_not_verified": 535,
-      "qualified_metadata": 262,
-      "title_too_short": 46,
-      "duplicate_source_event": 11,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_visual_gameplay_visible": 1,
+      "listing_age_prefilter": 791,
+      "discovered": 921,
+      "metadata_requested": 870,
+      "gaming_category_not_verified": 554,
+      "qualified_metadata": 273,
+      "title_too_short": 43,
+      "duplicate_source_event": 10,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "533244829",
-      "clip_slug": "DeterminedCallousRadishHumbleLife-ehjlJ0V9XKymR96x",
-      "streamer": "nooreax"
+      "clip_id": "3939743810",
+      "clip_slug": "LachrymoseObeseMomHeyGirl-_5bkjNXWHu_YdFyM",
+      "streamer": "castcrafter"
     }
   },
   "prepare_scans": {
@@ -2543,8 +2542,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-27T12",
-  "last_prefetch_hour": "2026-10-27T12",
+  "last_prepare_hour": "2026-10-27T13",
+  "last_prefetch_hour": "2026-10-27T13",
   "archived_verified_count": 34,
   "used_ids": [
     "1086399308",

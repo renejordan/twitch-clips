@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2103200892",
-      "clip_slug": "CaringHelpfulBaguetteYouDontSay-kNFrbYnzDhbuZsll",
-      "streamer": "honeypuu",
-      "source_url": "https://www.twitch.tv/honeypuu/clip/CaringHelpfulBaguetteYouDontSay-kNFrbYnzDhbuZsll",
-      "original_title": "Double Luxing",
-      "hook": "Double Luxing",
-      "caption": "Double Luxing\n#gaming #leagueoflegends #twitchclips #honeypuu #gamer",
-      "views_at_selection": 78,
-      "original_duration": 22.0,
-      "original_created_at": "2026-10-26T15:04:32Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/honeypuu-2103200892-257981c9563e.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-27T10:13:55Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "257981c9563e611d8acb17b50441b476a30c3e50b504d7c061e8c2b6596cb4b6",
-      "category": "League of Legends",
-      "transcript_sha256": "dbb9efc2c2a5cc3db1a244cca9929162233ad9ddbbe745e202de93af3cc0929f",
-      "asr_requires_correction": true,
-      "source_sha256": "ee1889473146cdbd631378934cc8ad539375e585515ce50da59b761b3f94cf0a",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-27T10:13:55.375797+00:00",
-        "media_sha256": "257981c9563e611d8acb17b50441b476a30c3e50b504d7c061e8c2b6596cb4b6",
-        "transcript_sha256": "dbb9efc2c2a5cc3db1a244cca9929162233ad9ddbbe745e202de93af3cc0929f",
-        "source_sha256": "ee1889473146cdbd631378934cc8ad539375e585515ce50da59b761b3f94cf0a",
-        "evidence_sha256": "63ead4cc44886c377d3603fc465c9d35e46110b762dd399eb963acd3f08e8c49",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "ee1889473146cdbd631378934cc8ad539375e585515ce50da59b761b3f94cf0a",
-          "reviewed_source_sha256": "ee1889473146cdbd631378934cc8ad539375e585515ce50da59b761b3f94cf0a",
-          "duration": 22.533333,
-          "timestamps": [
-            0.0,
-            11.192,
-            22.383
-          ],
-          "source_frame_hashes": [
-            "d168b74efe3a6110c6ec1acea9f419a4cc77beb3c8ec6ee122aafa17cb66b650",
-            "fcd7f71883bec8db62a48f1a107bdd2f93b58a5b5126113199098bb7d836f75c",
-            "579c9008e495eb35a9668d471d82dc242783ebbfb75151632698f1b5f892aead"
-          ],
-          "headline": "Double Luxing",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in a corner over gameplay with game HUD and chat visible, including a minimap and player status bars.",
-            "game_name": "League of Legends",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in the frames provided.",
-            "payoff": "No clear payoff visible in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.044266308010639355,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a clear title 'Double Luxing' overlaid on the top of the video, which is a title-only caption mode. The game is visible with a facecam panel in the bottom right corner, indicating a direct game capture with a",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            11.192,
-            22.383
-          ],
-          "final_frame_hashes": [
-            "272bcc6a763c408fe24ff60cfdb8ac2585b8805cb58f99b90cf95b4bb7ba1db5",
-            "ef31ff474606b88aaede884467201784cbecf3594689b2d0be93a7ca146ba4e3",
-            "9130c1f8e1ed3dff01ecb36d85123aa54faa6e655d6dc1ea2319a582e0592047"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "257981c9563e611d8acb17b50441b476a30c3e50b504d7c061e8c2b6596cb4b6",
-          "transcript_sha256": "dbb9efc2c2a5cc3db1a244cca9929162233ad9ddbbe745e202de93af3cc0929f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a clear title 'Double Luxing' overlaid on the top of the video, which is a title-only caption mode. The game is visible with a facecam panel in the bottom right corner, indicating a direct game capture with a"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0443, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/honeypuu-2103200892-257981c9563e-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3706707462",
@@ -2000,14 +1862,17 @@
       "streamer": "honeypuu",
       "sha256": "257981c9563e611d8acb17b50441b476a30c3e50b504d7c061e8c2b6596cb4b6",
       "source_sha256": "ee1889473146cdbd631378934cc8ad539375e585515ce50da59b761b3f94cf0a",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2103200892-257981c9563e.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/honeypuu-2103200892-257981c9563e.mp4",
       "clip_slug": "CaringHelpfulBaguetteYouDontSay-kNFrbYnzDhbuZsll",
       "original_created_at": "2026-10-26T15:04:32Z",
       "source_deadline": "2026-10-29T15:04:32Z",
       "buffer_post_id": "6ae0863b3063753edf6fe838",
-      "last_reconcile_at": "2026-10-27T11:10:35Z"
+      "last_reconcile_at": "2026-10-27T11:10:35Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701303010105888033",
+      "sent_at": "2026-10-27T11:10:27Z",
+      "verified_at": "2026-10-27T11:10:36Z"
     }
   ],
   "last_production": {

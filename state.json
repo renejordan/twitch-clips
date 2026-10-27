@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "533244829",
-      "clip_slug": "DeterminedCallousRadishHumbleLife-ehjlJ0V9XKymR96x",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/DeterminedCallousRadishHumbleLife-ehjlJ0V9XKymR96x",
-      "original_title": "fast Firma",
-      "hook": "fast Firma",
-      "caption": "fast Firma\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 22,
-      "original_duration": 15.0,
-      "original_created_at": "2026-10-27T09:25:05Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-533244829-5b3e28713f67.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-27T12:16:28Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "5b3e28713f6763e9b9f8858de96b3beb24b787826abf117ac832ecfdb5f31b81",
-      "category": "Minecraft",
-      "transcript_sha256": "08f1d93298b5c547522d3b5a9f6960ffae404213bf88293902d5e011c3588c5f",
-      "asr_requires_correction": true,
-      "source_sha256": "6c9de5a9ef3fff78bc5470c027a04aec3192734f3cf6a575634b5c32a5ccded9",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-27T12:16:28.637275+00:00",
-        "media_sha256": "5b3e28713f6763e9b9f8858de96b3beb24b787826abf117ac832ecfdb5f31b81",
-        "transcript_sha256": "08f1d93298b5c547522d3b5a9f6960ffae404213bf88293902d5e011c3588c5f",
-        "source_sha256": "6c9de5a9ef3fff78bc5470c027a04aec3192734f3cf6a575634b5c32a5ccded9",
-        "evidence_sha256": "f7a47d0bf963b1d084d6140b8769482a7852463097b909ef9893bec11990e151",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "6c9de5a9ef3fff78bc5470c027a04aec3192734f3cf6a575634b5c32a5ccded9",
-          "reviewed_source_sha256": "6c9de5a9ef3fff78bc5470c027a04aec3192734f3cf6a575634b5c32a5ccded9",
-          "duration": 15.316667,
-          "timestamps": [
-            0.0,
-            7.583,
-            15.167
-          ],
-          "source_frame_hashes": [
-            "37114414faa9cef889612a8b912f2849e158c1241a238976e443e1c23a0548d8",
-            "133e425cb0137ed99ad3fb3a4d5051f4939ada7fdfcd2747a4e6d703c2f00493",
-            "784ee2a6acbee82659c0b27e809fef53b812d03c5ddbb4a544d11222e588f361"
-          ],
-          "headline": "fast Firma",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, showing room with shelves and desk; game view shows Minecraft terrain and inventory bar; chat window visible on right side",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is standing on a cliff edge in Minecraft, looking down into a deep ravine with a large stone structure nearby.",
-            "payoff": "No visible outcome or payoff; player remains stationary, no action or reaction occurs in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.0033032621185744627,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a title overlay 'fast Firma' at the top center. The game view includes the player's inventory bar, health bar, and a map on the left. The right side of the frame shows a live stream",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            7.583,
-            15.167
-          ],
-          "final_frame_hashes": [
-            "027bab1b1f2dac84b244e5903368f568dbe0c8857245195ef45e1cb9461d719c",
-            "a52a191c72eeb2724079e5afc6b01f392293f6d2d874b33aa9e3ad48a1cced0c",
-            "53bb8c6187e00131fa9bf339c148700f84c3741df44afa0bc396802f7c24de8d"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "5b3e28713f6763e9b9f8858de96b3beb24b787826abf117ac832ecfdb5f31b81",
-          "transcript_sha256": "08f1d93298b5c547522d3b5a9f6960ffae404213bf88293902d5e011c3588c5f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a title overlay 'fast Firma' at the top center. The game view includes the player's inventory bar, health bar, and a map on the left. The right side of the frame shows a live stream"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0033, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-533244829-5b3e28713f67-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3530894836",
@@ -2000,14 +1862,17 @@
       "streamer": "nooreax",
       "sha256": "5b3e28713f6763e9b9f8858de96b3beb24b787826abf117ac832ecfdb5f31b81",
       "source_sha256": "6c9de5a9ef3fff78bc5470c027a04aec3192734f3cf6a575634b5c32a5ccded9",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-533244829-5b3e28713f67.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-533244829-5b3e28713f67.mp4",
       "clip_slug": "DeterminedCallousRadishHumbleLife-ehjlJ0V9XKymR96x",
       "original_created_at": "2026-10-27T09:25:05Z",
       "source_deadline": "2026-10-30T09:25:05Z",
       "buffer_post_id": "6ae0a2d558fd3c2079eca36a",
-      "last_reconcile_at": "2026-10-27T13:12:36Z"
+      "last_reconcile_at": "2026-10-27T13:12:36Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701334643575885089",
+      "sent_at": "2026-10-27T13:12:29Z",
+      "verified_at": "2026-10-27T13:12:37Z"
     }
   ],
   "last_production": {

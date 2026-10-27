@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "847668258",
-      "clip_slug": "PricklyModernDogPermaSmug-qSxDq7MbuufbGJMg",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/PricklyModernDogPermaSmug-qSxDq7MbuufbGJMg",
-      "original_title": "duper",
-      "hook": "duper",
-      "caption": "duper\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 40,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-27T13:54:12Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-847668258-9baab4f768f7.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-27T15:13:59Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "9baab4f768f7f979315bb3169665bebcc86aa5c0ce58006a8c41bdf42c1d70d2",
-      "category": "Minecraft",
-      "transcript_sha256": "2011095a1df917d920fac9aa57d2068290cadc616d98e68b023e7be67b950a0b",
-      "asr_requires_correction": true,
-      "source_sha256": "765da2ff4077cb743b8f587d856fe3e6c860588dd0f5670317bf077ed71d90e8",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-27T15:13:59.369041+00:00",
-        "media_sha256": "9baab4f768f7f979315bb3169665bebcc86aa5c0ce58006a8c41bdf42c1d70d2",
-        "transcript_sha256": "2011095a1df917d920fac9aa57d2068290cadc616d98e68b023e7be67b950a0b",
-        "source_sha256": "765da2ff4077cb743b8f587d856fe3e6c860588dd0f5670317bf077ed71d90e8",
-        "evidence_sha256": "e99cbdedfda3950bdbd0d41027f14d464107cf642023b537fd360786aed86027",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "765da2ff4077cb743b8f587d856fe3e6c860588dd0f5670317bf077ed71d90e8",
-          "reviewed_source_sha256": "765da2ff4077cb743b8f587d856fe3e6c860588dd0f5670317bf077ed71d90e8",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "40c561b8ca15e290a11493ea9784079b5bc50d2d4ede83fe8f35f1e502b2a6ae",
-            "8fb88ac4dc7ddd5b0eab8e94d01f870af60f306a2555fb627c695a5e6817518b",
-            "a96e262955abd8062d0f1a125bad6156972109b651afea4fed87e10a11e79909"
-          ],
-          "headline": "duper",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, game UI and chat visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, visible HUD and chat, no clear action or outcome",
-            "payoff": "No visible outcome or payoff from actions taken in frames, no clear win/loss or reaction from gameplay events",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.06414500035889537,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'duper' is clearly visible as a word subtitle at the top center. The gameplay area is",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_single",
-            "composition_usable": true,
-            "legible_subtitles": true,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "06d98f3488d434f40cb1db34920c24122614081b4d6cbee6e56472238de9ccdb",
-            "0fb822eee38933003e0d811fbf655203cf2f89aa367f6edd8a93d330f0a5df13",
-            "4448030a290ab157cb6916231a49e4110a92d5d45dfd1d23fc67d49a6122171e"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "9baab4f768f7f979315bb3169665bebcc86aa5c0ce58006a8c41bdf42c1d70d2",
-          "transcript_sha256": "2011095a1df917d920fac9aa57d2068290cadc616d98e68b023e7be67b950a0b"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'duper' is clearly visible as a word subtitle at the top center. The gameplay area is"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0641, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-847668258-9baab4f768f7-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1694983154",
@@ -2018,14 +1880,17 @@
       "streamer": "nooreax",
       "sha256": "9baab4f768f7f979315bb3169665bebcc86aa5c0ce58006a8c41bdf42c1d70d2",
       "source_sha256": "765da2ff4077cb743b8f587d856fe3e6c860588dd0f5670317bf077ed71d90e8",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-847668258-9baab4f768f7.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-847668258-9baab4f768f7.mp4",
       "clip_slug": "PricklyModernDogPermaSmug-qSxDq7MbuufbGJMg",
       "original_created_at": "2026-10-27T13:54:12Z",
       "source_deadline": "2026-10-30T13:54:12Z",
       "buffer_post_id": "6ae0cc8c960a519e24d1b3e5",
-      "last_reconcile_at": "2026-10-27T16:14:45Z"
+      "last_reconcile_at": "2026-10-27T16:14:45Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701380399049493792",
+      "sent_at": "2026-10-27T16:10:45Z",
+      "verified_at": "2026-10-27T16:14:47Z"
     }
   ],
   "last_production": {

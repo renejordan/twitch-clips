@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1348008932",
+      "clip_slug": "CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON",
+      "streamer": "bastighg",
+      "source_url": "https://www.twitch.tv/bastighg/clip/CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON",
+      "original_title": "300000 € spende",
+      "hook": "300000 € spende",
+      "caption": "300000 € spende\n#gaming #minecraft #twitchclips #bastighg #gamer",
+      "views_at_selection": 212,
+      "original_duration": 29.0,
+      "original_created_at": "2026-10-26T21:27:51Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-1348008932-b87cd873962b.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-27T01:29:24Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "b87cd873962b1d8d3a1d9dfeee75918c577792fc362d2bf66fc294672e6c1662",
+      "category": "Minecraft",
+      "transcript_sha256": "2e989e4704152768c3f04bc5d3278f40a9859326c62047b4ac2f2f93bd6d32e5",
+      "asr_requires_correction": true,
+      "source_sha256": "c3565694dbb6d7984acc4b158098b0c49fb1fc0a7b4464b55c33aee8d018324c",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-27T01:29:24.770669+00:00",
+        "media_sha256": "b87cd873962b1d8d3a1d9dfeee75918c577792fc362d2bf66fc294672e6c1662",
+        "transcript_sha256": "2e989e4704152768c3f04bc5d3278f40a9859326c62047b4ac2f2f93bd6d32e5",
+        "source_sha256": "c3565694dbb6d7984acc4b158098b0c49fb1fc0a7b4464b55c33aee8d018324c",
+        "evidence_sha256": "8583875090a9e66a2baa6f8040c374cbcfc3f2de45122d78842de8358b233b3b",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "c3565694dbb6d7984acc4b158098b0c49fb1fc0a7b4464b55c33aee8d018324c",
+          "reviewed_source_sha256": "c3565694dbb6d7984acc4b158098b0c49fb1fc0a7b4464b55c33aee8d018324c",
+          "duration": 29.816667,
+          "timestamps": [
+            0.0,
+            14.833,
+            29.667
+          ],
+          "source_frame_hashes": [
+            "47d402f92cb5318538028258623b790433fa8876720593a10bda57aff99c1d00",
+            "3de769837060609ce88c4adb616c2e101ddcd0a326aba642e0000cac6f0f76c1",
+            "d3c4935886628f640902b9d082d8543d49bbcef866ec322b50b1a6bfdf4975de"
+          ],
+          "headline": "300000 € spende",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in top right corner, showing hands on keyboard, with game HUD and chat visible in main frame.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible; only HUD and chat.",
+            "payoff": "No visible outcome or payoff; no win/loss or reaction visible in frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.026000969132397054,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frames show a Minecraft gameplay capture with a persistent title overlay '300000 € spende' at the top. The gameplay includes standard Minecraft HUD elements (health, inventory, timer) and chat messages. A facecam panel is not present. A",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.833,
+            29.667
+          ],
+          "final_frame_hashes": [
+            "f9c8a56660f82bd46370d6bbd53f91143bac4d8489a5ff039337840ae41b9086",
+            "b75c827ec80bf6974722e551d2c27cae9547194a6603340a9136ed912538bb00",
+            "63ab5669b7109ec93e82c17a66a9def364ea62fe92174fcddfd1ac1e4ec348b0"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "b87cd873962b1d8d3a1d9dfeee75918c577792fc362d2bf66fc294672e6c1662",
+          "transcript_sha256": "2e989e4704152768c3f04bc5d3278f40a9859326c62047b4ac2f2f93bd6d32e5"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frames show a Minecraft gameplay capture with a persistent title overlay '300000 € spende' at the top. The gameplay includes standard Minecraft HUD elements (health, inventory, timer) and chat messages. A facecam panel is not present. A"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0260, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-1348008932-b87cd873962b-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "206829726",

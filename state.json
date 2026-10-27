@@ -2386,6 +2386,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-27T11:49:03Z",
       "reason": "qa_visual_browser_chrome"
+    },
+    {
+      "clip_id": "2317788116",
+      "clip_slug": "SpotlessGiftedOctopusOneHand-fd-HhtO3SAj0AEYK",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/SpotlessGiftedOctopusOneHand-fd-HhtO3SAj0AEYK",
+      "status": "quality_rejected",
+      "created_at": "2026-10-27T12:16:28Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

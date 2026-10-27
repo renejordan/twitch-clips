@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701349399582068000",
       "sent_at": "2026-10-27T14:10:27Z",
       "verified_at": "2026-10-27T14:10:38Z"
+    },
+    {
+      "clip_id": "721915767",
+      "reserved_at": "2026-10-27T15:08:46Z",
+      "streamer": "nooreax",
+      "sha256": "3b422015fa07920be1be7561074e3e4c8fed28ea2431603baf6f8935226a7875",
+      "source_sha256": "8a6ff03f8c6fb11ce2674d60bf6c5a1f92c637d0a25530732a9db4cfa092c3b2",
+      "status": "reserved",
+      "asset_title": "tiktok14-721915767-3b422015fa07.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-721915767-3b422015fa07.mp4",
+      "clip_slug": "ObliqueHardGiraffeBCWarrior-wh6xIEceJRCauN3m",
+      "original_created_at": "2026-10-27T12:12:49Z",
+      "source_deadline": "2026-10-30T12:12:49Z"
     }
   ],
   "last_production": {

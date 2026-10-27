@@ -2376,6 +2376,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-27T08:11:47Z",
       "reason": "qa_duration_invalid"
+    },
+    {
+      "clip_id": "947863308",
+      "clip_slug": "TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4",
+      "status": "quality_rejected",
+      "created_at": "2026-10-27T11:49:03Z",
+      "reason": "qa_visual_browser_chrome"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

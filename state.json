@@ -2014,27 +2014,29 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-27T01:29:24Z",
+    "at": "2026-10-27T08:11:47Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 89,
+      "listing_duration_prefilter": 90,
       "listing_ok": 100,
-      "listing_age_prefilter": 799,
-      "discovered": 884,
-      "metadata_requested": 840,
-      "gaming_category_not_verified": 540,
-      "qualified_metadata": 242,
-      "title_too_short": 58,
-      "duplicate_source_event": 7,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_age_prefilter": 782,
+      "discovered": 888,
+      "metadata_requested": 842,
+      "gaming_category_not_verified": 545,
+      "qualified_metadata": 245,
+      "title_too_short": 52,
+      "duplicate_source_event": 9,
+      "download_attempted": 3,
+      "render_attempted": 3,
+      "qa_visual_gameplay_visible": 1,
+      "qa_duration_invalid": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1348008932",
-      "clip_slug": "CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON",
-      "streamer": "bastighg"
+      "clip_id": "664499384",
+      "clip_slug": "GentleIncredulousMoosePJSugar-CASmstvTtcZuzT_D",
+      "streamer": "agurin"
     }
   },
   "prepare_scans": {
@@ -2524,8 +2526,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-27T01",
-  "last_prefetch_hour": "2026-10-26T21",
+  "last_prepare_hour": "2026-10-27T08",
+  "last_prefetch_hour": "2026-10-27T08",
   "archived_verified_count": 29,
   "used_ids": [
     "1086399308",

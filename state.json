@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "3706707462",
-      "reserved_at": "2026-10-20T12:00:32Z",
-      "streamer": "krokoboss",
-      "sha256": "761bd0d3861260c3804388ae749f14b447ab62673be69a625150d1f1428c0015",
-      "source_sha256": "35926ed084a656a708ef265a52346eb745b3e2753aa78fa21c80716a658f8b64",
-      "status": "verified_public",
-      "asset_title": "tiktok14-3706707462-761bd0d38612.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3706707462-761bd0d38612.mp4",
-      "clip_slug": "LazyIcyHorseradishCorgiDerp-1QwoLC_9zhrEdCIR",
-      "original_created_at": "2026-10-20T01:31:59Z",
-      "source_deadline": "2026-10-23T01:31:59Z",
-      "buffer_post_id": "6ad757e231ed850c40e08a1e",
-      "last_reconcile_at": "2026-10-20T12:06:30Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698719112729529632",
-      "sent_at": "2026-10-20T12:03:20Z",
-      "verified_at": "2026-10-20T12:06:31Z"
-    },
-    {
       "clip_id": "3344576570",
       "reserved_at": "2026-10-20T13:00:29Z",
       "streamer": "krokoboss",
@@ -2536,7 +2518,7 @@
   ],
   "last_prepare_hour": "2026-10-27T11",
   "last_prefetch_hour": "2026-10-27T11",
-  "archived_verified_count": 32,
+  "archived_verified_count": 33,
   "used_ids": [
     "1086399308",
     "1411062380",
@@ -2562,6 +2544,7 @@
     "3660835968",
     "366414941",
     "3699286379",
+    "3706707462",
     "3707302748",
     "3713714204",
     "3835744608",

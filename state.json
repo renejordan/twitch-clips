@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "1694983154",
-      "reserved_at": "2026-10-20T16:22:53Z",
-      "streamer": "zarbex",
-      "sha256": "5848b07c8180b711a5c86530d7802767157c6c1f470bc20fa57f743004f050c9",
-      "source_sha256": "002662e9fffb47df447a0a8bbe0cbff38dd5c30cee4d5f91b921c6c68f3b71f2",
-      "status": "verified_public",
-      "asset_title": "tiktok14-1694983154-5848b07c8180.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-1694983154-5848b07c8180.mp4",
-      "clip_slug": "TangibleRealWebBatChest-tHiA50tEIdJ9oRs5",
-      "original_created_at": "2026-10-19T18:08:26Z",
-      "source_deadline": "2026-10-22T18:08:26Z",
-      "buffer_post_id": "6ad7955fdf9971c887bb3c2d",
-      "last_reconcile_at": "2026-10-20T16:24:49Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698786389793541409",
-      "sent_at": "2026-10-20T16:24:39Z",
-      "verified_at": "2026-10-20T16:24:50Z"
-    },
-    {
       "clip_id": "1090220916",
       "reserved_at": "2026-10-20T17:15:05Z",
       "streamer": "castcrafter",
@@ -2120,42 +2102,6 @@
   },
   "rejected": [
     {
-      "clip_id": "3268789812",
-      "clip_slug": "OpenWealthySardineBudBlast-6ZaH_lc1sF7VQAUW",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/OpenWealthySardineBudBlast-6ZaH_lc1sF7VQAUW",
-      "status": "quality_rejected",
-      "created_at": "2026-10-20T16:28:23Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
-      "clip_id": "1028276668",
-      "clip_slug": "MistyWonderfulMoonPeteZarollTie-NdsVxsL2hguLlP-2",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/MistyWonderfulMoonPeteZarollTie-NdsVxsL2hguLlP-2",
-      "status": "quality_rejected",
-      "created_at": "2026-10-20T16:28:23Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
-      "clip_id": "220161949",
-      "clip_slug": "AbnegatePlausiblePeachChefFrank-Oyv0T8vz-mL6Awg-",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/AbnegatePlausiblePeachChefFrank-Oyv0T8vz-mL6Awg-",
-      "status": "quality_rejected",
-      "created_at": "2026-10-20T16:28:23Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
-      "clip_id": "3439049317",
-      "clip_slug": "CrunchyMotionlessSkunkMau5-rTrTJ2xptbFZItUe",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/CrunchyMotionlessSkunkMau5-rTrTJ2xptbFZItUe",
-      "status": "quality_rejected",
-      "created_at": "2026-10-20T17:08:07Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "3728302698",
       "clip_slug": "AssiduousIgnorantCardSMOrc-s4ZwBHPZZ1jiPT42",
       "streamer": "montanablack88",
@@ -2535,15 +2481,18 @@
   ],
   "last_prepare_hour": "2026-10-27T16",
   "last_prefetch_hour": "2026-10-27T16",
-  "archived_verified_count": 36,
+  "archived_verified_count": 37,
   "used_ids": [
+    "1028276668",
     "1039591187",
     "1086399308",
     "1411062380",
     "154404618",
+    "1694983154",
     "1776120825",
     "1847050907",
     "206829726",
+    "220161949",
     "2205224163",
     "2236393291",
     "2242279572",
@@ -2560,8 +2509,10 @@
     "309969943",
     "311924564",
     "3189625055",
+    "3268789812",
     "326935033",
     "3344576570",
+    "3439049317",
     "3530894836",
     "3660835968",
     "366414941",
@@ -2584,5 +2535,5 @@
     "761785150",
     "781900318"
   ],
-  "archived_rejected_count": 10
+  "archived_rejected_count": 14
 }

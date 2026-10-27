@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1847134248",
+      "clip_slug": "GloriousGiantGrassTooSpicy-Ge0XRQnuD_UMiei4",
+      "streamer": "noway4u_sir",
+      "source_url": "https://www.twitch.tv/noway4u_sir/clip/GloriousGiantGrassTooSpicy-Ge0XRQnuD_UMiei4",
+      "original_title": "Penta Kill",
+      "hook": "Penta Kill",
+      "caption": "Penta Kill\n#gaming #leagueoflegends #twitchclips #noway4u_sir #gamer",
+      "views_at_selection": 113,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-27T17:49:34Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-1847134248-80ed5a7980e9.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-27T18:14:12Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "80ed5a7980e95b07fbd9dd3e1819dd9e97bb79ef600094c78b72295b2644225c",
+      "category": "League of Legends",
+      "transcript_sha256": "6c26ff2123098bb246dee39ca555be7ef5ed330e54acd011bde0837cba466d23",
+      "asr_requires_correction": true,
+      "source_sha256": "2714b5ed4d56b11a71934668894a9046bf9ea8dabc201cea0dc74693b795b8e0",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-27T18:14:12.121139+00:00",
+        "media_sha256": "80ed5a7980e95b07fbd9dd3e1819dd9e97bb79ef600094c78b72295b2644225c",
+        "transcript_sha256": "6c26ff2123098bb246dee39ca555be7ef5ed330e54acd011bde0837cba466d23",
+        "source_sha256": "2714b5ed4d56b11a71934668894a9046bf9ea8dabc201cea0dc74693b795b8e0",
+        "evidence_sha256": "306b33d7c45fa3623af1313b6784e83b39cc3b78c9c69c4bdc71a965a9509b6a",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "2714b5ed4d56b11a71934668894a9046bf9ea8dabc201cea0dc74693b795b8e0",
+          "reviewed_source_sha256": "2714b5ed4d56b11a71934668894a9046bf9ea8dabc201cea0dc74693b795b8e0",
+          "duration": 30.015,
+          "timestamps": [
+            0.0,
+            14.933,
+            29.865
+          ],
+          "source_frame_hashes": [
+            "0488755fb2b8eb3c60b14b7f51fbbe93156db81986fa320c1d1e925fb36fc3eb",
+            "4d3f9910dd99d115880d2cfa4fb509e32ef710e6b13aa27901c7eaf18defa4fc",
+            "da95e80c08c126798ad2ee2d1f2fda7e35a2811ca74a40314f27d5ce9c48da6a"
+          ],
+          "headline": "Penta Kill",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay with game HUD visible, including chat, inventory, and minimap.",
+            "game_name": "League of Legends",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames provided.",
+            "payoff": "No clear payoff visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.03643938071603767,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frames show a direct game capture with a facecam panel above the gameplay, which is a normal edited gaming layout. The game is League of Legends, with visible menus, HUD, and stream chat. The text 'Penta Kill' is clearly readable as a标题",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.933,
+            29.865
+          ],
+          "final_frame_hashes": [
+            "6f213028604083c9b94cbbcd0378c2b457e6cde5dcfcc4af650547e32da90f19",
+            "b377b13cc66f33661e9ca29d3b6b8e197907a3527358a7049c7362c3c93c7a79",
+            "ca5ffa21662b475fc3f041a8de12dac9f5772025b7d0133ca6f647754623b18b"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "80ed5a7980e95b07fbd9dd3e1819dd9e97bb79ef600094c78b72295b2644225c",
+          "transcript_sha256": "6c26ff2123098bb246dee39ca555be7ef5ed330e54acd011bde0837cba466d23"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frames show a direct game capture with a facecam panel above the gameplay, which is a normal edited gaming layout. The game is League of Legends, with visible menus, HUD, and stream chat. The text 'Penta Kill' is clearly readable as a标题"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0364, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-1847134248-80ed5a7980e9-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3398016197",

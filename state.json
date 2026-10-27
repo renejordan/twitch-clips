@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "215749810",
-      "reserved_at": "2026-10-20T20:04:36Z",
-      "streamer": "krokoboss",
-      "sha256": "a2fdffcdee2aedfaba08b92321b8c315bbf43215c6c03c077f156b848dc514bf",
-      "source_sha256": "c39bb96941774a34ce8f38a0da9e2d561e39bfca6bcd12042158beaf77ce9413",
-      "status": "verified_public",
-      "asset_title": "tiktok14-215749810-a2fdffcdee2a.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-215749810-a2fdffcdee2a.mp4",
-      "clip_slug": "DiligentCooperativeDumplingsHeyGuys-PdJt8u_3dU6lmsVw",
-      "original_created_at": "2026-10-20T18:16:58Z",
-      "source_deadline": "2026-10-23T18:16:58Z",
-      "buffer_post_id": "6ad7c956ed28fb758abb44f9",
-      "last_reconcile_at": "2026-10-20T20:06:33Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698843531674275105",
-      "sent_at": "2026-10-20T20:06:21Z",
-      "verified_at": "2026-10-20T20:06:35Z"
-    },
-    {
       "clip_id": "1322757433",
       "reserved_at": "2026-10-20T21:04:32Z",
       "streamer": "krokoboss",
@@ -2481,7 +2463,7 @@
   ],
   "last_prepare_hour": "2026-10-27T19",
   "last_prefetch_hour": "2026-10-27T19",
-  "archived_verified_count": 40,
+  "archived_verified_count": 41,
   "used_ids": [
     "1028276668",
     "1039591187",
@@ -2493,6 +2475,7 @@
     "1776120825",
     "1847050907",
     "206829726",
+    "215749810",
     "220161949",
     "2205224163",
     "2236393291",

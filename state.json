@@ -2014,27 +2014,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-27T17:15:08Z",
+    "at": "2026-10-27T18:14:12Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 102,
+      "listing_duration_prefilter": 103,
       "listing_ok": 100,
-      "listing_age_prefilter": 769,
-      "discovered": 938,
-      "metadata_requested": 885,
+      "listing_age_prefilter": 762,
+      "discovered": 968,
+      "metadata_requested": 916,
       "gaming_category_not_verified": 532,
-      "qualified_metadata": 298,
-      "title_too_short": 55,
+      "qualified_metadata": 322,
+      "title_too_short": 60,
       "duplicate_source_event": 17,
+      "metadata_failed": 2,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "325329214",
-      "clip_slug": "VivaciousSlickSwallowWOOP-6wQM0reU-o3oNn8c",
-      "streamer": "letshugotv"
+      "clip_id": "1847134248",
+      "clip_slug": "GloriousGiantGrassTooSpicy-Ge0XRQnuD_UMiei4",
+      "streamer": "noway4u_sir"
     }
   },
   "prepare_scans": {
@@ -2479,8 +2480,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-27T17",
-  "last_prefetch_hour": "2026-10-27T17",
+  "last_prepare_hour": "2026-10-27T18",
+  "last_prefetch_hour": "2026-10-27T18",
   "archived_verified_count": 39,
   "used_ids": [
     "1028276668",

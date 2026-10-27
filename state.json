@@ -2358,6 +2358,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-27T12:16:28Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "1026262440",
+      "clip_slug": "SparklingSlipperyMeerkatKreygasm-E_hxAd76P9_5oGo8",
+      "streamer": "metashi12",
+      "source_url": "https://www.twitch.tv/metashi12/clip/SparklingSlipperyMeerkatKreygasm-E_hxAd76P9_5oGo8",
+      "status": "quality_rejected",
+      "created_at": "2026-10-27T15:13:59Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

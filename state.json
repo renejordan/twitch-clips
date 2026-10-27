@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "2547757854",
-      "reserved_at": "2026-10-20T10:00:31Z",
-      "streamer": "bastighg",
-      "sha256": "cd21ce1f9460644b72b9719a45e0804ea4f67d592a24c7018b8a76222e429405",
-      "source_sha256": "063eee18679dd280609c86398f1e31a621877aff85348fc209ed8857009c2077",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2547757854-cd21ce1f9460.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-2547757854-cd21ce1f9460.mp4",
-      "clip_slug": "HilariousRichGoblinBloodTrail-K7ePIgtDr2bZqEW6",
-      "original_created_at": "2026-10-19T20:05:04Z",
-      "source_deadline": "2026-10-22T20:05:04Z",
-      "buffer_post_id": "6ad73bc20b25f71ece599c2e",
-      "last_reconcile_at": "2026-10-20T10:02:26Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698687863482813729",
-      "sent_at": "2026-10-20T10:02:27Z",
-      "verified_at": "2026-10-20T10:02:27Z"
-    },
-    {
       "clip_id": "326935033",
       "reserved_at": "2026-10-20T11:00:28Z",
       "streamer": "nooreax",
@@ -2526,7 +2508,7 @@
   ],
   "last_prepare_hour": "2026-10-27T09",
   "last_prefetch_hour": "2026-10-27T09",
-  "archived_verified_count": 30,
+  "archived_verified_count": 31,
   "used_ids": [
     "1086399308",
     "1411062380",
@@ -2540,6 +2522,7 @@
     "2287042913",
     "2484613252",
     "254468887",
+    "2547757854",
     "2620158523",
     "263989408",
     "2845373187",

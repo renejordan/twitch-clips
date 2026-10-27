@@ -2000,12 +2000,13 @@
       "streamer": "agurin",
       "sha256": "bc66c1f43ea0584ebeb0117c8a5bf4503d196b211866a01c8e7a44056fce36d8",
       "source_sha256": "57bea91c6dd0ea875955336c5e47ec8d10969fec1793c0aed8d3159873fe82cd",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-664499384-bc66c1f43ea0.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/agurin-664499384-bc66c1f43ea0.mp4",
       "clip_slug": "GentleIncredulousMoosePJSugar-CASmstvTtcZuzT_D",
       "original_created_at": "2026-10-27T01:19:35Z",
-      "source_deadline": "2026-10-30T01:19:35Z"
+      "source_deadline": "2026-10-30T01:19:35Z",
+      "buffer_post_id": "6ae06a1359280f1cf4498ef6"
     }
   ],
   "last_production": {

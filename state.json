@@ -2000,12 +2000,13 @@
       "streamer": "bastighg",
       "sha256": "a932f8ce3b6dcf0097e88896f1cf57795392b57a06689c1331ed4f37fc9aaea6",
       "source_sha256": "7b0c2d05824cefd27c89559f2cc008158f689ac1f057870c625db27c69d3b63e",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3704709397-a932f8ce3b6d.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-3704709397-a932f8ce3b6d.mp4",
       "clip_slug": "TacitRealShingleKappaRoss-q_p5aqpWYjUUV4dL",
       "original_created_at": "2026-10-27T19:51:39Z",
-      "source_deadline": "2026-10-30T19:51:39Z"
+      "source_deadline": "2026-10-30T19:51:39Z",
+      "buffer_post_id": "6ae112d44e914b3cee2a4aef"
     }
   ],
   "last_production": {

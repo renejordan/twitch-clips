@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3735587027",
-      "clip_slug": "CreativeColdbloodedHerdAllenHuhu-efdjS8l4_Vmsc-VD",
-      "streamer": "schradin",
-      "source_url": "https://www.twitch.tv/schradin/clip/CreativeColdbloodedHerdAllenHuhu-efdjS8l4_Vmsc-VD",
-      "original_title": "\"bau ab",
-      "hook": "\"bau ab",
-      "caption": "\"bau ab\n#gaming #minecraft #twitchclips #schradin #gamer",
-      "views_at_selection": 212,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-27T16:41:16Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/schradin-3735587027-00d31fb534ac.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-27T21:14:22Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "00d31fb534ac765f5308fd9fb06b11f9e89494ff48f463a26985729db8cdefba",
-      "category": "Minecraft",
-      "transcript_sha256": "3870552e0acef2f4d16baa90c5003314aad2394f49474165d487c1605ab6c8fe",
-      "asr_requires_correction": true,
-      "source_sha256": "3eda25a675918b50ea9c0c785f8b3bf98866f4332e5364ec0751d865a084f593",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-27T21:14:22.757341+00:00",
-        "media_sha256": "00d31fb534ac765f5308fd9fb06b11f9e89494ff48f463a26985729db8cdefba",
-        "transcript_sha256": "3870552e0acef2f4d16baa90c5003314aad2394f49474165d487c1605ab6c8fe",
-        "source_sha256": "3eda25a675918b50ea9c0c785f8b3bf98866f4332e5364ec0751d865a084f593",
-        "evidence_sha256": "3fd95e13ea2d0fb0299e163e8708465bdc17176f6a04b6e3ef83cc4271306891",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "3eda25a675918b50ea9c0c785f8b3bf98866f4332e5364ec0751d865a084f593",
-          "reviewed_source_sha256": "3eda25a675918b50ea9c0c785f8b3bf98866f4332e5364ec0751d865a084f593",
-          "duration": 30.011,
-          "timestamps": [
-            0.0,
-            14.931,
-            29.861
-          ],
-          "source_frame_hashes": [
-            "a60dd0ada989916f79b3b5abc12694273e0559647e1c4c73dd4bbf4dfbf285cd",
-            "a863e884dcb143476e231fcaf903145c5b609e0857624377b796b2c2c122d0ae",
-            "a92108e3b93ab0764731a6ab02f905fff1da49afde4f59726d959bfee8f2778e"
-          ],
-          "headline": "\"bau ab",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": true,
-            "standalone_understandable": true,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, chat text, and player avatar in corner, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 3,
-            "payoff_score": 3,
-            "setup": "Player enters a dark cave, encounters a mob, and is killed.",
-            "payoff": "Death screen appears with score and options to respawn or quit, accompanied by chat text and player reaction in facecam, indicating a clear outcome and reaction to the event.",
-            "payoff_timestamp": 14.931,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.07792083815910021,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, a minimap, HUD, and chat text. The frame at 14.93 seconds shows the death screen with German text 'Du bist gestorben!' and two buttons, ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.931,
-            29.861
-          ],
-          "final_frame_hashes": [
-            "87fe9ff04e4eff407d8f81165da0ed08fb71d51019d4a7d4fa95c4a22e2a325f",
-            "4ecb8d58949248d5fab07f2572ddac026570fa49f17373df0fa9faaa899c98e3",
-            "439b0f0cf5a107381787dbff9a8cde9aae452580cbc6ebf0460d7178f429d7fa"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "00d31fb534ac765f5308fd9fb06b11f9e89494ff48f463a26985729db8cdefba",
-          "transcript_sha256": "3870552e0acef2f4d16baa90c5003314aad2394f49474165d487c1605ab6c8fe"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, a minimap, HUD, and chat text. The frame at 14.93 seconds shows the death screen with German text 'Du bist gestorben!' and two buttons, "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0779, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/schradin-3735587027-00d31fb534ac-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2088617063",
@@ -2018,14 +1880,17 @@
       "streamer": "schradin",
       "sha256": "00d31fb534ac765f5308fd9fb06b11f9e89494ff48f463a26985729db8cdefba",
       "source_sha256": "3eda25a675918b50ea9c0c785f8b3bf98866f4332e5364ec0751d865a084f593",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3735587027-00d31fb534ac.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/schradin-3735587027-00d31fb534ac.mp4",
       "clip_slug": "CreativeColdbloodedHerdAllenHuhu-efdjS8l4_Vmsc-VD",
       "original_created_at": "2026-10-27T16:41:16Z",
       "source_deadline": "2026-10-30T16:41:16Z",
       "buffer_post_id": "6ae120e0bebdf8261a7effb0",
-      "last_reconcile_at": "2026-10-27T22:10:28Z"
+      "last_reconcile_at": "2026-10-27T22:10:28Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701473055666720032",
+      "sent_at": "2026-10-27T22:10:16Z",
+      "verified_at": "2026-10-27T22:10:29Z"
     }
   ],
   "last_production": {

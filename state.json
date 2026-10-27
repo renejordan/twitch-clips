@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "664499384",
-      "clip_slug": "GentleIncredulousMoosePJSugar-CASmstvTtcZuzT_D",
-      "streamer": "agurin",
-      "source_url": "https://www.twitch.tv/agurin/clip/GentleIncredulousMoosePJSugar-CASmstvTtcZuzT_D",
-      "original_title": "agurin admits to greifing his team. Full zanium.",
-      "hook": "agurin admits to greifing his team. Full zanium.",
-      "caption": "agurin admits to greifing his team. Full zanium.\n#gaming #leagueoflegends #twitchclips #agurin #gamer",
-      "views_at_selection": 69,
-      "original_duration": 17.0,
-      "original_created_at": "2026-10-27T01:19:35Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/agurin-664499384-bc66c1f43ea0.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-27T08:11:47Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "bc66c1f43ea0584ebeb0117c8a5bf4503d196b211866a01c8e7a44056fce36d8",
-      "category": "League of Legends",
-      "transcript_sha256": "bd753b6f230b26004f3c000fd84032e9d42ccc9869d6458cb971d0dfc49bcdc9",
-      "asr_requires_correction": true,
-      "source_sha256": "57bea91c6dd0ea875955336c5e47ec8d10969fec1793c0aed8d3159873fe82cd",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-27T08:11:47.812231+00:00",
-        "media_sha256": "bc66c1f43ea0584ebeb0117c8a5bf4503d196b211866a01c8e7a44056fce36d8",
-        "transcript_sha256": "bd753b6f230b26004f3c000fd84032e9d42ccc9869d6458cb971d0dfc49bcdc9",
-        "source_sha256": "57bea91c6dd0ea875955336c5e47ec8d10969fec1793c0aed8d3159873fe82cd",
-        "evidence_sha256": "3ba24dc53c0c843d3a701712ba7b95620282a2cbf32f1f996e4c6360658d63b3",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "57bea91c6dd0ea875955336c5e47ec8d10969fec1793c0aed8d3159873fe82cd",
-          "reviewed_source_sha256": "57bea91c6dd0ea875955336c5e47ec8d10969fec1793c0aed8d3159873fe82cd",
-          "duration": 17.066667,
-          "timestamps": [
-            0.0,
-            8.458,
-            16.917
-          ],
-          "source_frame_hashes": [
-            "c209b5dc4ea930e19c108734adeee86d54eea76d82878524f8f67a6efb70b2b2",
-            "014ac1152acfb276f1aaf98ffe3575223d5c51ee269b80d10046998e61dbf5e4",
-            "7f018fe10c71370f7a4551f904da4c51acaad7947405091bb0391cc78511d14a"
-          ],
-          "headline": "agurin admits to greifing his team. Full zanium.",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game UI visible, chat text overlay, map visible, no browser or desktop window borders",
-            "game_name": "League of Legends",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in frames",
-            "payoff": "No clear payoff visible in frames",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.040960374052752824,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a game interface with a menu overlay, a small facecam panel in the bottom right, and a text overlay reading 'agurin admits to greifing his team. Full zanium.' The text is clearly visible and not cropped or in",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_single",
-            "composition_usable": true,
-            "legible_subtitles": true,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            8.458,
-            16.917
-          ],
-          "final_frame_hashes": [
-            "0f9089632b2d74cf0a62a605389566379dd4c1a807760b9adb0bb385f30aa87a",
-            "1ac03fbbf38e2b54de9c0d4c38971ec01302e98f046107eb09fa6e206a14ba3f",
-            "ed8dd1c4d2c4ab27d4879dc0a0b47732b72fbda291a50ad49d2d00a561e4faff"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "bc66c1f43ea0584ebeb0117c8a5bf4503d196b211866a01c8e7a44056fce36d8",
-          "transcript_sha256": "bd753b6f230b26004f3c000fd84032e9d42ccc9869d6458cb971d0dfc49bcdc9"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a game interface with a menu overlay, a small facecam panel in the bottom right, and a text overlay reading 'agurin admits to greifing his team. Full zanium.' The text is clearly visible and not cropped or in"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0410, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/agurin-664499384-bc66c1f43ea0-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2547757854",
@@ -2000,14 +1862,17 @@
       "streamer": "agurin",
       "sha256": "bc66c1f43ea0584ebeb0117c8a5bf4503d196b211866a01c8e7a44056fce36d8",
       "source_sha256": "57bea91c6dd0ea875955336c5e47ec8d10969fec1793c0aed8d3159873fe82cd",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-664499384-bc66c1f43ea0.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/agurin-664499384-bc66c1f43ea0.mp4",
       "clip_slug": "GentleIncredulousMoosePJSugar-CASmstvTtcZuzT_D",
       "original_created_at": "2026-10-27T01:19:35Z",
       "source_deadline": "2026-10-30T01:19:35Z",
       "buffer_post_id": "6ae06a1359280f1cf4498ef6",
-      "last_reconcile_at": "2026-10-27T09:10:34Z"
+      "last_reconcile_at": "2026-10-27T09:10:34Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701272026534759712",
+      "sent_at": "2026-10-27T09:10:18Z",
+      "verified_at": "2026-10-27T09:10:36Z"
     }
   ],
   "last_production": {

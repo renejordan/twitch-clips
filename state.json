@@ -2032,27 +2032,26 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-27T15:13:59Z",
+    "at": "2026-10-27T16:19:01Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 95,
+      "listing_duration_prefilter": 102,
       "listing_ok": 100,
-      "listing_age_prefilter": 777,
-      "discovered": 931,
-      "metadata_requested": 878,
-      "gaming_category_not_verified": 551,
+      "listing_age_prefilter": 774,
+      "discovered": 925,
+      "metadata_requested": 871,
+      "gaming_category_not_verified": 542,
       "qualified_metadata": 279,
-      "title_too_short": 48,
-      "duplicate_source_event": 16,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_visual_gameplay_visible": 1,
+      "title_too_short": 50,
+      "duplicate_source_event": 17,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "847668258",
-      "clip_slug": "PricklyModernDogPermaSmug-qSxDq7MbuufbGJMg",
+      "clip_id": "1133601916",
+      "clip_slug": "TangibleBusyPartridgeAllenHuhu-r_WklS1KOo5ZFyVn",
       "streamer": "nooreax"
     }
   },
@@ -2534,8 +2533,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-27T15",
-  "last_prefetch_hour": "2026-10-27T15",
+  "last_prepare_hour": "2026-10-27T16",
+  "last_prefetch_hour": "2026-10-27T16",
   "archived_verified_count": 36,
   "used_ids": [
     "1039591187",

@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "3398016197",
-      "reserved_at": "2026-10-20T19:04:35Z",
-      "streamer": "krokoboss",
-      "sha256": "b5b25bcc42eef12de73f2190ba6bc4cf4f4996e8256589e1992da28241e42625",
-      "source_sha256": "98df3797d6ad3692dac4b3cda47c97d2fc1de80fea04cd7e00cb6e3769673373",
-      "status": "verified_public",
-      "asset_title": "tiktok14-3398016197-b5b25bcc42ee.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3398016197-b5b25bcc42ee.mp4",
-      "clip_slug": "NastyEnjoyableDogeDogFace-njq8UOvYivrFSkWo",
-      "original_created_at": "2026-10-20T17:34:01Z",
-      "source_deadline": "2026-10-23T17:34:01Z",
-      "buffer_post_id": "6ad7bb450ddd02d3bd12f3d5",
-      "last_reconcile_at": "2026-10-20T19:06:34Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7698828104852049184",
-      "sent_at": "2026-10-20T19:06:21Z",
-      "verified_at": "2026-10-20T19:06:35Z"
-    },
-    {
       "clip_id": "215749810",
       "reserved_at": "2026-10-20T20:04:36Z",
       "streamer": "krokoboss",
@@ -2482,7 +2464,7 @@
   ],
   "last_prepare_hour": "2026-10-27T18",
   "last_prefetch_hour": "2026-10-27T18",
-  "archived_verified_count": 39,
+  "archived_verified_count": 40,
   "used_ids": [
     "1028276668",
     "1039591187",
@@ -2514,6 +2496,7 @@
     "3268789812",
     "326935033",
     "3344576570",
+    "3398016197",
     "3439049317",
     "3466599113",
     "3530894836",

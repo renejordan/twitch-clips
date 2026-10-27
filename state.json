@@ -2018,12 +2018,13 @@
       "streamer": "nooreax",
       "sha256": "a8e0debbf5cf43785ce7f0aa6c4fc393c2eba5d3fced52e7ad09a22c441ab544",
       "source_sha256": "f54ce04c3eef3b017ac6a7982a4e8f573a24be41c64908559371e5386589d0be",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1133601916-a8e0debbf5cf.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1133601916-a8e0debbf5cf.mp4",
       "clip_slug": "TangibleBusyPartridgeAllenHuhu-r_WklS1KOo5ZFyVn",
       "original_created_at": "2026-10-27T15:49:22Z",
-      "source_deadline": "2026-10-30T15:49:22Z"
+      "source_deadline": "2026-10-30T15:49:22Z",
+      "buffer_post_id": "6ae0da9c4490ad849032f085"
     }
   ],
   "last_production": {

@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701380399049493792",
       "sent_at": "2026-10-27T16:10:45Z",
       "verified_at": "2026-10-27T16:14:47Z"
+    },
+    {
+      "clip_id": "1133601916",
+      "reserved_at": "2026-10-27T17:08:42Z",
+      "streamer": "nooreax",
+      "sha256": "a8e0debbf5cf43785ce7f0aa6c4fc393c2eba5d3fced52e7ad09a22c441ab544",
+      "source_sha256": "f54ce04c3eef3b017ac6a7982a4e8f573a24be41c64908559371e5386589d0be",
+      "status": "reserved",
+      "asset_title": "tiktok14-1133601916-a8e0debbf5cf.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1133601916-a8e0debbf5cf.mp4",
+      "clip_slug": "TangibleBusyPartridgeAllenHuhu-r_WklS1KOo5ZFyVn",
+      "original_created_at": "2026-10-27T15:49:22Z",
+      "source_deadline": "2026-10-30T15:49:22Z"
     }
   ],
   "last_production": {

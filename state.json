@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1133601916",
+      "clip_slug": "TangibleBusyPartridgeAllenHuhu-r_WklS1KOo5ZFyVn",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/TangibleBusyPartridgeAllenHuhu-r_WklS1KOo5ZFyVn",
+      "original_title": "nooreax an der leine von Lesley",
+      "hook": "nooreax an der leine von Lesley",
+      "caption": "nooreax an der leine von Lesley\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 59,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-27T15:49:22Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1133601916-a8e0debbf5cf.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-27T16:19:01Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "a8e0debbf5cf43785ce7f0aa6c4fc393c2eba5d3fced52e7ad09a22c441ab544",
+      "category": "Minecraft",
+      "transcript_sha256": "0edc826bddf7efe2b85679c1bff0fd875d84bba167dc1b3f3faa50c57d009a56",
+      "asr_requires_correction": true,
+      "source_sha256": "f54ce04c3eef3b017ac6a7982a4e8f573a24be41c64908559371e5386589d0be",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-27T16:19:01.489032+00:00",
+        "media_sha256": "a8e0debbf5cf43785ce7f0aa6c4fc393c2eba5d3fced52e7ad09a22c441ab544",
+        "transcript_sha256": "0edc826bddf7efe2b85679c1bff0fd875d84bba167dc1b3f3faa50c57d009a56",
+        "source_sha256": "f54ce04c3eef3b017ac6a7982a4e8f573a24be41c64908559371e5386589d0be",
+        "evidence_sha256": "5844113abf933fdf57648e107d0381e3aef3c159d3dbe784bce2abeafa847d23",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "f54ce04c3eef3b017ac6a7982a4e8f573a24be41c64908559371e5386589d0be",
+          "reviewed_source_sha256": "f54ce04c3eef3b017ac6a7982a4e8f573a24be41c64908559371e5386589d0be",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "15c89a5be74068b674e4db593906686abf95efd4aac47f8dea4e239480af5803",
+            "d65fafe6fb8550f19812e2abb058e20e7f19c6f554e3ec3f3857085eabbcfa49",
+            "a5b60d28d00918df97b999a2be487506fe5c4ef6abdc7b7bb3bcd6d8d25153af"
+          ],
+          "headline": "nooreax an der leine von Lesley",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in corner with gameplay, chat, and HUD elements present; no browser or desktop UI elements visible.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is standing near a house and water body, holding a lead item, with chat and HUD visible.",
+            "payoff": "No clear outcome or payoff visible; player is still standing, no win/loss or action result shown.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.08424432120528023,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a player character standing near a house and water body, holding an item. The chat and HUD are visible. The title 'nooreax an der leine von Lesley' is displayed at the top. The",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "6d999d979b1d9047c3a0c1258ad481e83c2765c8dfae085eaff6cb5f03005528",
+            "a3d50d05dd378430e280a31c6cc7d575c75c49bd70324381566b0ae33ec86583",
+            "3d4eba3b00898d5a5824454b7be7d7af658dab856db15f686e086c470a430019"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "a8e0debbf5cf43785ce7f0aa6c4fc393c2eba5d3fced52e7ad09a22c441ab544",
+          "transcript_sha256": "0edc826bddf7efe2b85679c1bff0fd875d84bba167dc1b3f3faa50c57d009a56"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a player character standing near a house and water body, holding an item. The chat and HUD are visible. The title 'nooreax an der leine von Lesley' is displayed at the top. The"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0842, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1133601916-a8e0debbf5cf-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1694983154",

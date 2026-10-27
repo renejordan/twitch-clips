@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3939743810",
+      "clip_slug": "LachrymoseObeseMomHeyGirl-_5bkjNXWHu_YdFyM",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/LachrymoseObeseMomHeyGirl-_5bkjNXWHu_YdFyM",
+      "original_title": "first death",
+      "hook": "first death",
+      "caption": "first death\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 604,
+      "original_duration": 20.0,
+      "original_created_at": "2026-10-27T12:34:27Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-3939743810-cf8543119ad9.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-27T13:56:33Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "cf8543119ad9205ca424b4667a6dd5808c67bc6523b1bdb20760ffaf70c41765",
+      "category": "Minecraft",
+      "transcript_sha256": "d4f2a1620e0cbb1ad89f1662cb21ec687b06e56606eec3f7a378cefcb221008a",
+      "asr_requires_correction": true,
+      "source_sha256": "c8408467ceca12d891bc864a801022c736c6b53a74a15c0e3cb1bd4f8d6de249",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-27T13:56:33.118417+00:00",
+        "media_sha256": "cf8543119ad9205ca424b4667a6dd5808c67bc6523b1bdb20760ffaf70c41765",
+        "transcript_sha256": "d4f2a1620e0cbb1ad89f1662cb21ec687b06e56606eec3f7a378cefcb221008a",
+        "source_sha256": "c8408467ceca12d891bc864a801022c736c6b53a74a15c0e3cb1bd4f8d6de249",
+        "evidence_sha256": "3b842725c233ebbdfc6c5ea8adef9238621c304b697b3671864b9e71c7d8199d",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "c8408467ceca12d891bc864a801022c736c6b53a74a15c0e3cb1bd4f8d6de249",
+          "reviewed_source_sha256": "c8408467ceca12d891bc864a801022c736c6b53a74a15c0e3cb1bd4f8d6de249",
+          "duration": 20.949,
+          "timestamps": [
+            0.0,
+            10.4,
+            20.799
+          ],
+          "source_frame_hashes": [
+            "e9f83324f4d0bf081e935d00b87195334860fcbf3b88cc554cb9cf5efead1950",
+            "3d35ae4be4d22768853cd8188e9b1dec5ee0b672a26c4631bebd271b16df3133",
+            "ba74f7bc5c17d3410531747ed628a26b451c661330f065f3d15ef859c7e654a8"
+          ],
+          "headline": "first death",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": true,
+            "standalone_understandable": true,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 3,
+            "payoff_score": 3,
+            "setup": "Player dies in Minecraft, game displays 'You Died!' and respawn options, player respawns and continues gameplay.",
+            "payoff": "Player respawns and resumes gameplay after death, indicating a clear outcome and continuation of the game session.",
+            "payoff_timestamp": 10.4,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.010080217044127189,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a small facecam panel in the top-left corner, a stream chat overlay, and a title 'first death' centered at the top. The game HUD is visible, including health, inventory, and a ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            10.4,
+            20.799
+          ],
+          "final_frame_hashes": [
+            "04c93daa74a24e5b915dcafc7d35e3b70a164e13421d8ea20c83121cd157107b",
+            "90a043e68d8ed51281a1348790b96b9a477d5a5fa678d1528b3c8e751a4ad08c",
+            "f75ca36b361d85f5af35ddaa5e92e895ccdacd6cd81a12fe35530edf6c0dffbb"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "cf8543119ad9205ca424b4667a6dd5808c67bc6523b1bdb20760ffaf70c41765",
+          "transcript_sha256": "d4f2a1620e0cbb1ad89f1662cb21ec687b06e56606eec3f7a378cefcb221008a"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a small facecam panel in the top-left corner, a stream chat overlay, and a title 'first death' centered at the top. The game HUD is visible, including health, inventory, and a "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0101, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-3939743810-cf8543119ad9-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3530894836",

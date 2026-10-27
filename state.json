@@ -2358,6 +2358,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-26T21:10:15Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "2457379519",
+      "clip_slug": "HomelyAcceptablePlumPhilosoraptor-6ab49ecT6BR8NV1l",
+      "streamer": "agurin",
+      "source_url": "https://www.twitch.tv/agurin/clip/HomelyAcceptablePlumPhilosoraptor-6ab49ecT6BR8NV1l",
+      "status": "quality_rejected",
+      "created_at": "2026-10-27T08:11:47Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

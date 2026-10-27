@@ -2014,26 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-27T14:14:05Z",
+    "at": "2026-10-27T15:13:59Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 99,
+      "listing_duration_prefilter": 95,
       "listing_ok": 100,
-      "listing_age_prefilter": 788,
-      "discovered": 921,
-      "metadata_requested": 869,
-      "gaming_category_not_verified": 552,
-      "qualified_metadata": 270,
-      "title_too_short": 47,
-      "duplicate_source_event": 13,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_age_prefilter": 777,
+      "discovered": 931,
+      "metadata_requested": 878,
+      "gaming_category_not_verified": 551,
+      "qualified_metadata": 279,
+      "title_too_short": 48,
+      "duplicate_source_event": 16,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_visual_gameplay_visible": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "721915767",
-      "clip_slug": "ObliqueHardGiraffeBCWarrior-wh6xIEceJRCauN3m",
+      "clip_id": "847668258",
+      "clip_slug": "PricklyModernDogPermaSmug-qSxDq7MbuufbGJMg",
       "streamer": "nooreax"
     }
   },
@@ -2515,8 +2516,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-27T14",
-  "last_prefetch_hour": "2026-10-27T14",
+  "last_prepare_hour": "2026-10-27T15",
+  "last_prefetch_hour": "2026-10-27T15",
   "archived_verified_count": 36,
   "used_ids": [
     "1039591187",

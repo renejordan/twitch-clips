@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "4249670670",
+      "clip_slug": "MotionlessPluckyAntPastaThat-mlmjqmp_eaQemRLO",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/MotionlessPluckyAntPastaThat-mlmjqmp_eaQemRLO",
+      "original_title": "\"Kein einziges Haus werde ich mehr bauen\"",
+      "hook": "\"Kein einziges Haus werde ich mehr bauen\"",
+      "caption": "\"Kein einziges Haus werde ich mehr bauen\"\n#gaming #minecraft #twitchclips #trymacs #gamer",
+      "views_at_selection": 675,
+      "original_duration": 48.0,
+      "original_created_at": "2026-10-27T17:46:53Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-4249670670-ef5f9883a132.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-28T12:35:19Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "ef5f9883a132d578680c1601402073f23522d5a7dd2ae63da715d9579661620f",
+      "category": "Minecraft",
+      "transcript_sha256": "81d885f653f0ff782670aa3464d2d7596ddefe5ffae5e1ea0bd1bbc14e10c611",
+      "asr_requires_correction": true,
+      "source_sha256": "7987f0c008032553af03f8d587ddcf37508d674fbc38e34608eb6e582654beda",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-28T12:35:19.543927+00:00",
+        "media_sha256": "ef5f9883a132d578680c1601402073f23522d5a7dd2ae63da715d9579661620f",
+        "transcript_sha256": "81d885f653f0ff782670aa3464d2d7596ddefe5ffae5e1ea0bd1bbc14e10c611",
+        "source_sha256": "7987f0c008032553af03f8d587ddcf37508d674fbc38e34608eb6e582654beda",
+        "evidence_sha256": "01ffaee21ae35b9504632429c22c99c01acf7d7d329e2a00de6f1541234027e4",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "7987f0c008032553af03f8d587ddcf37508d674fbc38e34608eb6e582654beda",
+          "reviewed_source_sha256": "7987f0c008032553af03f8d587ddcf37508d674fbc38e34608eb6e582654beda",
+          "duration": 48.256,
+          "timestamps": [
+            0.0,
+            24.053,
+            48.106
+          ],
+          "source_frame_hashes": [
+            "fb364bff1843e6bd18dad24c232670085070fa3c2cf54a04e30c618837012efb",
+            "40d679980b6c3217473d1e2dc83a5c59bdedd4788be07b34745b6d1f41397709",
+            "35a8817747adb4495a56fb1244e49d6d3921cba2c5a108ce0d4c67af7010fddb"
+          ],
+          "headline": "\"Kein einziges Haus werde ich mehr bauen\"",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in the bottom right corner with a visible player's face, and a Minecraft game view with a minimap, health bar, inventory, and chat window. The game is in a large, enclosed structure with a city below and a ",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames provided.",
+            "payoff": "No clear payoff visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.07437202413822264,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frames show a Minecraft gameplay scene with a large cityscape from an aerial view, a facecam panel with a streamer wearing headphones, and a persistent title overlay. The game HUD, including health, inventory, and map, is visible. The '",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            24.053,
+            48.106
+          ],
+          "final_frame_hashes": [
+            "69392eec9fcd76f5e809d90911c5396489c91528b535eec7b388d45aa61ed105",
+            "012d57a75f1a0fd7bec95b9e4801991ef93168a2857c8a9c953c1c9921b4fd49",
+            "d81b26c720d2b187a76778c606c7194d73bc763dac0499f10a04caeabea60758"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "ef5f9883a132d578680c1601402073f23522d5a7dd2ae63da715d9579661620f",
+          "transcript_sha256": "81d885f653f0ff782670aa3464d2d7596ddefe5ffae5e1ea0bd1bbc14e10c611"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frames show a Minecraft gameplay scene with a large cityscape from an aerial view, a facecam panel with a streamer wearing headphones, and a persistent title overlay. The game HUD, including health, inventory, and map, is visible. The '"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0744, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-4249670670-ef5f9883a132-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1327874565",

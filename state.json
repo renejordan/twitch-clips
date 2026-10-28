@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1501960492",
-      "clip_slug": "HedonisticAverageWeaselDeIlluminati-yUKCS7ImhIpGGtA7",
-      "streamer": "agurin",
-      "source_url": "https://www.twitch.tv/agurin/clip/HedonisticAverageWeaselDeIlluminati-yUKCS7ImhIpGGtA7",
-      "original_title": "neeko bluebuff",
-      "hook": "neeko bluebuff",
-      "caption": "neeko bluebuff\n#gaming #leagueoflegends #twitchclips #agurin #gamer",
-      "views_at_selection": 190,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-28T13:32:37Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/agurin-1501960492-9461f513eb1e.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-28T17:22:34Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "9461f513eb1eaee22302ca33dc6a29bda26904e4fd206074411ffa20decab46d",
-      "category": "League of Legends",
-      "transcript_sha256": "0ae4670788076ef12704a97513ddad25c6e5dc511ed9fc4a5e9155887b5f7121",
-      "asr_requires_correction": true,
-      "source_sha256": "00793d93382a2ae4f018094d999d70984487226211cd332f0659d795162d8021",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-28T17:22:34.241860+00:00",
-        "media_sha256": "9461f513eb1eaee22302ca33dc6a29bda26904e4fd206074411ffa20decab46d",
-        "transcript_sha256": "0ae4670788076ef12704a97513ddad25c6e5dc511ed9fc4a5e9155887b5f7121",
-        "source_sha256": "00793d93382a2ae4f018094d999d70984487226211cd332f0659d795162d8021",
-        "evidence_sha256": "038ff516b76d8571acc6bb777456f4941e9dfe21ccb51735caa19959bfc7d9bc",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "00793d93382a2ae4f018094d999d70984487226211cd332f0659d795162d8021",
-          "reviewed_source_sha256": "00793d93382a2ae4f018094d999d70984487226211cd332f0659d795162d8021",
-          "duration": 30.01,
-          "timestamps": [
-            0.0,
-            14.93,
-            29.86
-          ],
-          "source_frame_hashes": [
-            "271a60d974894e62bb1019b818ddbd237198be4ca5befd31ed1dbe4b216565ff",
-            "9d7979cb6e4a72f56f4b90a51020d508e8ad4e39886691014d5fb0b6d1170780",
-            "170f8d0965c00a3fcf36e3dc1f04340f32070c2a539ede84c4ed877a271de0e8"
-          ],
-          "headline": "neeko bluebuff",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in bottom right corner, game UI and chat visible, no browser or desktop window borders",
-            "game_name": "League of Legends",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in frames",
-            "payoff": "No clear payoff visible in frames",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.010278836717237939,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a game interface with a team composition panel, a minimap, and a facecam panel above the gameplay. The text 'neeko bluebuff' is displayed as a title overlay. The frame at 14.93 seconds shows gameplay with a '",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.93,
-            29.86
-          ],
-          "final_frame_hashes": [
-            "d3df2cf35fc604f8cc98056bfcb6e124d2eec96fa2cdfdc0e92c4cec428ba0ea",
-            "2d1a21922d66ac5b0e7ed09e42336063c5759656eccf3cb30a0e8cc6e00df6d0",
-            "8f0c25cbef22c78555782e198b238bee209ad20e8803906d9a37f58a069ba830"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "9461f513eb1eaee22302ca33dc6a29bda26904e4fd206074411ffa20decab46d",
-          "transcript_sha256": "0ae4670788076ef12704a97513ddad25c6e5dc511ed9fc4a5e9155887b5f7121"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a game interface with a team composition panel, a minimap, and a facecam panel above the gameplay. The text 'neeko bluebuff' is displayed as a title overlay. The frame at 14.93 seconds shows gameplay with a '"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0103, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/agurin-1501960492-9461f513eb1e-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1746857233",
@@ -2000,14 +1862,17 @@
       "streamer": "agurin",
       "sha256": "9461f513eb1eaee22302ca33dc6a29bda26904e4fd206074411ffa20decab46d",
       "source_sha256": "00793d93382a2ae4f018094d999d70984487226211cd332f0659d795162d8021",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1501960492-9461f513eb1e.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/agurin-1501960492-9461f513eb1e.mp4",
       "clip_slug": "HedonisticAverageWeaselDeIlluminati-yUKCS7ImhIpGGtA7",
       "original_created_at": "2026-10-28T13:32:37Z",
       "source_deadline": "2026-10-31T13:32:37Z",
       "buffer_post_id": "6ae23b1c105742705de0e429",
-      "last_reconcile_at": "2026-10-28T18:14:43Z"
+      "last_reconcile_at": "2026-10-28T18:14:43Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701783379762548001",
+      "sent_at": "2026-10-28T18:14:27Z",
+      "verified_at": "2026-10-28T18:14:44Z"
     }
   ],
   "last_production": {

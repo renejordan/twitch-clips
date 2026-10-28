@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701768804149366048",
       "sent_at": "2026-10-28T17:17:48Z",
       "verified_at": "2026-10-28T17:18:46Z"
+    },
+    {
+      "clip_id": "1501960492",
+      "reserved_at": "2026-10-28T18:12:42Z",
+      "streamer": "agurin",
+      "sha256": "9461f513eb1eaee22302ca33dc6a29bda26904e4fd206074411ffa20decab46d",
+      "source_sha256": "00793d93382a2ae4f018094d999d70984487226211cd332f0659d795162d8021",
+      "status": "reserved",
+      "asset_title": "tiktok14-1501960492-9461f513eb1e.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/agurin-1501960492-9461f513eb1e.mp4",
+      "clip_slug": "HedonisticAverageWeaselDeIlluminati-yUKCS7ImhIpGGtA7",
+      "original_created_at": "2026-10-28T13:32:37Z",
+      "source_deadline": "2026-10-31T13:32:37Z"
     }
   ],
   "last_production": {

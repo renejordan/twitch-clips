@@ -2014,29 +2014,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-28T19:20:39Z",
+    "at": "2026-10-28T20:22:11Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 95,
+      "listing_duration_prefilter": 96,
       "listing_ok": 100,
-      "listing_age_prefilter": 739,
-      "discovered": 918,
-      "metadata_requested": 874,
-      "qualified_metadata": 382,
-      "title_too_short": 74,
-      "gaming_category_not_verified": 416,
-      "duplicate_source_event": 15,
-      "invalid_duration": 2,
-      "download_attempted": 3,
-      "render_attempted": 3,
-      "qa_duration_invalid": 2,
+      "listing_age_prefilter": 737,
+      "discovered": 916,
+      "metadata_requested": 870,
+      "qualified_metadata": 381,
+      "title_too_short": 75,
+      "gaming_category_not_verified": 414,
+      "duplicate_source_event": 14,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_duration_invalid": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1358508029",
-      "clip_slug": "TrappedTentativeArugulaCmonBruh-M9TvoW1kShf6fU4v",
-      "streamer": "repaz"
+      "clip_id": "1419018931",
+      "clip_slug": "AmorphousRichYamDoritosChip-7vTu-NiMkC8jYoNy",
+      "streamer": "nooreax"
     }
   },
   "prepare_scans": {
@@ -2517,8 +2516,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-28T19",
-  "last_prefetch_hour": "2026-10-28T19",
+  "last_prepare_hour": "2026-10-28T20",
+  "last_prefetch_hour": "2026-10-28T20",
   "archived_verified_count": 56,
   "used_ids": [
     "1014059590",

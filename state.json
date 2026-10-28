@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1358508029",
+      "clip_slug": "TrappedTentativeArugulaCmonBruh-M9TvoW1kShf6fU4v",
+      "streamer": "repaz",
+      "source_url": "https://www.twitch.tv/repaz/clip/TrappedTentativeArugulaCmonBruh-M9TvoW1kShf6fU4v",
+      "original_title": "Lachflash",
+      "hook": "Lachflash",
+      "caption": "Lachflash\n#gaming #minecraft #twitchclips #repaz #gamer",
+      "views_at_selection": 275,
+      "original_duration": 47.0,
+      "original_created_at": "2026-10-28T07:00:45Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-1358508029-2e27ab16f14a.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-28T19:20:39Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "2e27ab16f14a0199c95a72481a553e46192f0251dc00ec433dda4a5bee37fcfb",
+      "category": "Minecraft",
+      "transcript_sha256": "1438a8efe06fc86d3123d92fce88394c41587b8c94235b2f02d5feef65d99ea7",
+      "asr_requires_correction": true,
+      "source_sha256": "d8c02932c38557397ded51406ceeacfc7a40f26702a15b74c222cbf6b5757341",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-28T19:20:39.916702+00:00",
+        "media_sha256": "2e27ab16f14a0199c95a72481a553e46192f0251dc00ec433dda4a5bee37fcfb",
+        "transcript_sha256": "1438a8efe06fc86d3123d92fce88394c41587b8c94235b2f02d5feef65d99ea7",
+        "source_sha256": "d8c02932c38557397ded51406ceeacfc7a40f26702a15b74c222cbf6b5757341",
+        "evidence_sha256": "ba4319f59e0fea078d0f67230dfc6daf7b2452f77584dd66eeb09a83a84d360b",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "d8c02932c38557397ded51406ceeacfc7a40f26702a15b74c222cbf6b5757341",
+          "reviewed_source_sha256": "d8c02932c38557397ded51406ceeacfc7a40f26702a15b74c222cbf6b5757341",
+          "duration": 47.168,
+          "timestamps": [
+            0.0,
+            23.509,
+            47.018
+          ],
+          "source_frame_hashes": [
+            "4767d7750a9b441b3bece2d364da09c113217711ecc2781895ef1422041168dc",
+            "ce1508238ccb2cc5d4214c3bb9b832480f1a3cad18983d6c9f69a07c360d16cb",
+            "9f73fbc32f6699e9917f1e3cff5cccf2190df2c37014d07a0cf0afb75f0e4c3e"
+          ],
+          "headline": "Lachflash",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, chat text visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft with face camera overlay, no clear action or outcome visible",
+            "payoff": "No visible outcome or payoff from actions taken in frames",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.029416631230059536,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, a title overlay 'Lachflash' at the top center, and no visible browser or desktop window borders. The gameplay area is large enough to see",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            23.509,
+            47.018
+          ],
+          "final_frame_hashes": [
+            "98ae49a7bf0bab7d3d77ab14a389f00c8a2bf4f9cb19f746342cbca8d34b0605",
+            "c8700d8f39fa1dced22715d9c995ce685a3477ad8d0825e1e5c48966c67afed2",
+            "0812365d19a857c25e818add07596891e4388bfa8d53e1db32988910bb588ad8"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "2e27ab16f14a0199c95a72481a553e46192f0251dc00ec433dda4a5bee37fcfb",
+          "transcript_sha256": "1438a8efe06fc86d3123d92fce88394c41587b8c94235b2f02d5feef65d99ea7"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, a title overlay 'Lachflash' at the top center, and no visible browser or desktop window borders. The gameplay area is large enough to see"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0294, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-1358508029-2e27ab16f14a-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2158687206",

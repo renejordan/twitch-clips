@@ -2341,6 +2341,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-27T22:31:58Z",
       "reason": "qa_duration_invalid"
+    },
+    {
+      "clip_id": "3180727849",
+      "clip_slug": "SparklyInnocentOctopusAMPEnergyCherry-_Ts0RgI3ViGBBSiA",
+      "streamer": "niklaswilson",
+      "source_url": "https://www.twitch.tv/niklaswilson/clip/SparklyInnocentOctopusAMPEnergyCherry-_Ts0RgI3ViGBBSiA",
+      "status": "quality_rejected",
+      "created_at": "2026-10-28T08:16:22Z",
+      "reason": "qa_duration_invalid"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

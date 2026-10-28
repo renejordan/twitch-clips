@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "818594409",
-      "clip_slug": "TastyEnticingIguanaBudBlast-fTC3eRgkMAqOFDVf",
-      "streamer": "gtimetv",
-      "source_url": "https://www.twitch.tv/gtimetv/clip/TastyEnticingIguanaBudBlast-fTC3eRgkMAqOFDVf",
-      "original_title": "G-Time ist raus",
-      "hook": "G-Time ist raus",
-      "caption": "G-Time ist raus\n#gaming #minecraft #twitchclips #gtimetv #gamer",
-      "views_at_selection": 358,
-      "original_duration": 45.0,
-      "original_created_at": "2026-10-28T10:39:19Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-818594409-2799faf3af7d.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-28T11:37:50Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "2799faf3af7db32200066be90f4e677587612409fa3b9ad1c69c33b8419fa376",
-      "category": "Minecraft",
-      "transcript_sha256": "2abd58d4e66e1cda85b195f469dce489bb0cad8be352e93e62c15f119e216654",
-      "asr_requires_correction": true,
-      "source_sha256": "ee453b9e00c82e20421c7344a208ea0302ce208dbb5375a9a1c6c81f1935eb8e",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-28T11:37:50.051179+00:00",
-        "media_sha256": "2799faf3af7db32200066be90f4e677587612409fa3b9ad1c69c33b8419fa376",
-        "transcript_sha256": "2abd58d4e66e1cda85b195f469dce489bb0cad8be352e93e62c15f119e216654",
-        "source_sha256": "ee453b9e00c82e20421c7344a208ea0302ce208dbb5375a9a1c6c81f1935eb8e",
-        "evidence_sha256": "652c5262e44f0ed2c5da7f0ebb3f377f4f90a462f5a64717a50f36d32b631e34",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "ee453b9e00c82e20421c7344a208ea0302ce208dbb5375a9a1c6c81f1935eb8e",
-          "reviewed_source_sha256": "ee453b9e00c82e20421c7344a208ea0302ce208dbb5375a9a1c6c81f1935eb8e",
-          "duration": 45.077,
-          "timestamps": [
-            0.0,
-            22.463,
-            44.927
-          ],
-          "source_frame_hashes": [
-            "f805fe92777515242942162bb4e9002175bb718ec15fdfc31b9d4d3ff4edcdef",
-            "4f1678799f28ba2d6d341dfa44922302c744afc43748fc5f88ed10dd62c54387",
-            "71c3d0b9416aa7ed0dc9766331a6751adf47e30b273eaf4666cd13c2e74880d7"
-          ],
-          "headline": "G-Time ist raus",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with inventory and chat, map in corner, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player joins game, no clear action or outcome visible",
-            "payoff": "No visible outcome or payoff from actions taken",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.06301221506091216,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a facecam panel above gameplay, which is a normal edited gaming layout. The text 'G-Time ist raus' is visible as a title overlay, and no word subtitles are present. The game HUD is",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            22.463,
-            44.927
-          ],
-          "final_frame_hashes": [
-            "e87f9a4194b308ef0694b097c1f48fa40b38ff4bd97dfa22bd0f740478acd87c",
-            "b490b6cd44d20e5692557fc631a8ec15b55cff254cccb2e7124a642fdfaac393",
-            "aa75402fb9a5cdb6aa57ba51e67843440793c563727f6ee2d29882418b1cfb93"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "2799faf3af7db32200066be90f4e677587612409fa3b9ad1c69c33b8419fa376",
-          "transcript_sha256": "2abd58d4e66e1cda85b195f469dce489bb0cad8be352e93e62c15f119e216654"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a facecam panel above gameplay, which is a normal edited gaming layout. The text 'G-Time ist raus' is visible as a title overlay, and no word subtitles are present. The game HUD is"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0630, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-818594409-2799faf3af7d-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1327874565",
@@ -2000,14 +1862,17 @@
       "streamer": "gtimetv",
       "sha256": "2799faf3af7db32200066be90f4e677587612409fa3b9ad1c69c33b8419fa376",
       "source_sha256": "ee453b9e00c82e20421c7344a208ea0302ce208dbb5375a9a1c6c81f1935eb8e",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-818594409-2799faf3af7d.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-818594409-2799faf3af7d.mp4",
       "clip_slug": "TastyEnticingIguanaBudBlast-fTC3eRgkMAqOFDVf",
       "original_created_at": "2026-10-28T10:39:19Z",
       "source_deadline": "2026-10-31T10:39:19Z",
       "buffer_post_id": "6ae1e6c338e33389fb60ba64",
-      "last_reconcile_at": "2026-10-28T12:31:07Z"
+      "last_reconcile_at": "2026-10-28T12:31:07Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701691955964579104",
+      "sent_at": "2026-10-28T12:22:20Z",
+      "verified_at": "2026-10-28T12:31:08Z"
     }
   ],
   "last_production": {

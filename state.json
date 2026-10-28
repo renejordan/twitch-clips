@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701783379762548001",
       "sent_at": "2026-10-28T18:14:27Z",
       "verified_at": "2026-10-28T18:14:44Z"
+    },
+    {
+      "clip_id": "1819120840",
+      "reserved_at": "2026-10-28T19:14:46Z",
+      "streamer": "nooreax",
+      "sha256": "e5c3a89bddc2b0a0ce0b72088688796b3f266dd27b7e2df77dc30a6985254991",
+      "source_sha256": "bc737e93e8846bde7185d2adc97074745d55b7e80424c98daad45778cb0c972f",
+      "status": "reserved",
+      "asset_title": "tiktok14-1819120840-e5c3a89bddc2.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1819120840-e5c3a89bddc2.mp4",
+      "clip_slug": "JollySilkyVampireGivePLZ-11k_yVFC49orD1Vr",
+      "original_created_at": "2026-10-27T22:58:39Z",
+      "source_deadline": "2026-10-30T22:58:39Z"
     }
   ],
   "last_production": {

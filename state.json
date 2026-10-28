@@ -1964,15 +1964,6 @@
   },
   "rejected": [
     {
-      "clip_id": "3728302698",
-      "clip_slug": "AssiduousIgnorantCardSMOrc-s4ZwBHPZZ1jiPT42",
-      "streamer": "montanablack88",
-      "source_url": "https://www.twitch.tv/montanablack88/clip/AssiduousIgnorantCardSMOrc-s4ZwBHPZZ1jiPT42",
-      "status": "quality_rejected",
-      "created_at": "2026-10-21T11:14:30Z",
-      "reason": "qa_visual_browser_chrome"
-    },
-    {
       "clip_id": "1851713066",
       "clip_slug": "ViscousTacitOrangeWOOP-jTlFnt8yjmI161e6",
       "streamer": "montanablack88",
@@ -2419,6 +2410,7 @@
     "3706707462",
     "3707302748",
     "3713714204",
+    "3728302698",
     "3835744608",
     "3857817711",
     "3858506260",
@@ -2434,5 +2426,5 @@
     "761785150",
     "781900318"
   ],
-  "archived_rejected_count": 14
+  "archived_rejected_count": 15
 }

@@ -2000,12 +2000,13 @@
       "streamer": "krokoboss",
       "sha256": "68bff8649cb89e1a473e34d101090bcce637fbd5b3da02011727fa1d5b422952",
       "source_sha256": "b3078ed65657f0d0b80f6571343d10a107336680b440e227ea64927e00b841f6",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3256279164-68bff8649cb8.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3256279164-68bff8649cb8.mp4",
       "clip_slug": "AffluentOptimisticSnailYouDontSay-ANQvtZL1L_ilk1I-",
       "original_created_at": "2026-10-27T21:16:50Z",
-      "source_deadline": "2026-10-30T21:16:50Z"
+      "source_deadline": "2026-10-30T21:16:50Z",
+      "buffer_post_id": "6ae1d8ac9f6d7692cb1b8e94"
     }
   ],
   "last_production": {

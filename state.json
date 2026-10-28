@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1179882941",
-      "clip_slug": "AmorphousAgitatedWallabyNerfRedBlaster-IMrVBhbmjJaDJXEg",
-      "streamer": "eliasn97",
-      "source_url": "https://www.twitch.tv/eliasn97/clip/AmorphousAgitatedWallabyNerfRedBlaster-IMrVBhbmjJaDJXEg",
-      "original_title": "häuser",
-      "hook": "häuser",
-      "caption": "häuser\n#gaming #minecraft #twitchclips #eliasn97 #gamer",
-      "views_at_selection": 767,
-      "original_duration": 60.0,
-      "original_created_at": "2026-10-27T21:05:19Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-1179882941-192657cda4eb.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-28T09:18:44Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "192657cda4eba9f6ed0aa4155a94f4af811b641eab17c268cc697d56e699b2d9",
-      "category": "Minecraft",
-      "transcript_sha256": "0267cad29190c3d3472d9b214ecd2c32b370407d2f778ea71c64172a4e3ae033",
-      "asr_requires_correction": true,
-      "source_sha256": "68820d04815229b533e2a697b43541132f4d48da42bd57b3d732715d12e8690b",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-28T09:18:44.179827+00:00",
-        "media_sha256": "192657cda4eba9f6ed0aa4155a94f4af811b641eab17c268cc697d56e699b2d9",
-        "transcript_sha256": "0267cad29190c3d3472d9b214ecd2c32b370407d2f778ea71c64172a4e3ae033",
-        "source_sha256": "68820d04815229b533e2a697b43541132f4d48da42bd57b3d732715d12e8690b",
-        "evidence_sha256": "e243e1c9b783ef3bf9d51f8697a3bff8f139c514f3083ae818216b0b15b4e5b9",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "68820d04815229b533e2a697b43541132f4d48da42bd57b3d732715d12e8690b",
-          "reviewed_source_sha256": "68820d04815229b533e2a697b43541132f4d48da42bd57b3d732715d12e8690b",
-          "duration": 60.0,
-          "timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "source_frame_hashes": [
-            "b1637899127503ef322a28cd4b8203a03d9b9e4ed66eeefd8e4a969968fcdfeb",
-            "257772221f2b845dc045bf2cbdf37017c332c6fc657ab960dbb93d7a50ee70e3",
-            "45fbd47a91c542dcd4ad0433df17edc5e8dcdb4b3b2ddbdcd0d6ac9b34f32c79"
-          ],
-          "headline": "häuser",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-down view of a Minecraft-style city with a central green square and a building, surrounded by numerous blue arrows indicating movement or direction. A face camera in the bottom left corner shows two people in a room,",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in the frames provided.",
-            "payoff": "No clear payoff visible in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.14738066347711717,
-          "clipped_fraction": 1.4591115261472785e-05,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a video player interface with a small facecam panel in the bottom left corner, indicating a direct game capture with facecam. The main gameplay area displays a Minecraft stadium scene with a green field and a central logo, a",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "final_frame_hashes": [
-            "210a58bd6d47d46a065a5c726d802fd86f29d10a52cc647f32e2e23df7c1b5a5",
-            "6cebec878d8f1dd77ef42b1f2adcaf59aacf37e42ed3b917ecdbd1ad5de24e82",
-            "6b5a30da2960b0eb456925ce3b9b7bd1b80e4300db27a0ae233774865edc4d0c"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "192657cda4eba9f6ed0aa4155a94f4af811b641eab17c268cc697d56e699b2d9",
-          "transcript_sha256": "0267cad29190c3d3472d9b214ecd2c32b370407d2f778ea71c64172a4e3ae033"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a video player interface with a small facecam panel in the bottom left corner, indicating a direct game capture with facecam. The main gameplay area displays a Minecraft stadium scene with a green field and a central logo, a"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1474, clipping fraction 0.00001. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-1179882941-192657cda4eb-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1590452140",
@@ -2000,14 +1862,17 @@
       "streamer": "eliasn97",
       "sha256": "192657cda4eba9f6ed0aa4155a94f4af811b641eab17c268cc697d56e699b2d9",
       "source_sha256": "68820d04815229b533e2a697b43541132f4d48da42bd57b3d732715d12e8690b",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1179882941-192657cda4eb.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-1179882941-192657cda4eb.mp4",
       "clip_slug": "AmorphousAgitatedWallabyNerfRedBlaster-IMrVBhbmjJaDJXEg",
       "original_created_at": "2026-10-27T21:05:19Z",
       "source_deadline": "2026-10-30T21:05:19Z",
       "buffer_post_id": "6ae1ca9d979a56d9e57ccab5",
-      "last_reconcile_at": "2026-10-28T10:30:50Z"
+      "last_reconcile_at": "2026-10-28T10:30:50Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701661098826648864",
+      "sent_at": "2026-10-28T10:23:53Z",
+      "verified_at": "2026-10-28T10:30:51Z"
     }
   ],
   "last_production": {

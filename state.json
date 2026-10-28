@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "4263795601",
+      "clip_slug": "SeductiveEntertainingPoultryLeeroyJenkins-DZnEj-262V7m33d0",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/SeductiveEntertainingPoultryLeeroyJenkins-DZnEj-262V7m33d0",
+      "original_title": "Vom Regen in die Traufe....",
+      "hook": "Vom Regen in die Traufe....",
+      "caption": "Vom Regen in die Traufe....\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 175,
+      "original_duration": 19.0,
+      "original_created_at": "2026-10-28T13:16:49Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-4263795601-6a0fc9d81f39.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-28T14:19:03Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "6a0fc9d81f39fb6db6e532a1e902c049ca2719126b89bde611fce1be8236c668",
+      "category": "Minecraft",
+      "transcript_sha256": "430a4c3a99e87a19fe7488bce907edb5d7ff1fb8989136ba2c410c7a50e8d4ac",
+      "asr_requires_correction": true,
+      "source_sha256": "cb9058a0b1ec286d1f44fccd68815c38b2b0beee02f4032c64f0c9cb56cb42d5",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-28T14:19:03.788156+00:00",
+        "media_sha256": "6a0fc9d81f39fb6db6e532a1e902c049ca2719126b89bde611fce1be8236c668",
+        "transcript_sha256": "430a4c3a99e87a19fe7488bce907edb5d7ff1fb8989136ba2c410c7a50e8d4ac",
+        "source_sha256": "cb9058a0b1ec286d1f44fccd68815c38b2b0beee02f4032c64f0c9cb56cb42d5",
+        "evidence_sha256": "1d07ed7bdb6be89752ef869b8e803f4bdfc1f27adfc1ef7c51897e0a7724bbe6",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "cb9058a0b1ec286d1f44fccd68815c38b2b0beee02f4032c64f0c9cb56cb42d5",
+          "reviewed_source_sha256": "cb9058a0b1ec286d1f44fccd68815c38b2b0beee02f4032c64f0c9cb56cb42d5",
+          "duration": 19.366667,
+          "timestamps": [
+            0.0,
+            9.608,
+            19.217
+          ],
+          "source_frame_hashes": [
+            "7c5b87ac8128465b7b8547cd73e9833f5f7ad7a8f24d2d169a88df7e0f99e6ed",
+            "ea488c0dfcf161988bbbbf25075a2129dce055fb12ec7be87960ceedd2ddc083",
+            "d43e5930e33d2c4d6183a81fb4ee524790549ad9393a485a0ae5df4a19b85033"
+          ],
+          "headline": "Vom Regen in die Traufe....",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in top-left corner with streamer's face, game HUD visible with inventory, chat, and health bar, and chat text visible in top-left corner.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is walking through a large open area with a large structure in the distance, holding a golden carrot.",
+            "payoff": "No visible outcome or payoff from the action; player continues walking without any clear result or event occurring in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.015613808656438098,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, a chat window on the left, and a title overlay reading 'Vom Regen in die Traufe....' The gameplay area is visible with a large structure,",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            9.608,
+            19.217
+          ],
+          "final_frame_hashes": [
+            "7ee17639527467c970a9eaab16e4b16ec953398745d5f90ac90a68857e6aca57",
+            "81ff931b4fd86d29eb4b76928abc99e2d1c24c78840e9af380e243a5a153b587",
+            "7c645987dc2e5f024a600d66c3221f9d8c010fc63fddbad23800eabcb1bcaaf7"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "6a0fc9d81f39fb6db6e532a1e902c049ca2719126b89bde611fce1be8236c668",
+          "transcript_sha256": "430a4c3a99e87a19fe7488bce907edb5d7ff1fb8989136ba2c410c7a50e8d4ac"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, a chat window on the left, and a title overlay reading 'Vom Regen in die Traufe....' The gameplay area is visible with a large structure,"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0156, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-4263795601-6a0fc9d81f39-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2927866367",

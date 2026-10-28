@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "1014059590",
-      "reserved_at": "2026-10-21T16:27:02Z",
-      "streamer": "exsl95",
-      "sha256": "4d1177a2a93626e1d4873b454e207da46cc69331527f7c9bd2ad8402397446f8",
-      "source_sha256": "53cb1e0190a6a93119e631108af5af5d41785bdf4f68c5e26634ae352f341615",
-      "status": "verified_public",
-      "asset_title": "tiktok14-1014059590-4d1177a2a936.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/exsl95-1014059590-4d1177a2a936.mp4",
-      "clip_slug": "ReliableGracefulPassionfruitDendiFace-uymoe5pfY2u5C4_l",
-      "original_created_at": "2026-10-20T15:45:22Z",
-      "source_deadline": "2026-10-23T15:45:22Z",
-      "buffer_post_id": "6ad8e7d998b0339f03981943",
-      "last_reconcile_at": "2026-10-21T16:28:57Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699158546147069217",
-      "sent_at": "2026-10-21T16:28:49Z",
-      "verified_at": "2026-10-21T16:28:58Z"
-    },
-    {
       "clip_id": "433948050",
       "reserved_at": "2026-10-21T17:18:49Z",
       "streamer": "trymacs",
@@ -2120,15 +2102,6 @@
   },
   "rejected": [
     {
-      "clip_id": "695413753",
-      "clip_slug": "SuaveDoubtfulNostril4Head-AilHb4y6aCFkZo31",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/SuaveDoubtfulNostril4Head-AilHb4y6aCFkZo31",
-      "status": "quality_rejected",
-      "created_at": "2026-10-21T16:33:14Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
       "clip_id": "3363875350",
       "clip_slug": "VivaciousDarlingKeyboardNinjaGrumpy-XzTe1YbrZ0nMGKKB",
       "streamer": "nooreax",
@@ -2544,8 +2517,9 @@
   ],
   "last_prepare_hour": "2026-10-28T16",
   "last_prefetch_hour": "2026-10-28T16",
-  "archived_verified_count": 51,
+  "archived_verified_count": 52,
   "used_ids": [
+    "1014059590",
     "1028276668",
     "1039591187",
     "1071665880",
@@ -2611,9 +2585,10 @@
     "576576114",
     "60281847",
     "635147332",
+    "695413753",
     "744502353",
     "761785150",
     "781900318"
   ],
-  "archived_rejected_count": 17
+  "archived_rejected_count": 18
 }

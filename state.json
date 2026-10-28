@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-28T09:18:44Z",
+    "at": "2026-10-28T10:34:27Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 98,
       "listing_ok": 100,
-      "listing_age_prefilter": 744,
-      "discovered": 903,
-      "metadata_requested": 859,
-      "qualified_metadata": 396,
-      "title_too_short": 60,
-      "gaming_category_not_verified": 403,
-      "duplicate_source_event": 14,
+      "listing_duration_prefilter": 91,
+      "listing_age_prefilter": 745,
+      "discovered": 900,
+      "metadata_requested": 858,
+      "gaming_category_not_verified": 399,
+      "qualified_metadata": 398,
+      "title_too_short": 61,
+      "duplicate_source_event": 15,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1179882941",
-      "clip_slug": "AmorphousAgitatedWallabyNerfRedBlaster-IMrVBhbmjJaDJXEg",
-      "streamer": "eliasn97"
+      "clip_id": "3256279164",
+      "clip_slug": "AffluentOptimisticSnailYouDontSay-ANQvtZL1L_ilk1I-",
+      "streamer": "krokoboss"
     }
   },
   "prepare_scans": {
@@ -2506,8 +2506,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-28T09",
-  "last_prefetch_hour": "2026-10-28T09",
+  "last_prepare_hour": "2026-10-28T10",
+  "last_prefetch_hour": "2026-10-28T10",
   "archived_verified_count": 46,
   "used_ids": [
     "1028276668",

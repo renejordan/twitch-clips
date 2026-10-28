@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "1526778882",
-      "reserved_at": "2026-10-21T18:08:40Z",
-      "streamer": "repaz",
-      "sha256": "8ad73294c45db3022c7d5e21e36faa6304292c0a60f0af53b7d635428be36b10",
-      "source_sha256": "3c0e66ac55560c2b5dba6d813431f6615577cfed8d134238000643e73fc25504",
-      "status": "verified_public",
-      "asset_title": "tiktok14-1526778882-8ad73294c45d.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-1526778882-8ad73294c45d.mp4",
-      "clip_slug": "HardDistinctMuleHeyGuys--JhEOXTzly6N3LqX",
-      "original_created_at": "2026-10-21T05:36:50Z",
-      "source_deadline": "2026-10-24T05:36:50Z",
-      "buffer_post_id": "6ad8ffab7a62b75650f0946b",
-      "last_reconcile_at": "2026-10-21T18:10:35Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699184737331481889",
-      "sent_at": "2026-10-21T18:10:27Z",
-      "verified_at": "2026-10-21T18:10:37Z"
-    },
-    {
       "clip_id": "1746857233",
       "reserved_at": "2026-10-21T19:07:25Z",
       "streamer": "handofblood",
@@ -2102,24 +2084,6 @@
   },
   "rejected": [
     {
-      "clip_id": "3363875350",
-      "clip_slug": "VivaciousDarlingKeyboardNinjaGrumpy-XzTe1YbrZ0nMGKKB",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/VivaciousDarlingKeyboardNinjaGrumpy-XzTe1YbrZ0nMGKKB",
-      "status": "quality_rejected",
-      "created_at": "2026-10-21T17:24:28Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
-      "clip_id": "2805096659",
-      "clip_slug": "HeadstrongDullRavenFailFish-_q5FrzThLzbhWZ5C",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/HeadstrongDullRavenFailFish-_q5FrzThLzbhWZ5C",
-      "status": "quality_rejected",
-      "created_at": "2026-10-21T17:24:28Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
       "clip_id": "1410757907",
       "clip_slug": "BenevolentUglyPoxDendiFace-UM4bOAf02HJ4mnSu",
       "streamer": "papaplatte",
@@ -2517,7 +2481,7 @@
   ],
   "last_prepare_hour": "2026-10-28T17",
   "last_prefetch_hour": "2026-10-28T17",
-  "archived_verified_count": 53,
+  "archived_verified_count": 54,
   "used_ids": [
     "1014059590",
     "1028276668",
@@ -2529,6 +2493,7 @@
     "1327874565",
     "1411062380",
     "1458488875",
+    "1526778882",
     "154404618",
     "1590452140",
     "1694983154",
@@ -2549,6 +2514,7 @@
     "2547757854",
     "2620158523",
     "263989408",
+    "2805096659",
     "2809276235",
     "2845373187",
     "2847113030",
@@ -2562,6 +2528,7 @@
     "3268789812",
     "326935033",
     "3344576570",
+    "3363875350",
     "3398016197",
     "3439049317",
     "3466599113",
@@ -2591,5 +2558,5 @@
     "761785150",
     "781900318"
   ],
-  "archived_rejected_count": 18
+  "archived_rejected_count": 20
 }

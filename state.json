@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701677393089400096",
       "sent_at": "2026-10-28T11:29:44Z",
       "verified_at": "2026-10-28T11:34:07Z"
+    },
+    {
+      "clip_id": "818594409",
+      "reserved_at": "2026-10-28T12:12:48Z",
+      "streamer": "gtimetv",
+      "sha256": "2799faf3af7db32200066be90f4e677587612409fa3b9ad1c69c33b8419fa376",
+      "source_sha256": "ee453b9e00c82e20421c7344a208ea0302ce208dbb5375a9a1c6c81f1935eb8e",
+      "status": "reserved",
+      "asset_title": "tiktok14-818594409-2799faf3af7d.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-818594409-2799faf3af7d.mp4",
+      "clip_slug": "TastyEnticingIguanaBudBlast-fTC3eRgkMAqOFDVf",
+      "original_created_at": "2026-10-28T10:39:19Z",
+      "source_deadline": "2026-10-31T10:39:19Z"
     }
   ],
   "last_production": {

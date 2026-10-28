@@ -2018,12 +2018,13 @@
       "streamer": "krokoboss",
       "sha256": "c40173c7e3b98a0a919ea370184c8a63d3cb9c8122e61e7241b7d1d2332d0071",
       "source_sha256": "2a3d5257a1bd4164f760ce41e7a2eedba3847f0cbc442956adf13c86aaa1cd0e",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2339318529-c40173c7e3b9.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2339318529-c40173c7e3b9.mp4",
       "clip_slug": "EndearingRelievedWaffleDogFace-o4AZzi7YGv1ZSVrJ",
       "original_created_at": "2026-10-27T21:08:09Z",
-      "source_deadline": "2026-10-30T21:08:09Z"
+      "source_deadline": "2026-10-30T21:08:09Z",
+      "buffer_post_id": "6ae21eff4785904534fd394d"
     }
   ],
   "last_production": {

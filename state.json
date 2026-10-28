@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "2088617063",
-      "reserved_at": "2026-10-21T07:04:28Z",
-      "streamer": "repaz",
-      "sha256": "0b672362a8a97e79ba39ae79c28e34116d5c03f27fe59e4c43e76742c1eb72af",
-      "source_sha256": "3b47cfda2f679f0d0ea8e46c5640942472386d417109046050133f3ad32742c8",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2088617063-0b672362a8a9.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2088617063-0b672362a8a9.mp4",
-      "clip_slug": "SuccessfulDirtyEggnogVoteYea-0PX2sd3ufBvQwAat",
-      "original_created_at": "2026-10-20T19:46:51Z",
-      "source_deadline": "2026-10-23T19:46:51Z",
-      "buffer_post_id": "6ad863fedb7d8198214e1277",
-      "last_reconcile_at": "2026-10-21T07:06:34Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699013583446822177",
-      "sent_at": "2026-10-21T07:06:14Z",
-      "verified_at": "2026-10-21T07:06:36Z"
-    },
-    {
       "clip_id": "2954668346",
       "reserved_at": "2026-10-21T08:04:33Z",
       "streamer": "repaz",
@@ -2509,7 +2491,7 @@
   ],
   "last_prepare_hour": "2026-10-27T22",
   "last_prefetch_hour": "2026-10-27T22",
-  "archived_verified_count": 42,
+  "archived_verified_count": 43,
   "used_ids": [
     "1028276668",
     "1039591187",
@@ -2522,6 +2504,7 @@
     "1776120825",
     "1847050907",
     "206829726",
+    "2088617063",
     "215749810",
     "220161949",
     "2205224163",

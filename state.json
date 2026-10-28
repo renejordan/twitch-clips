@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "2809276235",
-      "reserved_at": "2026-10-21T10:04:28Z",
-      "streamer": "repaz",
-      "sha256": "be7067f202d368dc2fc07dbc230ba0ae6d495773453d6a847df9ff3ab4f68f42",
-      "source_sha256": "51d3796f986a69fc8dd88c2f82e3d71a9c694c3b7aa99f11808a11a39c634051",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2809276235-be7067f202d3.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2809276235-be7067f202d3.mp4",
-      "clip_slug": "FrailFunnyTriangleDansGame-X1FqVz3ql2PazTTV",
-      "original_created_at": "2026-10-20T19:49:54Z",
-      "source_deadline": "2026-10-23T19:49:54Z",
-      "buffer_post_id": "6ad88e2f7143aca6ab09eb4b",
-      "last_reconcile_at": "2026-10-21T10:06:27Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699059955915066657",
-      "sent_at": "2026-10-21T10:06:14Z",
-      "verified_at": "2026-10-21T10:06:28Z"
-    },
-    {
       "clip_id": "1590452140",
       "reserved_at": "2026-10-21T11:04:28Z",
       "streamer": "montanablack88",
@@ -2508,7 +2490,7 @@
   ],
   "last_prepare_hour": "2026-10-28T09",
   "last_prefetch_hour": "2026-10-28T09",
-  "archived_verified_count": 45,
+  "archived_verified_count": 46,
   "used_ids": [
     "1028276668",
     "1039591187",
@@ -2535,6 +2517,7 @@
     "2547757854",
     "2620158523",
     "263989408",
+    "2809276235",
     "2845373187",
     "2954668346",
     "2974198887",

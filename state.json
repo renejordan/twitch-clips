@@ -2000,12 +2000,13 @@
       "streamer": "krokoboss",
       "sha256": "2f881b9d334acdc1dcc402e54c11d8b0a2b2a4a201e116d654c20e323bce5feb",
       "source_sha256": "528b62e82c7868c2591c34a90aa8bd782b115be2aac6b134ebd798a79f7cba3c",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1629452982-2f881b9d334a.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1629452982-2f881b9d334a.mp4",
       "clip_slug": "JoyousFlirtyGarageDatSheffy-sZtc4-vLOPHiLtrq",
       "original_created_at": "2026-10-27T21:31:44Z",
-      "source_deadline": "2026-10-30T21:31:44Z"
+      "source_deadline": "2026-10-30T21:31:44Z",
+      "buffer_post_id": "6ae1ae0045e232dcee57a2bb"
     }
   ],
   "last_production": {

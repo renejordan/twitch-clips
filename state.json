@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "2954668346",
-      "reserved_at": "2026-10-21T08:04:33Z",
-      "streamer": "repaz",
-      "sha256": "c2d793d2feeeb8831481288d0c2eb64ce631d128bbbc2b14f69e3c5ec2a9eb80",
-      "source_sha256": "510b14fa2e2d75bfbecaacf8f099f371929156d675c77a144d5324014348e024",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2954668346-c2d793d2feee.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2954668346-c2d793d2feee.mp4",
-      "clip_slug": "DepressedBigWerewolfUWot-YZBRxUyD-ngmkyvi",
-      "original_created_at": "2026-10-20T23:37:00Z",
-      "source_deadline": "2026-10-23T23:37:00Z",
-      "buffer_post_id": "6ad872135a7ff3cbee4fc796",
-      "last_reconcile_at": "2026-10-21T08:06:33Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699029051528219936",
-      "sent_at": "2026-10-21T08:06:19Z",
-      "verified_at": "2026-10-21T08:06:35Z"
-    },
-    {
       "clip_id": "1458488875",
       "reserved_at": "2026-10-21T09:04:33Z",
       "streamer": "trymacs",
@@ -2491,7 +2473,7 @@
   ],
   "last_prepare_hour": "2026-10-27T22",
   "last_prefetch_hour": "2026-10-27T22",
-  "archived_verified_count": 43,
+  "archived_verified_count": 44,
   "used_ids": [
     "1028276668",
     "1039591187",
@@ -2518,6 +2500,7 @@
     "2620158523",
     "263989408",
     "2845373187",
+    "2954668346",
     "2974198887",
     "3026950595",
     "309969943",

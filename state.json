@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701644183391505697",
       "sent_at": "2026-10-28T09:14:20Z",
       "verified_at": "2026-10-28T09:14:34Z"
+    },
+    {
+      "clip_id": "1179882941",
+      "reserved_at": "2026-10-28T10:12:42Z",
+      "streamer": "eliasn97",
+      "sha256": "192657cda4eba9f6ed0aa4155a94f4af811b641eab17c268cc697d56e699b2d9",
+      "source_sha256": "68820d04815229b533e2a697b43541132f4d48da42bd57b3d732715d12e8690b",
+      "status": "reserved",
+      "asset_title": "tiktok14-1179882941-192657cda4eb.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-1179882941-192657cda4eb.mp4",
+      "clip_slug": "AmorphousAgitatedWallabyNerfRedBlaster-IMrVBhbmjJaDJXEg",
+      "original_created_at": "2026-10-27T21:05:19Z",
+      "source_deadline": "2026-10-30T21:05:19Z"
     }
   ],
   "last_production": {

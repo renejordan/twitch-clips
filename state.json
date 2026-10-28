@@ -2359,6 +2359,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-28T12:35:19Z",
       "reason": "qa_duration_invalid"
+    },
+    {
+      "clip_id": "1378916455",
+      "clip_slug": "TenuousBreakableTardigradeEleGiggle-bW-_xO1lnid6y6NS",
+      "streamer": "niklaswilson",
+      "source_url": "https://www.twitch.tv/niklaswilson/clip/TenuousBreakableTardigradeEleGiggle-bW-_xO1lnid6y6NS",
+      "status": "quality_rejected",
+      "created_at": "2026-10-28T12:35:19Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

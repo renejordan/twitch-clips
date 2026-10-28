@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "1746857233",
-      "reserved_at": "2026-10-21T19:07:25Z",
-      "streamer": "handofblood",
-      "sha256": "354fdd8ac1f7549c066bb63af63eccf56b86239c870c069022ea2c236134688b",
-      "source_sha256": "8066d60fa70b27ea5aa25071a0fa5dacd871269b3f3a52ad3119aa6d9eb8a112",
-      "status": "verified_public",
-      "asset_title": "tiktok14-1746857233-354fdd8ac1f7.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-1746857233-354fdd8ac1f7.mp4",
-      "clip_slug": "CarelessChillyMilkUnSane-M3aBIrMCr02rByRY",
-      "original_created_at": "2026-10-21T16:17:57Z",
-      "source_deadline": "2026-10-24T16:17:57Z",
-      "buffer_post_id": "6ad90d70c75b81bad580ef53",
-      "last_reconcile_at": "2026-10-21T19:09:35Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699199876315335968",
-      "sent_at": "2026-10-21T19:09:12Z",
-      "verified_at": "2026-10-21T19:09:36Z"
-    },
-    {
       "clip_id": "2158687206",
       "reserved_at": "2026-10-21T20:08:33Z",
       "streamer": "handofblood",
@@ -2102,15 +2084,6 @@
   },
   "rejected": [
     {
-      "clip_id": "1410757907",
-      "clip_slug": "BenevolentUglyPoxDendiFace-UM4bOAf02HJ4mnSu",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/BenevolentUglyPoxDendiFace-UM4bOAf02HJ4mnSu",
-      "status": "quality_rejected",
-      "created_at": "2026-10-21T19:13:20Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "2063564845",
       "clip_slug": "KitschyModernCodCoolStoryBro-rdZJGyi7rkAsNZSl",
       "streamer": "zarbex",
@@ -2499,7 +2472,7 @@
   ],
   "last_prepare_hour": "2026-10-28T18",
   "last_prefetch_hour": "2026-10-28T18",
-  "archived_verified_count": 54,
+  "archived_verified_count": 55,
   "used_ids": [
     "1014059590",
     "1028276668",
@@ -2509,12 +2482,14 @@
     "1090220916",
     "1322757433",
     "1327874565",
+    "1410757907",
     "1411062380",
     "1458488875",
     "1526778882",
     "154404618",
     "1590452140",
     "1694983154",
+    "1746857233",
     "1776120825",
     "1847050907",
     "1851713066",
@@ -2576,5 +2551,5 @@
     "761785150",
     "781900318"
   ],
-  "archived_rejected_count": 20
+  "archived_rejected_count": 21
 }

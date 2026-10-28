@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3135215082",
-      "clip_slug": "CorrectCaringDiscFreakinStinkin-5SClngp4fedUsQIP",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/CorrectCaringDiscFreakinStinkin-5SClngp4fedUsQIP",
-      "original_title": "ganzes haus weg",
-      "hook": "ganzes haus weg",
-      "caption": "ganzes haus weg\n#gaming #minecraft #twitchclips #krokoboss #gamer",
-      "views_at_selection": 629,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-27T23:00:38Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3135215082-7ea354b5bd67.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-28T08:16:22Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "7ea354b5bd674c90ed25097d115996d026c48a5f7adcbca0f7d07ef227517d7f",
-      "category": "Minecraft",
-      "transcript_sha256": "44abc6ad854ebed19051d2577479f4a9288d745c9cdc31cc599c39a612011104",
-      "asr_requires_correction": true,
-      "source_sha256": "b76c0f54a76a2ed195b63a662405b9301ed6bd8ae2126cc943ccab7217e7a62f",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-28T08:16:22.777591+00:00",
-        "media_sha256": "7ea354b5bd674c90ed25097d115996d026c48a5f7adcbca0f7d07ef227517d7f",
-        "transcript_sha256": "44abc6ad854ebed19051d2577479f4a9288d745c9cdc31cc599c39a612011104",
-        "source_sha256": "b76c0f54a76a2ed195b63a662405b9301ed6bd8ae2126cc943ccab7217e7a62f",
-        "evidence_sha256": "cff6c025715b7aa1ca7f879bf525f05409f9bdb5643451490412af4f51412445",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "b76c0f54a76a2ed195b63a662405b9301ed6bd8ae2126cc943ccab7217e7a62f",
-          "reviewed_source_sha256": "b76c0f54a76a2ed195b63a662405b9301ed6bd8ae2126cc943ccab7217e7a62f",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "99876ff962f56c138f986e57a0f85721bc98aabca8dba41e24be6370fca7116c",
-            "c1c8b60b26f58ddefeeb41fb27c6e67717a885eafe8e0ab5e3c81a18cf9a90d7",
-            "fdb20ccee53743fb0cf2b32e63c643fa3ebac670cf06e17c0d1d84a1ae5b392c"
-          ],
-          "headline": "ganzes haus weg",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left corner shows a minimap and game HUD, bottom-center shows inventory and health bar, top-right corner shows a face camera with a player wearing headphones and a plaid shirt. The game is Minecraft, with a first-pov",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is inside a building, holding a fireworks rocket, with a minimap and inventory visible. The player is looking up at the ceiling, which has a square block with a small icon.",
-            "payoff": "Player exits the building and walks down a street with buildings on either side. The player is holding a black object, possibly a tool or weapon. The minimap and inventory remain visible, and the player is looking at the",
-            "payoff_timestamp": 14.925,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.02931568483826671,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft interior with a minimap and inventory visible, consistent with the source event hypothesis. The player is inside a building, holding a fireworks rocket, looking up at the ceiling with a square块 (a",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "e0249aec1d37a664bc3f7558cc0abc378ebaca39dc5406076240f37c7322eb54",
-            "f0724c75f3a68818b162be36fbcf3d6bf6f69fb3273ddfb64270a92896e79f01",
-            "62d2ea07d6d2badde395a4f3709afe58ad99ea0d10c69885a0a94ee5572bda02"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "7ea354b5bd674c90ed25097d115996d026c48a5f7adcbca0f7d07ef227517d7f",
-          "transcript_sha256": "44abc6ad854ebed19051d2577479f4a9288d745c9cdc31cc599c39a612011104"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft interior with a minimap and inventory visible, consistent with the source event hypothesis. The player is inside a building, holding a fireworks rocket, looking up at the ceiling with a square块 (a"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0293, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3135215082-7ea354b5bd67-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2809276235",
@@ -2000,14 +1862,17 @@
       "streamer": "krokoboss",
       "sha256": "7ea354b5bd674c90ed25097d115996d026c48a5f7adcbca0f7d07ef227517d7f",
       "source_sha256": "b76c0f54a76a2ed195b63a662405b9301ed6bd8ae2126cc943ccab7217e7a62f",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3135215082-7ea354b5bd67.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-3135215082-7ea354b5bd67.mp4",
       "clip_slug": "CorrectCaringDiscFreakinStinkin-5SClngp4fedUsQIP",
       "original_created_at": "2026-10-27T23:00:38Z",
       "source_deadline": "2026-10-30T23:00:38Z",
       "buffer_post_id": "6ae1bc8643bad65094ec5ee1",
-      "last_reconcile_at": "2026-10-28T09:14:32Z"
+      "last_reconcile_at": "2026-10-28T09:14:32Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701644183391505697",
+      "sent_at": "2026-10-28T09:14:20Z",
+      "verified_at": "2026-10-28T09:14:34Z"
     }
   ],
   "last_production": {

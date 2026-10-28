@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2339318529",
-      "clip_slug": "EndearingRelievedWaffleDogFace-o4AZzi7YGv1ZSVrJ",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/EndearingRelievedWaffleDogFace-o4AZzi7YGv1ZSVrJ",
-      "original_title": "Trymacs Crashout auf Willys SoundSetup",
-      "hook": "Trymacs Crashout auf Willys SoundSetup",
-      "caption": "Trymacs Crashout auf Willys SoundSetup\n#gaming #minecraft #twitchclips #krokoboss #gamer",
-      "views_at_selection": 550,
-      "original_duration": 60.0,
-      "original_created_at": "2026-10-27T21:08:09Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2339318529-c40173c7e3b9.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-28T15:18:06Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "c40173c7e3b98a0a919ea370184c8a63d3cb9c8122e61e7241b7d1d2332d0071",
-      "category": "Minecraft",
-      "transcript_sha256": "2231c4208b2710602244e1dcddd0735d22de18cf762c8f93a93732b9eda2317f",
-      "asr_requires_correction": true,
-      "source_sha256": "2a3d5257a1bd4164f760ce41e7a2eedba3847f0cbc442956adf13c86aaa1cd0e",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-28T15:18:06.047832+00:00",
-        "media_sha256": "c40173c7e3b98a0a919ea370184c8a63d3cb9c8122e61e7241b7d1d2332d0071",
-        "transcript_sha256": "2231c4208b2710602244e1dcddd0735d22de18cf762c8f93a93732b9eda2317f",
-        "source_sha256": "2a3d5257a1bd4164f760ce41e7a2eedba3847f0cbc442956adf13c86aaa1cd0e",
-        "evidence_sha256": "66b2513df0790671c756488c43572fa8d46503e25b82b60986afbdf673999cb2",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "2a3d5257a1bd4164f760ce41e7a2eedba3847f0cbc442956adf13c86aaa1cd0e",
-          "reviewed_source_sha256": "2a3d5257a1bd4164f760ce41e7a2eedba3847f0cbc442956adf13c86aaa1cd0e",
-          "duration": 60.0,
-          "timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "source_frame_hashes": [
-            "3cc103dc74fcc845deb199207e3530ff731f7fa7eb62dcbca084b7f0158a93d3",
-            "2e4db96e3a35d263c1cbb6b170c48ff85a8b385f17801f7502570b969ec3ac52",
-            "4b3bcc84bf1e9f68bda8b2311f76a9ef6575526aeaf01b595601e74c85930211"
-          ],
-          "headline": "Trymacs Crashout auf Willys SoundSetup",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left corner shows minimap and game HUD; top-right corner shows face camera of player with headphones; game view is first-person perspective with inventory and health bar visible; no browser or desktop window borders;",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is standing on a high ledge overlooking a large Minecraft city with a castle in the center, holding a red sword and looking down at the city.",
-            "payoff": "No visible outcome or reaction from the player or game; no win/loss or significant event occurs in the frames provided; player remains stationary, observing the city from above; no dialogue or chat visible; no clear game",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.06290092113812758,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a facecam panel above the gameplay, which is a common edited gaming layout. The game is in a nighttime setting with a large city and a castle in the center. The player's inventory, ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "final_frame_hashes": [
-            "f979dd496f69642268f05c13b15d069bd61bcbc9180c7415e6e95736a89a1848",
-            "d40c089270d12f6f4fa6193a71e3878ab785887f4fa04ce620216a922818c37b",
-            "cf9389c20c0cd6106c100e5842c95324f05b2e43294095162a1820d5f9d51043"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "c40173c7e3b98a0a919ea370184c8a63d3cb9c8122e61e7241b7d1d2332d0071",
-          "transcript_sha256": "2231c4208b2710602244e1dcddd0735d22de18cf762c8f93a93732b9eda2317f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a facecam panel above the gameplay, which is a common edited gaming layout. The game is in a nighttime setting with a large city and a castle in the center. The player's inventory, "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0629, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2339318529-c40173c7e3b9-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1014059590",
@@ -2018,14 +1880,17 @@
       "streamer": "krokoboss",
       "sha256": "c40173c7e3b98a0a919ea370184c8a63d3cb9c8122e61e7241b7d1d2332d0071",
       "source_sha256": "2a3d5257a1bd4164f760ce41e7a2eedba3847f0cbc442956adf13c86aaa1cd0e",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2339318529-c40173c7e3b9.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2339318529-c40173c7e3b9.mp4",
       "clip_slug": "EndearingRelievedWaffleDogFace-o4AZzi7YGv1ZSVrJ",
       "original_created_at": "2026-10-27T21:08:09Z",
       "source_deadline": "2026-10-30T21:08:09Z",
       "buffer_post_id": "6ae21eff4785904534fd394d",
-      "last_reconcile_at": "2026-10-28T16:17:54Z"
+      "last_reconcile_at": "2026-10-28T16:17:54Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701752448024661280",
+      "sent_at": "2026-10-28T16:14:30Z",
+      "verified_at": "2026-10-28T16:17:55Z"
     }
   ],
   "last_production": {

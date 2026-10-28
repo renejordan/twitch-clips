@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "4085047648",
-      "reserved_at": "2026-10-21T12:04:39Z",
-      "streamer": "niklaswilson",
-      "sha256": "47ac2ca12f29f679d003bbf16c34390f603615a09bf5f4c891f2d6e66575fd32",
-      "source_sha256": "a353b59c6adc7e646753b9a5c7294d0e09143a00536c2568e3c5469e6f002694",
-      "status": "verified_public",
-      "asset_title": "tiktok14-4085047648-47ac2ca12f29.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niklaswilson-4085047648-47ac2ca12f29.mp4",
-      "clip_slug": "SassyArtisticSproutPogChamp-8-KXFAn_zZ4FDqHC",
-      "original_created_at": "2026-10-21T10:07:31Z",
-      "source_deadline": "2026-10-24T10:07:31Z",
-      "buffer_post_id": "6ad8aa5b9c5d256f659b5d42",
-      "last_reconcile_at": "2026-10-21T12:10:30Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699090935291956513",
-      "sent_at": "2026-10-21T12:06:58Z",
-      "verified_at": "2026-10-21T12:10:32Z"
-    },
-    {
       "clip_id": "1327874565",
       "reserved_at": "2026-10-21T13:04:33Z",
       "streamer": "montanablack88",
@@ -2509,7 +2491,7 @@
   ],
   "last_prepare_hour": "2026-10-28T11",
   "last_prefetch_hour": "2026-10-28T11",
-  "archived_verified_count": 47,
+  "archived_verified_count": 48,
   "used_ids": [
     "1028276668",
     "1039591187",
@@ -2564,6 +2546,7 @@
     "3858506260",
     "403364789",
     "4043106256",
+    "4085047648",
     "4108530673",
     "502558914",
     "524815218",

@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3073920014",
+      "clip_slug": "SolidCallousPorpoiseBleedPurple-AVo7VU8iUsqPVHNH",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/SolidCallousPorpoiseBleedPurple-AVo7VU8iUsqPVHNH",
+      "original_title": "geile tour",
+      "hook": "geile tour",
+      "caption": "geile tour\n#gaming #minecraft #twitchclips #trymacs #gamer",
+      "views_at_selection": 183,
+      "original_duration": 25.0,
+      "original_created_at": "2026-10-28T21:07:23Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3073920014-fcc78840d22d.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-28T21:21:47Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "fcc78840d22d48fc77210d278c79fb40ced967946ed7a0ee1c6d403da7323bd7",
+      "category": "Minecraft",
+      "transcript_sha256": "47082df68108caad05ea3a3f75bb110ca54af3fbf86c5218029711167e6f4bdb",
+      "asr_requires_correction": true,
+      "source_sha256": "f595234cb8ccead3c2238d0104806844c287c6d6a6bc6f8caefe85873d50cd50",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-28T21:21:47.500125+00:00",
+        "media_sha256": "fcc78840d22d48fc77210d278c79fb40ced967946ed7a0ee1c6d403da7323bd7",
+        "transcript_sha256": "47082df68108caad05ea3a3f75bb110ca54af3fbf86c5218029711167e6f4bdb",
+        "source_sha256": "f595234cb8ccead3c2238d0104806844c287c6d6a6bc6f8caefe85873d50cd50",
+        "evidence_sha256": "e9727a370a9b09a10b83393bd458793975be09a2b0533cdb15818b6fc2eab8e6",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "f595234cb8ccead3c2238d0104806844c287c6d6a6bc6f8caefe85873d50cd50",
+          "reviewed_source_sha256": "f595234cb8ccead3c2238d0104806844c287c6d6a6bc6f8caefe85873d50cd50",
+          "duration": 25.333333,
+          "timestamps": [
+            0.0,
+            12.592,
+            25.183
+          ],
+          "source_frame_hashes": [
+            "763404a402731c15091bdc0d5a3d0a8c2f9901b81c0a56752ce2efd3119c1bb1",
+            "a60755324136cc3b7fc34538c1cf245a735d711b0f53f516de852084adfdb4a7",
+            "17e8283fd1beda9c1928ce44327556375757b7feb6653b2d4a2996d958bc75ff"
+          ],
+          "headline": "geile tour",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in corner with gameplay, HUD, map, and inventory visible, no browser or desktop elements.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft with face camera, no clear action or outcome visible.",
+            "payoff": "No visible outcome or payoff from actions taken in frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.033171045833581936,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frames show a Minecraft gameplay window with a facecam panel above it, which is a common edited gaming layout. The gameplay is not a browser or desktop capture, as there are no browser tabs, address bars, or desktop window borders. The ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            12.592,
+            25.183
+          ],
+          "final_frame_hashes": [
+            "391dbc1cd775f766f80c40f31f60c31995ca000778afe61797b4f1a8e2b77562",
+            "addaf2e313a78dcd670becf5c3b2647e6c24a61357aeed8f7b4beb717fd54834",
+            "f8e54e041a4254c40cb87c29e86e7d6d3fb99cda9901e393bb22089739b58a57"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "fcc78840d22d48fc77210d278c79fb40ced967946ed7a0ee1c6d403da7323bd7",
+          "transcript_sha256": "47082df68108caad05ea3a3f75bb110ca54af3fbf86c5218029711167e6f4bdb"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frames show a Minecraft gameplay window with a facecam panel above it, which is a common edited gaming layout. The gameplay is not a browser or desktop capture, as there are no browser tabs, address bars, or desktop window borders. The "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0332, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3073920014-fcc78840d22d-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3784756528",

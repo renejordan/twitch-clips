@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701752448024661280",
       "sent_at": "2026-10-28T16:14:30Z",
       "verified_at": "2026-10-28T16:17:55Z"
+    },
+    {
+      "clip_id": "2026292919",
+      "reserved_at": "2026-10-28T17:12:44Z",
+      "streamer": "papaplatte",
+      "sha256": "19dc0a5f7f59d6ebeb9aa7e529d81fabedd614a5c24466fd9003a8e4520b6eba",
+      "source_sha256": "2e2c05572af1e3f99834f28be63eb386fa8f741d7c30109806ece0db9edf6aae",
+      "status": "reserved",
+      "asset_title": "tiktok14-2026292919-19dc0a5f7f59.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-2026292919-19dc0a5f7f59.mp4",
+      "clip_slug": "GlutenFreeModernOtterAMPTropPunch-ihbY6wtlNjGKSyM1",
+      "original_created_at": "2026-10-27T17:54:47Z",
+      "source_deadline": "2026-10-30T17:54:47Z"
     }
   ],
   "last_production": {

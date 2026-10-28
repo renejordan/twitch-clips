@@ -2102,15 +2102,6 @@
   },
   "rejected": [
     {
-      "clip_id": "2063564845",
-      "clip_slug": "KitschyModernCodCoolStoryBro-rdZJGyi7rkAsNZSl",
-      "streamer": "zarbex",
-      "source_url": "https://www.twitch.tv/zarbex/clip/KitschyModernCodCoolStoryBro-rdZJGyi7rkAsNZSl",
-      "status": "quality_rejected",
-      "created_at": "2026-10-21T21:45:05Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "500776601",
       "clip_slug": "GorgeousTrappedGarlicLitFam-Rv3bLSGbGZnJcbL_",
       "streamer": "zarbex",
@@ -2538,6 +2529,7 @@
     "1776120825",
     "1847050907",
     "1851713066",
+    "2063564845",
     "206829726",
     "2088617063",
     "215749810",
@@ -2598,5 +2590,5 @@
     "761785150",
     "781900318"
   ],
-  "archived_rejected_count": 21
+  "archived_rejected_count": 22
 }

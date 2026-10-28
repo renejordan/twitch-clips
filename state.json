@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701691955964579104",
       "sent_at": "2026-10-28T12:22:20Z",
       "verified_at": "2026-10-28T12:31:08Z"
+    },
+    {
+      "clip_id": "4249670670",
+      "reserved_at": "2026-10-28T13:14:44Z",
+      "streamer": "trymacs",
+      "sha256": "ef5f9883a132d578680c1601402073f23522d5a7dd2ae63da715d9579661620f",
+      "source_sha256": "7987f0c008032553af03f8d587ddcf37508d674fbc38e34608eb6e582654beda",
+      "status": "reserved",
+      "asset_title": "tiktok14-4249670670-ef5f9883a132.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-4249670670-ef5f9883a132.mp4",
+      "clip_slug": "MotionlessPluckyAntPastaThat-mlmjqmp_eaQemRLO",
+      "original_created_at": "2026-10-27T17:46:53Z",
+      "source_deadline": "2026-10-30T17:46:53Z"
     }
   ],
   "last_production": {

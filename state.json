@@ -2000,12 +2000,13 @@
       "streamer": "nooreax",
       "sha256": "98fd14c5804b608f81e6292f01933aadf57cc65d626cdeaf9736400f72b9510c",
       "source_sha256": "67c030f02ef3763c07f14ab0a81bae07234074863e1fed9b8006c1807dbf445e",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1419018931-98fd14c5804b.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1419018931-98fd14c5804b.mp4",
       "clip_slug": "AmorphousRichYamDoritosChip-7vTu-NiMkC8jYoNy",
       "original_created_at": "2026-10-28T14:46:28Z",
-      "source_deadline": "2026-10-31T14:46:28Z"
+      "source_deadline": "2026-10-31T14:46:28Z",
+      "buffer_post_id": "6ae2654c26a433dee4ee33fd"
     }
   ],
   "last_production": {

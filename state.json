@@ -2000,12 +2000,13 @@
       "streamer": "trymacs",
       "sha256": "ef5f9883a132d578680c1601402073f23522d5a7dd2ae63da715d9579661620f",
       "source_sha256": "7987f0c008032553af03f8d587ddcf37508d674fbc38e34608eb6e582654beda",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-4249670670-ef5f9883a132.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-4249670670-ef5f9883a132.mp4",
       "clip_slug": "MotionlessPluckyAntPastaThat-mlmjqmp_eaQemRLO",
       "original_created_at": "2026-10-27T17:46:53Z",
-      "source_deadline": "2026-10-30T17:46:53Z"
+      "source_deadline": "2026-10-30T17:46:53Z",
+      "buffer_post_id": "6ae1f546c5d58d36138f3238"
     }
   ],
   "last_production": {

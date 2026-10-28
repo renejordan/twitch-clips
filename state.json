@@ -2000,12 +2000,13 @@
       "streamer": "repaz",
       "sha256": "2e27ab16f14a0199c95a72481a553e46192f0251dc00ec433dda4a5bee37fcfb",
       "source_sha256": "d8c02932c38557397ded51406ceeacfc7a40f26702a15b74c222cbf6b5757341",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1358508029-2e27ab16f14a.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-1358508029-2e27ab16f14a.mp4",
       "clip_slug": "TrappedTentativeArugulaCmonBruh-M9TvoW1kShf6fU4v",
       "original_created_at": "2026-10-28T07:00:45Z",
-      "source_deadline": "2026-10-31T07:00:45Z"
+      "source_deadline": "2026-10-31T07:00:45Z",
+      "buffer_post_id": "6ae2573fa5c5e21e3b05f3e8"
     }
   ],
   "last_production": {

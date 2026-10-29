@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "795733605",
-      "clip_slug": "SpookyHappyPotNerfRedBlaster-ESzrFBfh3LaOCs2i",
-      "streamer": "gtimetv",
-      "source_url": "https://www.twitch.tv/gtimetv/clip/SpookyHappyPotNerfRedBlaster-ESzrFBfh3LaOCs2i",
-      "original_title": "Männliche Aussage !!",
-      "hook": "Männliche Aussage !!",
-      "caption": "Männliche Aussage !!\n#gaming #minecraft #twitchclips #gtimetv #gamer",
-      "views_at_selection": 118,
-      "original_duration": 31.0,
-      "original_created_at": "2026-10-29T08:17:15Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-795733605-3188d7ac9f03.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-29T11:37:17Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "3188d7ac9f030091d761d0875126ac7454cabaaab172c5ea5fbbddab3904a57b",
-      "category": "Minecraft",
-      "transcript_sha256": "45c28f47db30a9b308f8949fed7a3251e17c52773b25ed43014f02547074a65f",
-      "asr_requires_correction": true,
-      "source_sha256": "c14bfe5980c97d3afcd980f37d42fed270c9883ba88fca115230c38ed760757d",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-29T11:37:17.888508+00:00",
-        "media_sha256": "3188d7ac9f030091d761d0875126ac7454cabaaab172c5ea5fbbddab3904a57b",
-        "transcript_sha256": "45c28f47db30a9b308f8949fed7a3251e17c52773b25ed43014f02547074a65f",
-        "source_sha256": "c14bfe5980c97d3afcd980f37d42fed270c9883ba88fca115230c38ed760757d",
-        "evidence_sha256": "2f0ecafdb436509cdb8ed847409d8e7d37890e54249321ab1664380f37de141f",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "c14bfe5980c97d3afcd980f37d42fed270c9883ba88fca115230c38ed760757d",
-          "reviewed_source_sha256": "c14bfe5980c97d3afcd980f37d42fed270c9883ba88fca115230c38ed760757d",
-          "duration": 31.816667,
-          "timestamps": [
-            0.0,
-            15.833,
-            31.667
-          ],
-          "source_frame_hashes": [
-            "b73155646ee9642b15a5e295d451f3c03ae15f5bc182996f9dfcf4995a569d06",
-            "717bdfdc875c1e7fd059ccc0b8c397995b75b553f9de412674cf7a3fd79aa463",
-            "20015a5f65cd79a85f0cc37ef36f15b6b8e7e72a9a2dfc2055ddea5dc0863a82"
-          ],
-          "headline": "Männliche Aussage !!",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with inventory, chat, and minimap, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible; static gameplay with minimal interaction",
-            "payoff": "No visible outcome or reaction; no win/loss or action payoff evident in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04575805956136724,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'Männliche Aussage !!' is clearly visible at the top. The gameplay includes a minimap,",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            15.833,
-            31.667
-          ],
-          "final_frame_hashes": [
-            "32617fb8eef2df9307bdd6902be7d97646598689aa4d95fd315e54df88dee8cc",
-            "5040cb972b026353c8ac73bfac5d861ae202977926bc2148b8c47b825054feec",
-            "307d9ec060a4a7d3856f5832f29c108cb1cc46e14a4f425a71c406dc6c2dbb79"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "3188d7ac9f030091d761d0875126ac7454cabaaab172c5ea5fbbddab3904a57b",
-          "transcript_sha256": "45c28f47db30a9b308f8949fed7a3251e17c52773b25ed43014f02547074a65f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'Männliche Aussage !!' is clearly visible at the top. The gameplay includes a minimap,"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0458, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-795733605-3188d7ac9f03-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2078601665",
@@ -2000,14 +1862,17 @@
       "streamer": "gtimetv",
       "sha256": "3188d7ac9f030091d761d0875126ac7454cabaaab172c5ea5fbbddab3904a57b",
       "source_sha256": "c14bfe5980c97d3afcd980f37d42fed270c9883ba88fca115230c38ed760757d",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-795733605-3188d7ac9f03.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-795733605-3188d7ac9f03.mp4",
       "clip_slug": "SpookyHappyPotNerfRedBlaster-ESzrFBfh3LaOCs2i",
       "original_created_at": "2026-10-29T08:17:15Z",
       "source_deadline": "2026-11-01T08:17:15Z",
       "buffer_post_id": "6ae33aad105d8bf1aae3e3f7",
-      "last_reconcile_at": "2026-10-29T12:25:02Z"
+      "last_reconcile_at": "2026-10-29T12:25:02Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702064363359800608",
+      "sent_at": "2026-10-29T12:24:52Z",
+      "verified_at": "2026-10-29T12:25:04Z"
     }
   ],
   "last_production": {

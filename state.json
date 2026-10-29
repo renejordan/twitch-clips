@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "850525967",
-      "clip_slug": "IntelligentAlertStinkbugSeemsGood-dz0YvNYxfSJY41t8",
-      "streamer": "repaz",
-      "source_url": "https://www.twitch.tv/repaz/clip/IntelligentAlertStinkbugSeemsGood-dz0YvNYxfSJY41t8",
-      "original_title": "Repazz sooooo online",
-      "hook": "Repazz sooooo online",
-      "caption": "Repazz sooooo online\n#gaming #valorant #twitchclips #repaz #gamer",
-      "views_at_selection": 431,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-29T20:47:40Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-850525967-d0d7605bf36c.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-29T21:22:37Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "d0d7605bf36c24a736d0f507e37b47f1cf7a3226cdc8dbc233647067be4b008c",
-      "category": "VALORANT",
-      "transcript_sha256": "b5a152e848ba68f0d65bfe0cc2b190e1a09385a022e80a229ee6f7106aab9f2d",
-      "asr_requires_correction": true,
-      "source_sha256": "5e42b8528ef8220a31e5cf7357f5e26491bec7ec1d00f34aeb5c90b52d5571d8",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-29T21:22:37.843690+00:00",
-        "media_sha256": "d0d7605bf36c24a736d0f507e37b47f1cf7a3226cdc8dbc233647067be4b008c",
-        "transcript_sha256": "b5a152e848ba68f0d65bfe0cc2b190e1a09385a022e80a229ee6f7106aab9f2d",
-        "source_sha256": "5e42b8528ef8220a31e5cf7357f5e26491bec7ec1d00f34aeb5c90b52d5571d8",
-        "evidence_sha256": "ad25fc1b21d8ee253a29e0e91e1199f7e156133aaba20fb67ce6073263d0b9c5",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "5e42b8528ef8220a31e5cf7357f5e26491bec7ec1d00f34aeb5c90b52d5571d8",
-          "reviewed_source_sha256": "5e42b8528ef8220a31e5cf7357f5e26491bec7ec1d00f34aeb5c90b52d5571d8",
-          "duration": 30.016,
-          "timestamps": [
-            0.0,
-            14.933,
-            29.866
-          ],
-          "source_frame_hashes": [
-            "bcbac8abbf6fbf28c3a9c118c0686db1b2b3bc64af5f36c4aec359060c3f6661",
-            "2a9d470587ddc1a00d531ab8bb4f4a7b8ed99cbfd369105aa07d85db3c396cbb",
-            "84ee5cc23f957733ad90c8d8817bb875f750f2f07babab8ade75bb096b96133d"
-          ],
-          "headline": "Repazz sooooo online",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with map, health, ammo, and chat, no browser or desktop elements",
-            "game_name": "Valorant",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Valorant with facecam, no clear setup or payoff visible",
-            "payoff": "No visible outcome or reaction from gameplay or player, no clear payoff or win/loss moment visible in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.11084209783967637,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a Valorant game map with a facecam panel in the top-left corner, displaying a player's face. The game HUD is visible, including health, armor, and a minimap. The title 'Repazz sooooo online",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.933,
-            29.866
-          ],
-          "final_frame_hashes": [
-            "5b9305481574865b510ee90c223a04ebc27dfd40486192b1271b8019d06c6e33",
-            "26a7b78a346163b00051e5f40ae735cb08f3ee9667cb88d36f15f7e4e01eb45f",
-            "4c6d632450391f19b17a0d84f88aef96ad61a284a19802b49efe5cdc5c5b9882"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "d0d7605bf36c24a736d0f507e37b47f1cf7a3226cdc8dbc233647067be4b008c",
-          "transcript_sha256": "b5a152e848ba68f0d65bfe0cc2b190e1a09385a022e80a229ee6f7106aab9f2d"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a Valorant game map with a facecam panel in the top-left corner, displaying a player's face. The game HUD is visible, including health, armor, and a minimap. The title 'Repazz sooooo online"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1108, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-850525967-d0d7605bf36c-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1206247462",
@@ -2018,14 +1880,17 @@
       "streamer": "repaz",
       "sha256": "d0d7605bf36c24a736d0f507e37b47f1cf7a3226cdc8dbc233647067be4b008c",
       "source_sha256": "5e42b8528ef8220a31e5cf7357f5e26491bec7ec1d00f34aeb5c90b52d5571d8",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-850525967-d0d7605bf36c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-850525967-d0d7605bf36c.mp4",
       "clip_slug": "IntelligentAlertStinkbugSeemsGood-dz0YvNYxfSJY41t8",
       "original_created_at": "2026-10-29T20:47:40Z",
       "source_deadline": "2026-11-01T20:47:40Z",
       "buffer_post_id": "6ae3c573397c2ef8f34a8ee5",
-      "last_reconcile_at": "2026-10-29T22:17:16Z"
+      "last_reconcile_at": "2026-10-29T22:17:16Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702216950629338400",
+      "sent_at": "2026-10-29T22:16:59Z",
+      "verified_at": "2026-10-29T22:17:17Z"
     }
   ],
   "last_production": {

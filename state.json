@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "2711270633",
-      "reserved_at": "2026-10-22T15:12:26Z",
-      "streamer": "letshugotv",
-      "sha256": "ab018299c56b444522ed12e410b17c2cc37342ec4b3f25a39539e459a9d09331",
-      "source_sha256": "89a5320db2337a9def9ca5696bdb5087ae6f2f6a9eea25da5cf85dc2870e9773",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2711270633-ab018299c56b.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2711270633-ab018299c56b.mp4",
-      "clip_slug": "EagerRamshackleLampDendiFace-A_oN-7lSw2ML_NBU",
-      "original_created_at": "2026-10-21T14:49:26Z",
-      "source_deadline": "2026-10-24T14:49:26Z",
-      "buffer_post_id": "6ada27dd1cc831fdc3c44ffa",
-      "last_reconcile_at": "2026-10-22T15:14:26Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699510423527132449",
-      "sent_at": "2026-10-22T15:14:12Z",
-      "verified_at": "2026-10-22T15:14:27Z"
-    },
-    {
       "clip_id": "1234041558",
       "reserved_at": "2026-10-22T16:31:16Z",
       "streamer": "niekbeats",
@@ -2535,7 +2517,7 @@
   ],
   "last_prepare_hour": "2026-10-29T14",
   "last_prefetch_hour": "2026-10-29T14",
-  "archived_verified_count": 65,
+  "archived_verified_count": 66,
   "used_ids": [
     "1014059590",
     "1028276668",
@@ -2577,6 +2559,7 @@
     "2620158523",
     "263989408",
     "2642584236",
+    "2711270633",
     "2805096659",
     "2809276235",
     "2845373187",

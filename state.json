@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702201894013521184",
       "sent_at": "2026-10-29T21:18:31Z",
       "verified_at": "2026-10-29T21:18:46Z"
+    },
+    {
+      "clip_id": "850525967",
+      "reserved_at": "2026-10-29T22:15:12Z",
+      "streamer": "repaz",
+      "sha256": "d0d7605bf36c24a736d0f507e37b47f1cf7a3226cdc8dbc233647067be4b008c",
+      "source_sha256": "5e42b8528ef8220a31e5cf7357f5e26491bec7ec1d00f34aeb5c90b52d5571d8",
+      "status": "reserved",
+      "asset_title": "tiktok14-850525967-d0d7605bf36c.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-850525967-d0d7605bf36c.mp4",
+      "clip_slug": "IntelligentAlertStinkbugSeemsGood-dz0YvNYxfSJY41t8",
+      "original_created_at": "2026-10-29T20:47:40Z",
+      "source_deadline": "2026-11-01T20:47:40Z"
     }
   ],
   "last_production": {

@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702190081896992032",
       "sent_at": "2026-10-29T20:32:44Z",
       "verified_at": "2026-10-29T20:32:58Z"
+    },
+    {
+      "clip_id": "4159668067",
+      "reserved_at": "2026-10-29T21:16:45Z",
+      "streamer": "eliasn97",
+      "sha256": "b11b7a5ab8825333047886500349e9c7833d70a63386cac979694469cfaeb2e3",
+      "source_sha256": "4d5bc082babbd8f39f380d138b7ebac190b7d5c99efd50a9b0121c1f1d3ff8f5",
+      "status": "reserved",
+      "asset_title": "tiktok14-4159668067-b11b7a5ab882.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-4159668067-b11b7a5ab882.mp4",
+      "clip_slug": "PoorFamousWalrusYouWHY-gzJeltG8h9UUJnjW",
+      "original_created_at": "2026-10-28T20:44:08Z",
+      "source_deadline": "2026-10-31T20:44:08Z"
     }
   ],
   "last_production": {

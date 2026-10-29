@@ -2024,7 +2024,8 @@
       "clip_slug": "IntelligentAlertStinkbugSeemsGood-dz0YvNYxfSJY41t8",
       "original_created_at": "2026-10-29T20:47:40Z",
       "source_deadline": "2026-11-01T20:47:40Z",
-      "buffer_post_id": "6ae3c573397c2ef8f34a8ee5"
+      "buffer_post_id": "6ae3c573397c2ef8f34a8ee5",
+      "last_reconcile_at": "2026-10-29T22:17:16Z"
     }
   ],
   "last_production": {

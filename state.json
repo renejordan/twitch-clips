@@ -2000,12 +2000,13 @@
       "streamer": "nooreax",
       "sha256": "ada87f8223c987ea5b86b20a29b9ba33eb6c0a175da3f468a3b090b245d1cae1",
       "source_sha256": "b1a9b7e72a8b26bcbfffaac890249514d9d8f676973370bb3af5c2d443740ea1",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1916848189-ada87f8223c9.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1916848189-ada87f8223c9.mp4",
       "clip_slug": "BlazingPiliableDurianFutureMan-B2GuD1BJ3_-yWXuv",
       "original_created_at": "2026-10-28T15:57:04Z",
-      "source_deadline": "2026-10-31T15:57:04Z"
+      "source_deadline": "2026-10-31T15:57:04Z",
+      "buffer_post_id": "6ae347c1e5b6af8cfb8606ae"
     }
   ],
   "last_production": {

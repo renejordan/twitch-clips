@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701845224636681504",
       "sent_at": "2026-10-28T22:14:31Z",
       "verified_at": "2026-10-28T22:14:44Z"
+    },
+    {
+      "clip_id": "1833080230",
+      "reserved_at": "2026-10-29T08:14:52Z",
+      "streamer": "nooreax",
+      "sha256": "66d0ee4fd83c3d20a9ca21a9f5cf200df6a5f5aaad52f6d2b68c0dfb3a2547dc",
+      "source_sha256": "4858b812a1a9f6bde092df2d1e3b9a0ce984a4dca7ea75260be76e4d7ffb9020",
+      "status": "reserved",
+      "asset_title": "tiktok14-1833080230-66d0ee4fd83c.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1833080230-66d0ee4fd83c.mp4",
+      "clip_slug": "AbstruseEvilFrogPhilosoraptor-bPllez_jHwMu_KXm",
+      "original_created_at": "2026-10-28T19:04:58Z",
+      "source_deadline": "2026-10-31T19:04:58Z"
     }
   ],
   "last_production": {

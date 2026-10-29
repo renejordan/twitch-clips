@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1876121174",
+      "clip_slug": "CarefulTsundereToothNononoCat-VcllH_jsLyqXwpXU",
+      "streamer": "metashi12",
+      "source_url": "https://www.twitch.tv/metashi12/clip/CarefulTsundereToothNononoCat-VcllH_jsLyqXwpXU",
+      "original_title": "alle brennen🤣🤣",
+      "hook": "alle brennen",
+      "caption": "alle brennen\n#gaming #wow #twitchclips #metashi12 #gamer",
+      "views_at_selection": 137,
+      "original_duration": 16.0,
+      "original_created_at": "2026-10-29T11:35:53Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-1876121174-9d2e57d76418.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-29T16:22:12Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "9d2e57d764189d2be0df259fa6c5c85b106d9319430b0eeb3c429e62a6907cb5",
+      "category": "World of Warcraft",
+      "transcript_sha256": "7c34d2dff41c38f5f30b17bc9fc5624cca9d7ec8f1c8bbf384cb8ea350b8ff1b",
+      "asr_requires_correction": true,
+      "source_sha256": "c23bbbefcdbd060d2eb6b95c1e52058d3d7678f7d2f4ba74d52e6d51ddf491a0",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-29T16:22:12.311522+00:00",
+        "media_sha256": "9d2e57d764189d2be0df259fa6c5c85b106d9319430b0eeb3c429e62a6907cb5",
+        "transcript_sha256": "7c34d2dff41c38f5f30b17bc9fc5624cca9d7ec8f1c8bbf384cb8ea350b8ff1b",
+        "source_sha256": "c23bbbefcdbd060d2eb6b95c1e52058d3d7678f7d2f4ba74d52e6d51ddf491a0",
+        "evidence_sha256": "e96a94799864560c346aba67938b5b6040261f2e7adbd48f59727ea83b5e27cb",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "c23bbbefcdbd060d2eb6b95c1e52058d3d7678f7d2f4ba74d52e6d51ddf491a0",
+          "reviewed_source_sha256": "c23bbbefcdbd060d2eb6b95c1e52058d3d7678f7d2f4ba74d52e6d51ddf491a0",
+          "duration": 16.966667,
+          "timestamps": [
+            0.0,
+            8.408,
+            16.817
+          ],
+          "source_frame_hashes": [
+            "e39c1416be688a60366b7fc9a89c7ce1b3f7060b546a9f54c87c87fe7c8b2454",
+            "a8767c1178b3a55409e2e2b5333aac3eb8dad3bbcaddb534cf39f26add852f68",
+            "2bce459b4fc080c3baf124844d27d4e9545ea8de0521a6a5071bfbf777726d09"
+          ],
+          "headline": "alle brennen",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game UI visible with item cards and chat, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in frames",
+            "payoff": "No clear payoff visible in frames",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.04065721642706874,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft menu with three items displayed, a top bar with game stats, and a small facecam panel in the bottom left. The text 'alle brennen' is centered at the top. The frame at 8.41 seconds shows gameplay: ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            8.408,
+            16.817
+          ],
+          "final_frame_hashes": [
+            "14de4510d4eaaae16f553254d13a374664262c58cfa754815970aefbba814b1b",
+            "c5c232e99e7698dee055a0081280b51bf62b99d18b3c62429ba1115f2edb543a",
+            "7a3a64b8cb3cd2eaf04e969f774dcd7f323a139caea0d268597c30646d50378a"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "9d2e57d764189d2be0df259fa6c5c85b106d9319430b0eeb3c429e62a6907cb5",
+          "transcript_sha256": "7c34d2dff41c38f5f30b17bc9fc5624cca9d7ec8f1c8bbf384cb8ea350b8ff1b"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft menu with three items displayed, a top bar with game stats, and a small facecam panel in the bottom left. The text 'alle brennen' is centered at the top. The frame at 8.41 seconds shows gameplay: "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0407, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-1876121174-9d2e57d76418-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1234041558",

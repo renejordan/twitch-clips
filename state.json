@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702050992753364256",
       "sent_at": "2026-10-29T11:32:58Z",
       "verified_at": "2026-10-29T11:33:08Z"
+    },
+    {
+      "clip_id": "795733605",
+      "reserved_at": "2026-10-29T12:23:07Z",
+      "streamer": "gtimetv",
+      "sha256": "3188d7ac9f030091d761d0875126ac7454cabaaab172c5ea5fbbddab3904a57b",
+      "source_sha256": "c14bfe5980c97d3afcd980f37d42fed270c9883ba88fca115230c38ed760757d",
+      "status": "reserved",
+      "asset_title": "tiktok14-795733605-3188d7ac9f03.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-795733605-3188d7ac9f03.mp4",
+      "clip_slug": "SpookyHappyPotNerfRedBlaster-ESzrFBfh3LaOCs2i",
+      "original_created_at": "2026-10-29T08:17:15Z",
+      "source_deadline": "2026-11-01T08:17:15Z"
     }
   ],
   "last_production": {

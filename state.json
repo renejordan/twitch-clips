@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702124598862630177",
       "sent_at": "2026-10-29T16:18:36Z",
       "verified_at": "2026-10-29T16:18:50Z"
+    },
+    {
+      "clip_id": "1876121174",
+      "reserved_at": "2026-10-29T17:19:14Z",
+      "streamer": "metashi12",
+      "sha256": "9d2e57d764189d2be0df259fa6c5c85b106d9319430b0eeb3c429e62a6907cb5",
+      "source_sha256": "c23bbbefcdbd060d2eb6b95c1e52058d3d7678f7d2f4ba74d52e6d51ddf491a0",
+      "status": "reserved",
+      "asset_title": "tiktok14-1876121174-9d2e57d76418.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-1876121174-9d2e57d76418.mp4",
+      "clip_slug": "CarefulTsundereToothNononoCat-VcllH_jsLyqXwpXU",
+      "original_created_at": "2026-10-29T11:35:53Z",
+      "source_deadline": "2026-11-01T11:35:53Z"
     }
   ],
   "last_production": {

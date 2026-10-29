@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "4159668067",
-      "clip_slug": "PoorFamousWalrusYouWHY-gzJeltG8h9UUJnjW",
-      "streamer": "eliasn97",
-      "source_url": "https://www.twitch.tv/eliasn97/clip/PoorFamousWalrusYouWHY-gzJeltG8h9UUJnjW",
-      "original_title": "Titanen gefallen",
-      "hook": "Titanen gefallen",
-      "caption": "Titanen gefallen\n#gaming #minecraft #twitchclips #eliasn97 #gamer",
-      "views_at_selection": 244,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-28T20:44:08Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-4159668067-b11b7a5ab882.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-29T20:36:35Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "b11b7a5ab8825333047886500349e9c7833d70a63386cac979694469cfaeb2e3",
-      "category": "Minecraft",
-      "transcript_sha256": "ccf05cd415e3239a584938fc27fb4c4d72b0d8abf38f6323212a597796c43950",
-      "asr_requires_correction": true,
-      "source_sha256": "4d5bc082babbd8f39f380d138b7ebac190b7d5c99efd50a9b0121c1f1d3ff8f5",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-29T20:36:35.016710+00:00",
-        "media_sha256": "b11b7a5ab8825333047886500349e9c7833d70a63386cac979694469cfaeb2e3",
-        "transcript_sha256": "ccf05cd415e3239a584938fc27fb4c4d72b0d8abf38f6323212a597796c43950",
-        "source_sha256": "4d5bc082babbd8f39f380d138b7ebac190b7d5c99efd50a9b0121c1f1d3ff8f5",
-        "evidence_sha256": "85bb361e3fbdb42638a845caefb3221177a5693a388487e879f94721de50cda2",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "4d5bc082babbd8f39f380d138b7ebac190b7d5c99efd50a9b0121c1f1d3ff8f5",
-          "reviewed_source_sha256": "4d5bc082babbd8f39f380d138b7ebac190b7d5c99efd50a9b0121c1f1d3ff8f5",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "5b171e466e30d9f6811fd4645e8d26a2a30f0a6f2df6bca7597ff9381271f43c",
-            "89906c6020f2e077c220d771a3e6348430397a1797f615a72bcfa7b94ee9e465",
-            "976f00085ef53efb7015c674ee1f23dd290ff92400718a2d6c63c3947aadc7ab"
-          ],
-          "headline": "Titanen gefallen",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, no browser or desktop elements, no video player or recursive stream",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, no visible action or outcome",
-            "payoff": "No visible outcome or payoff from action, no clear win/loss or reaction from gameplay or player",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.08534669550060679,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, a title overlay 'Titanen gefallen' at the top, and a small chat window on the left. The gameplay is centered, with the player's hands (",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "1a9bd80806bc098788485e312cb8387f0d841fc0d2d423a7241b6db15624ccbc",
-            "19ab83c04a364483513b38dc5e99fc8cdce407d89056813c3268904311b3d6c5",
-            "2149aa38e4ee1e1e77ae19ed2fe4e47fd45090676c412da4ec5848fd0dca6783"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "b11b7a5ab8825333047886500349e9c7833d70a63386cac979694469cfaeb2e3",
-          "transcript_sha256": "ccf05cd415e3239a584938fc27fb4c4d72b0d8abf38f6323212a597796c43950"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, a title overlay 'Titanen gefallen' at the top, and a small chat window on the left. The gameplay is centered, with the player's hands ("
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0853, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-4159668067-b11b7a5ab882-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1206247462",
@@ -2000,14 +1862,17 @@
       "streamer": "eliasn97",
       "sha256": "b11b7a5ab8825333047886500349e9c7833d70a63386cac979694469cfaeb2e3",
       "source_sha256": "4d5bc082babbd8f39f380d138b7ebac190b7d5c99efd50a9b0121c1f1d3ff8f5",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-4159668067-b11b7a5ab882.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-4159668067-b11b7a5ab882.mp4",
       "clip_slug": "PoorFamousWalrusYouWHY-gzJeltG8h9UUJnjW",
       "original_created_at": "2026-10-28T20:44:08Z",
       "source_deadline": "2026-10-31T20:44:08Z",
       "buffer_post_id": "6ae3b7c0b598658e652ffc3f",
-      "last_reconcile_at": "2026-10-29T21:18:45Z"
+      "last_reconcile_at": "2026-10-29T21:18:45Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702201894013521184",
+      "sent_at": "2026-10-29T21:18:31Z",
+      "verified_at": "2026-10-29T21:18:46Z"
     }
   ],
   "last_production": {

@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "21848544",
+      "clip_slug": "EnticingTangentialArmadilloHassaanChop-vabHNV-ebYU4WUjd",
+      "streamer": "gtimetv",
+      "source_url": "https://www.twitch.tv/gtimetv/clip/EnticingTangentialArmadilloHassaanChop-vabHNV-ebYU4WUjd",
+      "original_title": "Gs Entschluss !!",
+      "hook": "Gs Entschluss !!",
+      "caption": "Gs Entschluss !!\n#gaming #minecraft #twitchclips #gtimetv #gamer",
+      "views_at_selection": 129,
+      "original_duration": 42.0,
+      "original_created_at": "2026-10-29T09:50:33Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-21848544-9c2880401e8f.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-29T14:23:10Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "9c2880401e8fd4505af65a8fb0f52113ad8e4a3ad5201be917cfebd91ff54b5b",
+      "category": "Minecraft",
+      "transcript_sha256": "ea08bef7dcf59455cbb1e0d6c57243135ed26ac2cd91c8a68b6916b8af258c98",
+      "asr_requires_correction": true,
+      "source_sha256": "7512dd76cb3849fa8a6f050dca46f66bda89b1d706fcc6c5804de7fb4a6b741f",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-29T14:23:10.262215+00:00",
+        "media_sha256": "9c2880401e8fd4505af65a8fb0f52113ad8e4a3ad5201be917cfebd91ff54b5b",
+        "transcript_sha256": "ea08bef7dcf59455cbb1e0d6c57243135ed26ac2cd91c8a68b6916b8af258c98",
+        "source_sha256": "7512dd76cb3849fa8a6f050dca46f66bda89b1d706fcc6c5804de7fb4a6b741f",
+        "evidence_sha256": "e2293dd858ca335e2ba05bf7956c5d8a0ea215e018de41bf4c484ade0aa8f579",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "7512dd76cb3849fa8a6f050dca46f66bda89b1d706fcc6c5804de7fb4a6b741f",
+          "reviewed_source_sha256": "7512dd76cb3849fa8a6f050dca46f66bda89b1d706fcc6c5804de7fb4a6b741f",
+          "duration": 42.005,
+          "timestamps": [
+            0.0,
+            20.928,
+            41.855
+          ],
+          "source_frame_hashes": [
+            "2ebf08a9df9f47e4fb6408290fd0612233c1196d034f0186b3fce898faf820d4",
+            "7465b9f9ec5832b8ff5819bf5e61bdc002f3a5872398036d2cbaf6c23b67bf98",
+            "9f2e95b83ecc19fc9ce9aa36f891b2c66884220633e2d334522585e2aeccaada"
+          ],
+          "headline": "Gs Entschluss !!",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay, with game HUD visible including inventory, health, and map, and a small inset video of the streamer.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames provided.",
+            "payoff": "No clear payoff visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.03639294103519113,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, labeled 'WERBUNG' (advertisement), which is a common edited gaming layout. The top of the frame has a white text overlay reading 'Gs Ent",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            20.928,
+            41.855
+          ],
+          "final_frame_hashes": [
+            "82d75dc382be11a020ea8612b67c995969496e3b2c48319a3677b6b6aeff0a04",
+            "18476d59b43904721746559d8864025f7c001fcc2b6c31340c367d22bd346e22",
+            "89308433cb427ee30ba04b0a622e8b8000d621000884f6af9b9a7b1163ced41d"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "9c2880401e8fd4505af65a8fb0f52113ad8e4a3ad5201be917cfebd91ff54b5b",
+          "transcript_sha256": "ea08bef7dcf59455cbb1e0d6c57243135ed26ac2cd91c8a68b6916b8af258c98"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, labeled 'WERBUNG' (advertisement), which is a common edited gaming layout. The top of the frame has a white text overlay reading 'Gs Ent"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0364, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-21848544-9c2880401e8f-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2711270633",

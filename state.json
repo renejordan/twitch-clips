@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "814582439",
-      "reserved_at": "2026-10-22T18:12:38Z",
-      "streamer": "honeypuu",
-      "sha256": "0f55f3c884045f4d584d9799b7b645a09b4eb494dc09b36b437c8bfda966ebc9",
-      "source_sha256": "7ccc0b14ef63c6d9b5cced04534e2238d00cb2e56949c06d581438084d17d7bf",
-      "status": "verified_public",
-      "asset_title": "tiktok14-814582439-0f55f3c88404.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/honeypuu-814582439-0f55f3c88404.mp4",
-      "clip_slug": "ArbitraryDirtyRatCharlieBitMe-trE0ueoN8z9bYXd4",
-      "original_created_at": "2026-10-22T11:13:01Z",
-      "source_deadline": "2026-10-25T11:13:01Z",
-      "buffer_post_id": "6ada521bca69a1b7d3ced2f1",
-      "last_reconcile_at": "2026-10-22T18:14:41Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699556853520354592",
-      "sent_at": "2026-10-22T18:14:27Z",
-      "verified_at": "2026-10-22T18:14:44Z"
-    },
-    {
       "clip_id": "1205574061",
       "reserved_at": "2026-10-22T19:10:36Z",
       "streamer": "castcrafter",
@@ -2526,7 +2508,7 @@
   ],
   "last_prepare_hour": "2026-10-29T17",
   "last_prefetch_hour": "2026-10-29T17",
-  "archived_verified_count": 68,
+  "archived_verified_count": 69,
   "used_ids": [
     "1014059590",
     "1028276668",
@@ -2619,7 +2601,8 @@
     "695413753",
     "744502353",
     "761785150",
-    "781900318"
+    "781900318",
+    "814582439"
   ],
   "archived_rejected_count": 24
 }

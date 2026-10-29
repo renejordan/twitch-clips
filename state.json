@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "1234041558",
-      "reserved_at": "2026-10-22T16:31:16Z",
-      "streamer": "niekbeats",
-      "sha256": "c67aa53afd409d8590bb7ef5343da8dfc4e99326883aa96f8e4481b39d310b93",
-      "source_sha256": "cb8fe30d763aeaf6e6d7c8a4abab0e005341195de4b620ca60a43abf23c760e3",
-      "status": "verified_public",
-      "asset_title": "tiktok14-1234041558-c67aa53afd40.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-1234041558-c67aa53afd40.mp4",
-      "clip_slug": "MuddyKindMinkResidentSleeper-nuGwpYiyLDj-mlOP",
-      "original_created_at": "2026-10-22T14:16:06Z",
-      "source_deadline": "2026-10-25T14:16:06Z",
-      "buffer_post_id": "6ada3a589a8a68d3cd6d6d0b",
-      "last_reconcile_at": "2026-10-22T16:37:17Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699530849414384929",
-      "sent_at": "2026-10-22T16:33:53Z",
-      "verified_at": "2026-10-22T16:37:19Z"
-    },
-    {
       "clip_id": "3165684609",
       "reserved_at": "2026-10-22T17:23:00Z",
       "streamer": "metashi12",
@@ -2120,15 +2102,6 @@
   },
   "rejected": [
     {
-      "clip_id": "3788147556",
-      "clip_slug": "ElatedEnergeticCrabHotPokket-t9yssoIGkdq5jlT6",
-      "streamer": "niekbeats",
-      "source_url": "https://www.twitch.tv/niekbeats/clip/ElatedEnergeticCrabHotPokket-t9yssoIGkdq5jlT6",
-      "status": "quality_rejected",
-      "created_at": "2026-10-22T16:42:51Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
       "clip_id": "70062120",
       "clip_slug": "PuzzledDeadDolphinYouWHY-FE3Nr7JQg8Deu8-h",
       "streamer": "papaplatte",
@@ -2553,7 +2526,7 @@
   ],
   "last_prepare_hour": "2026-10-29T16",
   "last_prefetch_hour": "2026-10-29T16",
-  "archived_verified_count": 66,
+  "archived_verified_count": 67,
   "used_ids": [
     "1014059590",
     "1028276668",
@@ -2562,6 +2535,7 @@
     "1071665880",
     "1086399308",
     "1090220916",
+    "1234041558",
     "1266944851",
     "1322757433",
     "1327874565",
@@ -2623,6 +2597,7 @@
     "3713714204",
     "3728302698",
     "3784756528",
+    "3788147556",
     "3835744608",
     "3857817711",
     "3858506260",
@@ -2645,5 +2620,5 @@
     "761785150",
     "781900318"
   ],
-  "archived_rejected_count": 23
+  "archived_rejected_count": 24
 }

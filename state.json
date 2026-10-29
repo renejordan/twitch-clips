@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "4178141113",
-      "clip_slug": "DifficultDeterminedSquidTBTacoRight-v3dxRC6HKg8NeSKN",
-      "streamer": "gtimetv",
-      "source_url": "https://www.twitch.tv/gtimetv/clip/DifficultDeterminedSquidTBTacoRight-v3dxRC6HKg8NeSKN",
-      "original_title": "g äussert sich zu den Hatern und arbeitet weiter für die Titanen",
-      "hook": "g äussert sich zu den Hatern und arbeitet weiter…",
-      "caption": "g äussert sich zu den Hatern und arbeitet weiter…\n#gaming #minecraft #twitchclips #gtimetv #gamer",
-      "views_at_selection": 123,
-      "original_duration": 28.0,
-      "original_created_at": "2026-10-29T09:30:05Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-4178141113-b58a7c4ae535.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-29T13:24:36Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "b58a7c4ae535f09525150eb0b7dd4c4732008de943e5cd13788dc9ab8e0e281f",
-      "category": "Minecraft",
-      "transcript_sha256": "c884422a6d1f20e562e04047e08b45d98604d8c15a0630c3a8f66d9909ac0cf4",
-      "asr_requires_correction": true,
-      "source_sha256": "0802de2d617661e764ee7f326b52f2c72f3b6434a97afce547010b63622ed167",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-29T13:24:36.139782+00:00",
-        "media_sha256": "b58a7c4ae535f09525150eb0b7dd4c4732008de943e5cd13788dc9ab8e0e281f",
-        "transcript_sha256": "c884422a6d1f20e562e04047e08b45d98604d8c15a0630c3a8f66d9909ac0cf4",
-        "source_sha256": "0802de2d617661e764ee7f326b52f2c72f3b6434a97afce547010b63622ed167",
-        "evidence_sha256": "5ccdbd9043d9183f79268bd87d9da31d17bfc74661f08b7a074f2957844cf8cc",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "0802de2d617661e764ee7f326b52f2c72f3b6434a97afce547010b63622ed167",
-          "reviewed_source_sha256": "0802de2d617661e764ee7f326b52f2c72f3b6434a97afce547010b63622ed167",
-          "duration": 28.766667,
-          "timestamps": [
-            0.0,
-            14.308,
-            28.617
-          ],
-          "source_frame_hashes": [
-            "111d60d04648603d655f9dff021b857206d69dc3ae1a37fd625dfbfbad76de6c",
-            "589d1bd7aec0db9744cf4c775c0b1fcb9ccfb7f530e5d6de2ae459487b6f3ea3",
-            "2eab415fee05aced833dc245015487c5e2f9c5f814d83e0705b9bd6010b7061d"
-          ],
-          "headline": "g äussert sich zu den Hatern und arbeitet weiter…",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay with game HUD visible, including inventory, health, and minimap. No browser or desktop elements visible.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a Minecraft world, holding a tool, with a face camera showing the player's reaction. No clear action or outcome is visible.",
-            "payoff": "No visible outcome or payoff from the player's actions. Gameplay continues without a clear result or reaction from the player or game mechanics.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.02734492665708835,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The text overlay 'g äü",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.308,
-            28.617
-          ],
-          "final_frame_hashes": [
-            "81e17e7f7a34e5f59230a4cbdc5680464efae81915f1edf0ac28a44c5b5b219d",
-            "7aaa15f232a15534edcf9ab7048b5711c94e5a9d33d9ca8242919af79020b3af",
-            "d1aa87882f16154a2a86daf156c373afc16854af4623775059ff9542e537e689"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "b58a7c4ae535f09525150eb0b7dd4c4732008de943e5cd13788dc9ab8e0e281f",
-          "transcript_sha256": "c884422a6d1f20e562e04047e08b45d98604d8c15a0630c3a8f66d9909ac0cf4"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, which is a common edited gaming layout. The game HUD is visible, including the player's inventory and health bar. The text overlay 'g äü"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0273, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-4178141113-b58a7c4ae535-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2711270633",
@@ -2000,14 +1862,17 @@
       "streamer": "gtimetv",
       "sha256": "b58a7c4ae535f09525150eb0b7dd4c4732008de943e5cd13788dc9ab8e0e281f",
       "source_sha256": "0802de2d617661e764ee7f326b52f2c72f3b6434a97afce547010b63622ed167",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-4178141113-b58a7c4ae535.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/gtimetv-4178141113-b58a7c4ae535.mp4",
       "clip_slug": "DifficultDeterminedSquidTBTacoRight-v3dxRC6HKg8NeSKN",
       "original_created_at": "2026-10-29T09:30:05Z",
       "source_deadline": "2026-11-01T09:30:05Z",
       "buffer_post_id": "6ae355553173bf37af4e7f5e",
-      "last_reconcile_at": "2026-10-29T14:18:46Z"
+      "last_reconcile_at": "2026-10-29T14:18:46Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702093665950387488",
+      "sent_at": "2026-10-29T14:18:37Z",
+      "verified_at": "2026-10-29T14:18:47Z"
     }
   ],
   "last_production": {

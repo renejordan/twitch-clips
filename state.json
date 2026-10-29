@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702171519413194016",
       "sent_at": "2026-10-29T19:20:36Z",
       "verified_at": "2026-10-29T19:20:46Z"
+    },
+    {
+      "clip_id": "4289777201",
+      "reserved_at": "2026-10-29T20:30:58Z",
+      "streamer": "xrohat",
+      "sha256": "f520c569daa7a0c061b158be0afe3a184cd833f5c1d599fe1f478e17d0a6a8d7",
+      "source_sha256": "fb81210e52ccdb8bcea16f421e4f3bcdcb4668d233421e0e199f6de865bbdf2b",
+      "status": "reserved",
+      "asset_title": "tiktok14-4289777201-f520c569daa7.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/xrohat-4289777201-f520c569daa7.mp4",
+      "clip_slug": "EmpathicSmoggyWombatBudStar-XNKco5-49z8kIdcJ",
+      "original_created_at": "2026-10-29T19:50:33Z",
+      "source_deadline": "2026-11-01T19:50:33Z"
     }
   ],
   "last_production": {

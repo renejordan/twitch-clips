@@ -2000,12 +2000,13 @@
       "streamer": "bonjwa",
       "sha256": "65bff8df0e4d54e812dc3f4eb261116ccaf42a5d3c4c2e335bc8304cbc08fbce",
       "source_sha256": "f4641d58ac884266da8d54c32587e53cf0cca359427dfc58850c28364d92a276",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3710024238-65bff8df0e4d.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bonjwa-3710024238-65bff8df0e4d.mp4",
       "clip_slug": "DarkAnnoyingNoodleFloof-qbm6nGTu6jjtKjex",
       "original_created_at": "2026-10-28T21:23:57Z",
-      "source_deadline": "2026-10-31T21:23:57Z"
+      "source_deadline": "2026-10-31T21:23:57Z",
+      "buffer_post_id": "6ae38d90313060a14e22602f"
     }
   ],
   "last_production": {

@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702110378586541344",
       "sent_at": "2026-10-29T15:23:07Z",
       "verified_at": "2026-10-29T15:35:12Z"
+    },
+    {
+      "clip_id": "3078689777",
+      "reserved_at": "2026-10-29T16:16:50Z",
+      "streamer": "handofblood",
+      "sha256": "77e00b15ea679ee46bc70c352491c10b67f00062f77be783a4dd401403b2a27d",
+      "source_sha256": "76cad720163db6ba93c46fdd1c3da5d5168eb1359e9eeaed85c75976580f0801",
+      "status": "reserved",
+      "asset_title": "tiktok14-3078689777-77e00b15ea67.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-3078689777-77e00b15ea67.mp4",
+      "clip_slug": "InexpensiveRamshackleDaikonJKanStyle-hWYmWjt73zJEl4KS",
+      "original_created_at": "2026-10-28T17:47:19Z",
+      "source_deadline": "2026-10-31T17:47:19Z"
     }
   ],
   "last_production": {

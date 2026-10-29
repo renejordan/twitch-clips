@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "4289777201",
+      "clip_slug": "EmpathicSmoggyWombatBudStar-XNKco5-49z8kIdcJ",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/EmpathicSmoggyWombatBudStar-XNKco5-49z8kIdcJ",
+      "original_title": "noch nie habe ich ihn so rennen gesehen",
+      "hook": "noch nie habe ich ihn so rennen gesehen",
+      "caption": "noch nie habe ich ihn so rennen gesehen\n#gaming #valorant #twitchclips #xrohat #gamer",
+      "views_at_selection": 75,
+      "original_duration": 23.0,
+      "original_created_at": "2026-10-29T19:50:33Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/xrohat-4289777201-f520c569daa7.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-29T20:20:50Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "f520c569daa7a0c061b158be0afe3a184cd833f5c1d599fe1f478e17d0a6a8d7",
+      "category": "VALORANT",
+      "transcript_sha256": "572930926f07795cece6ca1b42e94a18470400b6e782e006c6fb60f02633821b",
+      "asr_requires_correction": true,
+      "source_sha256": "fb81210e52ccdb8bcea16f421e4f3bcdcb4668d233421e0e199f6de865bbdf2b",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-29T20:20:50.103495+00:00",
+        "media_sha256": "f520c569daa7a0c061b158be0afe3a184cd833f5c1d599fe1f478e17d0a6a8d7",
+        "transcript_sha256": "572930926f07795cece6ca1b42e94a18470400b6e782e006c6fb60f02633821b",
+        "source_sha256": "fb81210e52ccdb8bcea16f421e4f3bcdcb4668d233421e0e199f6de865bbdf2b",
+        "evidence_sha256": "bfb10a47be5bd1f4ad25c9ac7fc6329b8281c7bc5993bc17448f3bede2fdc307",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "fb81210e52ccdb8bcea16f421e4f3bcdcb4668d233421e0e199f6de865bbdf2b",
+          "reviewed_source_sha256": "fb81210e52ccdb8bcea16f421e4f3bcdcb4668d233421e0e199f6de865bbdf2b",
+          "duration": 23.333333,
+          "timestamps": [
+            0.0,
+            11.592,
+            23.183
+          ],
+          "source_frame_hashes": [
+            "6a980faad2ebf01c036c19c70ea90b4175656c0cd4b84a5023e4f8fa8de92959",
+            "656d7a0d112c6f9b101e1b08f3576564f0613e8d2535dcfad4171dcafb93f45f",
+            "a75c7971bc7868033832022319312bbad761fdf6c64b908840ddfdf4e6b32df7"
+          ],
+          "headline": "noch nie habe ich ihn so rennen gesehen",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": true,
+            "standalone_understandable": true,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with score, player health, and weapon info, and a small inset video of the streamer in a room.",
+            "game_name": "Valorant",
+            "hook_score": 5,
+            "payoff_score": 5,
+            "setup": "Player is in a Valorant map, holding a weapon, with a face camera showing the streamer in a room. The streamer is in a room with a couch and a chair, and is holding a microphone.",
+            "payoff": "The player wins the round, as indicated by the 'SIEG' screen with the score '13' and '5'. The streamer is in a room with a couch and a chair, and is holding a microphone. The streamer is in a room with a couch and a seat",
+            "payoff_timestamp": 23.183,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.07098441703059913,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Valorant game scene with a facecam panel in the top left corner, displaying a streamer in a room with a couch and chair, holding a microphone. The game HUD is visible, including the player's weapon and ammo",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            11.592,
+            23.183
+          ],
+          "final_frame_hashes": [
+            "d7c114a8f22b5fb0fe1373d6af133d6784858f05f8af7b203df621da7cc22638",
+            "6324e0415cc42f98f17c8b6c314e9c711605784d8053cf73f7532c27dc4f7934",
+            "3d6782294e1d81e8cf298e0685a1ddbbd612cd5551061c8a3fc8de8547dcc0dc"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "f520c569daa7a0c061b158be0afe3a184cd833f5c1d599fe1f478e17d0a6a8d7",
+          "transcript_sha256": "572930926f07795cece6ca1b42e94a18470400b6e782e006c6fb60f02633821b"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Valorant game scene with a facecam panel in the top left corner, displaying a streamer in a room with a couch and chair, holding a microphone. The game HUD is visible, including the player's weapon and ammo"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0710, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/xrohat-4289777201-f520c569daa7-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1725146422",

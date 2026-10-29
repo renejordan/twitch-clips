@@ -2000,12 +2000,13 @@
       "streamer": "handofblood",
       "sha256": "245dd21763247c97fdc2332791f5d3fc082f6f9173a9d09f2b03ada8e6abd1ba",
       "source_sha256": "58ed4a2aec5fdcd969a9845943b23e07ed08ae6c194f0788ee2c8b213da562e1",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-871461810-245dd2176324.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-871461810-245dd2176324.mp4",
       "clip_slug": "HorribleCrowdedHamburgerBudBlast-N06jOHrf-6-c3-8w",
       "original_created_at": "2026-10-28T15:36:21Z",
-      "source_deadline": "2026-10-31T15:36:21Z"
+      "source_deadline": "2026-10-31T15:36:21Z",
+      "buffer_post_id": "6ae32e801ed1437ba0bcd671"
     }
   ],
   "last_production": {

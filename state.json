@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702155505707355425",
       "sent_at": "2026-10-29T18:18:32Z",
       "verified_at": "2026-10-29T18:18:44Z"
+    },
+    {
+      "clip_id": "834005711",
+      "reserved_at": "2026-10-29T19:18:50Z",
+      "streamer": "letshugotv",
+      "sha256": "f77f548ec8cedf6866c619b1e2ed5d7343bb717dceb9c3b9f32d2e42cfec69eb",
+      "source_sha256": "a2db69f1725a81b97965c52c24fd35399641634c9b4039ed2abc10df883f4f32",
+      "status": "reserved",
+      "asset_title": "tiktok14-834005711-f77f548ec8ce.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-834005711-f77f548ec8ce.mp4",
+      "clip_slug": "GeniusStrangeChinchillaTinyFace-7jL8iPg0aHh8AjXU",
+      "original_created_at": "2026-10-29T16:36:38Z",
+      "source_deadline": "2026-11-01T16:36:38Z"
     }
   ],
   "last_production": {

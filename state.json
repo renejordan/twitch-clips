@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1916848189",
+      "clip_slug": "BlazingPiliableDurianFutureMan-B2GuD1BJ3_-yWXuv",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/BlazingPiliableDurianFutureMan-B2GuD1BJ3_-yWXuv",
+      "original_title": "NoRisk Creeper",
+      "hook": "NoRisk Creeper",
+      "caption": "NoRisk Creeper\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 276,
+      "original_duration": 36.0,
+      "original_created_at": "2026-10-28T15:57:04Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1916848189-ada87f8223c9.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-29T12:29:20Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "ada87f8223c987ea5b86b20a29b9ba33eb6c0a175da3f468a3b090b245d1cae1",
+      "category": "Minecraft",
+      "transcript_sha256": "9bc1fe813d0c1d3765fbdd4b38bcc2f89bf88ba5d87ba34aed506d960a5d4bc0",
+      "asr_requires_correction": true,
+      "source_sha256": "b1a9b7e72a8b26bcbfffaac890249514d9d8f676973370bb3af5c2d443740ea1",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-29T12:29:20.852046+00:00",
+        "media_sha256": "ada87f8223c987ea5b86b20a29b9ba33eb6c0a175da3f468a3b090b245d1cae1",
+        "transcript_sha256": "9bc1fe813d0c1d3765fbdd4b38bcc2f89bf88ba5d87ba34aed506d960a5d4bc0",
+        "source_sha256": "b1a9b7e72a8b26bcbfffaac890249514d9d8f676973370bb3af5c2d443740ea1",
+        "evidence_sha256": "5aaf54a96d293bf1bf4ef81798e802b4f7081f39924c2ce021bfae3e4a0b4ab7",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "b1a9b7e72a8b26bcbfffaac890249514d9d8f676973370bb3af5c2d443740ea1",
+          "reviewed_source_sha256": "b1a9b7e72a8b26bcbfffaac890249514d9d8f676973370bb3af5c2d443740ea1",
+          "duration": 36.0,
+          "timestamps": [
+            0.0,
+            17.925,
+            35.85
+          ],
+          "source_frame_hashes": [
+            "7f523eef573d60a06b336b69f2b56dc9257393e7aecf5fcf12f7728096b734b3",
+            "7cab0dd9fff8867355a925464afee1860ccdd188fe254055ba200446544c73f0",
+            "6ba936cd87b913b5a7be614dbce0a070c8a8f4de33258d67ff551678ad4356e0"
+          ],
+          "headline": "NoRisk Creeper",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": true,
+            "standalone_understandable": true,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay, with a visible game HUD and chat overlay, and a visible game world in the main screen.",
+            "game_name": "Minecraft",
+            "hook_score": 3,
+            "payoff_score": 3,
+            "setup": "Player is in a cave, holding a purple sword, with a visible inventory and chat overlay.",
+            "payoff": "Player dies to a creeper, triggering a 'You Died!' screen with score and respawn options, followed by a return to gameplay after respawning.",
+            "payoff_timestamp": 17.925,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.03432168783269938,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel above the gameplay, which is a normal edited gaming layout. The title 'NoRisk Creeper' is clearly visible at the top. The frame at 17.93 seconds shows the 'You D",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            17.925,
+            35.85
+          ],
+          "final_frame_hashes": [
+            "78094866396757c6147e4eefbac3edfa594d7384a32d97cf6f50696f93668902",
+            "ebc3bc1430c23a752a8090eabd861cf2d41a1e034b99a4db53959c2774e12db3",
+            "8441f0784e1f66f8b27be72b98ee5a44b53a62042c8d8528cad4abb81aa67b8f"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "ada87f8223c987ea5b86b20a29b9ba33eb6c0a175da3f468a3b090b245d1cae1",
+          "transcript_sha256": "9bc1fe813d0c1d3765fbdd4b38bcc2f89bf88ba5d87ba34aed506d960a5d4bc0"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel above the gameplay, which is a normal edited gaming layout. The title 'NoRisk Creeper' is clearly visible at the top. The frame at 17.93 seconds shows the 'You D"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0343, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1916848189-ada87f8223c9-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2078601665",

@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702000365197184288",
       "sent_at": "2026-10-29T08:18:38Z",
       "verified_at": "2026-10-29T08:20:56Z"
+    },
+    {
+      "clip_id": "2850362090",
+      "reserved_at": "2026-10-29T09:14:51Z",
+      "streamer": "eliasn97",
+      "sha256": "5d549deb1dad1c810b662902eb2a251fe1b48c3bb18a43823f027e47cf74dd3c",
+      "source_sha256": "e930d3aee9e809ec1aa4cda30e49e101c979dd5b4c2384f39046c691dc42fc38",
+      "status": "reserved",
+      "asset_title": "tiktok14-2850362090-5d549deb1dad.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-2850362090-5d549deb1dad.mp4",
+      "clip_slug": "MoralCharmingFrogFUNgineer--t_u8XkdGBgngda-",
+      "original_created_at": "2026-10-28T18:34:19Z",
+      "source_deadline": "2026-10-31T18:34:19Z"
     }
   ],
   "last_production": {

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1833080230",
-      "clip_slug": "AbstruseEvilFrogPhilosoraptor-bPllez_jHwMu_KXm",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/AbstruseEvilFrogPhilosoraptor-bPllez_jHwMu_KXm",
-      "original_title": "nooreax nummer leak",
-      "hook": "nooreax nummer leak",
-      "caption": "nooreax nummer leak\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 268,
-      "original_duration": 16.0,
-      "original_created_at": "2026-10-28T19:04:58Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1833080230-66d0ee4fd83c.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-29T00:00:56Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "66d0ee4fd83c3d20a9ca21a9f5cf200df6a5f5aaad52f6d2b68c0dfb3a2547dc",
-      "category": "Minecraft",
-      "transcript_sha256": "827a895325c63d0555983a2b75239abdec084cbd3cacfd90a3c68824b209ab61",
-      "asr_requires_correction": true,
-      "source_sha256": "4858b812a1a9f6bde092df2d1e3b9a0ce984a4dca7ea75260be76e4d7ffb9020",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-29T00:00:56.467284+00:00",
-        "media_sha256": "66d0ee4fd83c3d20a9ca21a9f5cf200df6a5f5aaad52f6d2b68c0dfb3a2547dc",
-        "transcript_sha256": "827a895325c63d0555983a2b75239abdec084cbd3cacfd90a3c68824b209ab61",
-        "source_sha256": "4858b812a1a9f6bde092df2d1e3b9a0ce984a4dca7ea75260be76e4d7ffb9020",
-        "evidence_sha256": "be1c624aab514a760ec405e9d1d05cfaa02f0de89e275a1f69d1bb173c4b5122",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "4858b812a1a9f6bde092df2d1e3b9a0ce984a4dca7ea75260be76e4d7ffb9020",
-          "reviewed_source_sha256": "4858b812a1a9f6bde092df2d1e3b9a0ce984a4dca7ea75260be76e4d7ffb9020",
-          "duration": 16.066667,
-          "timestamps": [
-            0.0,
-            7.958,
-            15.917
-          ],
-          "source_frame_hashes": [
-            "a405b49c53099a674911c007eb94fdfe62af9b2c57b352c5f22672ad582a2b67",
-            "273f7c824b7944aea52927f2590dc5d1b8e49cb330ca2f2fab97455ca44b7f54",
-            "eb35332a3f6776c1ef35a5ec61cd23f08d7fbbe793b1617715413c4240703c12"
-          ],
-          "headline": "nooreax nummer leak",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat overlay, game HUD visible",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, no clear action or outcome",
-            "payoff": "No visible payoff or outcome from actions taken",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.07126843203008475,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a title overlay 'nooreax nummer leak' above a facecam panel, with chat visible below. The frame at 7.96 seconds shows Minecraft gameplay with a facecam panel in the top right, and the title overlay remains. A",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            7.958,
-            15.917
-          ],
-          "final_frame_hashes": [
-            "78318834ec63e67d1b004776842fc7a9ae35a26a473af6fcbfc3a286f5d5f1f4",
-            "7ac786a81ac43159db21af2379b93cfb68541d37d8742170d23d3ba15729382e",
-            "031beaa2c4aef063f02f99e5602aaa28d795bdb78a037601381e25106e851273"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "66d0ee4fd83c3d20a9ca21a9f5cf200df6a5f5aaad52f6d2b68c0dfb3a2547dc",
-          "transcript_sha256": "827a895325c63d0555983a2b75239abdec084cbd3cacfd90a3c68824b209ab61"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a title overlay 'nooreax nummer leak' above a facecam panel, with chat visible below. The frame at 7.96 seconds shows Minecraft gameplay with a facecam panel in the top right, and the title overlay remains. A"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0713, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1833080230-66d0ee4fd83c-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "395432597",
@@ -2000,14 +1862,17 @@
       "streamer": "nooreax",
       "sha256": "66d0ee4fd83c3d20a9ca21a9f5cf200df6a5f5aaad52f6d2b68c0dfb3a2547dc",
       "source_sha256": "4858b812a1a9f6bde092df2d1e3b9a0ce984a4dca7ea75260be76e4d7ffb9020",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1833080230-66d0ee4fd83c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1833080230-66d0ee4fd83c.mp4",
       "clip_slug": "AbstruseEvilFrogPhilosoraptor-bPllez_jHwMu_KXm",
       "original_created_at": "2026-10-28T19:04:58Z",
       "source_deadline": "2026-10-31T19:04:58Z",
       "buffer_post_id": "6ae3007e9c83386213570980",
-      "last_reconcile_at": "2026-10-29T08:20:54Z"
+      "last_reconcile_at": "2026-10-29T08:20:54Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702000365197184288",
+      "sent_at": "2026-10-29T08:18:38Z",
+      "verified_at": "2026-10-29T08:20:56Z"
     }
   ],
   "last_production": {

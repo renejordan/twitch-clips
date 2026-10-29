@@ -2000,12 +2000,13 @@
       "streamer": "nooreax",
       "sha256": "66d0ee4fd83c3d20a9ca21a9f5cf200df6a5f5aaad52f6d2b68c0dfb3a2547dc",
       "source_sha256": "4858b812a1a9f6bde092df2d1e3b9a0ce984a4dca7ea75260be76e4d7ffb9020",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1833080230-66d0ee4fd83c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1833080230-66d0ee4fd83c.mp4",
       "clip_slug": "AbstruseEvilFrogPhilosoraptor-bPllez_jHwMu_KXm",
       "original_created_at": "2026-10-28T19:04:58Z",
-      "source_deadline": "2026-10-31T19:04:58Z"
+      "source_deadline": "2026-10-31T19:04:58Z",
+      "buffer_post_id": "6ae3007e9c83386213570980"
     }
   ],
   "last_production": {

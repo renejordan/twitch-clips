@@ -2385,6 +2385,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-29T19:24:08Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "300388439",
+      "clip_slug": "PowerfulIcyTrianglePanicVis-YJLAsZz_QqN5j-wa",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/PowerfulIcyTrianglePanicVis-YJLAsZz_QqN5j-wa",
+      "status": "quality_rejected",
+      "created_at": "2026-10-29T19:24:08Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

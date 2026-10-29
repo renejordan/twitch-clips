@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "871461810",
+      "clip_slug": "HorribleCrowdedHamburgerBudBlast-N06jOHrf-6-c3-8w",
+      "streamer": "handofblood",
+      "source_url": "https://www.twitch.tv/handofblood/clip/HorribleCrowdedHamburgerBudBlast-N06jOHrf-6-c3-8w",
+      "original_title": "Renter mit Trident",
+      "hook": "Renter mit Trident",
+      "caption": "Renter mit Trident\n#gaming #minecraft #twitchclips #handofblood #gamer",
+      "views_at_selection": 460,
+      "original_duration": 43.0,
+      "original_created_at": "2026-10-28T15:36:21Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-871461810-245dd2176324.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-29T10:30:27Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "245dd21763247c97fdc2332791f5d3fc082f6f9173a9d09f2b03ada8e6abd1ba",
+      "category": "Minecraft",
+      "transcript_sha256": "6df7f8b42e960ff227b44ae361da0364dde56b820f251506896a9accd21b9a3b",
+      "asr_requires_correction": true,
+      "source_sha256": "58ed4a2aec5fdcd969a9845943b23e07ed08ae6c194f0788ee2c8b213da562e1",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-29T10:30:27.557116+00:00",
+        "media_sha256": "245dd21763247c97fdc2332791f5d3fc082f6f9173a9d09f2b03ada8e6abd1ba",
+        "transcript_sha256": "6df7f8b42e960ff227b44ae361da0364dde56b820f251506896a9accd21b9a3b",
+        "source_sha256": "58ed4a2aec5fdcd969a9845943b23e07ed08ae6c194f0788ee2c8b213da562e1",
+        "evidence_sha256": "c1d45470316f28acf3f067e9d2c94a8faae0014b0c74da657cdbca6b58c8e82e",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "58ed4a2aec5fdcd969a9845943b23e07ed08ae6c194f0788ee2c8b213da562e1",
+          "reviewed_source_sha256": "58ed4a2aec5fdcd969a9845943b23e07ed08ae6c194f0788ee2c8b213da562e1",
+          "duration": 43.498,
+          "timestamps": [
+            0.0,
+            21.674,
+            43.348
+          ],
+          "source_frame_hashes": [
+            "51e5166a2bb876c86f114f0856e2ac9601d8e4b0f8740908ae8021e227911b05",
+            "2ab1b274e2ada94836b7bd48dd0eca7c69a33823f4b1f9c40ec789e91bb5f2d5",
+            "8eaf51a483b0d8896f90ae0daa9129b92b18827b56e1a8316679a8617d019c6f"
+          ],
+          "headline": "Renter mit Trident",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay, with a visible game HUD including inventory, health, and chat, and a minimap in the top left corner.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames provided.",
+            "payoff": "No clear payoff visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.06794691082073756,
+          "clipped_fraction": 5.747299846690776e-06,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a small, centered title overlay reading 'Renter mit Trident'. The gameplay includes a minimap, HUD, and a facecam panel in the top right corner. The frame at 21.67 seconds has ",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            21.674,
+            43.348
+          ],
+          "final_frame_hashes": [
+            "c0e05ec6a812ea0c067a352a547be57b2f984f1751ff01a956841828ce84bd91",
+            "f05bb52fd21202d851fa226f5b1e54de25e588ac888a299a3ce501f8c8992579",
+            "2f9d3b4c79aa126f225ca946b3f04b85bbcb584132010c771bfcffeeaf95b4b4"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "245dd21763247c97fdc2332791f5d3fc082f6f9173a9d09f2b03ada8e6abd1ba",
+          "transcript_sha256": "6df7f8b42e960ff227b44ae361da0364dde56b820f251506896a9accd21b9a3b"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a small, centered title overlay reading 'Renter mit Trident'. The gameplay includes a minimap, HUD, and a facecam panel in the top right corner. The frame at 21.67 seconds has "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0679, clipping fraction 0.00001. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-871461810-245dd2176324-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2642584236",

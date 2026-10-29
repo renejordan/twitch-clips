@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "344953320",
-      "clip_slug": "BitterKitschyClintKappaClaus-dHduUSxOlisqq4Bb",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/BitterKitschyClintKappaClaus-dHduUSxOlisqq4Bb",
-      "original_title": "try sprengt die neue",
-      "hook": "try sprengt die neue",
-      "caption": "try sprengt die neue\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 389,
-      "original_duration": 35.0,
-      "original_created_at": "2026-10-28T18:06:14Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-344953320-95d85175cc02.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-29T09:20:47Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "95d85175cc02fa816291a6e2ea29df9c9eafd0908fc94089a9a1e4985c407287",
-      "category": "Minecraft",
-      "transcript_sha256": "7eb8e95d5bbebad01a032c80325297b2c0dbbee179f99a27486fe5e8875a3c03",
-      "asr_requires_correction": true,
-      "source_sha256": "2b39f6dc624c1eaa3569202a9e6f5fdd359aa37983652ec887cc6b6e98f1b28a",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-29T09:20:47.994230+00:00",
-        "media_sha256": "95d85175cc02fa816291a6e2ea29df9c9eafd0908fc94089a9a1e4985c407287",
-        "transcript_sha256": "7eb8e95d5bbebad01a032c80325297b2c0dbbee179f99a27486fe5e8875a3c03",
-        "source_sha256": "2b39f6dc624c1eaa3569202a9e6f5fdd359aa37983652ec887cc6b6e98f1b28a",
-        "evidence_sha256": "02302eab5bcb38b64ec2ce2ef4ceb33baffef53995e0804b472387653d402382",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "2b39f6dc624c1eaa3569202a9e6f5fdd359aa37983652ec887cc6b6e98f1b28a",
-          "reviewed_source_sha256": "2b39f6dc624c1eaa3569202a9e6f5fdd359aa37983652ec887cc6b6e98f1b28a",
-          "duration": 35.983333,
-          "timestamps": [
-            0.0,
-            17.917,
-            35.833
-          ],
-          "source_frame_hashes": [
-            "6d5f17158e79ce26ef36c7d9cd20678d02dd9835a5f5029fe51cf10c43d84755",
-            "1946d1cf6b5d9a10070b863f177c3544f3137c4c49e542dbb5b739c37475de3a",
-            "206b9d6d09fc9602594bced9a06593d00ccf8afad51ce9baa77a6fda25a802a3"
-          ],
-          "headline": "try sprengt die neue",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner with gameplay, HUD, chat, and minimap visible, no browser or desktop elements.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player stands on edge of cliff with inventory open, no clear action or outcome.",
-            "payoff": "No visible outcome or payoff from actions taken; chat and HUD are static or routine.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.0855088555039239,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The game is in a snowy biome with a cliff edge visible. The player's inventory is open, and the HUD,",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            17.917,
-            35.833
-          ],
-          "final_frame_hashes": [
-            "672937523e9d69b44d9d37ad355487d7e4332d5bb52543b5b1ab1a69baa5deee",
-            "4f31492ec076fe1dcb93f56ee60ebc445bc59bb57c6d939807cf94855e614443",
-            "50e987302d72738893a0d8bbc9bbc538b173f0e7d339ea41ca7cdf99b5b17afe"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "95d85175cc02fa816291a6e2ea29df9c9eafd0908fc94089a9a1e4985c407287",
-          "transcript_sha256": "7eb8e95d5bbebad01a032c80325297b2c0dbbee179f99a27486fe5e8875a3c03"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The game is in a snowy biome with a cliff edge visible. The player's inventory is open, and the HUD,"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0855, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-344953320-95d85175cc02-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2642584236",
@@ -2000,14 +1862,17 @@
       "streamer": "trymacs",
       "sha256": "95d85175cc02fa816291a6e2ea29df9c9eafd0908fc94089a9a1e4985c407287",
       "source_sha256": "2b39f6dc624c1eaa3569202a9e6f5fdd359aa37983652ec887cc6b6e98f1b28a",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-344953320-95d85175cc02.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-344953320-95d85175cc02.mp4",
       "clip_slug": "BitterKitschyClintKappaClaus-dHduUSxOlisqq4Bb",
       "original_created_at": "2026-10-28T18:06:14Z",
       "source_deadline": "2026-10-31T18:06:14Z",
       "buffer_post_id": "6ae31eff07196764b372b408",
-      "last_reconcile_at": "2026-10-29T10:26:58Z"
+      "last_reconcile_at": "2026-10-29T10:26:58Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702033927183109408",
+      "sent_at": "2026-10-29T10:26:46Z",
+      "verified_at": "2026-10-29T10:26:59Z"
     }
   ],
   "last_production": {

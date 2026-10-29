@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-29T00:00:56Z",
+    "at": "2026-10-29T08:25:38Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 98,
-      "listing_age_prefilter": 736,
-      "discovered": 896,
-      "metadata_requested": 855,
-      "gaming_category_not_verified": 395,
-      "qualified_metadata": 385,
-      "title_too_short": 75,
-      "duplicate_source_event": 6,
+      "listing_duration_prefilter": 96,
+      "listing_age_prefilter": 724,
+      "discovered": 912,
+      "metadata_requested": 872,
+      "qualified_metadata": 395,
+      "gaming_category_not_verified": 401,
+      "title_too_short": 76,
+      "duplicate_source_event": 5,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1833080230",
-      "clip_slug": "AbstruseEvilFrogPhilosoraptor-bPllez_jHwMu_KXm",
-      "streamer": "nooreax"
+      "clip_id": "2850362090",
+      "clip_slug": "MoralCharmingFrogFUNgineer--t_u8XkdGBgngda-",
+      "streamer": "eliasn97"
     }
   },
   "prepare_scans": {
@@ -2506,8 +2506,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-29T00",
-  "last_prefetch_hour": "2026-10-28T21",
+  "last_prepare_hour": "2026-10-29T08",
+  "last_prefetch_hour": "2026-10-29T08",
   "archived_verified_count": 59,
   "used_ids": [
     "1014059590",

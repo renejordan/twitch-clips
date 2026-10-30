@@ -2000,12 +2000,13 @@
       "streamer": "niekbeats",
       "sha256": "1c2a8f17175fd09b71fb157d640214ef8b8bf6f405a5c66d9bd3a1214d4b728d",
       "source_sha256": "cc18e83ced3a5e11e1dcf5fbe399e1edf07c4834dbadab3fc0aee9066391ac7d",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-434873600-1c2a8f17175f.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-434873600-1c2a8f17175f.mp4",
       "clip_slug": "VainFastBeanHassanChop-kTM4emLLQ_GlqLdD",
       "original_created_at": "2026-10-29T22:03:21Z",
-      "source_deadline": "2026-11-01T22:03:21Z"
+      "source_deadline": "2026-11-01T22:03:21Z",
+      "buffer_post_id": "6ae460fe36e83ed163693e9a"
     }
   ],
   "last_production": {

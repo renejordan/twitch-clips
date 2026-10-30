@@ -2018,12 +2018,13 @@
       "streamer": "niekbeats",
       "sha256": "3e807270ff9c3738cf17a61d77e981128a8d36fbf7b3033e703d5942f72b6418",
       "source_sha256": "8203818e0afb9f5058fab79d21081804fc0ef49cd64fbce92b5bf89caeb82370",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2729527805-3e807270ff9c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-2729527805-3e807270ff9c.mp4",
       "clip_slug": "FlaccidFitWormKappaRoss-LVwbsdI8qF2fk_k8",
       "original_created_at": "2026-10-29T21:51:57Z",
-      "source_deadline": "2026-11-01T21:51:57Z"
+      "source_deadline": "2026-11-01T21:51:57Z",
+      "buffer_post_id": "6ae49a0379ddf9a28af70dfb"
     }
   ],
   "last_production": {

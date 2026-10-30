@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702574000311946529",
       "sent_at": "2026-10-30T21:22:30Z",
       "verified_at": "2026-10-30T21:22:44Z"
+    },
+    {
+      "clip_id": "1411587401",
+      "reserved_at": "2026-10-30T22:18:40Z",
+      "streamer": "letshugotv",
+      "sha256": "94123a06fd46caa1fbd987f3fd5ab938b6de5e64181d7efdcf832794ea1273b1",
+      "source_sha256": "5672983cbdb20c5e2dd24c4901fa8b2390c17811f29492f0cad7c4dd2741ab30",
+      "status": "reserved",
+      "asset_title": "tiktok14-1411587401-94123a06fd46.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-1411587401-94123a06fd46.mp4",
+      "clip_slug": "GracefulAffluentOrangeBrainSlug-kl0dbgcjQXk4Ftti",
+      "original_created_at": "2026-10-30T18:20:20Z",
+      "source_deadline": "2026-11-02T18:20:20Z"
     }
   ],
   "last_production": {

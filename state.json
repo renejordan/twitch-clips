@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-30T11:41:08Z",
+    "at": "2026-10-30T12:32:42Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 82,
-      "listing_age_prefilter": 665,
-      "discovered": 848,
-      "metadata_requested": 792,
-      "gaming_category_not_verified": 317,
-      "title_too_short": 73,
-      "qualified_metadata": 402,
-      "duplicate_source_event": 15,
+      "listing_duration_prefilter": 84,
+      "listing_age_prefilter": 674,
+      "discovered": 821,
+      "metadata_requested": 764,
+      "qualified_metadata": 375,
+      "gaming_category_not_verified": 331,
+      "title_too_short": 58,
+      "duplicate_source_event": 11,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1119957320",
-      "clip_slug": "DependableTenaciousGrouseGivePLZ-o6hGJikJ4Wjn2Efs",
-      "streamer": "eliasn97"
+      "clip_id": "2729527805",
+      "clip_slug": "FlaccidFitWormKappaRoss-LVwbsdI8qF2fk_k8",
+      "streamer": "niekbeats"
     }
   },
   "prepare_scans": {
@@ -2524,8 +2524,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-30T11",
-  "last_prefetch_hour": "2026-10-30T11",
+  "last_prepare_hour": "2026-10-30T12",
+  "last_prefetch_hour": "2026-10-30T12",
   "archived_verified_count": 78,
   "used_ids": [
     "1014059590",

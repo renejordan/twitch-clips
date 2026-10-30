@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3773234796",
+      "clip_slug": "IntelligentJoyousSkunkBuddhaBar-GXvIqTHAjFWUkKcn",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/IntelligentJoyousSkunkBuddhaBar-GXvIqTHAjFWUkKcn",
+      "original_title": "ihhhh",
+      "hook": "ihhhh",
+      "caption": "ihhhh\n#gaming #valorant #twitchclips #eliasn97 #gamer",
+      "views_at_selection": 475,
+      "original_duration": 15.0,
+      "original_created_at": "2026-10-30T19:03:52Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-3773234796-5f16a9413e81.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-30T20:40:32Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "5f16a9413e816e6c846e0f9a7f587bb705db691ec07819b7c9b1e417ce87eac0",
+      "category": "VALORANT",
+      "transcript_sha256": "b2110956927e4258aaa9cd97ca3b041a9058ed29d9d1a113cbebf0aec0a13b0b",
+      "asr_requires_correction": true,
+      "source_sha256": "2d7349783b55d00b9e77fc4cb13f76f4c0848f672c005d86cb55b295b2a7cb51",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-30T20:40:32.260032+00:00",
+        "media_sha256": "5f16a9413e816e6c846e0f9a7f587bb705db691ec07819b7c9b1e417ce87eac0",
+        "transcript_sha256": "b2110956927e4258aaa9cd97ca3b041a9058ed29d9d1a113cbebf0aec0a13b0b",
+        "source_sha256": "2d7349783b55d00b9e77fc4cb13f76f4c0848f672c005d86cb55b295b2a7cb51",
+        "evidence_sha256": "868118eb4372d76b5edabcc45eedd314fe86fc831d9b19c89f88f0f810be9b66",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "2d7349783b55d00b9e77fc4cb13f76f4c0848f672c005d86cb55b295b2a7cb51",
+          "reviewed_source_sha256": "2d7349783b55d00b9e77fc4cb13f76f4c0848f672c005d86cb55b295b2a7cb51",
+          "duration": 15.018,
+          "timestamps": [
+            0.0,
+            7.434,
+            14.868
+          ],
+          "source_frame_hashes": [
+            "1af84ae0c618c4d6fa361d706ab10837bc35b486c6a8ff9407821612748661eb",
+            "17b2885b62f6c581a2900f222d41754f00e219b15609292f55cccebe7780b09d",
+            "f527fba3629a59fda4071301c316d4a9f89213488af1c4841308a2080a44065a"
+          ],
+          "headline": "ihhhh",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with health, ammo, score, and player names, no browser or desktop elements",
+            "game_name": "Valorant",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player moves through map with weapon ready, no clear action or outcome visible",
+            "payoff": "No visible outcome or payoff from actions taken in frames, no win/loss or reaction visible",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.03642449462225488,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a split-screen layout with a facecam panel on the left and gameplay on the right. The gameplay is a first-person shooter with a visible HUD, including health, ammo, and a weapon. The facecam panel displays a ",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            7.434,
+            14.868
+          ],
+          "final_frame_hashes": [
+            "341c7ec27bc49416028a6df2c192573e6ec7515bf75d68785c762f44a4fe879f",
+            "5f6a203c2648b14ec6410411124f95d5aae038b7779060598613fd1b18357b2d",
+            "bf53a872d3eddf0728c4c51867f66d8dbbb0f20ecfce86e3d4e10441f4c9e841"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "5f16a9413e816e6c846e0f9a7f587bb705db691ec07819b7c9b1e417ce87eac0",
+          "transcript_sha256": "b2110956927e4258aaa9cd97ca3b041a9058ed29d9d1a113cbebf0aec0a13b0b"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a split-screen layout with a facecam panel on the left and gameplay on the right. The gameplay is a first-person shooter with a visible HUD, including health, ammo, and a weapon. The facecam panel displays a "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0364, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-3773234796-5f16a9413e81-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "402356184",

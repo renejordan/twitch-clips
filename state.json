@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702216950629338400",
       "sent_at": "2026-10-29T22:16:59Z",
       "verified_at": "2026-10-29T22:17:17Z"
+    },
+    {
+      "clip_id": "528049433",
+      "reserved_at": "2026-10-30T08:19:50Z",
+      "streamer": "repaz",
+      "sha256": "ba270d491770c0aec21ebcfca1e356b2da9b51d1d133d4e89f6078867268389c",
+      "source_sha256": "6a7f25005cb7b544c3617e614c25808154d5fb37f3585927e3becb7c62006b5e",
+      "status": "reserved",
+      "asset_title": "tiktok14-528049433-ba270d491770.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-528049433-ba270d491770.mp4",
+      "clip_slug": "SparklySourEchidnaSpicyBoy-ewaV7SDrp4YnNOOz",
+      "original_created_at": "2026-10-29T21:48:23Z",
+      "source_deadline": "2026-11-01T21:48:23Z"
     }
   ],
   "last_production": {

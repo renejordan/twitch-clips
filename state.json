@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2114910595",
+      "clip_slug": "LittleCrunchyFungusPanicBasket-_crOqhZIxYxzWGWx",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/LittleCrunchyFungusPanicBasket-_crOqhZIxYxzWGWx",
+      "original_title": "fuxel void",
+      "hook": "fuxel void",
+      "caption": "fuxel void\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 368,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-30T18:15:47Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-2114910595-34848b1b91f2.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-30T23:44:52Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "34848b1b91f252f7638c81112c757fd8a491a54269347db7b33e21315bca213a",
+      "category": "Minecraft",
+      "transcript_sha256": "07a8dd911f220b726c489401ff81d6a778f6ae1e6ef35fab0a8305bb8ab80071",
+      "asr_requires_correction": true,
+      "source_sha256": "ecdb8c6beb619d1b513a8d4c61423a4e81983334b905aedae0214bb933aacc56",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-30T23:44:52.848223+00:00",
+        "media_sha256": "34848b1b91f252f7638c81112c757fd8a491a54269347db7b33e21315bca213a",
+        "transcript_sha256": "07a8dd911f220b726c489401ff81d6a778f6ae1e6ef35fab0a8305bb8ab80071",
+        "source_sha256": "ecdb8c6beb619d1b513a8d4c61423a4e81983334b905aedae0214bb933aacc56",
+        "evidence_sha256": "2a679e6bdc907015c7dc99cbfdd80ffd3656184518d52a6ce06823e8dce82b54",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "ecdb8c6beb619d1b513a8d4c61423a4e81983334b905aedae0214bb933aacc56",
+          "reviewed_source_sha256": "ecdb8c6beb619d1b513a8d4c61423a4e81983334b905aedae0214bb933aacc56",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "def018869c209e841838b1d747dde08c55e014ddf96cb33a9c70e30e1383d430",
+            "c4b08c140f7fa7804b997c040bffa873b36be1a40071c61b3c2d134ae6f15506",
+            "bbcd6a3508758462a347ea9071034fc6605291017fb0ca62e1d73f4612d71da9"
+          ],
+          "headline": "fuxel void",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in corner, game HUD with inventory and chat, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft underwater, no visible outcome or payoff",
+            "payoff": "No visible outcome or payoff, no clear win/loss or reaction from gameplay or player",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.07924332208419003,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a blue void background, a player character, and a facecam panel in the top right corner. The title 'fuxel void' is displayed prominently at the top center. The frame at 14.93s,",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "cd97d99d2a86c7e194f861a8f67ab8d5c7fee6efb3039379c0501b8d0baeffea",
+            "7119fa906f68d0a7b8350898db67632e1b869178ddb739fbe1dcf601be441bf1",
+            "7159a8072909e4b69271910beb37f7e96b2f5dc6338cf9b295d7257078c67383"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "34848b1b91f252f7638c81112c757fd8a491a54269347db7b33e21315bca213a",
+          "transcript_sha256": "07a8dd911f220b726c489401ff81d6a778f6ae1e6ef35fab0a8305bb8ab80071"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a blue void background, a player character, and a facecam panel in the top right corner. The title 'fuxel void' is displayed prominently at the top center. The frame at 14.93s,"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0792, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-2114910595-34848b1b91f2-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "594654959",

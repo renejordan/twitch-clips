@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-30T15:24:05Z",
+    "at": "2026-10-30T15:43:18Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 80,
+      "listing_duration_prefilter": 68,
       "listing_ok": 100,
-      "discovered": 833,
-      "listing_age_prefilter": 661,
-      "metadata_requested": 781,
-      "gaming_category_not_verified": 312,
+      "discovered": 828,
+      "listing_age_prefilter": 639,
+      "metadata_requested": 772,
+      "qualified_metadata": 379,
+      "gaming_category_not_verified": 330,
       "title_too_short": 63,
-      "qualified_metadata": 406,
-      "duplicate_source_event": 11,
+      "duplicate_source_event": 12,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1158234625",
-      "clip_slug": "AverageImpossibleOpossumBabyRage-uCfm-QGIptjI1CXp",
-      "streamer": "noway4u_sir"
+      "clip_id": "2481694892",
+      "clip_slug": "FuriousOriginalAnteaterDogFace-vETE1caUPfoZjEOg",
+      "streamer": "repaz"
     }
   },
   "prepare_scans": {
@@ -2480,7 +2480,7 @@
     }
   ],
   "last_prepare_hour": "2026-10-30T15",
-  "last_prefetch_hour": "2026-10-30T14",
+  "last_prefetch_hour": "2026-10-30T15",
   "archived_verified_count": 81,
   "used_ids": [
     "1014059590",

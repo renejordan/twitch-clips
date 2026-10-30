@@ -2018,12 +2018,13 @@
       "streamer": "krokoboss",
       "sha256": "72cf82cf2dec8923182a76b5984a9ede50a266d3c511d56f053b51a467bf8808",
       "source_sha256": "cc270db14bcb0ac1ffa1a0721609d267010ffdd28060bd462dd789429823646d",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2679732602-72cf82cf2dec.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2679732602-72cf82cf2dec.mp4",
       "clip_slug": "FastCogentCucumberTheRinger-Zn1tavizIKKoVKnv",
       "original_created_at": "2026-10-29T17:46:34Z",
-      "source_deadline": "2026-11-01T17:46:34Z"
+      "source_deadline": "2026-11-01T17:46:34Z",
+      "buffer_post_id": "6ae4d27410a950f137353562"
     }
   ],
   "last_production": {

@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "2659130194",
-      "reserved_at": "2026-10-23T10:10:36Z",
-      "streamer": "metashi12",
-      "sha256": "e7e7f33925f9e04715fc175632175b0dd76c13fbcb9a1fcf558ddf63cb0bface",
-      "source_sha256": "b912a4869b3676d01437f803710ad3a9621b410ea73adb16c8959c5f7bafe756",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2659130194-e7e7f33925f9.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/metashi12-2659130194-e7e7f33925f9.mp4",
-      "clip_slug": "TriangularFrigidZebraTwitchRPG-cyU5V-ORqYLN59kt",
-      "original_created_at": "2026-10-22T10:13:06Z",
-      "source_deadline": "2026-10-25T10:13:06Z",
-      "buffer_post_id": "6adb329f50cce2289e0bbbe7",
-      "last_reconcile_at": "2026-10-23T10:12:37Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699803708145552672",
-      "sent_at": "2026-10-23T10:12:22Z",
-      "verified_at": "2026-10-23T10:12:39Z"
-    },
-    {
       "clip_id": "857609776",
       "reserved_at": "2026-10-23T11:13:03Z",
       "streamer": "castcrafter",
@@ -2102,24 +2084,6 @@
   },
   "rejected": [
     {
-      "clip_id": "1379735362",
-      "clip_slug": "OptimisticNeighborlyYakOpieOP-CeYEUnlcqoGVcAiW",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/OptimisticNeighborlyYakOpieOP-CeYEUnlcqoGVcAiW",
-      "status": "quality_rejected",
-      "created_at": "2026-10-23T10:19:02Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
-      "clip_id": "1811151050",
-      "clip_slug": "CleanInexpensiveBobaRitzMitz-YZVW8MBb3TLPjRe-",
-      "streamer": "noway4u_sir",
-      "source_url": "https://www.twitch.tv/noway4u_sir/clip/CleanInexpensiveBobaRitzMitz-YZVW8MBb3TLPjRe-",
-      "status": "quality_rejected",
-      "created_at": "2026-10-23T10:19:02Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "1051550056",
       "clip_slug": "BenevolentTolerantPresidentTBTacoLeft-3zgbXjNPhMfRWo9g",
       "streamer": "papaplatte",
@@ -2544,7 +2508,7 @@
   ],
   "last_prepare_hour": "2026-10-30T09",
   "last_prefetch_hour": "2026-10-30T09",
-  "archived_verified_count": 75,
+  "archived_verified_count": 76,
   "used_ids": [
     "1014059590",
     "1028268990",
@@ -2560,6 +2524,7 @@
     "1266944851",
     "1322757433",
     "1327874565",
+    "1379735362",
     "1410757907",
     "1411062380",
     "1428259648",
@@ -2571,6 +2536,7 @@
     "1725146422",
     "1746857233",
     "1776120825",
+    "1811151050",
     "1847050907",
     "1851713066",
     "1858383777",
@@ -2592,6 +2558,7 @@
     "2620158523",
     "263989408",
     "2642584236",
+    "2659130194",
     "2711270633",
     "2805096659",
     "2809276235",
@@ -2650,5 +2617,5 @@
     "781900318",
     "814582439"
   ],
-  "archived_rejected_count": 28
+  "archived_rejected_count": 30
 }

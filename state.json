@@ -2102,51 +2102,6 @@
   },
   "rejected": [
     {
-      "clip_id": "1051550056",
-      "clip_slug": "BenevolentTolerantPresidentTBTacoLeft-3zgbXjNPhMfRWo9g",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/BenevolentTolerantPresidentTBTacoLeft-3zgbXjNPhMfRWo9g",
-      "status": "quality_rejected",
-      "created_at": "2026-10-23T12:54:33Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
-      "clip_id": "3725023108",
-      "clip_slug": "FlirtyRoundFennelVoteYea-3IbksRujUmBr_URp",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/FlirtyRoundFennelVoteYea-3IbksRujUmBr_URp",
-      "status": "quality_rejected",
-      "created_at": "2026-10-23T12:54:33Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
-      "clip_id": "1818374733",
-      "clip_slug": "TubularColdSoybeanSwiftRage-YK1OITFbqGr_7-Gc",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/TubularColdSoybeanSwiftRage-YK1OITFbqGr_7-Gc",
-      "status": "quality_rejected",
-      "created_at": "2026-10-23T12:54:33Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
-      "clip_id": "2347242600",
-      "clip_slug": "DarlingQuaintShingleJebaited-xW4g3b3l_xHElAeC",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/DarlingQuaintShingleJebaited-xW4g3b3l_xHElAeC",
-      "status": "quality_rejected",
-      "created_at": "2026-10-23T13:15:18Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
-      "clip_id": "189326581",
-      "clip_slug": "InventiveGlutenFreeGnatPermaSmug-3-qvqGL386vj5pJs",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/InventiveGlutenFreeGnatPermaSmug-3-qvqGL386vj5pJs",
-      "status": "quality_rejected",
-      "created_at": "2026-10-23T13:15:18Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "2632086512",
       "clip_slug": "ExuberantWiseMangetoutKappaClaus-2Bccw4kOg9dXrxO2",
       "streamer": "nooreax",
@@ -2532,6 +2487,7 @@
     "1028268990",
     "1028276668",
     "1039591187",
+    "1051550056",
     "1064253296",
     "1071665880",
     "1086399308",
@@ -2555,9 +2511,11 @@
     "1746857233",
     "1776120825",
     "1811151050",
+    "1818374733",
     "1847050907",
     "1851713066",
     "1858383777",
+    "189326581",
     "2063564845",
     "206829726",
     "2078601665",
@@ -2569,6 +2527,7 @@
     "2236393291",
     "2242279572",
     "2287042913",
+    "2347242600",
     "2394094226",
     "2484613252",
     "254468887",
@@ -2605,6 +2564,7 @@
     "3706707462",
     "3707302748",
     "3713714204",
+    "3725023108",
     "3728302698",
     "3784756528",
     "3788147556",
@@ -2637,5 +2597,5 @@
     "814582439",
     "857609776"
   ],
-  "archived_rejected_count": 30
+  "archived_rejected_count": 35
 }

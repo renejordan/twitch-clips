@@ -1982,33 +1982,6 @@
   },
   "rejected": [
     {
-      "clip_id": "70062120",
-      "clip_slug": "PuzzledDeadDolphinYouWHY-FE3Nr7JQg8Deu8-h",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/PuzzledDeadDolphinYouWHY-FE3Nr7JQg8Deu8-h",
-      "status": "quality_rejected",
-      "created_at": "2026-10-22T22:39:27Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
-      "clip_id": "3915368290",
-      "clip_slug": "SpunkyFantasticJuiceDBstyle-xV5p09kdVMU4PE_-",
-      "streamer": "castcrafter",
-      "source_url": "https://www.twitch.tv/castcrafter/clip/SpunkyFantasticJuiceDBstyle-xV5p09kdVMU4PE_-",
-      "status": "quality_rejected",
-      "created_at": "2026-10-22T22:39:27Z",
-      "reason": "qa_audio_quality_failed"
-    },
-    {
-      "clip_id": "65589402",
-      "clip_slug": "AbnegateDullTroutSMOrc-_c6PCVCBhoQySuel",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/AbnegateDullTroutSMOrc-_c6PCVCBhoQySuel",
-      "status": "quality_rejected",
-      "created_at": "2026-10-22T22:39:27Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
       "clip_id": "1028268990",
       "clip_slug": "OilySaltyPigeonLeeroyJenkins-XKoGa4nG6jZ7BMKM",
       "streamer": "papaplatte",
@@ -2530,6 +2503,7 @@
     "3857817711",
     "3858506260",
     "385959500",
+    "3915368290",
     "395432597",
     "403364789",
     "4043106256",
@@ -2544,11 +2518,13 @@
     "576576114",
     "60281847",
     "635147332",
+    "65589402",
     "695413753",
+    "70062120",
     "744502353",
     "761785150",
     "781900318",
     "814582439"
   ],
-  "archived_rejected_count": 24
+  "archived_rejected_count": 27
 }

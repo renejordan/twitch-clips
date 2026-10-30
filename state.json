@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2679732602",
-      "clip_slug": "FastCogentCucumberTheRinger-Zn1tavizIKKoVKnv",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/FastCogentCucumberTheRinger-Zn1tavizIKKoVKnv",
-      "original_title": "hacks !?",
-      "hook": "hacks !?",
-      "caption": "hacks !?\n#gaming #valorant #twitchclips #krokoboss #gamer",
-      "views_at_selection": 258,
-      "original_duration": 37.0,
-      "original_created_at": "2026-10-29T17:46:34Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2679732602-72cf82cf2dec.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-30T16:26:12Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "72cf82cf2dec8923182a76b5984a9ede50a266d3c511d56f053b51a467bf8808",
-      "category": "VALORANT",
-      "transcript_sha256": "94f091c4ff6c608466b76a9780dd10e43b2058d68e570f885ce09ee2d8ee9033",
-      "asr_requires_correction": true,
-      "source_sha256": "cc270db14bcb0ac1ffa1a0721609d267010ffdd28060bd462dd789429823646d",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-30T16:26:12.541573+00:00",
-        "media_sha256": "72cf82cf2dec8923182a76b5984a9ede50a266d3c511d56f053b51a467bf8808",
-        "transcript_sha256": "94f091c4ff6c608466b76a9780dd10e43b2058d68e570f885ce09ee2d8ee9033",
-        "source_sha256": "cc270db14bcb0ac1ffa1a0721609d267010ffdd28060bd462dd789429823646d",
-        "evidence_sha256": "9cc9af85f5c45be9b0f90d345d76831e12fd581992f9d99e1518045866c47ada",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "cc270db14bcb0ac1ffa1a0721609d267010ffdd28060bd462dd789429823646d",
-          "reviewed_source_sha256": "cc270db14bcb0ac1ffa1a0721609d267010ffdd28060bd462dd789429823646d",
-          "duration": 37.583333,
-          "timestamps": [
-            0.0,
-            18.717,
-            37.433
-          ],
-          "source_frame_hashes": [
-            "4e8663881cdcf65d6a08068ede6f8f6f914d5e2add69b7bc488f84dddb9d8656",
-            "570a4c6e9aee87b5bbbd14d198f8885d94e3a478eaa9aa983b7557742d1061b7",
-            "81b31946691020267c09262a92c50400bc173666194859a1a580bb1e1dd9029a"
-          ],
-          "headline": "hacks !?",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left: minimap with team names and player icons; top-center: team score and player health; bottom-left: facecam of player; bottom-center: chat window with German text; bottom-right: weapon HUD and ammo count; top-left",
-            "game_name": "Valorant",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a Valorant map, holding a weapon with 25/50 ammo, near a loading dock with a spike planted. The minimap shows enemy positions and team scores. The player is in a corner, with a facecam visible in the bottom.",
-            "payoff": "The player is in a Valorant map, holding a weapon with 25/50 ammo, near a loading dock with a spike planted. The minimap shows enemy positions and team scores. The player is in a corner, with a facecam visible in the. No",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.10702852137211963,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Valorant game scene with a minimap, HUD, and a facecam panel in the bottom left. The text 'hacks !?' is overlaid at the top. The game is in a map with a loading dock and spike. The player is in a corner, as",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            18.717,
-            37.433
-          ],
-          "final_frame_hashes": [
-            "1c105c5204e4fa226d0a115905dc5a366e26cce2084ab28971d1e9dd84b1c2d3",
-            "3a56e106fd7940a53a83bb512d7ceb1db6792955152b698854c5c6a5f066b042",
-            "e18561e18477ddb68313b6de669a21985faff6b882a2fd713bb1c71d279a3a49"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "72cf82cf2dec8923182a76b5984a9ede50a266d3c511d56f053b51a467bf8808",
-          "transcript_sha256": "94f091c4ff6c608466b76a9780dd10e43b2058d68e570f885ce09ee2d8ee9033"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Valorant game scene with a minimap, HUD, and a facecam panel in the bottom left. The text 'hacks !?' is overlaid at the top. The game is in a map with a loading dock and spike. The player is in a corner, as"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1070, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2679732602-72cf82cf2dec-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "510578383",
@@ -2018,14 +1880,17 @@
       "streamer": "krokoboss",
       "sha256": "72cf82cf2dec8923182a76b5984a9ede50a266d3c511d56f053b51a467bf8808",
       "source_sha256": "cc270db14bcb0ac1ffa1a0721609d267010ffdd28060bd462dd789429823646d",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2679732602-72cf82cf2dec.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-2679732602-72cf82cf2dec.mp4",
       "clip_slug": "FastCogentCucumberTheRinger-Zn1tavizIKKoVKnv",
       "original_created_at": "2026-10-29T17:46:34Z",
       "source_deadline": "2026-11-01T17:46:34Z",
       "buffer_post_id": "6ae4d27410a950f137353562",
-      "last_reconcile_at": "2026-10-30T17:24:53Z"
+      "last_reconcile_at": "2026-10-30T17:24:53Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702512726463073569",
+      "sent_at": "2026-10-30T17:24:44Z",
+      "verified_at": "2026-10-30T17:24:55Z"
     }
   ],
   "last_production": {

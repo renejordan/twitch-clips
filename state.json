@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702406077127707936",
       "sent_at": "2026-10-30T10:30:56Z",
       "verified_at": "2026-10-30T10:31:04Z"
+    },
+    {
+      "clip_id": "3173018037",
+      "reserved_at": "2026-10-30T11:35:10Z",
+      "streamer": "handofblood",
+      "sha256": "4cc5ae9efa7f972cc6810a9655108c098d9aa866a2233aa5b87f99feef80ffd0",
+      "source_sha256": "4bb4bdf96935756bd623d04028795db0ac1ac763bcd354037f0ec5b38f43bc2c",
+      "status": "reserved",
+      "asset_title": "tiktok14-3173018037-4cc5ae9efa7f.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-3173018037-4cc5ae9efa7f.mp4",
+      "clip_slug": "GloriousSarcasticCurryTheThing-q0GcgWf2IcfBJ6L5",
+      "original_created_at": "2026-10-29T13:02:48Z",
+      "source_deadline": "2026-11-01T13:02:48Z"
     }
   ],
   "last_production": {

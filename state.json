@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3173018037",
+      "clip_slug": "GloriousSarcasticCurryTheThing-q0GcgWf2IcfBJ6L5",
+      "streamer": "handofblood",
+      "source_url": "https://www.twitch.tv/handofblood/clip/GloriousSarcasticCurryTheThing-q0GcgWf2IcfBJ6L5",
+      "original_title": "⛰️ DEADLY DAYS ROADTRIP 1.0 RELEASE! | !WoWlan⛰️",
+      "hook": "DEADLY DAYS ROADTRIP 1.0 RELEASE! | !WoWlan",
+      "caption": "DEADLY DAYS ROADTRIP 1.0 RELEASE! | !WoWlan\n#gaming #minecraft #twitchclips #handofblood #gamer",
+      "views_at_selection": 410,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-29T13:02:48Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-3173018037-4cc5ae9efa7f.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-30T10:36:12Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "4cc5ae9efa7f972cc6810a9655108c098d9aa866a2233aa5b87f99feef80ffd0",
+      "category": "Minecraft",
+      "transcript_sha256": "32d11cd8fb9f010076c83d693a52bbcfa4694d0f9f390e1ed8aac68c52ac198a",
+      "asr_requires_correction": true,
+      "source_sha256": "4bb4bdf96935756bd623d04028795db0ac1ac763bcd354037f0ec5b38f43bc2c",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-30T10:36:12.757769+00:00",
+        "media_sha256": "4cc5ae9efa7f972cc6810a9655108c098d9aa866a2233aa5b87f99feef80ffd0",
+        "transcript_sha256": "32d11cd8fb9f010076c83d693a52bbcfa4694d0f9f390e1ed8aac68c52ac198a",
+        "source_sha256": "4bb4bdf96935756bd623d04028795db0ac1ac763bcd354037f0ec5b38f43bc2c",
+        "evidence_sha256": "9cfbe4e697e575c10e6b331e632b35f8f9c4624ef83105676160e4b94ed32a7f",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "4bb4bdf96935756bd623d04028795db0ac1ac763bcd354037f0ec5b38f43bc2c",
+          "reviewed_source_sha256": "4bb4bdf96935756bd623d04028795db0ac1ac763bcd354037f0ec5b38f43bc2c",
+          "duration": 30.004,
+          "timestamps": [
+            0.0,
+            14.927,
+            29.854
+          ],
+          "source_frame_hashes": [
+            "067ec5ac1f2154a0b6665b776d8ef9ae6fb6e782f8786868b783cb8054a31795",
+            "767c68857fa137f8e32ae97b833254bf927e3611945ea78a17e7e776e0bf7611",
+            "48bd46321eb3ca19f4c8389a0790900e913bc05d614fce1d6b4461e97882c462"
+          ],
+          "headline": "DEADLY DAYS ROADTRIP 1.0 RELEASE! | !WoWlan",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay, with a visible game HUD including inventory, chat, and minimap, and a visible player character holding a red sword.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames.",
+            "payoff": "No clear payoff visible in the frames. No visible outcome or reaction from the player or game events. No clear tension or reaction from the player or game events. No clear win or loss outcome visible. No clear highlight,",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.07605059457660712,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frames show a Minecraft game session with a facecam panel in the top right corner, a game map in the top left, and a chat window on the right side. The game's HUD is visible, including the player's inventory and health bar. The title 'D",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.927,
+            29.854
+          ],
+          "final_frame_hashes": [
+            "e810728daa43f67a29262ca06e9a74072778734ca3373917330162b73cccbeb5",
+            "8b3b2c92e4b17a97d96426168b174b1d7b98e5999b3a77b9e5c96b3d0a5a0432",
+            "32824deef97feea4ab22a2f9594181bc2c7d05517d2d715ba1689b51275a5316"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "4cc5ae9efa7f972cc6810a9655108c098d9aa866a2233aa5b87f99feef80ffd0",
+          "transcript_sha256": "32d11cd8fb9f010076c83d693a52bbcfa4694d0f9f390e1ed8aac68c52ac198a"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frames show a Minecraft game session with a facecam panel in the top right corner, a game map in the top left, and a chat window on the right side. The game's HUD is visible, including the player's inventory and health bar. The title 'D"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0761, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-3173018037-4cc5ae9efa7f-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "857609776",

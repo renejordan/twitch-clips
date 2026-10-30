@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702465831678119201",
       "sent_at": "2026-10-30T14:22:46Z",
       "verified_at": "2026-10-30T14:29:10Z"
+    },
+    {
+      "clip_id": "1158234625",
+      "reserved_at": "2026-10-30T15:33:28Z",
+      "streamer": "noway4u_sir",
+      "sha256": "1062f6cafc89b853f99affa3420495eaff6c2ec9831cce60b87354812cc08b4d",
+      "source_sha256": "945c2a8d0ccd57b555be74ec17ab8007acf11775eef17459ab44cca9b68e860d",
+      "status": "reserved",
+      "asset_title": "tiktok14-1158234625-1062f6cafc89.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/noway4u_sir-1158234625-1062f6cafc89.mp4",
+      "clip_slug": "AverageImpossibleOpossumBabyRage-uCfm-QGIptjI1CXp",
+      "original_created_at": "2026-10-29T18:30:52Z",
+      "source_deadline": "2026-11-01T18:30:52Z"
     }
   ],
   "last_production": {

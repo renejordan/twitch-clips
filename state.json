@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702527520226184480",
       "sent_at": "2026-10-30T18:22:08Z",
       "verified_at": "2026-10-30T18:22:17Z"
+    },
+    {
+      "clip_id": "2668923222",
+      "reserved_at": "2026-10-30T19:22:53Z",
+      "streamer": "repaz",
+      "sha256": "11c10b6942ab4ecd4d98110e4deadf315c4768278415b2e3a86aeeb0df5eba3b",
+      "source_sha256": "45f40d4b018b2d86825ecc0ff4d45904fc906c7f8f0f9af25a01b559274936a6",
+      "status": "reserved",
+      "asset_title": "tiktok14-2668923222-11c10b6942ab.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2668923222-11c10b6942ab.mp4",
+      "clip_slug": "TemperedAggressiveBasenjiRitzMitz-Bw_bKMnD1GjNRVEU",
+      "original_created_at": "2026-10-30T18:06:23Z",
+      "source_deadline": "2026-11-02T18:06:23Z"
     }
   ],
   "last_production": {

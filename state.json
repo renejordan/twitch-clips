@@ -141,42 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "1206247462",
-      "reserved_at": "2026-10-23T07:12:44Z",
-      "streamer": "castcrafter",
-      "sha256": "b99d11ddc8162ca9dcabd74fe4d2a9c8d3a04c27c0d20173d67bff88edaaa555",
-      "source_sha256": "540628f995398ca156ad5f33a9dca0f8325f335a209a6ffdb4c3920dc1a2284b",
-      "status": "verified_public",
-      "asset_title": "tiktok14-1206247462-b99d11ddc816.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-1206247462-b99d11ddc816.mp4",
-      "clip_slug": "AuspiciousLitigiousCardBloodTrail-AtrXkmaOVTk8zOqv",
-      "original_created_at": "2026-10-22T19:37:48Z",
-      "source_deadline": "2026-10-25T19:37:48Z",
-      "buffer_post_id": "6adb08f20b4dd2dd0c08448d",
-      "last_reconcile_at": "2026-10-23T07:14:35Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699757877082328352",
-      "sent_at": "2026-10-23T07:14:34Z",
-      "verified_at": "2026-10-23T07:14:37Z"
-    },
-    {
-      "clip_id": "1428259648",
-      "reserved_at": "2026-10-23T08:12:37Z",
-      "streamer": "trymacs",
-      "sha256": "69f9f38fa731c277788add0682497dbf426d3f3980d5d96dafd62057e747eadf",
-      "source_sha256": "14fe9866e1f922d45e455882d1770415e19fd16db8040d66dfee259b515fe4bc",
-      "status": "verified_public",
-      "asset_title": "tiktok14-1428259648-69f9f38fa731.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-1428259648-69f9f38fa731.mp4",
-      "clip_slug": "AgileCalmCrabPRChase-M9WF0Td8SLUQByVl",
-      "original_created_at": "2026-10-22T15:45:06Z",
-      "source_deadline": "2026-10-25T15:45:06Z",
-      "buffer_post_id": "6adb16f71e4eba04737651ac",
-      "last_reconcile_at": "2026-10-23T08:14:39Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7699773279543856417",
-      "sent_at": "2026-10-23T08:14:22Z",
-      "verified_at": "2026-10-23T08:14:40Z"
-    },
-    {
       "clip_id": "3633553876",
       "reserved_at": "2026-10-23T09:12:38Z",
       "streamer": "repaz",
@@ -2120,15 +2084,6 @@
   },
   "rejected": [
     {
-      "clip_id": "1028268990",
-      "clip_slug": "OilySaltyPigeonLeeroyJenkins-XKoGa4nG6jZ7BMKM",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/OilySaltyPigeonLeeroyJenkins-XKoGa4nG6jZ7BMKM",
-      "status": "quality_rejected",
-      "created_at": "2026-10-23T07:18:18Z",
-      "reason": "qa_duration_invalid"
-    },
-    {
       "clip_id": "1379735362",
       "clip_slug": "OptimisticNeighborlyYakOpieOP-CeYEUnlcqoGVcAiW",
       "streamer": "krokoboss",
@@ -2562,9 +2517,10 @@
   ],
   "last_prepare_hour": "2026-10-30T01",
   "last_prefetch_hour": "2026-10-29T21",
-  "archived_verified_count": 72,
+  "archived_verified_count": 74,
   "used_ids": [
     "1014059590",
+    "1028268990",
     "1028276668",
     "1039591187",
     "1064253296",
@@ -2572,12 +2528,14 @@
     "1086399308",
     "1090220916",
     "1205574061",
+    "1206247462",
     "1234041558",
     "1266944851",
     "1322757433",
     "1327874565",
     "1410757907",
     "1411062380",
+    "1428259648",
     "1458488875",
     "1526778882",
     "154404618",
@@ -2664,5 +2622,5 @@
     "781900318",
     "814582439"
   ],
-  "archived_rejected_count": 27
+  "archived_rejected_count": 28
 }

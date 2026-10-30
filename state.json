@@ -2000,12 +2000,13 @@
       "streamer": "letshugotv",
       "sha256": "5d883b99577caa3772188171f00a26c5043e23108055dcdc7e782b70ac03ba74",
       "source_sha256": "ef31ea08056bcc97c0c60d01bf50e5a8999fc22c0c6b8297d0b603581533e1fc",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3604136301-5d883b99577c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-3604136301-5d883b99577c.mp4",
       "clip_slug": "MildColdSandwichDatBoi-2V5e5nU95cOsQIoS",
       "original_created_at": "2026-10-30T18:32:15Z",
-      "source_deadline": "2026-11-02T18:32:15Z"
+      "source_deadline": "2026-11-02T18:32:15Z",
+      "buffer_post_id": "6ae4ff79b84259308b9dbffa"
     }
   ],
   "last_production": {

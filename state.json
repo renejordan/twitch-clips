@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "528049433",
-      "clip_slug": "SparklySourEchidnaSpicyBoy-ewaV7SDrp4YnNOOz",
-      "streamer": "repaz",
-      "source_url": "https://www.twitch.tv/repaz/clip/SparklySourEchidnaSpicyBoy-ewaV7SDrp4YnNOOz",
-      "original_title": "Repaz klärt sich Mum von Qoqsik",
-      "hook": "Repaz klärt sich Mum von Qoqsik",
-      "caption": "Repaz klärt sich Mum von Qoqsik\n#gaming #valorant #twitchclips #repaz #gamer",
-      "views_at_selection": 601,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-29T21:48:23Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-528049433-ba270d491770.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-30T01:56:38Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "ba270d491770c0aec21ebcfca1e356b2da9b51d1d133d4e89f6078867268389c",
-      "category": "VALORANT",
-      "transcript_sha256": "ec6ea3ec1f90c05f7333605cf611a3f1f2f0e40cc6338337e4a9a4db71267efe",
-      "asr_requires_correction": true,
-      "source_sha256": "6a7f25005cb7b544c3617e614c25808154d5fb37f3585927e3becb7c62006b5e",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-30T01:56:38.967809+00:00",
-        "media_sha256": "ba270d491770c0aec21ebcfca1e356b2da9b51d1d133d4e89f6078867268389c",
-        "transcript_sha256": "ec6ea3ec1f90c05f7333605cf611a3f1f2f0e40cc6338337e4a9a4db71267efe",
-        "source_sha256": "6a7f25005cb7b544c3617e614c25808154d5fb37f3585927e3becb7c62006b5e",
-        "evidence_sha256": "e987a0fc3de365733bf2de238b8b26889a2b1a1ada85bee103262b915298a9b2",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "6a7f25005cb7b544c3617e614c25808154d5fb37f3585927e3becb7c62006b5e",
-          "reviewed_source_sha256": "6a7f25005cb7b544c3617e614c25808154d5fb37f3585927e3becb7c62006b5e",
-          "duration": 30.005,
-          "timestamps": [
-            0.0,
-            14.928,
-            29.855
-          ],
-          "source_frame_hashes": [
-            "1d906089d206665f6760fdce98d8aedf05aeb2af0e31d997351173cafb8a6394",
-            "71875fdcd40925a9697e989744d6572bcef45aaf58a5b1ff14f6e010b8926a47",
-            "e2cdf68bf3fff9e7acf3e48fbe59c1888780e5219d0a7b867ac47580f8315b4d"
-          ],
-          "headline": "Repaz klärt sich Mum von Qoqsik",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game menu visible with weapon selection, HUD showing player stats and map, no browser or desktop elements",
-            "game_name": "Valorant",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in buy phase with timeout active, no action has been taken yet",
-            "payoff": "No visible outcome or payoff from the action, timeout is still active and no game event has occurred yet",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.05278182176804242,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a game menu with weapon selection, a facecam panel above gameplay, and a title overlay reading 'Repaz klärt sich Mum von Qoqsik'. The frame at 14.93 seconds shows a first-person view of a game with 'BUY PHASE",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.928,
-            29.855
-          ],
-          "final_frame_hashes": [
-            "4d7d570189d4f24d5906458a90c23f4764c503796d968b0d764fd3e686dfdb72",
-            "2bdf08b6861c32a996748d7cab27a4d99cdc03e16c084af8e2527ab02adf6994",
-            "9c5892251be011c96ff65071db67524d08a6c20465513fcb539433a85c136175"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "ba270d491770c0aec21ebcfca1e356b2da9b51d1d133d4e89f6078867268389c",
-          "transcript_sha256": "ec6ea3ec1f90c05f7333605cf611a3f1f2f0e40cc6338337e4a9a4db71267efe"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a game menu with weapon selection, a facecam panel above gameplay, and a title overlay reading 'Repaz klärt sich Mum von Qoqsik'. The frame at 14.93 seconds shows a first-person view of a game with 'BUY PHASE"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0528, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-528049433-ba270d491770-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3633553876",
@@ -2000,14 +1862,17 @@
       "streamer": "repaz",
       "sha256": "ba270d491770c0aec21ebcfca1e356b2da9b51d1d133d4e89f6078867268389c",
       "source_sha256": "6a7f25005cb7b544c3617e614c25808154d5fb37f3585927e3becb7c62006b5e",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-528049433-ba270d491770.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-528049433-ba270d491770.mp4",
       "clip_slug": "SparklySourEchidnaSpicyBoy-ewaV7SDrp4YnNOOz",
       "original_created_at": "2026-10-29T21:48:23Z",
       "source_deadline": "2026-11-01T21:48:23Z",
       "buffer_post_id": "6ae45329ceb12661efd534de",
-      "last_reconcile_at": "2026-10-30T08:21:53Z"
+      "last_reconcile_at": "2026-10-30T08:21:53Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702372733602106656",
+      "sent_at": "2026-10-30T08:21:37Z",
+      "verified_at": "2026-10-30T08:21:54Z"
     }
   ],
   "last_production": {

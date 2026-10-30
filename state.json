@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2443924103",
-      "clip_slug": "GiftedSeductiveHorseNotLikeThis-2nsX-ViOGDnrWXI5",
-      "streamer": "exsl95",
-      "source_url": "https://www.twitch.tv/exsl95/clip/GiftedSeductiveHorseNotLikeThis-2nsX-ViOGDnrWXI5",
-      "original_title": "CLIP des Jahres",
-      "hook": "CLIP des Jahres",
-      "caption": "CLIP des Jahres\n#gaming #minecraft #twitchclips #exsl95 #gamer",
-      "views_at_selection": 242,
-      "original_duration": 46.0,
-      "original_created_at": "2026-10-29T19:16:25Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/exsl95-2443924103-12fe5a21531c.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-30T17:29:03Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "12fe5a21531c5082d8757ce6fb5c6f7c85521e91566bc65a20a3ddd49bbaf5f7",
-      "category": "Minecraft",
-      "transcript_sha256": "8ac19199245a1382cdff375752b7fbe43e2011037a979c087550257aaeee3130",
-      "asr_requires_correction": true,
-      "source_sha256": "d3703505d4f5ea48c30bc56d1550ce7d8455130b941d763a6121c018fef21f43",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-30T17:29:03.253083+00:00",
-        "media_sha256": "12fe5a21531c5082d8757ce6fb5c6f7c85521e91566bc65a20a3ddd49bbaf5f7",
-        "transcript_sha256": "8ac19199245a1382cdff375752b7fbe43e2011037a979c087550257aaeee3130",
-        "source_sha256": "d3703505d4f5ea48c30bc56d1550ce7d8455130b941d763a6121c018fef21f43",
-        "evidence_sha256": "3f268cf26bb1ab6936bd4feceb1f45759406aaef0d7fda3403ae079c088820e6",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "d3703505d4f5ea48c30bc56d1550ce7d8455130b941d763a6121c018fef21f43",
-          "reviewed_source_sha256": "d3703505d4f5ea48c30bc56d1550ce7d8455130b941d763a6121c018fef21f43",
-          "duration": 46.506,
-          "timestamps": [
-            0.0,
-            23.178,
-            46.356
-          ],
-          "source_frame_hashes": [
-            "ee461f6b0f6d1c1f0f0ed1883b9597f8322712a89d7b559752c04f81c8822095",
-            "74ed92cfedff149b04b0f4f3a21645f7f0743f4e2592378e1a7bde7d4e8a3911",
-            "54bacdf85a354d0b6d94ea2541fc75ab2be8e2b71bc5e1d0e27f410578da7cbc"
-          ],
-          "headline": "CLIP des Jahres",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "dialogue_subtitles",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, text overlay present",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in frames",
-            "payoff": "No clear payoff visible in frames",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": true,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.10861200519166331,
-          "clipped_fraction": 1.3438927466076787e-06,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel above the gameplay, which is a common edited gaming layout. The top of the frame displays the text 'CLIP des Jahres' as a title. Below the gameplay, there is a '",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            23.178,
-            46.356
-          ],
-          "final_frame_hashes": [
-            "6be5e09674fb99da36124c7a8b51f87dbe3fb1d9db73a4ba024ef229e8a9b7fb",
-            "6c00c52683a0be0610c539e302dbdff1e918d6956a7569560533b791ca0f4ab3",
-            "b95611934d37b6bd06939c5afa9afad119be258daa043ad7d0fcc4f479aee549"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "12fe5a21531c5082d8757ce6fb5c6f7c85521e91566bc65a20a3ddd49bbaf5f7",
-          "transcript_sha256": "8ac19199245a1382cdff375752b7fbe43e2011037a979c087550257aaeee3130"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel above the gameplay, which is a common edited gaming layout. The top of the frame displays the text 'CLIP des Jahres' as a title. Below the gameplay, there is a '"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1086, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/exsl95-2443924103-12fe5a21531c-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3019148940",
@@ -2018,14 +1880,17 @@
       "streamer": "exsl95",
       "sha256": "12fe5a21531c5082d8757ce6fb5c6f7c85521e91566bc65a20a3ddd49bbaf5f7",
       "source_sha256": "d3703505d4f5ea48c30bc56d1550ce7d8455130b941d763a6121c018fef21f43",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2443924103-12fe5a21531c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/exsl95-2443924103-12fe5a21531c.mp4",
       "clip_slug": "GiftedSeductiveHorseNotLikeThis-2nsX-ViOGDnrWXI5",
       "original_created_at": "2026-10-29T19:16:25Z",
       "source_deadline": "2026-11-01T19:16:25Z",
       "buffer_post_id": "6ae4dfe910a950f13739bb00",
-      "last_reconcile_at": "2026-10-30T18:22:15Z"
+      "last_reconcile_at": "2026-10-30T18:22:15Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702527520226184480",
+      "sent_at": "2026-10-30T18:22:08Z",
+      "verified_at": "2026-10-30T18:22:17Z"
     }
   ],
   "last_production": {

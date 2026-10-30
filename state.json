@@ -2000,12 +2000,13 @@
       "streamer": "handofblood",
       "sha256": "4cc5ae9efa7f972cc6810a9655108c098d9aa866a2233aa5b87f99feef80ffd0",
       "source_sha256": "4bb4bdf96935756bd623d04028795db0ac1ac763bcd354037f0ec5b38f43bc2c",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3173018037-4cc5ae9efa7f.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/handofblood-3173018037-4cc5ae9efa7f.mp4",
       "clip_slug": "GloriousSarcasticCurryTheThing-q0GcgWf2IcfBJ6L5",
       "original_created_at": "2026-10-29T13:02:48Z",
-      "source_deadline": "2026-11-01T13:02:48Z"
+      "source_deadline": "2026-11-01T13:02:48Z",
+      "buffer_post_id": "6ae480f180f61ee5191488f8"
     }
   ],
   "last_production": {

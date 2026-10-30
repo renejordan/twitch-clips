@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2380826220",
+      "clip_slug": "RudeLivelyPineappleBlargNaut-5gMa6IQDsr5Yzkdi",
+      "streamer": "repaz",
+      "source_url": "https://www.twitch.tv/repaz/clip/RudeLivelyPineappleBlargNaut-5gMa6IQDsr5Yzkdi",
+      "original_title": "holy shots",
+      "hook": "holy shots",
+      "caption": "holy shots\n#gaming #valorant #twitchclips #repaz #gamer",
+      "views_at_selection": 396,
+      "original_duration": 17.0,
+      "original_created_at": "2026-10-29T20:45:36Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2380826220-ae9abb64b840.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-30T09:24:38Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "ae9abb64b840123509e8e4de27de5e02df678c3748d664f56b42ab77d112ee69",
+      "category": "VALORANT",
+      "transcript_sha256": "eaf8b0c7a1bfb1bc289f37e5c3e08e9bb0b4387387d1dc8d00c6274d5cc644a8",
+      "asr_requires_correction": true,
+      "source_sha256": "bbac01f8e6b16387264e2089a18f64af4de000d13b18b8c8dfcd981f21537369",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-30T09:24:38.445620+00:00",
+        "media_sha256": "ae9abb64b840123509e8e4de27de5e02df678c3748d664f56b42ab77d112ee69",
+        "transcript_sha256": "eaf8b0c7a1bfb1bc289f37e5c3e08e9bb0b4387387d1dc8d00c6274d5cc644a8",
+        "source_sha256": "bbac01f8e6b16387264e2089a18f64af4de000d13b18b8c8dfcd981f21537369",
+        "evidence_sha256": "0436523a30bdc076b5a661f2cf41e31bb5c12fbc66d650edadfae31faee43b5a",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "bbac01f8e6b16387264e2089a18f64af4de000d13b18b8c8dfcd981f21537369",
+          "reviewed_source_sha256": "bbac01f8e6b16387264e2089a18f64af4de000d13b18b8c8dfcd981f21537369",
+          "duration": 17.967,
+          "timestamps": [
+            0.0,
+            8.909,
+            17.817
+          ],
+          "source_frame_hashes": [
+            "0ca34fd110de5f8bb43f0ba15bd7cd5cee8478dbe94c1a365df4bc93c86f77f2",
+            "90afbdb991647f31892c1cac45a8172c82d9f54bf1ad758df57a66be06dcfba4",
+            "f012ae0520af464b3b7c8690423597da197126725b8e34d2b69effd8ef4e84c6"
+          ],
+          "headline": "holy shots",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay with game HUD visible, including minimap, health, ammo, and score bar.",
+            "game_name": "Valorant",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player aims at enemy in doorway, no visible outcome or payoff.",
+            "payoff": "No visible outcome or payoff; game continues without resolution or reaction from player or enemy.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.12754366471799278,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a top-down view of a game with a facecam panel above gameplay, which is a common edited gaming layout. The game is not a browser or desktop capture as there are no browser elements or desktop window borders. ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            8.909,
+            17.817
+          ],
+          "final_frame_hashes": [
+            "03a1060613ade6e6799f051b74a3939e3622237eea8e0f302f9e445df10048b9",
+            "2b06938672aa370cce8a43b8c95c31ee335b5ffe439ed7eed93e99ac11cead3c",
+            "f6779af631eef1417ead4e479f9a960a53e00d97768f62167f2df7077c07cb77"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "ae9abb64b840123509e8e4de27de5e02df678c3748d664f56b42ab77d112ee69",
+          "transcript_sha256": "eaf8b0c7a1bfb1bc289f37e5c3e08e9bb0b4387387d1dc8d00c6274d5cc644a8"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a top-down view of a game with a facecam panel above gameplay, which is a common edited gaming layout. The game is not a browser or desktop capture as there are no browser elements or desktop window borders. "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.1275, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2380826220-ae9abb64b840-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2659130194",

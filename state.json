@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702562229123665184",
       "sent_at": "2026-10-30T20:36:49Z",
       "verified_at": "2026-10-30T20:37:01Z"
+    },
+    {
+      "clip_id": "3773234796",
+      "reserved_at": "2026-10-30T21:20:45Z",
+      "streamer": "eliasn97",
+      "sha256": "5f16a9413e816e6c846e0f9a7f587bb705db691ec07819b7c9b1e417ce87eac0",
+      "source_sha256": "2d7349783b55d00b9e77fc4cb13f76f4c0848f672c005d86cb55b295b2a7cb51",
+      "status": "reserved",
+      "asset_title": "tiktok14-3773234796-5f16a9413e81.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-3773234796-5f16a9413e81.mp4",
+      "clip_slug": "IntelligentJoyousSkunkBuddhaBar-GXvIqTHAjFWUkKcn",
+      "original_created_at": "2026-10-30T19:03:52Z",
+      "source_deadline": "2026-11-02T19:03:52Z"
     }
   ],
   "last_production": {

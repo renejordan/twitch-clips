@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2668923222",
+      "clip_slug": "TemperedAggressiveBasenjiRitzMitz-Bw_bKMnD1GjNRVEU",
+      "streamer": "repaz",
+      "source_url": "https://www.twitch.tv/repaz/clip/TemperedAggressiveBasenjiRitzMitz-Bw_bKMnD1GjNRVEU",
+      "original_title": "HarryPotter Wall",
+      "hook": "HarryPotter Wall",
+      "caption": "HarryPotter Wall\n#gaming #valorant #twitchclips #repaz #gamer",
+      "views_at_selection": 265,
+      "original_duration": 27.0,
+      "original_created_at": "2026-10-30T18:06:23Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2668923222-11c10b6942ab.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-30T18:25:43Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "11c10b6942ab4ecd4d98110e4deadf315c4768278415b2e3a86aeeb0df5eba3b",
+      "category": "VALORANT",
+      "transcript_sha256": "4f77d47ac65cdfb37c3e06bc48b6962e12427f63bf2d45bdb9575def284ba116",
+      "asr_requires_correction": true,
+      "source_sha256": "45f40d4b018b2d86825ecc0ff4d45904fc906c7f8f0f9af25a01b559274936a6",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-30T18:25:43.871437+00:00",
+        "media_sha256": "11c10b6942ab4ecd4d98110e4deadf315c4768278415b2e3a86aeeb0df5eba3b",
+        "transcript_sha256": "4f77d47ac65cdfb37c3e06bc48b6962e12427f63bf2d45bdb9575def284ba116",
+        "source_sha256": "45f40d4b018b2d86825ecc0ff4d45904fc906c7f8f0f9af25a01b559274936a6",
+        "evidence_sha256": "11ec52ed651388e260bbf3b6cf6899f214d6d00f929a0de1a6474d3c202885f1",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "45f40d4b018b2d86825ecc0ff4d45904fc906c7f8f0f9af25a01b559274936a6",
+          "reviewed_source_sha256": "45f40d4b018b2d86825ecc0ff4d45904fc906c7f8f0f9af25a01b559274936a6",
+          "duration": 27.37,
+          "timestamps": [
+            0.0,
+            13.61,
+            27.22
+          ],
+          "source_frame_hashes": [
+            "cb365fa85ef0fdcbef0b6ecd8ae2feb690392c093745da838fc20b21e4ae6459",
+            "f68fe95d05e51c6b9e7304d59c602ab21a8d424feefb37ec52222fe36ac0c4af",
+            "84028113c0f2281e32bf526a4706bbd802ee49389899a54896f1fa49ee1a8dbc"
+          ],
+          "headline": "HarryPotter Wall",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay is visible, with a small inset showing the streamer's face. The main screen shows first-person shooter gameplay with a map, HUD, and player stats.",
+            "game_name": "Valorant",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "A player is in a Valorant match, holding a weapon and standing in a corridor with a spike point visible.",
+            "payoff": "The player is not engaged in any significant action or outcome; the game continues with no clear payoff or highlight visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.10353200602072665,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a top-down view of a game map with a small facecam panel on the left, a weapon in the player's hand, and a title overlay reading 'HarryPotter Wall'. The game is in a first-person perspective, with a HUD and a",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            13.61,
+            27.22
+          ],
+          "final_frame_hashes": [
+            "40af817fe70954b9f506f7000b9c1d5b1775416d946200d3977b255316981535",
+            "fc0d00bbb0458ab0b7d246350a7369629fdfd1eb5496482ffe837447dc73f563",
+            "daba13e0ffd2c8650694ebe14a277256f73f2ea3153f49f483b625cffe0f53d9"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "11c10b6942ab4ecd4d98110e4deadf315c4768278415b2e3a86aeeb0df5eba3b",
+          "transcript_sha256": "4f77d47ac65cdfb37c3e06bc48b6962e12427f63bf2d45bdb9575def284ba116"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a top-down view of a game map with a small facecam panel on the left, a weapon in the player's hand, and a title overlay reading 'HarryPotter Wall'. The game is in a first-person perspective, with a HUD and a"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.1035, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2668923222-11c10b6942ab-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3019148940",

@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "434873600",
+      "clip_slug": "VainFastBeanHassanChop-kTM4emLLQ_GlqLdD",
+      "streamer": "niekbeats",
+      "source_url": "https://www.twitch.tv/niekbeats/clip/VainFastBeanHassanChop-kTM4emLLQ_GlqLdD",
+      "original_title": "Bruch",
+      "hook": "Bruch",
+      "caption": "Bruch\n#gaming #valorant #twitchclips #niekbeats #gamer",
+      "views_at_selection": 459,
+      "original_duration": 34.0,
+      "original_created_at": "2026-10-29T22:03:21Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-434873600-1c2a8f17175f.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-30T08:25:08Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "1c2a8f17175fd09b71fb157d640214ef8b8bf6f405a5c66d9bd3a1214d4b728d",
+      "category": "VALORANT",
+      "transcript_sha256": "b79d8fc44ae10f085f82189e4f15b0548107929a23b7741c64f7c6cb53e1f9a6",
+      "asr_requires_correction": true,
+      "source_sha256": "cc18e83ced3a5e11e1dcf5fbe399e1edf07c4834dbadab3fc0aee9066391ac7d",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-30T08:25:08.997470+00:00",
+        "media_sha256": "1c2a8f17175fd09b71fb157d640214ef8b8bf6f405a5c66d9bd3a1214d4b728d",
+        "transcript_sha256": "b79d8fc44ae10f085f82189e4f15b0548107929a23b7741c64f7c6cb53e1f9a6",
+        "source_sha256": "cc18e83ced3a5e11e1dcf5fbe399e1edf07c4834dbadab3fc0aee9066391ac7d",
+        "evidence_sha256": "355ab6a673c0a48305409d9b222109615cbdb7425798f1341324df9702dc7fe1",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "cc18e83ced3a5e11e1dcf5fbe399e1edf07c4834dbadab3fc0aee9066391ac7d",
+          "reviewed_source_sha256": "cc18e83ced3a5e11e1dcf5fbe399e1edf07c4834dbadab3fc0aee9066391ac7d",
+          "duration": 34.733333,
+          "timestamps": [
+            0.0,
+            17.292,
+            34.583
+          ],
+          "source_frame_hashes": [
+            "14f6f07c0165a5d68cb331b1b582b78de6ede6053e6dfc44a9337f42096bb3cc",
+            "107a5e661f905ca5001ae5a84591a7f1b79ec61530dd398c88fd5437534298d5",
+            "d24f46d9228d5b516a35cfd69688116f634c2e6fb183875c092c67db2815b609"
+          ],
+          "headline": "Bruch",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay is visible, with a live stream overlay showing a streamer and chat. The game is visible with HUD elements like health, ammo, and a minimap. The game is Overwatch, as indicated by a",
+            "game_name": "Overwatch",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames provided.",
+            "payoff": "No clear payoff visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.05626485912546938,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a top-down view of a game with a facecam panel in the top-left corner, which is a common editing layout for live streams. The game's HUD is visible, including health, ammo, and a minimap. The stream chat is a",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            17.292,
+            34.583
+          ],
+          "final_frame_hashes": [
+            "95387f47e9babdeb57c02fa85e8ccb344a3dbcfdde9a7d9c60ea3309efdf5467",
+            "5d17ce9a9cc2eb5f198831cd26cf89f745fa001af64c94cad9d01efa8f7c30de",
+            "401af8e2ecf0f3f48d6a4e397b8b9722e67ad3c4bb2c0d2b6521fa3159997cc9"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "1c2a8f17175fd09b71fb157d640214ef8b8bf6f405a5c66d9bd3a1214d4b728d",
+          "transcript_sha256": "b79d8fc44ae10f085f82189e4f15b0548107929a23b7741c64f7c6cb53e1f9a6"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a top-down view of a game with a facecam panel in the top-left corner, which is a common editing layout for live streams. The game's HUD is visible, including health, ammo, and a minimap. The stream chat is a"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0563, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-434873600-1c2a8f17175f-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3633553876",

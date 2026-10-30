@@ -2369,6 +2369,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-30T17:29:03Z",
       "reason": "qa_visual_browser_chrome"
+    },
+    {
+      "clip_id": "4087692904",
+      "clip_slug": "ProtectiveGleamingKleeStoneLightning-JySARUPHEe5oVZ0z",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/ProtectiveGleamingKleeStoneLightning-JySARUPHEe5oVZ0z",
+      "status": "quality_rejected",
+      "created_at": "2026-10-30T18:25:43Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

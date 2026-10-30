@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2729527805",
+      "clip_slug": "FlaccidFitWormKappaRoss-LVwbsdI8qF2fk_k8",
+      "streamer": "niekbeats",
+      "source_url": "https://www.twitch.tv/niekbeats/clip/FlaccidFitWormKappaRoss-LVwbsdI8qF2fk_k8",
+      "original_title": "mert trollt",
+      "hook": "mert trollt",
+      "caption": "mert trollt\n#gaming #valorant #twitchclips #niekbeats #gamer",
+      "views_at_selection": 343,
+      "original_duration": 17.0,
+      "original_created_at": "2026-10-29T21:51:57Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-2729527805-3e807270ff9c.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-30T12:32:42Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "3e807270ff9c3738cf17a61d77e981128a8d36fbf7b3033e703d5942f72b6418",
+      "category": "VALORANT",
+      "transcript_sha256": "62761208fb15ed9488cf0c427b63888b64ab474bfe5b340c45649cca4a01d8df",
+      "asr_requires_correction": true,
+      "source_sha256": "8203818e0afb9f5058fab79d21081804fc0ef49cd64fbce92b5bf89caeb82370",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-30T12:32:42.477477+00:00",
+        "media_sha256": "3e807270ff9c3738cf17a61d77e981128a8d36fbf7b3033e703d5942f72b6418",
+        "transcript_sha256": "62761208fb15ed9488cf0c427b63888b64ab474bfe5b340c45649cca4a01d8df",
+        "source_sha256": "8203818e0afb9f5058fab79d21081804fc0ef49cd64fbce92b5bf89caeb82370",
+        "evidence_sha256": "fbc46f6ea166c45180d01dde1e1c43602e0839a1f453587ec1b5634f6382b52f",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "8203818e0afb9f5058fab79d21081804fc0ef49cd64fbce92b5bf89caeb82370",
+          "reviewed_source_sha256": "8203818e0afb9f5058fab79d21081804fc0ef49cd64fbce92b5bf89caeb82370",
+          "duration": 17.728,
+          "timestamps": [
+            0.0,
+            8.789,
+            17.578
+          ],
+          "source_frame_hashes": [
+            "29dc8dc05a68abf30ec8b61fad074d857eac96f02482f2e5023ee4704749cc29",
+            "88448150f010a296329d10a9835d1276310a313932e922244f29b53bfa9eaff7",
+            "54ed824024f722869090b874c91551cf18df69dd686c5ff74540db01751f7295"
+          ],
+          "headline": "mert trollt",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in top-left corner with streamer, game HUD visible with health, ammo, and team scores, chat window visible with player messages, game environment visible with buildings and characters, no browser or D",
+            "game_name": "Valorant",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a Valorant map, aiming at an enemy, with HUD showing health, ammo, and team scores, chat window visible with player messages, no clear outcome or payoff visible",
+            "payoff": "No visible outcome or payoff, player is still in the game, no clear win or loss visible, no clear reaction or event visible",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.09514198163152558,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Valorant game scene with a facecam panel on the left, a chat window, and game HUD elements. The title 'mert trollt' is visible at the top. The frame at 8.79 seconds shows the same layout with a different in",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            8.789,
+            17.578
+          ],
+          "final_frame_hashes": [
+            "58a98e9cc5a6bdff269bbcb21176dd1cd217c10c3d081f0b03518ceb5b759d48",
+            "bd5065238cce4ab21bd29050ba26811fe4d83d23c7485555ec95cd84c4cb88ed",
+            "7d80eb07112c131403d5b9b81f193cbc369052d3373ea56ca5b17647b0e7aece"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "3e807270ff9c3738cf17a61d77e981128a8d36fbf7b3033e703d5942f72b6418",
+          "transcript_sha256": "62761208fb15ed9488cf0c427b63888b64ab474bfe5b340c45649cca4a01d8df"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Valorant game scene with a facecam panel on the left, a chat window, and game HUD elements. The title 'mert trollt' is visible at the top. The frame at 8.79 seconds shows the same layout with a different in"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0951, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/niekbeats-2729527805-3e807270ff9c-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3556975930",

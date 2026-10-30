@@ -2014,27 +2014,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-30T01:56:38Z",
+    "at": "2026-10-30T08:25:08Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
+      "listing_duration_prefilter": 97,
       "listing_ok": 100,
-      "listing_duration_prefilter": 99,
-      "listing_age_prefilter": 680,
-      "discovered": 915,
-      "metadata_requested": 862,
-      "title_too_short": 80,
-      "qualified_metadata": 461,
-      "gaming_category_not_verified": 321,
-      "duplicate_source_event": 11,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_age_prefilter": 669,
+      "discovered": 932,
+      "metadata_requested": 881,
+      "gaming_category_not_verified": 349,
+      "qualified_metadata": 450,
+      "title_too_short": 82,
+      "duplicate_source_event": 10,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_duration_invalid": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "528049433",
-      "clip_slug": "SparklySourEchidnaSpicyBoy-ewaV7SDrp4YnNOOz",
-      "streamer": "repaz"
+      "clip_id": "434873600",
+      "clip_slug": "VainFastBeanHassanChop-kTM4emLLQ_GlqLdD",
+      "streamer": "niekbeats"
     }
   },
   "prepare_scans": {
@@ -2542,8 +2543,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-30T01",
-  "last_prefetch_hour": "2026-10-29T21",
+  "last_prepare_hour": "2026-10-30T08",
+  "last_prefetch_hour": "2026-10-30T08",
   "archived_verified_count": 74,
   "used_ids": [
     "1014059590",

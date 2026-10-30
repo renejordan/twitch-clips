@@ -2018,12 +2018,13 @@
       "streamer": "exsl95",
       "sha256": "12fe5a21531c5082d8757ce6fb5c6f7c85521e91566bc65a20a3ddd49bbaf5f7",
       "source_sha256": "d3703505d4f5ea48c30bc56d1550ce7d8455130b941d763a6121c018fef21f43",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2443924103-12fe5a21531c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/exsl95-2443924103-12fe5a21531c.mp4",
       "clip_slug": "GiftedSeductiveHorseNotLikeThis-2nsX-ViOGDnrWXI5",
       "original_created_at": "2026-10-29T19:16:25Z",
-      "source_deadline": "2026-11-01T19:16:25Z"
+      "source_deadline": "2026-11-01T19:16:25Z",
+      "buffer_post_id": "6ae4dfe910a950f13739bb00"
     }
   ],
   "last_production": {

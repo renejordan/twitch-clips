@@ -2000,12 +2000,13 @@
       "streamer": "repaz",
       "sha256": "11c10b6942ab4ecd4d98110e4deadf315c4768278415b2e3a86aeeb0df5eba3b",
       "source_sha256": "45f40d4b018b2d86825ecc0ff4d45904fc906c7f8f0f9af25a01b559274936a6",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2668923222-11c10b6942ab.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2668923222-11c10b6942ab.mp4",
       "clip_slug": "TemperedAggressiveBasenjiRitzMitz-Bw_bKMnD1GjNRVEU",
       "original_created_at": "2026-10-30T18:06:23Z",
-      "source_deadline": "2026-11-02T18:06:23Z"
+      "source_deadline": "2026-11-02T18:06:23Z",
+      "buffer_post_id": "6ae4ee9034702c2daac99aee"
     }
   ],
   "last_production": {

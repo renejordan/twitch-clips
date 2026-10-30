@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1119957320",
-      "clip_slug": "DependableTenaciousGrouseGivePLZ-o6hGJikJ4Wjn2Efs",
-      "streamer": "eliasn97",
-      "source_url": "https://www.twitch.tv/eliasn97/clip/DependableTenaciousGrouseGivePLZ-o6hGJikJ4Wjn2Efs",
-      "original_title": "frisör",
-      "hook": "frisör",
-      "caption": "frisör\n#gaming #valorant #twitchclips #eliasn97 #gamer",
-      "views_at_selection": 282,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-29T23:07:00Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-1119957320-9a8dd829ebf0.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-30T11:41:08Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "9a8dd829ebf06651fb26c77a3ae5cb033bfb8f175f0769c7950e56df6da7c274",
-      "category": "VALORANT",
-      "transcript_sha256": "e7b0f2c33a676c29c39ccc515fbb814bb4914e27234cd117959abb7a36a83974",
-      "asr_requires_correction": true,
-      "source_sha256": "d929de5f95446920a60287331cd1bcf9804ddaa7900362fde98be74f35d1d99a",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-30T11:41:08.254826+00:00",
-        "media_sha256": "9a8dd829ebf06651fb26c77a3ae5cb033bfb8f175f0769c7950e56df6da7c274",
-        "transcript_sha256": "e7b0f2c33a676c29c39ccc515fbb814bb4914e27234cd117959abb7a36a83974",
-        "source_sha256": "d929de5f95446920a60287331cd1bcf9804ddaa7900362fde98be74f35d1d99a",
-        "evidence_sha256": "346a6e74993244e2d92ffeb76b97a97d8dcd9d1e53bf71b7689854a450fe7c8d",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "d929de5f95446920a60287331cd1bcf9804ddaa7900362fde98be74f35d1d99a",
-          "reviewed_source_sha256": "d929de5f95446920a60287331cd1bcf9804ddaa7900362fde98be74f35d1d99a",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "9c6208c38b7edbd8c13909914f924dc97bd4600f3e8a38332fb8489c6f2fcd71",
-            "316289ab6567d06a0e04c86149760c55b21d5bcca4ab7acc683d532ed0b0998a",
-            "b9823c5d3b120f4cb93afaa81073f95081dc4485052bf900169b91391e83dd6a"
-          ],
-          "headline": "frisör",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, HUD visible, no browser or desktop elements",
-            "game_name": "Valorant",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Valorant, in game lobby or buy phase, no clear action or outcome",
-            "payoff": "No visible outcome or payoff, no win/loss, no clear reaction or result from action",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.08897241732383479,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a first-person view of a Valorant game with a facecam panel in the top-left corner, a game HUD, and a stream chat overlay. The text 'frisör' is visible at the top center. The frame at 14.93 seconds shows the ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "cfb91c7afc7f05a82e73530fc70a780812955ac9f3631bc531da6743f74ccf5c",
-            "0e302279c908843eddb243e82c5563de91504e2d45ef6eab956943a63e65fe42",
-            "05d31498ecd0fadc9f8e50d23c810c60e4a4a569bf94fb2c28613f6a5e9d22b1"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "9a8dd829ebf06651fb26c77a3ae5cb033bfb8f175f0769c7950e56df6da7c274",
-          "transcript_sha256": "e7b0f2c33a676c29c39ccc515fbb814bb4914e27234cd117959abb7a36a83974"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a first-person view of a Valorant game with a facecam panel in the top-left corner, a game HUD, and a stream chat overlay. The text 'frisör' is visible at the top center. The frame at 14.93 seconds shows the "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0890, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-1119957320-9a8dd829ebf0-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3556975930",
@@ -2000,14 +1862,17 @@
       "streamer": "eliasn97",
       "sha256": "9a8dd829ebf06651fb26c77a3ae5cb033bfb8f175f0769c7950e56df6da7c274",
       "source_sha256": "d929de5f95446920a60287331cd1bcf9804ddaa7900362fde98be74f35d1d99a",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1119957320-9a8dd829ebf0.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-1119957320-9a8dd829ebf0.mp4",
       "clip_slug": "DependableTenaciousGrouseGivePLZ-o6hGJikJ4Wjn2Efs",
       "original_created_at": "2026-10-29T23:07:00Z",
       "source_deadline": "2026-11-01T23:07:00Z",
       "buffer_post_id": "6ae48d1714812ff5967de0ae",
-      "last_reconcile_at": "2026-10-30T12:29:00Z"
+      "last_reconcile_at": "2026-10-30T12:29:00Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702436471319399713",
+      "sent_at": "2026-10-30T12:28:47Z",
+      "verified_at": "2026-10-30T12:29:01Z"
     }
   ],
   "last_production": {

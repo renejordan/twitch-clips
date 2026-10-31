@@ -2014,28 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-31T14:28:54Z",
+    "at": "2026-10-31T15:42:49Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 105,
-      "listing_age_prefilter": 728,
-      "discovered": 751,
-      "metadata_requested": 701,
-      "qualified_metadata": 317,
-      "duplicate_source_event": 21,
-      "title_too_short": 61,
-      "gaming_category_not_verified": 323,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_visual_browser_chrome": 1,
+      "listing_duration_prefilter": 96,
+      "listing_age_prefilter": 701,
+      "discovered": 763,
+      "metadata_requested": 712,
+      "qualified_metadata": 324,
+      "duplicate_source_event": 20,
+      "title_too_short": 64,
+      "gaming_category_not_verified": 324,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2464005441",
-      "clip_slug": "WonderfulGrossReubenDuDudu-uDspSXMFXzZGSQcY",
-      "streamer": "letshugotv"
+      "clip_id": "4116346447",
+      "clip_slug": "AgreeableRepleteLocustDansGame-6zpnyVgcYqEttZT8",
+      "streamer": "nooreax"
     }
   },
   "prepare_scans": {
@@ -2525,8 +2524,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-31T14",
-  "last_prefetch_hour": "2026-10-31T14",
+  "last_prepare_hour": "2026-10-31T15",
+  "last_prefetch_hour": "2026-10-31T15",
   "archived_verified_count": 96,
   "used_ids": [
     "1014059590",

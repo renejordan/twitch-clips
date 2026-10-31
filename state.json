@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1222214648",
-      "clip_slug": "CuteTrappedCroissantNomNom-rfuJpDavCPO2iiYk",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/CuteTrappedCroissantNomNom-rfuJpDavCPO2iiYk",
-      "original_title": "Paulfrege über LesleyBunny",
-      "hook": "Paulfrege über LesleyBunny",
-      "caption": "Paulfrege über LesleyBunny\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 128,
-      "original_duration": 60.0,
-      "original_created_at": "2026-10-31T12:36:46Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1222214648-119f842fc5d3.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-31T17:32:17Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "119f842fc5d374a8b78c7883178d3a30c2b518098cdccf06d3aa356b1755a3ee",
-      "category": "Minecraft",
-      "transcript_sha256": "c74589474295e0c57438939501fe0e1039239da400309a68699998607a90d92c",
-      "asr_requires_correction": true,
-      "source_sha256": "45ef8b1b75eda26ce34b72e7590081e2d3f9b7414eca4593426536e71467a697",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-31T17:32:17.092716+00:00",
-        "media_sha256": "119f842fc5d374a8b78c7883178d3a30c2b518098cdccf06d3aa356b1755a3ee",
-        "transcript_sha256": "c74589474295e0c57438939501fe0e1039239da400309a68699998607a90d92c",
-        "source_sha256": "45ef8b1b75eda26ce34b72e7590081e2d3f9b7414eca4593426536e71467a697",
-        "evidence_sha256": "4630adbddd25574b9c0c1207b48107853972e2c770c461ff4266b8cd7e72f6ec",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "45ef8b1b75eda26ce34b72e7590081e2d3f9b7414eca4593426536e71467a697",
-          "reviewed_source_sha256": "45ef8b1b75eda26ce34b72e7590081e2d3f9b7414eca4593426536e71467a697",
-          "duration": 60.0,
-          "timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "source_frame_hashes": [
-            "4698927e9f63bc03244e0f8664a7630bd6ac2b714ee2602165433b944abc511c",
-            "34af4a525701d3223d92f02baaf6966f1aa3d02607dbdd08a0866fd5b5296b49",
-            "abce63f64141fd7010160d00188860e3b5ca519519b25fb13f57a507ee9012e4"
-          ],
-          "headline": "Paulfrege über LesleyBunny",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in top right corner, showing streamer's face and headset, with game view in main area. Game HUD visible with inventory, health, and chat. Chat messages and player names visible. No browser or desktop/",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in frames. No visible outcome or reaction from gameplay or streamer.",
-            "payoff": "No visible outcome or reaction from gameplay or streamer. No clear payoff or highlight visible in frames. No visible win or loss. No clear tension or reaction. No visible result from action. No clear highlight or payoff.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.055249584975284816,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a boat on water, a clear sky, and a title overlay reading 'Paulfrege über LesleyBunny'. The frame at 29.93 seconds shows the same title overlay, but now with a facecam panel in",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            29.925,
-            59.85
-          ],
-          "final_frame_hashes": [
-            "54c61ea44120f0c4500f4c345f46e742f3732ee327457a464082665acc3ea5af",
-            "f019079d6d2b4e7e947eb2a11fedfa0300812309474deed39b14a5204d34707b",
-            "f0c314cb264733017f72cb28abacef37a8a89fa6a017f0a11dc905f0494e2d99"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "119f842fc5d374a8b78c7883178d3a30c2b518098cdccf06d3aa356b1755a3ee",
-          "transcript_sha256": "c74589474295e0c57438939501fe0e1039239da400309a68699998607a90d92c"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a boat on water, a clear sky, and a title overlay reading 'Paulfrege über LesleyBunny'. The frame at 29.93 seconds shows the same title overlay, but now with a facecam panel in"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0552, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1222214648-119f842fc5d3-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2089435146",
@@ -2018,14 +1880,17 @@
       "streamer": "nooreax",
       "sha256": "119f842fc5d374a8b78c7883178d3a30c2b518098cdccf06d3aa356b1755a3ee",
       "source_sha256": "45ef8b1b75eda26ce34b72e7590081e2d3f9b7414eca4593426536e71467a697",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1222214648-119f842fc5d3.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1222214648-119f842fc5d3.mp4",
       "clip_slug": "CuteTrappedCroissantNomNom-rfuJpDavCPO2iiYk",
       "original_created_at": "2026-10-31T12:36:46Z",
       "source_deadline": "2026-11-03T12:36:46Z",
       "buffer_post_id": "6ae63202f0984eef33244695",
-      "last_reconcile_at": "2026-10-31T18:29:00Z"
+      "last_reconcile_at": "2026-10-31T18:29:00Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702899264078236961",
+      "sent_at": "2026-10-31T18:26:41Z",
+      "verified_at": "2026-10-31T18:29:01Z"
     }
   ],
   "last_production": {

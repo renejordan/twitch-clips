@@ -2032,28 +2032,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-31T16:31:15Z",
+    "at": "2026-10-31T17:32:17Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 96,
-      "listing_age_prefilter": 691,
-      "discovered": 735,
-      "metadata_requested": 684,
-      "qualified_metadata": 315,
-      "duplicate_source_event": 20,
-      "title_too_short": 64,
-      "gaming_category_not_verified": 303,
-      "metadata_failed": 2,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_duration_prefilter": 92,
+      "listing_age_prefilter": 743,
+      "discovered": 710,
+      "metadata_requested": 660,
+      "qualified_metadata": 291,
+      "duplicate_source_event": 18,
+      "title_too_short": 57,
+      "gaming_category_not_verified": 312,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_duration_invalid": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3692729936",
-      "clip_slug": "SplendidCreativeSmoothieBleedPurple-tfOOlUR-16zhdMPQ",
-      "streamer": "eliasn97"
+      "clip_id": "1222214648",
+      "clip_slug": "CuteTrappedCroissantNomNom-rfuJpDavCPO2iiYk",
+      "streamer": "nooreax"
     }
   },
   "prepare_scans": {
@@ -2552,8 +2552,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-31T16",
-  "last_prefetch_hour": "2026-10-31T16",
+  "last_prepare_hour": "2026-10-31T17",
+  "last_prefetch_hour": "2026-10-31T17",
   "archived_verified_count": 97,
   "used_ids": [
     "1014059590",

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2464005441",
-      "clip_slug": "WonderfulGrossReubenDuDudu-uDspSXMFXzZGSQcY",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/WonderfulGrossReubenDuDudu-uDspSXMFXzZGSQcY",
-      "original_title": "last trap",
-      "hook": "last trap",
-      "caption": "last trap\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 316,
-      "original_duration": 19.0,
-      "original_created_at": "2026-10-30T18:47:53Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2464005441-5e2febe4c691.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-31T14:28:54Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "5e2febe4c6919fba3efc5f03be3a2ad6fee0457230ee4f8c47de407e387a7870",
-      "category": "Minecraft",
-      "transcript_sha256": "e77c271b2b8e3153c53ee76559056accd974be93d1b00406af8bc17a709b460f",
-      "asr_requires_correction": true,
-      "source_sha256": "08c13842da820e58e4469da99f678803f3d41c99b0131acaf05c6f9c726b53d8",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-31T14:28:54.477718+00:00",
-        "media_sha256": "5e2febe4c6919fba3efc5f03be3a2ad6fee0457230ee4f8c47de407e387a7870",
-        "transcript_sha256": "e77c271b2b8e3153c53ee76559056accd974be93d1b00406af8bc17a709b460f",
-        "source_sha256": "08c13842da820e58e4469da99f678803f3d41c99b0131acaf05c6f9c726b53d8",
-        "evidence_sha256": "eb660a47f5450c7a132ddb51da6a34d719d49b8a9c4f1c602c5818796bdcd98b",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "08c13842da820e58e4469da99f678803f3d41c99b0131acaf05c6f9c726b53d8",
-          "reviewed_source_sha256": "08c13842da820e58e4469da99f678803f3d41c99b0131acaf05c6f9c726b53d8",
-          "duration": 19.516667,
-          "timestamps": [
-            0.0,
-            9.683,
-            19.367
-          ],
-          "source_frame_hashes": [
-            "ce9af9d3579ca619ae1988dca6583320fe32a34e6e72e509167e41144b54a690",
-            "a43a4805d14b79d378fc0b3d0e908dd159bee3bd020df9d507e23c54ba3ac60f",
-            "7cb60d301195d08b4c1079d0b90f0780e168672e98a58b540480a3a898bf495b"
-          ],
-          "headline": "last trap",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Two facecams visible, one on left, one on right, with game UI and chat overlay, no browser or desktop window borders visible, no video player or recursive stream detected.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a Minecraft cave with a red and blue path, no clear action or outcome visible.",
-            "payoff": "No visible outcome or payoff from actions taken, no win/loss or reaction visible in frames provided, no clear payoff or setup payoff observed in frames provided, no clear payoff or setup payoff observed in frames, no win",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.05806779619063878,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a split-screen layout with a Minecraft gameplay panel on the left and a facecam panel on the right. The gameplay panel displays a cave with a red and blue path, and the text 'last trap' is visible as a title.",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            9.683,
-            19.367
-          ],
-          "final_frame_hashes": [
-            "35dd33f8d415854064444bc4ee0a8a832715fdd41bda0881419923bad30c96d7",
-            "87bf9f033fc8c422185187ca703687abe461b11939d8506e62c7aec99ad0a0c9",
-            "f38f4937a6e959a1f4221bcf4ccc4a6f6fccdaced302a59c8ae07a8672656cff"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "5e2febe4c6919fba3efc5f03be3a2ad6fee0457230ee4f8c47de407e387a7870",
-          "transcript_sha256": "e77c271b2b8e3153c53ee76559056accd974be93d1b00406af8bc17a709b460f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a split-screen layout with a Minecraft gameplay panel on the left and a facecam panel on the right. The gameplay panel displays a cave with a red and blue path, and the text 'last trap' is visible as a title."
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0581, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2464005441-5e2febe4c691-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "443088016",
@@ -2000,14 +1862,17 @@
       "streamer": "letshugotv",
       "sha256": "5e2febe4c6919fba3efc5f03be3a2ad6fee0457230ee4f8c47de407e387a7870",
       "source_sha256": "08c13842da820e58e4469da99f678803f3d41c99b0131acaf05c6f9c726b53d8",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2464005441-5e2febe4c691.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2464005441-5e2febe4c691.mp4",
       "clip_slug": "WonderfulGrossReubenDuDudu-uDspSXMFXzZGSQcY",
       "original_created_at": "2026-10-30T18:47:53Z",
       "source_deadline": "2026-11-02T18:47:53Z",
       "buffer_post_id": "6ae60b2aabbfa4c0cc1de409",
-      "last_reconcile_at": "2026-10-31T15:39:09Z"
+      "last_reconcile_at": "2026-10-31T15:39:09Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702856563756649760",
+      "sent_at": "2026-10-31T15:38:58Z",
+      "verified_at": "2026-10-31T15:39:11Z"
     }
   ],
   "last_production": {

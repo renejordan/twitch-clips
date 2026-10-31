@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "50123889",
-      "clip_slug": "BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g",
-      "original_title": "falle nr. 2",
-      "hook": "falle nr. 2",
-      "caption": "falle nr. 2\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 462,
-      "original_duration": 16.0,
-      "original_created_at": "2026-10-30T17:25:35Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-50123889-a9533206cc39.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-31T09:28:12Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "a9533206cc3932d96b0bcfd6b8805ddea02c4a81f65bd8643a857a2608a4d76f",
-      "category": "Minecraft",
-      "transcript_sha256": "8050d96f9653ef50e9fbfa42f927c3ef98b06556316be76273c6a26d1cebd7d6",
-      "asr_requires_correction": true,
-      "source_sha256": "bf82570c942d5477b5f16f460a5008f141fdfb8691f45816bbb351d74e9abe13",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-31T09:28:12.097076+00:00",
-        "media_sha256": "a9533206cc3932d96b0bcfd6b8805ddea02c4a81f65bd8643a857a2608a4d76f",
-        "transcript_sha256": "8050d96f9653ef50e9fbfa42f927c3ef98b06556316be76273c6a26d1cebd7d6",
-        "source_sha256": "bf82570c942d5477b5f16f460a5008f141fdfb8691f45816bbb351d74e9abe13",
-        "evidence_sha256": "01f9b8a35dfd9f733e0746ad5ce1ab20c1711df2e1782dffa042ffd87b98478b",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "bf82570c942d5477b5f16f460a5008f141fdfb8691f45816bbb351d74e9abe13",
-          "reviewed_source_sha256": "bf82570c942d5477b5f16f460a5008f141fdfb8691f45816bbb351d74e9abe13",
-          "duration": 16.733333,
-          "timestamps": [
-            0.0,
-            8.292,
-            16.583
-          ],
-          "source_frame_hashes": [
-            "fbeee4b88b68196dcdab96247974a657e36deaa7cf84936699b25b07b26bf31d",
-            "98efb4f72cb0961107078c114ffba28000381f427fc8a5f8e164cea27c89d398",
-            "a17d35e4597d3307516d9e5c086e0409863260b5eadd93d606d67d5c6fde09e5"
-          ],
-          "headline": "falle nr. 2",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, facing a mob in a stone room with inventory and chat visible.",
-            "payoff": "No visible outcome or payoff; no win/loss or reaction visible in frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.0988660143117683,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top left corner, displaying a streamer. The game's HUD, including inventory and chat, is visible. The title 'falle nr. 2' is overlaid at the top center.帧",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            8.292,
-            16.583
-          ],
-          "final_frame_hashes": [
-            "78e6939c3b544d3b65b6a0e4922fee78822c71536f80ffe59a91c4aa38c1e1dd",
-            "28d73136f21d3860e6cd2bacc05d907e35da95d6c89e6e7b73750c57a7b59cf9",
-            "d7c968cb98c9c15334088603f59e0b392295938e81835245a7753c32c8bc1ce5"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "a9533206cc3932d96b0bcfd6b8805ddea02c4a81f65bd8643a857a2608a4d76f",
-          "transcript_sha256": "8050d96f9653ef50e9fbfa42f927c3ef98b06556316be76273c6a26d1cebd7d6"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top left corner, displaying a streamer. The game's HUD, including inventory and chat, is visible. The title 'falle nr. 2' is overlaid at the top center.帧"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0989, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-50123889-a9533206cc39-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2142163357",
@@ -2000,14 +1862,17 @@
       "streamer": "letshugotv",
       "sha256": "a9533206cc3932d96b0bcfd6b8805ddea02c4a81f65bd8643a857a2608a4d76f",
       "source_sha256": "bf82570c942d5477b5f16f460a5008f141fdfb8691f45816bbb351d74e9abe13",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-50123889-a9533206cc39.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-50123889-a9533206cc39.mp4",
       "clip_slug": "BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g",
       "original_created_at": "2026-10-30T17:25:35Z",
       "source_deadline": "2026-11-02T17:25:35Z",
       "buffer_post_id": "6ae5c3db1891472093c8dfdf",
-      "last_reconcile_at": "2026-10-31T10:34:45Z"
+      "last_reconcile_at": "2026-10-31T10:34:45Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702778156830166305",
+      "sent_at": "2026-10-31T10:34:43Z",
+      "verified_at": "2026-10-31T10:34:47Z"
     }
   ],
   "last_production": {

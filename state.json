@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "2089435146",
-      "reserved_at": "2026-10-24T18:29:33Z",
-      "streamer": "repaz",
-      "sha256": "0651371e6bbabd999d575a5dfc8e90112e4d71c5b5443f00cd3f5635f0d69adb",
-      "source_sha256": "56f528723c1c9030dbd47da49cb5b68466528c9e047c5402dc8ba85e2587c713",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2089435146-0651371e6bba.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-2089435146-0651371e6bba.mp4",
-      "clip_slug": "ObliviousColdGarlicBrokeBack-rVReJHVnXHVgbMGm",
-      "original_created_at": "2026-10-24T16:50:12Z",
-      "source_deadline": "2026-10-27T16:50:12Z",
-      "buffer_post_id": "6adcf910e4be8a4d86720d80",
-      "last_reconcile_at": "2026-10-24T18:34:53Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700303376424258848",
-      "sent_at": "2026-10-24T18:31:25Z",
-      "verified_at": "2026-10-24T18:34:54Z"
-    },
-    {
       "clip_id": "3101807848",
       "reserved_at": "2026-10-24T19:18:41Z",
       "streamer": "zarbex",
@@ -2416,7 +2398,7 @@
   ],
   "last_prepare_hour": "2026-10-31T17",
   "last_prefetch_hour": "2026-10-31T17",
-  "archived_verified_count": 98,
+  "archived_verified_count": 99,
   "used_ids": [
     "1014059590",
     "1028268990",
@@ -2459,6 +2441,7 @@
     "206829726",
     "2078601665",
     "2088617063",
+    "2089435146",
     "212946245",
     "2142163357",
     "215749810",

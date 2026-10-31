@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702778156830166305",
       "sent_at": "2026-10-31T10:34:43Z",
       "verified_at": "2026-10-31T10:34:47Z"
+    },
+    {
+      "clip_id": "1935626676",
+      "reserved_at": "2026-10-31T11:38:50Z",
+      "streamer": "nooreax",
+      "sha256": "eb00e876adf2855b9ad01b4f3f820d86640e77677db418cb0cd6b3546768952d",
+      "source_sha256": "d90e0251e747bb6ac19e801ab26472e69a8e4c63d8a03298cba0b3979d508a97",
+      "status": "reserved",
+      "asset_title": "tiktok14-1935626676-eb00e876adf2.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1935626676-eb00e876adf2.mp4",
+      "clip_slug": "RamshackleHonestGoldfishBCWarrior-jzqy7ZgW_zfYCLpM",
+      "original_created_at": "2026-10-30T18:31:14Z",
+      "source_deadline": "2026-11-02T18:31:14Z"
     }
   ],
   "last_production": {

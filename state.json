@@ -2000,12 +2000,13 @@
       "streamer": "trymacs",
       "sha256": "8854f7cbacdba4796bd2e495184c86a8380e498aea7c2bd673684ef382a36b8b",
       "source_sha256": "dcf13b412136ddeb7e81b5951bbf71061a31bbdb398a0dd73c07c5ceb7130435",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-968551733-8854f7cbacdb.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-968551733-8854f7cbacdb.mp4",
       "clip_slug": "WiseSquareShallotDxAbomb-JWYVGHE4ZFdNrBBv",
       "original_created_at": "2026-10-31T18:40:30Z",
-      "source_deadline": "2026-11-03T18:40:30Z"
+      "source_deadline": "2026-11-03T18:40:30Z",
+      "buffer_post_id": "6ae651f0cf3a3112f3c17e64"
     }
   ],
   "last_production": {

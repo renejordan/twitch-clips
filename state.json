@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3917217353",
+      "clip_slug": "CharmingObeseMacaroniBlargNaut-WORpmPCZFikJbeMy",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/CharmingObeseMacaroniBlargNaut-WORpmPCZFikJbeMy",
+      "original_title": "Nici wird auf der Bühne geschlagen",
+      "hook": "Nici wird auf der Bühne geschlagen",
+      "caption": "Nici wird auf der Bühne geschlagen\n#gaming #minecraft #twitchclips #trymacs #gamer",
+      "views_at_selection": 86,
+      "original_duration": 33.0,
+      "original_created_at": "2026-10-31T17:37:19Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3917217353-143956631c9b.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-31T18:32:22Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "143956631c9b0c96348c4a88b92fccd154e5c667734b5be498936894d8d0a0a9",
+      "category": "Minecraft",
+      "transcript_sha256": "45b0939e9cd036239cbd42cbcf41ed9f20a9eb920645999ad177d70f5b70dff1",
+      "asr_requires_correction": true,
+      "source_sha256": "95ca22854d03a28fdc275fe1d005c6d0ac27e21050fcee8ab903ff378f5b077d",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-31T18:32:22.622345+00:00",
+        "media_sha256": "143956631c9b0c96348c4a88b92fccd154e5c667734b5be498936894d8d0a0a9",
+        "transcript_sha256": "45b0939e9cd036239cbd42cbcf41ed9f20a9eb920645999ad177d70f5b70dff1",
+        "source_sha256": "95ca22854d03a28fdc275fe1d005c6d0ac27e21050fcee8ab903ff378f5b077d",
+        "evidence_sha256": "456f53ff1380f176a1cf419a330876cada915a190338479d8419e68e7fb258f9",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "95ca22854d03a28fdc275fe1d005c6d0ac27e21050fcee8ab903ff378f5b077d",
+          "reviewed_source_sha256": "95ca22854d03a28fdc275fe1d005c6d0ac27e21050fcee8ab903ff378f5b077d",
+          "duration": 33.166667,
+          "timestamps": [
+            0.0,
+            16.508,
+            33.017
+          ],
+          "source_frame_hashes": [
+            "c4d0ea373467c2639a659615ddab80a6d536d1550e2ae63394f58c3451862ca5",
+            "0bae3034914ec94cb8d6dfeae8f1e2748c8fa8b8897dc90f8b2fb94016d23e66",
+            "40b2cf42c583e188a6912b2bab09c15d1440198db16972893541d35ea2b94b61"
+          ],
+          "headline": "Nici wird auf der Bühne geschlagen",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, with game HUD visible, including inventory, health, and chat text.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a Minecraft world with TNT blocks and a red/orange patterned wall, holding a tool, with a visible health bar and inventory.",
+            "payoff": "No clear outcome or payoff visible; player is still in the same location with no visible win or loss, or reaction from the game or player.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.06081114991950564,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a red/orange patterned wall, TNT blocks, and a visible health bar and inventory. The player is holding a tool. The facecam panel is enlarged above the gameplay, which is a normal ed",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            16.508,
+            33.017
+          ],
+          "final_frame_hashes": [
+            "4119ec333c5a1a8061082245dd7fb636276e942c021a76c00f1f4f2f5451c0f1",
+            "4c4f50adec861df2550a8c470b97d7c100443a06914eaaa99a8a01074cfa7687",
+            "e9b95ddad3dd132601f714b4c5a790ee49f8066c94e0c64a6b6ac4f0f2c5fd4e"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "143956631c9b0c96348c4a88b92fccd154e5c667734b5be498936894d8d0a0a9",
+          "transcript_sha256": "45b0939e9cd036239cbd42cbcf41ed9f20a9eb920645999ad177d70f5b70dff1"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft game view with a red/orange patterned wall, TNT blocks, and a visible health bar and inventory. The player is holding a tool. The facecam panel is enlarged above the gameplay, which is a normal ed"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0608, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-3917217353-143956631c9b-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3101807848",

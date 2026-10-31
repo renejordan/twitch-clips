@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "212946245",
-      "reserved_at": "2026-10-24T17:38:34Z",
-      "streamer": "nooreax",
-      "sha256": "8075b0c6e56985223a263cb9093e88e3bf568a2e93b2aa015fbecf76239fc9cc",
-      "source_sha256": "b1835257808cbbd8167b6d479b2b3526d735cf0beea4a307c14e7346e104b116",
-      "status": "verified_public",
-      "asset_title": "tiktok14-212946245-8075b0c6e569.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-212946245-8075b0c6e569.mp4",
-      "clip_slug": "BlushingToughMonkeyPipeHype-NQLNPT0AZKvILF2f",
-      "original_created_at": "2026-10-24T15:37:32Z",
-      "source_deadline": "2026-10-27T15:37:32Z",
-      "buffer_post_id": "6adced1e6887a2efc1cb397c",
-      "last_reconcile_at": "2026-10-24T17:40:26Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700290241277578528",
-      "sent_at": "2026-10-24T17:40:21Z",
-      "verified_at": "2026-10-24T17:40:28Z"
-    },
-    {
       "clip_id": "2089435146",
       "reserved_at": "2026-10-24T18:29:33Z",
       "streamer": "repaz",
@@ -2554,7 +2536,7 @@
   ],
   "last_prepare_hour": "2026-10-31T17",
   "last_prefetch_hour": "2026-10-31T17",
-  "archived_verified_count": 97,
+  "archived_verified_count": 98,
   "used_ids": [
     "1014059590",
     "1028268990",
@@ -2597,6 +2579,7 @@
     "206829726",
     "2078601665",
     "2088617063",
+    "212946245",
     "2142163357",
     "215749810",
     "2158687206",

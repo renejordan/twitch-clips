@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "3101807848",
-      "reserved_at": "2026-10-24T19:18:41Z",
-      "streamer": "zarbex",
-      "sha256": "e1193e396a7dc65d1d98ebdbe2f0bb2600d8f6baba8ee6096557d7b513461269",
-      "source_sha256": "03f67d0d1ec1a94d51610f7578b9ed691a3becee53ca224992b09def1b964c6d",
-      "status": "verified_public",
-      "asset_title": "tiktok14-3101807848-e1193e396a7d.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/zarbex-3101807848-e1193e396a7d.mp4",
-      "clip_slug": "MoralBloodyNigiriJebaited-NWSXxBUT8zRJsR9A",
-      "original_created_at": "2026-10-24T17:29:02Z",
-      "source_deadline": "2026-10-27T17:29:02Z",
-      "buffer_post_id": "6add04933d5b27036b9ce617",
-      "last_reconcile_at": "2026-10-24T19:20:40Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700316040105856288",
-      "sent_at": "2026-10-24T19:20:26Z",
-      "verified_at": "2026-10-24T19:20:41Z"
-    },
-    {
       "clip_id": "3803975482",
       "reserved_at": "2026-10-24T20:20:41Z",
       "streamer": "trymacs",
@@ -2535,7 +2517,7 @@
   ],
   "last_prepare_hour": "2026-10-31T18",
   "last_prefetch_hour": "2026-10-31T18",
-  "archived_verified_count": 99,
+  "archived_verified_count": 100,
   "used_ids": [
     "1014059590",
     "1028268990",
@@ -2615,6 +2597,7 @@
     "3026950595",
     "3081137165",
     "309969943",
+    "3101807848",
     "311088002",
     "311924564",
     "3165684609",

@@ -1996,27 +1996,26 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-31T19:59:49Z",
+    "at": "2026-10-31T21:26:43Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
       "listing_duration_prefilter": 90,
-      "listing_age_prefilter": 776,
-      "discovered": 734,
-      "metadata_requested": 684,
-      "qualified_metadata": 306,
-      "gaming_category_not_verified": 309,
-      "title_too_short": 69,
-      "duplicate_source_event": 10,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_visual_gameplay_visible": 1,
+      "listing_age_prefilter": 739,
+      "discovered": 735,
+      "metadata_requested": 691,
+      "title_too_short": 60,
+      "qualified_metadata": 342,
+      "duplicate_source_event": 11,
+      "gaming_category_not_verified": 289,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "968551733",
-      "clip_slug": "WiseSquareShallotDxAbomb-JWYVGHE4ZFdNrBBv",
+      "clip_id": "717335400",
+      "clip_slug": "UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t",
       "streamer": "trymacs"
     }
   },
@@ -2525,7 +2524,7 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-31T19",
+  "last_prepare_hour": "2026-10-31T21",
   "last_prefetch_hour": "2026-10-31T19",
   "archived_verified_count": 102,
   "used_ids": [

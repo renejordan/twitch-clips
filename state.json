@@ -2032,27 +2032,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-31T12:36:22Z",
+    "at": "2026-10-31T13:30:28Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
+      "listing_duration_prefilter": 95,
       "listing_ok": 100,
-      "listing_duration_prefilter": 97,
-      "listing_age_prefilter": 658,
-      "discovered": 763,
-      "metadata_requested": 712,
-      "qualified_metadata": 319,
-      "duplicate_source_event": 18,
-      "gaming_category_not_verified": 332,
+      "listing_age_prefilter": 680,
+      "discovered": 719,
+      "metadata_requested": 672,
+      "qualified_metadata": 279,
+      "duplicate_source_event": 17,
       "title_too_short": 61,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "gaming_category_not_verified": 332,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_visual_gameplay_visible": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2595980025",
-      "clip_slug": "HungryChillyAsparagusPrimeMe-2i5sMZe-q8rt1j_c",
-      "streamer": "castcrafter"
+      "clip_id": "816553259",
+      "clip_slug": "SlipperyFancyAlbatrossANELE-fL8QrMZ4F8MTUogA",
+      "streamer": "krokoboss"
     }
   },
   "prepare_scans": {
@@ -2533,8 +2534,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-31T12",
-  "last_prefetch_hour": "2026-10-31T12",
+  "last_prepare_hour": "2026-10-31T13",
+  "last_prefetch_hour": "2026-10-31T13",
   "archived_verified_count": 93,
   "used_ids": [
     "1014059590",

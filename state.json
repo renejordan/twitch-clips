@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "443088016",
-      "reserved_at": "2026-10-24T16:39:03Z",
-      "streamer": "krokoboss",
-      "sha256": "a3d4225b7c571bdda7463843d9b6640388ffd6224f24c6d7b289fed542ec94f3",
-      "source_sha256": "488b6f39336ffcccd89099ee806d9aec5465ece8cf0dbe7aa700dff2b072066e",
-      "status": "verified_public",
-      "asset_title": "tiktok14-443088016-a3d4225b7c57.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-443088016-a3d4225b7c57.mp4",
-      "clip_slug": "PrettiestInquisitiveOstrichJKanStyle-SpTGl5z9jXeP7NGA",
-      "original_created_at": "2026-10-23T16:36:40Z",
-      "source_deadline": "2026-10-26T16:36:40Z",
-      "buffer_post_id": "6adcdf290b5343d07092b2ac",
-      "last_reconcile_at": "2026-10-24T16:40:59Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700274902229699872",
-      "sent_at": "2026-10-24T16:40:48Z",
-      "verified_at": "2026-10-24T16:41:01Z"
-    },
-    {
       "clip_id": "212946245",
       "reserved_at": "2026-10-24T17:38:34Z",
       "streamer": "nooreax",
@@ -2545,7 +2527,7 @@
   ],
   "last_prepare_hour": "2026-10-31T16",
   "last_prefetch_hour": "2026-10-31T16",
-  "archived_verified_count": 96,
+  "archived_verified_count": 97,
   "used_ids": [
     "1014059590",
     "1028268990",
@@ -2665,6 +2647,7 @@
     "4108530673",
     "4282988255",
     "433948050",
+    "443088016",
     "500776601",
     "502558914",
     "510578383",

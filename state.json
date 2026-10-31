@@ -2063,7 +2063,7 @@
   },
   "source_ranking": {
     "source_url": "https://twitchtracker.com/channels/ranking/german",
-    "checked_at": "2026-10-30T01:56:38.967809+00:00",
+    "checked_at": "2026-10-31T02:47:11.713665+00:00",
     "sources": [
       "eliasn97",
       "trymacs",
@@ -2117,7 +2117,7 @@
       "dracon"
     ],
     "fetched_at": "2026-10-30T01:56:38.967809+00:00",
-    "result": "fresh"
+    "result": "cached_fallback"
   },
   "rejected": [
     {

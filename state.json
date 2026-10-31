@@ -2000,12 +2000,13 @@
       "streamer": "krokoboss",
       "sha256": "954c91c209472dfa628735792cf12936069573b965993eb7288f157a5b824aa8",
       "source_sha256": "b19630e7021bebae6d8b866f02bfde4355eee0d8c638d91670c62b87d0aa807f",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-816553259-954c91c20947.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-816553259-954c91c20947.mp4",
       "clip_slug": "SlipperyFancyAlbatrossANELE-fL8QrMZ4F8MTUogA",
       "original_created_at": "2026-10-31T02:25:49Z",
-      "source_deadline": "2026-11-03T02:25:49Z"
+      "source_deadline": "2026-11-03T02:25:49Z",
+      "buffer_post_id": "6ae5f9d21ee172cd6da6d807"
     }
   ],
   "last_production": {

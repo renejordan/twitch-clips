@@ -2018,12 +2018,13 @@
       "streamer": "nooreax",
       "sha256": "267816b8d758454efe90b09a50be8119592c68a14952943427d590d5975bb5a5",
       "source_sha256": "eb9433fd39db6c435dae9b138f17cf1b07ea7f3883c4380703dc55c74c12fbca",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2672708767-267816b8d758.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-2672708767-267816b8d758.mp4",
       "clip_slug": "PlainRelentlessEyeballBuddhaBar-aVInND75aBAqE4oV",
       "original_created_at": "2026-10-31T20:03:52Z",
-      "source_deadline": "2026-11-03T20:03:52Z"
+      "source_deadline": "2026-11-03T20:03:52Z",
+      "buffer_post_id": "6ae66a3dcf3a3112f3c85cf6"
     }
   ],
   "last_production": {

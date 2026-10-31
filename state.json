@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702808523654155553",
       "sent_at": "2026-10-31T12:32:39Z",
       "verified_at": "2026-10-31T12:32:43Z"
+    },
+    {
+      "clip_id": "2595980025",
+      "reserved_at": "2026-10-31T13:24:51Z",
+      "streamer": "castcrafter",
+      "sha256": "08195f0244b0d3a14731c36f014b75deced28647cae513f1de7918cbb2e2f980",
+      "source_sha256": "f2b10a01a1d0cb8babd9e1d156b66d76138d422b5962ce1ecd13deb5db38b5d9",
+      "status": "reserved",
+      "asset_title": "tiktok14-2595980025-08195f0244b0.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2595980025-08195f0244b0.mp4",
+      "clip_slug": "HungryChillyAsparagusPrimeMe-2i5sMZe-q8rt1j_c",
+      "original_created_at": "2026-10-30T17:26:27Z",
+      "source_deadline": "2026-11-02T17:26:27Z"
     }
   ],
   "last_production": {

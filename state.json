@@ -2349,6 +2349,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-30T23:44:52Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "2368221232",
+      "clip_slug": "CorrectStrangeEyeballFreakinStinkin-YsaibFMvVRFU7fZ8",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/CorrectStrangeEyeballFreakinStinkin-YsaibFMvVRFU7fZ8",
+      "status": "quality_rejected",
+      "created_at": "2026-10-31T09:28:12Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

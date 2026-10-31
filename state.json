@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-31T21:26:43Z",
+    "at": "2026-10-31T21:44:13Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 90,
-      "listing_age_prefilter": 739,
-      "discovered": 735,
-      "metadata_requested": 691,
-      "title_too_short": 60,
-      "qualified_metadata": 342,
-      "duplicate_source_event": 11,
-      "gaming_category_not_verified": 289,
+      "listing_duration_prefilter": 102,
+      "listing_age_prefilter": 787,
+      "discovered": 757,
+      "metadata_requested": 706,
+      "title_too_short": 71,
+      "qualified_metadata": 358,
+      "duplicate_source_event": 12,
+      "gaming_category_not_verified": 277,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "717335400",
-      "clip_slug": "UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t",
-      "streamer": "trymacs"
+      "clip_id": "2672708767",
+      "clip_slug": "PlainRelentlessEyeballBuddhaBar-aVInND75aBAqE4oV",
+      "streamer": "nooreax"
     }
   },
   "prepare_scans": {
@@ -2543,7 +2543,7 @@
     }
   ],
   "last_prepare_hour": "2026-10-31T21",
-  "last_prefetch_hour": "2026-10-31T19",
+  "last_prefetch_hour": "2026-10-31T21",
   "archived_verified_count": 102,
   "used_ids": [
     "1014059590",

@@ -2000,12 +2000,13 @@
       "streamer": "letshugotv",
       "sha256": "a9533206cc3932d96b0bcfd6b8805ddea02c4a81f65bd8643a857a2608a4d76f",
       "source_sha256": "bf82570c942d5477b5f16f460a5008f141fdfb8691f45816bbb351d74e9abe13",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-50123889-a9533206cc39.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-50123889-a9533206cc39.mp4",
       "clip_slug": "BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g",
       "original_created_at": "2026-10-30T17:25:35Z",
-      "source_deadline": "2026-11-02T17:25:35Z"
+      "source_deadline": "2026-11-02T17:25:35Z",
+      "buffer_post_id": "6ae5c3db1891472093c8dfdf"
     }
   ],
   "last_production": {

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "968551733",
-      "clip_slug": "WiseSquareShallotDxAbomb-JWYVGHE4ZFdNrBBv",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/WiseSquareShallotDxAbomb-JWYVGHE4ZFdNrBBv",
-      "original_title": "laasley",
-      "hook": "laasley",
-      "caption": "laasley\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 81,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-31T18:40:30Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-968551733-8854f7cbacdb.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-31T19:59:49Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "8854f7cbacdba4796bd2e495184c86a8380e498aea7c2bd673684ef382a36b8b",
-      "category": "Minecraft",
-      "transcript_sha256": "a4a558d22692859cee144966aec844013befe4cdfb67b9a4658c8f3e6ee28c5a",
-      "asr_requires_correction": true,
-      "source_sha256": "dcf13b412136ddeb7e81b5951bbf71061a31bbdb398a0dd73c07c5ceb7130435",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-31T19:59:49.069830+00:00",
-        "media_sha256": "8854f7cbacdba4796bd2e495184c86a8380e498aea7c2bd673684ef382a36b8b",
-        "transcript_sha256": "a4a558d22692859cee144966aec844013befe4cdfb67b9a4658c8f3e6ee28c5a",
-        "source_sha256": "dcf13b412136ddeb7e81b5951bbf71061a31bbdb398a0dd73c07c5ceb7130435",
-        "evidence_sha256": "a56222ad7a013413202bf858341218064a6bc9bb672bdb5bfef193bd66193718",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "dcf13b412136ddeb7e81b5951bbf71061a31bbdb398a0dd73c07c5ceb7130435",
-          "reviewed_source_sha256": "dcf13b412136ddeb7e81b5951bbf71061a31bbdb398a0dd73c07c5ceb7130435",
-          "duration": 30.017,
-          "timestamps": [
-            0.0,
-            14.934,
-            29.867
-          ],
-          "source_frame_hashes": [
-            "3723f729c1523b5b500a1882e62b8558b8d56f7162a2f32fbd5c54dd1c45c884",
-            "e1f22ba9ae1fe431bd348da2010f59a89c535a68891e35db64c4a9c23045b04f",
-            "b5672d3fa28f4eb52a74400a366d44c03b479b8e707d632b51542d696dcf447c"
-          ],
-          "headline": "laasley",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera is visible in the bottom right corner, showing a person wearing headphones and a microphone, with a Minecraft game window occupying the rest of the screen. The game's HUD is visible, including health, armor",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in the frames provided.",
-            "payoff": "No clear payoff visible in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.07281444334073205,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a split-screen layout with a Minecraft gameplay window on the left and a facecam of a streamer on the right. The gameplay includes a visible HUD, inventory, and minimap. The streamer is wearing headphones and a microphone. A",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.934,
-            29.867
-          ],
-          "final_frame_hashes": [
-            "f63b60166ccc4bf3a23ac48da41d61705a6bb084df269022550a87bc172a474f",
-            "aa340a924f1e645f333fc27da708c28c9f43dc91f485137bc14092bd1eaa1858",
-            "2d8f7026934a995554204d5f326554ec23c72861cf77839869f3d8804c24c866"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "8854f7cbacdba4796bd2e495184c86a8380e498aea7c2bd673684ef382a36b8b",
-          "transcript_sha256": "a4a558d22692859cee144966aec844013befe4cdfb67b9a4658c8f3e6ee28c5a"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a split-screen layout with a Minecraft gameplay window on the left and a facecam of a streamer on the right. The gameplay includes a visible HUD, inventory, and minimap. The streamer is wearing headphones and a microphone. A"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0728, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-968551733-8854f7cbacdb-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2533905876",
@@ -2000,14 +1862,17 @@
       "streamer": "trymacs",
       "sha256": "8854f7cbacdba4796bd2e495184c86a8380e498aea7c2bd673684ef382a36b8b",
       "source_sha256": "dcf13b412136ddeb7e81b5951bbf71061a31bbdb398a0dd73c07c5ceb7130435",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-968551733-8854f7cbacdb.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-968551733-8854f7cbacdb.mp4",
       "clip_slug": "WiseSquareShallotDxAbomb-JWYVGHE4ZFdNrBBv",
       "original_created_at": "2026-10-31T18:40:30Z",
       "source_deadline": "2026-11-03T18:40:30Z",
       "buffer_post_id": "6ae651f0cf3a3112f3c17e64",
-      "last_reconcile_at": "2026-10-31T21:08:30Z"
+      "last_reconcile_at": "2026-10-31T21:08:30Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702934375402425632",
+      "sent_at": "2026-10-31T20:58:57Z",
+      "verified_at": "2026-10-31T21:08:31Z"
     }
   ],
   "last_production": {

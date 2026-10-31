@@ -2018,12 +2018,13 @@
       "streamer": "nooreax",
       "sha256": "9b624db297acbfc8113d44a2c85f304b02bb274b722698325c057c97f50a3439",
       "source_sha256": "b03368fedfcbe3cf4ef35f09ed642ada45c63b04f07a24b01bc09a94cb74781a",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-4116346447-9b624db297ac.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-4116346447-9b624db297ac.mp4",
       "clip_slug": "AgreeableRepleteLocustDansGame-6zpnyVgcYqEttZT8",
       "original_created_at": "2026-10-30T17:21:00Z",
-      "source_deadline": "2026-11-02T17:21:00Z"
+      "source_deadline": "2026-11-02T17:21:00Z",
+      "buffer_post_id": "6ae6165937c1acd2a0bbc683"
     }
   ],
   "last_production": {

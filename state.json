@@ -2000,12 +2000,13 @@
       "streamer": "eliasn97",
       "sha256": "a6d20f8b3d5afca01ebf430787252cd4d1a508559e3624d18e43848fffd8345a",
       "source_sha256": "726a6dccc3f6163b716e7ba070ba143ce21938344ba90d09f8c0bca5d6f2c666",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2358373323-a6d20f8b3d5a.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-2358373323-a6d20f8b3d5a.mp4",
       "clip_slug": "GrotesqueFlaccidGooseThisIsSparta-KEHM3wU64bmLGr-0",
       "original_created_at": "2026-10-31T01:46:01Z",
-      "source_deadline": "2026-11-03T01:46:01Z"
+      "source_deadline": "2026-11-03T01:46:01Z",
+      "buffer_post_id": "6ae5df7dceb491e585f7a3dd"
     }
   ],
   "last_production": {

@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702837501022440736",
       "sent_at": "2026-10-31T14:24:58Z",
       "verified_at": "2026-10-31T14:25:34Z"
+    },
+    {
+      "clip_id": "2464005441",
+      "reserved_at": "2026-10-31T15:37:11Z",
+      "streamer": "letshugotv",
+      "sha256": "5e2febe4c6919fba3efc5f03be3a2ad6fee0457230ee4f8c47de407e387a7870",
+      "source_sha256": "08c13842da820e58e4469da99f678803f3d41c99b0131acaf05c6f9c726b53d8",
+      "status": "reserved",
+      "asset_title": "tiktok14-2464005441-5e2febe4c691.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2464005441-5e2febe4c691.mp4",
+      "clip_slug": "WonderfulGrossReubenDuDudu-uDspSXMFXzZGSQcY",
+      "original_created_at": "2026-10-30T18:47:53Z",
+      "source_deadline": "2026-11-02T18:47:53Z"
     }
   ],
   "last_production": {

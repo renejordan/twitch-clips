@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1493926215",
+      "clip_slug": "HonestCrazyOpossumCclamChamp-gWzYHCFTHkdl9l3U",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/HonestCrazyOpossumCclamChamp-gWzYHCFTHkdl9l3U",
+      "original_title": "Eli ist komplett am tweaken",
+      "hook": "Eli ist komplett am tweaken",
+      "caption": "Eli ist komplett am tweaken\n#gaming #valorant #twitchclips #krokoboss #gamer",
+      "views_at_selection": 670,
+      "original_duration": 19.0,
+      "original_created_at": "2026-10-31T01:02:20Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1493926215-fc42d1eca6b2.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-31T08:27:57Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "fc42d1eca6b23d63209c03b34ea5d3887691010bfe69a6836f769435d138356d",
+      "category": "VALORANT",
+      "transcript_sha256": "d832a8929dac1d61aabb1f75e2f1d623700c2d9fb2a9a8da592dd8e12a21cd7e",
+      "asr_requires_correction": true,
+      "source_sha256": "c033b2a021c5f715f67285680f72586eb4b33da8f48faf55d9ad021d3e626c40",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-31T08:27:57.280261+00:00",
+        "media_sha256": "fc42d1eca6b23d63209c03b34ea5d3887691010bfe69a6836f769435d138356d",
+        "transcript_sha256": "d832a8929dac1d61aabb1f75e2f1d623700c2d9fb2a9a8da592dd8e12a21cd7e",
+        "source_sha256": "c033b2a021c5f715f67285680f72586eb4b33da8f48faf55d9ad021d3e626c40",
+        "evidence_sha256": "19e3346ea5ca8725b70a67de7139f5e1fbd9af34ae436b951f09ba2ea1f21aa1",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "c033b2a021c5f715f67285680f72586eb4b33da8f48faf55d9ad021d3e626c40",
+          "reviewed_source_sha256": "c033b2a021c5f715f67285680f72586eb4b33da8f48faf55d9ad021d3e626c40",
+          "duration": 19.516667,
+          "timestamps": [
+            0.0,
+            9.683,
+            19.367
+          ],
+          "source_frame_hashes": [
+            "accb3071995b059d0de777a87189717fad7b87b1292450d61baa9a2a8213953a",
+            "44b35260a66719272e8e004bb6bc3acd6bd296fd3b81aa8388e92a10b921ce61",
+            "d761567eb7d9bb1d914ec1e33b1e27dc73b6b1e11fa2f2eb4645daf2b6516956"
+          ],
+          "headline": "Eli ist komplett am tweaken",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": true,
+            "standalone_understandable": true,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, multiple player avatars and HUD elements visible, chat overlay with text, map and score indicators, no browser or desktop window borders visible",
+            "game_name": "Valorant",
+            "hook_score": 3,
+            "payoff_score": 3,
+            "setup": "Attacker team wins round after eliminating defenders, replay begins with 'REPLAY' text overlay",
+            "payoff": "Attacker team wins round, player reacts with 'Oh mein Gott!' in chat, replay shows team victory with 'ATTACKERS WON' banner",
+            "payoff_timestamp": 9.683,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.10529974305110124,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 9.68 seconds shows a game overlay with 'ATTACKERS WON' banner and a chat message 'Oh mein Gott!' visible. The frame at 19.37 seconds shows a 'REPLAY' indicator and game UI elements, consistent with a replay sequence. The title ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            9.683,
+            19.367
+          ],
+          "final_frame_hashes": [
+            "b399c81651ee891f06915b69fb8dca51a794299ad0dcb7e1b0a05953df73980b",
+            "ce62c432cccfc37e34645598be257a465c2d992bafce5f145723046eba431094",
+            "82f9660da988d79f0720d24467f53bc0d8a8e2f9d51d77ac32f7a405b3842f11"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "fc42d1eca6b23d63209c03b34ea5d3887691010bfe69a6836f769435d138356d",
+          "transcript_sha256": "d832a8929dac1d61aabb1f75e2f1d623700c2d9fb2a9a8da592dd8e12a21cd7e"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 9.68 seconds shows a game overlay with 'ATTACKERS WON' banner and a chat message 'Oh mein Gott!' visible. The frame at 19.37 seconds shows a 'REPLAY' indicator and game UI elements, consistent with a replay sequence. The title "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.1053, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1493926215-fc42d1eca6b2-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2624621525",

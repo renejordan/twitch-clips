@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "4116346447",
+      "clip_slug": "AgreeableRepleteLocustDansGame-6zpnyVgcYqEttZT8",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/AgreeableRepleteLocustDansGame-6zpnyVgcYqEttZT8",
+      "original_title": "everything leaked",
+      "hook": "everything leaked",
+      "caption": "everything leaked\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 311,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-30T17:21:00Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-4116346447-9b624db297ac.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-31T15:42:49Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "9b624db297acbfc8113d44a2c85f304b02bb274b722698325c057c97f50a3439",
+      "category": "Minecraft",
+      "transcript_sha256": "195c68a5f343c32d9c86964f41e33b709b0c6e8f9410a936fc9959ebefdd6080",
+      "asr_requires_correction": true,
+      "source_sha256": "b03368fedfcbe3cf4ef35f09ed642ada45c63b04f07a24b01bc09a94cb74781a",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-31T15:42:49.723139+00:00",
+        "media_sha256": "9b624db297acbfc8113d44a2c85f304b02bb274b722698325c057c97f50a3439",
+        "transcript_sha256": "195c68a5f343c32d9c86964f41e33b709b0c6e8f9410a936fc9959ebefdd6080",
+        "source_sha256": "b03368fedfcbe3cf4ef35f09ed642ada45c63b04f07a24b01bc09a94cb74781a",
+        "evidence_sha256": "f3db5b364a51a5771df411eb1381a73fed26cc4740b53127d9d079e84bb0939a",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "b03368fedfcbe3cf4ef35f09ed642ada45c63b04f07a24b01bc09a94cb74781a",
+          "reviewed_source_sha256": "b03368fedfcbe3cf4ef35f09ed642ada45c63b04f07a24b01bc09a94cb74781a",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "e85c8e2e888453fab19a0025d80a1d7eb751b2e70ebc646ecbb39de7eb1e7b5d",
+            "cca4e77b1341f9691636ab6631c069126ef9174f70dec5878e2c2e8d0e5cab18",
+            "d0d3f98b40a00b35dd507f09701d46f8ef77dda614c1aefea76622a670762adc"
+          ],
+          "headline": "everything leaked",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Gameplay is visible with a face camera in the corner, showing a live streamer and audience. The game is Minecraft, with a visible HUD including health, inventory, and chat. The chat is visible on the left, and the game's",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames provided.",
+            "payoff": "No clear payoff visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.04756692410964938,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The top of the frame has the text 'everything leaked' as a title overlay. The gameplay area is clear",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "35bcac78d58c321770f37787f65e8d8c417e53137b7fe8b2073bdbc211b11aa2",
+            "7878e3e90ddf686a8297c58c5abe8f91747e5e6442b9005400e1fec188204e76",
+            "7114fa0f6f47f67e31d48804942376b13267a444085c5a341cfa4650ab96b67b"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "9b624db297acbfc8113d44a2c85f304b02bb274b722698325c057c97f50a3439",
+          "transcript_sha256": "195c68a5f343c32d9c86964f41e33b709b0c6e8f9410a936fc9959ebefdd6080"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a common edited gaming layout. The top of the frame has the text 'everything leaked' as a title overlay. The gameplay area is clear"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0476, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-4116346447-9b624db297ac-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "443088016",

@@ -2014,28 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-31T17:32:17Z",
+    "at": "2026-10-31T18:32:22Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
       "listing_duration_prefilter": 92,
-      "listing_age_prefilter": 743,
-      "discovered": 710,
-      "metadata_requested": 660,
-      "qualified_metadata": 291,
-      "duplicate_source_event": 18,
-      "title_too_short": 57,
-      "gaming_category_not_verified": 312,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_duration_invalid": 1,
+      "listing_age_prefilter": 740,
+      "discovered": 781,
+      "metadata_requested": 732,
+      "qualified_metadata": 330,
+      "duplicate_source_event": 17,
+      "gaming_category_not_verified": 330,
+      "title_too_short": 72,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1222214648",
-      "clip_slug": "CuteTrappedCroissantNomNom-rfuJpDavCPO2iiYk",
-      "streamer": "nooreax"
+      "clip_id": "3917217353",
+      "clip_slug": "CharmingObeseMacaroniBlargNaut-WORpmPCZFikJbeMy",
+      "streamer": "trymacs"
     }
   },
   "prepare_scans": {
@@ -2534,8 +2533,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-31T17",
-  "last_prefetch_hour": "2026-10-31T17",
+  "last_prepare_hour": "2026-10-31T18",
+  "last_prefetch_hour": "2026-10-31T18",
   "archived_verified_count": 99,
   "used_ids": [
     "1014059590",

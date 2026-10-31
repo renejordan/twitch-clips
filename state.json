@@ -2018,12 +2018,13 @@
       "streamer": "nooreax",
       "sha256": "119f842fc5d374a8b78c7883178d3a30c2b518098cdccf06d3aa356b1755a3ee",
       "source_sha256": "45ef8b1b75eda26ce34b72e7590081e2d3f9b7414eca4593426536e71467a697",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1222214648-119f842fc5d3.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1222214648-119f842fc5d3.mp4",
       "clip_slug": "CuteTrappedCroissantNomNom-rfuJpDavCPO2iiYk",
       "original_created_at": "2026-10-31T12:36:46Z",
-      "source_deadline": "2026-11-03T12:36:46Z"
+      "source_deadline": "2026-11-03T12:36:46Z",
+      "buffer_post_id": "6ae63202f0984eef33244695"
     }
   ],
   "last_production": {

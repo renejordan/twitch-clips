@@ -2032,27 +2032,29 @@
     }
   ],
   "last_production": {
-    "at": "2026-10-31T21:44:13Z",
+    "at": "2026-10-31T22:46:36Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 102,
-      "listing_age_prefilter": 787,
-      "discovered": 757,
-      "metadata_requested": 706,
-      "title_too_short": 71,
-      "qualified_metadata": 358,
-      "duplicate_source_event": 12,
-      "gaming_category_not_verified": 277,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_duration_prefilter": 85,
+      "listing_age_prefilter": 744,
+      "discovered": 747,
+      "metadata_requested": 702,
+      "qualified_metadata": 348,
+      "title_too_short": 59,
+      "gaming_category_not_verified": 295,
+      "duplicate_source_event": 13,
+      "download_attempted": 3,
+      "render_attempted": 3,
+      "qa_visual_gameplay_visible": 1,
+      "qa_duration_invalid": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2672708767",
-      "clip_slug": "PlainRelentlessEyeballBuddhaBar-aVInND75aBAqE4oV",
-      "streamer": "nooreax"
+      "clip_id": "2524408890",
+      "clip_slug": "AttractiveSarcasticHamsterSeemsGood-7qV-16BucVKLnZ0C",
+      "streamer": "trymacs"
     }
   },
   "prepare_scans": {
@@ -2578,8 +2580,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-10-31T21",
-  "last_prefetch_hour": "2026-10-31T21",
+  "last_prepare_hour": "2026-10-31T22",
+  "last_prefetch_hour": "2026-10-31T22",
   "archived_verified_count": 102,
   "used_ids": [
     "1014059590",

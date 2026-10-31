@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3692729936",
-      "clip_slug": "SplendidCreativeSmoothieBleedPurple-tfOOlUR-16zhdMPQ",
-      "streamer": "eliasn97",
-      "source_url": "https://www.twitch.tv/eliasn97/clip/SplendidCreativeSmoothieBleedPurple-tfOOlUR-16zhdMPQ",
-      "original_title": "Eli Rage/quit?",
-      "hook": "Eli Rage/quit?",
-      "caption": "Eli Rage/quit?\n#gaming #valorant #twitchclips #eliasn97 #gamer",
-      "views_at_selection": 193,
-      "original_duration": 29.0,
-      "original_created_at": "2026-10-31T02:21:14Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-3692729936-fe880e709e07.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-31T16:31:15Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "fe880e709e07b0da38fb9f2bfda8c1d2497166e18e4be1376a55a605815e1d81",
-      "category": "VALORANT",
-      "transcript_sha256": "17cb1492d692fb74feed988bd0ef6692f5586b0584446a946ded9e0447f0fd24",
-      "asr_requires_correction": true,
-      "source_sha256": "2f340742c2dd5fcfdc76c2e257d8f8d9395fd79af7647cdcdc3d59b095dd1ca9",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-31T16:31:15.585170+00:00",
-        "media_sha256": "fe880e709e07b0da38fb9f2bfda8c1d2497166e18e4be1376a55a605815e1d81",
-        "transcript_sha256": "17cb1492d692fb74feed988bd0ef6692f5586b0584446a946ded9e0447f0fd24",
-        "source_sha256": "2f340742c2dd5fcfdc76c2e257d8f8d9395fd79af7647cdcdc3d59b095dd1ca9",
-        "evidence_sha256": "ec2ce98174157a4fda79318cfdf955e231d50337993130421fadb6886d863494",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "2f340742c2dd5fcfdc76c2e257d8f8d9395fd79af7647cdcdc3d59b095dd1ca9",
-          "reviewed_source_sha256": "2f340742c2dd5fcfdc76c2e257d8f8d9395fd79af7647cdcdc3d59b095dd1ca9",
-          "duration": 29.033333,
-          "timestamps": [
-            0.0,
-            14.442,
-            28.883
-          ],
-          "source_frame_hashes": [
-            "0940cd9503e58eb61c513bddd1acf9c718303acf35a83769e0ff775e86be9120",
-            "f91b0bb03f70b970fa2520619771bea011958e98a59bca57bcbff9cef5e813b4",
-            "d890a4382cee84d18bba938fcc104434aa98014ecefdfe5a01d0040727e4aeeb"
-          ],
-          "headline": "Eli Rage/quit?",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, HUD visible, no browser or desktop elements",
-            "game_name": "Valorant",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in frames",
-            "payoff": "No clear payoff visible in frames",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.041308511001815866,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a game with a small facecam panel in the top-left corner, which is a common editing layout for live streams. The game's HUD is visible, including health, ammo, and a minimap. The streamer's",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.442,
-            28.883
-          ],
-          "final_frame_hashes": [
-            "50c90d3315365921a0cdc368759a3008252452d042ee0b16f0ee3e1bd3a51169",
-            "53814fbfdd7d7ec1b5bf02f1ceba359ab6456dc912c0bf9965a961fb126e5031",
-            "1b5430fb485320be165183d1e28b6b7cfd6a3f385ce48e4fb2f954cb03a19441"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "fe880e709e07b0da38fb9f2bfda8c1d2497166e18e4be1376a55a605815e1d81",
-          "transcript_sha256": "17cb1492d692fb74feed988bd0ef6692f5586b0584446a946ded9e0447f0fd24"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a game with a small facecam panel in the top-left corner, which is a common editing layout for live streams. The game's HUD is visible, including health, ammo, and a minimap. The streamer's"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0413, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-3692729936-fe880e709e07-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "212946245",
@@ -2018,14 +1880,17 @@
       "streamer": "eliasn97",
       "sha256": "fe880e709e07b0da38fb9f2bfda8c1d2497166e18e4be1376a55a605815e1d81",
       "source_sha256": "2f340742c2dd5fcfdc76c2e257d8f8d9395fd79af7647cdcdc3d59b095dd1ca9",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3692729936-fe880e709e07.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-3692729936-fe880e709e07.mp4",
       "clip_slug": "SplendidCreativeSmoothieBleedPurple-tfOOlUR-16zhdMPQ",
       "original_created_at": "2026-10-31T02:21:14Z",
       "source_deadline": "2026-11-03T02:21:14Z",
       "buffer_post_id": "6ae624e5cf3a3112f3b4e774",
-      "last_reconcile_at": "2026-10-31T17:28:56Z"
+      "last_reconcile_at": "2026-10-31T17:28:56Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702884847097826593",
+      "sent_at": "2026-10-31T17:28:44Z",
+      "verified_at": "2026-10-31T17:28:57Z"
     }
   ],
   "last_production": {

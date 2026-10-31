@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702934375402425632",
       "sent_at": "2026-10-31T20:58:57Z",
       "verified_at": "2026-10-31T21:08:31Z"
+    },
+    {
+      "clip_id": "717335400",
+      "reserved_at": "2026-10-31T21:33:48Z",
+      "streamer": "trymacs",
+      "sha256": "f918d63d016d6767dc924ecad948f8d34065443fd95d33f8b43431331b82ee80",
+      "source_sha256": "612c7229ec1ef90aac11593aba39ee56a9b07d06350666508ebbd2d54e89ed57",
+      "status": "reserved",
+      "asset_title": "tiktok14-717335400-f918d63d016d.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-717335400-f918d63d016d.mp4",
+      "clip_slug": "UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t",
+      "original_created_at": "2026-10-31T15:25:58Z",
+      "source_deadline": "2026-11-03T15:25:58Z"
     }
   ],
   "last_production": {

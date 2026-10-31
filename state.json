@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702744592663317792",
       "sent_at": "2026-10-31T08:24:31Z",
       "verified_at": "2026-10-31T08:24:39Z"
+    },
+    {
+      "clip_id": "1493926215",
+      "reserved_at": "2026-10-31T09:22:55Z",
+      "streamer": "krokoboss",
+      "sha256": "fc42d1eca6b23d63209c03b34ea5d3887691010bfe69a6836f769435d138356d",
+      "source_sha256": "c033b2a021c5f715f67285680f72586eb4b33da8f48faf55d9ad021d3e626c40",
+      "status": "reserved",
+      "asset_title": "tiktok14-1493926215-fc42d1eca6b2.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/krokoboss-1493926215-fc42d1eca6b2.mp4",
+      "clip_slug": "HonestCrazyOpossumCclamChamp-gWzYHCFTHkdl9l3U",
+      "original_created_at": "2026-10-31T01:02:20Z",
+      "source_deadline": "2026-11-03T01:02:20Z"
     }
   ],
   "last_production": {

@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2595980025",
+      "clip_slug": "HungryChillyAsparagusPrimeMe-2i5sMZe-q8rt1j_c",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/HungryChillyAsparagusPrimeMe-2i5sMZe-q8rt1j_c",
+      "original_title": "2 Tode JAAA",
+      "hook": "2 Tode JAAA",
+      "caption": "2 Tode JAAA\n#gaming #minecraft #twitchclips #castcrafter #gamer",
+      "views_at_selection": 419,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-30T17:26:27Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2595980025-08195f0244b0.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-31T12:36:22Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "08195f0244b0d3a14731c36f014b75deced28647cae513f1de7918cbb2e2f980",
+      "category": "Minecraft",
+      "transcript_sha256": "a2772dd4bf0beb8d9162c2a2a342b248b90b06174f2067664b3c2baee89f9302",
+      "asr_requires_correction": true,
+      "source_sha256": "f2b10a01a1d0cb8babd9e1d156b66d76138d422b5962ce1ecd13deb5db38b5d9",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-31T12:36:22.976293+00:00",
+        "media_sha256": "08195f0244b0d3a14731c36f014b75deced28647cae513f1de7918cbb2e2f980",
+        "transcript_sha256": "a2772dd4bf0beb8d9162c2a2a342b248b90b06174f2067664b3c2baee89f9302",
+        "source_sha256": "f2b10a01a1d0cb8babd9e1d156b66d76138d422b5962ce1ecd13deb5db38b5d9",
+        "evidence_sha256": "d4d299865ae35b9e0c05fcf9f8f3de38c708543082109db4ed7004fb71056447",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "f2b10a01a1d0cb8babd9e1d156b66d76138d422b5962ce1ecd13deb5db38b5d9",
+          "reviewed_source_sha256": "f2b10a01a1d0cb8babd9e1d156b66d76138d422b5962ce1ecd13deb5db38b5d9",
+          "duration": 30.016,
+          "timestamps": [
+            0.0,
+            14.933,
+            29.866
+          ],
+          "source_frame_hashes": [
+            "36c43bb23567829ac8ef3d29c1bbb8e078bd6bca25bc1c918630b633399d0acd",
+            "1c26ebda0e85c9dbe2ce93b4b86d74c038477a61ebefa814835c6b585fc2e52d",
+            "af20bb0e720de07ae2efe5e0669692d2868de32331cf2ffaa06e737fe2659549"
+          ],
+          "headline": "2 Tode JAAA",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Top-left: streamer facecam with purple lighting; bottom-right: second streamer facecam with neon lights; game view: first-person Minecraft with inventory bar, health/armor bars, chat, and HUD elements visible; no browser",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player in Minecraft is in a stone room with a chest and torches, holding a Netherite sword, with chat and HUD visible.",
+            "payoff": "Player is not shown to have died or won; no clear outcome or reaction visible beyond chat and HUD elements; no visible payoff or outcome from actions taken in the game or by the streamers; no clear tension or reaction; a",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.09768642773951582,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a split-screen layout with a Minecraft gameplay panel on the left and a facecam panel on the right. The gameplay panel displays a stone room with torches, a chest, and a Netherite sword in the player's hand. ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.933,
+            29.866
+          ],
+          "final_frame_hashes": [
+            "37562c6255929bcfc8a0d2cf6db398e4e267f0611487cfd8fcf3d08f1a1bd618",
+            "ddc538e8b0acb1571acdc768fcb7173a3c79600a687e24c61344b974610c0589",
+            "a14e38d5903000d5ed753d842c2dc34866184d9cae81b60c3ecd0d0534d3f640"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "08195f0244b0d3a14731c36f014b75deced28647cae513f1de7918cbb2e2f980",
+          "transcript_sha256": "a2772dd4bf0beb8d9162c2a2a342b248b90b06174f2067664b3c2baee89f9302"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a split-screen layout with a Minecraft gameplay panel on the left and a facecam panel on the right. The gameplay panel displays a stone room with torches, a chest, and a Netherite sword in the player's hand. "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0977, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-2595980025-08195f0244b0-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2186789910",

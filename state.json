@@ -2412,6 +2412,15 @@
       "status": "quality_rejected",
       "created_at": "2026-10-31T19:59:49Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "2661079918",
+      "clip_slug": "CoyAlluringStarlingDAESuppy-w8e562Sknzs-W8xk",
+      "streamer": "tolkin",
+      "source_url": "https://www.twitch.tv/tolkin/clip/CoyAlluringStarlingDAESuppy-w8e562Sknzs-W8xk",
+      "status": "quality_rejected",
+      "created_at": "2026-10-31T22:46:36Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

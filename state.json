@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "717335400",
+      "clip_slug": "UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t",
+      "original_title": "100.000 TNT Exploion Craft Attack Rekord aufstellen! Morgen FitnaCraft 16 Uhr! Nobomi ist endlich da!    | !Nobomi !Prepmymeal !ESN",
+      "hook": "100.000 TNT Exploion Craft Attack Rekord…",
+      "caption": "100.000 TNT Exploion Craft Attack Rekord…\n#gaming #minecraft #twitchclips #trymacs #gamer",
+      "views_at_selection": 282,
+      "original_duration": 30.0,
+      "original_created_at": "2026-10-31T15:25:58Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-717335400-f918d63d016d.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-10-31T21:26:43Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "f918d63d016d6767dc924ecad948f8d34065443fd95d33f8b43431331b82ee80",
+      "category": "Minecraft",
+      "transcript_sha256": "583b595729dbb5f7bb4a357424f36bd86b39f677b189f72410c05a7724324768",
+      "asr_requires_correction": true,
+      "source_sha256": "612c7229ec1ef90aac11593aba39ee56a9b07d06350666508ebbd2d54e89ed57",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-10-31T21:26:43.549840+00:00",
+        "media_sha256": "f918d63d016d6767dc924ecad948f8d34065443fd95d33f8b43431331b82ee80",
+        "transcript_sha256": "583b595729dbb5f7bb4a357424f36bd86b39f677b189f72410c05a7724324768",
+        "source_sha256": "612c7229ec1ef90aac11593aba39ee56a9b07d06350666508ebbd2d54e89ed57",
+        "evidence_sha256": "4d705500f0267f10723d378124ca449735ecb54f2aa03c646551ec4bb23c2ed2",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "612c7229ec1ef90aac11593aba39ee56a9b07d06350666508ebbd2d54e89ed57",
+          "reviewed_source_sha256": "612c7229ec1ef90aac11593aba39ee56a9b07d06350666508ebbd2d54e89ed57",
+          "duration": 30.02,
+          "timestamps": [
+            0.0,
+            14.935,
+            29.87
+          ],
+          "source_frame_hashes": [
+            "98618d035b6e7b50cd0f856dda9387e0b1f19d964f234783bc8bb6115594366d",
+            "fdd91738b1fd759c3df9d25038a462bdc6ea08bd0af3340b33007cc70983df9f",
+            "e0779161622f059ec8d916a51c5b06ad35faf3b3bde56e87d79f4bcf0490e91f"
+          ],
+          "headline": "100.000 TNT Exploion Craft Attack Rekord…",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay with a visible game HUD including health, inventory, and minimap, and a Minecraft game environment with TNT blocks and falling items.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames.",
+            "payoff": "No clear payoff visible in the frames.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.05472879917238394,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frames show a Minecraft gameplay window with a facecam panel above it, which is a common edited gaming layout. The game HUD and stream chat are not visible, indicating it is not a browser or desktop capture. The title '100.000 TNT Explo",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.935,
+            29.87
+          ],
+          "final_frame_hashes": [
+            "7a17fb6ea4700577adaa5279dd1a8bb3eae9077747ea358cc21efbdb1d14b760",
+            "7700006c2c424d357fe04017788dbfca3aac141e03fee60fdcfa1ffcf0490505",
+            "d3da690051beab5401428bf049cf0b7865b9dc7fd772ba3c689bf096d0bc091d"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "f918d63d016d6767dc924ecad948f8d34065443fd95d33f8b43431331b82ee80",
+          "transcript_sha256": "583b595729dbb5f7bb4a357424f36bd86b39f677b189f72410c05a7724324768"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frames show a Minecraft gameplay window with a facecam panel above it, which is a common edited gaming layout. The game HUD and stream chat are not visible, indicating it is not a browser or desktop capture. The title '100.000 TNT Explo"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0547, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-717335400-f918d63d016d-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2707644400",

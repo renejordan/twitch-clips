@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2358373323",
-      "clip_slug": "GrotesqueFlaccidGooseThisIsSparta-KEHM3wU64bmLGr-0",
-      "streamer": "eliasn97",
-      "source_url": "https://www.twitch.tv/eliasn97/clip/GrotesqueFlaccidGooseThisIsSparta-KEHM3wU64bmLGr-0",
-      "original_title": "T BAG",
-      "hook": "T BAG",
-      "caption": "T BAG\n#gaming #valorant #twitchclips #eliasn97 #gamer",
-      "views_at_selection": 313,
-      "original_duration": 22.0,
-      "original_created_at": "2026-10-31T01:46:01Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-2358373323-a6d20f8b3d5a.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-10-31T11:44:39Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "a6d20f8b3d5afca01ebf430787252cd4d1a508559e3624d18e43848fffd8345a",
-      "category": "VALORANT",
-      "transcript_sha256": "aa9cea760b0c924f99b899f6dc3f7b5b9e8b45447b9319fb164cb9eb4e6db7d7",
-      "asr_requires_correction": true,
-      "source_sha256": "726a6dccc3f6163b716e7ba070ba143ce21938344ba90d09f8c0bca5d6f2c666",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-10-31T11:44:39.052099+00:00",
-        "media_sha256": "a6d20f8b3d5afca01ebf430787252cd4d1a508559e3624d18e43848fffd8345a",
-        "transcript_sha256": "aa9cea760b0c924f99b899f6dc3f7b5b9e8b45447b9319fb164cb9eb4e6db7d7",
-        "source_sha256": "726a6dccc3f6163b716e7ba070ba143ce21938344ba90d09f8c0bca5d6f2c666",
-        "evidence_sha256": "dac03cedaf022c29db3e454e22b7c2019e75743cdb808fcfa8bae4134eb40c8e",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "726a6dccc3f6163b716e7ba070ba143ce21938344ba90d09f8c0bca5d6f2c666",
-          "reviewed_source_sha256": "726a6dccc3f6163b716e7ba070ba143ce21938344ba90d09f8c0bca5d6f2c666",
-          "duration": 22.25,
-          "timestamps": [
-            0.0,
-            11.05,
-            22.1
-          ],
-          "source_frame_hashes": [
-            "03f0d6df6e3677e1af5e19c3a875fbea907f2989cfdc5a406cb40e08572d40a1",
-            "8d555dee45e0649be409174a9d7a1162d881b4e4c78decc212874e6c5b0c99ae",
-            "61c334d8f4f01594e43ea3e75ae7227b6f5fd2a16913935d13ff5208f7b33fc8"
-          ],
-          "headline": "T BAG",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "dialogue_subtitles",
-            "layout_evidence": "Face camera in corner over gameplay, with game HUD and subtitles visible, no browser or desktop elements.",
-            "game_name": "Valorant",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Valorant during Buy Phase, holding a weapon, with subtitles indicating dialogue.",
-            "payoff": "No visible outcome or payoff from the action; game continues without clear win/loss or reaction.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": true,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.06390553435564869,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a game screen with a 'WON' banner and a subtitle 'Wunderschön wunderschön', indicating a game outcome. The frame at 11.05 seconds shows a 'BUY PHASE' banner and a subtitle 'hat Wir laufen', indicating a game-",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            11.05,
-            22.1
-          ],
-          "final_frame_hashes": [
-            "49fc2ad4dec48d29f4d8021dde8cdcdb605333a79359abf6fdf86da84446bdc5",
-            "bf071c7e2dd7f4c52d0c4c81431b20ec9d1e8a7291b4327605fb67d546c6132f",
-            "65d8d1445e0c2169d33927d3de7d447cb11f316bbdf0bbda8742e2a2284ffda5"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "a6d20f8b3d5afca01ebf430787252cd4d1a508559e3624d18e43848fffd8345a",
-          "transcript_sha256": "aa9cea760b0c924f99b899f6dc3f7b5b9e8b45447b9319fb164cb9eb4e6db7d7"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a game screen with a 'WON' banner and a subtitle 'Wunderschön wunderschön', indicating a game outcome. The frame at 11.05 seconds shows a 'BUY PHASE' banner and a subtitle 'hat Wir laufen', indicating a game-"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0639, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-2358373323-a6d20f8b3d5a-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2186789910",
@@ -2000,14 +1862,17 @@
       "streamer": "eliasn97",
       "sha256": "a6d20f8b3d5afca01ebf430787252cd4d1a508559e3624d18e43848fffd8345a",
       "source_sha256": "726a6dccc3f6163b716e7ba070ba143ce21938344ba90d09f8c0bca5d6f2c666",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2358373323-a6d20f8b3d5a.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/eliasn97-2358373323-a6d20f8b3d5a.mp4",
       "clip_slug": "GrotesqueFlaccidGooseThisIsSparta-KEHM3wU64bmLGr-0",
       "original_created_at": "2026-10-31T01:46:01Z",
       "source_deadline": "2026-11-03T01:46:01Z",
       "buffer_post_id": "6ae5df7dceb491e585f7a3dd",
-      "last_reconcile_at": "2026-10-31T12:32:42Z"
+      "last_reconcile_at": "2026-10-31T12:32:42Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702808523654155553",
+      "sent_at": "2026-10-31T12:32:39Z",
+      "verified_at": "2026-10-31T12:32:43Z"
     }
   ],
   "last_production": {

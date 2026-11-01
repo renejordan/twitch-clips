@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2723305770",
-      "clip_slug": "AdorableCheerfulCheesecakeSeemsGood-C4LE-HOQDpB-XtZm",
-      "streamer": "xrohat",
-      "source_url": "https://www.twitch.tv/xrohat/clip/AdorableCheerfulCheesecakeSeemsGood-C4LE-HOQDpB-XtZm",
-      "original_title": "rohat ooc",
-      "hook": "rohat ooc",
-      "caption": "rohat ooc\n#gaming #minecraft #twitchclips #xrohat #gamer",
-      "views_at_selection": 946,
-      "original_duration": 26.0,
-      "original_created_at": "2026-11-01T15:46:04Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-2723305770-61a8f24a4309.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-01T16:38:44Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "61a8f24a4309291cc8028a05389271834285cd1a338be9a631072d525cc73d7a",
-      "category": "Minecraft",
-      "transcript_sha256": "272f253c8c491513125983115511e4043092215472934c01cb23f5f171746e7b",
-      "asr_requires_correction": true,
-      "source_sha256": "fbe734dcacd088a2bc809d0b2dff9e6ba1ea46878f4a3347b89b46afe18d9566",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-01T16:38:44.776698+00:00",
-        "media_sha256": "61a8f24a4309291cc8028a05389271834285cd1a338be9a631072d525cc73d7a",
-        "transcript_sha256": "272f253c8c491513125983115511e4043092215472934c01cb23f5f171746e7b",
-        "source_sha256": "fbe734dcacd088a2bc809d0b2dff9e6ba1ea46878f4a3347b89b46afe18d9566",
-        "evidence_sha256": "3fbb48dd8d4d52c71fb45ec6b8caa312298af1bf850d0d6f95d151933d11cb23",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "fbe734dcacd088a2bc809d0b2dff9e6ba1ea46878f4a3347b89b46afe18d9566",
-          "reviewed_source_sha256": "fbe734dcacd088a2bc809d0b2dff9e6ba1ea46878f4a3347b89b46afe18d9566",
-          "duration": 26.986,
-          "timestamps": [
-            0.0,
-            13.418,
-            26.836
-          ],
-          "source_frame_hashes": [
-            "495fd44d74f7e53982b58ccb0a64fac4520da5aeba016be3cbb9bf807b782fc9",
-            "6f2ea740e0461abc83e4fc3353a6ae00ba4fd19144e5e58b98c052741d48b9ac",
-            "cb023b44b7f504b94ec620fcc827debd2e8444d9a65036ab93425a37862eae04"
-          ],
-          "headline": "rohat ooc",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop window borders",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible in frames",
-            "payoff": "No clear payoff visible in frames",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.048754416871303746,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a small, centered text overlay reading 'rohat ooc'. The game interface includes a minimap, chat, and HUD elements. A facecam panel is visible in the top right corner, showing the主播",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            13.418,
-            26.836
-          ],
-          "final_frame_hashes": [
-            "248b743a394461709952a3fb240c70207e5c7c0e5a162086f4cc86759a9d4c19",
-            "d0d78e60b8404f6d6795ca8363ea34a92469a863e448bbbd306a6252e248ceea",
-            "c8232eb729263c0a56c9e5c6582e65da50168bb8b0b0fe3cd267c749740d9592"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "61a8f24a4309291cc8028a05389271834285cd1a338be9a631072d525cc73d7a",
-          "transcript_sha256": "272f253c8c491513125983115511e4043092215472934c01cb23f5f171746e7b"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft game scene with a small, centered text overlay reading 'rohat ooc'. The game interface includes a minimap, chat, and HUD elements. A facecam panel is visible in the top right corner, showing the主播"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0488, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-2723305770-61a8f24a4309-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3848447097",
@@ -2018,14 +1880,17 @@
       "streamer": "xrohat",
       "sha256": "61a8f24a4309291cc8028a05389271834285cd1a338be9a631072d525cc73d7a",
       "source_sha256": "fbe734dcacd088a2bc809d0b2dff9e6ba1ea46878f4a3347b89b46afe18d9566",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2723305770-61a8f24a4309.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-2723305770-61a8f24a4309.mp4",
       "clip_slug": "AdorableCheerfulCheesecakeSeemsGood-C4LE-HOQDpB-XtZm",
       "original_created_at": "2026-11-01T15:46:04Z",
       "source_deadline": "2026-11-04T15:46:04Z",
       "buffer_post_id": "6ae77755142f545151f10385",
-      "last_reconcile_at": "2026-11-01T17:32:52Z"
+      "last_reconcile_at": "2026-11-01T17:32:52Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703257019687374112",
+      "sent_at": "2026-11-01T17:32:24Z",
+      "verified_at": "2026-11-01T17:32:53Z"
     }
   ],
   "last_production": {

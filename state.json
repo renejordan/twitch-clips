@@ -2018,12 +2018,13 @@
       "streamer": "xrohat",
       "sha256": "61a8f24a4309291cc8028a05389271834285cd1a338be9a631072d525cc73d7a",
       "source_sha256": "fbe734dcacd088a2bc809d0b2dff9e6ba1ea46878f4a3347b89b46afe18d9566",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2723305770-61a8f24a4309.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-2723305770-61a8f24a4309.mp4",
       "clip_slug": "AdorableCheerfulCheesecakeSeemsGood-C4LE-HOQDpB-XtZm",
       "original_created_at": "2026-11-01T15:46:04Z",
-      "source_deadline": "2026-11-04T15:46:04Z"
+      "source_deadline": "2026-11-04T15:46:04Z",
+      "buffer_post_id": "6ae77755142f545151f10385"
     }
   ],
   "last_production": {

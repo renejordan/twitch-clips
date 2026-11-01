@@ -2102,15 +2102,6 @@
   },
   "rejected": [
     {
-      "clip_id": "3832100136",
-      "clip_slug": "ProtectiveDoubtfulGerbilSMOrc-MW2rXO8xs2KmWkrC",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/ProtectiveDoubtfulGerbilSMOrc-MW2rXO8xs2KmWkrC",
-      "status": "quality_rejected",
-      "created_at": "2026-10-25T21:10:20Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "1937140420",
       "clip_slug": "VibrantCredulousJalapenoDatSheffy-VdA98SsVBa3YAXFM",
       "streamer": "castcrafter",
@@ -2693,6 +2684,7 @@
     "3784756528",
     "3788147556",
     "3803975482",
+    "3832100136",
     "3835744608",
     "3848447097",
     "3857817711",
@@ -2732,5 +2724,5 @@
     "857609776",
     "945475581"
   ],
-  "archived_rejected_count": 42
+  "archived_rejected_count": 43
 }

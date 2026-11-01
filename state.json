@@ -2018,12 +2018,13 @@
       "streamer": "nooreax",
       "sha256": "5c0dfd01fe91bced9336cd89494750258502ac62af23578100a354e7bc56c867",
       "source_sha256": "aff9405d9d652a6f753ccfa6169b9681928fc08687699470234f25fb1969bc77",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2630101538-5c0dfd01fe91.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-2630101538-5c0dfd01fe91.mp4",
       "clip_slug": "SingleFrozenRabbitStinkyCheese-F44Z7IdfDyRHMU40",
       "original_created_at": "2026-10-31T20:34:02Z",
-      "source_deadline": "2026-11-03T20:34:02Z"
+      "source_deadline": "2026-11-03T20:34:02Z",
+      "buffer_post_id": "6ae725c5f0984eef336175de"
     }
   ],
   "last_production": {

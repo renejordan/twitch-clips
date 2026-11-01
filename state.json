@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "3848447097",
-      "reserved_at": "2026-10-25T18:00:24Z",
-      "streamer": "papaplatte",
-      "sha256": "6363e3e08c140e2dd0ce07764f8d6b20029e5f49cbe5aa03d2b0238c926a54c5",
-      "source_sha256": "25a72be90ba45089bc9d8b7e1f26e1787ba354003c2119515959f7522fe75020",
-      "status": "verified_public",
-      "asset_title": "tiktok14-3848447097-6363e3e08c14.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-3848447097-6363e3e08c14.mp4",
-      "clip_slug": "AnnoyingDeafCatPeoplesChamp-lpeBcX8xV1yHBxdZ",
-      "original_created_at": "2026-10-24T18:52:40Z",
-      "source_deadline": "2026-10-27T18:52:40Z",
-      "buffer_post_id": "6ade43bbbd33ce99c3841970",
-      "last_reconcile_at": "2026-10-25T18:06:35Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700666987952737568",
-      "sent_at": "2026-10-25T18:02:44Z",
-      "verified_at": "2026-10-25T18:06:36Z"
-    },
-    {
       "clip_id": "303680278",
       "reserved_at": "2026-10-25T19:00:28Z",
       "streamer": "krokoboss",
@@ -2590,7 +2572,7 @@
   ],
   "last_prepare_hour": "2026-11-01T17",
   "last_prefetch_hour": "2026-11-01T17",
-  "archived_verified_count": 112,
+  "archived_verified_count": 113,
   "used_ids": [
     "1008150185",
     "1014059590",
@@ -2712,6 +2694,7 @@
     "3788147556",
     "3803975482",
     "3835744608",
+    "3848447097",
     "3857817711",
     "3858506260",
     "385959500",

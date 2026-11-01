@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1710874362",
-      "clip_slug": "BoredCharmingAntShadyLulu-emFC2gPRPS3I3gLO",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/BoredCharmingAntShadyLulu-emFC2gPRPS3I3gLO",
-      "original_title": "erger",
-      "hook": "erger",
-      "caption": "erger\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 141,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-31T20:11:56Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-1710874362-d60d382d843d.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-01T13:40:33Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "d60d382d843d177c2f312451148e77ba8d0362c21eb5b7c4412defce0a0750c1",
-      "category": "Minecraft",
-      "transcript_sha256": "4f279a4e50a88a2b5edf5581e07c1657982b8441052e9a7b2d7618c2ea872fa3",
-      "asr_requires_correction": true,
-      "source_sha256": "6d75fed138462dc956033206e55fc477c9948c31116df491c869eaec893964b1",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-01T13:40:33.245143+00:00",
-        "media_sha256": "d60d382d843d177c2f312451148e77ba8d0362c21eb5b7c4412defce0a0750c1",
-        "transcript_sha256": "4f279a4e50a88a2b5edf5581e07c1657982b8441052e9a7b2d7618c2ea872fa3",
-        "source_sha256": "6d75fed138462dc956033206e55fc477c9948c31116df491c869eaec893964b1",
-        "evidence_sha256": "acdccda71b47f8dcebbaf37d018699e2203dd345cd06b8c97539bf6493d6f6a2",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "6d75fed138462dc956033206e55fc477c9948c31116df491c869eaec893964b1",
-          "reviewed_source_sha256": "6d75fed138462dc956033206e55fc477c9948c31116df491c869eaec893964b1",
-          "duration": 30.011,
-          "timestamps": [
-            0.0,
-            14.931,
-            29.861
-          ],
-          "source_frame_hashes": [
-            "32363918698dd4a6ab4915c02fce3ed10081e3e5358ac667f183b7ae6b0683db",
-            "f56986122a73deec94689692555421f35061ad48a5f95f578b0a1a8737591195",
-            "b5785ca614b57092f866a90030b91d62e682b614bad6c6e3c778adff6bb9a86e"
-          ],
-          "headline": "erger",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay with game HUD visible, including minimap, health, inventory, and chat, and a visible player character holding a tool.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a Minecraft world with a large number of red blocks falling from the sky, indicating a possible event or game mechanic.",
-            "payoff": "Player is holding a golden carrot, suggesting a possible in-game item or event, but no clear outcome or reaction is visible in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.12950241746111002,
-          "clipped_fraction": 4.164445628997868e-06,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with red blocks falling from the sky, and the player is holding a golden carrot. The streamer's facecam is visible in the top right corner, and the game HUD is present. The title 'e",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.931,
-            29.861
-          ],
-          "final_frame_hashes": [
-            "ab26b9122a14ffb7081a257b44c2ca5faa16b122509f9b842fd8d6edb61006c5",
-            "7200f00acb387d704d6b111457ca7152fee7bd70fdebc87e2cb220aff2e2527d",
-            "cf9757234f4942c817a0e4f27096d8b296cc581aac1841ca61371feba914edfe"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "d60d382d843d177c2f312451148e77ba8d0362c21eb5b7c4412defce0a0750c1",
-          "transcript_sha256": "4f279a4e50a88a2b5edf5581e07c1657982b8441052e9a7b2d7618c2ea872fa3"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with red blocks falling from the sky, and the player is holding a golden carrot. The streamer's facecam is visible in the top right corner, and the game HUD is present. The title 'e"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1295, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-1710874362-d60d382d843d-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2963515657",
@@ -2018,14 +1880,17 @@
       "streamer": "trymacs",
       "sha256": "d60d382d843d177c2f312451148e77ba8d0362c21eb5b7c4412defce0a0750c1",
       "source_sha256": "6d75fed138462dc956033206e55fc477c9948c31116df491c869eaec893964b1",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1710874362-d60d382d843d.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-1710874362-d60d382d843d.mp4",
       "clip_slug": "BoredCharmingAntShadyLulu-emFC2gPRPS3I3gLO",
       "original_created_at": "2026-10-31T20:11:56Z",
       "source_deadline": "2026-11-03T20:11:56Z",
       "buffer_post_id": "6ae74c2737c1acd2a00baf1b",
-      "last_reconcile_at": "2026-11-01T14:29:15Z"
+      "last_reconcile_at": "2026-11-01T14:29:15Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703209487158594849",
+      "sent_at": "2026-11-01T14:28:29Z",
+      "verified_at": "2026-11-01T14:29:16Z"
     }
   ],
   "last_production": {

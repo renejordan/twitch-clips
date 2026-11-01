@@ -2018,12 +2018,13 @@
       "streamer": "trymacs",
       "sha256": "409022ea9282050061380f03079d5fc09b88fe5fb1fd47dd1b64a5ffcea4196a",
       "source_sha256": "11dc58031501d8d6d53fd62712152bd1950eddc92f5a4c7cb741d6d4e2f4a57c",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3868891162-409022ea9282.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-3868891162-409022ea9282.mp4",
       "clip_slug": "SarcasticAffluentDonutUncleNox-P4bmMUWJFy6jV0vA",
       "original_created_at": "2026-11-01T20:24:20Z",
-      "source_deadline": "2026-11-04T20:24:20Z"
+      "source_deadline": "2026-11-04T20:24:20Z",
+      "buffer_post_id": "6ae7b67c01fa08ffbe6c424f"
     }
   ],
   "last_production": {

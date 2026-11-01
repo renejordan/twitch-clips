@@ -2018,12 +2018,13 @@
       "streamer": "xrohat",
       "sha256": "ccc64e7394d22de38c0e4d10f9ba1b5a7bb02ca111c45941d2503d06e5bef943",
       "source_sha256": "f8d786138cdf33bacaf079533d2ad74cc09acd154045b17c66cfdb05eea70dda",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3036885833-ccc64e7394d2.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-3036885833-ccc64e7394d2.mp4",
       "clip_slug": "StormyFitTigerCoolStoryBro-9dljVc8oM3G2TJCv",
       "original_created_at": "2026-11-01T15:33:26Z",
-      "source_deadline": "2026-11-04T15:33:26Z"
+      "source_deadline": "2026-11-04T15:33:26Z",
+      "buffer_post_id": "6ae784e7a9b1b4ba58fa0802"
     }
   ],
   "last_production": {

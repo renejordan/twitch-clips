@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3036885833",
+      "clip_slug": "StormyFitTigerCoolStoryBro-9dljVc8oM3G2TJCv",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/StormyFitTigerCoolStoryBro-9dljVc8oM3G2TJCv",
+      "original_title": "GTASTY HAHAHAH",
+      "hook": "GTASTY HAHAHAH",
+      "caption": "GTASTY HAHAHAH\n#gaming #minecraft #twitchclips #xrohat #gamer",
+      "views_at_selection": 99,
+      "original_duration": 29.0,
+      "original_created_at": "2026-11-01T15:33:26Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-3036885833-ccc64e7394d2.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-01T17:36:43Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "ccc64e7394d22de38c0e4d10f9ba1b5a7bb02ca111c45941d2503d06e5bef943",
+      "category": "Minecraft",
+      "transcript_sha256": "a7e12914e8d30c5244f2fb15b62334576bf1b6a8061a82395558c8a3b79f0220",
+      "asr_requires_correction": true,
+      "source_sha256": "f8d786138cdf33bacaf079533d2ad74cc09acd154045b17c66cfdb05eea70dda",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-01T17:36:43.110672+00:00",
+        "media_sha256": "ccc64e7394d22de38c0e4d10f9ba1b5a7bb02ca111c45941d2503d06e5bef943",
+        "transcript_sha256": "a7e12914e8d30c5244f2fb15b62334576bf1b6a8061a82395558c8a3b79f0220",
+        "source_sha256": "f8d786138cdf33bacaf079533d2ad74cc09acd154045b17c66cfdb05eea70dda",
+        "evidence_sha256": "42bc95da9704d6aba792a015b8c07889f79908c0cecd1e8bde14c1216366a977",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "f8d786138cdf33bacaf079533d2ad74cc09acd154045b17c66cfdb05eea70dda",
+          "reviewed_source_sha256": "f8d786138cdf33bacaf079533d2ad74cc09acd154045b17c66cfdb05eea70dda",
+          "duration": 29.788,
+          "timestamps": [
+            0.0,
+            14.819,
+            29.638
+          ],
+          "source_frame_hashes": [
+            "c7186bfdefdce0f8ce22af76741e22cda565504bb31cd9e3e5124a0bb3a99226",
+            "5eb6c5da69ca9c7495cbfc6d63d2871d532b0f6be0b8199bf1ce69f817536beb",
+            "e25e2a9c5306d9707aad26809418187c8ec2a2ef460c725efbd6998dab45654d"
+          ],
+          "headline": "GTASTY HAHAHAH",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Top-left: minimap, top-right: facecam, bottom: inventory, chat, and HUD, with chat text visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible; player moves through environment with no visible outcome or reaction.",
+            "payoff": "No visible outcome or reaction; gameplay continues without clear payoff or highlight.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.030555268507309236,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, a chat window on the left, and a title overlay 'GTASTY HAHAHAH' at the top. The gameplay area is visible with a map, inventory, and a '",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.819,
+            29.638
+          ],
+          "final_frame_hashes": [
+            "0e0184002b55e34190147bce216ca02d7d22dae40aba85cddea7fc12f814b092",
+            "e3b5f9e53488fd6b2177662583eb40da708f7d59aae3f348f2da336aca6f0ec7",
+            "c519031be84b94ffaf01c39612b8899725891fc3c18ade0c9ad6afa76983ef36"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "ccc64e7394d22de38c0e4d10f9ba1b5a7bb02ca111c45941d2503d06e5bef943",
+          "transcript_sha256": "a7e12914e8d30c5244f2fb15b62334576bf1b6a8061a82395558c8a3b79f0220"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, a chat window on the left, and a title overlay 'GTASTY HAHAHAH' at the top. The gameplay area is visible with a map, inventory, and a '"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0306, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-3036885833-ccc64e7394d2-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "3848447097",

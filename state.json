@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703228474567298337",
       "sent_at": "2026-11-01T15:42:14Z",
       "verified_at": "2026-11-01T15:42:23Z"
+    },
+    {
+      "clip_id": "4217703971",
+      "reserved_at": "2026-11-01T16:28:51Z",
+      "streamer": "letshugotv",
+      "sha256": "e7e4c3f94f41cdd3131cbfe9ae1d7e2bfc9377721d6572c2152cd6f4eaa52737",
+      "source_sha256": "9e9bd46378019b3e80b8591d1d1b203980fc239b519e7f48f6642e5d02a08b1a",
+      "status": "reserved",
+      "asset_title": "tiktok14-4217703971-e7e4c3f94f41.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-4217703971-e7e4c3f94f41.mp4",
+      "clip_slug": "WonderfulRelatedBisonVoHiYo-f5fqwLCHZmkQxewR",
+      "original_created_at": "2026-11-01T15:22:37Z",
+      "source_deadline": "2026-11-04T15:22:37Z"
     }
   ],
   "last_production": {

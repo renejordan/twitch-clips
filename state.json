@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-01T19:53:19Z",
+    "at": "2026-11-01T21:10:06Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 104,
+      "listing_duration_prefilter": 109,
       "listing_ok": 100,
-      "listing_age_prefilter": 707,
-      "discovered": 868,
-      "metadata_requested": 818,
-      "gaming_category_not_verified": 360,
-      "title_too_short": 75,
-      "qualified_metadata": 383,
-      "duplicate_source_event": 17,
+      "listing_age_prefilter": 758,
+      "discovered": 934,
+      "metadata_requested": 890,
+      "gaming_category_not_verified": 379,
+      "title_too_short": 79,
+      "qualified_metadata": 432,
+      "duplicate_source_event": 13,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "4039029595",
-      "clip_slug": "PunchyHyperCasetteUWot-TCDWd7HOHAOg0ZAv",
-      "streamer": "zarbex"
+      "clip_id": "3868891162",
+      "clip_slug": "SarcasticAffluentDonutUncleNox-P4bmMUWJFy6jV0vA",
+      "streamer": "trymacs"
     }
   },
   "prepare_scans": {
@@ -2569,8 +2569,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-01T19",
-  "last_prefetch_hour": "2026-11-01T19",
+  "last_prepare_hour": "2026-11-01T21",
+  "last_prefetch_hour": "2026-11-01T21",
   "archived_verified_count": 116,
   "used_ids": [
     "1008150185",

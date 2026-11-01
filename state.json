@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "534491746",
+      "clip_slug": "SarcasticFunCheesecakeOMGScoots-CbAhP9vSWhsfAyn7",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/SarcasticFunCheesecakeOMGScoots-CbAhP9vSWhsfAyn7",
+      "original_title": "TimGioh",
+      "hook": "TimGioh",
+      "caption": "TimGioh\n#gaming #minecraft #twitchclips #coachlim #gamer",
+      "views_at_selection": 481,
+      "original_duration": 22.0,
+      "original_created_at": "2026-11-01T22:00:25Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/coachlim-534491746-152fcc6e275b.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-01T23:10:11Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "152fcc6e275ba9643badd522f2b2c659ab3948909fbe180dd779140b1978e0ef",
+      "category": "Minecraft",
+      "transcript_sha256": "8db29a179a3c31c8b0a83439d76df65776719dfa144d684b32968f6dc164d5af",
+      "asr_requires_correction": true,
+      "source_sha256": "45c077c32fb80a1f07dd4b7bc2652e6a2970132bce71877b174adc6c183165d7",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-01T23:10:11.641284+00:00",
+        "media_sha256": "152fcc6e275ba9643badd522f2b2c659ab3948909fbe180dd779140b1978e0ef",
+        "transcript_sha256": "8db29a179a3c31c8b0a83439d76df65776719dfa144d684b32968f6dc164d5af",
+        "source_sha256": "45c077c32fb80a1f07dd4b7bc2652e6a2970132bce71877b174adc6c183165d7",
+        "evidence_sha256": "128c90488b3b29176fb2c6a82ac2228ef6ab0ee82b1ce9fe7f26d86f5d7f25e6",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "45c077c32fb80a1f07dd4b7bc2652e6a2970132bce71877b174adc6c183165d7",
+          "reviewed_source_sha256": "45c077c32fb80a1f07dd4b7bc2652e6a2970132bce71877b174adc6c183165d7",
+          "duration": 22.0,
+          "timestamps": [
+            0.0,
+            10.925,
+            21.85
+          ],
+          "source_frame_hashes": [
+            "f8da81750131cc63c0e7b407700e8fdf4ac0c76e83f558346044aa073aea4b41",
+            "3299d5d9c94e80dbb182a27e5c6e6f875c2a04758af8ecb7312dcb23e59aac62",
+            "c1a816d226e317254180a1a56e81136998fd5faa034cc54b74218d79fdc7bffd"
+          ],
+          "headline": "TimGioh",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": true,
+            "standalone_understandable": true,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible, chat visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 3,
+            "payoff_score": 3,
+            "setup": "Player enters a dark cave, falls into lava, dies, and sees 'You Died!' screen with 'Respawn' and 'Title Screen' buttons.",
+            "payoff": "Player dies in lava, triggers game over screen with clear options to respawn or return to title screen, indicating a clear outcome and payoff for the action taken (falling into lava).",
+            "payoff_timestamp": 21.85,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.06595946364681098,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a title overlay 'TimGioh' above a Minecraft gameplay view with a facecam panel. The frame at 10.93 seconds shows the player falling into lava, with the game's HUD visible and the facecam panel still present. ",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            10.925,
+            21.85
+          ],
+          "final_frame_hashes": [
+            "fb3b51a17cace7875e2d5a67e699fc745822ff3628ed8b5d438272768b04ce63",
+            "7f8ac386eecf3ecde269df16dc9ea002647b95e2c464001f6d614329f85ff750",
+            "589dee8e846ed91bf65bc64ddc149c4f37286341f19430ee7efc8ad9f2f17c54"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "152fcc6e275ba9643badd522f2b2c659ab3948909fbe180dd779140b1978e0ef",
+          "transcript_sha256": "8db29a179a3c31c8b0a83439d76df65776719dfa144d684b32968f6dc164d5af"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a title overlay 'TimGioh' above a Minecraft gameplay view with a facecam panel. The frame at 10.93 seconds shows the player falling into lava, with the game's HUD visible and the facecam panel still present. "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0660, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/coachlim-534491746-152fcc6e275b-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2933165164",

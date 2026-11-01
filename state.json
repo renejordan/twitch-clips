@@ -2018,12 +2018,13 @@
       "streamer": "krokoboss",
       "sha256": "5478c1da45e1140096526fe2d3f1bc2921abff9ea00869f8d4f08ad98a33596e",
       "source_sha256": "ffa835d71217ff20ccd35006918801de9717580795933fd7a5287423429ce58a",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1834862042-5478c1da45e1.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/krokoboss-1834862042-5478c1da45e1.mp4",
       "clip_slug": "EnticingPiercingDragonfruitSuperVinlin-lxPaw7wrb00LjBJV",
       "original_created_at": "2026-10-31T23:27:27Z",
-      "source_deadline": "2026-11-03T23:27:27Z"
+      "source_deadline": "2026-11-03T23:27:27Z",
+      "buffer_post_id": "6ae731eb37c1acd2a003c977"
     }
   ],
   "last_production": {

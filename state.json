@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703209487158594849",
       "sent_at": "2026-11-01T14:28:29Z",
       "verified_at": "2026-11-01T14:29:16Z"
+    },
+    {
+      "clip_id": "872718922",
+      "reserved_at": "2026-11-01T15:40:27Z",
+      "streamer": "trymacs",
+      "sha256": "730cf1c730878e2634aefb73b38fe942c4e26e38c10aaff21c06562924fd080f",
+      "source_sha256": "87c6777738a8a63694524ddb35dee6cd3a3c715775de79235c276f69de103ad8",
+      "status": "reserved",
+      "asset_title": "tiktok14-872718922-730cf1c73087.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-872718922-730cf1c73087.mp4",
+      "clip_slug": "QuaintStylishTildeStinkyCheese-UT_InYHUrrzCp30o",
+      "original_created_at": "2026-10-31T15:51:26Z",
+      "source_deadline": "2026-11-03T15:51:26Z"
     }
   ],
   "last_production": {

@@ -2032,29 +2032,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-01T10:41:26Z",
+    "at": "2026-11-01T11:48:10Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 95,
-      "listing_age_prefilter": 742,
-      "discovered": 635,
-      "metadata_requested": 585,
-      "qualified_metadata": 265,
+      "listing_duration_prefilter": 93,
+      "listing_age_prefilter": 755,
+      "discovered": 661,
+      "metadata_requested": 606,
+      "title_too_short": 49,
+      "qualified_metadata": 259,
+      "gaming_category_not_verified": 298,
       "duplicate_source_event": 14,
-      "title_too_short": 47,
-      "gaming_category_not_verified": 273,
-      "download_attempted": 3,
-      "render_attempted": 3,
-      "qa_visual_gameplay_visible": 1,
-      "qa_duration_invalid": 1,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2630101538",
-      "clip_slug": "SingleFrozenRabbitStinkyCheese-F44Z7IdfDyRHMU40",
-      "streamer": "nooreax"
+      "clip_id": "1834862042",
+      "clip_slug": "EnticingPiercingDragonfruitSuperVinlin-lxPaw7wrb00LjBJV",
+      "streamer": "krokoboss"
     }
   },
   "prepare_scans": {
@@ -2598,8 +2596,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-01T10",
-  "last_prefetch_hour": "2026-11-01T10",
+  "last_prepare_hour": "2026-11-01T11",
+  "last_prefetch_hour": "2026-11-01T11",
   "archived_verified_count": 106,
   "used_ids": [
     "1008150185",

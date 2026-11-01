@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1551545264",
-      "clip_slug": "FunnyDoubtfulTomatoPraiseIt-jS0Sw8fQcEN_5rJb",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/FunnyDoubtfulTomatoPraiseIt-jS0Sw8fQcEN_5rJb",
-      "original_title": "TREUE RAZE",
-      "hook": "TREUE RAZE",
-      "caption": "TREUE RAZE\n#gaming #valorant #twitchclips #krokoboss #gamer",
-      "views_at_selection": 250,
-      "original_duration": 20.0,
-      "original_created_at": "2026-11-01T00:03:53Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/krokoboss-1551545264-5b6619e29b69.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-01T08:30:18Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "5b6619e29b69c2dbea84cc17ef9718750008da9bceb597b8eeae1a62773d6ec1",
-      "category": "VALORANT",
-      "transcript_sha256": "bc900798e644a63eddbc205ebf21540ba08f3aee96bbe4efe81041c6f3bfed98",
-      "asr_requires_correction": true,
-      "source_sha256": "5340b97d6e3ba4dba305af06c990fe53bd7e084b47d0f7e303dd1a4923beb508",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-01T08:30:18.282601+00:00",
-        "media_sha256": "5b6619e29b69c2dbea84cc17ef9718750008da9bceb597b8eeae1a62773d6ec1",
-        "transcript_sha256": "bc900798e644a63eddbc205ebf21540ba08f3aee96bbe4efe81041c6f3bfed98",
-        "source_sha256": "5340b97d6e3ba4dba305af06c990fe53bd7e084b47d0f7e303dd1a4923beb508",
-        "evidence_sha256": "f97e1cc2f395fc0b1b197f9ee88a674fafffb1e9527049d9f88a740f872472eb",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "5340b97d6e3ba4dba305af06c990fe53bd7e084b47d0f7e303dd1a4923beb508",
-          "reviewed_source_sha256": "5340b97d6e3ba4dba305af06c990fe53bd7e084b47d0f7e303dd1a4923beb508",
-          "duration": 20.757,
-          "timestamps": [
-            0.0,
-            10.304,
-            20.607
-          ],
-          "source_frame_hashes": [
-            "319f0a73dcbb7d228ff3d11c939b2414dca2bf2236e36d97357da50323e819e7",
-            "eeeabd3bdee2f8a78f3d66c898471d26aa0305245cf81574571a83453b23e6ac",
-            "9565ccf71bc46c5dd8418cd09efed434521ee0c23a8aa72e553ef1296f7aab97"
-          ],
-          "headline": "TREUE RAZE",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay with HUD visible, including minimap, health, and team scores. Game is not browser or desktop capture, nor video within video.",
-            "game_name": "Valorant",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a map with a visible minimap and team scores, holding a weapon. No clear action or outcome is visible.",
-            "payoff": "No visible outcome or payoff from actions taken. No clear win or loss, no reaction or event conclusion visible in frames provided. No dialogue or subtitles present. No clear tension or reaction from player or game state.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.030614334490495127,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a game map with a minimap and team scores visible in the upper left corner. The player is holding a weapon, and the game's HUD is present. The streamer's facecam is visible in the upper右角, ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            10.304,
-            20.607
-          ],
-          "final_frame_hashes": [
-            "4bf48e2200f7631b36dd66cf4ddf1707041bf12e6d2ffe767ad2b27b57e57114",
-            "a7e5b1a07373d609191a25c17ab419f1f035681ed781edfbccb219472bc85036",
-            "3a6488cc1a9e42ec7d766449c1ca5d973cec3bdaccd66c182148898b55418a5a"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "5b6619e29b69c2dbea84cc17ef9718750008da9bceb597b8eeae1a62773d6ec1",
-          "transcript_sha256": "bc900798e644a63eddbc205ebf21540ba08f3aee96bbe4efe81041c6f3bfed98"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a top-down view of a game map with a minimap and team scores visible in the upper left corner. The player is holding a weapon, and the game's HUD is present. The streamer's facecam is visible in the upper右角, "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0306, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/krokoboss-1551545264-5b6619e29b69-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3700686251",
@@ -2018,14 +1880,17 @@
       "streamer": "krokoboss",
       "sha256": "5b6619e29b69c2dbea84cc17ef9718750008da9bceb597b8eeae1a62773d6ec1",
       "source_sha256": "5340b97d6e3ba4dba305af06c990fe53bd7e084b47d0f7e303dd1a4923beb508",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1551545264-5b6619e29b69.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/krokoboss-1551545264-5b6619e29b69.mp4",
       "clip_slug": "FunnyDoubtfulTomatoPraiseIt-jS0Sw8fQcEN_5rJb",
       "original_created_at": "2026-11-01T00:03:53Z",
       "source_deadline": "2026-11-04T00:03:53Z",
       "buffer_post_id": "6ae705e621c807e9d5ae6a60",
-      "last_reconcile_at": "2026-11-01T09:28:54Z"
+      "last_reconcile_at": "2026-11-01T09:28:54Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703132241345465632",
+      "sent_at": "2026-11-01T09:28:45Z",
+      "verified_at": "2026-11-01T09:28:55Z"
     }
   ],
   "last_production": {

@@ -2018,12 +2018,13 @@
       "streamer": "letshugotv",
       "sha256": "252f6d5e492b4b14251435402ac2e9d2f441128eae685251a12bcc438d361f86",
       "source_sha256": "e0c4356e1f12a2abe22f18241d3c097722356fce6a1d6a2779dabcca1a1ebcf8",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3917488004-252f6d5e492b.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-3917488004-252f6d5e492b.mp4",
       "clip_slug": "BlightedTubularMushroomVoteNay-ZIOKy1BgBJvbJuwp",
       "original_created_at": "2026-11-01T18:07:05Z",
-      "source_deadline": "2026-11-04T18:07:05Z"
+      "source_deadline": "2026-11-04T18:07:05Z",
+      "buffer_post_id": "6ae7973e1e69de2cfc127922"
     }
   ],
   "last_production": {

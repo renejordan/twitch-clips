@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1834862042",
-      "clip_slug": "EnticingPiercingDragonfruitSuperVinlin-lxPaw7wrb00LjBJV",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/EnticingPiercingDragonfruitSuperVinlin-lxPaw7wrb00LjBJV",
-      "original_title": "Lass mitte gehen",
-      "hook": "Lass mitte gehen",
-      "caption": "Lass mitte gehen\n#gaming #valorant #twitchclips #krokoboss #gamer",
-      "views_at_selection": 175,
-      "original_duration": 40.0,
-      "original_created_at": "2026-10-31T23:27:27Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/krokoboss-1834862042-5478c1da45e1.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-01T11:48:10Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "5478c1da45e1140096526fe2d3f1bc2921abff9ea00869f8d4f08ad98a33596e",
-      "category": "VALORANT",
-      "transcript_sha256": "8a404c7320802ce00f5aca0859e626270e0de9903d89ba9aabc96cae5ea006bc",
-      "asr_requires_correction": true,
-      "source_sha256": "ffa835d71217ff20ccd35006918801de9717580795933fd7a5287423429ce58a",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-01T11:48:10.549801+00:00",
-        "media_sha256": "5478c1da45e1140096526fe2d3f1bc2921abff9ea00869f8d4f08ad98a33596e",
-        "transcript_sha256": "8a404c7320802ce00f5aca0859e626270e0de9903d89ba9aabc96cae5ea006bc",
-        "source_sha256": "ffa835d71217ff20ccd35006918801de9717580795933fd7a5287423429ce58a",
-        "evidence_sha256": "e26fbb4b2fc3fba8fe754a52845de2aec2fbd2f14bb9d670d0895dbe4c36521a",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "ffa835d71217ff20ccd35006918801de9717580795933fd7a5287423429ce58a",
-          "reviewed_source_sha256": "ffa835d71217ff20ccd35006918801de9717580795933fd7a5287423429ce58a",
-          "duration": 40.183333,
-          "timestamps": [
-            0.0,
-            20.017,
-            40.033
-          ],
-          "source_frame_hashes": [
-            "2713e7908431f4d66a583ef23532b14f1bd4220ee4580814080da167a0e6ba4e",
-            "b8a90e522c0c919a3c9ec123cd7578af7e5cd2099bdacd49fe313361fa0f7629",
-            "8bd2d52c0fbcab58b8111b3c2ccb9f99803a9e44615e5b6385f014958e93a8eb"
-          ],
-          "headline": "Lass mitte gehen",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, HUD visible with map, health, ammo, team scores, and game state indicators.",
-            "game_name": "Valorant",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Valorant during a 'Kaufphase' (purchase phase) with visible map, health, and team scores.",
-            "payoff": "No clear outcome or payoff visible; game state remains unchanged after purchase phase ends without a visible win or loss.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.06179747393711982,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Valorant game in progress with a 'KAUFPHASE' (purchase phase) indicator, a minimap, health bar, and team scores visible. The player's hand is holding a weapon, and the game environment is clearly rendered. ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            20.017,
-            40.033
-          ],
-          "final_frame_hashes": [
-            "9b76aa4385dbc513015b249a0ac57829a099e1e03a1b98c7e6d780bfba71d623",
-            "297b7e2a9d8310cf385e7d9153f45197103db519a3440c95a5c21825f20a9935",
-            "618bfa831c0803c9299fd5748f1a041f6dcd81402e33faca7e9ec2b0ce4bd379"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "5478c1da45e1140096526fe2d3f1bc2921abff9ea00869f8d4f08ad98a33596e",
-          "transcript_sha256": "8a404c7320802ce00f5aca0859e626270e0de9903d89ba9aabc96cae5ea006bc"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Valorant game in progress with a 'KAUFPHASE' (purchase phase) indicator, a minimap, health bar, and team scores visible. The player's hand is holding a weapon, and the game environment is clearly rendered. "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0618, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/krokoboss-1834862042-5478c1da45e1-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "722767312",
@@ -2018,14 +1880,17 @@
       "streamer": "krokoboss",
       "sha256": "5478c1da45e1140096526fe2d3f1bc2921abff9ea00869f8d4f08ad98a33596e",
       "source_sha256": "ffa835d71217ff20ccd35006918801de9717580795933fd7a5287423429ce58a",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1834862042-5478c1da45e1.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/krokoboss-1834862042-5478c1da45e1.mp4",
       "clip_slug": "EnticingPiercingDragonfruitSuperVinlin-lxPaw7wrb00LjBJV",
       "original_created_at": "2026-10-31T23:27:27Z",
       "source_deadline": "2026-11-03T23:27:27Z",
       "buffer_post_id": "6ae731eb37c1acd2a003c977",
-      "last_reconcile_at": "2026-11-01T12:36:46Z"
+      "last_reconcile_at": "2026-11-01T12:36:46Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703180634868452641",
+      "sent_at": "2026-11-01T12:36:34Z",
+      "verified_at": "2026-11-01T12:36:47Z"
     }
   ],
   "last_production": {

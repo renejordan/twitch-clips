@@ -2018,12 +2018,13 @@
       "streamer": "bonjwa",
       "sha256": "e2f50b833999fc28722bd2fab93fe1591cb4821eaf130d4384119c28d0aa7975",
       "source_sha256": "6f6f6a8055b5a64dcaa95c017ccbace84a439c40f0851bdf1a18cc9097cdf30e",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2610451226-e2f50b833999.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/bonjwa-2610451226-e2f50b833999.mp4",
       "clip_slug": "VibrantSlickKoupreyTooSpicy-nntGdu5-vq3fRKVE",
       "original_created_at": "2026-10-31T21:30:16Z",
-      "source_deadline": "2026-11-03T21:30:16Z"
+      "source_deadline": "2026-11-03T21:30:16Z",
+      "buffer_post_id": "6ae7161dcf3a3112f3f09075"
     }
   ],
   "last_production": {

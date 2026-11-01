@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2610451226",
-      "clip_slug": "VibrantSlickKoupreyTooSpicy-nntGdu5-vq3fRKVE",
-      "streamer": "bonjwa",
-      "source_url": "https://www.twitch.tv/bonjwa/clip/VibrantSlickKoupreyTooSpicy-nntGdu5-vq3fRKVE",
-      "original_title": "Hacker",
-      "hook": "Hacker",
-      "caption": "Hacker\n#gaming #gta #twitchclips #bonjwa #gamer",
-      "views_at_selection": 170,
-      "original_duration": 51.0,
-      "original_created_at": "2026-10-31T21:30:16Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/bonjwa-2610451226-e2f50b833999.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-01T09:32:47Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "e2f50b833999fc28722bd2fab93fe1591cb4821eaf130d4384119c28d0aa7975",
-      "category": "Grand Theft Auto V",
-      "transcript_sha256": "071f7c149ed8d7b2920a1dd8291f6f69878028fc7154a7f6c414e34a30c415c3",
-      "asr_requires_correction": true,
-      "source_sha256": "6f6f6a8055b5a64dcaa95c017ccbace84a439c40f0851bdf1a18cc9097cdf30e",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-01T09:32:47.745012+00:00",
-        "media_sha256": "e2f50b833999fc28722bd2fab93fe1591cb4821eaf130d4384119c28d0aa7975",
-        "transcript_sha256": "071f7c149ed8d7b2920a1dd8291f6f69878028fc7154a7f6c414e34a30c415c3",
-        "source_sha256": "6f6f6a8055b5a64dcaa95c017ccbace84a439c40f0851bdf1a18cc9097cdf30e",
-        "evidence_sha256": "c490ab5d38d066b32a9485c77f6987196d6505c3d17e25e2c184760dd3bd4bfe",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "6f6f6a8055b5a64dcaa95c017ccbace84a439c40f0851bdf1a18cc9097cdf30e",
-          "reviewed_source_sha256": "6f6f6a8055b5a64dcaa95c017ccbace84a439c40f0851bdf1a18cc9097cdf30e",
-          "duration": 51.114,
-          "timestamps": [
-            0.0,
-            25.482,
-            50.964
-          ],
-          "source_frame_hashes": [
-            "e8666f4b8b4667931f4886e97580171d5fc7cf549c1cf49c8a70af45b177fc52",
-            "eb7103f472373d23877874c218a2da07ce01ecb07d9e529da7325ccbd9a40848",
-            "f243408e4b7b1e80dcdf431fbc30128f2ea756573d7eaa59b1bff639489d71c1"
-          ],
-          "headline": "Hacker",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in a corner over gameplay, showing a character in a police uniform standing over a prone character in a purple suit, with a phone interface and game HUD visible. The game is not a browser or desktop capture",
-            "game_name": "Grand Theft Auto V",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "A character in a police uniform stands over a prone character in a purple suit, holding a phone with a code entry screen visible.",
-            "payoff": "No visible outcome or payoff; the scene remains static with no clear action or result visible in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.038893171884175196,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a character in a police uniform standing over a prone character in a purple suit, holding a phone with a code entry screen visible. The scene is static with no clear action or result visible. The title 'Haker",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            25.482,
-            50.964
-          ],
-          "final_frame_hashes": [
-            "30db7052082478705a1f8ccdf3cad1f4e46d387969853ae6e93b39ec804d7dc6",
-            "4fdeb33b0e573f3bde03e017054d5a5a22c0e24122b0261783f1045465ae7fb0",
-            "28e66aa309642b45da2866676eaf321d7e25b0ad2d95612eb13366aec8ff250b"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "e2f50b833999fc28722bd2fab93fe1591cb4821eaf130d4384119c28d0aa7975",
-          "transcript_sha256": "071f7c149ed8d7b2920a1dd8291f6f69878028fc7154a7f6c414e34a30c415c3"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a character in a police uniform standing over a prone character in a purple suit, holding a phone with a code entry screen visible. The scene is static with no clear action or result visible. The title 'Haker"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0389, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/bonjwa-2610451226-e2f50b833999-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1008150185",
@@ -2018,14 +1880,17 @@
       "streamer": "bonjwa",
       "sha256": "e2f50b833999fc28722bd2fab93fe1591cb4821eaf130d4384119c28d0aa7975",
       "source_sha256": "6f6f6a8055b5a64dcaa95c017ccbace84a439c40f0851bdf1a18cc9097cdf30e",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2610451226-e2f50b833999.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/bonjwa-2610451226-e2f50b833999.mp4",
       "clip_slug": "VibrantSlickKoupreyTooSpicy-nntGdu5-vq3fRKVE",
       "original_created_at": "2026-10-31T21:30:16Z",
       "source_deadline": "2026-11-03T21:30:16Z",
       "buffer_post_id": "6ae7161dcf3a3112f3f09075",
-      "last_reconcile_at": "2026-11-01T10:38:03Z"
+      "last_reconcile_at": "2026-11-01T10:38:03Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703150055548570912",
+      "sent_at": "2026-11-01T10:37:57Z",
+      "verified_at": "2026-11-01T10:38:04Z"
     }
   ],
   "last_production": {

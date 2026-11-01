@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "307581897",
-      "reserved_at": "2026-10-25T22:00:29Z",
-      "streamer": "castcrafter",
-      "sha256": "adcdf223af1f89ad8a8e8408ebbb8f953aec875a060671f1faaed2bbe69b2cf6",
-      "source_sha256": "d55f8edc3630c478e7324ca1e6db42ff5844a2f85afffebdb0b8a30c5bdeded2",
-      "status": "verified_public",
-      "asset_title": "tiktok14-307581897-adcdf223af1f.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/castcrafter-307581897-adcdf223af1f.mp4",
-      "clip_slug": "CarefulCulturedElephantKappaRoss-l-4f8lPJzqgdJ-Bq",
-      "original_created_at": "2026-10-25T20:45:02Z",
-      "source_deadline": "2026-10-28T20:45:02Z",
-      "buffer_post_id": "6ade7c008b3d437ddc2cb0ae",
-      "last_reconcile_at": "2026-10-25T22:02:26Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700728814896254241",
-      "sent_at": "2026-10-25T22:02:22Z",
-      "verified_at": "2026-10-25T22:02:27Z"
-    },
-    {
       "clip_id": "2933165164",
       "reserved_at": "2026-10-26T08:02:33Z",
       "streamer": "nooreax",
@@ -1982,15 +1964,6 @@
   },
   "rejected": [
     {
-      "clip_id": "1937140420",
-      "clip_slug": "VibrantCredulousJalapenoDatSheffy-VdA98SsVBa3YAXFM",
-      "streamer": "castcrafter",
-      "source_url": "https://www.twitch.tv/castcrafter/clip/VibrantCredulousJalapenoDatSheffy-VdA98SsVBa3YAXFM",
-      "status": "quality_rejected",
-      "created_at": "2026-10-25T22:33:00Z",
-      "reason": "qa_audio_quality_failed"
-    },
-    {
       "clip_id": "886498542",
       "clip_slug": "SullenWanderingGaurPupper-7Y6RtRD5Ik0jBie-",
       "streamer": "papaplatte",
@@ -2442,7 +2415,7 @@
   ],
   "last_prepare_hour": "2026-11-01T21",
   "last_prefetch_hour": "2026-11-01T21",
-  "archived_verified_count": 116,
+  "archived_verified_count": 117,
   "used_ids": [
     "1008150185",
     "1014059590",
@@ -2486,6 +2459,7 @@
     "1851713066",
     "1858383777",
     "189326581",
+    "1937140420",
     "2063564845",
     "206829726",
     "2078601665",
@@ -2531,6 +2505,7 @@
     "3019148940",
     "3026950595",
     "303680278",
+    "307581897",
     "3081137165",
     "309969943",
     "3101807848",
@@ -2604,5 +2579,5 @@
     "857609776",
     "945475581"
   ],
-  "archived_rejected_count": 43
+  "archived_rejected_count": 44
 }

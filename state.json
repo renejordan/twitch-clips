@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "872718922",
+      "clip_slug": "QuaintStylishTildeStinkyCheese-UT_InYHUrrzCp30o",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/QuaintStylishTildeStinkyCheese-UT_InYHUrrzCp30o",
+      "original_title": "tower",
+      "hook": "tower",
+      "caption": "tower\n#gaming #minecraft #twitchclips #trymacs #gamer",
+      "views_at_selection": 149,
+      "original_duration": 59.0,
+      "original_created_at": "2026-10-31T15:51:26Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-872718922-730cf1c73087.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-01T14:32:01Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "730cf1c730878e2634aefb73b38fe942c4e26e38c10aaff21c06562924fd080f",
+      "category": "Minecraft",
+      "transcript_sha256": "57e3b967bd2f7d0b50875c94e9c3b41428529abe2064974a7102b76601740b6b",
+      "asr_requires_correction": true,
+      "source_sha256": "87c6777738a8a63694524ddb35dee6cd3a3c715775de79235c276f69de103ad8",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-01T14:32:01.088730+00:00",
+        "media_sha256": "730cf1c730878e2634aefb73b38fe942c4e26e38c10aaff21c06562924fd080f",
+        "transcript_sha256": "57e3b967bd2f7d0b50875c94e9c3b41428529abe2064974a7102b76601740b6b",
+        "source_sha256": "87c6777738a8a63694524ddb35dee6cd3a3c715775de79235c276f69de103ad8",
+        "evidence_sha256": "7fe10b04fb68739a60890a061d84c33d7adb2569174b78c21aed8399b4d98d5e",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "87c6777738a8a63694524ddb35dee6cd3a3c715775de79235c276f69de103ad8",
+          "reviewed_source_sha256": "87c6777738a8a63694524ddb35dee6cd3a3c715775de79235c276f69de103ad8",
+          "duration": 59.033333,
+          "timestamps": [
+            0.0,
+            29.442,
+            58.883
+          ],
+          "source_frame_hashes": [
+            "651d3a9bb88433841446b27921794af964072520af5d3b4d2530cb627a44733b",
+            "a1d0ee3d7f0a373accba101715ed59f2f76195f933dd9fedb5f1dbfddb3db24e",
+            "90e36e6b885ebbac90d3cc4e529c3cc7bc1732f8ae08e0862fe35b578fcebc14"
+          ],
+          "headline": "tower",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay with HUD and minimap visible, not a video player or browser.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a dark area with TNT visible, suggesting a build or explosion setup.",
+            "payoff": "No visible outcome or payoff; gameplay continues without clear win/loss or reaction from player or game mechanics.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.05228644654797134,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a dark area with a visible TNT block and a player's inventory, consistent with a build or explosion setup. The frame at 29.44 seconds shows a large red brick tower under a sky with clouds, indicating a change",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            29.442,
+            58.883
+          ],
+          "final_frame_hashes": [
+            "c0db12403cdde5222d26109b8d5d2066822f87607b9f82a6b0018aba2d664e3b",
+            "1b1b569c09605daf78f837685318a72b45d47edbb45be9bebdbdc52bc1d41ed0",
+            "ffd8e929815367e6b6ac91703ae65dd302ca97f7d15c99598f513c73ad738696"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "730cf1c730878e2634aefb73b38fe942c4e26e38c10aaff21c06562924fd080f",
+          "transcript_sha256": "57e3b967bd2f7d0b50875c94e9c3b41428529abe2064974a7102b76601740b6b"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a dark area with a visible TNT block and a player's inventory, consistent with a build or explosion setup. The frame at 29.44 seconds shows a large red brick tower under a sky with clouds, indicating a change"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0523, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-872718922-730cf1c73087-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2963515657",

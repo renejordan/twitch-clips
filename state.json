@@ -2430,6 +2430,15 @@
       "status": "quality_rejected",
       "created_at": "2026-11-01T10:41:26Z",
       "reason": "qa_duration_invalid"
+    },
+    {
+      "clip_id": "3063183194",
+      "clip_slug": "EnthusiasticShakingHeronDeIlluminati-50dakKtHlGNb35LK",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/EnthusiasticShakingHeronDeIlluminati-50dakKtHlGNb35LK",
+      "status": "quality_rejected",
+      "created_at": "2026-11-01T17:36:43Z",
+      "reason": "qa_visual_gameplay_visible"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

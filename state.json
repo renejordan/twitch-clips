@@ -2032,27 +2032,29 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-01T09:32:47Z",
+    "at": "2026-11-01T10:41:26Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 85,
-      "listing_age_prefilter": 785,
-      "discovered": 645,
-      "metadata_requested": 593,
-      "qualified_metadata": 281,
+      "listing_duration_prefilter": 95,
+      "listing_age_prefilter": 742,
+      "discovered": 635,
+      "metadata_requested": 585,
+      "qualified_metadata": 265,
       "duplicate_source_event": 14,
-      "title_too_short": 51,
-      "gaming_category_not_verified": 261,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "title_too_short": 47,
+      "gaming_category_not_verified": 273,
+      "download_attempted": 3,
+      "render_attempted": 3,
+      "qa_visual_gameplay_visible": 1,
+      "qa_duration_invalid": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2610451226",
-      "clip_slug": "VibrantSlickKoupreyTooSpicy-nntGdu5-vq3fRKVE",
-      "streamer": "bonjwa"
+      "clip_id": "2630101538",
+      "clip_slug": "SingleFrozenRabbitStinkyCheese-F44Z7IdfDyRHMU40",
+      "streamer": "nooreax"
     }
   },
   "prepare_scans": {
@@ -2596,8 +2598,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-01T09",
-  "last_prefetch_hour": "2026-11-01T09",
+  "last_prepare_hour": "2026-11-01T10",
+  "last_prefetch_hour": "2026-11-01T10",
   "archived_verified_count": 105,
   "used_ids": [
     "1014059590",

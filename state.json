@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703180634868452641",
       "sent_at": "2026-11-01T12:36:34Z",
       "verified_at": "2026-11-01T12:36:47Z"
+    },
+    {
+      "clip_id": "3239508575",
+      "reserved_at": "2026-11-01T13:28:43Z",
+      "streamer": "trymacs",
+      "sha256": "86600a0c4ba796a91535ac6be9bb85ba8ac9d2cb991ca9abec6a7bdf20fee308",
+      "source_sha256": "aa80d925dca08c935b29a659c11f5e1e4878f78caf68b86fb37dd098fbb18045",
+      "status": "reserved",
+      "asset_title": "tiktok14-3239508575-86600a0c4ba7.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-3239508575-86600a0c4ba7.mp4",
+      "clip_slug": "SpinelessCrispyTomatoTwitchRaid-kGPM7bx9j0fnRJkE",
+      "original_created_at": "2026-10-31T14:57:10Z",
+      "source_deadline": "2026-11-03T14:57:10Z"
     }
   ],
   "last_production": {

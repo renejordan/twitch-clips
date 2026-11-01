@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3868891162",
+      "clip_slug": "SarcasticAffluentDonutUncleNox-P4bmMUWJFy6jV0vA",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/SarcasticAffluentDonutUncleNox-P4bmMUWJFy6jV0vA",
+      "original_title": "Peinlich",
+      "hook": "Peinlich",
+      "caption": "Peinlich\n#gaming #minecraft #twitchclips #trymacs #gamer",
+      "views_at_selection": 407,
+      "original_duration": 30.0,
+      "original_created_at": "2026-11-01T20:24:20Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-3868891162-409022ea9282.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-01T21:10:06Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "409022ea9282050061380f03079d5fc09b88fe5fb1fd47dd1b64a5ffcea4196a",
+      "category": "Minecraft",
+      "transcript_sha256": "6ff09dcb2d247a959a6b8a57a6c15841b6a4be215cc31d8c6fd5e73af7ce3d76",
+      "asr_requires_correction": true,
+      "source_sha256": "11dc58031501d8d6d53fd62712152bd1950eddc92f5a4c7cb741d6d4e2f4a57c",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-01T21:10:06.346183+00:00",
+        "media_sha256": "409022ea9282050061380f03079d5fc09b88fe5fb1fd47dd1b64a5ffcea4196a",
+        "transcript_sha256": "6ff09dcb2d247a959a6b8a57a6c15841b6a4be215cc31d8c6fd5e73af7ce3d76",
+        "source_sha256": "11dc58031501d8d6d53fd62712152bd1950eddc92f5a4c7cb741d6d4e2f4a57c",
+        "evidence_sha256": "c0f315731964c13cb009d31240c90747cecb8742bec38e99089127787aa3958f",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "11dc58031501d8d6d53fd62712152bd1950eddc92f5a4c7cb741d6d4e2f4a57c",
+          "reviewed_source_sha256": "11dc58031501d8d6d53fd62712152bd1950eddc92f5a4c7cb741d6d4e2f4a57c",
+          "duration": 30.009,
+          "timestamps": [
+            0.0,
+            14.93,
+            29.859
+          ],
+          "source_frame_hashes": [
+            "e3c7ecfd5151b20e49f3910ae28a15843a0ae0f69c6c58679e0437ad7eb94321",
+            "7baedfce51847a016ea0e7fb96a26afdaf0b44cb05b0c27c341f7204cbde412a",
+            "d023e42772d08ec3cfe8889712071c747ca824d68ac945d4a3c7960ad057c69a"
+          ],
+          "headline": "Peinlich",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": true,
+            "standalone_understandable": true,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay with a visible game HUD and chat, including a 'You Died!' screen and inventory bar.",
+            "game_name": "Minecraft",
+            "hook_score": 3,
+            "payoff_score": 3,
+            "setup": "Player is in a Minecraft world with a visible inventory and chat, indicating a gameplay session.",
+            "payoff": "Player dies and the game displays a 'You Died!' screen with a score and respawn options, indicating a clear outcome of the action.",
+            "payoff_timestamp": 14.93,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.07123978512291228,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a visible inventory bar and chat window, consistent with a direct game capture. The frame at 14.93 seconds displays the 'You Died!' screen with respawn and title screen options",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.93,
+            29.859
+          ],
+          "final_frame_hashes": [
+            "0d1b8b753fad55bcb1e5244863d8cd554975f078669f60a4d2f729cc41311878",
+            "4b881e61679c3de39bf8445d1e5e627adbd7ec69306d42fcf67120a8db2b447c",
+            "b87471bedb92b89e7efc5afff380bcf1241822578f2bffb4090c6090101d6482"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "409022ea9282050061380f03079d5fc09b88fe5fb1fd47dd1b64a5ffcea4196a",
+          "transcript_sha256": "6ff09dcb2d247a959a6b8a57a6c15841b6a4be215cc31d8c6fd5e73af7ce3d76"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a visible inventory bar and chat window, consistent with a direct game capture. The frame at 14.93 seconds displays the 'You Died!' screen with respawn and title screen options"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0712, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-3868891162-409022ea9282-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "307581897",

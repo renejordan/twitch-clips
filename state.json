@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "4039029595",
+      "clip_slug": "PunchyHyperCasetteUWot-TCDWd7HOHAOg0ZAv",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/PunchyHyperCasetteUWot-TCDWd7HOHAOg0ZAv",
+      "original_title": "zarbex Tod",
+      "hook": "zarbex Tod",
+      "caption": "zarbex Tod\n#gaming #minecraft #twitchclips #zarbex #gamer",
+      "views_at_selection": 356,
+      "original_duration": 22.0,
+      "original_created_at": "2026-11-01T18:29:14Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/zarbex-4039029595-4c3b73b88c21.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-01T19:53:19Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "4c3b73b88c215523912c0b7193d835581f1331d9caf90db834abf05383462742",
+      "category": "Minecraft",
+      "transcript_sha256": "2d4f49bf3b2c748d38d359b861aa8f3b30d1f125e3795d401d3b15d3253adf11",
+      "asr_requires_correction": true,
+      "source_sha256": "b876cc4b238441378e079c493f25211ce43d1467430d1b3d021192960f9e4efe",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-01T19:53:19.600373+00:00",
+        "media_sha256": "4c3b73b88c215523912c0b7193d835581f1331d9caf90db834abf05383462742",
+        "transcript_sha256": "2d4f49bf3b2c748d38d359b861aa8f3b30d1f125e3795d401d3b15d3253adf11",
+        "source_sha256": "b876cc4b238441378e079c493f25211ce43d1467430d1b3d021192960f9e4efe",
+        "evidence_sha256": "b862b4b25d673f6c121765d5ae5c0a879c81de14f8ed99701fa147e55a47a31e",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "b876cc4b238441378e079c493f25211ce43d1467430d1b3d021192960f9e4efe",
+          "reviewed_source_sha256": "b876cc4b238441378e079c493f25211ce43d1467430d1b3d021192960f9e4efe",
+          "duration": 22.26,
+          "timestamps": [
+            0.0,
+            11.055,
+            22.11
+          ],
+          "source_frame_hashes": [
+            "7d8690ede785167a09f6b84416144519bcc64806c9f51f0edf2f93864cd1d316",
+            "22419e534267251c5cc14712084da0f2deaabe454a3e9e8b45f1f9e1c161fea2",
+            "4531c68e83900912b6171fef62871ad6de91625d670b2a87fa58a237a8007337"
+          ],
+          "headline": "zarbex Tod",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": true,
+            "standalone_understandable": true,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay, with game HUD and chat visible, and a visible death screen.",
+            "game_name": "Minecraft",
+            "hook_score": 5,
+            "payoff_score": 5,
+            "setup": "Player is in a dark underwater environment, holding a diamond sword, with a chat window and face camera visible.",
+            "payoff": "Player dies in a lava pit, triggering a 'You Died' screen with options to restart or go to main menu, and the player reacts with a visible gesture of surprise or frustration, indicating a clear outcome and emotional payo",
+            "payoff_timestamp": 22.11,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.10483344127713526,
+          "clipped_fraction": 1.1246411691769595e-05,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a title overlay 'zarbex Tod' above gameplay, with a facecam panel and chat visible. The frame at 11.05 seconds shows gameplay with a chat window and facecam, but no 'You Died' screen. The frame at 22.11 shows",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            11.055,
+            22.11
+          ],
+          "final_frame_hashes": [
+            "be8c93d1e8b710d2aa60c0c1cb5c34ef6d7c0b0ba630111fffed27fb55515a01",
+            "b6a4007afe02e8a67ec2bafb2f709cd15687f6381e8c793182bbf1c9dd4ace3c",
+            "e4b91dfeb9839f3d7d793af978dccfd5df74686e098feeed099314c2858fde73"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "4c3b73b88c215523912c0b7193d835581f1331d9caf90db834abf05383462742",
+          "transcript_sha256": "2d4f49bf3b2c748d38d359b861aa8f3b30d1f125e3795d401d3b15d3253adf11"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a title overlay 'zarbex Tod' above gameplay, with a facecam panel and chat visible. The frame at 11.05 seconds shows gameplay with a chat window and facecam, but no 'You Died' screen. The frame at 22.11 shows"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.1048, clipping fraction 0.00001. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/zarbex-4039029595-4c3b73b88c21-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "4180518052",

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3917488004",
-      "clip_slug": "BlightedTubularMushroomVoteNay-ZIOKy1BgBJvbJuwp",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/BlightedTubularMushroomVoteNay-ZIOKy1BgBJvbJuwp",
-      "original_title": "xray suche für reason",
-      "hook": "xray suche für reason",
-      "caption": "xray suche für reason\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 109,
-      "original_duration": 30.0,
-      "original_created_at": "2026-11-01T18:07:05Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-3917488004-252f6d5e492b.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-01T18:34:31Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "252f6d5e492b4b14251435402ac2e9d2f441128eae685251a12bcc438d361f86",
-      "category": "Minecraft",
-      "transcript_sha256": "cc55431804f4544ff29cab786d1535fb03a9e7f05a22501306ff15ea0193d9c3",
-      "asr_requires_correction": true,
-      "source_sha256": "e0c4356e1f12a2abe22f18241d3c097722356fce6a1d6a2779dabcca1a1ebcf8",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-01T18:34:31.267718+00:00",
-        "media_sha256": "252f6d5e492b4b14251435402ac2e9d2f441128eae685251a12bcc438d361f86",
-        "transcript_sha256": "cc55431804f4544ff29cab786d1535fb03a9e7f05a22501306ff15ea0193d9c3",
-        "source_sha256": "e0c4356e1f12a2abe22f18241d3c097722356fce6a1d6a2779dabcca1a1ebcf8",
-        "evidence_sha256": "01b119dfba2521b7e000b96d63a0fb8b566b782ec5a832a687f0c7c21feda9de",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "e0c4356e1f12a2abe22f18241d3c097722356fce6a1d6a2779dabcca1a1ebcf8",
-          "reviewed_source_sha256": "e0c4356e1f12a2abe22f18241d3c097722356fce6a1d6a2779dabcca1a1ebcf8",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "0602ab0590ad23a9f0181083ee19a4a04c674f86411a725d72fa2cc3698374a0",
-            "1d22500239bb9ce2c580d306a562923fa82be7613911be88ba4ce2dd81fd9dbe",
-            "355b8107bf04094c64e07dad01dfd23539be8d7d8ee7203373b3531a0339909a"
-          ],
-          "headline": "xray suche für reason",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop window borders",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft cave, holding a tool, no visible outcome or reaction",
-            "payoff": "No visible outcome or reaction, no clear payoff or event in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.042289612861208435,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, which is a common edited gaming layout. The game's HUD is visible, including the player's inventory, health, and experience bar. The chat",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "67b0ee56cdd47b8f18ec58f16a532bf61fad9be636920351d7228fea71f8c042",
-            "b12c7fd68019c61fbb5222e0f7958e9e0c82eaaf2949a5758a1d8d45682a9f23",
-            "c9d35eb73395a6d516c84a5709d9eb06879ad410efe7a5119fe7d4505dedbe16"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "252f6d5e492b4b14251435402ac2e9d2f441128eae685251a12bcc438d361f86",
-          "transcript_sha256": "cc55431804f4544ff29cab786d1535fb03a9e7f05a22501306ff15ea0193d9c3"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, which is a common edited gaming layout. The game's HUD is visible, including the player's inventory, health, and experience bar. The chat"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0423, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-3917488004-252f6d5e492b-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "4180518052",
@@ -2018,14 +1880,17 @@
       "streamer": "letshugotv",
       "sha256": "252f6d5e492b4b14251435402ac2e9d2f441128eae685251a12bcc438d361f86",
       "source_sha256": "e0c4356e1f12a2abe22f18241d3c097722356fce6a1d6a2779dabcca1a1ebcf8",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3917488004-252f6d5e492b.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-3917488004-252f6d5e492b.mp4",
       "clip_slug": "BlightedTubularMushroomVoteNay-ZIOKy1BgBJvbJuwp",
       "original_created_at": "2026-11-01T18:07:05Z",
       "source_deadline": "2026-11-04T18:07:05Z",
       "buffer_post_id": "6ae7973e1e69de2cfc127922",
-      "last_reconcile_at": "2026-11-01T19:49:06Z"
+      "last_reconcile_at": "2026-11-01T19:49:06Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703292051869224224",
+      "sent_at": "2026-11-01T19:48:54Z",
+      "verified_at": "2026-11-01T19:49:07Z"
     }
   ],
   "last_production": {

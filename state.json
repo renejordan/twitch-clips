@@ -2032,28 +2032,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-01T17:36:43Z",
+    "at": "2026-11-01T18:34:31Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
+      "listing_duration_prefilter": 104,
       "listing_ok": 100,
-      "listing_duration_prefilter": 105,
-      "listing_age_prefilter": 768,
-      "discovered": 883,
-      "metadata_requested": 831,
-      "gaming_category_not_verified": 388,
-      "title_too_short": 91,
-      "qualified_metadata": 352,
-      "duplicate_source_event": 16,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_visual_gameplay_visible": 1,
+      "discovered": 846,
+      "listing_age_prefilter": 747,
+      "metadata_requested": 799,
+      "title_too_short": 79,
+      "gaming_category_not_verified": 347,
+      "qualified_metadata": 373,
+      "duplicate_source_event": 15,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "3036885833",
-      "clip_slug": "StormyFitTigerCoolStoryBro-9dljVc8oM3G2TJCv",
-      "streamer": "xrohat"
+      "clip_id": "3917488004",
+      "clip_slug": "BlightedTubularMushroomVoteNay-ZIOKy1BgBJvbJuwp",
+      "streamer": "letshugotv"
     }
   },
   "prepare_scans": {
@@ -2588,8 +2587,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-01T17",
-  "last_prefetch_hour": "2026-11-01T17",
+  "last_prepare_hour": "2026-11-01T18",
+  "last_prefetch_hour": "2026-11-01T18",
   "archived_verified_count": 113,
   "used_ids": [
     "1008150185",

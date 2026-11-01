@@ -2032,27 +2032,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-01T11:48:10Z",
+    "at": "2026-11-01T12:41:14Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 93,
-      "listing_age_prefilter": 755,
-      "discovered": 661,
-      "metadata_requested": 606,
-      "title_too_short": 49,
-      "qualified_metadata": 259,
+      "listing_duration_prefilter": 88,
+      "listing_age_prefilter": 758,
+      "discovered": 692,
+      "metadata_requested": 644,
       "gaming_category_not_verified": 298,
-      "duplicate_source_event": 14,
+      "qualified_metadata": 294,
+      "title_too_short": 52,
+      "duplicate_source_event": 15,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1834862042",
-      "clip_slug": "EnticingPiercingDragonfruitSuperVinlin-lxPaw7wrb00LjBJV",
-      "streamer": "krokoboss"
+      "clip_id": "3239508575",
+      "clip_slug": "SpinelessCrispyTomatoTwitchRaid-kGPM7bx9j0fnRJkE",
+      "streamer": "trymacs"
     }
   },
   "prepare_scans": {
@@ -2596,8 +2596,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-01T11",
-  "last_prefetch_hour": "2026-11-01T11",
+  "last_prepare_hour": "2026-11-01T12",
+  "last_prefetch_hour": "2026-11-01T12",
   "archived_verified_count": 107,
   "used_ids": [
     "1008150185",

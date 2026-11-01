@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7702961084159888672",
       "sent_at": "2026-10-31T22:24:36Z",
       "verified_at": "2026-10-31T22:24:52Z"
+    },
+    {
+      "clip_id": "2524408890",
+      "reserved_at": "2026-11-01T08:24:58Z",
+      "streamer": "trymacs",
+      "sha256": "25eab720eaf1b52fee6ae936a75aa09fa2dd73c86345bc8c0047be95db5fa7ac",
+      "source_sha256": "bae38f3a29a285b61cb1f75769d59af423dafbbce32b75a75aff39edf7876870",
+      "status": "reserved",
+      "asset_title": "tiktok14-2524408890-25eab720eaf1.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/trymacs-2524408890-25eab720eaf1.mp4",
+      "clip_slug": "AttractiveSarcasticHamsterSeemsGood-7qV-16BucVKLnZ0C",
+      "original_created_at": "2026-10-31T20:07:48Z",
+      "source_deadline": "2026-11-03T20:07:48Z"
     }
   ],
   "last_production": {

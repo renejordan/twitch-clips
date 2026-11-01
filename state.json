@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2630101538",
-      "clip_slug": "SingleFrozenRabbitStinkyCheese-F44Z7IdfDyRHMU40",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/SingleFrozenRabbitStinkyCheese-F44Z7IdfDyRHMU40",
-      "original_title": "nooreax macet die neue",
-      "hook": "nooreax macet die neue",
-      "caption": "nooreax macet die neue\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 97,
-      "original_duration": 25.0,
-      "original_created_at": "2026-10-31T20:34:02Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-2630101538-5c0dfd01fe91.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-01T10:41:26Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "5c0dfd01fe91bced9336cd89494750258502ac62af23578100a354e7bc56c867",
-      "category": "Minecraft",
-      "transcript_sha256": "dfcfe8a318609b6f9bdfb851202866afdd7c7bc426480a89a48bdd63c8ba233e",
-      "asr_requires_correction": true,
-      "source_sha256": "aff9405d9d652a6f753ccfa6169b9681928fc08687699470234f25fb1969bc77",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-01T10:41:26.541938+00:00",
-        "media_sha256": "5c0dfd01fe91bced9336cd89494750258502ac62af23578100a354e7bc56c867",
-        "transcript_sha256": "dfcfe8a318609b6f9bdfb851202866afdd7c7bc426480a89a48bdd63c8ba233e",
-        "source_sha256": "aff9405d9d652a6f753ccfa6169b9681928fc08687699470234f25fb1969bc77",
-        "evidence_sha256": "562765c6e5b8a2479f55e0a1e9afc4a9d75d12634f9892bb35128e4e362c918b",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "aff9405d9d652a6f753ccfa6169b9681928fc08687699470234f25fb1969bc77",
-          "reviewed_source_sha256": "aff9405d9d652a6f753ccfa6169b9681928fc08687699470234f25fb1969bc77",
-          "duration": 25.15,
-          "timestamps": [
-            0.0,
-            12.5,
-            25.0
-          ],
-          "source_frame_hashes": [
-            "2327019f8b30356d48512691ef337e83aa7ee455203fa4f90b0d5d51a1253665",
-            "9873897e57a8f9b8a5b9679d42bce965753991957d16fedbbcda09cd901446af",
-            "6ed7a40a7df3f5aafc71ca3634d9ef2d67933e8952b34d4226b83e123f0a2165"
-          ],
-          "headline": "nooreax macet die neue",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, game HUD with inventory, chat, and player stats, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Minecraft, holding a Firework Rocket, in a stone tunnel with chat and HUD visible",
-            "payoff": "No visible outcome or payoff; inventory opened, no win/loss or reaction shown",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.038118875990650246,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a stone tunnel, a player holding a Firework Rocket, and visible chat and HUD elements. The top of the frame displays the title 'nooreax macet die neue' as a subtitle. The right",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            12.5,
-            25.0
-          ],
-          "final_frame_hashes": [
-            "bd42cfa1b09b21926f562e5455458ef409573a96386040d045afa053cce415ba",
-            "0eec9b6685a52cdf6fb72e75b93548405283f4f2e22a6782804ffd3dba51adb1",
-            "5d08a979ad818c97b789b32264f5d5c0feeebfdefd6c0d8a00e11aafccd4a102"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "5c0dfd01fe91bced9336cd89494750258502ac62af23578100a354e7bc56c867",
-          "transcript_sha256": "dfcfe8a318609b6f9bdfb851202866afdd7c7bc426480a89a48bdd63c8ba233e"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a stone tunnel, a player holding a Firework Rocket, and visible chat and HUD elements. The top of the frame displays the title 'nooreax macet die neue' as a subtitle. The right"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0381, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-2630101538-5c0dfd01fe91-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1605390686",
@@ -2018,14 +1880,17 @@
       "streamer": "nooreax",
       "sha256": "5c0dfd01fe91bced9336cd89494750258502ac62af23578100a354e7bc56c867",
       "source_sha256": "aff9405d9d652a6f753ccfa6169b9681928fc08687699470234f25fb1969bc77",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2630101538-5c0dfd01fe91.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-2630101538-5c0dfd01fe91.mp4",
       "clip_slug": "SingleFrozenRabbitStinkyCheese-F44Z7IdfDyRHMU40",
       "original_created_at": "2026-10-31T20:34:02Z",
       "source_deadline": "2026-11-03T20:34:02Z",
       "buffer_post_id": "6ae725c5f0984eef336175de",
-      "last_reconcile_at": "2026-11-01T11:44:51Z"
+      "last_reconcile_at": "2026-11-01T11:44:51Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703167272730316064",
+      "sent_at": "2026-11-01T11:44:44Z",
+      "verified_at": "2026-11-01T11:44:52Z"
     }
   ],
   "last_production": {

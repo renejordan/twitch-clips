@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3239508575",
-      "clip_slug": "SpinelessCrispyTomatoTwitchRaid-kGPM7bx9j0fnRJkE",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/SpinelessCrispyTomatoTwitchRaid-kGPM7bx9j0fnRJkE",
-      "original_title": "100.000 TNT Exploion Craft Attack Rekord aufstellen! Morgen FitnaCraft 16 Uhr! Nobomi ist endlich da!    | !Nobomi !Prepmymeal !ESN",
-      "hook": "100.000 TNT Exploion Craft Attack Rekord…",
-      "caption": "100.000 TNT Exploion Craft Attack Rekord…\n#gaming #minecraft #twitchclips #trymacs #gamer",
-      "views_at_selection": 188,
-      "original_duration": 30.0,
-      "original_created_at": "2026-10-31T14:57:10Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-3239508575-86600a0c4ba7.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-01T12:41:14Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "86600a0c4ba796a91535ac6be9bb85ba8ac9d2cb991ca9abec6a7bdf20fee308",
-      "category": "Minecraft",
-      "transcript_sha256": "95580829e3a594c55da5d7ca2f422112e4aa9161d69c2d6993cb54b56ff9545a",
-      "asr_requires_correction": true,
-      "source_sha256": "aa80d925dca08c935b29a659c11f5e1e4878f78caf68b86fb37dd098fbb18045",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-01T12:41:14.392377+00:00",
-        "media_sha256": "86600a0c4ba796a91535ac6be9bb85ba8ac9d2cb991ca9abec6a7bdf20fee308",
-        "transcript_sha256": "95580829e3a594c55da5d7ca2f422112e4aa9161d69c2d6993cb54b56ff9545a",
-        "source_sha256": "aa80d925dca08c935b29a659c11f5e1e4878f78caf68b86fb37dd098fbb18045",
-        "evidence_sha256": "df5192e0270fa1ab6d2c915852162435f91911b0d53c516d2f3738c4bd1fa66a",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "aa80d925dca08c935b29a659c11f5e1e4878f78caf68b86fb37dd098fbb18045",
-          "reviewed_source_sha256": "aa80d925dca08c935b29a659c11f5e1e4878f78caf68b86fb37dd098fbb18045",
-          "duration": 30.011,
-          "timestamps": [
-            0.0,
-            14.931,
-            29.861
-          ],
-          "source_frame_hashes": [
-            "0d6a2162586750e81d9c10420846aa48265634a7f8343afdf2f516aa3e74de26",
-            "421dde76df760f44f6a5800d387ca04edc0c5d433d11975edc36d881f7790bd7",
-            "1498a8dbdd51d590a09e9ba9d1c21fa88b036b4f7d0b689346ae1c95a7b14d53"
-          ],
-          "headline": "100.000 TNT Exploion Craft Attack Rekord…",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay with game HUD visible, including health, inventory, and player names.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Players are standing near chests in a redstone-lit area with no clear action or outcome.",
-            "payoff": "No visible outcome or payoff from actions taken; gameplay remains static with no clear progression or reaction from players or game mechanics.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.07383549521900935,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with chests and a player character, alongside a facecam panel of a streamer. The title '100.000 TNT Explosion Craft Attack Rekord...' is clearly visible as a subtitle overlay. The '",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.931,
-            29.861
-          ],
-          "final_frame_hashes": [
-            "414f72d2263f1e686fde3074f20f6aa1775820e8bc42753d7d4549951472e3b5",
-            "553ab2c6ac0e23df80b74629103446c38a795acabe876a300e1908bf5c39e499",
-            "5d8545dcf444480927dbfef0796bbe120370ed49f636c6c3ef85354ded87d294"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "86600a0c4ba796a91535ac6be9bb85ba8ac9d2cb991ca9abec6a7bdf20fee308",
-          "transcript_sha256": "95580829e3a594c55da5d7ca2f422112e4aa9161d69c2d6993cb54b56ff9545a"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with chests and a player character, alongside a facecam panel of a streamer. The title '100.000 TNT Explosion Craft Attack Rekord...' is clearly visible as a subtitle overlay. The '"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0738, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-3239508575-86600a0c4ba7-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2088179216",
@@ -2018,14 +1880,17 @@
       "streamer": "trymacs",
       "sha256": "86600a0c4ba796a91535ac6be9bb85ba8ac9d2cb991ca9abec6a7bdf20fee308",
       "source_sha256": "aa80d925dca08c935b29a659c11f5e1e4878f78caf68b86fb37dd098fbb18045",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3239508575-86600a0c4ba7.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-3239508575-86600a0c4ba7.mp4",
       "clip_slug": "SpinelessCrispyTomatoTwitchRaid-kGPM7bx9j0fnRJkE",
       "original_created_at": "2026-10-31T14:57:10Z",
       "source_deadline": "2026-11-03T14:57:10Z",
       "buffer_post_id": "6ae73e8d21c807e9d5be9049",
-      "last_reconcile_at": "2026-11-01T13:34:45Z"
+      "last_reconcile_at": "2026-11-01T13:34:45Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703194541750291745",
+      "sent_at": "2026-11-01T13:31:19Z",
+      "verified_at": "2026-11-01T13:34:46Z"
     }
   ],
   "last_production": {

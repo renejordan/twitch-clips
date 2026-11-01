@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "4217703971",
+      "clip_slug": "WonderfulRelatedBisonVoHiYo-f5fqwLCHZmkQxewR",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/WonderfulRelatedBisonVoHiYo-f5fqwLCHZmkQxewR",
+      "original_title": "speed face ahh",
+      "hook": "speed face ahh",
+      "caption": "speed face ahh\n#gaming #minecraft #twitchclips #letshugotv #gamer",
+      "views_at_selection": 322,
+      "original_duration": 30.0,
+      "original_created_at": "2026-11-01T15:22:37Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-4217703971-e7e4c3f94f41.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-01T15:45:56Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "e7e4c3f94f41cdd3131cbfe9ae1d7e2bfc9377721d6572c2152cd6f4eaa52737",
+      "category": "Minecraft",
+      "transcript_sha256": "2047370404706471a0fc667cb102c50608051fdf77b019afdebb341cea6c3c9a",
+      "asr_requires_correction": true,
+      "source_sha256": "9e9bd46378019b3e80b8591d1d1b203980fc239b519e7f48f6642e5d02a08b1a",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-01T15:45:56.325284+00:00",
+        "media_sha256": "e7e4c3f94f41cdd3131cbfe9ae1d7e2bfc9377721d6572c2152cd6f4eaa52737",
+        "transcript_sha256": "2047370404706471a0fc667cb102c50608051fdf77b019afdebb341cea6c3c9a",
+        "source_sha256": "9e9bd46378019b3e80b8591d1d1b203980fc239b519e7f48f6642e5d02a08b1a",
+        "evidence_sha256": "ff890aadac8cdf1dd51dc8c22c866f723eef4ff5f897055a3b1b16b449b81023",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "9e9bd46378019b3e80b8591d1d1b203980fc239b519e7f48f6642e5d02a08b1a",
+          "reviewed_source_sha256": "9e9bd46378019b3e80b8591d1d1b203980fc239b519e7f48f6642e5d02a08b1a",
+          "duration": 30.033333,
+          "timestamps": [
+            0.0,
+            14.942,
+            29.883
+          ],
+          "source_frame_hashes": [
+            "59f710ade0d2c53e3adb4fef2f905081aadb3cab992097e5cf127f6663939ab7",
+            "e3c3171836c4f43ba5685ae80d8c86b86b7b10b844d0645c77d53b6e98b5abd4",
+            "2642d23689c6172c87f49617d1b3b577898b294e6e6b21fe565a23006885a2d3"
+          ],
+          "headline": "speed face ahh",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera visible in top-left corner, game UI with server list and buttons, chat window, and Minecraft title bar visible",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is selecting a server from a list in Minecraft multiplayer mode.",
+            "payoff": "No visible outcome or payoff; server selection is routine and no action has a visible result.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.07400139104236664,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame shows a split-screen layout with a live webcam feed on the left and Minecraft gameplay on the right. The Minecraft screen displays a server selection menu with multiple server options listed, including 'RuhuSPT', 'Finnarach', 'JET",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.942,
+            29.883
+          ],
+          "final_frame_hashes": [
+            "f7d217fe78829e4585275e142bfb8cada142d28f24c598553500395fe2b9cb7e",
+            "8afccfefd72d8aa806dbc2b692b54f8da9c3bad1d2424059be44a05847d79782",
+            "93074149037c0dfd40ad0983b6c6504a1013b92e34da510b48b52db2790d8372"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "e7e4c3f94f41cdd3131cbfe9ae1d7e2bfc9377721d6572c2152cd6f4eaa52737",
+          "transcript_sha256": "2047370404706471a0fc667cb102c50608051fdf77b019afdebb341cea6c3c9a"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame shows a split-screen layout with a live webcam feed on the left and Minecraft gameplay on the right. The Minecraft screen displays a server selection menu with multiple server options listed, including 'RuhuSPT', 'Finnarach', 'JET"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0740, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-4217703971-e7e4c3f94f41-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2514639811",

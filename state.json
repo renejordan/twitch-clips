@@ -2018,12 +2018,13 @@
       "streamer": "zarbex",
       "sha256": "4c3b73b88c215523912c0b7193d835581f1331d9caf90db834abf05383462742",
       "source_sha256": "b876cc4b238441378e079c493f25211ce43d1467430d1b3d021192960f9e4efe",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-4039029595-4c3b73b88c21.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/zarbex-4039029595-4c3b73b88c21.mp4",
       "clip_slug": "PunchyHyperCasetteUWot-TCDWd7HOHAOg0ZAv",
       "original_created_at": "2026-11-01T18:29:14Z",
-      "source_deadline": "2026-11-04T18:29:14Z"
+      "source_deadline": "2026-11-04T18:29:14Z",
+      "buffer_post_id": "6ae7a8711120555c2a37e87a"
     }
   ],
   "last_production": {

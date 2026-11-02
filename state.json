@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1563121297",
+      "clip_slug": "DistinctEncouragingNightingaleRaccAttack-xJm2z1Rh1kS5N9xX",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/DistinctEncouragingNightingaleRaccAttack-xJm2z1Rh1kS5N9xX",
+      "original_title": "Rezon Bann?",
+      "hook": "Rezon Bann?",
+      "caption": "Rezon Bann?\n#gaming #minecraft #twitchclips #nooreax #gamer",
+      "views_at_selection": 404,
+      "original_duration": 42.0,
+      "original_created_at": "2026-11-02T20:05:15Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-1563121297-8c89382332a1.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-02T21:10:36Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "8c89382332a12afe79d9964e5535ebc9262248f8e7337b7a3fd31f447b795473",
+      "category": "Minecraft",
+      "transcript_sha256": "f37b1be019bfc802f8d66497b34b43284941548fffd8726f31d867e67528875f",
+      "asr_requires_correction": true,
+      "source_sha256": "75a3a3f7ebb4da195596f33d1e91151deae15f9b9b4b15ab104f3d674486e95e",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-02T21:10:36.723725+00:00",
+        "media_sha256": "8c89382332a12afe79d9964e5535ebc9262248f8e7337b7a3fd31f447b795473",
+        "transcript_sha256": "f37b1be019bfc802f8d66497b34b43284941548fffd8726f31d867e67528875f",
+        "source_sha256": "75a3a3f7ebb4da195596f33d1e91151deae15f9b9b4b15ab104f3d674486e95e",
+        "evidence_sha256": "2769bb5cdd111efa28ec056050ffb30186319047771b8f9b4a3acdfaaa12d70d",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "75a3a3f7ebb4da195596f33d1e91151deae15f9b9b4b15ab104f3d674486e95e",
+          "reviewed_source_sha256": "75a3a3f7ebb4da195596f33d1e91151deae15f9b9b4b15ab104f3d674486e95e",
+          "duration": 42.866667,
+          "timestamps": [
+            0.0,
+            21.358,
+            42.717
+          ],
+          "source_frame_hashes": [
+            "85a29ff0e5cf6886d5fe20fca41bf28c1d52ab5d14a50912c1295901c092dab0",
+            "a8a78ccb4c4bd8480f2302f7ee7e6f7b139da4c73fb057296d8ead21a72d21ac",
+            "dd3c4b6b070db46f7f188b25ee1948d47ed352320d287b3e2da03d7494fb9014"
+          ],
+          "headline": "Rezon Bann?",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "A face camera in a corner over gameplay, with game HUD and chat visible, not a browser or video player.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible in the frames provided.",
+            "payoff": "No clear payoff visible in the frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.0432153513715291,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frames show a Minecraft gameplay session with a facecam panel in the top right corner, which is a common editing style for live streams. The game interface, including the HUD and chat, is visible, but there are no browser tabs, address,",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            21.358,
+            42.717
+          ],
+          "final_frame_hashes": [
+            "5fbd3dd536896975adc0d4933278ed8642c46a786de9467dcefd5cc6e9fa68ad",
+            "7900fb154c4b5de2e4785703af6f9c9c803a5b94e13291c6a147972cdc744452",
+            "83e607b660f74c857fce43bc0dfdc19fe683b23505a2c1d97aa39386e1019c92"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "8c89382332a12afe79d9964e5535ebc9262248f8e7337b7a3fd31f447b795473",
+          "transcript_sha256": "f37b1be019bfc802f8d66497b34b43284941548fffd8726f31d867e67528875f"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frames show a Minecraft gameplay session with a facecam panel in the top right corner, which is a common editing style for live streams. The game interface, including the HUD and chat, is visible, but there are no browser tabs, address,"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0432, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-1563121297-8c89382332a1-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1536575280",

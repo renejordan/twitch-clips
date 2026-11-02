@@ -2032,27 +2032,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-02T08:06:15Z",
+    "at": "2026-11-02T09:05:51Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 107,
+      "listing_duration_prefilter": 98,
       "listing_ok": 100,
-      "listing_age_prefilter": 756,
-      "discovered": 895,
-      "metadata_requested": 858,
-      "gaming_category_not_verified": 377,
-      "title_too_short": 70,
-      "qualified_metadata": 411,
+      "listing_age_prefilter": 708,
+      "discovered": 877,
+      "metadata_requested": 844,
+      "gaming_category_not_verified": 360,
+      "title_too_short": 67,
+      "qualified_metadata": 417,
       "duplicate_source_event": 11,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1152701209",
-      "clip_slug": "PolishedAntsyThymeGrammarKing-THhrHiZGSb6pVWUm",
-      "streamer": "trymacs"
+      "clip_id": "3897978630",
+      "clip_slug": "SteamyRoundCrowOMGScoots-CBl_ibH-tXSqVWaj",
+      "streamer": "bastighg"
     }
   },
   "prepare_scans": {
@@ -2560,8 +2560,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-02T08",
-  "last_prefetch_hour": "2026-11-02T08",
+  "last_prepare_hour": "2026-11-02T09",
+  "last_prefetch_hour": "2026-11-02T09",
   "archived_verified_count": 118,
   "used_ids": [
     "1008150185",

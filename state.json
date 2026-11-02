@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "80961400",
+      "clip_slug": "BraveBreakableAlpacaDerp-XyANwjpnb50b8qU2",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/BraveBreakableAlpacaDerp-XyANwjpnb50b8qU2",
+      "original_title": "Maxbait Ragebait",
+      "hook": "Maxbait Ragebait",
+      "caption": "Maxbait Ragebait\n#gaming #minecraft #twitchclips #trymacs #gamer",
+      "views_at_selection": 344,
+      "original_duration": 20.0,
+      "original_created_at": "2026-11-01T14:52:02Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-80961400-850517edb9a8.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-02T11:09:57Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "850517edb9a86782c8e83adf2f9d9f02bf3f192a62080382aab6ac3fcda7e605",
+      "category": "Minecraft",
+      "transcript_sha256": "78e2ac3b37840af1f5d3ee3a4d327ba1e64b535e8da66588d06a9acf382c8d0a",
+      "asr_requires_correction": true,
+      "source_sha256": "9e9d36426ad5219e4e64fe57e8585a17aaa3422cdaf5ac6d677b2edc71f635c8",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-02T11:09:57.734686+00:00",
+        "media_sha256": "850517edb9a86782c8e83adf2f9d9f02bf3f192a62080382aab6ac3fcda7e605",
+        "transcript_sha256": "78e2ac3b37840af1f5d3ee3a4d327ba1e64b535e8da66588d06a9acf382c8d0a",
+        "source_sha256": "9e9d36426ad5219e4e64fe57e8585a17aaa3422cdaf5ac6d677b2edc71f635c8",
+        "evidence_sha256": "3a7684c0d28ad074415f8b63a7f50bf0177ba6fed0870ef8b3a8cd635626da56",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "9e9d36426ad5219e4e64fe57e8585a17aaa3422cdaf5ac6d677b2edc71f635c8",
+          "reviewed_source_sha256": "9e9d36426ad5219e4e64fe57e8585a17aaa3422cdaf5ac6d677b2edc71f635c8",
+          "duration": 20.35,
+          "timestamps": [
+            0.0,
+            10.1,
+            20.2
+          ],
+          "source_frame_hashes": [
+            "cf00872ea79235eea1b7a9c1380dbdce983259e7b7531dc3ca31e3094967c0c6",
+            "0d3437b162c129b9921656f8d5d309b7eab755bda324002836f8e8f5439432f2",
+            "3d08f1180b8620fec05e471748eb1dc626392ab22aa2adb87470e59ec4857e6e"
+          ],
+          "headline": "Maxbait Ragebait",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay with game HUD visible, including health, inventory, and timer, and a visible streamer's face.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible; static gameplay with no action or outcome.",
+            "payoff": "No visible outcome or payoff; no win/loss or reaction visible in frames provided.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.18174819874033626,
+          "clipped_fraction": 9.222511535824847e-06,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a player character standing on a snowy biome, facing a dark structure with purple lighting. The top of the frame displays the title 'Maxbait Ragebait' in white text. The player",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            10.1,
+            20.2
+          ],
+          "final_frame_hashes": [
+            "0912e3cb480a00ba3c1cb8c7867d3928115366e98f17ab73f832c7a8b4032c32",
+            "75878835756aa3e56940581a61714b3687a2d40dfa5917073d2f5d2dec57b0b4",
+            "9e2ddb77bff5e79ce76a7e4f99f713086284d17ad2dff6a9b717884d133e03a1"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "850517edb9a86782c8e83adf2f9d9f02bf3f192a62080382aab6ac3fcda7e605",
+          "transcript_sha256": "78e2ac3b37840af1f5d3ee3a4d327ba1e64b535e8da66588d06a9acf382c8d0a"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a player character standing on a snowy biome, facing a dark structure with purple lighting. The top of the frame displays the title 'Maxbait Ragebait' in white text. The player"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.1817, clipping fraction 0.00001. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-80961400-850517edb9a8-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2548768936",

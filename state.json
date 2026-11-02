@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-02T17:07:00Z",
+    "at": "2026-11-02T18:11:06Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
+      "listing_duration_prefilter": 102,
       "listing_ok": 100,
-      "listing_duration_prefilter": 96,
-      "discovered": 912,
-      "listing_age_prefilter": 701,
-      "metadata_requested": 867,
-      "qualified_metadata": 471,
-      "title_too_short": 82,
-      "gaming_category_not_verified": 314,
-      "duplicate_source_event": 11,
+      "discovered": 923,
+      "listing_age_prefilter": 680,
+      "metadata_requested": 882,
+      "qualified_metadata": 457,
+      "title_too_short": 96,
+      "gaming_category_not_verified": 329,
+      "duplicate_source_event": 10,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1009046664",
-      "clip_slug": "AltruisticInquisitiveHareBuddhaBar-UvPBwR0qiPy5ddeS",
-      "streamer": "letshugotv"
+      "clip_id": "2790380175",
+      "clip_slug": "BeautifulMoralPangolinBatChest-OF53rHhdxAz5_Cnh",
+      "streamer": "nooreax"
     }
   },
   "prepare_scans": {
@@ -2533,8 +2533,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-02T17",
-  "last_prefetch_hour": "2026-11-02T17",
+  "last_prepare_hour": "2026-11-02T18",
+  "last_prefetch_hour": "2026-11-02T18",
   "archived_verified_count": 128,
   "used_ids": [
     "1001913153",

@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "2548768936",
-      "reserved_at": "2026-10-26T12:06:34Z",
-      "streamer": "giggand",
-      "sha256": "bac3c215f84195c177f18134447eb9e8a896a12d8f974fd68cac0c7a12165ae8",
-      "source_sha256": "aa6226d48f210c11fe4c7c50a94365ba48b9a57b8302cee95da10d1279618534",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2548768936-bac3c215f841.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/giggand-2548768936-bac3c215f841.mp4",
-      "clip_slug": "SullenPlumpAlligatorBuddhaBar-2cW0cDOTKwFzUJcM",
-      "original_created_at": "2026-10-26T00:06:10Z",
-      "source_deadline": "2026-10-29T00:06:10Z",
-      "buffer_post_id": "6adf424d9c091261b914a41c",
-      "last_reconcile_at": "2026-10-26T12:08:32Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700946853172448544",
-      "sent_at": "2026-10-26T12:08:22Z",
-      "verified_at": "2026-10-26T12:08:34Z"
-    },
-    {
       "clip_id": "870970129",
       "reserved_at": "2026-10-26T13:04:32Z",
       "streamer": "krokoboss",
@@ -2424,7 +2406,7 @@
   ],
   "last_prepare_hour": "2026-11-02T11",
   "last_prefetch_hour": "2026-11-02T11",
-  "archived_verified_count": 121,
+  "archived_verified_count": 122,
   "used_ids": [
     "1001913153",
     "1008150185",
@@ -2495,6 +2477,7 @@
     "2533905876",
     "254468887",
     "2547757854",
+    "2548768936",
     "2620158523",
     "2624621525",
     "2632086512",

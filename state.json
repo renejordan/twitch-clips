@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "1605463664",
+      "clip_slug": "SplendidAntediluvianCucumberHeyGirl-4hULFIEL1X-brq7K",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/SplendidAntediluvianCucumberHeyGirl-4hULFIEL1X-brq7K",
+      "original_title": "Hugo stirbt in Fitnacraft",
+      "hook": "Hugo stirbt in Fitnacraft",
+      "caption": "Hugo stirbt in Fitnacraft\n#gaming #minecraft #twitchclips #letshugotv #gamer",
+      "views_at_selection": 186,
+      "original_duration": 52.0,
+      "original_created_at": "2026-11-02T18:11:26Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1605463664-a57791bd3ff7.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-02T19:11:56Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "a57791bd3ff77a3a5e66f7bccb23da168790ac53b3a28b1c54169852b9c1eb0d",
+      "category": "Minecraft",
+      "transcript_sha256": "85709256ac54e6152bafbd6d1d03072e73549cba7e1f316291e202622c74fba6",
+      "asr_requires_correction": true,
+      "source_sha256": "3f52e40954bae5213f4ca5bd7a072aff0bcc1a064bc1996552b568fafdd5feb6",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-02T19:11:56.227769+00:00",
+        "media_sha256": "a57791bd3ff77a3a5e66f7bccb23da168790ac53b3a28b1c54169852b9c1eb0d",
+        "transcript_sha256": "85709256ac54e6152bafbd6d1d03072e73549cba7e1f316291e202622c74fba6",
+        "source_sha256": "3f52e40954bae5213f4ca5bd7a072aff0bcc1a064bc1996552b568fafdd5feb6",
+        "evidence_sha256": "c726cd50d28f929a0d103bd0772b711817c07a4ffe5e90c03e5d6de6a540cbda",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "3f52e40954bae5213f4ca5bd7a072aff0bcc1a064bc1996552b568fafdd5feb6",
+          "reviewed_source_sha256": "3f52e40954bae5213f4ca5bd7a072aff0bcc1a064bc1996552b568fafdd5feb6",
+          "duration": 52.95,
+          "timestamps": [
+            0.0,
+            26.4,
+            52.8
+          ],
+          "source_frame_hashes": [
+            "a6670fe0833fcadc9190053e309cacb756afcd48752bac60b506869755f727df",
+            "fc9ed21e9ea3f6383c186aa61a4e839c9f5facdc740ca91e21e003d6089f2820",
+            "5d4fe91059695b363ec5e05c1cd81533f5cf453844c2bc4d0b672d7ee1e06d90"
+          ],
+          "headline": "Hugo stirbt in Fitnacraft",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": true,
+            "standalone_understandable": true,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, visible player character, inventory, chat, and game HUD elements like health, score, and player names.",
+            "game_name": "Minecraft",
+            "hook_score": 3,
+            "payoff_score": 3,
+            "setup": "Player dies in Minecraft, triggering a death screen with options to respawn or go to main menu.",
+            "payoff": "Player respawns in a new location, indicating a clear outcome and continuation of gameplay after death.",
+            "payoff_timestamp": 26.4,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.0899913886295215,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a normal edited gaming layout. The title 'Hugo stirbt in Fitnacraft' is clearly visible at the top. The frame at 26.40 seconds is a",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            26.4,
+            52.8
+          ],
+          "final_frame_hashes": [
+            "096945c24557ac45907ee90ac1d8961d188d776e27b66685c8be97998e2d41f9",
+            "753e7ba96bce84b4c93bf6755f5472b835ee76a1c8a28e928e768f8309222f31",
+            "10dccae8e697a3c383991a8b58fccafbd0c5b4214657adafa7c3d01e94f936fa"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "a57791bd3ff77a3a5e66f7bccb23da168790ac53b3a28b1c54169852b9c1eb0d",
+          "transcript_sha256": "85709256ac54e6152bafbd6d1d03072e73549cba7e1f316291e202622c74fba6"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel above the gameplay, which is a normal edited gaming layout. The title 'Hugo stirbt in Fitnacraft' is clearly visible at the top. The frame at 26.40 seconds is a"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0900, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1605463664-a57791bd3ff7-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "1343211997",

@@ -2014,26 +2014,26 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-02T16:10:25Z",
+    "at": "2026-11-02T17:07:00Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 97,
-      "listing_age_prefilter": 704,
-      "discovered": 907,
-      "metadata_requested": 863,
-      "title_too_short": 75,
-      "qualified_metadata": 481,
-      "gaming_category_not_verified": 307,
-      "duplicate_source_event": 10,
+      "listing_duration_prefilter": 96,
+      "discovered": 912,
+      "listing_age_prefilter": 701,
+      "metadata_requested": 867,
+      "qualified_metadata": 471,
+      "title_too_short": 82,
+      "gaming_category_not_verified": 314,
+      "duplicate_source_event": 11,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1093307816",
-      "clip_slug": "DirtyEmpathicLocustNotLikeThis-N0IB8hjtsard_OS0",
+      "clip_id": "1009046664",
+      "clip_slug": "AltruisticInquisitiveHareBuddhaBar-UvPBwR0qiPy5ddeS",
       "streamer": "letshugotv"
     }
   },
@@ -2542,8 +2542,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-02T16",
-  "last_prefetch_hour": "2026-11-02T16",
+  "last_prepare_hour": "2026-11-02T17",
+  "last_prefetch_hour": "2026-11-02T17",
   "archived_verified_count": 127,
   "used_ids": [
     "1001913153",

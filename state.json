@@ -2018,12 +2018,13 @@
       "streamer": "letshugotv",
       "sha256": "8330b91ab00868aa4a1597dd56b70b8ceff516de8260f751a8edefcb5d150354",
       "source_sha256": "3b2f8bd4a33d7c604f18f9e97c712691f1ede3d58a99c2191686f0cd1cf8e776",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1009046664-8330b91ab008.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1009046664-8330b91ab008.mp4",
       "clip_slug": "AltruisticInquisitiveHareBuddhaBar-UvPBwR0qiPy5ddeS",
       "original_created_at": "2026-11-02T14:57:49Z",
-      "source_deadline": "2026-11-05T14:57:49Z"
+      "source_deadline": "2026-11-05T14:57:49Z",
+      "buffer_post_id": "6ae8cfca6b1d49ecbdea5fa0"
     }
   ],
   "last_production": {

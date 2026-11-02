@@ -2014,26 +2014,26 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-02T19:11:56Z",
+    "at": "2026-11-02T20:13:41Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 94,
+      "listing_duration_prefilter": 92,
       "listing_ok": 100,
-      "discovered": 960,
-      "listing_age_prefilter": 745,
-      "metadata_requested": 929,
-      "gaming_category_not_verified": 334,
-      "qualified_metadata": 495,
-      "title_too_short": 100,
+      "listing_age_prefilter": 780,
+      "discovered": 943,
+      "metadata_requested": 904,
+      "gaming_category_not_verified": 321,
+      "qualified_metadata": 476,
+      "title_too_short": 107,
       "duplicate_source_event": 7,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1605463664",
-      "clip_slug": "SplendidAntediluvianCucumberHeyGirl-4hULFIEL1X-brq7K",
+      "clip_id": "3725550791",
+      "clip_slug": "AcceptableSneakyGoblinNotATK-udLIXRfH80OnNKdd",
       "streamer": "letshugotv"
     }
   },
@@ -2524,8 +2524,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-02T19",
-  "last_prefetch_hour": "2026-11-02T19",
+  "last_prepare_hour": "2026-11-02T20",
+  "last_prefetch_hour": "2026-11-02T20",
   "archived_verified_count": 130,
   "used_ids": [
     "1001913153",

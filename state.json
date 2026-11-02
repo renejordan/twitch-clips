@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "3175503582",
-      "reserved_at": "2026-10-26T10:04:33Z",
-      "streamer": "nooreax",
-      "sha256": "9a59285066992ffd9219bff0c9276a39c3664acbe1db85769d799733f7ab35bd",
-      "source_sha256": "5a4bb3a8a6512c461e98c7c01407948e282d39de5d38b5b45f4ac0baf911d1a5",
-      "status": "verified_public",
-      "asset_title": "tiktok14-3175503582-9a5928506699.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-3175503582-9a5928506699.mp4",
-      "clip_slug": "VainRoughClintTheThing--BiWrir958u1I3Xg",
-      "original_created_at": "2026-10-25T10:17:15Z",
-      "source_deadline": "2026-10-28T10:17:15Z",
-      "buffer_post_id": "6adf25b494c52cb8effa5987",
-      "last_reconcile_at": "2026-10-26T10:06:29Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700915402200632609",
-      "sent_at": "2026-10-26T10:06:19Z",
-      "verified_at": "2026-10-26T10:06:31Z"
-    },
-    {
       "clip_id": "1001913153",
       "reserved_at": "2026-10-26T11:04:30Z",
       "streamer": "castcrafter",
@@ -2415,7 +2397,7 @@
   ],
   "last_prepare_hour": "2026-11-02T09",
   "last_prefetch_hour": "2026-11-02T09",
-  "archived_verified_count": 119,
+  "archived_verified_count": 120,
   "used_ids": [
     "1008150185",
     "1014059590",
@@ -2516,6 +2498,7 @@
     "311924564",
     "3165684609",
     "3168340049",
+    "3175503582",
     "3189625055",
     "3268789812",
     "326935033",

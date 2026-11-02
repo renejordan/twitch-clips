@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "620216856",
+      "clip_slug": "VastLuckyBulgogiBCWarrior-Wow9kbsl7_v2b6rU",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/VastLuckyBulgogiBCWarrior-Wow9kbsl7_v2b6rU",
+      "original_title": "2. Tod",
+      "hook": "2. Tod",
+      "caption": "2. Tod\n#gaming #minecraft #twitchclips #zarbex #gamer",
+      "views_at_selection": 393,
+      "original_duration": 30.0,
+      "original_created_at": "2026-11-01T19:28:27Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/zarbex-620216856-7f00c0b78f6e.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-02T12:10:12Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "7f00c0b78f6e5741014d77c31c47818adc039f4d9a3596568a3b1fd919452b80",
+      "category": "Minecraft",
+      "transcript_sha256": "3167c99bfb423e9424f8909436ac9c50b5086709743a7c3943b395cc0acabf7a",
+      "asr_requires_correction": true,
+      "source_sha256": "d2d429f6a3d4e18521d28948af852921ac26d67327e5a8c04c6e6facbf6aabc0",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-02T12:10:12.790923+00:00",
+        "media_sha256": "7f00c0b78f6e5741014d77c31c47818adc039f4d9a3596568a3b1fd919452b80",
+        "transcript_sha256": "3167c99bfb423e9424f8909436ac9c50b5086709743a7c3943b395cc0acabf7a",
+        "source_sha256": "d2d429f6a3d4e18521d28948af852921ac26d67327e5a8c04c6e6facbf6aabc0",
+        "evidence_sha256": "f5b5744042bf1b41d29d275d18957923584b181ec8d43d1bfa21d95a6db775bf",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "d2d429f6a3d4e18521d28948af852921ac26d67327e5a8c04c6e6facbf6aabc0",
+          "reviewed_source_sha256": "d2d429f6a3d4e18521d28948af852921ac26d67327e5a8c04c6e6facbf6aabc0",
+          "duration": 30.0,
+          "timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "source_frame_hashes": [
+            "1274fef8afa8c1276773c499ebb3c1232bff51010b830a0e2a6ab06f98e4eeda",
+            "4062d38e2766bdbcad00f98fc813490edbd0ccead44eccac5dce7610eb06b593",
+            "88aa00fa04a87649ce115887fa0f5e48c9d598846f9d68ae8d6b40695e43f53e"
+          ],
+          "headline": "2. Tod",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": true,
+            "standalone_understandable": true,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with death message and options, chat visible on right, inventory visible at bottom",
+            "game_name": "Minecraft",
+            "hook_score": 3,
+            "payoff_score": 3,
+            "setup": "Player dies underwater in Minecraft, game displays death screen with options to restart or go to main menu.",
+            "payoff": "Player chooses to restart after death, game resumes with new gameplay session, no further action or outcome visible beyond restart option selection.",
+            "payoff_timestamp": 14.925,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.1104463137952985,
+          "clipped_fraction": 2.0866720085470088e-06,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The frame at 14.93 seconds shows a Minecraft death screen with German text 'Du bist gestorben!'",
+            "event_retained": true,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            14.925,
+            29.85
+          ],
+          "final_frame_hashes": [
+            "7873fbd1f47a6227929526a98e83e31f30f9dbd15f614df5f11df0e536ca70ac",
+            "f965f67d2005335d0764488a91b73546ccd6d033965cf7a1b3b99f47f318d480",
+            "c2b97dae9eac13648673552e44a4494b82727ebafc5a1228b35582fca8e3c778"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "7f00c0b78f6e5741014d77c31c47818adc039f4d9a3596568a3b1fd919452b80",
+          "transcript_sha256": "3167c99bfb423e9424f8909436ac9c50b5086709743a7c3943b395cc0acabf7a"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The frame at 14.93 seconds shows a Minecraft death screen with German text 'Du bist gestorben!'"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.1104, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/zarbex-620216856-7f00c0b78f6e-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "870970129",

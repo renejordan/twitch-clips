@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3725550791",
-      "clip_slug": "AcceptableSneakyGoblinNotATK-udLIXRfH80OnNKdd",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/AcceptableSneakyGoblinNotATK-udLIXRfH80OnNKdd",
-      "original_title": "zombie",
-      "hook": "zombie",
-      "caption": "zombie\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 187,
-      "original_duration": 30.0,
-      "original_created_at": "2026-11-02T18:40:36Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-3725550791-121c4903f489.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-02T20:13:41Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "121c4903f489104b3b4150dbf9930d575a027fdf0d944ac664be323d7fb03c45",
-      "category": "Minecraft",
-      "transcript_sha256": "c85d2edd1798e186687a525bb0d0ba1d086074dae01b6106fb3029518fb7b22b",
-      "asr_requires_correction": true,
-      "source_sha256": "c814e5dfce37420143880b30318b0cbc4037d45d39a20443e9ac9f060cfd5f69",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-02T20:13:41.049968+00:00",
-        "media_sha256": "121c4903f489104b3b4150dbf9930d575a027fdf0d944ac664be323d7fb03c45",
-        "transcript_sha256": "c85d2edd1798e186687a525bb0d0ba1d086074dae01b6106fb3029518fb7b22b",
-        "source_sha256": "c814e5dfce37420143880b30318b0cbc4037d45d39a20443e9ac9f060cfd5f69",
-        "evidence_sha256": "c51c942c35dd2cfbd582da0f42db83d82d5eddcb7d025bc323c1ab73b3c4a753",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "c814e5dfce37420143880b30318b0cbc4037d45d39a20443e9ac9f060cfd5f69",
-          "reviewed_source_sha256": "c814e5dfce37420143880b30318b0cbc4037d45d39a20443e9ac9f060cfd5f69",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "b211d240af9971fe81864e09d38cf56ec1f3ec74a471334351ac0c6d6729ab2a",
-            "1d01f39c17be8f5e4f3ddb7020a40b3bcfde7bda77e8d7bc0211398822a38deb",
-            "d3d8dbfd6db6455e8037baab98fc696bae501f18f2d0196f1b3d1433ded979be"
-          ],
-          "headline": "zombie",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left corner shows a live webcam feed of a room with purple lighting, while the main screen displays Minecraft gameplay with a player character on a stone platform. The right side has a vertical list of player avatars",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is standing on a stone platform at night in Minecraft, with a chat window and game HUD visible.",
-            "payoff": "No visible outcome or payoff from the player's actions; gameplay continues without a clear win or loss event or reaction from the player or chat.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.05216711760624478,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame shows a Minecraft gameplay scene with a player character standing on a stone platform at night. The game HUD, including health, inventory, and chat window, is visible. The top of the screen displays the word 'zombie' as a title, a",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "1096ee12a80b052171b21b20415a0e16f46f89fd1f6ae416c9d5586962b45157",
-            "11184fda43f1cd9d56ab89bc1b7dc10b51f698d701580591ca9cc11684a7ad66",
-            "fb5cd9fa3cc0e2bcf0f0c2311b88084e52304fc25f6c534cbdb6bf87c6222fa3"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "121c4903f489104b3b4150dbf9930d575a027fdf0d944ac664be323d7fb03c45",
-          "transcript_sha256": "c85d2edd1798e186687a525bb0d0ba1d086074dae01b6106fb3029518fb7b22b"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame shows a Minecraft gameplay scene with a player character standing on a stone platform at night. The game HUD, including health, inventory, and chat window, is visible. The top of the screen displays the word 'zombie' as a title, a"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0522, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-3725550791-121c4903f489-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "284050819",
@@ -2018,14 +1880,17 @@
       "streamer": "letshugotv",
       "sha256": "121c4903f489104b3b4150dbf9930d575a027fdf0d944ac664be323d7fb03c45",
       "source_sha256": "c814e5dfce37420143880b30318b0cbc4037d45d39a20443e9ac9f060cfd5f69",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3725550791-121c4903f489.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-3725550791-121c4903f489.mp4",
       "clip_slug": "AcceptableSneakyGoblinNotATK-udLIXRfH80OnNKdd",
       "original_created_at": "2026-11-02T18:40:36Z",
       "source_deadline": "2026-11-05T18:40:36Z",
       "buffer_post_id": "6ae8faf0c8ee2961313033f6",
-      "last_reconcile_at": "2026-11-02T21:06:35Z"
+      "last_reconcile_at": "2026-11-02T21:06:35Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703683176660503840",
+      "sent_at": "2026-11-02T21:06:31Z",
+      "verified_at": "2026-11-02T21:06:37Z"
     }
   ],
   "last_production": {

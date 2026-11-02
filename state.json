@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "4024438646",
-      "reserved_at": "2026-10-26T14:04:35Z",
-      "streamer": "papaplatte",
-      "sha256": "660dad90af880321eb4d7dfee7b0e0a4850d5fc1bd2e4a6e6a9662ebdd505e4d",
-      "source_sha256": "54235f9a6c7b844b9606f49fdbc6f8743c1223d63b2f87f02d023194eedf2beb",
-      "status": "verified_public",
-      "asset_title": "tiktok14-4024438646-660dad90af88.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/papaplatte-4024438646-660dad90af88.mp4",
-      "clip_slug": "SaltyMistySparrowSSSsss-QkSQZxyZb3Fvsb8X",
-      "original_created_at": "2026-10-25T18:40:00Z",
-      "source_deadline": "2026-10-28T18:40:00Z",
-      "buffer_post_id": "6adf5df6845924629ecd4ac5",
-      "last_reconcile_at": "2026-10-26T14:26:06Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700977423608761632",
-      "sent_at": "2026-10-26T14:07:24Z",
-      "verified_at": "2026-10-26T14:26:07Z"
-    },
-    {
       "clip_id": "2284566068",
       "reserved_at": "2026-10-26T15:04:36Z",
       "streamer": "letshugotv",
@@ -2424,7 +2406,7 @@
   ],
   "last_prepare_hour": "2026-11-02T13",
   "last_prefetch_hour": "2026-11-02T13",
-  "archived_verified_count": 123,
+  "archived_verified_count": 124,
   "used_ids": [
     "1001913153",
     "1008150185",
@@ -2564,6 +2546,7 @@
     "39298492",
     "395432597",
     "402356184",
+    "4024438646",
     "403364789",
     "4043106256",
     "4061971143",

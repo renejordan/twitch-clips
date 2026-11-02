@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "284050819",
-      "reserved_at": "2026-10-26T21:04:31Z",
-      "streamer": "repaz",
-      "sha256": "91dec3d6162e03ff496b5745e33d1bb8ae43a5064176b988594a2317527f5cc8",
-      "source_sha256": "32c7a7241462022d05c55ff8d2fb3c9aea51e6832e03511c92ecbf8ee3a9d3c9",
-      "status": "verified_public",
-      "asset_title": "tiktok14-284050819-91dec3d6162e.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/repaz-284050819-91dec3d6162e.mp4",
-      "clip_slug": "CoyWildAntPogChamp-rHIrN-0N0xjBuOZ_",
-      "original_created_at": "2026-10-26T01:31:44Z",
-      "source_deadline": "2026-10-29T01:31:44Z",
-      "buffer_post_id": "6adfc062199ea8152795320b",
-      "last_reconcile_at": "2026-10-26T21:06:29Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701085483287317793",
-      "sent_at": "2026-10-26T21:06:17Z",
-      "verified_at": "2026-10-26T21:06:30Z"
-    },
-    {
       "clip_id": "1536575280",
       "reserved_at": "2026-10-26T22:04:29Z",
       "streamer": "nooreax",
@@ -1982,15 +1964,6 @@
   },
   "rejected": [
     {
-      "clip_id": "2255382084",
-      "clip_slug": "AmusedTentativeMetalDuDudu-KfTcJKqlO4DLHQEX",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/AmusedTentativeMetalDuDudu-KfTcJKqlO4DLHQEX",
-      "status": "quality_rejected",
-      "created_at": "2026-10-26T21:10:15Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "2457379519",
       "clip_slug": "HomelyAcceptablePlumPhilosoraptor-6ab49ecT6BR8NV1l",
       "streamer": "agurin",
@@ -2406,7 +2379,7 @@
   ],
   "last_prepare_hour": "2026-11-02T20",
   "last_prefetch_hour": "2026-11-02T20",
-  "archived_verified_count": 130,
+  "archived_verified_count": 131,
   "used_ids": [
     "1001913153",
     "1008150185",
@@ -2471,6 +2444,7 @@
     "2205224163",
     "2236393291",
     "2242279572",
+    "2255382084",
     "2284566068",
     "2287042913",
     "2347242600",
@@ -2493,6 +2467,7 @@
     "2711270633",
     "2805096659",
     "2809276235",
+    "284050819",
     "2845373187",
     "2847113030",
     "2859207532",
@@ -2588,5 +2563,5 @@
     "886498542",
     "945475581"
   ],
-  "archived_rejected_count": 49
+  "archived_rejected_count": 50
 }

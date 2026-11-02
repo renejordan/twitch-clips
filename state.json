@@ -2018,12 +2018,13 @@
       "streamer": "nooreax",
       "sha256": "eb9d8e8a129ad88b08a2bd1da093e0cf5cdca5768fea9c50b712c4a625167528",
       "source_sha256": "b4f103653a81a84498cfd0ad47a728d95b5d7bacc24a2bbb34eef73950347477",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2790380175-eb9d8e8a129a.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-2790380175-eb9d8e8a129a.mp4",
       "clip_slug": "BeautifulMoralPangolinBatChest-OF53rHhdxAz5_Cnh",
       "original_created_at": "2026-11-01T18:22:20Z",
-      "source_deadline": "2026-11-04T18:22:20Z"
+      "source_deadline": "2026-11-04T18:22:20Z",
+      "buffer_post_id": "6ae8ddd4c25538a9f8cef7a5"
     }
   ],
   "last_production": {

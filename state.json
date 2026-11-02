@@ -2018,12 +2018,13 @@
       "streamer": "coachlim",
       "sha256": "622eaefe1728fae762805b0d2af744fb3f5c8cf77d4e97c9f5fb061e5ee28329",
       "source_sha256": "30317bc1547b0a169b131e94a59c945d673e200e74ca590a57a40afe027705c4",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2347967859-622eaefe1728.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/coachlim-2347967859-622eaefe1728.mp4",
       "clip_slug": "BoringRepleteClipsmomWow-0i0n1cbl5SGd5Qre",
       "original_created_at": "2026-11-01T18:58:14Z",
-      "source_deadline": "2026-11-04T18:58:14Z"
+      "source_deadline": "2026-11-04T18:58:14Z",
+      "buffer_post_id": "6ae89790416e2003426695f1"
     }
   ],
   "last_production": {

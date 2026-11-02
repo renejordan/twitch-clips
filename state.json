@@ -2018,12 +2018,13 @@
       "streamer": "bastighg",
       "sha256": "17f797d51ce64bb0462217bae0bb9b09c3c48afff076795a2e27d470a33431c7",
       "source_sha256": "4ea1d88882d9dd9a64f5a7129a3f3575322d2b391116135c6c0a62e34158f3d0",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3897978630-17f797d51ce6.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/bastighg-3897978630-17f797d51ce6.mp4",
       "clip_slug": "SteamyRoundCrowOMGScoots-CBl_ibH-tXSqVWaj",
       "original_created_at": "2026-11-01T21:43:40Z",
-      "source_deadline": "2026-11-04T21:43:40Z"
+      "source_deadline": "2026-11-04T21:43:40Z",
+      "buffer_post_id": "6ae85f43c100ba337af1b4e0"
     }
   ],
   "last_production": {

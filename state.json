@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "344501075",
-      "reserved_at": "2026-10-26T18:04:34Z",
-      "streamer": "bastighg",
-      "sha256": "a874f7a18d551042708a7a1075e699ec3d3e01c2cce39f8cb7df3f2b8903a456",
-      "source_sha256": "8922950e0838fac737d8307741c9008c4fdd4b352170a87e184141a502e20b91",
-      "status": "verified_public",
-      "asset_title": "tiktok14-344501075-a874f7a18d55.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/bastighg-344501075-a874f7a18d55.mp4",
-      "clip_slug": "EmpathicFitAyeayeDoubleRainbow-kM4jrQWDK_wmoEHC",
-      "original_created_at": "2026-10-25T18:47:07Z",
-      "source_deadline": "2026-10-28T18:47:07Z",
-      "buffer_post_id": "6adf963535213ac4125ddfd4",
-      "last_reconcile_at": "2026-10-26T18:10:42Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701039099670580513",
-      "sent_at": "2026-10-26T18:06:52Z",
-      "verified_at": "2026-10-26T18:10:43Z"
-    },
-    {
       "clip_id": "3760748518",
       "reserved_at": "2026-10-26T19:04:31Z",
       "streamer": "noway4u_sir",
@@ -2415,7 +2397,7 @@
   ],
   "last_prepare_hour": "2026-11-02T17",
   "last_prefetch_hour": "2026-11-02T17",
-  "archived_verified_count": 127,
+  "archived_verified_count": 128,
   "used_ids": [
     "1001913153",
     "1008150185",
@@ -2531,6 +2513,7 @@
     "3394714065",
     "3398016197",
     "3439049317",
+    "344501075",
     "3466599113",
     "3530894836",
     "3556975930",

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1009046664",
-      "clip_slug": "AltruisticInquisitiveHareBuddhaBar-UvPBwR0qiPy5ddeS",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/AltruisticInquisitiveHareBuddhaBar-UvPBwR0qiPy5ddeS",
-      "original_title": "letshugo mentality core",
-      "hook": "letshugo mentality core",
-      "caption": "letshugo mentality core\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 136,
-      "original_duration": 30.0,
-      "original_created_at": "2026-11-02T14:57:49Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1009046664-8330b91ab008.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-02T17:07:00Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "8330b91ab00868aa4a1597dd56b70b8ceff516de8260f751a8edefcb5d150354",
-      "category": "Minecraft",
-      "transcript_sha256": "c3676916a14a2fe3f87e96c25b181087f73e8dd03e293febb26f5c311bd81025",
-      "asr_requires_correction": true,
-      "source_sha256": "3b2f8bd4a33d7c604f18f9e97c712691f1ede3d58a99c2191686f0cd1cf8e776",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-02T17:07:00.194352+00:00",
-        "media_sha256": "8330b91ab00868aa4a1597dd56b70b8ceff516de8260f751a8edefcb5d150354",
-        "transcript_sha256": "c3676916a14a2fe3f87e96c25b181087f73e8dd03e293febb26f5c311bd81025",
-        "source_sha256": "3b2f8bd4a33d7c604f18f9e97c712691f1ede3d58a99c2191686f0cd1cf8e776",
-        "evidence_sha256": "549a4610d29afbac0437cbdb3e60df99633376f445485f2faf52ac30bda527a4",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "3b2f8bd4a33d7c604f18f9e97c712691f1ede3d58a99c2191686f0cd1cf8e776",
-          "reviewed_source_sha256": "3b2f8bd4a33d7c604f18f9e97c712691f1ede3d58a99c2191686f0cd1cf8e776",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "0f819ba29431f51f765677e13e1a9b8405d8f70857d341f4f7fe05561bfb2e6b",
-            "5b03541cdbed8bfdf5614939589ceb389ef4c5ffe161f9e6d3b12f36c963208e",
-            "17bd86780fa2e052f6d01f46fab4d67545c2b5c63be2627a0bda8c639444104e"
-          ],
-          "headline": "letshugo mentality core",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat and HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player stands in front of a large, colorful Minecraft mob, no action or outcome visible",
-            "payoff": "No visible outcome or payoff from the action, no win/loss or reaction visible in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.11589609678429315,
-          "clipped_fraction": 2.08518828207593e-06,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay window with a facecam panel above it, which is a common edited gaming layout. The game HUD is visible, including the player's health, inventory, and a chat window. The title 'letshugo m' ",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "20e05cfef45f4f296bad3b58720c869e2846baef57b584dfeb1dfe836b622438",
-            "ea978aa3be99087d930f5baf4859c1382b69241a1ac0b2064d275c2e7e45e7e6",
-            "b1735ef2eadf10d42d39c06e5bd7bd2e88d6d78ca6ab004d1bc9e73934b4721e"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "8330b91ab00868aa4a1597dd56b70b8ceff516de8260f751a8edefcb5d150354",
-          "transcript_sha256": "c3676916a14a2fe3f87e96c25b181087f73e8dd03e293febb26f5c311bd81025"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay window with a facecam panel above it, which is a common edited gaming layout. The game HUD is visible, including the player's health, inventory, and a chat window. The title 'letshugo m' "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.1159, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1009046664-8330b91ab008-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "344501075",
@@ -2018,14 +1880,17 @@
       "streamer": "letshugotv",
       "sha256": "8330b91ab00868aa4a1597dd56b70b8ceff516de8260f751a8edefcb5d150354",
       "source_sha256": "3b2f8bd4a33d7c604f18f9e97c712691f1ede3d58a99c2191686f0cd1cf8e776",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1009046664-8330b91ab008.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1009046664-8330b91ab008.mp4",
       "clip_slug": "AltruisticInquisitiveHareBuddhaBar-UvPBwR0qiPy5ddeS",
       "original_created_at": "2026-11-02T14:57:49Z",
       "source_deadline": "2026-11-05T14:57:49Z",
       "buffer_post_id": "6ae8cfca6b1d49ecbdea5fa0",
-      "last_reconcile_at": "2026-11-02T18:06:33Z"
+      "last_reconcile_at": "2026-11-02T18:06:33Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703635760146042145",
+      "sent_at": "2026-11-02T18:05:07Z",
+      "verified_at": "2026-11-02T18:06:34Z"
     }
   ],
   "last_production": {

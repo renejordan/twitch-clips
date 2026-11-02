@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703543084084251937",
       "sent_at": "2026-11-02T12:02:50Z",
       "verified_at": "2026-11-02T12:06:52Z"
+    },
+    {
+      "clip_id": "620216856",
+      "reserved_at": "2026-11-02T13:00:40Z",
+      "streamer": "zarbex",
+      "sha256": "7f00c0b78f6e5741014d77c31c47818adc039f4d9a3596568a3b1fd919452b80",
+      "source_sha256": "d2d429f6a3d4e18521d28948af852921ac26d67327e5a8c04c6e6facbf6aabc0",
+      "status": "reserved",
+      "asset_title": "tiktok14-620216856-7f00c0b78f6e.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/zarbex-620216856-7f00c0b78f6e.mp4",
+      "clip_slug": "VastLuckyBulgogiBCWarrior-Wow9kbsl7_v2b6rU",
+      "original_created_at": "2026-11-01T19:28:27Z",
+      "source_deadline": "2026-11-04T19:28:27Z"
     }
   ],
   "last_production": {

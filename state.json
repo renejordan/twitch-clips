@@ -2018,12 +2018,13 @@
       "streamer": "dhalucard",
       "sha256": "d75fafc98eaefbc30414b009f4feab2c99100e568a903312d108ffb0c93594d2",
       "source_sha256": "b19094b8e0d870e735caf541638de008ab3637788cd7a28b5c1a0d203a95fd0e",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2959839951-d75fafc98eae.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/dhalucard-2959839951-d75fafc98eae.mp4",
       "clip_slug": "BoldBlindingBaboonSSSsss-bryh8IMIOOgmzWrK",
       "original_created_at": "2026-11-02T15:01:40Z",
-      "source_deadline": "2026-11-05T15:01:40Z"
+      "source_deadline": "2026-11-05T15:01:40Z",
+      "buffer_post_id": "6ae8b3a604fa73faa2321f74"
     }
   ],
   "last_production": {

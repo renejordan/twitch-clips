@@ -2018,12 +2018,13 @@
       "streamer": "trymacs",
       "sha256": "850517edb9a86782c8e83adf2f9d9f02bf3f192a62080382aab6ac3fcda7e605",
       "source_sha256": "9e9d36426ad5219e4e64fe57e8585a17aaa3422cdaf5ac6d677b2edc71f635c8",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-80961400-850517edb9a8.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-80961400-850517edb9a8.mp4",
       "clip_slug": "BraveBreakableAlpacaDerp-XyANwjpnb50b8qU2",
       "original_created_at": "2026-11-01T14:52:02Z",
-      "source_deadline": "2026-11-04T14:52:02Z"
+      "source_deadline": "2026-11-04T14:52:02Z",
+      "buffer_post_id": "6ae87b73e79c76ff1d21ab4b"
     }
   ],
   "last_production": {

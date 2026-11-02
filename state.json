@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703683176660503840",
       "sent_at": "2026-11-02T21:06:31Z",
       "verified_at": "2026-11-02T21:06:37Z"
+    },
+    {
+      "clip_id": "1563121297",
+      "reserved_at": "2026-11-02T22:04:32Z",
+      "streamer": "nooreax",
+      "sha256": "8c89382332a12afe79d9964e5535ebc9262248f8e7337b7a3fd31f447b795473",
+      "source_sha256": "75a3a3f7ebb4da195596f33d1e91151deae15f9b9b4b15ab104f3d674486e95e",
+      "status": "reserved",
+      "asset_title": "tiktok14-1563121297-8c89382332a1.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-1563121297-8c89382332a1.mp4",
+      "clip_slug": "DistinctEncouragingNightingaleRaccAttack-xJm2z1Rh1kS5N9xX",
+      "original_created_at": "2026-11-02T20:05:15Z",
+      "source_deadline": "2026-11-05T20:05:15Z"
     }
   ],
   "last_production": {

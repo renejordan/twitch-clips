@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-02T13:10:09Z",
+    "at": "2026-11-02T14:38:19Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 108,
-      "listing_age_prefilter": 733,
-      "discovered": 902,
-      "metadata_requested": 858,
-      "qualified_metadata": 439,
-      "title_too_short": 70,
-      "gaming_category_not_verified": 349,
+      "listing_duration_prefilter": 98,
+      "listing_age_prefilter": 664,
+      "discovered": 887,
+      "metadata_requested": 843,
+      "qualified_metadata": 442,
+      "title_too_short": 76,
+      "gaming_category_not_verified": 325,
       "duplicate_source_event": 15,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2347967859",
-      "clip_slug": "BoringRepleteClipsmomWow-0i0n1cbl5SGd5Qre",
-      "streamer": "coachlim"
+      "clip_id": "1556098824",
+      "clip_slug": "AgitatedConfidentCoyoteHumbleLife-NTM8f0hk9reJ3fRv",
+      "streamer": "trymacs"
     }
   },
   "prepare_scans": {
@@ -2542,8 +2542,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-02T13",
-  "last_prefetch_hour": "2026-11-02T13",
+  "last_prepare_hour": "2026-11-02T14",
+  "last_prefetch_hour": "2026-11-02T14",
   "archived_verified_count": 124,
   "used_ids": [
     "1001913153",

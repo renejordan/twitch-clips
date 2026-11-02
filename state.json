@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703511947165109536",
       "sent_at": "2026-11-02T10:02:43Z",
       "verified_at": "2026-11-02T10:06:42Z"
+    },
+    {
+      "clip_id": "1090238224",
+      "reserved_at": "2026-11-02T11:01:03Z",
+      "streamer": "xrohat",
+      "sha256": "84b5faa4528c50b557a6ed3a10421142778cae51b5716eb472892950cdf4cbe4",
+      "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
+      "status": "reserved",
+      "asset_title": "tiktok14-1090238224-84b5faa4528c.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-1090238224-84b5faa4528c.mp4",
+      "clip_slug": "IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
+      "original_created_at": "2026-11-02T09:21:17Z",
+      "source_deadline": "2026-11-05T09:21:17Z"
     }
   ],
   "last_production": {

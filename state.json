@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2790380175",
-      "clip_slug": "BeautifulMoralPangolinBatChest-OF53rHhdxAz5_Cnh",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/BeautifulMoralPangolinBatChest-OF53rHhdxAz5_Cnh",
-      "original_title": "Aussage über vergangene Beziehung",
-      "hook": "Aussage über vergangene Beziehung",
-      "caption": "Aussage über vergangene Beziehung\n#gaming #minecraft #twitchclips #nooreax #gamer",
-      "views_at_selection": 360,
-      "original_duration": 16.0,
-      "original_created_at": "2026-11-01T18:22:20Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-2790380175-eb9d8e8a129a.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-02T18:11:06Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "eb9d8e8a129ad88b08a2bd1da093e0cf5cdca5768fea9c50b712c4a625167528",
-      "category": "Minecraft",
-      "transcript_sha256": "64ff9f2f2169ca1dc3bbc0ace3c6c3a0b3e36a501591435693ac9a21c1950002",
-      "asr_requires_correction": true,
-      "source_sha256": "b4f103653a81a84498cfd0ad47a728d95b5d7bacc24a2bbb34eef73950347477",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-02T18:11:06.077042+00:00",
-        "media_sha256": "eb9d8e8a129ad88b08a2bd1da093e0cf5cdca5768fea9c50b712c4a625167528",
-        "transcript_sha256": "64ff9f2f2169ca1dc3bbc0ace3c6c3a0b3e36a501591435693ac9a21c1950002",
-        "source_sha256": "b4f103653a81a84498cfd0ad47a728d95b5d7bacc24a2bbb34eef73950347477",
-        "evidence_sha256": "78d734baa685fb58ec708748a6c2c7b5febff9bf52d818cd646bd0fbc9b8f099",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "b4f103653a81a84498cfd0ad47a728d95b5d7bacc24a2bbb34eef73950347477",
-          "reviewed_source_sha256": "b4f103653a81a84498cfd0ad47a728d95b5d7bacc24a2bbb34eef73950347477",
-          "duration": 16.768,
-          "timestamps": [
-            0.0,
-            8.309,
-            16.618
-          ],
-          "source_frame_hashes": [
-            "61ca52a899aa78f04769d739769f058786bbb407f0282c156b14bafa177c0096",
-            "9cafe5252cd7944c40b43b32b62ff3906b510cac30f8a08437f94e47c7de52fd",
-            "c686cc957007ee52fb18e6bfb519fe72c300cf5f4b9df086ab3612035d989bda"
-          ],
-          "headline": "Aussage über vergangene Beziehung",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera visible in corner, game HUD with inventory and chat visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player moves through open world with diamond sword, no clear action or outcome",
-            "payoff": "No visible outcome or payoff from actions taken, no win/loss or reaction visible in frames provided",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.025078431749554903,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'Aussage über vergangene Beziehung' is clearly visible at the top, and no browser or ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            8.309,
-            16.618
-          ],
-          "final_frame_hashes": [
-            "9677c6bc0021f01c7f15905f824a0714e0e573d5933ce3c2abfa593436b70df6",
-            "1e96e3fa8925446208e4335e500a1c6a4d4ee27c4d174b9aef74b95b1597fa07",
-            "a8bd66c087f044a0908b51585ff7cceef558ec2af45e1c8539c40f148e2366e6"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "eb9d8e8a129ad88b08a2bd1da093e0cf5cdca5768fea9c50b712c4a625167528",
-          "transcript_sha256": "64ff9f2f2169ca1dc3bbc0ace3c6c3a0b3e36a501591435693ac9a21c1950002"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, which is a common edited gaming layout. The title 'Aussage über vergangene Beziehung' is clearly visible at the top, and no browser or "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0251, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-2790380175-eb9d8e8a129a-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "3760748518",
@@ -2018,14 +1880,17 @@
       "streamer": "nooreax",
       "sha256": "eb9d8e8a129ad88b08a2bd1da093e0cf5cdca5768fea9c50b712c4a625167528",
       "source_sha256": "b4f103653a81a84498cfd0ad47a728d95b5d7bacc24a2bbb34eef73950347477",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2790380175-eb9d8e8a129a.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-2790380175-eb9d8e8a129a.mp4",
       "clip_slug": "BeautifulMoralPangolinBatChest-OF53rHhdxAz5_Cnh",
       "original_created_at": "2026-11-01T18:22:20Z",
       "source_deadline": "2026-11-04T18:22:20Z",
       "buffer_post_id": "6ae8ddd4c25538a9f8cef7a5",
-      "last_reconcile_at": "2026-11-02T19:06:42Z"
+      "last_reconcile_at": "2026-11-02T19:06:42Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703651167422745888",
+      "sent_at": "2026-11-02T19:02:55Z",
+      "verified_at": "2026-11-02T19:06:44Z"
     }
   ],
   "last_production": {

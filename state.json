@@ -2018,12 +2018,13 @@
       "streamer": "nooreax",
       "sha256": "8c89382332a12afe79d9964e5535ebc9262248f8e7337b7a3fd31f447b795473",
       "source_sha256": "75a3a3f7ebb4da195596f33d1e91151deae15f9b9b4b15ab104f3d674486e95e",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1563121297-8c89382332a1.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/nooreax-1563121297-8c89382332a1.mp4",
       "clip_slug": "DistinctEncouragingNightingaleRaccAttack-xJm2z1Rh1kS5N9xX",
       "original_created_at": "2026-11-02T20:05:15Z",
-      "source_deadline": "2026-11-05T20:05:15Z"
+      "source_deadline": "2026-11-05T20:05:15Z",
+      "buffer_post_id": "6ae908f2d0e732df44900da8"
     }
   ],
   "last_production": {

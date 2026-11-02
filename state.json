@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "2347967859",
+      "clip_slug": "BoringRepleteClipsmomWow-0i0n1cbl5SGd5Qre",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/BoringRepleteClipsmomWow-0i0n1cbl5SGd5Qre",
+      "original_title": "Coach lässt Zarbex Tanga tragen",
+      "hook": "Coach lässt Zarbex Tanga tragen",
+      "caption": "Coach lässt Zarbex Tanga tragen\n#gaming #minecraft #twitchclips #coachlim #gamer",
+      "views_at_selection": 350,
+      "original_duration": 40.0,
+      "original_created_at": "2026-11-01T18:58:14Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/coachlim-2347967859-622eaefe1728.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-02T13:10:09Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "622eaefe1728fae762805b0d2af744fb3f5c8cf77d4e97c9f5fb061e5ee28329",
+      "category": "Minecraft",
+      "transcript_sha256": "a8990e78eb96302d5887752750e7017fba9b8fc8824717ece27094a098ed616a",
+      "asr_requires_correction": true,
+      "source_sha256": "30317bc1547b0a169b131e94a59c945d673e200e74ca590a57a40afe027705c4",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-02T13:10:09.269127+00:00",
+        "media_sha256": "622eaefe1728fae762805b0d2af744fb3f5c8cf77d4e97c9f5fb061e5ee28329",
+        "transcript_sha256": "a8990e78eb96302d5887752750e7017fba9b8fc8824717ece27094a098ed616a",
+        "source_sha256": "30317bc1547b0a169b131e94a59c945d673e200e74ca590a57a40afe027705c4",
+        "evidence_sha256": "d9eed02c80050212b69760fb55c14090402e727ba3e3ade141f7a074f0bfaafc",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "30317bc1547b0a169b131e94a59c945d673e200e74ca590a57a40afe027705c4",
+          "reviewed_source_sha256": "30317bc1547b0a169b131e94a59c945d673e200e74ca590a57a40afe027705c4",
+          "duration": 40.95,
+          "timestamps": [
+            0.0,
+            20.4,
+            40.8
+          ],
+          "source_frame_hashes": [
+            "a60790561428306bd7954c4fada02636a3b506e270311e52ce46352e2bdad1e6",
+            "b2afe314eba0feb4d5d265bb50a8ae6f9110a977250bb48070e6eb37fffc868e",
+            "c2606204a138420257b5c4d189a32b8aca7edc4192c355cd5ebefea35bd05949"
+          ],
+          "headline": "Coach lässt Zarbex Tanga tragen",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Top-left: minimap and game timer; bottom: inventory bar; top-right: streamer's facecam; bottom-right: game controls; top: game HUD with text overlays; no browser or desktop window visible; no video player or recursive UI",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "No clear setup or payoff visible; gameplay transitions between surface and underwater without narrative or mechanical payoff.",
+            "payoff": "No visible outcome or reaction; no win/loss or clear event conclusion; no dialogue or action with visible result.",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.10401895013368406,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, a map in the top left, and a chat window on the right. The title 'Coach lässt Zarbex Tanga tragen' is visible at the top. The gameplay,",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            20.4,
+            40.8
+          ],
+          "final_frame_hashes": [
+            "5b0581cab53cd2e8780a9770def8a53bf155029ea42820c20bf877129247d60a",
+            "e27449ad90db043fad8a7d15a598f4c318b369f4deef656286c3d9bc62d745f0",
+            "aae326a3e4b184281bfcd6d3a64fbd31a0d5be121f992680c22967c5c3880b98"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "622eaefe1728fae762805b0d2af744fb3f5c8cf77d4e97c9f5fb061e5ee28329",
+          "transcript_sha256": "a8990e78eb96302d5887752750e7017fba9b8fc8824717ece27094a098ed616a"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a facecam panel in the top right corner, a map in the top left, and a chat window on the right. The title 'Coach lässt Zarbex Tanga tragen' is visible at the top. The gameplay,"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.1040, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/coachlim-2347967859-622eaefe1728-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "4024438646",

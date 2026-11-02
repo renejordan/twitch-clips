@@ -2014,28 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-02T15:26:57Z",
+    "at": "2026-11-02T16:10:25Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 107,
-      "listing_age_prefilter": 679,
-      "discovered": 910,
-      "metadata_requested": 867,
-      "title_too_short": 77,
-      "qualified_metadata": 467,
-      "gaming_category_not_verified": 323,
-      "duplicate_source_event": 14,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_duration_invalid": 1,
+      "listing_duration_prefilter": 97,
+      "listing_age_prefilter": 704,
+      "discovered": 907,
+      "metadata_requested": 863,
+      "title_too_short": 75,
+      "qualified_metadata": 481,
+      "gaming_category_not_verified": 307,
+      "duplicate_source_event": 10,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2959839951",
-      "clip_slug": "BoldBlindingBaboonSSSsss-bryh8IMIOOgmzWrK",
-      "streamer": "dhalucard"
+      "clip_id": "1093307816",
+      "clip_slug": "DirtyEmpathicLocustNotLikeThis-N0IB8hjtsard_OS0",
+      "streamer": "letshugotv"
     }
   },
   "prepare_scans": {
@@ -2543,8 +2542,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-02T15",
-  "last_prefetch_hour": "2026-11-02T15",
+  "last_prepare_hour": "2026-11-02T16",
+  "last_prefetch_hour": "2026-11-02T16",
   "archived_verified_count": 126,
   "used_ids": [
     "1001913153",

@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "2933165164",
-      "reserved_at": "2026-10-26T08:02:33Z",
-      "streamer": "nooreax",
-      "sha256": "48893f9138706fa18f7309dac669ca26a3f7588e6cf0c49346aa4b3048143fed",
-      "source_sha256": "24a358d5999a49bd1f1fbd050cf1ada09d354939303f2e8478ca25b463c9a49c",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2933165164-48893f913870.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-2933165164-48893f913870.mp4",
-      "clip_slug": "SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
-      "original_created_at": "2026-10-25T20:56:58Z",
-      "source_deadline": "2026-10-28T20:56:58Z",
-      "buffer_post_id": "6adf091c4efc89efde66cbd4",
-      "last_reconcile_at": "2026-10-26T08:04:26Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7700883941322001697",
-      "sent_at": "2026-10-26T08:04:19Z",
-      "verified_at": "2026-10-26T08:04:27Z"
-    },
-    {
       "clip_id": "2859207532",
       "reserved_at": "2026-10-26T09:04:32Z",
       "streamer": "trymacs",
@@ -2433,7 +2415,7 @@
   ],
   "last_prepare_hour": "2026-11-01T23",
   "last_prefetch_hour": "2026-11-01T21",
-  "archived_verified_count": 117,
+  "archived_verified_count": 118,
   "used_ids": [
     "1008150185",
     "1014059590",
@@ -2517,6 +2499,7 @@
     "2847113030",
     "2872384457",
     "2927866367",
+    "2933165164",
     "2954668346",
     "2963515657",
     "2974198887",

@@ -2385,6 +2385,15 @@
       "status": "quality_rejected",
       "created_at": "2026-11-01T17:36:43Z",
       "reason": "qa_visual_gameplay_visible"
+    },
+    {
+      "clip_id": "2428540959",
+      "clip_slug": "SuspiciousCheerfulOcelotPoooound-XSgE_zcGmsSJwNey",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/SuspiciousCheerfulOcelotPoooound-XSgE_zcGmsSJwNey",
+      "status": "quality_rejected",
+      "created_at": "2026-11-02T10:10:33Z",
+      "reason": "qa_duration_invalid"
     }
   ],
   "last_commissioning_hour": "2026-10-18T11",

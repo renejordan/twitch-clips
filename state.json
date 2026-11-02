@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2959839951",
-      "clip_slug": "BoldBlindingBaboonSSSsss-bryh8IMIOOgmzWrK",
-      "streamer": "dhalucard",
-      "source_url": "https://www.twitch.tv/dhalucard/clip/BoldBlindingBaboonSSSsss-bryh8IMIOOgmzWrK",
-      "original_title": "Gum Gum BASUKA",
-      "hook": "Gum Gum BASUKA",
-      "caption": "Gum Gum BASUKA\n#gaming #fortnite #twitchclips #dhalucard #gamer",
-      "views_at_selection": 177,
-      "original_duration": 43.0,
-      "original_created_at": "2026-11-02T15:01:40Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/dhalucard-2959839951-d75fafc98eae.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-02T15:26:57Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "d75fafc98eaefbc30414b009f4feab2c99100e568a903312d108ffb0c93594d2",
-      "category": "Fortnite",
-      "transcript_sha256": "6d87dddbdd3e5add752cf0af1c798cd3ad7ba70d2d441e257cab1277be0518aa",
-      "asr_requires_correction": true,
-      "source_sha256": "b19094b8e0d870e735caf541638de008ab3637788cd7a28b5c1a0d203a95fd0e",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-02T15:26:57.714403+00:00",
-        "media_sha256": "d75fafc98eaefbc30414b009f4feab2c99100e568a903312d108ffb0c93594d2",
-        "transcript_sha256": "6d87dddbdd3e5add752cf0af1c798cd3ad7ba70d2d441e257cab1277be0518aa",
-        "source_sha256": "b19094b8e0d870e735caf541638de008ab3637788cd7a28b5c1a0d203a95fd0e",
-        "evidence_sha256": "66afdc81965833189b45a9967d6af9d4271f29f0d487c94d2c688c9f0950a60b",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "b19094b8e0d870e735caf541638de008ab3637788cd7a28b5c1a0d203a95fd0e",
-          "reviewed_source_sha256": "b19094b8e0d870e735caf541638de008ab3637788cd7a28b5c1a0d203a95fd0e",
-          "duration": 43.712,
-          "timestamps": [
-            0.0,
-            21.781,
-            43.562
-          ],
-          "source_frame_hashes": [
-            "b4c77180664a814f9f4e10e242a7c8c144f9d5d1464ba613ccc95ab375f03d71",
-            "0b4e0f903da99df5eb8d73e4183bfb49d5442451a0ce9d07bbf68dd54ca2745c",
-            "f0da4ae09b1f9ddd3d41a554f9f848040ae4d43af44f4a5a473ac936db37de00"
-          ],
-          "headline": "Gum Gum BASUKA",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, game HUD visible with inventory, chat, and score indicators, no browser or desktop elements.",
-            "game_name": "Fortnite",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player in Fortnite on beach map, no clear action or outcome visible.",
-            "payoff": "No visible outcome or payoff from actions taken in frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.06547772681331326,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a direct game capture with a facecam panel above gameplay, which is an edited gaming layout. The game is Fortnite, not Minecraft, and the HUD, menus, and stream chat are visible as part of the game interface, not a browser. ",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            21.781,
-            43.562
-          ],
-          "final_frame_hashes": [
-            "8a29bef5697cae345ca7c9da78a7e734b14a0deb7c464ec978215d3890d5c625",
-            "4a1b7ec76d5dae71a9b8b83257b4011a9ead27630ad7b43fa162344f4d894982",
-            "182cc38b17ad56ccb328e2227d24a58e192f1dfb9bbbc743f6cce111d85eda95"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "d75fafc98eaefbc30414b009f4feab2c99100e568a903312d108ffb0c93594d2",
-          "transcript_sha256": "6d87dddbdd3e5add752cf0af1c798cd3ad7ba70d2d441e257cab1277be0518aa"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a direct game capture with a facecam panel above gameplay, which is an edited gaming layout. The game is Fortnite, not Minecraft, and the HUD, menus, and stream chat are visible as part of the game interface, not a browser. "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0655, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/dhalucard-2959839951-d75fafc98eae-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "471578372",
@@ -2018,14 +1880,17 @@
       "streamer": "dhalucard",
       "sha256": "d75fafc98eaefbc30414b009f4feab2c99100e568a903312d108ffb0c93594d2",
       "source_sha256": "b19094b8e0d870e735caf541638de008ab3637788cd7a28b5c1a0d203a95fd0e",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2959839951-d75fafc98eae.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/dhalucard-2959839951-d75fafc98eae.mp4",
       "clip_slug": "BoldBlindingBaboonSSSsss-bryh8IMIOOgmzWrK",
       "original_created_at": "2026-11-02T15:01:40Z",
       "source_deadline": "2026-11-05T15:01:40Z",
       "buffer_post_id": "6ae8b3a604fa73faa2321f74",
-      "last_reconcile_at": "2026-11-02T16:06:37Z"
+      "last_reconcile_at": "2026-11-02T16:06:37Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703604764134608161",
+      "sent_at": "2026-11-02T16:05:20Z",
+      "verified_at": "2026-11-02T16:06:39Z"
     }
   ],
   "last_production": {

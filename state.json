@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703651167422745888",
       "sent_at": "2026-11-02T19:02:55Z",
       "verified_at": "2026-11-02T19:06:44Z"
+    },
+    {
+      "clip_id": "1605463664",
+      "reserved_at": "2026-11-02T20:02:48Z",
+      "streamer": "letshugotv",
+      "sha256": "a57791bd3ff77a3a5e66f7bccb23da168790ac53b3a28b1c54169852b9c1eb0d",
+      "source_sha256": "3f52e40954bae5213f4ca5bd7a072aff0bcc1a064bc1996552b568fafdd5feb6",
+      "status": "reserved",
+      "asset_title": "tiktok14-1605463664-a57791bd3ff7.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1605463664-a57791bd3ff7.mp4",
+      "clip_slug": "SplendidAntediluvianCucumberHeyGirl-4hULFIEL1X-brq7K",
+      "original_created_at": "2026-11-02T18:11:26Z",
+      "source_deadline": "2026-11-05T18:11:26Z"
     }
   ],
   "last_production": {

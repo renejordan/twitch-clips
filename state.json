@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3897978630",
+      "clip_slug": "SteamyRoundCrowOMGScoots-CBl_ibH-tXSqVWaj",
+      "streamer": "bastighg",
+      "source_url": "https://www.twitch.tv/bastighg/clip/SteamyRoundCrowOMGScoots-CBl_ibH-tXSqVWaj",
+      "original_title": "basti entdeckt das diner Schild",
+      "hook": "basti entdeckt das diner Schild",
+      "caption": "basti entdeckt das diner Schild\n#gaming #minecraft #twitchclips #bastighg #gamer",
+      "views_at_selection": 359,
+      "original_duration": 41.0,
+      "original_created_at": "2026-11-01T21:43:40Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/bastighg-3897978630-17f797d51ce6.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-02T09:05:51Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "17f797d51ce64bb0462217bae0bb9b09c3c48afff076795a2e27d470a33431c7",
+      "category": "Minecraft",
+      "transcript_sha256": "00f4910802278d6520eb7c0f7fbc5d6ba92a49455a950a6c3fccd30229c30fa6",
+      "asr_requires_correction": true,
+      "source_sha256": "4ea1d88882d9dd9a64f5a7129a3f3575322d2b391116135c6c0a62e34158f3d0",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-02T09:05:51.870038+00:00",
+        "media_sha256": "17f797d51ce64bb0462217bae0bb9b09c3c48afff076795a2e27d470a33431c7",
+        "transcript_sha256": "00f4910802278d6520eb7c0f7fbc5d6ba92a49455a950a6c3fccd30229c30fa6",
+        "source_sha256": "4ea1d88882d9dd9a64f5a7129a3f3575322d2b391116135c6c0a62e34158f3d0",
+        "evidence_sha256": "cc99e6d04e0c0c24bb57054a1cc1eed33a01d3a61e12d9d9afed3769ebab7a96",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "4ea1d88882d9dd9a64f5a7129a3f3575322d2b391116135c6c0a62e34158f3d0",
+          "reviewed_source_sha256": "4ea1d88882d9dd9a64f5a7129a3f3575322d2b391116135c6c0a62e34158f3d0",
+          "duration": 41.333333,
+          "timestamps": [
+            0.0,
+            20.592,
+            41.183
+          ],
+          "source_frame_hashes": [
+            "e4647eb9ec128a7964b23ead832844fcb721c809bf915650542cf9e40f83049d",
+            "d3f5841be222517d011e147d8d180613759e2272ffe1178287e9d9fd316aa1a1",
+            "f88a9f2372a7656f67dfa07c6a57ed6c5f8e1ed7a26783f55a36bf984c68de1c"
+          ],
+          "headline": "basti entdeckt das diner Schild",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, showing hands on keyboard and mouse, with game HUD and chat visible, no browser or desktop elements.",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is in a Minecraft world with a building and chains in the background, holding a weapon and looking at a block.",
+            "payoff": "Player is in a Minecraft world with a building and chains in the background, holding a weapon and looking at a block. No clear outcome or payoff is visible in the frames provided. The player's actions are not clearly cul",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.02016445220772145,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The provided frames show a Minecraft gameplay stream with a facecam panel and chat overlay, which is consistent with a direct game capture with facecam. The title 'basti entdeckt das diner Schild' is clearly visible and not overlaid with a ",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            20.592,
+            41.183
+          ],
+          "final_frame_hashes": [
+            "796ba2c9c4e0d72519fa586bf1cc445cb787a4c8cbfcad16e27330c50de36cd9",
+            "577f30f3d7b04813f2bc24b36d3c95479c9a0ca3d6210982ae0cf13758b471f9",
+            "1f5de74047df9027a50f3d3713bc4c0d75aca0072a4bd1d6e6875f52d893c0b9"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "17f797d51ce64bb0462217bae0bb9b09c3c48afff076795a2e27d470a33431c7",
+          "transcript_sha256": "00f4910802278d6520eb7c0f7fbc5d6ba92a49455a950a6c3fccd30229c30fa6"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The provided frames show a Minecraft gameplay stream with a facecam panel and chat overlay, which is consistent with a direct game capture with facecam. The title 'basti entdeckt das diner Schild' is clearly visible and not overlaid with a "
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0202, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/bastighg-3897978630-17f797d51ce6-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "2859207532",

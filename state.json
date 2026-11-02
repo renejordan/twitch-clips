@@ -2018,12 +2018,13 @@
       "streamer": "trymacs",
       "sha256": "d61385cc921ed7b6c8b24d71f7829d5935f024ecbc1223555b43220644dbe8bc",
       "source_sha256": "241ce5ae0f4731f81e43a5f5a2d29a4de8438c1fc58efdec00aa28454fb90e0f",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-1556098824-d61385cc921e.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/trymacs-1556098824-d61385cc921e.mp4",
       "clip_slug": "AgitatedConfidentCoyoteHumbleLife-NTM8f0hk9reJ3fRv",
       "original_created_at": "2026-11-01T22:51:18Z",
-      "source_deadline": "2026-11-04T22:51:18Z"
+      "source_deadline": "2026-11-04T22:51:18Z",
+      "buffer_post_id": "6ae8a5a504fa73faa22c7b91"
     }
   ],
   "last_production": {

@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1090238224",
-      "clip_slug": "IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
-      "streamer": "xrohat",
-      "source_url": "https://www.twitch.tv/xrohat/clip/IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
-      "original_title": "hamid wird dreizack weg",
-      "hook": "hamid wird dreizack weg",
-      "caption": "hamid wird dreizack weg\n#gaming #minecraft #twitchclips #xrohat #gamer",
-      "views_at_selection": 195,
-      "original_duration": 25.0,
-      "original_created_at": "2026-11-02T09:21:17Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-1090238224-84b5faa4528c.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-02T10:10:33Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "84b5faa4528c50b557a6ed3a10421142778cae51b5716eb472892950cdf4cbe4",
-      "category": "Minecraft",
-      "transcript_sha256": "1884c55ffc0304ce32876217e84e0e43655e6dd6d072f3f252fa0746d92cea31",
-      "asr_requires_correction": true,
-      "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-02T10:10:33.347479+00:00",
-        "media_sha256": "84b5faa4528c50b557a6ed3a10421142778cae51b5716eb472892950cdf4cbe4",
-        "transcript_sha256": "1884c55ffc0304ce32876217e84e0e43655e6dd6d072f3f252fa0746d92cea31",
-        "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
-        "evidence_sha256": "6c3c38fdf2438a6b1e84abd11104b41bed1e0fe77d1db5ee0f8ebc8cb5d0ed68",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
-          "reviewed_source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
-          "duration": 25.828,
-          "timestamps": [
-            0.0,
-            12.839,
-            25.678
-          ],
-          "source_frame_hashes": [
-            "8bdccebdebe0234715e7d31c1e26381a54749784b5fb4a3cb5a1e6e8cec93cc6",
-            "f803db30992e1bbfbf36f51bad9a54d761a472ce23934f5e9a2b1129c49d55ed",
-            "efa0228f37b8758d3a3d17b8c00f8d579bd2b667c5c83e3542c483a12629851a"
-          ],
-          "headline": "hamid wird dreizack weg",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Top-left: minimap; bottom: inventory bar; top-right: facecam; chat on left; game world visible; no browser or desktop UI elements; no video player or recursive stream; facecam is in corner over gameplay, not video_within",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "No clear setup or payoff visible; gameplay is static or moving slowly with no visible outcome or reaction.",
-            "payoff": "No visible outcome or reaction; no win/loss or clear payoff event; no action with visible result; no dialogue subtitles or game HUD indicating outcome; no clear tension or reaction from player or game; no exceptional or ",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.023781446601923988,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, a static title overlay 'hamid wird dreizack weg' at the top, and a chat window on the left. The gameplay is in a typical Minecraft style",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            12.839,
-            25.678
-          ],
-          "final_frame_hashes": [
-            "2fe4a4539ba5de61516c7fc77d449a798aea0876655d8dfebbb6c281dbfeb964",
-            "e80d668982fcdc5479a2d450b2f85de42e8b53827ab335cb14e7d66fbc85a3fa",
-            "f21d88b9895854c1a5c07378b39984463afaf728aabf8b18195d7ae51ead287e"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "84b5faa4528c50b557a6ed3a10421142778cae51b5716eb472892950cdf4cbe4",
-          "transcript_sha256": "1884c55ffc0304ce32876217e84e0e43655e6dd6d072f3f252fa0746d92cea31"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top right corner, a static title overlay 'hamid wird dreizack weg' at the top, and a chat window on the left. The gameplay is in a typical Minecraft style"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0238, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-1090238224-84b5faa4528c-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1001913153",
@@ -2018,14 +1880,17 @@
       "streamer": "xrohat",
       "sha256": "84b5faa4528c50b557a6ed3a10421142778cae51b5716eb472892950cdf4cbe4",
       "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1090238224-84b5faa4528c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/xrohat-1090238224-84b5faa4528c.mp4",
       "clip_slug": "IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
       "original_created_at": "2026-11-02T09:21:17Z",
       "source_deadline": "2026-11-05T09:21:17Z",
       "buffer_post_id": "6ae86d72b6121434b5356b4f",
-      "last_reconcile_at": "2026-11-02T11:06:42Z"
+      "last_reconcile_at": "2026-11-02T11:06:42Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703527722856746273",
+      "sent_at": "2026-11-02T11:03:44Z",
+      "verified_at": "2026-11-02T11:06:44Z"
     }
   ],
   "last_production": {

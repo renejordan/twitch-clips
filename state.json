@@ -2018,12 +2018,13 @@
       "streamer": "coachlim",
       "sha256": "152fcc6e275ba9643badd522f2b2c659ab3948909fbe180dd779140b1978e0ef",
       "source_sha256": "45c077c32fb80a1f07dd4b7bc2652e6a2970132bce71877b174adc6c183165d7",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-534491746-152fcc6e275b.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/coachlim-534491746-152fcc6e275b.mp4",
       "clip_slug": "SarcasticFunCheesecakeOMGScoots-CbAhP9vSWhsfAyn7",
       "original_created_at": "2026-11-01T22:00:25Z",
-      "source_deadline": "2026-11-04T22:00:25Z"
+      "source_deadline": "2026-11-04T22:00:25Z",
+      "buffer_post_id": "6ae8432a1a965d64fbf896ba"
     }
   ],
   "last_production": {

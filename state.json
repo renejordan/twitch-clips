@@ -2018,12 +2018,13 @@
       "streamer": "krokoboss",
       "sha256": "437ba22363dedae56c7672cb49b0fdbb1a97f49991c93324c75b509a704bda95",
       "source_sha256": "04ec2bdb1fae46704a9eb067e6ef7c6e64b85164b6a690fef02f9a84960569dc",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-2806784004-437ba22363de.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/krokoboss-2806784004-437ba22363de.mp4",
       "clip_slug": "SmokyPluckyWrenchFutureMan-utvm1apFFV13Tx1Y",
       "original_created_at": "2026-11-02T22:56:55Z",
-      "source_deadline": "2026-11-05T22:56:55Z"
+      "source_deadline": "2026-11-05T22:56:55Z",
+      "buffer_post_id": "6ae9a3a704ca6f1fcc4687e3"
     }
   ],
   "last_production": {

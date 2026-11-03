@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "2103200892",
-      "reserved_at": "2026-10-27T11:08:41Z",
-      "streamer": "honeypuu",
-      "sha256": "257981c9563e611d8acb17b50441b476a30c3e50b504d7c061e8c2b6596cb4b6",
-      "source_sha256": "ee1889473146cdbd631378934cc8ad539375e585515ce50da59b761b3f94cf0a",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2103200892-257981c9563e.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/honeypuu-2103200892-257981c9563e.mp4",
-      "clip_slug": "CaringHelpfulBaguetteYouDontSay-kNFrbYnzDhbuZsll",
-      "original_created_at": "2026-10-26T15:04:32Z",
-      "source_deadline": "2026-10-29T15:04:32Z",
-      "buffer_post_id": "6ae0863b3063753edf6fe838",
-      "last_reconcile_at": "2026-10-27T11:10:35Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701303010105888033",
-      "sent_at": "2026-10-27T11:10:27Z",
-      "verified_at": "2026-10-27T11:10:36Z"
-    },
-    {
       "clip_id": "1246026570",
       "reserved_at": "2026-10-27T12:10:38Z",
       "streamer": "nooreax",
@@ -2120,15 +2102,6 @@
   },
   "rejected": [
     {
-      "clip_id": "947863308",
-      "clip_slug": "TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4",
-      "streamer": "krokoboss",
-      "source_url": "https://www.twitch.tv/krokoboss/clip/TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4",
-      "status": "quality_rejected",
-      "created_at": "2026-10-27T11:49:03Z",
-      "reason": "qa_visual_browser_chrome"
-    },
-    {
       "clip_id": "2317788116",
       "clip_slug": "SpotlessGiftedOctopusOneHand-fd-HhtO3SAj0AEYK",
       "streamer": "nooreax",
@@ -2517,7 +2490,7 @@
   ],
   "last_prepare_hour": "2026-11-03T11",
   "last_prefetch_hour": "2026-11-03T11",
-  "archived_verified_count": 135,
+  "archived_verified_count": 136,
   "used_ids": [
     "1001913153",
     "1008150185",
@@ -2575,6 +2548,7 @@
     "2088179216",
     "2088617063",
     "2089435146",
+    "2103200892",
     "212946245",
     "2138893258",
     "2142163357",
@@ -2705,7 +2679,8 @@
     "857609776",
     "870970129",
     "886498542",
-    "945475581"
+    "945475581",
+    "947863308"
   ],
-  "archived_rejected_count": 52
+  "archived_rejected_count": 53
 }

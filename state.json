@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703899499533552929",
       "sent_at": "2026-11-03T11:06:23Z",
       "verified_at": "2026-11-03T11:06:32Z"
+    },
+    {
+      "clip_id": "1949557990",
+      "reserved_at": "2026-11-03T12:04:30Z",
+      "streamer": "letshugotv",
+      "sha256": "52b27e83abff44cd58191c75d22ad2558a25efcfb947e4867b8d5a9f887a3426",
+      "source_sha256": "dc55e88334368a905292b4ee70b1e62a0ec18bc7ff6ca4486585969fa7ad3100",
+      "status": "reserved",
+      "asset_title": "tiktok14-1949557990-52b27e83abff.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1949557990-52b27e83abff.mp4",
+      "clip_slug": "WiseSquareGnat4Head-cueRpdYvtW-J7zt0",
+      "original_created_at": "2026-11-02T21:26:36Z",
+      "source_deadline": "2026-11-05T21:26:36Z"
     }
   ],
   "last_production": {

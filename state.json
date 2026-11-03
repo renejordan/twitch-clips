@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "589840693",
-      "clip_slug": "RepleteAdorableSnakeCharlieBitMe-eMhhymP2nP-8SWo_",
-      "streamer": "therealknossi",
-      "source_url": "https://www.twitch.tv/therealknossi/clip/RepleteAdorableSnakeCharlieBitMe-eMhhymP2nP-8SWo_",
-      "original_title": "ki farmt emeralds",
-      "hook": "ki farmt emeralds",
-      "caption": "ki farmt emeralds\n#gaming #minecraft #twitchclips #therealknossi #gamer",
-      "views_at_selection": 378,
-      "original_duration": 30.0,
-      "original_created_at": "2026-11-02T22:57:11Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/therealknossi-589840693-f319d4ec7ee0.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-03T12:14:15Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "f319d4ec7ee0e2132c5ebed2a68ff786fb9f71d21fc1bb9d2a93ec9155d466e4",
-      "category": "Minecraft",
-      "transcript_sha256": "5f1c3de44f8c0df46737602a4c7cb29a9ae5cd44fbef88a93a4934573573040f",
-      "asr_requires_correction": true,
-      "source_sha256": "98f82c6ec680a85381a0af97cf87f23bbdd04aba662609cef2c1cd56f29db7e0",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-03T12:14:15.430185+00:00",
-        "media_sha256": "f319d4ec7ee0e2132c5ebed2a68ff786fb9f71d21fc1bb9d2a93ec9155d466e4",
-        "transcript_sha256": "5f1c3de44f8c0df46737602a4c7cb29a9ae5cd44fbef88a93a4934573573040f",
-        "source_sha256": "98f82c6ec680a85381a0af97cf87f23bbdd04aba662609cef2c1cd56f29db7e0",
-        "evidence_sha256": "c63ab71466357ad11fb9f9f320c01467dfbdd05a18a0eff590f639c795b50431",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "98f82c6ec680a85381a0af97cf87f23bbdd04aba662609cef2c1cd56f29db7e0",
-          "reviewed_source_sha256": "98f82c6ec680a85381a0af97cf87f23bbdd04aba662609cef2c1cd56f29db7e0",
-          "duration": 30.016,
-          "timestamps": [
-            0.0,
-            14.933,
-            29.866
-          ],
-          "source_frame_hashes": [
-            "40825702518e7b0b20b31bccc3dfbb9c3796c74dd52854419da527a2e9f7d9a8",
-            "6a00bae1e68ce50c3d257de0e4c1fa1ab1a0542c725f565e29355ef159957b06",
-            "6b0ffc8e05ef55fa45901f486f629c840c8c698cb82109985de5cc1488649f50"
-          ],
-          "headline": "ki farmt emeralds",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in a corner over gameplay with a visible game HUD and chat window, not a browser or video player.",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "A player in Minecraft is moving through a grassy area with a chat window visible.",
-            "payoff": "No visible outcome or payoff from the action in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.09796559765333843,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a player character in a grassy area, a chat window visible on the left, and a facecam panel with a person wearing a crown. The title 'ki farmt emeralds' is displayed at the top",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.933,
-            29.866
-          ],
-          "final_frame_hashes": [
-            "01c86c7ec80e88ebd2d8ef67b0cbeb17727aae445755edf06cd79f24b8f16d5c",
-            "8f89fb4168281dae610d172d2ed096ebfa5b6f8bf24e724ae6973398e7ed0035",
-            "c21bdc1d59f918b65ae6fe0e7a7c209c03616bee38dc3c4cc3e688a546fcc64f"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "f319d4ec7ee0e2132c5ebed2a68ff786fb9f71d21fc1bb9d2a93ec9155d466e4",
-          "transcript_sha256": "5f1c3de44f8c0df46737602a4c7cb29a9ae5cd44fbef88a93a4934573573040f"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a player character in a grassy area, a chat window visible on the left, and a facecam panel with a person wearing a crown. The title 'ki farmt emeralds' is displayed at the top"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0980, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/therealknossi-589840693-f319d4ec7ee0-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "533244829",
@@ -2018,14 +1880,17 @@
       "streamer": "therealknossi",
       "sha256": "f319d4ec7ee0e2132c5ebed2a68ff786fb9f71d21fc1bb9d2a93ec9155d466e4",
       "source_sha256": "98f82c6ec680a85381a0af97cf87f23bbdd04aba662609cef2c1cd56f29db7e0",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-589840693-f319d4ec7ee0.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/therealknossi-589840693-f319d4ec7ee0.mp4",
       "clip_slug": "RepleteAdorableSnakeCharlieBitMe-eMhhymP2nP-8SWo_",
       "original_created_at": "2026-11-02T22:57:11Z",
       "source_deadline": "2026-11-05T22:57:11Z",
       "buffer_post_id": "6ae9dbf03d66f520b03acf6f",
-      "last_reconcile_at": "2026-11-03T13:06:33Z"
+      "last_reconcile_at": "2026-11-03T13:06:33Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703930607692172577",
+      "sent_at": "2026-11-03T13:06:31Z",
+      "verified_at": "2026-11-03T13:06:35Z"
     }
   ],
   "last_production": {

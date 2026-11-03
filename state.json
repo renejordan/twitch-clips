@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "2138893258",
-      "reserved_at": "2026-10-27T10:08:34Z",
-      "streamer": "letshugotv",
-      "sha256": "044cc75b7209422d2398837b8dda50737eeb798c3da72b993df392987d2c6d78",
-      "source_sha256": "3766e766b245f182f3b10a86eb6330fb0d8053b974ea123069a336eeed3a2131",
-      "status": "verified_public",
-      "asset_title": "tiktok14-2138893258-044cc75b7209.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/letshugotv-2138893258-044cc75b7209.mp4",
-      "clip_slug": "CrypticTallFiddleheadsJKanStyle-FkBu4peBQTJNEVfX",
-      "original_created_at": "2026-10-26T10:45:51Z",
-      "source_deadline": "2026-10-29T10:45:51Z",
-      "buffer_post_id": "6ae07824f8fdca14fefb6b5d",
-      "last_reconcile_at": "2026-10-27T10:10:35Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701287516258798880",
-      "sent_at": "2026-10-27T10:10:19Z",
-      "verified_at": "2026-10-27T10:10:37Z"
-    },
-    {
       "clip_id": "2103200892",
       "reserved_at": "2026-10-27T11:08:41Z",
       "streamer": "honeypuu",
@@ -2518,7 +2500,7 @@
   ],
   "last_prepare_hour": "2026-11-03T10",
   "last_prefetch_hour": "2026-11-03T10",
-  "archived_verified_count": 134,
+  "archived_verified_count": 135,
   "used_ids": [
     "1001913153",
     "1008150185",
@@ -2577,6 +2559,7 @@
     "2088617063",
     "2089435146",
     "212946245",
+    "2138893258",
     "2142163357",
     "215749810",
     "2158687206",

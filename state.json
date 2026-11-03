@@ -2032,27 +2032,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-03T08:09:56Z",
+    "at": "2026-11-03T09:10:05Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 89,
-      "listing_age_prefilter": 715,
-      "discovered": 874,
-      "metadata_requested": 840,
-      "gaming_category_not_verified": 242,
-      "title_too_short": 108,
-      "qualified_metadata": 490,
-      "duplicate_source_event": 9,
+      "listing_duration_prefilter": 92,
+      "listing_age_prefilter": 774,
+      "discovered": 942,
+      "metadata_requested": 907,
+      "gaming_category_not_verified": 266,
+      "title_too_short": 118,
+      "qualified_metadata": 523,
+      "duplicate_source_event": 10,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "2806784004",
-      "clip_slug": "SmokyPluckyWrenchFutureMan-utvm1apFFV13Tx1Y",
-      "streamer": "krokoboss"
+      "clip_id": "523707575",
+      "clip_slug": "JollySavoryStarlingFeelsBadMan-TRnGO8cf9caA-0vX",
+      "streamer": "noway4u_sir"
     }
   },
   "prepare_scans": {
@@ -2515,8 +2515,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-03T08",
-  "last_prefetch_hour": "2026-11-03T08",
+  "last_prepare_hour": "2026-11-03T09",
+  "last_prefetch_hour": "2026-11-03T09",
   "archived_verified_count": 133,
   "used_ids": [
     "1001913153",

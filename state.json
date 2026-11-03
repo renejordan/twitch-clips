@@ -141,24 +141,6 @@
   ],
   "attempts": [
     {
-      "clip_id": "664499384",
-      "reserved_at": "2026-10-27T09:08:33Z",
-      "streamer": "agurin",
-      "sha256": "bc66c1f43ea0584ebeb0117c8a5bf4503d196b211866a01c8e7a44056fce36d8",
-      "source_sha256": "57bea91c6dd0ea875955336c5e47ec8d10969fec1793c0aed8d3159873fe82cd",
-      "status": "verified_public",
-      "asset_title": "tiktok14-664499384-bc66c1f43ea0.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/agurin-664499384-bc66c1f43ea0.mp4",
-      "clip_slug": "GentleIncredulousMoosePJSugar-CASmstvTtcZuzT_D",
-      "original_created_at": "2026-10-27T01:19:35Z",
-      "source_deadline": "2026-10-30T01:19:35Z",
-      "buffer_post_id": "6ae06a1359280f1cf4498ef6",
-      "last_reconcile_at": "2026-10-27T09:10:34Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701272026534759712",
-      "sent_at": "2026-10-27T09:10:18Z",
-      "verified_at": "2026-10-27T09:10:36Z"
-    },
-    {
       "clip_id": "2138893258",
       "reserved_at": "2026-10-27T10:08:34Z",
       "streamer": "letshugotv",
@@ -2517,7 +2499,7 @@
   ],
   "last_prepare_hour": "2026-11-03T09",
   "last_prefetch_hour": "2026-11-03T09",
-  "archived_verified_count": 133,
+  "archived_verified_count": 134,
   "used_ids": [
     "1001913153",
     "1008150185",
@@ -2693,6 +2675,7 @@
     "60281847",
     "635147332",
     "65589402",
+    "664499384",
     "695413753",
     "70062120",
     "722767312",

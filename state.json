@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "3557848647",
-      "clip_slug": "VastGoodWalletPipeHype-LZp40vTwgN5fwXtL",
-      "streamer": "gtasty",
-      "source_url": "https://www.twitch.tv/gtasty/clip/VastGoodWalletPipeHype-LZp40vTwgN5fwXtL",
-      "original_title": "er kanns nicht fassen",
-      "hook": "er kanns nicht fassen",
-      "caption": "er kanns nicht fassen\n#gaming #minecraft #twitchclips #gtasty #gamer",
-      "views_at_selection": 577,
-      "original_duration": 30.0,
-      "original_created_at": "2026-11-02T15:12:59Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/gtasty-3557848647-9534c7673177.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-03T10:10:18Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "9534c76731772e32236c61cebed1ca50bb2cd4eed5abd40cd073f29588754e4a",
-      "category": "Minecraft",
-      "transcript_sha256": "a3c613d5da9301b7e1f77ae2f46206888c20bf53c14fe527e93439b4ccb3948e",
-      "asr_requires_correction": true,
-      "source_sha256": "3141d15e6104b7cc7cae3b09b54030f0d2ac05345d6f269e3d7135028bce5e0d",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-03T10:10:18.056052+00:00",
-        "media_sha256": "9534c76731772e32236c61cebed1ca50bb2cd4eed5abd40cd073f29588754e4a",
-        "transcript_sha256": "a3c613d5da9301b7e1f77ae2f46206888c20bf53c14fe527e93439b4ccb3948e",
-        "source_sha256": "3141d15e6104b7cc7cae3b09b54030f0d2ac05345d6f269e3d7135028bce5e0d",
-        "evidence_sha256": "367f120b99d55a13f401925528d318b22b8682c662caf825f30e228d61488fb4",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "3141d15e6104b7cc7cae3b09b54030f0d2ac05345d6f269e3d7135028bce5e0d",
-          "reviewed_source_sha256": "3141d15e6104b7cc7cae3b09b54030f0d2ac05345d6f269e3d7135028bce5e0d",
-          "duration": 30.014,
-          "timestamps": [
-            0.0,
-            14.932,
-            29.864
-          ],
-          "source_frame_hashes": [
-            "71cde76057231f590cc2cfa1a1f008d715d7dcce8750d43ba49d3428e4be3a58",
-            "3f258b6a4db86e1e302c132d71380dd32274cfb6afad58fdc332824fcad5cb61",
-            "78eee37dca191be64eade79e9e764864f72c00e4a3fcea844fd9879a28a08902"
-          ],
-          "headline": "er kanns nicht fassen",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "dialogue_subtitles",
-            "layout_evidence": "A face camera in a corner over gameplay, with a Minecraft game view and a live stream overlay showing the streamer's face and chat. The game view includes a map, inventory, and chat, which are not browser or desktop UI. ",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "A player stands on a grassy hill in Minecraft, with a large glass structure nearby. The streamer is visible in a small inset, reacting to the game. ",
-            "payoff": "The player is not shown to have taken any action that results in a win or loss. The streamer's reaction is not clearly tied to a specific event. The game continues with no visible outcome. ",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": true,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.037619237482999446,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a player character standing on a grassy hill, a large glass structure nearby, and a small inset showing the streamer. The text 'er kanns nicht fassen' is displayed as a title, ",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.932,
-            29.864
-          ],
-          "final_frame_hashes": [
-            "1bc0b1fe47aae5a52302bda6c538305ab7bbd0c9b22722c339f97b3ae4eff999",
-            "fe227b6af5768fe283b818b0461e7388e3c2e676ce7a7778efe921d066b883b5",
-            "04f19cac14fd3776dfb6fd04cce1d6c5b16c0dbe81e067c0a18deb9ccf796511"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "9534c76731772e32236c61cebed1ca50bb2cd4eed5abd40cd073f29588754e4a",
-          "transcript_sha256": "a3c613d5da9301b7e1f77ae2f46206888c20bf53c14fe527e93439b4ccb3948e"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a player character standing on a grassy hill, a large glass structure nearby, and a small inset showing the streamer. The text 'er kanns nicht fassen' is displayed as a title, "
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0376, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/gtasty-3557848647-9534c7673177-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "2103200892",
@@ -2018,14 +1880,17 @@
       "streamer": "gtasty",
       "sha256": "9534c76731772e32236c61cebed1ca50bb2cd4eed5abd40cd073f29588754e4a",
       "source_sha256": "3141d15e6104b7cc7cae3b09b54030f0d2ac05345d6f269e3d7135028bce5e0d",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-3557848647-9534c7673177.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/gtasty-3557848647-9534c7673177.mp4",
       "clip_slug": "VastGoodWalletPipeHype-LZp40vTwgN5fwXtL",
       "original_created_at": "2026-11-02T15:12:59Z",
       "source_deadline": "2026-11-05T15:12:59Z",
       "buffer_post_id": "6ae9bfc8f81926b9328f929d",
-      "last_reconcile_at": "2026-11-03T11:06:31Z"
+      "last_reconcile_at": "2026-11-03T11:06:31Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703899499533552929",
+      "sent_at": "2026-11-03T11:06:23Z",
+      "verified_at": "2026-11-03T11:06:32Z"
     }
   ],
   "last_production": {

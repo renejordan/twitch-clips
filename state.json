@@ -2014,27 +2014,27 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-02T21:10:36Z",
+    "at": "2026-11-03T02:36:25Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
-      "listing_duration_prefilter": 85,
       "listing_ok": 100,
-      "listing_age_prefilter": 705,
-      "discovered": 912,
-      "metadata_requested": 875,
-      "gaming_category_not_verified": 314,
-      "qualified_metadata": 449,
-      "title_too_short": 112,
-      "duplicate_source_event": 4,
+      "listing_duration_prefilter": 94,
+      "listing_age_prefilter": 696,
+      "discovered": 961,
+      "metadata_requested": 928,
+      "gaming_category_not_verified": 275,
+      "title_too_short": 125,
+      "qualified_metadata": 528,
+      "duplicate_source_event": 8,
       "download_attempted": 1,
       "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1563121297",
-      "clip_slug": "DistinctEncouragingNightingaleRaccAttack-xJm2z1Rh1kS5N9xX",
-      "streamer": "nooreax"
+      "clip_id": "2643354631",
+      "clip_slug": "SteamyPolishedAppleBrokeBack-JBfBXIKI0r2eqq-4",
+      "streamer": "papaplatte"
     }
   },
   "prepare_scans": {
@@ -2515,7 +2515,7 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-02T21",
+  "last_prepare_hour": "2026-11-03T02",
   "last_prefetch_hour": "2026-11-02T21",
   "archived_verified_count": 132,
   "used_ids": [

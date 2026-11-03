@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "2643354631",
-      "clip_slug": "SteamyPolishedAppleBrokeBack-JBfBXIKI0r2eqq-4",
-      "streamer": "papaplatte",
-      "source_url": "https://www.twitch.tv/papaplatte/clip/SteamyPolishedAppleBrokeBack-JBfBXIKI0r2eqq-4",
-      "original_title": "alter erraten",
-      "hook": "alter erraten",
-      "caption": "alter erraten\n#gaming #fortnite #twitchclips #papaplatte #gamer",
-      "views_at_selection": 490,
-      "original_duration": 31.0,
-      "original_created_at": "2026-11-02T20:23:08Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/papaplatte-2643354631-461936659c3c.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-03T02:36:25Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "461936659c3c4bd9cc62ac45002ca4bd47e0d79008dec44bc85c5b1c2b6520dd",
-      "category": "Fortnite",
-      "transcript_sha256": "d37674031295a47a74e6e5ec3089898e7e133bafa84d092bfb38816cd5bea0a9",
-      "asr_requires_correction": true,
-      "source_sha256": "ae3467626bfb3cd37c68f5a8064bf60e5ad47a68522d38d65b9c7e54a5f3dec5",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-03T02:36:25.049537+00:00",
-        "media_sha256": "461936659c3c4bd9cc62ac45002ca4bd47e0d79008dec44bc85c5b1c2b6520dd",
-        "transcript_sha256": "d37674031295a47a74e6e5ec3089898e7e133bafa84d092bfb38816cd5bea0a9",
-        "source_sha256": "ae3467626bfb3cd37c68f5a8064bf60e5ad47a68522d38d65b9c7e54a5f3dec5",
-        "evidence_sha256": "ed9c06193ff8ed62b589e4b84cc40eecaecf7e5710a0299690ea931e3a5564eb",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "ae3467626bfb3cd37c68f5a8064bf60e5ad47a68522d38d65b9c7e54a5f3dec5",
-          "reviewed_source_sha256": "ae3467626bfb3cd37c68f5a8064bf60e5ad47a68522d38d65b9c7e54a5f3dec5",
-          "duration": 31.424,
-          "timestamps": [
-            0.0,
-            15.637,
-            31.274
-          ],
-          "source_frame_hashes": [
-            "65f887bd60d422b7d971cc29e9332c0160f42a8df49257717682567acbbd3140",
-            "29af3a0db0a83791e583547fe29a8606ad1ddc5a95bbb6335e6237d08db327e7",
-            "4f672ca038715ca7b0e68e6c278343a9e5dbd90bbdeeca3f1c6efb116220da19"
-          ],
-          "headline": "alter erraten",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "A face camera in a corner over gameplay, showing a streamer with a headset and a visible game UI including a map, health bar, and chat window.",
-            "game_name": "Fortnite",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a game with a visible map and chat, waiting for other players to join.",
-            "payoff": "No visible outcome or payoff from the action taken in the frames provided.",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.04038026022328066,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frames show a direct game capture with a facecam panel above gameplay, which is a normal edited gaming layout. The game is Minecraft, with visible menus, HUD, and stream chat. The browser or desktop capture is not present as there areno",
-            "event_retained": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            15.637,
-            31.274
-          ],
-          "final_frame_hashes": [
-            "ca740f683e205e59df7089f921331cf28eebb790e2bf27d9886c337785e49f75",
-            "3479a47a9bf03e476a9db4798dba046d0cd3d5e4f1b8bcd59c09ef18d29de18a",
-            "cf7bb0ebe6ec648c3a660d74fb89c56c59487ec2c56e25f45c5a979a4fe0f554"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "461936659c3c4bd9cc62ac45002ca4bd47e0d79008dec44bc85c5b1c2b6520dd",
-          "transcript_sha256": "d37674031295a47a74e6e5ec3089898e7e133bafa84d092bfb38816cd5bea0a9"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frames show a direct game capture with a facecam panel above gameplay, which is a normal edited gaming layout. The game is Minecraft, with visible menus, HUD, and stream chat. The browser or desktop capture is not present as there areno"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0404, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/papaplatte-2643354631-461936659c3c-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1348008932",
@@ -2018,14 +1880,17 @@
       "streamer": "papaplatte",
       "sha256": "461936659c3c4bd9cc62ac45002ca4bd47e0d79008dec44bc85c5b1c2b6520dd",
       "source_sha256": "ae3467626bfb3cd37c68f5a8064bf60e5ad47a68522d38d65b9c7e54a5f3dec5",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-2643354631-461936659c3c.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/papaplatte-2643354631-461936659c3c.mp4",
       "clip_slug": "SteamyPolishedAppleBrokeBack-JBfBXIKI0r2eqq-4",
       "original_created_at": "2026-11-02T20:23:08Z",
       "source_deadline": "2026-11-05T20:23:08Z",
       "buffer_post_id": "6ae9959b2f050cf242969c57",
-      "last_reconcile_at": "2026-11-03T08:06:42Z"
+      "last_reconcile_at": "2026-11-03T08:06:42Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703853162259598625",
+      "sent_at": "2026-11-03T08:06:26Z",
+      "verified_at": "2026-11-03T08:06:44Z"
     }
   ],
   "last_production": {

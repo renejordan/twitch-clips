@@ -1,6 +1,144 @@
 {
   "version": 1,
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "3246164904",
+      "clip_slug": "CreativeRepleteClintmullinsArsonNoSexy-EXtV-pVkO-BINYDJ",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/CreativeRepleteClintmullinsArsonNoSexy-EXtV-pVkO-BINYDJ",
+      "original_title": "hugo leakt",
+      "hook": "hugo leakt",
+      "caption": "hugo leakt\n#gaming #minecraft #twitchclips #letshugotv #gamer",
+      "views_at_selection": 389,
+      "original_duration": 18.0,
+      "original_created_at": "2026-11-03T13:02:19Z",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-3246164904-a7bd85ad93e3.mp4",
+      "transcript_subtitles": false,
+      "created_at": "2026-11-03T13:10:23Z",
+      "status": "ready_tiktok14",
+      "delivery_route": "github14",
+      "rights_status": "user_declared_source_list",
+      "video_review_status": "automated_media_evidence_passed",
+      "editing_status": "rendered_9x16_title_only",
+      "subtitle_verified": false,
+      "sha256": "a7bd85ad93e3242133935aaa3fe4dee41551854ba62dc2fd45d2a5f926cf40d9",
+      "category": "Minecraft",
+      "transcript_sha256": "a744660fe9532dc36bc845940c7e9b3c4f5467798993fe7cd6e656cdda5bf6b1",
+      "asr_requires_correction": true,
+      "source_sha256": "0546f6176e2cfb434a5ad307083defc7b6c0ee9bc340c8fd4905445b7fe4fdb8",
+      "media_review": {
+        "version": 3,
+        "decision": "approved",
+        "method": "automated_local_models",
+        "reviewer": "local-model-review-v2",
+        "reviewed_at": "2026-11-03T13:10:23.515449+00:00",
+        "media_sha256": "a7bd85ad93e3242133935aaa3fe4dee41551854ba62dc2fd45d2a5f926cf40d9",
+        "transcript_sha256": "a744660fe9532dc36bc845940c7e9b3c4f5467798993fe7cd6e656cdda5bf6b1",
+        "source_sha256": "0546f6176e2cfb434a5ad307083defc7b6c0ee9bc340c8fd4905445b7fe4fdb8",
+        "evidence_sha256": "6f376866ce33298628a2289f2b1d86136759fe391720d0ba3d61cfd507461d5b",
+        "evidence": {
+          "quality_policy": "ranked_practical_v1",
+          "review_method": "sampled_frames_and_full_decode",
+          "source_sha256": "0546f6176e2cfb434a5ad307083defc7b6c0ee9bc340c8fd4905445b7fe4fdb8",
+          "reviewed_source_sha256": "0546f6176e2cfb434a5ad307083defc7b6c0ee9bc340c8fd4905445b7fe4fdb8",
+          "duration": 18.683333,
+          "timestamps": [
+            0.0,
+            9.267,
+            18.533
+          ],
+          "source_frame_hashes": [
+            "3a8c18db97efe5e026e2c55d03020277e36b0dc876098dea2609ecfc0d5cd6fd",
+            "8b52db5e33cd050d7d9cf4f8eaaed0d8a70de98ec74196e303a5f777f470cd72",
+            "3d543ee5b1672f874d0d9dadc8ec12743adb3d6d8d404666c3011a9bc9abb735"
+          ],
+          "headline": "hugo leakt",
+          "source_visual": {
+            "gameplay_visible": true,
+            "complete_payoff": false,
+            "standalone_understandable": false,
+            "safe_for_general_audience": true,
+            "sustained_watchability": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "caption_kind": "game_hud_or_chat_only",
+            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
+            "game_name": "Minecraft",
+            "hook_score": 1,
+            "payoff_score": 1,
+            "setup": "Player is on a floating platform over water, no clear action or outcome visible",
+            "payoff": "No visible outcome or payoff from actions taken in frames, no win/loss or reaction visible",
+            "payoff_timestamp": 0.0,
+            "browser_chrome": false,
+            "nested_rebroadcast": false,
+            "existing_captions": false,
+            "frame_problem": "none"
+          },
+          "caption_mode": "title_only",
+          "rendered_word_count": 0,
+          "asr_used": false,
+          "primary_model": null,
+          "secondary_model": null,
+          "vision_model": "qwen3-vl-4b-q4km",
+          "transcript_distance": null,
+          "audio_rms": 0.03530473998633551,
+          "clipped_fraction": 0.0,
+          "caption_scan": {
+            "method": "original_overlays_preserved_no_generated_word_subtitles"
+          },
+          "final_visual": {
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, which is a common edited gaming layout. The game HUD and stream chat are visible, but there are no browser tabs, address bars, or desktop",
+            "event_retained": false,
+            "capture_layout": "direct_game_capture_with_facecam",
+            "composition_quality": "usable",
+            "caption_quality": "readable_title_only",
+            "composition_usable": true,
+            "legible_subtitles": false,
+            "legible_title": true,
+            "browser_chrome": false,
+            "nested_rebroadcast": false
+          },
+          "final_timestamps": [
+            0.0,
+            9.267,
+            18.533
+          ],
+          "final_frame_hashes": [
+            "2991f62aa7accdceaffa80a59137a67ecf3c9727f6311df0c12cd2114aa22030",
+            "19b081058b982fe650d52333a50df44e6b85fbbf5dfcc07df3d5bdd852c8a307",
+            "f851850749bc32446fd0e3b29801d914ac84b168f5192029b401261abcf2d402"
+          ],
+          "decoded_full_video": true,
+          "media_sha256": "a7bd85ad93e3242133935aaa3fe4dee41551854ba62dc2fd45d2a5f926cf40d9",
+          "transcript_sha256": "a744660fe9532dc36bc845940c7e9b3c4f5467798993fe7cd6e656cdda5bf6b1"
+        },
+        "checks": {
+          "clip_selection": {
+            "result": "pass",
+            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
+          },
+          "frame_composition": {
+            "result": "pass",
+            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay view with a facecam panel in the top-left corner, which is a common edited gaming layout. The game HUD and stream chat are visible, but there are no browser tabs, address bars, or desktop"
+          },
+          "caption_rendering": {
+            "result": "pass",
+            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
+          },
+          "audio_track": {
+            "result": "pass",
+            "evidence": "Decoded full audio; RMS 0.0353, clipping fraction 0.00000. No human listening claim."
+          },
+          "gaming_context": {
+            "result": "pass",
+            "evidence": "Actual sampled gameplay and source metadata checked."
+          }
+        }
+      },
+      "review_assets": {
+        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-3246164904-a7bd85ad93e3-review.zip"
+      }
+    }
+  ],
   "attempts": [
     {
       "clip_id": "533244829",

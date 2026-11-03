@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703701138402577696",
       "sent_at": "2026-11-02T22:17:45Z",
       "verified_at": "2026-11-02T22:23:06Z"
+    },
+    {
+      "clip_id": "2643354631",
+      "reserved_at": "2026-11-03T08:04:40Z",
+      "streamer": "papaplatte",
+      "sha256": "461936659c3c4bd9cc62ac45002ca4bd47e0d79008dec44bc85c5b1c2b6520dd",
+      "source_sha256": "ae3467626bfb3cd37c68f5a8064bf60e5ad47a68522d38d65b9c7e54a5f3dec5",
+      "status": "reserved",
+      "asset_title": "tiktok14-2643354631-461936659c3c.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/papaplatte-2643354631-461936659c3c.mp4",
+      "clip_slug": "SteamyPolishedAppleBrokeBack-JBfBXIKI0r2eqq-4",
+      "original_created_at": "2026-11-02T20:23:08Z",
+      "source_deadline": "2026-11-05T20:23:08Z"
     }
   ],
   "last_production": {

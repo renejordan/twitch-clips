@@ -1,144 +1,6 @@
 {
   "version": 1,
-  "queue": [
-    {
-      "clip_id": "1949557990",
-      "clip_slug": "WiseSquareGnat4Head-cueRpdYvtW-J7zt0",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/WiseSquareGnat4Head-cueRpdYvtW-J7zt0",
-      "original_title": "hugo klaut villigare",
-      "hook": "hugo klaut villigare",
-      "caption": "hugo klaut villigare\n#gaming #minecraft #twitchclips #letshugotv #gamer",
-      "views_at_selection": 424,
-      "original_duration": 30.0,
-      "original_created_at": "2026-11-02T21:26:36Z",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1949557990-52b27e83abff.mp4",
-      "transcript_subtitles": false,
-      "created_at": "2026-11-03T11:10:04Z",
-      "status": "ready_tiktok14",
-      "delivery_route": "github14",
-      "rights_status": "user_declared_source_list",
-      "video_review_status": "automated_media_evidence_passed",
-      "editing_status": "rendered_9x16_title_only",
-      "subtitle_verified": false,
-      "sha256": "52b27e83abff44cd58191c75d22ad2558a25efcfb947e4867b8d5a9f887a3426",
-      "category": "Minecraft",
-      "transcript_sha256": "a30f80d063b4e3e640f71c21a775117b2ef606c174fbecf4d4b7123d5bb0b608",
-      "asr_requires_correction": true,
-      "source_sha256": "dc55e88334368a905292b4ee70b1e62a0ec18bc7ff6ca4486585969fa7ad3100",
-      "media_review": {
-        "version": 3,
-        "decision": "approved",
-        "method": "automated_local_models",
-        "reviewer": "local-model-review-v2",
-        "reviewed_at": "2026-11-03T11:10:04.752860+00:00",
-        "media_sha256": "52b27e83abff44cd58191c75d22ad2558a25efcfb947e4867b8d5a9f887a3426",
-        "transcript_sha256": "a30f80d063b4e3e640f71c21a775117b2ef606c174fbecf4d4b7123d5bb0b608",
-        "source_sha256": "dc55e88334368a905292b4ee70b1e62a0ec18bc7ff6ca4486585969fa7ad3100",
-        "evidence_sha256": "771467c53d76d724ff91a5f1d27a81ca6ee7a7481bd4ba47fbdd8575dd57a010",
-        "evidence": {
-          "quality_policy": "ranked_practical_v1",
-          "review_method": "sampled_frames_and_full_decode",
-          "source_sha256": "dc55e88334368a905292b4ee70b1e62a0ec18bc7ff6ca4486585969fa7ad3100",
-          "reviewed_source_sha256": "dc55e88334368a905292b4ee70b1e62a0ec18bc7ff6ca4486585969fa7ad3100",
-          "duration": 30.0,
-          "timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "source_frame_hashes": [
-            "5bd5fc13ea01ff916487ad6672f290e6a704c1b88ce17847af81b5cfaf8b71a6",
-            "bed00b687a7b1f31177a8efa2caae64fd1e196db90da5429c014a8282f84ec35",
-            "f4e7dd8b35653531edf4341fd92c6d37a9760454de744ca1f99f6281fc4afd31"
-          ],
-          "headline": "hugo klaut villigare",
-          "source_visual": {
-            "gameplay_visible": true,
-            "complete_payoff": false,
-            "standalone_understandable": false,
-            "safe_for_general_audience": true,
-            "sustained_watchability": false,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "caption_kind": "game_hud_or_chat_only",
-            "layout_evidence": "Face camera in corner over gameplay, chat visible, game HUD visible, no browser or desktop elements",
-            "game_name": "Minecraft",
-            "hook_score": 1,
-            "payoff_score": 1,
-            "setup": "Player is in a Minecraft world with a visible face camera, chat, and HUD, no clear action or outcome.",
-            "payoff": "No visible outcome or payoff from actions taken in the frames provided, no win or loss indicated, no clear reaction or event outcome visible in the frames provided, no clear payoff or outcome visible in the frames, no in",
-            "payoff_timestamp": 0.0,
-            "browser_chrome": false,
-            "nested_rebroadcast": false,
-            "existing_captions": false,
-            "frame_problem": "none"
-          },
-          "caption_mode": "title_only",
-          "rendered_word_count": 0,
-          "asr_used": false,
-          "primary_model": null,
-          "secondary_model": null,
-          "vision_model": "qwen3-vl-4b-q4km",
-          "transcript_distance": null,
-          "audio_rms": 0.07156764460110555,
-          "clipped_fraction": 0.0,
-          "caption_scan": {
-            "method": "original_overlays_preserved_no_generated_word_subtitles"
-          },
-          "final_visual": {
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a visible facecam panel in the top-left corner, displaying a streamer. The game HUD is visible, including the inventory bar and health bar. The stream chat is visible on the左侧,",
-            "event_retained": true,
-            "capture_layout": "direct_game_capture_with_facecam",
-            "composition_quality": "usable",
-            "caption_quality": "readable_title_only",
-            "composition_usable": true,
-            "legible_subtitles": false,
-            "legible_title": true,
-            "browser_chrome": false,
-            "nested_rebroadcast": false
-          },
-          "final_timestamps": [
-            0.0,
-            14.925,
-            29.85
-          ],
-          "final_frame_hashes": [
-            "66952a0a37491b3a6e99ebeb4827004da4c47ffc0e9cdf0a53977ed2c10a03ff",
-            "0d6cd0db14e439195af2a5ba7cc9b7dc75e97cb6915f203406c710c662103e1d",
-            "141a0041682710a3b18eecfbee74fad2f812b0df7879557ac58a214a34209322"
-          ],
-          "decoded_full_video": true,
-          "media_sha256": "52b27e83abff44cd58191c75d22ad2558a25efcfb947e4867b8d5a9f887a3426",
-          "transcript_sha256": "a30f80d063b4e3e640f71c21a775117b2ef606c174fbecf4d4b7123d5bb0b608"
-        },
-        "checks": {
-          "clip_selection": {
-            "result": "pass",
-            "evidence": "Ranked recent Twitch clip from the permitted gaming sources; no minimum narrative score required."
-          },
-          "frame_composition": {
-            "result": "pass",
-            "evidence": "The frame at 0.00 seconds shows a Minecraft gameplay scene with a visible facecam panel in the top-left corner, displaying a streamer. The game HUD is visible, including the inventory bar and health bar. The stream chat is visible on the左侧,"
-          },
-          "caption_rendering": {
-            "result": "pass",
-            "evidence": "No generated word subtitles. Original source overlays are preserved without claiming their accuracy."
-          },
-          "audio_track": {
-            "result": "pass",
-            "evidence": "Decoded full audio; RMS 0.0716, clipping fraction 0.00000. No human listening claim."
-          },
-          "gaming_context": {
-            "result": "pass",
-            "evidence": "Actual sampled gameplay and source metadata checked."
-          }
-        }
-      },
-      "review_assets": {
-        "bundle": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1949557990-52b27e83abff-review.zip"
-      }
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "1246026570",
@@ -2018,14 +1880,17 @@
       "streamer": "letshugotv",
       "sha256": "52b27e83abff44cd58191c75d22ad2558a25efcfb947e4867b8d5a9f887a3426",
       "source_sha256": "dc55e88334368a905292b4ee70b1e62a0ec18bc7ff6ca4486585969fa7ad3100",
-      "status": "pending",
+      "status": "verified_public",
       "asset_title": "tiktok14-1949557990-52b27e83abff.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-1949557990-52b27e83abff.mp4",
       "clip_slug": "WiseSquareGnat4Head-cueRpdYvtW-J7zt0",
       "original_created_at": "2026-11-02T21:26:36Z",
       "source_deadline": "2026-11-05T21:26:36Z",
       "buffer_post_id": "6ae9cdd147205d2c39988c66",
-      "last_reconcile_at": "2026-11-03T12:10:35Z"
+      "last_reconcile_at": "2026-11-03T12:10:35Z",
+      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703915187081891105",
+      "sent_at": "2026-11-03T12:07:30Z",
+      "verified_at": "2026-11-03T12:10:36Z"
     }
   ],
   "last_production": {

@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703915187081891105",
       "sent_at": "2026-11-03T12:07:30Z",
       "verified_at": "2026-11-03T12:10:36Z"
+    },
+    {
+      "clip_id": "589840693",
+      "reserved_at": "2026-11-03T13:04:45Z",
+      "streamer": "therealknossi",
+      "sha256": "f319d4ec7ee0e2132c5ebed2a68ff786fb9f71d21fc1bb9d2a93ec9155d466e4",
+      "source_sha256": "98f82c6ec680a85381a0af97cf87f23bbdd04aba662609cef2c1cd56f29db7e0",
+      "status": "reserved",
+      "asset_title": "tiktok14-589840693-f319d4ec7ee0.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/therealknossi-589840693-f319d4ec7ee0.mp4",
+      "clip_slug": "RepleteAdorableSnakeCharlieBitMe-eMhhymP2nP-8SWo_",
+      "original_created_at": "2026-11-02T22:57:11Z",
+      "source_deadline": "2026-11-05T22:57:11Z"
     }
   ],
   "last_production": {

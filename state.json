@@ -2011,6 +2011,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703868624699690272",
       "sent_at": "2026-11-03T09:06:22Z",
       "verified_at": "2026-11-03T09:06:40Z"
+    },
+    {
+      "clip_id": "523707575",
+      "reserved_at": "2026-11-03T10:04:36Z",
+      "streamer": "noway4u_sir",
+      "sha256": "be6bb1dd06e4068a5d63e2856e9a085f310dd9bef0838e02c7f88da2459b64da",
+      "source_sha256": "0ab0810ca2e5b38cb4771f39fd15ef3e802cdb02ef791cce73353b813904bbca",
+      "status": "reserved",
+      "asset_title": "tiktok14-523707575-be6bb1dd06e4.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/noway4u_sir-523707575-be6bb1dd06e4.mp4",
+      "clip_slug": "JollySavoryStarlingFeelsBadMan-TRnGO8cf9caA-0vX",
+      "original_created_at": "2026-11-02T22:15:18Z",
+      "source_deadline": "2026-11-05T22:15:18Z"
     }
   ],
   "last_production": {

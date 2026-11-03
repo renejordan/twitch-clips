@@ -1993,6 +1993,19 @@
       "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7703930607692172577",
       "sent_at": "2026-11-03T13:06:31Z",
       "verified_at": "2026-11-03T13:06:35Z"
+    },
+    {
+      "clip_id": "3246164904",
+      "reserved_at": "2026-11-03T14:28:53Z",
+      "streamer": "letshugotv",
+      "sha256": "a7bd85ad93e3242133935aaa3fe4dee41551854ba62dc2fd45d2a5f926cf40d9",
+      "source_sha256": "0546f6176e2cfb434a5ad307083defc7b6c0ee9bc340c8fd4905445b7fe4fdb8",
+      "status": "reserved",
+      "asset_title": "tiktok14-3246164904-a7bd85ad93e3.mp4",
+      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/letshugotv-3246164904-a7bd85ad93e3.mp4",
+      "clip_slug": "CreativeRepleteClintmullinsArsonNoSexy-EXtV-pVkO-BINYDJ",
+      "original_created_at": "2026-11-03T13:02:19Z",
+      "source_deadline": "2026-11-06T13:02:19Z"
     }
   ],
   "last_production": {

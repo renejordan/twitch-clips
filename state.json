@@ -3,24 +3,6 @@
   "queue": [],
   "attempts": [
     {
-      "clip_id": "1536575280",
-      "reserved_at": "2026-10-26T22:04:29Z",
-      "streamer": "nooreax",
-      "sha256": "112090514cadc247df43b352182b48974204bbb45b32b5539c786814f3c44462",
-      "source_sha256": "65dfbe7d13db75a17137a2705dde0a3dbd730b9bc8c3c414e9cb30e5279634be",
-      "status": "verified_public",
-      "asset_title": "tiktok14-1536575280-112090514cad.mp4",
-      "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-10/nooreax-1536575280-112090514cad.mp4",
-      "clip_slug": "DarlingWiseKuduAMPTropPunch-SrHBsfVK3khsMnH6",
-      "original_created_at": "2026-10-25T22:34:18Z",
-      "source_deadline": "2026-10-28T22:34:18Z",
-      "buffer_post_id": "6adfce6fc26d8b40cc795e25",
-      "last_reconcile_at": "2026-10-26T22:06:27Z",
-      "tiktok_url": "https://www.tiktok.com/@ufo3103/video/7701100934427938080",
-      "sent_at": "2026-10-26T22:06:19Z",
-      "verified_at": "2026-10-26T22:06:28Z"
-    },
-    {
       "clip_id": "1348008932",
       "reserved_at": "2026-10-27T08:06:33Z",
       "streamer": "bastighg",
@@ -2397,7 +2379,7 @@
   ],
   "last_prepare_hour": "2026-11-02T21",
   "last_prefetch_hour": "2026-11-02T21",
-  "archived_verified_count": 131,
+  "archived_verified_count": 132,
   "used_ids": [
     "1001913153",
     "1008150185",
@@ -2427,6 +2409,7 @@
     "1465026956",
     "1465792884",
     "1526778882",
+    "1536575280",
     "154404618",
     "1590452140",
     "1605390686",

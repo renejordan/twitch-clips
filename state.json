@@ -2103,15 +2103,6 @@
   },
   "rejected": [
     {
-      "clip_id": "2317788116",
-      "clip_slug": "SpotlessGiftedOctopusOneHand-fd-HhtO3SAj0AEYK",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/SpotlessGiftedOctopusOneHand-fd-HhtO3SAj0AEYK",
-      "status": "quality_rejected",
-      "created_at": "2026-10-27T12:16:28Z",
-      "reason": "qa_visual_gameplay_visible"
-    },
-    {
       "clip_id": "1026262440",
       "clip_slug": "SparklingSlipperyMeerkatKreygasm-E_hxAd76P9_5oGo8",
       "streamer": "metashi12",
@@ -2573,6 +2564,7 @@
     "2255382084",
     "2284566068",
     "2287042913",
+    "2317788116",
     "2347242600",
     "2394094226",
     "2457379519",
@@ -2693,5 +2685,5 @@
     "945475581",
     "947863308"
   ],
-  "archived_rejected_count": 53
+  "archived_rejected_count": 54
 }

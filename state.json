@@ -2032,28 +2032,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-03T12:14:15Z",
+    "at": "2026-11-03T13:10:23Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 99,
-      "listing_age_prefilter": 749,
-      "discovered": 979,
-      "metadata_requested": 941,
-      "gaming_category_not_verified": 254,
-      "title_too_short": 136,
-      "qualified_metadata": 551,
-      "duplicate_source_event": 9,
-      "download_attempted": 2,
-      "render_attempted": 2,
-      "qa_duration_invalid": 1,
+      "listing_duration_prefilter": 97,
+      "listing_age_prefilter": 702,
+      "discovered": 993,
+      "metadata_requested": 953,
+      "gaming_category_not_verified": 268,
+      "metadata_failed": 2,
+      "qualified_metadata": 562,
+      "title_too_short": 121,
+      "duplicate_source_event": 10,
+      "download_attempted": 1,
+      "render_attempted": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "589840693",
-      "clip_slug": "RepleteAdorableSnakeCharlieBitMe-eMhhymP2nP-8SWo_",
-      "streamer": "therealknossi"
+      "clip_id": "3246164904",
+      "clip_slug": "CreativeRepleteClintmullinsArsonNoSexy-EXtV-pVkO-BINYDJ",
+      "streamer": "letshugotv"
     }
   },
   "prepare_scans": {
@@ -2507,8 +2507,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-03T12",
-  "last_prefetch_hour": "2026-11-03T12",
+  "last_prepare_hour": "2026-11-03T13",
+  "last_prefetch_hour": "2026-11-03T13",
   "archived_verified_count": 137,
   "used_ids": [
     "1001913153",

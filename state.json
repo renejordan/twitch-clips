@@ -2018,12 +2018,13 @@
       "streamer": "gtasty",
       "sha256": "9534c76731772e32236c61cebed1ca50bb2cd4eed5abd40cd073f29588754e4a",
       "source_sha256": "3141d15e6104b7cc7cae3b09b54030f0d2ac05345d6f269e3d7135028bce5e0d",
-      "status": "reserved",
+      "status": "pending",
       "asset_title": "tiktok14-3557848647-9534c7673177.mp4",
       "video_url": "https://github.com/renejordan/twitch-clips/releases/download/tiktok14-2026-11/gtasty-3557848647-9534c7673177.mp4",
       "clip_slug": "VastGoodWalletPipeHype-LZp40vTwgN5fwXtL",
       "original_created_at": "2026-11-02T15:12:59Z",
-      "source_deadline": "2026-11-05T15:12:59Z"
+      "source_deadline": "2026-11-05T15:12:59Z",
+      "buffer_post_id": "6ae9bfc8f81926b9328f929d"
     }
   ],
   "last_production": {

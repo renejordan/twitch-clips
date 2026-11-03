@@ -2014,27 +2014,28 @@
     }
   ],
   "last_production": {
-    "at": "2026-11-03T11:10:04Z",
+    "at": "2026-11-03T12:14:15Z",
     "result": "ready",
     "counts": {
       "listing_requested": 100,
       "listing_ok": 100,
-      "listing_duration_prefilter": 94,
-      "listing_age_prefilter": 750,
-      "discovered": 958,
-      "metadata_requested": 921,
-      "gaming_category_not_verified": 260,
-      "title_too_short": 131,
-      "qualified_metadata": 530,
-      "duplicate_source_event": 5,
-      "download_attempted": 1,
-      "render_attempted": 1,
+      "listing_duration_prefilter": 99,
+      "listing_age_prefilter": 749,
+      "discovered": 979,
+      "metadata_requested": 941,
+      "gaming_category_not_verified": 254,
+      "title_too_short": 136,
+      "qualified_metadata": 551,
+      "duplicate_source_event": 9,
+      "download_attempted": 2,
+      "render_attempted": 2,
+      "qa_duration_invalid": 1,
       "render_ok": 1
     },
     "candidate": {
-      "clip_id": "1949557990",
-      "clip_slug": "WiseSquareGnat4Head-cueRpdYvtW-J7zt0",
-      "streamer": "letshugotv"
+      "clip_id": "589840693",
+      "clip_slug": "RepleteAdorableSnakeCharlieBitMe-eMhhymP2nP-8SWo_",
+      "streamer": "therealknossi"
     }
   },
   "prepare_scans": {
@@ -2497,8 +2498,8 @@
       "reason": "unsupported_title_glyph"
     }
   ],
-  "last_prepare_hour": "2026-11-03T11",
-  "last_prefetch_hour": "2026-11-03T11",
+  "last_prepare_hour": "2026-11-03T12",
+  "last_prefetch_hour": "2026-11-03T12",
   "archived_verified_count": 137,
   "used_ids": [
     "1001913153",

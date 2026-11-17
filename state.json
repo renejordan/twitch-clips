@@ -2042,7 +2042,7 @@
   },
   "source_ranking": {
     "source_url": "https://twitchtracker.com/channels/ranking/german",
-    "checked_at": "2026-11-16T06:18:38.966393+00:00",
+    "checked_at": "2026-11-17T00:23:58.982618+00:00",
     "sources": [
       "trymacs",
       "eliasn97",
@@ -2095,7 +2095,7 @@
       "nicistemmler",
       "sterzik"
     ],
-    "fetched_at": "2026-11-16T06:18:38.966393+00:00",
+    "fetched_at": "2026-11-17T00:23:58.982618+00:00",
     "result": "fresh"
   },
   "rejected": [
